@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nihongo Loop | 学习首页</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="is-loading">
+    <div class="loader" id="pageLoader" role="status" aria-live="polite" aria-label="页面加载中">
+      <div class="loader-card">
+        <svg class="study-dog" viewBox="0 0 360 260" aria-hidden="true">
+          <defs>
+            <linearGradient id="dogFur" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#FFE2B7" />
+              <stop offset="1" stop-color="#F5B86C" />
+            </linearGradient>
+            <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#7f1d1d" flood-opacity="0.16" />
+            </filter>
+          </defs>
+          <ellipse cx="180" cy="230" rx="118" ry="16" fill="#FED7AA" opacity="0.55" />
+          <g filter="url(#softShadow)">
+            <path d="M98 108c-24-38-66-32-73 0-5 24 13 47 47 48 10-20 18-35 26-48Z" fill="#8B5E34" />
+            <path d="M262 108c24-38 66-32 73 0 5 24-13 47-47 48-10-20-18-35-26-48Z" fill="#8B5E34" />
+            <path d="M82 122c0-58 43-96 98-96s98 38 98 96c0 64-43 101-98 101s-98-37-98-101Z" fill="url(#dogFur)" />
+            <path d="M108 114c17-20 40-30 72-30s55 10 72 30v23H108v-23Z" fill="#EF4444" />
+            <path d="M122 126h116" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" />
+            <text x="180" y="121" text-anchor="middle" font-size="31" font-weight="900" fill="#FFFFFF" font-family="Noto Sans SC, sans-serif">必勝</text>
+            <path d="M252 105l45-14-17 45" fill="#EF4444" />
+            <path d="M258 116l38 16-32 20" fill="#EF4444" />
+            <circle cx="145" cy="146" r="10" fill="#111827" />
+            <circle cx="215" cy="146" r="10" fill="#111827" />
+            <path d="M166 164c9 7 19 7 28 0" fill="none" stroke="#7C2D12" stroke-width="5" stroke-linecap="round" />
+          </g>
+          <g class="book">
+            <path d="M74 185c36-16 69-12 105 10v50c-36-20-70-25-105-10v-50Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3" />
+            <path d="M286 185c-36-16-69-12-105 10v50c36-20 70-25 105-10v-50Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3" />
+            <path d="M180 195v50" stroke="#CBD5E1" stroke-width="3" />
+            <path d="M95 204h52M95 219h62M207 204h52M207 219h44" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" />
+            <text x="126" y="238" text-anchor="middle" font-size="17" font-weight="800" fill="#EF4444" font-family="Noto Sans SC, sans-serif">日本語</text>
+            <text x="232" y="238" text-anchor="middle" font-size="17" font-weight="800" fill="#2563EB" font-family="Noto Sans SC, sans-serif">N2</text>
+          </g>
+        </svg>
+        <h1>必勝、加载中</h1>
+        <p>正在整理你的学习首页。</p>
+        <div class="loader-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Nihongo Loop 首页">
+        <span>Nihongo Loop</span>
+        <small>学习首页</small>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#dashboard">首页</a>
+        <a href="#modules">功能</a>
+        <a href="#progress">进度</a>
+      </nav>
+      <div class="header-actions">
+        <span class="service-status" id="serviceStatus">连接中</span>
+        <a class="btn btn-light" href="login.html?mode=login">登录</a>
+        <a class="btn btn-dark" href="login.html?mode=register">注册</a>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#dashboard">首页</a>
+        <a href="#modules">功能</a>
+        <a href="#progress">进度</a>
+        <span class="service-status" id="mobileServiceStatus">连接中</span>
+        <a class="btn btn-light" href="login.html?mode=login">登录</a>
+        <a class="btn btn-dark" href="login.html?mode=register">注册</a>
+      </div>
+    </header>
+
+    <main class="dashboard-page" id="dashboard">
+      <section class="dashboard-hero">
+        <div>
+          <p class="audience">面向 N1-N5 的 JLPT 学习中心</p>
+          <h1>今天从哪个模块开始？</h1>
+          <p class="lead">登录后这里会保存你的等级、打卡、单词、语法和各项训练进度。所有学习项目都已经拆成独立页面。</p>
+          <div class="hero-actions">
+            <a class="btn btn-red" href="vocabulary.html">开始背单词</a>
+            <a class="btn btn-light" href="login.html?mode=login">切换账号</a>
+          </div>
+        </div>
+        <aside class="today-card dashboard-checkin" id="checkin" aria-label="今日学习卡片">
+          <div class="card-head">
+            <div>
+              <h2>今日学习</h2>
+              <p><span id="currentLevelText">N2</span> · <span id="accountLabel">演示用户</span></p>
+            </div>
+            <span class="mini-status">进行中</span>
+          </div>
+          <div class="streak-panel">
+            <div>
+              <strong>连续打卡 <span id="streakDays">12</span> 天</strong>
+              <span id="checkinHint">今天还没有完成打卡</span>
+            </div>
+            <button class="btn btn-red" type="button" id="checkinButton">打卡</button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="modules dashboard-modules" id="modules" aria-labelledby="modulesHeading">
+        <div class="section-head">
+          <h2 id="modulesHeading">学习功能</h2>
+          <p>每个模块都是独立页面，按 N5-N1 分级学习。</p>
+        </div>
+        <div class="module-grid dashboard-grid">
+          <a class="module-card" href="vocabulary.html" data-module="单词">
+            <span class="icon red">単</span>
+            <strong>单词</strong>
+            <p>单词表、选择题学习、发音和掌握状态。</p>
+            <div class="card-progress"><span style="width: 68%"></span></div>
+          </a>
+          <a class="module-card" href="grammar.html" data-module="语法">
+            <span class="icon blue">文</span>
+            <strong>语法</strong>
+            <p>句型分类、接续、例句、易错点和小测。</p>
+            <div class="card-progress"><span style="width: 54%"></span></div>
+          </a>
+          <a class="module-card" href="reading.html" data-module="阅读">
+            <span class="icon green">読</span>
+            <strong>阅读</strong>
+            <p>短文、通知、观点文、长文定位训练。</p>
+            <div class="card-progress"><span style="width: 46%"></span></div>
+          </a>
+          <a class="module-card" href="listening.html" data-module="听力">
+            <span class="icon amber">聴</span>
+            <strong>听力</strong>
+            <p>时间地点、请求、计划变更、观点听力。</p>
+            <div class="card-progress"><span style="width: 71%"></span></div>
+          </a>
+          <a class="module-card" href="exam.html" data-module="等级考试模拟">
+            <span class="icon purple">試</span>
+            <strong>等级考试模拟</strong>
+            <p>N5-N1 小测、分项、计时和冲刺模拟。</p>
+            <div class="card-progress"><span style="width: 40%"></span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="workspace workspace-single" id="progress">
+        <section class="level-area" id="levels" aria-labelledby="levelHeading">
+          <div class="section-head">
+            <h2 id="levelHeading">等级路径与进度</h2>
+            <p>选择当前备考等级后，下方会展示每个学习项目的进度条。</p>
+          </div>
+          <div class="level-tabs" role="tablist" aria-label="JLPT 等级">
+            <button type="button" data-level="N5">N5</button>
+            <button type="button" data-level="N4">N4</button>
+            <button type="button" data-level="N3">N3</button>
+            <button class="active" type="button" data-level="N2">N2</button>
+            <button type="button" data-level="N1">N1</button>
+          </div>
+          <article class="roadmap-card">
+            <div class="roadmap-intro">
+              <h3><span id="roadmapLevel">N2</span> 学习进度</h3>
+              <p id="roadmapCopy">8 周完成高频词、核心语法、真题阅读与听力场景训练。</p>
+            </div>
+            <div class="progress-list" id="progressList"></div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Nihongo Loop</strong>
+        <span>面向 N1-N5 的日语考级学习工具</span>
+      </div>
+      <a href="#modules">回到功能入口</a>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

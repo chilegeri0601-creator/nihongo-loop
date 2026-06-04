@@ -1,0 +1,56 @@
+{
+  "N5": [
+    { "id": "n5-asa", "word": "朝", "kana": "あさ", "meaning": "早晨", "type": "名词", "example": "朝、コーヒーを飲みます。", "exampleMeaning": "早上喝咖啡。" },
+    { "id": "n5-yoru", "word": "夜", "kana": "よる", "meaning": "夜晚", "type": "名词", "example": "夜に日本語を勉強します。", "exampleMeaning": "晚上学习日语。" },
+    { "id": "n5-gakkou", "word": "学校", "kana": "がっこう", "meaning": "学校", "type": "名词", "example": "学校へ行きます。", "exampleMeaning": "去学校。" },
+    { "id": "n5-sensei", "word": "先生", "kana": "せんせい", "meaning": "老师", "type": "名词", "example": "先生に質問します。", "exampleMeaning": "向老师提问。" },
+    { "id": "n5-tomodachi", "word": "友達", "kana": "ともだち", "meaning": "朋友", "type": "名词", "example": "友達と映画を見ます。", "exampleMeaning": "和朋友看电影。" },
+    { "id": "n5-hon", "word": "本", "kana": "ほん", "meaning": "书", "type": "名词", "example": "日本語の本を読みます。", "exampleMeaning": "读日语书。" },
+    { "id": "n5-mizu", "word": "水", "kana": "みず", "meaning": "水", "type": "名词", "example": "水を飲みます。", "exampleMeaning": "喝水。" },
+    { "id": "n5-tabemono", "word": "食べ物", "kana": "たべもの", "meaning": "食物", "type": "名词", "example": "好きな食べ物は何ですか。", "exampleMeaning": "喜欢的食物是什么？" },
+    { "id": "n5-kuruma", "word": "車", "kana": "くるま", "meaning": "汽车", "type": "名词", "example": "車で駅へ行きます。", "exampleMeaning": "开车去车站。" },
+    { "id": "n5-eki", "word": "駅", "kana": "えき", "meaning": "车站", "type": "名词", "example": "駅はどこですか。", "exampleMeaning": "车站在哪里？" },
+    { "id": "n5-iku", "word": "行く", "kana": "いく", "meaning": "去", "type": "动词", "example": "明日、図書館へ行きます。", "exampleMeaning": "明天去图书馆。" },
+    { "id": "n5-kaeru", "word": "帰る", "kana": "かえる", "meaning": "回去", "type": "动词", "example": "六時に家へ帰ります。", "exampleMeaning": "六点回家。" },
+    { "id": "n5-taberu", "word": "食べる", "kana": "たべる", "meaning": "吃", "type": "动词", "example": "昼ご飯を食べます。", "exampleMeaning": "吃午饭。" },
+    { "id": "n5-nomu", "word": "飲む", "kana": "のむ", "meaning": "喝", "type": "动词", "example": "お茶を飲みます。", "exampleMeaning": "喝茶。" },
+    { "id": "n5-miru", "word": "見る", "kana": "みる", "meaning": "看", "type": "动词", "example": "テレビを見ます。", "exampleMeaning": "看电视。" },
+    { "id": "n5-kiku", "word": "聞く", "kana": "きく", "meaning": "听、问", "type": "动词", "example": "音楽を聞きます。", "exampleMeaning": "听音乐。" },
+    { "id": "n5-yomu", "word": "読む", "kana": "よむ", "meaning": "读", "type": "动词", "example": "新聞を読みます。", "exampleMeaning": "读报纸。" },
+    { "id": "n5-kaku", "word": "書く", "kana": "かく", "meaning": "写", "type": "动词", "example": "ノートに書きます。", "exampleMeaning": "写在笔记本上。" },
+    { "id": "n5-hanasu", "word": "話す", "kana": "はなす", "meaning": "说话", "type": "动词", "example": "日本語で話します。", "exampleMeaning": "用日语说话。" },
+    { "id": "n5-au", "word": "会う", "kana": "あう", "meaning": "见面", "type": "动词", "example": "友達に会います。", "exampleMeaning": "见朋友。" },
+    { "id": "n5-takai", "word": "高い", "kana": "たかい", "meaning": "高的、贵的", "type": "形容词", "example": "この本は少し高いです。", "exampleMeaning": "这本书有点贵。" },
+    { "id": "n5-yasui", "word": "安い", "kana": "やすい", "meaning": "便宜的", "type": "形容词", "example": "このペンは安いです。", "exampleMeaning": "这支笔很便宜。" },
+    { "id": "n5-atarashii", "word": "新しい", "kana": "あたらしい", "meaning": "新的", "type": "形容词", "example": "新しいかばんを買いました。", "exampleMeaning": "买了新包。" },
+    { "id": "n5-furui", "word": "古い", "kana": "ふるい", "meaning": "旧的", "type": "形容词", "example": "これは古い写真です。", "exampleMeaning": "这是旧照片。" },
+    { "id": "n5-ookii", "word": "大きい", "kana": "おおきい", "meaning": "大的", "type": "形容词", "example": "大きい犬がいます。", "exampleMeaning": "有一只大狗。" },
+    { "id": "n5-chiisai", "word": "小さい", "kana": "ちいさい", "meaning": "小的", "type": "形容词", "example": "小さい部屋です。", "exampleMeaning": "是小房间。" },
+    { "id": "n5-atsui", "word": "暑い", "kana": "あつい", "meaning": "热的（天气）", "type": "形容词", "example": "今日は暑いです。", "exampleMeaning": "今天很热。" },
+    { "id": "n5-samui", "word": "寒い", "kana": "さむい", "meaning": "冷的（天气）", "type": "形容词", "example": "冬は寒いです。", "exampleMeaning": "冬天很冷。" },
+    { "id": "n5-genki", "word": "元気", "kana": "げんき", "meaning": "精神、健康", "type": "形容动词", "example": "お元気ですか。", "exampleMeaning": "你好吗？" },
+    { "id": "n5-kirei", "word": "きれい", "kana": "きれい", "meaning": "漂亮、干净", "type": "形容动词", "example": "この町はきれいです。", "exampleMeaning": "这座城市很漂亮。" }
+  ],
+  "N4": [
+    { "id": "n4-yoyaku", "word": "予約", "kana": "よやく", "meaning": "预约", "type": "名词", "example": "ホテルを予約しました。", "exampleMeaning": "预约了酒店。" },
+    { "id": "n4-tsutaeru", "word": "伝える", "kana": "つたえる", "meaning": "传达、告诉", "type": "动词", "example": "先生に予定を伝えます。", "exampleMeaning": "把计划告诉老师。" },
+    { "id": "n4-benri", "word": "便利", "kana": "べんり", "meaning": "方便", "type": "形容动词", "example": "このアプリは便利です。", "exampleMeaning": "这个应用很方便。" }
+  ],
+  "N3": [
+    { "id": "n3-kakunin", "word": "確認", "kana": "かくにん", "meaning": "确认", "type": "名词/サ变", "example": "メールの内容を確認します。", "exampleMeaning": "确认邮件内容。" },
+    { "id": "n3-sasaeru", "word": "支える", "kana": "ささえる", "meaning": "支撑、支持", "type": "动词", "example": "家族が私を支えてくれます。", "exampleMeaning": "家人支持着我。" },
+    { "id": "n3-kawari", "word": "代わり", "kana": "かわり", "meaning": "代替、替换", "type": "名词", "example": "友達の代わりに行きます。", "exampleMeaning": "代替朋友去。" }
+  ],
+  "N2": [
+    { "id": "n2-atsukau", "word": "扱う", "kana": "あつかう", "meaning": "处理、操作、对待", "type": "动词", "example": "このアプリは学習計画を自動で扱います。", "exampleMeaning": "这个应用会自动处理学习计划。" },
+    { "id": "n2-oginau", "word": "補う", "kana": "おぎなう", "meaning": "补充、弥补", "type": "动词", "example": "弱点を練習で補います。", "exampleMeaning": "通过练习弥补弱点。" },
+    { "id": "n2-kaizen", "word": "改善", "kana": "かいぜん", "meaning": "改善", "type": "名词/サ变", "example": "勉強方法を改善しました。", "exampleMeaning": "改善了学习方法。" },
+    { "id": "n2-seigen", "word": "制限", "kana": "せいげん", "meaning": "限制", "type": "名词/サ变", "example": "時間を制限して問題を解きます。", "exampleMeaning": "限制时间做题。" },
+    { "id": "n2-hindo", "word": "頻度", "kana": "ひんど", "meaning": "频率", "type": "名词", "example": "復習の頻度を上げます。", "exampleMeaning": "提高复习频率。" }
+  ],
+  "N1": [
+    { "id": "n1-gainen", "word": "概念", "kana": "がいねん", "meaning": "概念", "type": "名词", "example": "抽象的な概念を理解します。", "exampleMeaning": "理解抽象概念。" },
+    { "id": "n1-shisa", "word": "示唆", "kana": "しさ", "meaning": "暗示、启发", "type": "名词/サ变", "example": "この結果は重要な点を示唆しています。", "exampleMeaning": "这个结果暗示了重要之处。" },
+    { "id": "n1-chusho", "word": "抽象", "kana": "ちゅうしょう", "meaning": "抽象", "type": "名词/サ变", "example": "抽象的な文章を読む練習をします。", "exampleMeaning": "练习阅读抽象文章。" }
+  ]
+}

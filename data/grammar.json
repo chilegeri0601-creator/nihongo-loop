@@ -1,0 +1,372 @@
+{
+  "N5": [
+    {
+      "id": "n5-wa",
+      "level": "N5",
+      "category": "助词",
+      "title": "は：提示主题",
+      "pattern": "A は B です",
+      "meaning": "A 是 B / 关于 A",
+      "whenToUse": "想介绍一个人、物或话题时使用。",
+      "structure": "名词 + は + 说明内容",
+      "example": "わたしは学生です。",
+      "exampleMeaning": "我是学生。",
+      "beginnerTip": "は 在这里读作 wa，不读 ha。先把它理解成“接下来我要说 A 的事情”。",
+      "commonMistake": "不要把 は 和 が 完全等同。は 更像提出话题，が 更像指出主语。",
+      "miniQuestion": {
+        "question": "「私は学生です」里的 は 表示什么？",
+        "options": ["主题", "过去", "否定"],
+        "correct": "主题",
+        "explanation": "这里的 は 用来提示“我”这个话题。"
+      }
+    },
+    {
+      "id": "n5-ga",
+      "level": "N5",
+      "category": "助词",
+      "title": "が：指出主语",
+      "pattern": "A が あります / います",
+      "meaning": "有 A / A 存在",
+      "whenToUse": "想明确指出“谁/什么”存在、发生或具备某个性质时使用。",
+      "structure": "名词 + が + 动词/形容词",
+      "example": "つくえの上に本があります。",
+      "exampleMeaning": "桌子上有书。",
+      "beginnerTip": "先记住固定搭配：物 + が あります，人或动物 + が います。",
+      "commonMistake": "存在句里经常用 が，不要写成 本はあります。",
+      "miniQuestion": {
+        "question": "「猫がいます」表示什么？",
+        "options": ["有猫", "猫很贵", "猫过去了"],
+        "correct": "有猫",
+        "explanation": "います 用于人或动物的存在。"
+      }
+    },
+    {
+      "id": "n5-o",
+      "level": "N5",
+      "category": "助词",
+      "title": "を：动作对象",
+      "pattern": "名词 を 动词",
+      "meaning": "做某个动作的对象",
+      "whenToUse": "吃、喝、看、读、写等动作作用在某个对象上时使用。",
+      "structure": "对象名词 + を + 他动词",
+      "example": "日本語の本を読みます。",
+      "exampleMeaning": "读日语书。",
+      "beginnerTip": "を 在现代日语中通常读作 o。可以先理解成“把动作放到这个东西上”。",
+      "commonMistake": "不是所有动词前都用 を，例如 行く 前常用 へ 或 に。",
+      "miniQuestion": {
+        "question": "「水を飲みます」里的 を 标出什么？",
+        "options": ["动作对象", "时间", "地点"],
+        "correct": "动作对象",
+        "explanation": "喝的对象是水，所以用 を。"
+      }
+    },
+    {
+      "id": "n5-masu",
+      "level": "N5",
+      "category": "动词",
+      "title": "ます形：礼貌表达",
+      "pattern": "動詞ます形",
+      "meaning": "礼貌地描述现在或将来的动作",
+      "whenToUse": "和老师、陌生人、普通场合说话时使用。",
+      "structure": "行きます / 食べます / 見ます",
+      "example": "明日、学校へ行きます。",
+      "exampleMeaning": "明天去学校。",
+      "beginnerTip": "ます形可以先当作“礼貌版动词”。它不一定只表示现在，也可以表示将来。",
+      "commonMistake": "不要把 明日 行きます 翻译成“明天正在去”，这里是将来动作。",
+      "miniQuestion": {
+        "question": "「行きます」通常是什么语气？",
+        "options": ["礼貌", "命令", "否定"],
+        "correct": "礼貌",
+        "explanation": "ます 是礼貌表达的核心标志。"
+      }
+    },
+    {
+      "id": "n5-te",
+      "level": "N5",
+      "category": "动词",
+      "title": "て形：连接动作",
+      "pattern": "動詞て形 + ください / います",
+      "meaning": "连接动作、请求、表示正在进行",
+      "whenToUse": "想说“请做某事”或“正在做某事”时常用。",
+      "structure": "読んでください / 食べています",
+      "example": "この文を読んでください。",
+      "exampleMeaning": "请读这个句子。",
+      "beginnerTip": "て形很重要，但变化多。初学时先按动词分组慢慢记，不要一口气硬背完。",
+      "commonMistake": "てください 是请求，不是普通现在时。",
+      "miniQuestion": {
+        "question": "「読んでください」是什么意思？",
+        "options": ["请读", "已经读完", "不能读"],
+        "correct": "请读",
+        "explanation": "て形 + ください 表示请求。"
+      }
+    },
+    {
+      "id": "n5-adj",
+      "level": "N5",
+      "category": "形容词",
+      "title": "い形容词：直接修饰",
+      "pattern": "い形容詞 + 名詞",
+      "meaning": "描述性质、状态",
+      "whenToUse": "描述东西贵、便宜、新、旧、大、小等。",
+      "structure": "高い本 / 新しいかばん",
+      "example": "これは新しい本です。",
+      "exampleMeaning": "这是一本新书。",
+      "beginnerTip": "い形容词接名词时可以直接放在名词前，不需要 な。",
+      "commonMistake": "不要说 新しいな本。な 通常用于な形容词。",
+      "miniQuestion": {
+        "question": "「新しい本」里形容词后面需要 な 吗？",
+        "options": ["不需要", "一定需要", "只能过去式需要"],
+        "correct": "不需要",
+        "explanation": "新しい 是い形容词，直接修饰名词。"
+      }
+    }
+  ],
+  "N4": [
+    {
+      "id": "n4-nagara",
+      "level": "N4",
+      "category": "动词",
+      "title": "ながら：一边…一边…",
+      "pattern": "動詞ます形去ます + ながら",
+      "meaning": "同时做两个动作",
+      "whenToUse": "表示一个主要动作进行时，同时做另一个动作。",
+      "structure": "聞きながら / 食べながら",
+      "example": "音楽を聞きながら勉強します。",
+      "exampleMeaning": "一边听音乐一边学习。",
+      "beginnerTip": "句子后面的动作通常是主要动作。",
+      "commonMistake": "不要把两个都很复杂的动作硬塞进 ながら，先写简单句更清楚。",
+      "miniQuestion": {
+        "question": "「音楽を聞きながら勉強します」的主要动作是什么？",
+        "options": ["学习", "听音乐", "睡觉"],
+        "correct": "学习",
+        "explanation": "后面的 勉強します 是主要动作。"
+      }
+    },
+    {
+      "id": "n4-sou",
+      "level": "N4",
+      "category": "形容词",
+      "title": "そうだ：看起来…",
+      "pattern": "い形去い + そう / な形 + そう",
+      "meaning": "根据眼前样子判断",
+      "whenToUse": "看到外观、表情、天气等，判断“看起来像”。",
+      "structure": "おいしそう / 便利そう",
+      "example": "このケーキはおいしそうです。",
+      "exampleMeaning": "这个蛋糕看起来很好吃。",
+      "beginnerTip": "そうだ 常根据眼前看到的样子判断。",
+      "commonMistake": "いい 的形式是 よさそう，不是 いそう。",
+      "miniQuestion": {
+        "question": "「おいしそう」表示什么？",
+        "options": ["看起来好吃", "已经吃了", "必须吃"],
+        "correct": "看起来好吃",
+        "explanation": "そうだ 表示根据外观判断。"
+      }
+    },
+    {
+      "id": "n4-hazuda",
+      "level": "N4",
+      "category": "推量",
+      "title": "はずだ：按理应该",
+      "pattern": "普通形 + はずだ",
+      "meaning": "根据理由判断应该如此",
+      "whenToUse": "你有依据，认为某事应该会发生或应该是这样。",
+      "structure": "来るはずだ / 安いはずだ",
+      "example": "彼はもう駅に着いたはずです。",
+      "exampleMeaning": "他应该已经到车站了。",
+      "beginnerTip": "はずだ 不是愿望，而是“按道理应该”。",
+      "commonMistake": "不要把 はずだ 当成 つもりだ。つもりだ 是打算。",
+      "miniQuestion": {
+        "question": "はずだ 更接近哪种语感？",
+        "options": ["按理应该", "想要", "禁止"],
+        "correct": "按理应该",
+        "explanation": "はずだ 是有根据的判断。"
+      }
+    }
+  ],
+  "N3": [
+    {
+      "id": "n3-youni",
+      "level": "N3",
+      "category": "目的",
+      "title": "ように：为了能够",
+      "pattern": "可能形 / ない形 + ように",
+      "meaning": "为了达到某种状态",
+      "whenToUse": "目标不是直接动作，而是“能够做到/不发生”。",
+      "structure": "読めるように / 忘れないように",
+      "example": "日本語が話せるように毎日練習します。",
+      "exampleMeaning": "为了能说日语，每天练习。",
+      "beginnerTip": "如果目标是“能做到”，常用 ように；如果目标是直接动作，常用 ために。",
+      "commonMistake": "話すために 和 話せるように 重点不同：前者是为了说，后者是为了能说。",
+      "miniQuestion": {
+        "question": "「話せるように」强调什么？",
+        "options": ["能够说", "已经说完", "不能说"],
+        "correct": "能够说",
+        "explanation": "可能形 + ように 表示为了能够做到。"
+      }
+    },
+    {
+      "id": "n3-baai",
+      "level": "N3",
+      "category": "条件",
+      "title": "場合は：如果…情况",
+      "pattern": "普通形 + 場合は",
+      "meaning": "在某种情况发生时",
+      "whenToUse": "说明规则、提醒、应对方案时使用。",
+      "structure": "遅れる場合は / 雨の場合は",
+      "example": "遅れる場合は、連絡してください。",
+      "exampleMeaning": "如果会迟到，请联系。",
+      "beginnerTip": "場合は 比普通的 たら 更像正式说明或规则。",
+      "commonMistake": "不要所有“如果”都只用 たら，通知和规则里 場合は 很常见。",
+      "miniQuestion": {
+        "question": "場合は 常用于什么语境？",
+        "options": ["规则说明", "撒娇", "命令别人必须做"],
+        "correct": "规则说明",
+        "explanation": "場合は 常用于正式一些的情况说明。"
+      }
+    },
+    {
+      "id": "n3-tokoro",
+      "level": "N3",
+      "category": "时间",
+      "title": "ところだ：正要/正在/刚刚",
+      "pattern": "辞書形/ている/た形 + ところだ",
+      "meaning": "动作所处阶段",
+      "whenToUse": "想强调动作发生在某个具体阶段。",
+      "structure": "行くところ / 食べているところ / 終わったところ",
+      "example": "今、宿題をしているところです。",
+      "exampleMeaning": "现在正在做作业。",
+      "beginnerTip": "看前面的形态：辞书形是正要，ている是正在，た形是刚刚。",
+      "commonMistake": "ところだ 强调时间点，不是地点的“地方”。",
+      "miniQuestion": {
+        "question": "「終わったところです」是什么意思？",
+        "options": ["刚刚结束", "正要结束", "不能结束"],
+        "correct": "刚刚结束",
+        "explanation": "た形 + ところだ 表示刚刚做完。"
+      }
+    }
+  ],
+  "N2": [
+    {
+      "id": "n2-youd",
+      "level": "N2",
+      "category": "推量",
+      "title": "ようだ：似乎、像",
+      "pattern": "普通形 + ようだ",
+      "meaning": "根据证据推测，或表示比喻",
+      "whenToUse": "看到现象后推断，或表达“像…一样”。",
+      "structure": "雨が降ったようだ / 夢のようだ",
+      "example": "外がぬれている。雨が降ったようだ。",
+      "exampleMeaning": "外面湿了，似乎下过雨。",
+      "beginnerTip": "ようだ 常有“根据证据推测”的感觉，比 そうだ 更依赖线索。",
+      "commonMistake": "雨が降りそうだ 是看起来快下雨；雨が降ったようだ 是推测已经下过雨。",
+      "miniQuestion": {
+        "question": "「雨が降ったようだ」表示什么？",
+        "options": ["似乎下过雨", "马上要下雨", "必须下雨"],
+        "correct": "似乎下过雨",
+        "explanation": "た形 + ようだ 常表示根据证据推测已经发生。"
+      }
+    },
+    {
+      "id": "n2-wari",
+      "level": "N2",
+      "category": "对比",
+      "title": "わりに：按…来说却",
+      "pattern": "普通形 + わりに",
+      "meaning": "与预想相比不太一致",
+      "whenToUse": "前后有落差，比如年龄大但很有活力。",
+      "structure": "高いわりに / 勉強したわりに",
+      "example": "この店は高いわりに、味は普通です。",
+      "exampleMeaning": "这家店按价格来说，味道却很普通。",
+      "beginnerTip": "抓住“按前面的条件来看，后面结果有点意外”。",
+      "commonMistake": "わりに 后面通常不是完全符合预期的结果。",
+      "miniQuestion": {
+        "question": "わりに 的核心感觉是什么？",
+        "options": ["有落差", "完全相同", "禁止"],
+        "correct": "有落差",
+        "explanation": "わりに 表示按某条件来看，结果和预想有差别。"
+      }
+    },
+    {
+      "id": "n2-karaieba",
+      "level": "N2",
+      "category": "观点",
+      "title": "から言えば：从…来说",
+      "pattern": "名詞 + から言えば",
+      "meaning": "从某个角度评价",
+      "whenToUse": "想明确评价角度，如价格、质量、能力、立场。",
+      "structure": "値段から言えば / 立場から言えば",
+      "example": "値段から言えば、このパソコンは安いです。",
+      "exampleMeaning": "从价格来说，这台电脑很便宜。",
+      "beginnerTip": "这是写作和阅读里很常见的“限定评价角度”。",
+      "commonMistake": "后面要接评价，不只是继续叙述事实。",
+      "miniQuestion": {
+        "question": "から言えば 用来表示什么？",
+        "options": ["评价角度", "动作对象", "过去时间"],
+        "correct": "评价角度",
+        "explanation": "它表示从某个立场或角度来看。"
+      }
+    }
+  ],
+  "N1": [
+    {
+      "id": "n1-yue",
+      "level": "N1",
+      "category": "原因",
+      "title": "ゆえに：因此、由于",
+      "pattern": "名詞 / 普通形 + ゆえに",
+      "meaning": "较正式的原因或结果",
+      "whenToUse": "论文、评论、正式文章中表达原因和结论。",
+      "structure": "努力したゆえに / 不注意ゆえに",
+      "example": "彼は努力したゆえに、成功した。",
+      "exampleMeaning": "他正因为努力，所以成功了。",
+      "beginnerTip": "N1 语法常见在书面语里，先认识语感，再练输出。",
+      "commonMistake": "日常口语里不常用，普通聊天可用 だから 或 ので。",
+      "miniQuestion": {
+        "question": "ゆえに 更常见于什么风格？",
+        "options": ["正式书面", "儿童口语", "短信缩写"],
+        "correct": "正式书面",
+        "explanation": "ゆえに 是正式、书面的表达。"
+      }
+    },
+    {
+      "id": "n1-iwashite",
+      "level": "N1",
+      "category": "观点",
+      "title": "に言わせれば：按…来说",
+      "pattern": "人 + に言わせれば",
+      "meaning": "从某人的观点来说",
+      "whenToUse": "介绍某人独特的看法或评价。",
+      "structure": "専門家に言わせれば",
+      "example": "専門家に言わせれば、この問題は簡単ではない。",
+      "exampleMeaning": "按专家来说，这个问题并不简单。",
+      "beginnerTip": "这个句型常带有“这个人会这样评价”的语气。",
+      "commonMistake": "前面通常是人或群体，不是普通物品。",
+      "miniQuestion": {
+        "question": "専門家に言わせれば 表示什么？",
+        "options": ["按专家来说", "专家被迫说", "专家不能说"],
+        "correct": "按专家来说",
+        "explanation": "に言わせれば 表示从某人的观点出发。"
+      }
+    },
+    {
+      "id": "n1-kagiri",
+      "level": "N1",
+      "category": "范围",
+      "title": "限りでは：据…范围内",
+      "pattern": "見る / 聞く / 調べた + 限りでは",
+      "meaning": "在自己掌握的信息范围内",
+      "whenToUse": "想谨慎表达判断，不把话说绝对。",
+      "structure": "見る限りでは / 調べた限りでは",
+      "example": "調べた限りでは、問題はありません。",
+      "exampleMeaning": "据我调查的范围来看，没有问题。",
+      "beginnerTip": "这个句型能让表达更严谨，阅读和商务日语里都常见。",
+      "commonMistake": "它不是“只要”的意思；这里强调信息范围。",
+      "miniQuestion": {
+        "question": "調べた限りでは 强调什么？",
+        "options": ["调查范围内", "只要调查", "禁止调查"],
+        "correct": "调查范围内",
+        "explanation": "限りでは 表示在已知范围内做判断。"
+      }
+    }
+  ]
+}

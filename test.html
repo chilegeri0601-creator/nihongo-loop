@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>测验 | Nihongo Loop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header scrolled">
+      <a class="brand" href="index.html" aria-label="返回首页">
+        <span>Nihongo Loop</span>
+        <small>テスト</small>
+      </a>
+      <nav class="nav-links" aria-label="测验页导航">
+        <a href="index.html">首页</a>
+        <a href="#" id="backToStudyLink">返回学习</a>
+      </nav>
+      <div class="header-actions">
+        <span class="service-status online" id="testStatus">测验中</span>
+        <a class="btn btn-light" href="index.html">返回首页</a>
+      </div>
+    </header>
+
+    <main class="test-page">
+      <section class="test-hero">
+        <div>
+          <h1 id="testHeading">测验</h1>
+          <p id="testLead">这里只做测验，不显示学习讲解内容。</p>
+        </div>
+        <div class="level-tabs compact" role="tablist" aria-label="选择测验等级">
+          <button type="button" data-test-level="N5">N5</button>
+          <button type="button" data-test-level="N4">N4</button>
+          <button type="button" data-test-level="N3">N3</button>
+          <button type="button" data-test-level="N2">N2</button>
+          <button type="button" data-test-level="N1">N1</button>
+        </div>
+      </section>
+
+      <section class="test-card" aria-live="polite">
+        <div class="test-top">
+          <div>
+            <span id="testTag">Test</span>
+            <h2 id="testTitle">准备测验</h2>
+          </div>
+          <strong id="testCounter">0 / 0</strong>
+        </div>
+        <div class="vocab-progress"><span id="testProgress" style="width: 0%"></span></div>
+        <div id="testContent" class="test-content">
+          <div class="vocab-loading">
+            <strong>正在载入测验</strong>
+            <span>准备题目中。</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="test.js"></script>
+  </body>
+</html>

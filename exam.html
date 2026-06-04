@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>等级考试模拟 | Nihongo Loop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-feature="exam">
+    <header class="site-header scrolled">
+      <a class="brand" href="index.html" aria-label="返回首页">
+        <span>Nihongo Loop</span>
+        <small>試験シミュレーション</small>
+      </a>
+      <nav class="nav-links" aria-label="模拟考试页导航">
+        <a href="index.html">首页</a>
+        <a href="#featureTrainer">模拟</a>
+        <a href="reading.html">阅读</a>
+        <a href="listening.html">听力</a>
+      </nav>
+      <div class="header-actions">
+        <span class="service-status online" id="featureStatus">学习中</span>
+        <a class="btn btn-light" href="index.html">返回首页</a>
+      </div>
+    </header>
+    <main class="feature-page">
+      <section class="feature-hero">
+        <div>
+          <h1 id="featureHeading">等级考试模拟</h1>
+          <p id="featureLead">按 N5-N1 组织文字词汇、语法阅读、听力和错题复盘。</p>
+        </div>
+        <div class="level-tabs compact" role="tablist" aria-label="选择等级">
+          <button class="active" type="button" data-feature-level="N5">N5</button>
+          <button type="button" data-feature-level="N4">N4</button>
+          <button type="button" data-feature-level="N3">N3</button>
+          <button type="button" data-feature-level="N2">N2</button>
+          <button type="button" data-feature-level="N1">N1</button>
+        </div>
+      </section>
+      <section class="study-panel feature-panel" id="featureTrainer">
+        <div class="study-panel-head">
+          <div>
+            <span id="featureTag">試験 · Mock Exam</span>
+            <h2 id="featureTitle">N5 模拟训练</h2>
+          </div>
+          <button class="btn btn-dark" type="button" id="featureCompleteButton">进入测验</button>
+        </div>
+        <div id="featureContent" class="feature-content"></div>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="feature.js"></script>
+  </body>
+</html>

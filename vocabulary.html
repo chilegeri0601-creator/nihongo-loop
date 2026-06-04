@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>单词学习 | Nihongo Loop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header scrolled">
+      <a class="brand" href="index.html" aria-label="返回首页">
+        <span>Nihongo Loop</span>
+        <small>単語トレーニング</small>
+      </a>
+      <nav class="nav-links" aria-label="单词页导航">
+        <a href="index.html">首页</a>
+        <a href="#vocabTrainer">词卡</a>
+        <a href="#vocabList">复习队列</a>
+        <a href="#vocabMistakes">错题本</a>
+      </nav>
+      <div class="header-actions">
+        <span class="service-status" id="vocabServiceStatus">连接中</span>
+        <a class="btn btn-light" href="index.html">返回首页</a>
+      </div>
+    </header>
+
+    <main class="vocab-page">
+      <section class="vocab-hero">
+        <div>
+          <h1>单词学习</h1>
+          <p>按 N1-N5 等级练词卡、看例句、做独立测验，并把错题和掌握状态保存到后端。</p>
+        </div>
+        <div class="level-tabs compact" role="tablist" aria-label="选择单词等级">
+          <button type="button" data-vocab-level="N5">N5</button>
+          <button type="button" data-vocab-level="N4">N4</button>
+          <button type="button" data-vocab-level="N3">N3</button>
+          <button class="active" type="button" data-vocab-level="N2">N2</button>
+          <button type="button" data-vocab-level="N1">N1</button>
+        </div>
+      </section>
+
+      <section class="study-panel vocab-page-panel" id="vocabTrainer">
+        <div class="study-panel-head">
+          <div>
+            <span id="vocabPageTag">単語 · Vocabulary</span>
+            <h2 id="vocabPageTitle">N2 单词训练</h2>
+          </div>
+          <div class="panel-actions">
+            <a class="btn btn-dark" id="vocabTestLink" href="test.html?type=vocabulary&level=N5">开始单词测验</a>
+            <button class="btn btn-light" type="button" id="vocabCompleteButton">完成今日单词学习</button>
+          </div>
+        </div>
+        <div class="study-content" id="vocabPageContent">
+          <div class="vocab-loading">
+            <strong>正在载入单词</strong>
+            <span>稍等一下，正在准备今日词卡。</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="vocabulary.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "nihongo-loop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "面向 JLPT N1-N5 的日语学习网页应用",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "start:prod": "node server.js",
+    "check": "node --check server.js && node --check script.js && node --check login.js && node --check vocabulary.js && node --check grammar.js && node --check feature.js && node --check test.js && node --check test-api.js",
+    "test": "node test-api.js"
+  }
+}
