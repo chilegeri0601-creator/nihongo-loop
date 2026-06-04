@@ -102,8 +102,22 @@ npm install -g pm2
 启动：
 
 ```bash
-HOST=0.0.0.0 PORT=8787 pm2 start server.js --name nihongo-loop
+npm run pm2:start
 pm2 save
+```
+
+查看运行状态：
+
+```bash
+pm2 status
+npm run pm2:logs
+```
+
+更新代码后重启：
+
+```bash
+git pull
+npm run pm2:restart
 ```
 
 设置开机自启：

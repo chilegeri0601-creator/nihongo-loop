@@ -7,6 +7,9 @@
     "dev": "node server.js",
     "start": "node server.js",
     "start:prod": "node server.js",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:restart": "pm2 restart nihongo-loop",
+    "pm2:logs": "pm2 logs nihongo-loop",
     "check": "node --check server.js && node --check script.js && node --check login.js && node --check vocabulary.js && node --check grammar.js && node --check feature.js && node --check test.js && node --check test-api.js",
     "test": "node test-api.js"
   }
