@@ -40,7 +40,7 @@ const defaultDb = {
       activeModule: "单词",
       completedModule: "",
       checkedIn: false,
-      streakDays: 12,
+      streakDays: 0,
       quiz: {},
       vocabulary: {},
       grammar: {},
@@ -168,7 +168,7 @@ function getProgress(db, userId = "demo-user") {
       activeModule: "单词",
       completedModule: "",
       checkedIn: false,
-      streakDays: 12,
+      streakDays: 0,
       quiz: {},
       vocabulary: {},
       updatedAt: new Date().toISOString(),
@@ -177,6 +177,16 @@ function getProgress(db, userId = "demo-user") {
   if (!db.progress[userId].quiz) db.progress[userId].quiz = {};
   if (!db.progress[userId].vocabulary) db.progress[userId].vocabulary = {};
   if (!db.progress[userId].grammar) db.progress[userId].grammar = {};
+  if (
+    userId !== "demo-user" &&
+    !db.progress[userId].checkedIn &&
+    Number(db.progress[userId].streakDays || 0) > 0 &&
+    Object.keys(db.progress[userId].quiz).length === 0 &&
+    Object.keys(db.progress[userId].vocabulary).length === 0 &&
+    Object.keys(db.progress[userId].grammar).length === 0
+  ) {
+    db.progress[userId].streakDays = 0;
+  }
   return db.progress[userId];
 }
 
@@ -296,9 +306,14 @@ async function handleApi(req, res, url) {
     };
     db.users.push(user);
     db.progress[user.id] = {
-      ...getProgress(db, "demo-user"),
+      level: "N2",
+      activeModule: "单词",
       checkedIn: false,
+      streakDays: 0,
       completedModule: "",
+      quiz: {},
+      vocabulary: {},
+      grammar: {},
       updatedAt: new Date().toISOString(),
     };
     await writeDb(db);
@@ -525,7 +540,7 @@ async function handleApi(req, res, url) {
       activeModule: "单词",
       completedModule: "",
       checkedIn: false,
-      streakDays: 12,
+      streakDays: 0,
       quiz: {},
       vocabulary: {},
       grammar: {},
@@ -541,7 +556,7 @@ async function handleApi(req, res, url) {
     const userId = body.userId || "demo-user";
     const db = await readDb();
     const progress = getProgress(db, userId);
-    if (!progress.checkedIn) progress.streakDays = Math.max(13, Number(progress.streakDays || 12) + 1);
+    if (!progress.checkedIn) progress.streakDays = Number(progress.streakDays || 0) + 1;
     progress.checkedIn = true;
     progress.updatedAt = new Date().toISOString();
     await writeDb(db);

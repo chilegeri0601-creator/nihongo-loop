@@ -133,7 +133,7 @@ function renderProgress(level) {
 function applyCheckinState() {
   const button = document.querySelector("#checkinButton");
   const checkedIn = Boolean(savedState.checkedIn);
-  document.querySelector("#streakDays").textContent = String(savedState.streakDays || 12);
+  document.querySelector("#streakDays").textContent = String(Number(savedState.streakDays || 0));
   document.querySelector("#checkinHint").textContent = checkedIn ? "今日打卡完成，明天继续保持节奏" : "今天还没有完成打卡";
   button.textContent = checkedIn ? "已打卡" : "打卡";
   button.disabled = checkedIn;
@@ -179,7 +179,7 @@ document.querySelector("#checkinButton").addEventListener("click", async () => {
     setServiceStatus(true);
   } catch {
     savedState.checkedIn = true;
-    savedState.streakDays = Math.max(13, Number(savedState.streakDays || 12) + 1);
+    savedState.streakDays = Number(savedState.streakDays || 0) + 1;
     setServiceStatus(false);
   }
   saveLocalState();

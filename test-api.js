@@ -144,6 +144,8 @@ async function main() {
   });
   assert.equal(registered.user.email, email);
   assert.equal(registered.user.displayName, "测试用户");
+  assert.equal(registered.progress.checkedIn, false);
+  assert.equal(registered.progress.streakDays, 0);
   const userId = registered.user.id;
 
   const duplicateWrongPassword = await requestExpect("/api/auth/register", 409, {
@@ -222,6 +224,7 @@ async function main() {
     body: JSON.stringify({ userId }),
   });
   assert.equal(checkin.progress.checkedIn, true);
+  assert.equal(checkin.progress.streakDays, 1);
 
   const vocabulary = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=N2`);
   assert.equal(vocabulary.vocabulary.level, "N2");
@@ -287,6 +290,7 @@ async function main() {
   });
   assert.equal(reset.progress.level, "N2");
   assert.equal(reset.progress.checkedIn, false);
+  assert.equal(reset.progress.streakDays, 0);
 
   const stats = await request("/api/stats");
   assert.equal(typeof stats.users, "number");
