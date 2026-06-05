@@ -1,56 +1,2496 @@
 {
   "N5": [
-    { "id": "n5-asa", "word": "朝", "kana": "あさ", "meaning": "早晨", "type": "名词", "example": "朝、コーヒーを飲みます。", "exampleMeaning": "早上喝咖啡。" },
-    { "id": "n5-yoru", "word": "夜", "kana": "よる", "meaning": "夜晚", "type": "名词", "example": "夜に日本語を勉強します。", "exampleMeaning": "晚上学习日语。" },
-    { "id": "n5-gakkou", "word": "学校", "kana": "がっこう", "meaning": "学校", "type": "名词", "example": "学校へ行きます。", "exampleMeaning": "去学校。" },
-    { "id": "n5-sensei", "word": "先生", "kana": "せんせい", "meaning": "老师", "type": "名词", "example": "先生に質問します。", "exampleMeaning": "向老师提问。" },
-    { "id": "n5-tomodachi", "word": "友達", "kana": "ともだち", "meaning": "朋友", "type": "名词", "example": "友達と映画を見ます。", "exampleMeaning": "和朋友看电影。" },
-    { "id": "n5-hon", "word": "本", "kana": "ほん", "meaning": "书", "type": "名词", "example": "日本語の本を読みます。", "exampleMeaning": "读日语书。" },
-    { "id": "n5-mizu", "word": "水", "kana": "みず", "meaning": "水", "type": "名词", "example": "水を飲みます。", "exampleMeaning": "喝水。" },
-    { "id": "n5-tabemono", "word": "食べ物", "kana": "たべもの", "meaning": "食物", "type": "名词", "example": "好きな食べ物は何ですか。", "exampleMeaning": "喜欢的食物是什么？" },
-    { "id": "n5-kuruma", "word": "車", "kana": "くるま", "meaning": "汽车", "type": "名词", "example": "車で駅へ行きます。", "exampleMeaning": "开车去车站。" },
-    { "id": "n5-eki", "word": "駅", "kana": "えき", "meaning": "车站", "type": "名词", "example": "駅はどこですか。", "exampleMeaning": "车站在哪里？" },
-    { "id": "n5-iku", "word": "行く", "kana": "いく", "meaning": "去", "type": "动词", "example": "明日、図書館へ行きます。", "exampleMeaning": "明天去图书馆。" },
-    { "id": "n5-kaeru", "word": "帰る", "kana": "かえる", "meaning": "回去", "type": "动词", "example": "六時に家へ帰ります。", "exampleMeaning": "六点回家。" },
-    { "id": "n5-taberu", "word": "食べる", "kana": "たべる", "meaning": "吃", "type": "动词", "example": "昼ご飯を食べます。", "exampleMeaning": "吃午饭。" },
-    { "id": "n5-nomu", "word": "飲む", "kana": "のむ", "meaning": "喝", "type": "动词", "example": "お茶を飲みます。", "exampleMeaning": "喝茶。" },
-    { "id": "n5-miru", "word": "見る", "kana": "みる", "meaning": "看", "type": "动词", "example": "テレビを見ます。", "exampleMeaning": "看电视。" },
-    { "id": "n5-kiku", "word": "聞く", "kana": "きく", "meaning": "听、问", "type": "动词", "example": "音楽を聞きます。", "exampleMeaning": "听音乐。" },
-    { "id": "n5-yomu", "word": "読む", "kana": "よむ", "meaning": "读", "type": "动词", "example": "新聞を読みます。", "exampleMeaning": "读报纸。" },
-    { "id": "n5-kaku", "word": "書く", "kana": "かく", "meaning": "写", "type": "动词", "example": "ノートに書きます。", "exampleMeaning": "写在笔记本上。" },
-    { "id": "n5-hanasu", "word": "話す", "kana": "はなす", "meaning": "说话", "type": "动词", "example": "日本語で話します。", "exampleMeaning": "用日语说话。" },
-    { "id": "n5-au", "word": "会う", "kana": "あう", "meaning": "见面", "type": "动词", "example": "友達に会います。", "exampleMeaning": "见朋友。" },
-    { "id": "n5-takai", "word": "高い", "kana": "たかい", "meaning": "高的、贵的", "type": "形容词", "example": "この本は少し高いです。", "exampleMeaning": "这本书有点贵。" },
-    { "id": "n5-yasui", "word": "安い", "kana": "やすい", "meaning": "便宜的", "type": "形容词", "example": "このペンは安いです。", "exampleMeaning": "这支笔很便宜。" },
-    { "id": "n5-atarashii", "word": "新しい", "kana": "あたらしい", "meaning": "新的", "type": "形容词", "example": "新しいかばんを買いました。", "exampleMeaning": "买了新包。" },
-    { "id": "n5-furui", "word": "古い", "kana": "ふるい", "meaning": "旧的", "type": "形容词", "example": "これは古い写真です。", "exampleMeaning": "这是旧照片。" },
-    { "id": "n5-ookii", "word": "大きい", "kana": "おおきい", "meaning": "大的", "type": "形容词", "example": "大きい犬がいます。", "exampleMeaning": "有一只大狗。" },
-    { "id": "n5-chiisai", "word": "小さい", "kana": "ちいさい", "meaning": "小的", "type": "形容词", "example": "小さい部屋です。", "exampleMeaning": "是小房间。" },
-    { "id": "n5-atsui", "word": "暑い", "kana": "あつい", "meaning": "热的（天气）", "type": "形容词", "example": "今日は暑いです。", "exampleMeaning": "今天很热。" },
-    { "id": "n5-samui", "word": "寒い", "kana": "さむい", "meaning": "冷的（天气）", "type": "形容词", "example": "冬は寒いです。", "exampleMeaning": "冬天很冷。" },
-    { "id": "n5-genki", "word": "元気", "kana": "げんき", "meaning": "精神、健康", "type": "形容动词", "example": "お元気ですか。", "exampleMeaning": "你好吗？" },
-    { "id": "n5-kirei", "word": "きれい", "kana": "きれい", "meaning": "漂亮、干净", "type": "形容动词", "example": "この町はきれいです。", "exampleMeaning": "这座城市很漂亮。" }
+    {
+      "id": "n5-watashi",
+      "word": "私",
+      "kana": "わたし",
+      "meaning": "我",
+      "type": "代词",
+      "example": "私は学生です。",
+      "exampleMeaning": "我是学生。"
+    },
+    {
+      "id": "n5-anata",
+      "word": "あなた",
+      "kana": "あなた",
+      "meaning": "你",
+      "type": "代词",
+      "example": "あなたは先生ですか。",
+      "exampleMeaning": "你是老师吗？"
+    },
+    {
+      "id": "n5-kono",
+      "word": "この",
+      "kana": "この",
+      "meaning": "这个",
+      "type": "连体词",
+      "example": "この本は新しいです。",
+      "exampleMeaning": "这本书是新的。"
+    },
+    {
+      "id": "n5-sono",
+      "word": "その",
+      "kana": "その",
+      "meaning": "那个",
+      "type": "连体词",
+      "example": "そのかばんは誰のですか。",
+      "exampleMeaning": "那个包是谁的？"
+    },
+    {
+      "id": "n5-ano",
+      "word": "あの",
+      "kana": "あの",
+      "meaning": "那个（远处）",
+      "type": "连体词",
+      "example": "あの人は先生です。",
+      "exampleMeaning": "那个人是老师。"
+    },
+    {
+      "id": "n5-dono",
+      "word": "どの",
+      "kana": "どの",
+      "meaning": "哪一个",
+      "type": "连体词",
+      "example": "どの本を読みますか。",
+      "exampleMeaning": "你读哪本书？"
+    },
+    {
+      "id": "n5-kore",
+      "word": "これ",
+      "kana": "これ",
+      "meaning": "这个",
+      "type": "代词",
+      "example": "これは日本語の本です。",
+      "exampleMeaning": "这是日语书。"
+    },
+    {
+      "id": "n5-sore",
+      "word": "それ",
+      "kana": "それ",
+      "meaning": "那个",
+      "type": "代词",
+      "example": "それは私のノートです。",
+      "exampleMeaning": "那是我的笔记本。"
+    },
+    {
+      "id": "n5-are",
+      "word": "あれ",
+      "kana": "あれ",
+      "meaning": "那个（远处）",
+      "type": "代词",
+      "example": "あれは駅です。",
+      "exampleMeaning": "那是车站。"
+    },
+    {
+      "id": "n5-dore",
+      "word": "どれ",
+      "kana": "どれ",
+      "meaning": "哪一个",
+      "type": "代词",
+      "example": "あなたの傘はどれですか。",
+      "exampleMeaning": "哪一把是你的伞？"
+    },
+    {
+      "id": "n5-koko",
+      "word": "ここ",
+      "kana": "ここ",
+      "meaning": "这里",
+      "type": "代词",
+      "example": "ここで勉強します。",
+      "exampleMeaning": "在这里学习。"
+    },
+    {
+      "id": "n5-soko",
+      "word": "そこ",
+      "kana": "そこ",
+      "meaning": "那里",
+      "type": "代词",
+      "example": "そこに椅子があります。",
+      "exampleMeaning": "那里有椅子。"
+    },
+    {
+      "id": "n5-asoko",
+      "word": "あそこ",
+      "kana": "あそこ",
+      "meaning": "那里（远处）",
+      "type": "代词",
+      "example": "あそこに図書館があります。",
+      "exampleMeaning": "那边有图书馆。"
+    },
+    {
+      "id": "n5-doko",
+      "word": "どこ",
+      "kana": "どこ",
+      "meaning": "哪里",
+      "type": "代词",
+      "example": "トイレはどこですか。",
+      "exampleMeaning": "洗手间在哪里？"
+    },
+    {
+      "id": "n5-dare",
+      "word": "誰",
+      "kana": "だれ",
+      "meaning": "谁",
+      "type": "代词",
+      "example": "あの人は誰ですか。",
+      "exampleMeaning": "那个人是谁？"
+    },
+    {
+      "id": "n5-nani",
+      "word": "何",
+      "kana": "なに",
+      "meaning": "什么",
+      "type": "代词",
+      "example": "これは何ですか。",
+      "exampleMeaning": "这是什么？"
+    },
+    {
+      "id": "n5-hito",
+      "word": "人",
+      "kana": "ひと",
+      "meaning": "人",
+      "type": "名词",
+      "example": "教室に人がいます。",
+      "exampleMeaning": "教室里有人。"
+    },
+    {
+      "id": "n5-otoko",
+      "word": "男",
+      "kana": "おとこ",
+      "meaning": "男人",
+      "type": "名词",
+      "example": "あの男の人は先生です。",
+      "exampleMeaning": "那个男人是老师。"
+    },
+    {
+      "id": "n5-onna",
+      "word": "女",
+      "kana": "おんな",
+      "meaning": "女人",
+      "type": "名词",
+      "example": "女の人が道を歩いています。",
+      "exampleMeaning": "女人在路上走。"
+    },
+    {
+      "id": "n5-kodomo",
+      "word": "子供",
+      "kana": "こども",
+      "meaning": "孩子",
+      "type": "名词",
+      "example": "公園に子供がいます。",
+      "exampleMeaning": "公园里有孩子。"
+    },
+    {
+      "id": "n5-tomodachi",
+      "word": "友達",
+      "kana": "ともだち",
+      "meaning": "朋友",
+      "type": "名词",
+      "example": "友達と映画を見ます。",
+      "exampleMeaning": "和朋友看电影。"
+    },
+    {
+      "id": "n5-kazoku",
+      "word": "家族",
+      "kana": "かぞく",
+      "meaning": "家人",
+      "type": "名词",
+      "example": "家族とご飯を食べます。",
+      "exampleMeaning": "和家人吃饭。"
+    },
+    {
+      "id": "n5-chichi",
+      "word": "父",
+      "kana": "ちち",
+      "meaning": "父亲（我的）",
+      "type": "名词",
+      "example": "父は会社員です。",
+      "exampleMeaning": "我父亲是公司职员。"
+    },
+    {
+      "id": "n5-haha",
+      "word": "母",
+      "kana": "はは",
+      "meaning": "母亲（我的）",
+      "type": "名词",
+      "example": "母は料理が上手です。",
+      "exampleMeaning": "我母亲很会做饭。"
+    },
+    {
+      "id": "n5-otousan",
+      "word": "お父さん",
+      "kana": "おとうさん",
+      "meaning": "爸爸",
+      "type": "名词",
+      "example": "お父さんは元気です。",
+      "exampleMeaning": "爸爸很精神。"
+    },
+    {
+      "id": "n5-okaasan",
+      "word": "お母さん",
+      "kana": "おかあさん",
+      "meaning": "妈妈",
+      "type": "名词",
+      "example": "お母さんに電話します。",
+      "exampleMeaning": "给妈妈打电话。"
+    },
+    {
+      "id": "n5-ani",
+      "word": "兄",
+      "kana": "あに",
+      "meaning": "哥哥（我的）",
+      "type": "名词",
+      "example": "兄は大学生です。",
+      "exampleMeaning": "我哥哥是大学生。"
+    },
+    {
+      "id": "n5-ane",
+      "word": "姉",
+      "kana": "あね",
+      "meaning": "姐姐（我的）",
+      "type": "名词",
+      "example": "姉は日本にいます。",
+      "exampleMeaning": "我姐姐在日本。"
+    },
+    {
+      "id": "n5-otouto",
+      "word": "弟",
+      "kana": "おとうと",
+      "meaning": "弟弟",
+      "type": "名词",
+      "example": "弟は小学生です。",
+      "exampleMeaning": "弟弟是小学生。"
+    },
+    {
+      "id": "n5-imouto",
+      "word": "妹",
+      "kana": "いもうと",
+      "meaning": "妹妹",
+      "type": "名词",
+      "example": "妹は犬が好きです。",
+      "exampleMeaning": "妹妹喜欢狗。"
+    },
+    {
+      "id": "n5-sensei",
+      "word": "先生",
+      "kana": "せんせい",
+      "meaning": "老师",
+      "type": "名词",
+      "example": "先生に質問します。",
+      "exampleMeaning": "向老师提问。"
+    },
+    {
+      "id": "n5-gakusei",
+      "word": "学生",
+      "kana": "がくせい",
+      "meaning": "学生",
+      "type": "名词",
+      "example": "私は学生です。",
+      "exampleMeaning": "我是学生。"
+    },
+    {
+      "id": "n5-kaishain",
+      "word": "会社員",
+      "kana": "かいしゃいん",
+      "meaning": "公司职员",
+      "type": "名词",
+      "example": "兄は会社員です。",
+      "exampleMeaning": "哥哥是公司职员。"
+    },
+    {
+      "id": "n5-isha",
+      "word": "医者",
+      "kana": "いしゃ",
+      "meaning": "医生",
+      "type": "名词",
+      "example": "父は医者です。",
+      "exampleMeaning": "父亲是医生。"
+    },
+    {
+      "id": "n5-namae",
+      "word": "名前",
+      "kana": "なまえ",
+      "meaning": "名字",
+      "type": "名词",
+      "example": "名前を書いてください。",
+      "exampleMeaning": "请写名字。"
+    },
+    {
+      "id": "n5-asa",
+      "word": "朝",
+      "kana": "あさ",
+      "meaning": "早晨",
+      "type": "名词",
+      "example": "朝、コーヒーを飲みます。",
+      "exampleMeaning": "早上喝咖啡。"
+    },
+    {
+      "id": "n5-hiru",
+      "word": "昼",
+      "kana": "ひる",
+      "meaning": "白天、中午",
+      "type": "名词",
+      "example": "昼にパンを食べます。",
+      "exampleMeaning": "中午吃面包。"
+    },
+    {
+      "id": "n5-yoru",
+      "word": "夜",
+      "kana": "よる",
+      "meaning": "夜晚",
+      "type": "名词",
+      "example": "夜に日本語を勉強します。",
+      "exampleMeaning": "晚上学习日语。"
+    },
+    {
+      "id": "n5-kyou",
+      "word": "今日",
+      "kana": "きょう",
+      "meaning": "今天",
+      "type": "名词",
+      "example": "今日は暑いです。",
+      "exampleMeaning": "今天很热。"
+    },
+    {
+      "id": "n5-kinou",
+      "word": "昨日",
+      "kana": "きのう",
+      "meaning": "昨天",
+      "type": "名词",
+      "example": "昨日、映画を見ました。",
+      "exampleMeaning": "昨天看了电影。"
+    },
+    {
+      "id": "n5-ashita",
+      "word": "明日",
+      "kana": "あした",
+      "meaning": "明天",
+      "type": "名词",
+      "example": "明日、学校へ行きます。",
+      "exampleMeaning": "明天去学校。"
+    },
+    {
+      "id": "n5-ima",
+      "word": "今",
+      "kana": "いま",
+      "meaning": "现在",
+      "type": "名词",
+      "example": "今、何時ですか。",
+      "exampleMeaning": "现在几点？"
+    },
+    {
+      "id": "n5-mainichi",
+      "word": "毎日",
+      "kana": "まいにち",
+      "meaning": "每天",
+      "type": "名词",
+      "example": "毎日、日本語を読みます。",
+      "exampleMeaning": "每天读日语。"
+    },
+    {
+      "id": "n5-maiasa",
+      "word": "毎朝",
+      "kana": "まいあさ",
+      "meaning": "每天早上",
+      "type": "名词",
+      "example": "毎朝、七時に起きます。",
+      "exampleMeaning": "每天早上七点起床。"
+    },
+    {
+      "id": "n5-maiban",
+      "word": "毎晩",
+      "kana": "まいばん",
+      "meaning": "每天晚上",
+      "type": "名词",
+      "example": "毎晩、本を読みます。",
+      "exampleMeaning": "每天晚上读书。"
+    },
+    {
+      "id": "n5-senshuu",
+      "word": "先週",
+      "kana": "せんしゅう",
+      "meaning": "上周",
+      "type": "名词",
+      "example": "先週、友達に会いました。",
+      "exampleMeaning": "上周见了朋友。"
+    },
+    {
+      "id": "n5-konshuu",
+      "word": "今週",
+      "kana": "こんしゅう",
+      "meaning": "这周",
+      "type": "名词",
+      "example": "今週は忙しいです。",
+      "exampleMeaning": "这周很忙。"
+    },
+    {
+      "id": "n5-raishuu",
+      "word": "来週",
+      "kana": "らいしゅう",
+      "meaning": "下周",
+      "type": "名词",
+      "example": "来週、試験があります。",
+      "exampleMeaning": "下周有考试。"
+    },
+    {
+      "id": "n5-kotoshi",
+      "word": "今年",
+      "kana": "ことし",
+      "meaning": "今年",
+      "type": "名词",
+      "example": "今年、日本へ行きます。",
+      "exampleMeaning": "今年去日本。"
+    },
+    {
+      "id": "n5-toshi",
+      "word": "年",
+      "kana": "とし",
+      "meaning": "年、岁",
+      "type": "名词",
+      "example": "一年は十二か月です。",
+      "exampleMeaning": "一年有十二个月。"
+    },
+    {
+      "id": "n5-tsuki",
+      "word": "月",
+      "kana": "つき",
+      "meaning": "月亮、月份",
+      "type": "名词",
+      "example": "月がきれいです。",
+      "exampleMeaning": "月亮很漂亮。"
+    },
+    {
+      "id": "n5-shuu",
+      "word": "週",
+      "kana": "しゅう",
+      "meaning": "星期、周",
+      "type": "名词",
+      "example": "一週に五日勉強します。",
+      "exampleMeaning": "一周学习五天。"
+    },
+    {
+      "id": "n5-jikan",
+      "word": "時間",
+      "kana": "じかん",
+      "meaning": "时间",
+      "type": "名词",
+      "example": "時間がありません。",
+      "exampleMeaning": "没有时间。"
+    },
+    {
+      "id": "n5-ji",
+      "word": "時",
+      "kana": "じ",
+      "meaning": "点钟",
+      "type": "名词",
+      "example": "七時に起きます。",
+      "exampleMeaning": "七点起床。"
+    },
+    {
+      "id": "n5-fun",
+      "word": "分",
+      "kana": "ふん",
+      "meaning": "分钟",
+      "type": "名词",
+      "example": "十分待ちます。",
+      "exampleMeaning": "等十分钟。"
+    },
+    {
+      "id": "n5-han",
+      "word": "半",
+      "kana": "はん",
+      "meaning": "半",
+      "type": "名词",
+      "example": "六時半に帰ります。",
+      "exampleMeaning": "六点半回去。"
+    },
+    {
+      "id": "n5-yasumi",
+      "word": "休み",
+      "kana": "やすみ",
+      "meaning": "休息、假日",
+      "type": "名词",
+      "example": "日曜日は休みです。",
+      "exampleMeaning": "星期天休息。"
+    },
+    {
+      "id": "n5-tanjoubi",
+      "word": "誕生日",
+      "kana": "たんじょうび",
+      "meaning": "生日",
+      "type": "名词",
+      "example": "今日は母の誕生日です。",
+      "exampleMeaning": "今天是妈妈的生日。"
+    },
+    {
+      "id": "n5-gakkou",
+      "word": "学校",
+      "kana": "がっこう",
+      "meaning": "学校",
+      "type": "名词",
+      "example": "学校へ行きます。",
+      "exampleMeaning": "去学校。"
+    },
+    {
+      "id": "n5-daigaku",
+      "word": "大学",
+      "kana": "だいがく",
+      "meaning": "大学",
+      "type": "名词",
+      "example": "兄は大学で勉強します。",
+      "exampleMeaning": "哥哥在大学学习。"
+    },
+    {
+      "id": "n5-kyoushitsu",
+      "word": "教室",
+      "kana": "きょうしつ",
+      "meaning": "教室",
+      "type": "名词",
+      "example": "教室に机があります。",
+      "exampleMeaning": "教室里有桌子。"
+    },
+    {
+      "id": "n5-ie",
+      "word": "家",
+      "kana": "いえ",
+      "meaning": "家",
+      "type": "名词",
+      "example": "家で休みます。",
+      "exampleMeaning": "在家休息。"
+    },
+    {
+      "id": "n5-heya",
+      "word": "部屋",
+      "kana": "へや",
+      "meaning": "房间",
+      "type": "名词",
+      "example": "部屋を掃除します。",
+      "exampleMeaning": "打扫房间。"
+    },
+    {
+      "id": "n5-machi",
+      "word": "町",
+      "kana": "まち",
+      "meaning": "城镇",
+      "type": "名词",
+      "example": "この町は静かです。",
+      "exampleMeaning": "这个城镇很安静。"
+    },
+    {
+      "id": "n5-kuni",
+      "word": "国",
+      "kana": "くに",
+      "meaning": "国家",
+      "type": "名词",
+      "example": "日本は小さい国です。",
+      "exampleMeaning": "日本是小国家。"
+    },
+    {
+      "id": "n5-nihon",
+      "word": "日本",
+      "kana": "にほん",
+      "meaning": "日本",
+      "type": "名词",
+      "example": "日本へ行きます。",
+      "exampleMeaning": "去日本。"
+    },
+    {
+      "id": "n5-chuugoku",
+      "word": "中国",
+      "kana": "ちゅうごく",
+      "meaning": "中国",
+      "type": "名词",
+      "example": "中国から来ました。",
+      "exampleMeaning": "从中国来了。"
+    },
+    {
+      "id": "n5-gaikoku",
+      "word": "外国",
+      "kana": "がいこく",
+      "meaning": "外国",
+      "type": "名词",
+      "example": "外国の友達がいます。",
+      "exampleMeaning": "有外国朋友。"
+    },
+    {
+      "id": "n5-eki",
+      "word": "駅",
+      "kana": "えき",
+      "meaning": "车站",
+      "type": "名词",
+      "example": "駅はどこですか。",
+      "exampleMeaning": "车站在哪里？"
+    },
+    {
+      "id": "n5-kuukou",
+      "word": "空港",
+      "kana": "くうこう",
+      "meaning": "机场",
+      "type": "名词",
+      "example": "空港で友達を待ちます。",
+      "exampleMeaning": "在机场等朋友。"
+    },
+    {
+      "id": "n5-ginkou",
+      "word": "銀行",
+      "kana": "ぎんこう",
+      "meaning": "银行",
+      "type": "名词",
+      "example": "銀行でお金を出します。",
+      "exampleMeaning": "在银行取钱。"
+    },
+    {
+      "id": "n5-yuubinkyoku",
+      "word": "郵便局",
+      "kana": "ゆうびんきょく",
+      "meaning": "邮局",
+      "type": "名词",
+      "example": "郵便局で切手を買います。",
+      "exampleMeaning": "在邮局买邮票。"
+    },
+    {
+      "id": "n5-toshokan",
+      "word": "図書館",
+      "kana": "としょかん",
+      "meaning": "图书馆",
+      "type": "名词",
+      "example": "図書館で本を読みます。",
+      "exampleMeaning": "在图书馆读书。"
+    },
+    {
+      "id": "n5-byouin",
+      "word": "病院",
+      "kana": "びょういん",
+      "meaning": "医院",
+      "type": "名词",
+      "example": "病院へ行きます。",
+      "exampleMeaning": "去医院。"
+    },
+    {
+      "id": "n5-mise",
+      "word": "店",
+      "kana": "みせ",
+      "meaning": "商店",
+      "type": "名词",
+      "example": "店でパンを買います。",
+      "exampleMeaning": "在店里买面包。"
+    },
+    {
+      "id": "n5-resutoran",
+      "word": "レストラン",
+      "kana": "れすとらん",
+      "meaning": "餐厅",
+      "type": "名词",
+      "example": "レストランで昼ご飯を食べます。",
+      "exampleMeaning": "在餐厅吃午饭。"
+    },
+    {
+      "id": "n5-kouen",
+      "word": "公園",
+      "kana": "こうえん",
+      "meaning": "公园",
+      "type": "名词",
+      "example": "公園を散歩します。",
+      "exampleMeaning": "在公园散步。"
+    },
+    {
+      "id": "n5-kaisha",
+      "word": "会社",
+      "kana": "かいしゃ",
+      "meaning": "公司",
+      "type": "名词",
+      "example": "会社へ行きます。",
+      "exampleMeaning": "去公司。"
+    },
+    {
+      "id": "n5-kouban",
+      "word": "交番",
+      "kana": "こうばん",
+      "meaning": "派出所",
+      "type": "名词",
+      "example": "交番で道を聞きます。",
+      "exampleMeaning": "在派出所问路。"
+    },
+    {
+      "id": "n5-tsukue",
+      "word": "机",
+      "kana": "つくえ",
+      "meaning": "桌子",
+      "type": "名词",
+      "example": "机の上に本があります。",
+      "exampleMeaning": "桌上有书。"
+    },
+    {
+      "id": "n5-isu",
+      "word": "椅子",
+      "kana": "いす",
+      "meaning": "椅子",
+      "type": "名词",
+      "example": "椅子に座ります。",
+      "exampleMeaning": "坐在椅子上。"
+    },
+    {
+      "id": "n5-tokei",
+      "word": "時計",
+      "kana": "とけい",
+      "meaning": "钟表",
+      "type": "名词",
+      "example": "時計を見ます。",
+      "exampleMeaning": "看钟表。"
+    },
+    {
+      "id": "n5-denwa",
+      "word": "電話",
+      "kana": "でんわ",
+      "meaning": "电话",
+      "type": "名词",
+      "example": "友達に電話します。",
+      "exampleMeaning": "给朋友打电话。"
+    },
+    {
+      "id": "n5-keetai",
+      "word": "携帯",
+      "kana": "けいたい",
+      "meaning": "手机",
+      "type": "名词",
+      "example": "携帯で写真を撮ります。",
+      "exampleMeaning": "用手机拍照。"
+    },
+    {
+      "id": "n5-shashin",
+      "word": "写真",
+      "kana": "しゃしん",
+      "meaning": "照片",
+      "type": "名词",
+      "example": "写真を撮ります。",
+      "exampleMeaning": "拍照片。"
+    },
+    {
+      "id": "n5-kami",
+      "word": "紙",
+      "kana": "かみ",
+      "meaning": "纸",
+      "type": "名词",
+      "example": "紙に名前を書きます。",
+      "exampleMeaning": "在纸上写名字。"
+    },
+    {
+      "id": "n5-tegami",
+      "word": "手紙",
+      "kana": "てがみ",
+      "meaning": "信",
+      "type": "名词",
+      "example": "友達に手紙を書きます。",
+      "exampleMeaning": "给朋友写信。"
+    },
+    {
+      "id": "n5-kitte",
+      "word": "切手",
+      "kana": "きって",
+      "meaning": "邮票",
+      "type": "名词",
+      "example": "切手を三枚買います。",
+      "exampleMeaning": "买三张邮票。"
+    },
+    {
+      "id": "n5-enpitsu",
+      "word": "鉛筆",
+      "kana": "えんぴつ",
+      "meaning": "铅笔",
+      "type": "名词",
+      "example": "鉛筆で書きます。",
+      "exampleMeaning": "用铅笔写。"
+    },
+    {
+      "id": "n5-pen",
+      "word": "ペン",
+      "kana": "ぺん",
+      "meaning": "笔",
+      "type": "名词",
+      "example": "このペンは書きやすいです。",
+      "exampleMeaning": "这支笔很好写。"
+    },
+    {
+      "id": "n5-nooto",
+      "word": "ノート",
+      "kana": "のーと",
+      "meaning": "笔记本",
+      "type": "名词",
+      "example": "ノートに漢字を書きます。",
+      "exampleMeaning": "在笔记本上写汉字。"
+    },
+    {
+      "id": "n5-jisho",
+      "word": "辞書",
+      "kana": "じしょ",
+      "meaning": "词典",
+      "type": "名词",
+      "example": "辞書で言葉を調べます。",
+      "exampleMeaning": "用词典查单词。"
+    },
+    {
+      "id": "n5-shinbun",
+      "word": "新聞",
+      "kana": "しんぶん",
+      "meaning": "报纸",
+      "type": "名词",
+      "example": "朝、新聞を読みます。",
+      "exampleMeaning": "早上读报纸。"
+    },
+    {
+      "id": "n5-zasshi",
+      "word": "雑誌",
+      "kana": "ざっし",
+      "meaning": "杂志",
+      "type": "名词",
+      "example": "雑誌を買いました。",
+      "exampleMeaning": "买了杂志。"
+    },
+    {
+      "id": "n5-chizu",
+      "word": "地図",
+      "kana": "ちず",
+      "meaning": "地图",
+      "type": "名词",
+      "example": "地図を見てください。",
+      "exampleMeaning": "请看地图。"
+    },
+    {
+      "id": "n5-kagi",
+      "word": "鍵",
+      "kana": "かぎ",
+      "meaning": "钥匙",
+      "type": "名词",
+      "example": "鍵を忘れました。",
+      "exampleMeaning": "忘记钥匙了。"
+    },
+    {
+      "id": "n5-kasa",
+      "word": "傘",
+      "kana": "かさ",
+      "meaning": "伞",
+      "type": "名词",
+      "example": "雨ですから、傘を持ちます。",
+      "exampleMeaning": "因为下雨，所以带伞。"
+    },
+    {
+      "id": "n5-kutsu",
+      "word": "靴",
+      "kana": "くつ",
+      "meaning": "鞋",
+      "type": "名词",
+      "example": "新しい靴を買いました。",
+      "exampleMeaning": "买了新鞋。"
+    },
+    {
+      "id": "n5-fuku",
+      "word": "服",
+      "kana": "ふく",
+      "meaning": "衣服",
+      "type": "名词",
+      "example": "白い服を着ます。",
+      "exampleMeaning": "穿白色衣服。"
+    },
+    {
+      "id": "n5-kaban",
+      "word": "かばん",
+      "kana": "かばん",
+      "meaning": "包",
+      "type": "名词",
+      "example": "かばんに本があります。",
+      "exampleMeaning": "包里有书。"
+    },
+    {
+      "id": "n5-saifu",
+      "word": "財布",
+      "kana": "さいふ",
+      "meaning": "钱包",
+      "type": "名词",
+      "example": "財布をなくしました。",
+      "exampleMeaning": "钱包丢了。"
+    },
+    {
+      "id": "n5-megane",
+      "word": "眼鏡",
+      "kana": "めがね",
+      "meaning": "眼镜",
+      "type": "名词",
+      "example": "眼鏡をかけます。",
+      "exampleMeaning": "戴眼镜。"
+    },
+    {
+      "id": "n5-hon",
+      "word": "本",
+      "kana": "ほん",
+      "meaning": "书",
+      "type": "名词",
+      "example": "日本語の本を読みます。",
+      "exampleMeaning": "读日语书。"
+    },
+    {
+      "id": "n5-tabemono",
+      "word": "食べ物",
+      "kana": "たべもの",
+      "meaning": "食物",
+      "type": "名词",
+      "example": "好きな食べ物は何ですか。",
+      "exampleMeaning": "喜欢的食物是什么？"
+    },
+    {
+      "id": "n5-nomimono",
+      "word": "飲み物",
+      "kana": "のみもの",
+      "meaning": "饮料",
+      "type": "名词",
+      "example": "冷たい飲み物を飲みます。",
+      "exampleMeaning": "喝冷饮。"
+    },
+    {
+      "id": "n5-gohan",
+      "word": "ご飯",
+      "kana": "ごはん",
+      "meaning": "米饭、饭",
+      "type": "名词",
+      "example": "ご飯を食べます。",
+      "exampleMeaning": "吃饭。"
+    },
+    {
+      "id": "n5-asagohan",
+      "word": "朝ご飯",
+      "kana": "あさごはん",
+      "meaning": "早饭",
+      "type": "名词",
+      "example": "朝ご飯を食べます。",
+      "exampleMeaning": "吃早饭。"
+    },
+    {
+      "id": "n5-hirugohan",
+      "word": "昼ご飯",
+      "kana": "ひるごはん",
+      "meaning": "午饭",
+      "type": "名词",
+      "example": "昼ご飯は何ですか。",
+      "exampleMeaning": "午饭是什么？"
+    },
+    {
+      "id": "n5-bangohan",
+      "word": "晩ご飯",
+      "kana": "ばんごはん",
+      "meaning": "晚饭",
+      "type": "名词",
+      "example": "晩ご飯を作ります。",
+      "exampleMeaning": "做晚饭。"
+    },
+    {
+      "id": "n5-pan",
+      "word": "パン",
+      "kana": "ぱん",
+      "meaning": "面包",
+      "type": "名词",
+      "example": "パンと牛乳を買います。",
+      "exampleMeaning": "买面包和牛奶。"
+    },
+    {
+      "id": "n5-niku",
+      "word": "肉",
+      "kana": "にく",
+      "meaning": "肉",
+      "type": "名词",
+      "example": "肉を食べます。",
+      "exampleMeaning": "吃肉。"
+    },
+    {
+      "id": "n5-sakana",
+      "word": "魚",
+      "kana": "さかな",
+      "meaning": "鱼",
+      "type": "名词",
+      "example": "魚が好きです。",
+      "exampleMeaning": "喜欢鱼。"
+    },
+    {
+      "id": "n5-yasai",
+      "word": "野菜",
+      "kana": "やさい",
+      "meaning": "蔬菜",
+      "type": "名词",
+      "example": "野菜をたくさん食べます。",
+      "exampleMeaning": "吃很多蔬菜。"
+    },
+    {
+      "id": "n5-kudamono",
+      "word": "果物",
+      "kana": "くだもの",
+      "meaning": "水果",
+      "type": "名词",
+      "example": "果物を買います。",
+      "exampleMeaning": "买水果。"
+    },
+    {
+      "id": "n5-tamago",
+      "word": "卵",
+      "kana": "たまご",
+      "meaning": "鸡蛋",
+      "type": "名词",
+      "example": "卵を一つ食べます。",
+      "exampleMeaning": "吃一个鸡蛋。"
+    },
+    {
+      "id": "n5-gyuunyuu",
+      "word": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "meaning": "牛奶",
+      "type": "名词",
+      "example": "牛乳を飲みます。",
+      "exampleMeaning": "喝牛奶。"
+    },
+    {
+      "id": "n5-ocha",
+      "word": "お茶",
+      "kana": "おちゃ",
+      "meaning": "茶",
+      "type": "名词",
+      "example": "お茶を飲みます。",
+      "exampleMeaning": "喝茶。"
+    },
+    {
+      "id": "n5-koohii",
+      "word": "コーヒー",
+      "kana": "こーひー",
+      "meaning": "咖啡",
+      "type": "名词",
+      "example": "朝、コーヒーを飲みます。",
+      "exampleMeaning": "早上喝咖啡。"
+    },
+    {
+      "id": "n5-mizu",
+      "word": "水",
+      "kana": "みず",
+      "meaning": "水",
+      "type": "名词",
+      "example": "水をください。",
+      "exampleMeaning": "请给我水。"
+    },
+    {
+      "id": "n5-sake",
+      "word": "酒",
+      "kana": "さけ",
+      "meaning": "酒",
+      "type": "名词",
+      "example": "父は酒を飲みません。",
+      "exampleMeaning": "父亲不喝酒。"
+    },
+    {
+      "id": "n5-densha",
+      "word": "電車",
+      "kana": "でんしゃ",
+      "meaning": "电车",
+      "type": "名词",
+      "example": "電車で学校へ行きます。",
+      "exampleMeaning": "坐电车去学校。"
+    },
+    {
+      "id": "n5-basu",
+      "word": "バス",
+      "kana": "ばす",
+      "meaning": "公交车",
+      "type": "名词",
+      "example": "バスに乗ります。",
+      "exampleMeaning": "坐公交车。"
+    },
+    {
+      "id": "n5-takushii",
+      "word": "タクシー",
+      "kana": "たくしー",
+      "meaning": "出租车",
+      "type": "名词",
+      "example": "タクシーで帰ります。",
+      "exampleMeaning": "坐出租车回去。"
+    },
+    {
+      "id": "n5-jitensha",
+      "word": "自転車",
+      "kana": "じてんしゃ",
+      "meaning": "自行车",
+      "type": "名词",
+      "example": "自転車で公園へ行きます。",
+      "exampleMeaning": "骑自行车去公园。"
+    },
+    {
+      "id": "n5-hikouki",
+      "word": "飛行機",
+      "kana": "ひこうき",
+      "meaning": "飞机",
+      "type": "名词",
+      "example": "飛行機で日本へ行きます。",
+      "exampleMeaning": "坐飞机去日本。"
+    },
+    {
+      "id": "n5-kuruma",
+      "word": "車",
+      "kana": "くるま",
+      "meaning": "汽车",
+      "type": "名词",
+      "example": "車で駅へ行きます。",
+      "exampleMeaning": "开车去车站。"
+    },
+    {
+      "id": "n5-michi",
+      "word": "道",
+      "kana": "みち",
+      "meaning": "道路",
+      "type": "名词",
+      "example": "この道をまっすぐ行きます。",
+      "exampleMeaning": "沿这条路直走。"
+    },
+    {
+      "id": "n5-migi",
+      "word": "右",
+      "kana": "みぎ",
+      "meaning": "右边",
+      "type": "名词",
+      "example": "右へ曲がります。",
+      "exampleMeaning": "向右转。"
+    },
+    {
+      "id": "n5-hidari",
+      "word": "左",
+      "kana": "ひだり",
+      "meaning": "左边",
+      "type": "名词",
+      "example": "左に銀行があります。",
+      "exampleMeaning": "左边有银行。"
+    },
+    {
+      "id": "n5-mae",
+      "word": "前",
+      "kana": "まえ",
+      "meaning": "前面",
+      "type": "名词",
+      "example": "駅の前で待ちます。",
+      "exampleMeaning": "在车站前等。"
+    },
+    {
+      "id": "n5-ushiro",
+      "word": "後ろ",
+      "kana": "うしろ",
+      "meaning": "后面",
+      "type": "名词",
+      "example": "学校の後ろに公園があります。",
+      "exampleMeaning": "学校后面有公园。"
+    },
+    {
+      "id": "n5-naka",
+      "word": "中",
+      "kana": "なか",
+      "meaning": "里面",
+      "type": "名词",
+      "example": "かばんの中に本があります。",
+      "exampleMeaning": "包里面有书。"
+    },
+    {
+      "id": "n5-soto",
+      "word": "外",
+      "kana": "そと",
+      "meaning": "外面",
+      "type": "名词",
+      "example": "外は寒いです。",
+      "exampleMeaning": "外面很冷。"
+    },
+    {
+      "id": "n5-ue",
+      "word": "上",
+      "kana": "うえ",
+      "meaning": "上面",
+      "type": "名词",
+      "example": "机の上に時計があります。",
+      "exampleMeaning": "桌上有钟。"
+    },
+    {
+      "id": "n5-shita",
+      "word": "下",
+      "kana": "した",
+      "meaning": "下面",
+      "type": "名词",
+      "example": "椅子の下にかばんがあります。",
+      "exampleMeaning": "椅子下面有包。"
+    },
+    {
+      "id": "n5-chikaku",
+      "word": "近く",
+      "kana": "ちかく",
+      "meaning": "附近",
+      "type": "名词",
+      "example": "駅の近くに住んでいます。",
+      "exampleMeaning": "住在车站附近。"
+    },
+    {
+      "id": "n5-tonari",
+      "word": "隣",
+      "kana": "となり",
+      "meaning": "旁边",
+      "type": "名词",
+      "example": "隣の部屋は静かです。",
+      "exampleMeaning": "旁边的房间很安静。"
+    },
+    {
+      "id": "n5-tenki",
+      "word": "天気",
+      "kana": "てんき",
+      "meaning": "天气",
+      "type": "名词",
+      "example": "今日は天気がいいです。",
+      "exampleMeaning": "今天天气好。"
+    },
+    {
+      "id": "n5-ame",
+      "word": "雨",
+      "kana": "あめ",
+      "meaning": "雨",
+      "type": "名词",
+      "example": "雨が降っています。",
+      "exampleMeaning": "正在下雨。"
+    },
+    {
+      "id": "n5-yuki",
+      "word": "雪",
+      "kana": "ゆき",
+      "meaning": "雪",
+      "type": "名词",
+      "example": "雪が降りました。",
+      "exampleMeaning": "下雪了。"
+    },
+    {
+      "id": "n5-kaze",
+      "word": "風",
+      "kana": "かぜ",
+      "meaning": "风",
+      "type": "名词",
+      "example": "今日は風が強いです。",
+      "exampleMeaning": "今天风很大。"
+    },
+    {
+      "id": "n5-sora",
+      "word": "空",
+      "kana": "そら",
+      "meaning": "天空",
+      "type": "名词",
+      "example": "空が青いです。",
+      "exampleMeaning": "天空很蓝。"
+    },
+    {
+      "id": "n5-yama",
+      "word": "山",
+      "kana": "やま",
+      "meaning": "山",
+      "type": "名词",
+      "example": "山へ行きます。",
+      "exampleMeaning": "去山上。"
+    },
+    {
+      "id": "n5-kawa",
+      "word": "川",
+      "kana": "かわ",
+      "meaning": "河流",
+      "type": "名词",
+      "example": "川の水は冷たいです。",
+      "exampleMeaning": "河水很凉。"
+    },
+    {
+      "id": "n5-umi",
+      "word": "海",
+      "kana": "うみ",
+      "meaning": "海",
+      "type": "名词",
+      "example": "夏に海へ行きます。",
+      "exampleMeaning": "夏天去海边。"
+    },
+    {
+      "id": "n5-ki",
+      "word": "木",
+      "kana": "き",
+      "meaning": "树",
+      "type": "名词",
+      "example": "庭に木があります。",
+      "exampleMeaning": "院子里有树。"
+    },
+    {
+      "id": "n5-hana",
+      "word": "花",
+      "kana": "はな",
+      "meaning": "花",
+      "type": "名词",
+      "example": "花がきれいです。",
+      "exampleMeaning": "花很漂亮。"
+    },
+    {
+      "id": "n5-te",
+      "word": "手",
+      "kana": "て",
+      "meaning": "手",
+      "type": "名词",
+      "example": "手を洗います。",
+      "exampleMeaning": "洗手。"
+    },
+    {
+      "id": "n5-ashi",
+      "word": "足",
+      "kana": "あし",
+      "meaning": "脚、腿",
+      "type": "名词",
+      "example": "足が痛いです。",
+      "exampleMeaning": "脚疼。"
+    },
+    {
+      "id": "n5-me",
+      "word": "目",
+      "kana": "め",
+      "meaning": "眼睛",
+      "type": "名词",
+      "example": "目を閉じてください。",
+      "exampleMeaning": "请闭上眼睛。"
+    },
+    {
+      "id": "n5-kuchi",
+      "word": "口",
+      "kana": "くち",
+      "meaning": "嘴",
+      "type": "名词",
+      "example": "口を開けます。",
+      "exampleMeaning": "张开嘴。"
+    },
+    {
+      "id": "n5-mimi",
+      "word": "耳",
+      "kana": "みみ",
+      "meaning": "耳朵",
+      "type": "名词",
+      "example": "耳で音を聞きます。",
+      "exampleMeaning": "用耳朵听声音。"
+    },
+    {
+      "id": "n5-atama",
+      "word": "頭",
+      "kana": "あたま",
+      "meaning": "头",
+      "type": "名词",
+      "example": "頭が痛いです。",
+      "exampleMeaning": "头疼。"
+    },
+    {
+      "id": "n5-aru",
+      "word": "ある",
+      "kana": "ある",
+      "meaning": "有、在（无生命）",
+      "type": "动词",
+      "example": "机の上に本があります。",
+      "exampleMeaning": "桌上有书。"
+    },
+    {
+      "id": "n5-iru",
+      "word": "いる",
+      "kana": "いる",
+      "meaning": "有、在（有生命）",
+      "type": "动词",
+      "example": "教室に先生がいます。",
+      "exampleMeaning": "教室里有老师。"
+    },
+    {
+      "id": "n5-iku",
+      "word": "行く",
+      "kana": "いく",
+      "meaning": "去",
+      "type": "动词",
+      "example": "明日、図書館へ行きます。",
+      "exampleMeaning": "明天去图书馆。"
+    },
+    {
+      "id": "n5-kuru",
+      "word": "来る",
+      "kana": "くる",
+      "meaning": "来",
+      "type": "动词",
+      "example": "友達が家へ来ます。",
+      "exampleMeaning": "朋友来家里。"
+    },
+    {
+      "id": "n5-kaeru",
+      "word": "帰る",
+      "kana": "かえる",
+      "meaning": "回去",
+      "type": "动词",
+      "example": "六時に家へ帰ります。",
+      "exampleMeaning": "六点回家。"
+    },
+    {
+      "id": "n5-taberu",
+      "word": "食べる",
+      "kana": "たべる",
+      "meaning": "吃",
+      "type": "动词",
+      "example": "昼ご飯を食べます。",
+      "exampleMeaning": "吃午饭。"
+    },
+    {
+      "id": "n5-nomu",
+      "word": "飲む",
+      "kana": "のむ",
+      "meaning": "喝",
+      "type": "动词",
+      "example": "お茶を飲みます。",
+      "exampleMeaning": "喝茶。"
+    },
+    {
+      "id": "n5-miru",
+      "word": "見る",
+      "kana": "みる",
+      "meaning": "看",
+      "type": "动词",
+      "example": "テレビを見ます。",
+      "exampleMeaning": "看电视。"
+    },
+    {
+      "id": "n5-kiku",
+      "word": "聞く",
+      "kana": "きく",
+      "meaning": "听、问",
+      "type": "动词",
+      "example": "音楽を聞きます。",
+      "exampleMeaning": "听音乐。"
+    },
+    {
+      "id": "n5-yomu",
+      "word": "読む",
+      "kana": "よむ",
+      "meaning": "读",
+      "type": "动词",
+      "example": "新聞を読みます。",
+      "exampleMeaning": "读报纸。"
+    },
+    {
+      "id": "n5-kaku",
+      "word": "書く",
+      "kana": "かく",
+      "meaning": "写",
+      "type": "动词",
+      "example": "ノートに書きます。",
+      "exampleMeaning": "写在笔记本上。"
+    },
+    {
+      "id": "n5-hanasu",
+      "word": "話す",
+      "kana": "はなす",
+      "meaning": "说话",
+      "type": "动词",
+      "example": "日本語で話します。",
+      "exampleMeaning": "用日语说话。"
+    },
+    {
+      "id": "n5-au",
+      "word": "会う",
+      "kana": "あう",
+      "meaning": "见面",
+      "type": "动词",
+      "example": "友達に会います。",
+      "exampleMeaning": "见朋友。"
+    },
+    {
+      "id": "n5-kau",
+      "word": "買う",
+      "kana": "かう",
+      "meaning": "买",
+      "type": "动词",
+      "example": "店でパンを買います。",
+      "exampleMeaning": "在店里买面包。"
+    },
+    {
+      "id": "n5-uru",
+      "word": "売る",
+      "kana": "うる",
+      "meaning": "卖",
+      "type": "动词",
+      "example": "店で本を売ります。",
+      "exampleMeaning": "在店里卖书。"
+    },
+    {
+      "id": "n5-tsukau",
+      "word": "使う",
+      "kana": "つかう",
+      "meaning": "使用",
+      "type": "动词",
+      "example": "辞書を使います。",
+      "exampleMeaning": "使用词典。"
+    },
+    {
+      "id": "n5-tsukuru",
+      "word": "作る",
+      "kana": "つくる",
+      "meaning": "制作、做",
+      "type": "动词",
+      "example": "晩ご飯を作ります。",
+      "exampleMeaning": "做晚饭。"
+    },
+    {
+      "id": "n5-benkyousuru",
+      "word": "勉強する",
+      "kana": "べんきょうする",
+      "meaning": "学习",
+      "type": "动词",
+      "example": "日本語を勉強します。",
+      "exampleMeaning": "学习日语。"
+    },
+    {
+      "id": "n5-shigotosuru",
+      "word": "仕事する",
+      "kana": "しごとする",
+      "meaning": "工作",
+      "type": "动词",
+      "example": "父は会社で仕事します。",
+      "exampleMeaning": "父亲在公司工作。"
+    },
+    {
+      "id": "n5-yasumu",
+      "word": "休む",
+      "kana": "やすむ",
+      "meaning": "休息、请假",
+      "type": "动词",
+      "example": "今日は学校を休みます。",
+      "exampleMeaning": "今天不上学。"
+    },
+    {
+      "id": "n5-neru",
+      "word": "寝る",
+      "kana": "ねる",
+      "meaning": "睡觉",
+      "type": "动词",
+      "example": "十時に寝ます。",
+      "exampleMeaning": "十点睡觉。"
+    },
+    {
+      "id": "n5-okiru",
+      "word": "起きる",
+      "kana": "おきる",
+      "meaning": "起床、起来",
+      "type": "动词",
+      "example": "毎朝、七時に起きます。",
+      "exampleMeaning": "每天早上七点起床。"
+    },
+    {
+      "id": "n5-arau",
+      "word": "洗う",
+      "kana": "あらう",
+      "meaning": "洗",
+      "type": "动词",
+      "example": "手を洗います。",
+      "exampleMeaning": "洗手。"
+    },
+    {
+      "id": "n5-hairu",
+      "word": "入る",
+      "kana": "はいる",
+      "meaning": "进入",
+      "type": "动词",
+      "example": "部屋に入ります。",
+      "exampleMeaning": "进入房间。"
+    },
+    {
+      "id": "n5-deru",
+      "word": "出る",
+      "kana": "でる",
+      "meaning": "出去、离开",
+      "type": "动词",
+      "example": "家を出ます。",
+      "exampleMeaning": "离开家。"
+    },
+    {
+      "id": "n5-akeru",
+      "word": "開ける",
+      "kana": "あける",
+      "meaning": "打开",
+      "type": "动词",
+      "example": "窓を開けます。",
+      "exampleMeaning": "打开窗户。"
+    },
+    {
+      "id": "n5-shimeru",
+      "word": "閉める",
+      "kana": "しめる",
+      "meaning": "关闭",
+      "type": "动词",
+      "example": "ドアを閉めます。",
+      "exampleMeaning": "关门。"
+    },
+    {
+      "id": "n5-tatsu",
+      "word": "立つ",
+      "kana": "たつ",
+      "meaning": "站立",
+      "type": "动词",
+      "example": "椅子から立ちます。",
+      "exampleMeaning": "从椅子上站起来。"
+    },
+    {
+      "id": "n5-suwaru",
+      "word": "座る",
+      "kana": "すわる",
+      "meaning": "坐",
+      "type": "动词",
+      "example": "椅子に座ります。",
+      "exampleMeaning": "坐在椅子上。"
+    },
+    {
+      "id": "n5-matsu",
+      "word": "待つ",
+      "kana": "まつ",
+      "meaning": "等待",
+      "type": "动词",
+      "example": "駅で友達を待ちます。",
+      "exampleMeaning": "在车站等朋友。"
+    },
+    {
+      "id": "n5-motsu",
+      "word": "持つ",
+      "kana": "もつ",
+      "meaning": "拿、持有",
+      "type": "动词",
+      "example": "傘を持ちます。",
+      "exampleMeaning": "拿伞。"
+    },
+    {
+      "id": "n5-toru",
+      "word": "取る",
+      "kana": "とる",
+      "meaning": "拿取",
+      "type": "动词",
+      "example": "机の上の本を取ります。",
+      "exampleMeaning": "拿桌上的书。"
+    },
+    {
+      "id": "n5-toru-photo",
+      "word": "撮る",
+      "kana": "とる",
+      "meaning": "拍照",
+      "type": "动词",
+      "example": "写真を撮ります。",
+      "exampleMeaning": "拍照片。"
+    },
+    {
+      "id": "n5-aruku",
+      "word": "歩く",
+      "kana": "あるく",
+      "meaning": "走路",
+      "type": "动词",
+      "example": "駅まで歩きます。",
+      "exampleMeaning": "走到车站。"
+    },
+    {
+      "id": "n5-hashiru",
+      "word": "走る",
+      "kana": "はしる",
+      "meaning": "跑",
+      "type": "动词",
+      "example": "公園で走ります。",
+      "exampleMeaning": "在公园跑步。"
+    },
+    {
+      "id": "n5-oyogu",
+      "word": "泳ぐ",
+      "kana": "およぐ",
+      "meaning": "游泳",
+      "type": "动词",
+      "example": "海で泳ぎます。",
+      "exampleMeaning": "在海里游泳。"
+    },
+    {
+      "id": "n5-asobu",
+      "word": "遊ぶ",
+      "kana": "あそぶ",
+      "meaning": "玩",
+      "type": "动词",
+      "example": "友達と遊びます。",
+      "exampleMeaning": "和朋友玩。"
+    },
+    {
+      "id": "n5-kariru",
+      "word": "借りる",
+      "kana": "かりる",
+      "meaning": "借入",
+      "type": "动词",
+      "example": "図書館で本を借ります。",
+      "exampleMeaning": "在图书馆借书。"
+    },
+    {
+      "id": "n5-kasu",
+      "word": "貸す",
+      "kana": "かす",
+      "meaning": "借出",
+      "type": "动词",
+      "example": "友達にペンを貸します。",
+      "exampleMeaning": "把笔借给朋友。"
+    },
+    {
+      "id": "n5-oshieru",
+      "word": "教える",
+      "kana": "おしえる",
+      "meaning": "教、告诉",
+      "type": "动词",
+      "example": "先生が日本語を教えます。",
+      "exampleMeaning": "老师教日语。"
+    },
+    {
+      "id": "n5-narau",
+      "word": "習う",
+      "kana": "ならう",
+      "meaning": "学习（技能）",
+      "type": "动词",
+      "example": "学校で漢字を習います。",
+      "exampleMeaning": "在学校学汉字。"
+    },
+    {
+      "id": "n5-wasureru",
+      "word": "忘れる",
+      "kana": "わすれる",
+      "meaning": "忘记",
+      "type": "动词",
+      "example": "鍵を忘れました。",
+      "exampleMeaning": "忘记钥匙了。"
+    },
+    {
+      "id": "n5-wakaru",
+      "word": "分かる",
+      "kana": "わかる",
+      "meaning": "明白",
+      "type": "动词",
+      "example": "日本語が少し分かります。",
+      "exampleMeaning": "懂一点日语。"
+    },
+    {
+      "id": "n5-hajimaru",
+      "word": "始まる",
+      "kana": "はじまる",
+      "meaning": "开始",
+      "type": "动词",
+      "example": "授業は九時に始まります。",
+      "exampleMeaning": "课九点开始。"
+    },
+    {
+      "id": "n5-owaru",
+      "word": "終わる",
+      "kana": "おわる",
+      "meaning": "结束",
+      "type": "动词",
+      "example": "仕事は五時に終わります。",
+      "exampleMeaning": "工作五点结束。"
+    },
+    {
+      "id": "n5-ookii",
+      "word": "大きい",
+      "kana": "おおきい",
+      "meaning": "大的",
+      "type": "形容词",
+      "example": "大きい犬がいます。",
+      "exampleMeaning": "有一只大狗。"
+    },
+    {
+      "id": "n5-chiisai",
+      "word": "小さい",
+      "kana": "ちいさい",
+      "meaning": "小的",
+      "type": "形容词",
+      "example": "小さい部屋です。",
+      "exampleMeaning": "是小房间。"
+    },
+    {
+      "id": "n5-atarashii",
+      "word": "新しい",
+      "kana": "あたらしい",
+      "meaning": "新的",
+      "type": "形容词",
+      "example": "新しいかばんを買いました。",
+      "exampleMeaning": "买了新包。"
+    },
+    {
+      "id": "n5-furui",
+      "word": "古い",
+      "kana": "ふるい",
+      "meaning": "旧的",
+      "type": "形容词",
+      "example": "これは古い写真です。",
+      "exampleMeaning": "这是旧照片。"
+    },
+    {
+      "id": "n5-takai",
+      "word": "高い",
+      "kana": "たかい",
+      "meaning": "高的、贵的",
+      "type": "形容词",
+      "example": "この本は少し高いです。",
+      "exampleMeaning": "这本书有点贵。"
+    },
+    {
+      "id": "n5-yasui",
+      "word": "安い",
+      "kana": "やすい",
+      "meaning": "便宜的",
+      "type": "形容词",
+      "example": "このペンは安いです。",
+      "exampleMeaning": "这支笔很便宜。"
+    },
+    {
+      "id": "n5-atsui-weather",
+      "word": "暑い",
+      "kana": "あつい",
+      "meaning": "热的（天气）",
+      "type": "形容词",
+      "example": "今日は暑いです。",
+      "exampleMeaning": "今天很热。"
+    },
+    {
+      "id": "n5-samui",
+      "word": "寒い",
+      "kana": "さむい",
+      "meaning": "冷的（天气）",
+      "type": "形容词",
+      "example": "冬は寒いです。",
+      "exampleMeaning": "冬天很冷。"
+    },
+    {
+      "id": "n5-atsui-hot",
+      "word": "熱い",
+      "kana": "あつい",
+      "meaning": "烫的、热的",
+      "type": "形容词",
+      "example": "このお茶は熱いです。",
+      "exampleMeaning": "这杯茶很烫。"
+    },
+    {
+      "id": "n5-tsumetai",
+      "word": "冷たい",
+      "kana": "つめたい",
+      "meaning": "冷的、凉的",
+      "type": "形容词",
+      "example": "冷たい水を飲みます。",
+      "exampleMeaning": "喝凉水。"
+    },
+    {
+      "id": "n5-atatakai",
+      "word": "暖かい",
+      "kana": "あたたかい",
+      "meaning": "温暖的",
+      "type": "形容词",
+      "example": "今日は暖かいです。",
+      "exampleMeaning": "今天很暖和。"
+    },
+    {
+      "id": "n5-suzushii",
+      "word": "涼しい",
+      "kana": "すずしい",
+      "meaning": "凉爽的",
+      "type": "形容词",
+      "example": "夜は涼しいです。",
+      "exampleMeaning": "晚上很凉爽。"
+    },
+    {
+      "id": "n5-muzukashii",
+      "word": "難しい",
+      "kana": "むずかしい",
+      "meaning": "难的",
+      "type": "形容词",
+      "example": "漢字は難しいです。",
+      "exampleMeaning": "汉字很难。"
+    },
+    {
+      "id": "n5-yasashii",
+      "word": "易しい",
+      "kana": "やさしい",
+      "meaning": "简单的",
+      "type": "形容词",
+      "example": "この問題は易しいです。",
+      "exampleMeaning": "这道题很简单。"
+    },
+    {
+      "id": "n5-omoshiroi",
+      "word": "面白い",
+      "kana": "おもしろい",
+      "meaning": "有趣的",
+      "type": "形容词",
+      "example": "この本は面白いです。",
+      "exampleMeaning": "这本书很有趣。"
+    },
+    {
+      "id": "n5-tsumaranai",
+      "word": "つまらない",
+      "kana": "つまらない",
+      "meaning": "无聊的",
+      "type": "形容词",
+      "example": "この映画はつまらないです。",
+      "exampleMeaning": "这部电影很无聊。"
+    },
+    {
+      "id": "n5-isogashii",
+      "word": "忙しい",
+      "kana": "いそがしい",
+      "meaning": "忙的",
+      "type": "形容词",
+      "example": "今週は忙しいです。",
+      "exampleMeaning": "这周很忙。"
+    },
+    {
+      "id": "n5-tanoshii",
+      "word": "楽しい",
+      "kana": "たのしい",
+      "meaning": "开心的、有趣的",
+      "type": "形容词",
+      "example": "旅行は楽しいです。",
+      "exampleMeaning": "旅行很开心。"
+    },
+    {
+      "id": "n5-chikai",
+      "word": "近い",
+      "kana": "ちかい",
+      "meaning": "近的",
+      "type": "形容词",
+      "example": "駅は家に近いです。",
+      "exampleMeaning": "车站离家近。"
+    },
+    {
+      "id": "n5-tooi",
+      "word": "遠い",
+      "kana": "とおい",
+      "meaning": "远的",
+      "type": "形容词",
+      "example": "学校は家から遠いです。",
+      "exampleMeaning": "学校离家远。"
+    },
+    {
+      "id": "n5-hayai",
+      "word": "早い",
+      "kana": "はやい",
+      "meaning": "早的",
+      "type": "形容词",
+      "example": "朝は早いです。",
+      "exampleMeaning": "早上很早。"
+    },
+    {
+      "id": "n5-osoi",
+      "word": "遅い",
+      "kana": "おそい",
+      "meaning": "晚的、慢的",
+      "type": "形容词",
+      "example": "バスは遅いです。",
+      "exampleMeaning": "公交车很慢。"
+    },
+    {
+      "id": "n5-ooi",
+      "word": "多い",
+      "kana": "おおい",
+      "meaning": "多的",
+      "type": "形容词",
+      "example": "人が多いです。",
+      "exampleMeaning": "人很多。"
+    },
+    {
+      "id": "n5-sukunai",
+      "word": "少ない",
+      "kana": "すくない",
+      "meaning": "少的",
+      "type": "形容词",
+      "example": "時間が少ないです。",
+      "exampleMeaning": "时间很少。"
+    },
+    {
+      "id": "n5-nagai",
+      "word": "長い",
+      "kana": "ながい",
+      "meaning": "长的",
+      "type": "形容词",
+      "example": "この道は長いです。",
+      "exampleMeaning": "这条路很长。"
+    },
+    {
+      "id": "n5-mijikai",
+      "word": "短い",
+      "kana": "みじかい",
+      "meaning": "短的",
+      "type": "形容词",
+      "example": "休みは短いです。",
+      "exampleMeaning": "假期很短。"
+    },
+    {
+      "id": "n5-omoi",
+      "word": "重い",
+      "kana": "おもい",
+      "meaning": "重的",
+      "type": "形容词",
+      "example": "このかばんは重いです。",
+      "exampleMeaning": "这个包很重。"
+    },
+    {
+      "id": "n5-karui",
+      "word": "軽い",
+      "kana": "かるい",
+      "meaning": "轻的",
+      "type": "形容词",
+      "example": "この荷物は軽いです。",
+      "exampleMeaning": "这个行李很轻。"
+    },
+    {
+      "id": "n5-hiroi",
+      "word": "広い",
+      "kana": "ひろい",
+      "meaning": "宽广的",
+      "type": "形容词",
+      "example": "この部屋は広いです。",
+      "exampleMeaning": "这个房间很宽敞。"
+    },
+    {
+      "id": "n5-semai",
+      "word": "狭い",
+      "kana": "せまい",
+      "meaning": "狭窄的",
+      "type": "形容词",
+      "example": "この道は狭いです。",
+      "exampleMeaning": "这条路很窄。"
+    },
+    {
+      "id": "n5-ii",
+      "word": "いい",
+      "kana": "いい",
+      "meaning": "好的",
+      "type": "形容词",
+      "example": "今日は天気がいいです。",
+      "exampleMeaning": "今天天气好。"
+    },
+    {
+      "id": "n5-warui",
+      "word": "悪い",
+      "kana": "わるい",
+      "meaning": "坏的",
+      "type": "形容词",
+      "example": "天気が悪いです。",
+      "exampleMeaning": "天气不好。"
+    },
+    {
+      "id": "n5-akai",
+      "word": "赤い",
+      "kana": "あかい",
+      "meaning": "红色的",
+      "type": "形容词",
+      "example": "赤い花があります。",
+      "exampleMeaning": "有红花。"
+    },
+    {
+      "id": "n5-aoi",
+      "word": "青い",
+      "kana": "あおい",
+      "meaning": "蓝色的",
+      "type": "形容词",
+      "example": "空は青いです。",
+      "exampleMeaning": "天空是蓝色的。"
+    },
+    {
+      "id": "n5-shiroi",
+      "word": "白い",
+      "kana": "しろい",
+      "meaning": "白色的",
+      "type": "形容词",
+      "example": "白い服を着ます。",
+      "exampleMeaning": "穿白色衣服。"
+    },
+    {
+      "id": "n5-kuroi",
+      "word": "黒い",
+      "kana": "くろい",
+      "meaning": "黑色的",
+      "type": "形容词",
+      "example": "黒い靴を買いました。",
+      "exampleMeaning": "买了黑鞋。"
+    },
+    {
+      "id": "n5-genki",
+      "word": "元気",
+      "kana": "げんき",
+      "meaning": "精神、健康",
+      "type": "形容动词",
+      "example": "お元気ですか。",
+      "exampleMeaning": "你好吗？"
+    },
+    {
+      "id": "n5-kirei",
+      "word": "きれい",
+      "kana": "きれい",
+      "meaning": "漂亮、干净",
+      "type": "形容动词",
+      "example": "この町はきれいです。",
+      "exampleMeaning": "这座城市很漂亮。"
+    },
+    {
+      "id": "n5-shizuka",
+      "word": "静か",
+      "kana": "しずか",
+      "meaning": "安静",
+      "type": "形容动词",
+      "example": "図書館は静かです。",
+      "exampleMeaning": "图书馆很安静。"
+    },
+    {
+      "id": "n5-nigiyaka",
+      "word": "にぎやか",
+      "kana": "にぎやか",
+      "meaning": "热闹",
+      "type": "形容动词",
+      "example": "駅の前はにぎやかです。",
+      "exampleMeaning": "车站前很热闹。"
+    },
+    {
+      "id": "n5-benri",
+      "word": "便利",
+      "kana": "べんり",
+      "meaning": "方便",
+      "type": "形容动词",
+      "example": "このアプリは便利です。",
+      "exampleMeaning": "这个应用很方便。"
+    },
+    {
+      "id": "n5-suki",
+      "word": "好き",
+      "kana": "すき",
+      "meaning": "喜欢",
+      "type": "形容动词",
+      "example": "私は日本語が好きです。",
+      "exampleMeaning": "我喜欢日语。"
+    },
+    {
+      "id": "n5-kirai",
+      "word": "嫌い",
+      "kana": "きらい",
+      "meaning": "讨厌",
+      "type": "形容动词",
+      "example": "辛い食べ物が嫌いです。",
+      "exampleMeaning": "讨厌辣的食物。"
+    },
+    {
+      "id": "n5-jouzu",
+      "word": "上手",
+      "kana": "じょうず",
+      "meaning": "擅长",
+      "type": "形容动词",
+      "example": "先生は中国語が上手です。",
+      "exampleMeaning": "老师中文很好。"
+    },
+    {
+      "id": "n5-heta",
+      "word": "下手",
+      "kana": "へた",
+      "meaning": "不擅长",
+      "type": "形容动词",
+      "example": "私は歌が下手です。",
+      "exampleMeaning": "我不擅长唱歌。"
+    },
+    {
+      "id": "n5-daijoubu",
+      "word": "大丈夫",
+      "kana": "だいじょうぶ",
+      "meaning": "没关系、不要紧",
+      "type": "形容动词",
+      "example": "一人で大丈夫です。",
+      "exampleMeaning": "一个人也没关系。"
+    },
+    {
+      "id": "n5-kantan",
+      "word": "簡単",
+      "kana": "かんたん",
+      "meaning": "简单",
+      "type": "形容动词",
+      "example": "このテストは簡単です。",
+      "exampleMeaning": "这个测试很简单。"
+    },
+    {
+      "id": "n5-totemo",
+      "word": "とても",
+      "kana": "とても",
+      "meaning": "非常",
+      "type": "副词",
+      "example": "今日はとても暑いです。",
+      "exampleMeaning": "今天非常热。"
+    },
+    {
+      "id": "n5-sukoshi",
+      "word": "少し",
+      "kana": "すこし",
+      "meaning": "一点、少量",
+      "type": "副词",
+      "example": "日本語が少し分かります。",
+      "exampleMeaning": "懂一点日语。"
+    },
+    {
+      "id": "n5-takusan",
+      "word": "たくさん",
+      "kana": "たくさん",
+      "meaning": "很多",
+      "type": "副词",
+      "example": "単語をたくさん覚えます。",
+      "exampleMeaning": "记很多单词。"
+    },
+    {
+      "id": "n5-yoku",
+      "word": "よく",
+      "kana": "よく",
+      "meaning": "经常、好好地",
+      "type": "副词",
+      "example": "よく日本語を聞きます。",
+      "exampleMeaning": "经常听日语。"
+    },
+    {
+      "id": "n5-amari",
+      "word": "あまり",
+      "kana": "あまり",
+      "meaning": "不太（接否定）",
+      "type": "副词",
+      "example": "肉はあまり食べません。",
+      "exampleMeaning": "不太吃肉。"
+    },
+    {
+      "id": "n5-sugu",
+      "word": "すぐ",
+      "kana": "すぐ",
+      "meaning": "马上",
+      "type": "副词",
+      "example": "すぐ行きます。",
+      "exampleMeaning": "马上去。"
+    },
+    {
+      "id": "n5-mou",
+      "word": "もう",
+      "kana": "もう",
+      "meaning": "已经、再",
+      "type": "副词",
+      "example": "もう宿題をしました。",
+      "exampleMeaning": "已经做作业了。"
+    },
+    {
+      "id": "n5-mada",
+      "word": "まだ",
+      "kana": "まだ",
+      "meaning": "还、尚未",
+      "type": "副词",
+      "example": "まだ分かりません。",
+      "exampleMeaning": "还不明白。"
+    },
+    {
+      "id": "n5-itsumo",
+      "word": "いつも",
+      "kana": "いつも",
+      "meaning": "总是",
+      "type": "副词",
+      "example": "いつも朝ご飯を食べます。",
+      "exampleMeaning": "总是吃早饭。"
+    },
+    {
+      "id": "n5-tokidoki",
+      "word": "時々",
+      "kana": "ときどき",
+      "meaning": "有时",
+      "type": "副词",
+      "example": "時々、映画を見ます。",
+      "exampleMeaning": "有时看电影。"
+    },
+    {
+      "id": "n5-isshoni",
+      "word": "一緒に",
+      "kana": "いっしょに",
+      "meaning": "一起",
+      "type": "副词",
+      "example": "一緒に勉強しましょう。",
+      "exampleMeaning": "一起学习吧。"
+    },
+    {
+      "id": "n5-douzo",
+      "word": "どうぞ",
+      "kana": "どうぞ",
+      "meaning": "请",
+      "type": "表达",
+      "example": "どうぞ入ってください。",
+      "exampleMeaning": "请进。"
+    },
+    {
+      "id": "n5-arigatou",
+      "word": "ありがとう",
+      "kana": "ありがとう",
+      "meaning": "谢谢",
+      "type": "表达",
+      "example": "どうもありがとう。",
+      "exampleMeaning": "非常感谢。"
+    },
+    {
+      "id": "n5-sumimasen",
+      "word": "すみません",
+      "kana": "すみません",
+      "meaning": "不好意思、对不起",
+      "type": "表达",
+      "example": "すみません、駅はどこですか。",
+      "exampleMeaning": "不好意思，车站在哪里？"
+    },
+    {
+      "id": "n5-hai",
+      "word": "はい",
+      "kana": "はい",
+      "meaning": "是、好的",
+      "type": "表达",
+      "example": "はい、分かりました。",
+      "exampleMeaning": "好的，我明白了。"
+    },
+    {
+      "id": "n5-iie",
+      "word": "いいえ",
+      "kana": "いいえ",
+      "meaning": "不是、不",
+      "type": "表达",
+      "example": "いいえ、違います。",
+      "exampleMeaning": "不，不是。"
+    },
+    {
+      "id": "n5-moshimoshi",
+      "word": "もしもし",
+      "kana": "もしもし",
+      "meaning": "喂（电话）",
+      "type": "表达",
+      "example": "もしもし、田中です。",
+      "exampleMeaning": "喂，我是田中。"
+    }
   ],
   "N4": [
-    { "id": "n4-yoyaku", "word": "予約", "kana": "よやく", "meaning": "预约", "type": "名词", "example": "ホテルを予約しました。", "exampleMeaning": "预约了酒店。" },
-    { "id": "n4-tsutaeru", "word": "伝える", "kana": "つたえる", "meaning": "传达、告诉", "type": "动词", "example": "先生に予定を伝えます。", "exampleMeaning": "把计划告诉老师。" },
-    { "id": "n4-benri", "word": "便利", "kana": "べんり", "meaning": "方便", "type": "形容动词", "example": "このアプリは便利です。", "exampleMeaning": "这个应用很方便。" }
+    {
+      "id": "n4-yoyaku",
+      "word": "予約",
+      "kana": "よやく",
+      "meaning": "预约",
+      "type": "名词",
+      "example": "ホテルを予約しました。",
+      "exampleMeaning": "预约了酒店。"
+    },
+    {
+      "id": "n4-tsutaeru",
+      "word": "伝える",
+      "kana": "つたえる",
+      "meaning": "传达、告诉",
+      "type": "动词",
+      "example": "先生に予定を伝えます。",
+      "exampleMeaning": "把计划告诉老师。"
+    },
+    {
+      "id": "n4-benri",
+      "word": "便利",
+      "kana": "べんり",
+      "meaning": "方便",
+      "type": "形容动词",
+      "example": "このアプリは便利です。",
+      "exampleMeaning": "这个应用很方便。"
+    }
   ],
   "N3": [
-    { "id": "n3-kakunin", "word": "確認", "kana": "かくにん", "meaning": "确认", "type": "名词/サ变", "example": "メールの内容を確認します。", "exampleMeaning": "确认邮件内容。" },
-    { "id": "n3-sasaeru", "word": "支える", "kana": "ささえる", "meaning": "支撑、支持", "type": "动词", "example": "家族が私を支えてくれます。", "exampleMeaning": "家人支持着我。" },
-    { "id": "n3-kawari", "word": "代わり", "kana": "かわり", "meaning": "代替、替换", "type": "名词", "example": "友達の代わりに行きます。", "exampleMeaning": "代替朋友去。" }
+    {
+      "id": "n3-kakunin",
+      "word": "確認",
+      "kana": "かくにん",
+      "meaning": "确认",
+      "type": "名词/サ变",
+      "example": "メールの内容を確認します。",
+      "exampleMeaning": "确认邮件内容。"
+    },
+    {
+      "id": "n3-sasaeru",
+      "word": "支える",
+      "kana": "ささえる",
+      "meaning": "支撑、支持",
+      "type": "动词",
+      "example": "家族が私を支えてくれます。",
+      "exampleMeaning": "家人支持着我。"
+    },
+    {
+      "id": "n3-kawari",
+      "word": "代わり",
+      "kana": "かわり",
+      "meaning": "代替、替换",
+      "type": "名词",
+      "example": "友達の代わりに行きます。",
+      "exampleMeaning": "代替朋友去。"
+    }
   ],
   "N2": [
-    { "id": "n2-atsukau", "word": "扱う", "kana": "あつかう", "meaning": "处理、操作、对待", "type": "动词", "example": "このアプリは学習計画を自動で扱います。", "exampleMeaning": "这个应用会自动处理学习计划。" },
-    { "id": "n2-oginau", "word": "補う", "kana": "おぎなう", "meaning": "补充、弥补", "type": "动词", "example": "弱点を練習で補います。", "exampleMeaning": "通过练习弥补弱点。" },
-    { "id": "n2-kaizen", "word": "改善", "kana": "かいぜん", "meaning": "改善", "type": "名词/サ变", "example": "勉強方法を改善しました。", "exampleMeaning": "改善了学习方法。" },
-    { "id": "n2-seigen", "word": "制限", "kana": "せいげん", "meaning": "限制", "type": "名词/サ变", "example": "時間を制限して問題を解きます。", "exampleMeaning": "限制时间做题。" },
-    { "id": "n2-hindo", "word": "頻度", "kana": "ひんど", "meaning": "频率", "type": "名词", "example": "復習の頻度を上げます。", "exampleMeaning": "提高复习频率。" }
+    {
+      "id": "n2-atsukau",
+      "word": "扱う",
+      "kana": "あつかう",
+      "meaning": "处理、操作、对待",
+      "type": "动词",
+      "example": "このアプリは学習計画を自動で扱います。",
+      "exampleMeaning": "这个应用会自动处理学习计划。"
+    },
+    {
+      "id": "n2-oginau",
+      "word": "補う",
+      "kana": "おぎなう",
+      "meaning": "补充、弥补",
+      "type": "动词",
+      "example": "弱点を練習で補います。",
+      "exampleMeaning": "通过练习弥补弱点。"
+    },
+    {
+      "id": "n2-kaizen",
+      "word": "改善",
+      "kana": "かいぜん",
+      "meaning": "改善",
+      "type": "名词/サ变",
+      "example": "勉強方法を改善しました。",
+      "exampleMeaning": "改善了学习方法。"
+    },
+    {
+      "id": "n2-seigen",
+      "word": "制限",
+      "kana": "せいげん",
+      "meaning": "限制",
+      "type": "名词/サ变",
+      "example": "時間を制限して問題を解きます。",
+      "exampleMeaning": "限制时间做题。"
+    },
+    {
+      "id": "n2-hindo",
+      "word": "頻度",
+      "kana": "ひんど",
+      "meaning": "频率",
+      "type": "名词",
+      "example": "復習の頻度を上げます。",
+      "exampleMeaning": "提高复习频率。"
+    }
   ],
   "N1": [
-    { "id": "n1-gainen", "word": "概念", "kana": "がいねん", "meaning": "概念", "type": "名词", "example": "抽象的な概念を理解します。", "exampleMeaning": "理解抽象概念。" },
-    { "id": "n1-shisa", "word": "示唆", "kana": "しさ", "meaning": "暗示、启发", "type": "名词/サ变", "example": "この結果は重要な点を示唆しています。", "exampleMeaning": "这个结果暗示了重要之处。" },
-    { "id": "n1-chusho", "word": "抽象", "kana": "ちゅうしょう", "meaning": "抽象", "type": "名词/サ变", "example": "抽象的な文章を読む練習をします。", "exampleMeaning": "练习阅读抽象文章。" }
+    {
+      "id": "n1-gainen",
+      "word": "概念",
+      "kana": "がいねん",
+      "meaning": "概念",
+      "type": "名词",
+      "example": "抽象的な概念を理解します。",
+      "exampleMeaning": "理解抽象概念。"
+    },
+    {
+      "id": "n1-shisa",
+      "word": "示唆",
+      "kana": "しさ",
+      "meaning": "暗示、启发",
+      "type": "名词/サ变",
+      "example": "この結果は重要な点を示唆しています。",
+      "exampleMeaning": "这个结果暗示了重要之处。"
+    },
+    {
+      "id": "n1-chusho",
+      "word": "抽象",
+      "kana": "ちゅうしょう",
+      "meaning": "抽象",
+      "type": "名词/サ变",
+      "example": "抽象的な文章を読む練習をします。",
+      "exampleMeaning": "练习阅读抽象文章。"
+    }
   ]
 }
