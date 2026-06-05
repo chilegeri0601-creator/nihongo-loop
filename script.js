@@ -100,6 +100,19 @@ function saveLocalState() {
   localStorage.setItem("nihongoLoopState", JSON.stringify(savedState));
 }
 
+function localTodayKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function refreshLocalCheckinState() {
+  if (!savedState.lastCheckinDate) savedState.lastCheckinDate = "";
+  if (savedState.lastCheckinDate !== localTodayKey()) savedState.checkedIn = false;
+  savedState.streakDays = Number(savedState.streakDays || 0);
+}
+
 function currentLevel() {
   return savedState.level || "N2";
 }
@@ -131,6 +144,7 @@ function renderProgress(level) {
 }
 
 function applyCheckinState() {
+  refreshLocalCheckinState();
   const button = document.querySelector("#checkinButton");
   const checkedIn = Boolean(savedState.checkedIn);
   document.querySelector("#streakDays").textContent = String(Number(savedState.streakDays || 0));
@@ -180,6 +194,7 @@ document.querySelector("#checkinButton").addEventListener("click", async () => {
   } catch {
     savedState.checkedIn = true;
     savedState.streakDays = Number(savedState.streakDays || 0) + 1;
+    savedState.lastCheckinDate = localTodayKey();
     setServiceStatus(false);
   }
   saveLocalState();

@@ -146,6 +146,7 @@ async function main() {
   assert.equal(registered.user.displayName, "测试用户");
   assert.equal(registered.progress.checkedIn, false);
   assert.equal(registered.progress.streakDays, 0);
+  assert.equal(registered.progress.lastCheckinDate, "");
   const userId = registered.user.id;
 
   const duplicateWrongPassword = await requestExpect("/api/auth/register", 409, {
@@ -225,15 +226,35 @@ async function main() {
   });
   assert.equal(checkin.progress.checkedIn, true);
   assert.equal(checkin.progress.streakDays, 1);
+  assert.match(checkin.progress.lastCheckinDate, /^\d{4}-\d{2}-\d{2}$/);
+
+  const sameDayCheckin = await request("/api/checkin", {
+    method: "POST",
+    body: JSON.stringify({ userId }),
+  });
+  assert.equal(sameDayCheckin.progress.checkedIn, true);
+  assert.equal(sameDayCheckin.progress.streakDays, 1);
+  assert.equal(sameDayCheckin.progress.lastCheckinDate, checkin.progress.lastCheckinDate);
 
   const vocabulary = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=N2`);
   assert.equal(vocabulary.vocabulary.level, "N2");
-  assert.ok(vocabulary.vocabulary.words.length >= 3);
+  assert.ok(vocabulary.vocabulary.words.length >= 30);
   const firstWord = vocabulary.vocabulary.words[0];
 
   const n5Vocabulary = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=N5`);
   assert.equal(n5Vocabulary.vocabulary.level, "N5");
   assert.ok(n5Vocabulary.vocabulary.words.length >= 250);
+
+  for (const [level, minimum] of [
+    ["N4", 40],
+    ["N3", 35],
+    ["N2", 30],
+    ["N1", 30],
+  ]) {
+    const levelVocabulary = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=${level}`);
+    assert.equal(levelVocabulary.vocabulary.level, level);
+    assert.ok(levelVocabulary.vocabulary.words.length >= minimum);
+  }
 
   const n5Grammar = await request(`/api/grammar?userId=${encodeURIComponent(userId)}&level=N5`);
   assert.equal(n5Grammar.grammar.level, "N5");
@@ -291,6 +312,7 @@ async function main() {
   assert.equal(reset.progress.level, "N2");
   assert.equal(reset.progress.checkedIn, false);
   assert.equal(reset.progress.streakDays, 0);
+  assert.equal(reset.progress.lastCheckinDate, "");
 
   const stats = await request("/api/stats");
   assert.equal(typeof stats.users, "number");

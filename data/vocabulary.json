@@ -2361,31 +2361,364 @@
   ],
   "N4": [
     {
+      "id": "n4-hitsuyou",
+      "word": "必要",
+      "kana": "ひつよう",
+      "meaning": "必要",
+      "type": "形容动词",
+      "example": "試験には準備が必要です。",
+      "exampleMeaning": "考试需要准备。"
+    },
+    {
+      "id": "n4-tokubetsu",
+      "word": "特別",
+      "kana": "とくべつ",
+      "meaning": "特别",
+      "type": "形容动词",
+      "example": "今日は特別な日です。",
+      "exampleMeaning": "今天是特别的日子。"
+    },
+    {
+      "id": "n4-futsuu",
+      "word": "普通",
+      "kana": "ふつう",
+      "meaning": "普通",
+      "type": "名词/形容动词",
+      "example": "普通の電車に乗ります。",
+      "exampleMeaning": "乘坐普通电车。"
+    },
+    {
+      "id": "n4-junbi",
+      "word": "準備",
+      "kana": "じゅんび",
+      "meaning": "准备",
+      "type": "名词/サ变",
+      "example": "旅行の準備をします。",
+      "exampleMeaning": "做旅行准备。"
+    },
+    {
+      "id": "n4-yotei",
+      "word": "予定",
+      "kana": "よてい",
+      "meaning": "计划",
+      "type": "名词",
+      "example": "明日の予定を確認します。",
+      "exampleMeaning": "确认明天的计划。"
+    },
+    {
       "id": "n4-yoyaku",
       "word": "予約",
       "kana": "よやく",
       "meaning": "预约",
-      "type": "名词",
+      "type": "名词/サ变",
       "example": "ホテルを予約しました。",
       "exampleMeaning": "预约了酒店。"
     },
     {
-      "id": "n4-tsutaeru",
-      "word": "伝える",
-      "kana": "つたえる",
-      "meaning": "传达、告诉",
-      "type": "动词",
-      "example": "先生に予定を伝えます。",
-      "exampleMeaning": "把计划告诉老师。"
+      "id": "n4-iken",
+      "word": "意見",
+      "kana": "いけん",
+      "meaning": "意见",
+      "type": "名词",
+      "example": "あなたの意見を聞きたいです。",
+      "exampleMeaning": "想听你的意见。"
     },
     {
-      "id": "n4-benri",
-      "word": "便利",
-      "kana": "べんり",
-      "meaning": "方便",
+      "id": "n4-keiken",
+      "word": "経験",
+      "kana": "けいけん",
+      "meaning": "经验",
+      "type": "名词/サ变",
+      "example": "日本で生活した経験があります。",
+      "exampleMeaning": "有在日本生活的经验。"
+    },
+    {
+      "id": "n4-setsumei",
+      "word": "説明",
+      "kana": "せつめい",
+      "meaning": "说明",
+      "type": "名词/サ变",
+      "example": "先生が文法を説明します。",
+      "exampleMeaning": "老师说明语法。"
+    },
+    {
+      "id": "n4-renraku",
+      "word": "連絡",
+      "kana": "れんらく",
+      "meaning": "联系",
+      "type": "名词/サ变",
+      "example": "後で連絡します。",
+      "exampleMeaning": "稍后联系。"
+    },
+    {
+      "id": "n4-juusho",
+      "word": "住所",
+      "kana": "じゅうしょ",
+      "meaning": "地址",
+      "type": "名词",
+      "example": "住所を書いてください。",
+      "exampleMeaning": "请写地址。"
+    },
+    {
+      "id": "n4-shinamono",
+      "word": "品物",
+      "kana": "しなもの",
+      "meaning": "商品、物品",
+      "type": "名词",
+      "example": "この店は品物が多いです。",
+      "exampleMeaning": "这家店商品很多。"
+    },
+    {
+      "id": "n4-koujou",
+      "word": "工場",
+      "kana": "こうじょう",
+      "meaning": "工厂",
+      "type": "名词",
+      "example": "父は工場で働いています。",
+      "exampleMeaning": "父亲在工厂工作。"
+    },
+    {
+      "id": "n4-kuuki",
+      "word": "空気",
+      "kana": "くうき",
+      "meaning": "空气",
+      "type": "名词",
+      "example": "山の空気はきれいです。",
+      "exampleMeaning": "山里的空气很清新。"
+    },
+    {
+      "id": "n4-koutsuu",
+      "word": "交通",
+      "kana": "こうつう",
+      "meaning": "交通",
+      "type": "名词",
+      "example": "この町は交通が便利です。",
+      "exampleMeaning": "这个城市交通方便。"
+    },
+    {
+      "id": "n4-shiyakusho",
+      "word": "市役所",
+      "kana": "しやくしょ",
+      "meaning": "市政府、办事处",
+      "type": "名词",
+      "example": "市役所へ行きます。",
+      "exampleMeaning": "去市政府。"
+    },
+    {
+      "id": "n4-bijutsukan",
+      "word": "美術館",
+      "kana": "びじゅつかん",
+      "meaning": "美术馆",
+      "type": "名词",
+      "example": "日曜日に美術館へ行きました。",
+      "exampleMeaning": "星期天去了美术馆。"
+    },
+    {
+      "id": "n4-doubutsuen",
+      "word": "動物園",
+      "kana": "どうぶつえん",
+      "meaning": "动物园",
+      "type": "名词",
+      "example": "子供と動物園へ行きます。",
+      "exampleMeaning": "和孩子去动物园。"
+    },
+    {
+      "id": "n4-ryokan",
+      "word": "旅館",
+      "kana": "りょかん",
+      "meaning": "日式旅馆",
+      "type": "名词",
+      "example": "京都の旅館に泊まりました。",
+      "exampleMeaning": "住在京都的日式旅馆。"
+    },
+    {
+      "id": "n4-hataraku",
+      "word": "働く",
+      "kana": "はたらく",
+      "meaning": "工作",
+      "type": "动词",
+      "example": "兄は会社で働いています。",
+      "exampleMeaning": "哥哥在公司工作。"
+    },
+    {
+      "id": "n4-tetsudau",
+      "word": "手伝う",
+      "kana": "てつだう",
+      "meaning": "帮忙",
+      "type": "动词",
+      "example": "母の料理を手伝います。",
+      "exampleMeaning": "帮妈妈做饭。"
+    },
+    {
+      "id": "n4-hakobu",
+      "word": "運ぶ",
+      "kana": "はこぶ",
+      "meaning": "搬运",
+      "type": "动词",
+      "example": "荷物を部屋まで運びます。",
+      "exampleMeaning": "把行李搬到房间。"
+    },
+    {
+      "id": "n4-naosu",
+      "word": "直す",
+      "kana": "なおす",
+      "meaning": "修理、改正",
+      "type": "动词",
+      "example": "壊れた時計を直します。",
+      "exampleMeaning": "修坏了的钟。"
+    },
+    {
+      "id": "n4-tomaru",
+      "word": "止まる",
+      "kana": "とまる",
+      "meaning": "停止",
+      "type": "动词",
+      "example": "電車が駅で止まります。",
+      "exampleMeaning": "电车在车站停。"
+    },
+    {
+      "id": "n4-isogu",
+      "word": "急ぐ",
+      "kana": "いそぐ",
+      "meaning": "赶紧",
+      "type": "动词",
+      "example": "時間がないので急ぎます。",
+      "exampleMeaning": "因为没时间所以赶紧。"
+    },
+    {
+      "id": "n4-erabu",
+      "word": "選ぶ",
+      "kana": "えらぶ",
+      "meaning": "选择",
+      "type": "动词",
+      "example": "好きな本を選びます。",
+      "exampleMeaning": "选择喜欢的书。"
+    },
+    {
+      "id": "n4-ma-ni-au",
+      "word": "間に合う",
+      "kana": "まにあう",
+      "meaning": "来得及",
+      "type": "动词",
+      "example": "試験に間に合いました。",
+      "exampleMeaning": "赶上了考试。"
+    },
+    {
+      "id": "n4-norikaeru",
+      "word": "乗り換える",
+      "kana": "のりかえる",
+      "meaning": "换乘",
+      "type": "动词",
+      "example": "新宿で電車を乗り換えます。",
+      "exampleMeaning": "在新宿换乘电车。"
+    },
+    {
+      "id": "n4-nemui",
+      "word": "眠い",
+      "kana": "ねむい",
+      "meaning": "困的",
+      "type": "形容词",
+      "example": "昨日遅く寝たので眠いです。",
+      "exampleMeaning": "昨天睡得晚所以困。"
+    },
+    {
+      "id": "n4-tadashii",
+      "word": "正しい",
+      "kana": "ただしい",
+      "meaning": "正确的",
+      "type": "形容词",
+      "example": "正しい答えを選んでください。",
+      "exampleMeaning": "请选择正确答案。"
+    },
+    {
+      "id": "n4-komakai",
+      "word": "細かい",
+      "kana": "こまかい",
+      "meaning": "细小的、详细的",
+      "type": "形容词",
+      "example": "細かい説明を読みます。",
+      "exampleMeaning": "阅读详细说明。"
+    },
+    {
+      "id": "n4-futoi",
+      "word": "太い",
+      "kana": "ふとい",
+      "meaning": "粗的",
+      "type": "形容词",
+      "example": "太いペンで書きます。",
+      "exampleMeaning": "用粗笔写。"
+    },
+    {
+      "id": "n4-anzen",
+      "word": "安全",
+      "kana": "あんぜん",
+      "meaning": "安全",
       "type": "形容动词",
-      "example": "このアプリは便利です。",
-      "exampleMeaning": "这个应用很方便。"
+      "example": "この道は安全です。",
+      "exampleMeaning": "这条路很安全。"
+    },
+    {
+      "id": "n4-kiken",
+      "word": "危険",
+      "kana": "きけん",
+      "meaning": "危险",
+      "type": "形容动词",
+      "example": "夜の山は危険です。",
+      "exampleMeaning": "夜晚的山很危险。"
+    },
+    {
+      "id": "n4-teinei",
+      "word": "丁寧",
+      "kana": "ていねい",
+      "meaning": "礼貌、仔细",
+      "type": "形容动词",
+      "example": "丁寧に説明してください。",
+      "exampleMeaning": "请仔细说明。"
+    },
+    {
+      "id": "n4-nesshin",
+      "word": "熱心",
+      "kana": "ねっしん",
+      "meaning": "热心、认真",
+      "type": "形容动词",
+      "example": "彼は日本語の勉強に熱心です。",
+      "exampleMeaning": "他热心学习日语。"
+    },
+    {
+      "id": "n4-zannen",
+      "word": "残念",
+      "kana": "ざんねん",
+      "meaning": "遗憾",
+      "type": "形容动词",
+      "example": "雨で旅行が中止になって残念です。",
+      "exampleMeaning": "因为下雨旅行取消了很遗憾。"
+    },
+    {
+      "id": "n4-taitei",
+      "word": "たいてい",
+      "kana": "たいてい",
+      "meaning": "大多、通常",
+      "type": "副词",
+      "example": "朝はたいていパンを食べます。",
+      "exampleMeaning": "早上通常吃面包。"
+    },
+    {
+      "id": "n4-shikkari",
+      "word": "しっかり",
+      "kana": "しっかり",
+      "meaning": "好好地、牢固地",
+      "type": "副词",
+      "example": "試験前にしっかり復習します。",
+      "exampleMeaning": "考试前好好复习。"
+    },
+    {
+      "id": "n4-soro-soro",
+      "word": "そろそろ",
+      "kana": "そろそろ",
+      "meaning": "差不多该",
+      "type": "副词",
+      "example": "そろそろ帰りましょう。",
+      "exampleMeaning": "差不多该回去了。"
     }
   ],
   "N3": [
@@ -2399,42 +2732,411 @@
       "exampleMeaning": "确认邮件内容。"
     },
     {
-      "id": "n3-sasaeru",
-      "word": "支える",
-      "kana": "ささえる",
-      "meaning": "支撑、支持",
-      "type": "动词",
-      "example": "家族が私を支えてくれます。",
-      "exampleMeaning": "家人支持着我。"
+      "id": "n3-juuyou",
+      "word": "重要",
+      "kana": "じゅうよう",
+      "meaning": "重要",
+      "type": "形容动词",
+      "example": "これは重要な問題です。",
+      "exampleMeaning": "这是重要问题。"
     },
     {
-      "id": "n3-kawari",
-      "word": "代わり",
-      "kana": "かわり",
-      "meaning": "代替、替换",
+      "id": "n3-kankei",
+      "word": "関係",
+      "kana": "かんけい",
+      "meaning": "关系",
+      "type": "名词/サ变",
+      "example": "この二つは関係があります。",
+      "exampleMeaning": "这两者有关系。"
+    },
+    {
+      "id": "n3-genin",
+      "word": "原因",
+      "kana": "げんいん",
+      "meaning": "原因",
       "type": "名词",
-      "example": "友達の代わりに行きます。",
-      "exampleMeaning": "代替朋友去。"
+      "example": "失敗の原因を考えます。",
+      "exampleMeaning": "思考失败的原因。"
+    },
+    {
+      "id": "n3-kekka",
+      "word": "結果",
+      "kana": "けっか",
+      "meaning": "结果",
+      "type": "名词",
+      "example": "試験の結果が出ました。",
+      "exampleMeaning": "考试结果出来了。"
+    },
+    {
+      "id": "n3-houhou",
+      "word": "方法",
+      "kana": "ほうほう",
+      "meaning": "方法",
+      "type": "名词",
+      "example": "いい勉強方法を探します。",
+      "exampleMeaning": "寻找好的学习方法。"
+    },
+    {
+      "id": "n3-baai",
+      "word": "場合",
+      "kana": "ばあい",
+      "meaning": "情况、场合",
+      "type": "名词",
+      "example": "雨の場合は中止です。",
+      "exampleMeaning": "下雨的情况下取消。"
+    },
+    {
+      "id": "n3-mokuteki",
+      "word": "目的",
+      "kana": "もくてき",
+      "meaning": "目的",
+      "type": "名词",
+      "example": "旅行の目的は勉強です。",
+      "exampleMeaning": "旅行的目的是学习。"
+    },
+    {
+      "id": "n3-bunka",
+      "word": "文化",
+      "kana": "ぶんか",
+      "meaning": "文化",
+      "type": "名词",
+      "example": "日本の文化に興味があります。",
+      "exampleMeaning": "对日本文化感兴趣。"
+    },
+    {
+      "id": "n3-shakai",
+      "word": "社会",
+      "kana": "しゃかい",
+      "meaning": "社会",
+      "type": "名词",
+      "example": "社会の変化を学びます。",
+      "exampleMeaning": "学习社会变化。"
+    },
+    {
+      "id": "n3-seikatsu",
+      "word": "生活",
+      "kana": "せいかつ",
+      "meaning": "生活",
+      "type": "名词/サ变",
+      "example": "日本での生活に慣れました。",
+      "exampleMeaning": "习惯了在日本的生活。"
+    },
+    {
+      "id": "n3-keizai",
+      "word": "経済",
+      "kana": "けいざい",
+      "meaning": "经济",
+      "type": "名词",
+      "example": "経済のニュースを読みます。",
+      "exampleMeaning": "读经济新闻。"
+    },
+    {
+      "id": "n3-gijutsu",
+      "word": "技術",
+      "kana": "ぎじゅつ",
+      "meaning": "技术",
+      "type": "名词",
+      "example": "新しい技術を使います。",
+      "exampleMeaning": "使用新技术。"
+    },
+    {
+      "id": "n3-shiryou",
+      "word": "資料",
+      "kana": "しりょう",
+      "meaning": "资料",
+      "type": "名词",
+      "example": "会議の資料を作ります。",
+      "exampleMeaning": "制作会议资料。"
+    },
+    {
+      "id": "n3-sanka",
+      "word": "参加",
+      "kana": "さんか",
+      "meaning": "参加",
+      "type": "名词/サ变",
+      "example": "イベントに参加します。",
+      "exampleMeaning": "参加活动。"
+    },
+    {
+      "id": "n3-soudan",
+      "word": "相談",
+      "kana": "そうだん",
+      "meaning": "商量、咨询",
+      "type": "名词/サ变",
+      "example": "先生に相談します。",
+      "exampleMeaning": "向老师咨询。"
+    },
+    {
+      "id": "n3-kansei",
+      "word": "完成",
+      "kana": "かんせい",
+      "meaning": "完成",
+      "type": "名词/サ变",
+      "example": "レポートが完成しました。",
+      "exampleMeaning": "报告完成了。"
+    },
+    {
+      "id": "n3-shippai",
+      "word": "失敗",
+      "kana": "しっぱい",
+      "meaning": "失败",
+      "type": "名词/サ变",
+      "example": "失敗から学びます。",
+      "exampleMeaning": "从失败中学习。"
+    },
+    {
+      "id": "n3-tsuzukeru",
+      "word": "続ける",
+      "kana": "つづける",
+      "meaning": "继续",
+      "type": "动词",
+      "example": "毎日勉強を続けます。",
+      "exampleMeaning": "每天继续学习。"
+    },
+    {
+      "id": "n3-kuraberu",
+      "word": "比べる",
+      "kana": "くらべる",
+      "meaning": "比较",
+      "type": "动词",
+      "example": "二つの答えを比べます。",
+      "exampleMeaning": "比较两个答案。"
+    },
+    {
+      "id": "n3-fueru",
+      "word": "増える",
+      "kana": "ふえる",
+      "meaning": "增加",
+      "type": "动词",
+      "example": "覚えた単語が増えました。",
+      "exampleMeaning": "记住的单词增加了。"
+    },
+    {
+      "id": "n3-heru",
+      "word": "減る",
+      "kana": "へる",
+      "meaning": "减少",
+      "type": "动词",
+      "example": "間違いが減りました。",
+      "exampleMeaning": "错误减少了。"
+    },
+    {
+      "id": "n3-kimeru",
+      "word": "決める",
+      "kana": "きめる",
+      "meaning": "决定",
+      "type": "动词",
+      "example": "勉強時間を決めます。",
+      "exampleMeaning": "决定学习时间。"
+    },
+    {
+      "id": "n3-tsutaeru",
+      "word": "伝える",
+      "kana": "つたえる",
+      "meaning": "传达",
+      "type": "动词",
+      "example": "予定を友達に伝えます。",
+      "exampleMeaning": "把计划告诉朋友。"
+    },
+    {
+      "id": "n3-sodateru",
+      "word": "育てる",
+      "kana": "そだてる",
+      "meaning": "培养、养育",
+      "type": "动词",
+      "example": "良い習慣を育てます。",
+      "exampleMeaning": "培养好习惯。"
+    },
+    {
+      "id": "n3-shiraberu",
+      "word": "調べる",
+      "kana": "しらべる",
+      "meaning": "调查、查找",
+      "type": "动词",
+      "example": "辞書で意味を調べます。",
+      "exampleMeaning": "用词典查意思。"
+    },
+    {
+      "id": "n3-sentaku",
+      "word": "選択",
+      "kana": "せんたく",
+      "meaning": "选择",
+      "type": "名词/サ变",
+      "example": "正しい答えを選択します。",
+      "exampleMeaning": "选择正确答案。"
+    },
+    {
+      "id": "n3-doryoku",
+      "word": "努力",
+      "kana": "どりょく",
+      "meaning": "努力",
+      "type": "名词/サ变",
+      "example": "合格のために努力します。",
+      "exampleMeaning": "为了合格而努力。"
+    },
+    {
+      "id": "n3-kuwashii",
+      "word": "詳しい",
+      "kana": "くわしい",
+      "meaning": "详细的、熟悉的",
+      "type": "形容词",
+      "example": "彼は日本の歴史に詳しいです。",
+      "exampleMeaning": "他熟悉日本历史。"
+    },
+    {
+      "id": "n3-seikaku",
+      "word": "正確",
+      "kana": "せいかく",
+      "meaning": "准确",
+      "type": "形容动词",
+      "example": "正確に発音してください。",
+      "exampleMeaning": "请准确发音。"
+    },
+    {
+      "id": "n3-fukuzatsu",
+      "word": "複雑",
+      "kana": "ふくざつ",
+      "meaning": "复杂",
+      "type": "形容动词",
+      "example": "この文法は少し複雑です。",
+      "exampleMeaning": "这个语法有点复杂。"
+    },
+    {
+      "id": "n3-jiyuu",
+      "word": "自由",
+      "kana": "じゆう",
+      "meaning": "自由",
+      "type": "形容动词",
+      "example": "自由に答えてください。",
+      "exampleMeaning": "请自由回答。"
+    },
+    {
+      "id": "n3-juubun",
+      "word": "十分",
+      "kana": "じゅうぶん",
+      "meaning": "充分",
+      "type": "形容动词/副词",
+      "example": "復習時間は十分あります。",
+      "exampleMeaning": "复习时间很充分。"
+    },
+    {
+      "id": "n3-kyuuni",
+      "word": "急に",
+      "kana": "きゅうに",
+      "meaning": "突然",
+      "type": "副词",
+      "example": "急に雨が降りました。",
+      "exampleMeaning": "突然下雨了。"
+    },
+    {
+      "id": "n3-dandan",
+      "word": "だんだん",
+      "kana": "だんだん",
+      "meaning": "渐渐",
+      "type": "副词",
+      "example": "日本語がだんだん分かります。",
+      "exampleMeaning": "渐渐懂日语了。"
+    },
+    {
+      "id": "n3-hotonndo",
+      "word": "ほとんど",
+      "kana": "ほとんど",
+      "meaning": "几乎",
+      "type": "副词",
+      "example": "宿題はほとんど終わりました。",
+      "exampleMeaning": "作业几乎完成了。"
+    },
+    {
+      "id": "n3-tatoeba",
+      "word": "例えば",
+      "kana": "たとえば",
+      "meaning": "例如",
+      "type": "副词",
+      "example": "例えば、この文を見てください。",
+      "exampleMeaning": "例如，请看这个句子。"
     }
   ],
   "N2": [
     {
-      "id": "n2-atsukau",
-      "word": "扱う",
-      "kana": "あつかう",
-      "meaning": "处理、操作、对待",
-      "type": "动词",
-      "example": "このアプリは学習計画を自動で扱います。",
-      "exampleMeaning": "这个应用会自动处理学习计划。"
+      "id": "n2-eikyou",
+      "word": "影響",
+      "kana": "えいきょう",
+      "meaning": "影响",
+      "type": "名词/サ变",
+      "example": "睡眠は集中力に影響します。",
+      "exampleMeaning": "睡眠会影响专注力。"
     },
     {
-      "id": "n2-oginau",
-      "word": "補う",
-      "kana": "おぎなう",
-      "meaning": "补充、弥补",
-      "type": "动词",
-      "example": "弱点を練習で補います。",
-      "exampleMeaning": "通过练习弥补弱点。"
+      "id": "n2-joukyou",
+      "word": "状況",
+      "kana": "じょうきょう",
+      "meaning": "状况",
+      "type": "名词",
+      "example": "現在の状況を確認します。",
+      "exampleMeaning": "确认当前状况。"
+    },
+    {
+      "id": "n2-jouken",
+      "word": "条件",
+      "kana": "じょうけん",
+      "meaning": "条件",
+      "type": "名词",
+      "example": "参加の条件を読みます。",
+      "exampleMeaning": "阅读参加条件。"
+    },
+    {
+      "id": "n2-kanousei",
+      "word": "可能性",
+      "kana": "かのうせい",
+      "meaning": "可能性",
+      "type": "名词",
+      "example": "合格の可能性があります。",
+      "exampleMeaning": "有合格的可能性。"
+    },
+    {
+      "id": "n2-keikou",
+      "word": "傾向",
+      "kana": "けいこう",
+      "meaning": "倾向",
+      "type": "名词",
+      "example": "最近の出題傾向を調べます。",
+      "exampleMeaning": "调查最近的出题倾向。"
+    },
+    {
+      "id": "n2-taishou",
+      "word": "対象",
+      "kana": "たいしょう",
+      "meaning": "对象",
+      "type": "名词",
+      "example": "この講座は中級者が対象です。",
+      "exampleMeaning": "这个课程面向中级学习者。"
+    },
+    {
+      "id": "n2-sekinin",
+      "word": "責任",
+      "kana": "せきにん",
+      "meaning": "责任",
+      "type": "名词",
+      "example": "自分の発言に責任を持ちます。",
+      "exampleMeaning": "对自己的发言负责。"
+    },
+    {
+      "id": "n2-handan",
+      "word": "判断",
+      "kana": "はんだん",
+      "meaning": "判断",
+      "type": "名词/サ变",
+      "example": "文脈から意味を判断します。",
+      "exampleMeaning": "根据上下文判断意思。"
+    },
+    {
+      "id": "n2-kaiketsu",
+      "word": "解決",
+      "kana": "かいけつ",
+      "meaning": "解决",
+      "type": "名词/サ变",
+      "example": "問題を一つずつ解決します。",
+      "exampleMeaning": "一个个解决问题。"
     },
     {
       "id": "n2-kaizen",
@@ -2446,22 +3148,202 @@
       "exampleMeaning": "改善了学习方法。"
     },
     {
-      "id": "n2-seigen",
-      "word": "制限",
-      "kana": "せいげん",
-      "meaning": "限制",
-      "type": "名词/サ变",
-      "example": "時間を制限して問題を解きます。",
-      "exampleMeaning": "限制时间做题。"
+      "id": "n2-seido",
+      "word": "制度",
+      "kana": "せいど",
+      "meaning": "制度",
+      "type": "名词",
+      "example": "新しい制度が始まりました。",
+      "exampleMeaning": "新制度开始了。"
     },
     {
-      "id": "n2-hindo",
-      "word": "頻度",
-      "kana": "ひんど",
-      "meaning": "频率",
+      "id": "n2-kankyou",
+      "word": "環境",
+      "kana": "かんきょう",
+      "meaning": "环境",
       "type": "名词",
-      "example": "復習の頻度を上げます。",
-      "exampleMeaning": "提高复习频率。"
+      "example": "静かな学習環境が必要です。",
+      "exampleMeaning": "需要安静的学习环境。"
+    },
+    {
+      "id": "n2-shigen",
+      "word": "資源",
+      "kana": "しげん",
+      "meaning": "资源",
+      "type": "名词",
+      "example": "時間も大切な資源です。",
+      "exampleMeaning": "时间也是重要资源。"
+    },
+    {
+      "id": "n2-juyou",
+      "word": "需要",
+      "kana": "じゅよう",
+      "meaning": "需求",
+      "type": "名词",
+      "example": "日本語学習の需要が増えています。",
+      "exampleMeaning": "日语学习需求在增加。"
+    },
+    {
+      "id": "n2-kyoukyuu",
+      "word": "供給",
+      "kana": "きょうきゅう",
+      "meaning": "供给",
+      "type": "名词/サ变",
+      "example": "教材を安定して供給します。",
+      "exampleMeaning": "稳定提供教材。"
+    },
+    {
+      "id": "n2-kyouchou",
+      "word": "強調",
+      "kana": "きょうちょう",
+      "meaning": "强调",
+      "type": "名词/サ变",
+      "example": "筆者は重要性を強調しています。",
+      "exampleMeaning": "作者强调了重要性。"
+    },
+    {
+      "id": "n2-shouryaku",
+      "word": "省略",
+      "kana": "しょうりゃく",
+      "meaning": "省略",
+      "type": "名词/サ变",
+      "example": "会話では助詞が省略されることがあります。",
+      "exampleMeaning": "会话中有时会省略助词。"
+    },
+    {
+      "id": "n2-kakudai",
+      "word": "拡大",
+      "kana": "かくだい",
+      "meaning": "扩大",
+      "type": "名词/サ变",
+      "example": "語彙の範囲を拡大します。",
+      "exampleMeaning": "扩大词汇范围。"
+    },
+    {
+      "id": "n2-shukushou",
+      "word": "縮小",
+      "kana": "しゅくしょう",
+      "meaning": "缩小",
+      "type": "名词/サ变",
+      "example": "無駄な時間を縮小します。",
+      "exampleMeaning": "缩小浪费的时间。"
+    },
+    {
+      "id": "n2-iji",
+      "word": "維持",
+      "kana": "いじ",
+      "meaning": "维持",
+      "type": "名词/サ变",
+      "example": "学習習慣を維持します。",
+      "exampleMeaning": "维持学习习惯。"
+    },
+    {
+      "id": "n2-atsukau",
+      "word": "扱う",
+      "kana": "あつかう",
+      "meaning": "处理、对待",
+      "type": "动词",
+      "example": "このアプリは学習記録を扱います。",
+      "exampleMeaning": "这个应用处理学习记录。"
+    },
+    {
+      "id": "n2-oginau",
+      "word": "補う",
+      "kana": "おぎなう",
+      "meaning": "补充、弥补",
+      "type": "动词",
+      "example": "弱点を復習で補います。",
+      "exampleMeaning": "通过复习弥补弱点。"
+    },
+    {
+      "id": "n2-sakeru",
+      "word": "避ける",
+      "kana": "さける",
+      "meaning": "避免",
+      "type": "动词",
+      "example": "同じ間違いを避けます。",
+      "exampleMeaning": "避免同样的错误。"
+    },
+    {
+      "id": "n2-mitomeru",
+      "word": "認める",
+      "kana": "みとめる",
+      "meaning": "承认、认可",
+      "type": "动词",
+      "example": "自分の弱点を認めます。",
+      "exampleMeaning": "承认自己的弱点。"
+    },
+    {
+      "id": "n2-motomeru",
+      "word": "求める",
+      "kana": "もとめる",
+      "meaning": "寻求、要求",
+      "type": "动词",
+      "example": "正確な答えを求めます。",
+      "exampleMeaning": "寻求准确答案。"
+    },
+    {
+      "id": "n2-fukumu",
+      "word": "含む",
+      "kana": "ふくむ",
+      "meaning": "包含",
+      "type": "动词",
+      "example": "この問題は文法を含みます。",
+      "exampleMeaning": "这道题包含语法。"
+    },
+    {
+      "id": "n2-kagiru",
+      "word": "限る",
+      "kana": "かぎる",
+      "meaning": "限制、限于",
+      "type": "动词",
+      "example": "時間を限って練習します。",
+      "exampleMeaning": "限制时间练习。"
+    },
+    {
+      "id": "n2-shinkoku",
+      "word": "深刻",
+      "kana": "しんこく",
+      "meaning": "严重",
+      "type": "形容动词",
+      "example": "語彙不足は深刻な問題です。",
+      "exampleMeaning": "词汇不足是严重问题。"
+    },
+    {
+      "id": "n2-tekisetsu",
+      "word": "適切",
+      "kana": "てきせつ",
+      "meaning": "恰当",
+      "type": "形容动词",
+      "example": "適切な表現を選びます。",
+      "exampleMeaning": "选择恰当表达。"
+    },
+    {
+      "id": "n2-meikaku",
+      "word": "明確",
+      "kana": "めいかく",
+      "meaning": "明确",
+      "type": "形容动词",
+      "example": "目標を明確にします。",
+      "exampleMeaning": "明确目标。"
+    },
+    {
+      "id": "n2-kouritsuteki",
+      "word": "効率的",
+      "kana": "こうりつてき",
+      "meaning": "高效",
+      "type": "形容动词",
+      "example": "効率的に復習します。",
+      "exampleMeaning": "高效复习。"
+    },
+    {
+      "id": "n2-kokyaku",
+      "word": "顧客",
+      "kana": "こきゃく",
+      "meaning": "顾客",
+      "type": "名词",
+      "example": "顧客の意見を集めます。",
+      "exampleMeaning": "收集顾客意见。"
     }
   ],
   "N1": [
@@ -2478,19 +3360,280 @@
       "id": "n1-shisa",
       "word": "示唆",
       "kana": "しさ",
-      "meaning": "暗示、启发",
+      "meaning": "暗示、启示",
       "type": "名词/サ变",
       "example": "この結果は重要な点を示唆しています。",
       "exampleMeaning": "这个结果暗示了重要之处。"
     },
     {
-      "id": "n1-chusho",
+      "id": "n1-chuusho",
       "word": "抽象",
       "kana": "ちゅうしょう",
       "meaning": "抽象",
       "type": "名词/サ变",
       "example": "抽象的な文章を読む練習をします。",
       "exampleMeaning": "练习阅读抽象文章。"
+    },
+    {
+      "id": "n1-ikkan",
+      "word": "一貫",
+      "kana": "いっかん",
+      "meaning": "一贯",
+      "type": "名词/サ变",
+      "example": "彼の説明は一貫しています。",
+      "exampleMeaning": "他的说明很一贯。"
+    },
+    {
+      "id": "n1-datou",
+      "word": "妥当",
+      "kana": "だとう",
+      "meaning": "妥当",
+      "type": "形容动词",
+      "example": "その判断は妥当です。",
+      "exampleMeaning": "那个判断是妥当的。"
+    },
+    {
+      "id": "n1-yochi",
+      "word": "余地",
+      "kana": "よち",
+      "meaning": "余地",
+      "type": "名词",
+      "example": "改善の余地があります。",
+      "exampleMeaning": "有改善余地。"
+    },
+    {
+      "id": "n1-keii",
+      "word": "経緯",
+      "kana": "けいい",
+      "meaning": "经过、原委",
+      "type": "名词",
+      "example": "問題の経緯を説明します。",
+      "exampleMeaning": "说明问题的经过。"
+    },
+    {
+      "id": "n1-honshitsu",
+      "word": "本質",
+      "kana": "ほんしつ",
+      "meaning": "本质",
+      "type": "名词",
+      "example": "物事の本質を見抜きます。",
+      "exampleMeaning": "看清事物本质。"
+    },
+    {
+      "id": "n1-konkyo",
+      "word": "根拠",
+      "kana": "こんきょ",
+      "meaning": "根据",
+      "type": "名词",
+      "example": "主張の根拠を示してください。",
+      "exampleMeaning": "请说明主张的根据。"
+    },
+    {
+      "id": "n1-kenkai",
+      "word": "見解",
+      "kana": "けんかい",
+      "meaning": "见解",
+      "type": "名词",
+      "example": "専門家の見解を読みます。",
+      "exampleMeaning": "阅读专家见解。"
+    },
+    {
+      "id": "n1-suii",
+      "word": "推移",
+      "kana": "すいい",
+      "meaning": "推移、变化",
+      "type": "名词/サ变",
+      "example": "売上の推移を分析します。",
+      "exampleMeaning": "分析销售额变化。"
+    },
+    {
+      "id": "n1-kadai",
+      "word": "課題",
+      "kana": "かだい",
+      "meaning": "课题",
+      "type": "名词",
+      "example": "今後の課題を整理します。",
+      "exampleMeaning": "整理今后的课题。"
+    },
+    {
+      "id": "n1-houshin",
+      "word": "方針",
+      "kana": "ほうしん",
+      "meaning": "方针",
+      "type": "名词",
+      "example": "学習の方針を決めます。",
+      "exampleMeaning": "决定学习方针。"
+    },
+    {
+      "id": "n1-shisaku",
+      "word": "施策",
+      "kana": "しさく",
+      "meaning": "措施、政策",
+      "type": "名词",
+      "example": "政府の施策について読む。",
+      "exampleMeaning": "阅读关于政府措施的内容。"
+    },
+    {
+      "id": "n1-kakusa",
+      "word": "格差",
+      "kana": "かくさ",
+      "meaning": "差距",
+      "type": "名词",
+      "example": "地域格差が問題になっています。",
+      "exampleMeaning": "地区差距成为问题。"
+    },
+    {
+      "id": "n1-kihan",
+      "word": "規範",
+      "kana": "きはん",
+      "meaning": "规范",
+      "type": "名词",
+      "example": "社会の規範を学びます。",
+      "exampleMeaning": "学习社会规范。"
+    },
+    {
+      "id": "n1-kizashi",
+      "word": "兆し",
+      "kana": "きざし",
+      "meaning": "征兆",
+      "type": "名词",
+      "example": "景気回復の兆しが見えます。",
+      "exampleMeaning": "看到了经济恢复的征兆。"
+    },
+    {
+      "id": "n1-ichijirushii",
+      "word": "著しい",
+      "kana": "いちじるしい",
+      "meaning": "显著的",
+      "type": "形容词",
+      "example": "技術の進歩は著しいです。",
+      "exampleMeaning": "技术进步很显著。"
+    },
+    {
+      "id": "n1-toboshii",
+      "word": "乏しい",
+      "kana": "とぼしい",
+      "meaning": "缺乏的",
+      "type": "形容词",
+      "example": "経験が乏しい人も参加できます。",
+      "exampleMeaning": "经验不足的人也能参加。"
+    },
+    {
+      "id": "n1-magurawashii",
+      "word": "紛らわしい",
+      "kana": "まぎらわしい",
+      "meaning": "容易混淆的",
+      "type": "形容词",
+      "example": "紛らわしい表現に注意します。",
+      "exampleMeaning": "注意容易混淆的表达。"
+    },
+    {
+      "id": "n1-koumyou",
+      "word": "巧妙",
+      "kana": "こうみょう",
+      "meaning": "巧妙",
+      "type": "形容动词",
+      "example": "巧妙な言い方を使います。",
+      "exampleMeaning": "使用巧妙的说法。"
+    },
+    {
+      "id": "n1-men-mitsu",
+      "word": "綿密",
+      "kana": "めんみつ",
+      "meaning": "缜密",
+      "type": "形容动词",
+      "example": "綿密な計画を立てます。",
+      "exampleMeaning": "制定缜密计划。"
+    },
+    {
+      "id": "n1-genmitsu",
+      "word": "厳密",
+      "kana": "げんみつ",
+      "meaning": "严格、严密",
+      "type": "形容动词",
+      "example": "厳密に言うと意味が違います。",
+      "exampleMeaning": "严格来说意思不同。"
+    },
+    {
+      "id": "n1-meihaku",
+      "word": "明白",
+      "kana": "めいはく",
+      "meaning": "明白、明显",
+      "type": "形容动词",
+      "example": "原因は明白です。",
+      "exampleMeaning": "原因很明显。"
+    },
+    {
+      "id": "n1-kanwa",
+      "word": "緩和",
+      "kana": "かんわ",
+      "meaning": "缓和",
+      "type": "名词/サ变",
+      "example": "緊張を緩和します。",
+      "exampleMeaning": "缓和紧张。"
+    },
+    {
+      "id": "n1-zesei",
+      "word": "是正",
+      "kana": "ぜせい",
+      "meaning": "纠正",
+      "type": "名词/サ变",
+      "example": "誤りを是正します。",
+      "exampleMeaning": "纠正错误。"
+    },
+    {
+      "id": "n1-suikou",
+      "word": "遂行",
+      "kana": "すいこう",
+      "meaning": "完成、执行",
+      "type": "名词/サ变",
+      "example": "計画を最後まで遂行します。",
+      "exampleMeaning": "把计划执行到最后。"
+    },
+    {
+      "id": "n1-unagasu",
+      "word": "促す",
+      "kana": "うながす",
+      "meaning": "促使",
+      "type": "动词",
+      "example": "復習を促す通知を出します。",
+      "exampleMeaning": "发出促进复习的通知。"
+    },
+    {
+      "id": "n1-sokonau",
+      "word": "損なう",
+      "kana": "そこなう",
+      "meaning": "损害",
+      "type": "动词",
+      "example": "睡眠不足は集中力を損ないます。",
+      "exampleMeaning": "睡眠不足会损害专注力。"
+    },
+    {
+      "id": "n1-kutsugaesu",
+      "word": "覆す",
+      "kana": "くつがえす",
+      "meaning": "推翻",
+      "type": "动词",
+      "example": "これまでの考えを覆します。",
+      "exampleMeaning": "推翻至今的想法。"
+    },
+    {
+      "id": "n1-touhai",
+      "word": "踏襲",
+      "kana": "とうしゅう",
+      "meaning": "沿袭",
+      "type": "名词/サ变",
+      "example": "従来の方法を踏襲します。",
+      "exampleMeaning": "沿袭以前的方法。"
+    },
+    {
+      "id": "n1-haaku",
+      "word": "把握",
+      "kana": "はあく",
+      "meaning": "掌握",
+      "type": "名词/サ变",
+      "example": "文章全体の流れを把握します。",
+      "exampleMeaning": "掌握文章整体流程。"
     }
   ]
 }

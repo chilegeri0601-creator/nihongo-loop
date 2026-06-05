@@ -10,6 +10,7 @@ const DATA_DIR = path.join(ROOT, "data");
 const DB_FILE = path.join(DATA_DIR, "db.json");
 const VOCABULARY_FILE = path.join(DATA_DIR, "vocabulary.json");
 const GRAMMAR_FILE = path.join(DATA_DIR, "grammar.json");
+const CHECKIN_TZ_OFFSET_MINUTES = Number(process.env.CHECKIN_TZ_OFFSET_MINUTES || 540);
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
@@ -41,6 +42,7 @@ const defaultDb = {
       completedModule: "",
       checkedIn: false,
       streakDays: 0,
+      lastCheckinDate: "",
       quiz: {},
       vocabulary: {},
       grammar: {},
@@ -161,6 +163,19 @@ function createDisplayName(email) {
   return email.split("@")[0] || "学习者";
 }
 
+function todayKey(date = new Date()) {
+  return new Date(date.getTime() + CHECKIN_TZ_OFFSET_MINUTES * 60 * 1000).toISOString().slice(0, 10);
+}
+
+function daysBetweenDateKeys(from, to) {
+  if (!from || !to) return Number.POSITIVE_INFINITY;
+  const [fromYear, fromMonth, fromDay] = from.split("-").map(Number);
+  const [toYear, toMonth, toDay] = to.split("-").map(Number);
+  const fromTime = Date.UTC(fromYear, fromMonth - 1, fromDay);
+  const toTime = Date.UTC(toYear, toMonth - 1, toDay);
+  return Math.round((toTime - fromTime) / 86400000);
+}
+
 function getProgress(db, userId = "demo-user") {
   if (!db.progress[userId]) {
     db.progress[userId] = {
@@ -169,6 +184,7 @@ function getProgress(db, userId = "demo-user") {
       completedModule: "",
       checkedIn: false,
       streakDays: 0,
+      lastCheckinDate: "",
       quiz: {},
       vocabulary: {},
       updatedAt: new Date().toISOString(),
@@ -177,6 +193,7 @@ function getProgress(db, userId = "demo-user") {
   if (!db.progress[userId].quiz) db.progress[userId].quiz = {};
   if (!db.progress[userId].vocabulary) db.progress[userId].vocabulary = {};
   if (!db.progress[userId].grammar) db.progress[userId].grammar = {};
+  if (!db.progress[userId].lastCheckinDate) db.progress[userId].lastCheckinDate = "";
   if (
     userId !== "demo-user" &&
     !db.progress[userId].checkedIn &&
@@ -187,6 +204,7 @@ function getProgress(db, userId = "demo-user") {
   ) {
     db.progress[userId].streakDays = 0;
   }
+  db.progress[userId].checkedIn = db.progress[userId].lastCheckinDate === todayKey();
   return db.progress[userId];
 }
 
@@ -310,6 +328,7 @@ async function handleApi(req, res, url) {
       activeModule: "单词",
       checkedIn: false,
       streakDays: 0,
+      lastCheckinDate: "",
       completedModule: "",
       quiz: {},
       vocabulary: {},
@@ -541,6 +560,7 @@ async function handleApi(req, res, url) {
       completedModule: "",
       checkedIn: false,
       streakDays: 0,
+      lastCheckinDate: "",
       quiz: {},
       vocabulary: {},
       grammar: {},
@@ -556,7 +576,12 @@ async function handleApi(req, res, url) {
     const userId = body.userId || "demo-user";
     const db = await readDb();
     const progress = getProgress(db, userId);
-    if (!progress.checkedIn) progress.streakDays = Number(progress.streakDays || 0) + 1;
+    const today = todayKey();
+    const previousDate = progress.lastCheckinDate || "";
+    if (previousDate !== today) {
+      progress.streakDays = daysBetweenDateKeys(previousDate, today) === 1 ? Number(progress.streakDays || 0) + 1 : 1;
+      progress.lastCheckinDate = today;
+    }
     progress.checkedIn = true;
     progress.updatedAt = new Date().toISOString();
     await writeDb(db);
