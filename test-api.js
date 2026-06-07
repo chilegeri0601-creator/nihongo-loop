@@ -246,7 +246,7 @@ async function main() {
   assert.ok(n5Vocabulary.vocabulary.words.length >= 250);
 
   for (const [level, minimum] of [
-    ["N4", 40],
+    ["N4", 180],
     ["N3", 35],
     ["N2", 30],
     ["N1", 30],

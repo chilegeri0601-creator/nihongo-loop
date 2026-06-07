@@ -42,7 +42,33 @@ const session = {
   words: [],
   stats: { total: 0, mastered: 0, remaining: 0 },
   question: null,
+  dailyGoal: Number(savedState.vocabularyDailyGoal || 20),
 };
+
+const dailyGoalOptions = [10, 20, 30, 50];
+
+function normalizeDailyGoal(value) {
+  const goal = Number(value || 20);
+  return dailyGoalOptions.includes(goal) ? goal : 20;
+}
+
+function unitCount() {
+  return Math.max(1, Math.ceil(session.words.length / session.dailyGoal));
+}
+
+function currentUnitIndex() {
+  return Math.floor(session.index / session.dailyGoal);
+}
+
+function unitRange(unitIndex = currentUnitIndex()) {
+  const start = unitIndex * session.dailyGoal;
+  const end = Math.min(start + session.dailyGoal, session.words.length);
+  return { start, end, words: session.words.slice(start, end) };
+}
+
+function unitMasteredCount(unitIndex = currentUnitIndex()) {
+  return unitRange(unitIndex).words.filter((word) => word.mastered).length;
+}
 
 function wrongCount(word) {
   return Math.max(0, Number(word.attempts || 0) - Number(word.correct || 0));
@@ -82,6 +108,7 @@ async function apiRequest(path, options = {}) {
 
 function saveLocalState() {
   savedState.level = session.level;
+  savedState.vocabularyDailyGoal = session.dailyGoal;
   localStorage.setItem("nihongoLoopState", JSON.stringify(savedState));
 }
 
@@ -141,6 +168,7 @@ function updateTestLink() {
 
 async function setLevel(level) {
   session.level = level;
+  session.dailyGoal = normalizeDailyGoal(session.dailyGoal);
   resetQuestion();
   updateTestLink();
   document.querySelectorAll("[data-vocab-level]").forEach((button) => button.classList.toggle("active", button.dataset.vocabLevel === level));
@@ -166,28 +194,52 @@ function speakJapanese(text) {
 }
 
 function renderWordList() {
+  const units = Array.from({ length: unitCount() }, (_, unitIndex) => {
+    const range = unitRange(unitIndex);
+    const mastered = unitMasteredCount(unitIndex);
+    return { unitIndex, ...range, mastered };
+  });
+
   return `
     <section class="vocab-list-panel" id="vocabList" aria-label="${session.level} 单词表">
       <div class="vocab-list-head">
         <div>
-          <h4>${session.level} 单词表</h4>
-          <p>点击任意单词可以切到词卡学习，也可以直接听发音。</p>
+          <h4>${session.level} 单词单元表</h4>
+          <p>按每天 ${session.dailyGoal} 词自动分组。先完成一个单元，再进入下一个单元。</p>
         </div>
         <strong>${session.words.length} 词</strong>
       </div>
-      <div class="vocab-table">
-        ${session.words
+      <div class="vocab-unit-list">
+        ${units
           .map(
-            (item, index) => `
-              <article class="vocab-row ${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
-                <button type="button" class="vocab-row-main" data-index="${index}">
-                  <span>${escapeHtml(item.word)}</span>
-                  <em>${escapeHtml(item.kana)}</em>
-                  <b>${escapeHtml(item.meaning)}</b>
-                  <small>${escapeHtml(item.type)}</small>
-                </button>
-                <button type="button" class="sound-button small" data-speak="${escapeHtml(item.word)}" aria-label="听 ${escapeHtml(item.word)} 的发音">听</button>
-              </article>
+            ({ unitIndex, start, end, words, mastered }) => `
+              <section class="vocab-unit-card ${unitIndex === currentUnitIndex() ? "active" : ""}">
+                <div class="vocab-unit-card-head">
+                  <button type="button" data-unit="${unitIndex}">
+                    <span>第 ${unitIndex + 1} 单元</span>
+                    <b>${start + 1}-${end}</b>
+                  </button>
+                  <em>${mastered}/${words.length} 已掌握</em>
+                </div>
+                <div class="vocab-table compact">
+                  ${words
+                    .map((item, offset) => {
+                      const index = start + offset;
+                      return `
+                        <article class="vocab-row ${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
+                          <button type="button" class="vocab-row-main" data-index="${index}">
+                            <span>${escapeHtml(item.word)}</span>
+                            <em>${escapeHtml(item.kana)}</em>
+                            <b>${escapeHtml(item.meaning)}</b>
+                            <small>${escapeHtml(item.type)}</small>
+                          </button>
+                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.word)}" aria-label="听 ${escapeHtml(item.word)} 的发音">听</button>
+                        </article>
+                      `;
+                    })
+                    .join("")}
+                </div>
+              </section>
             `,
           )
           .join("")}
@@ -239,12 +291,74 @@ function renderMistakeBook() {
   `;
 }
 
+function renderStudyPlan() {
+  const activeUnit = currentUnitIndex();
+  const range = unitRange(activeUnit);
+  const mastered = unitMasteredCount(activeUnit);
+  const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
+  const units = Array.from({ length: unitCount() }, (_, index) => {
+    const unit = unitRange(index);
+    return {
+      index,
+      start: unit.start,
+      end: unit.end,
+      mastered: unitMasteredCount(index),
+      total: unit.words.length,
+    };
+  });
+
+  return `
+    <section class="vocab-plan-panel" aria-label="${session.level} 单词学习计划">
+      <div class="vocab-plan-summary">
+        <span>${session.level} 学习计划</span>
+        <h3>第 ${activeUnit + 1} 单元</h3>
+        <p>今天建议学习 ${range.start + 1}-${range.end} 号词，先听发音，再看例句，最后去测验。</p>
+      </div>
+      <div class="vocab-plan-metrics">
+        <div><strong>${session.words.length}</strong><span>总词数</span></div>
+        <div><strong>${unitCount()}</strong><span>单元</span></div>
+        <div><strong>${mastered}/${range.words.length}</strong><span>本单元掌握</span></div>
+        <div><strong>${percent}%</strong><span>总进度</span></div>
+      </div>
+      <div class="vocab-goal-panel">
+        <span>每天背几个</span>
+        <div class="vocab-goal-buttons">
+          ${dailyGoalOptions
+            .map(
+              (goal) => `
+                <button type="button" data-goal="${goal}" class="${goal === session.dailyGoal ? "active" : ""}">
+                  ${goal} 词
+                </button>
+              `,
+            )
+            .join("")}
+        </div>
+      </div>
+      <div class="vocab-unit-tabs" aria-label="选择学习单元">
+        ${units
+          .map(
+            (unit) => `
+              <button type="button" data-unit="${unit.index}" class="${unit.index === activeUnit ? "active" : ""}">
+                <span>${unit.index + 1}</span>
+                <em>${unit.mastered}/${unit.total}</em>
+              </button>
+            `,
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
 function draw() {
   const word = session.words[session.index];
   if (!word) return;
   const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
+  const activeUnit = currentUnitIndex();
+  const range = unitRange(activeUnit);
   document.querySelector("#vocabPageContent").innerHTML = `
     <div class="vocab-shell vocab-learning-shell">
+      ${renderStudyPlan()}
       <section class="vocab-card">
         <div class="vocab-topline"><span>${session.level}</span><em>${escapeHtml(word.type)}</em></div>
         <strong>${escapeHtml(word.word)}</strong>
@@ -259,6 +373,10 @@ function draw() {
         </div>
       </section>
       <aside class="vocab-study-side">
+        <div class="vocab-unit-label">
+          <span>当前单元</span>
+          <strong>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</strong>
+        </div>
         <div class="vocab-stats">
           <div><strong>${session.stats.mastered}/${session.stats.total}</strong><span>已掌握</span></div>
           <div><strong>${word.correct}/${word.attempts}</strong><span>测验记录</span></div>
@@ -272,14 +390,16 @@ function draw() {
           <a class="btn btn-light" href="#vocabMistakes">查看错题本</a>
         </div>
         <ul class="vocab-queue">
-          ${session.words
-            .slice(0, 8)
+          ${range.words
             .map(
-              (item, index) => `
+              (item, offset) => {
+                const index = range.start + offset;
+                return `
                 <li class="${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
                   <button type="button" data-index="${index}"><span>${escapeHtml(item.word)}</span><em>${item.mastered ? "已掌握" : "待复习"}</em></button>
                 </li>
-              `,
+              `;
+              },
             )
             .join("")}
         </ul>
@@ -335,6 +455,22 @@ function bind() {
   document.querySelectorAll("[data-index]").forEach((button) => {
     button.addEventListener("click", () => {
       session.index = Number(button.dataset.index);
+      resetQuestion();
+      draw();
+    });
+  });
+  document.querySelectorAll("[data-goal]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const previousUnit = currentUnitIndex();
+      session.dailyGoal = normalizeDailyGoal(button.dataset.goal);
+      session.index = Math.min(previousUnit * session.dailyGoal, Math.max(0, session.words.length - 1));
+      saveLocalState();
+      draw();
+    });
+  });
+  document.querySelectorAll("[data-unit]").forEach((button) => {
+    button.addEventListener("click", () => {
+      session.index = Math.min(Number(button.dataset.unit) * session.dailyGoal, Math.max(0, session.words.length - 1));
       resetQuestion();
       draw();
     });
