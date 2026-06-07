@@ -477,7 +477,7 @@ function draw() {
   bind();
   if (shouldShowUnitViewedPrompt) {
     window.setTimeout(() => {
-      const goToTest = window.confirm(`本单元单词学习完成！要现在进入第 ${activeUnit + 1} 单元测试吗？`);
+      const goToTest = window.confirm(`本单元 ${range.words.length} 个单词学习完成！要现在进入第 ${activeUnit + 1} 单元测试吗？`);
       if (goToTest) {
         window.location.href = unitTestHref(activeUnit);
       } else {
