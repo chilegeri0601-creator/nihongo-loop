@@ -76,6 +76,9 @@ async function main() {
   assert.match(vocabScriptText, /vocab-list-panel/);
   assert.match(vocabScriptText, /vocabMistakes/);
   assert.match(vocabScriptText, /wrongCount/);
+  assert.match(vocabScriptText, /unitTestHref/);
+  assert.match(vocabScriptText, /学习完啦/);
+  assert.match(vocabScriptText, /本单元待复习/);
 
   const grammarPage = await fetch(`${BASE_URL}/grammar.html`);
   assert.equal(grammarPage.status, 200);
@@ -130,6 +133,9 @@ async function main() {
   assert.match(testScriptText, /\/api\/vocabulary\/answer/);
   assert.match(testScriptText, /\/api\/grammar\/answer/);
   assert.match(testScriptText, /data\/features\.json/);
+  assert.match(testScriptText, /vocabularyUnitRange/);
+  assert.match(testScriptText, /本单元背会/);
+  assert.match(testScriptText, /查看错题本/);
 
   const featureData = await fetch(`${BASE_URL}/data/features.json`);
   assert.equal(featureData.status, 200);

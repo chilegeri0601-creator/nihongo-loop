@@ -42,14 +42,14 @@ const session = {
   words: [],
   stats: { total: 0, mastered: 0, remaining: 0 },
   question: null,
-  dailyGoal: Number(savedState.vocabularyDailyGoal || 20),
+  dailyGoal: Number(savedState.vocabularyDailyGoal || 30),
 };
 
 const dailyGoalOptions = [10, 20, 30, 50];
 
 function normalizeDailyGoal(value) {
-  const goal = Number(value || 20);
-  return dailyGoalOptions.includes(goal) ? goal : 20;
+  const goal = Number(value || 30);
+  return dailyGoalOptions.includes(goal) ? goal : 30;
 }
 
 function unitCount() {
@@ -68,6 +68,27 @@ function unitRange(unitIndex = currentUnitIndex()) {
 
 function unitMasteredCount(unitIndex = currentUnitIndex()) {
   return unitRange(unitIndex).words.filter((word) => word.mastered).length;
+}
+
+function unitKey(unitIndex = currentUnitIndex()) {
+  return `${session.level}-${session.dailyGoal}-${unitIndex + 1}`;
+}
+
+function unitTestHref(unitIndex = currentUnitIndex()) {
+  return `test.html?type=vocabulary&level=${encodeURIComponent(session.level)}&unit=${unitIndex}&goal=${session.dailyGoal}`;
+}
+
+function unitStudyStats(unitIndex = currentUnitIndex()) {
+  const range = unitRange(unitIndex);
+  const mastered = range.words.filter((word) => word.mastered).length;
+  const review = range.words.filter((word) => !word.mastered && wrongCount(word) > 0).length;
+  return {
+    ...range,
+    mastered,
+    review,
+    pending: Math.max(0, range.words.length - mastered - review),
+    complete: range.words.length > 0 && mastered === range.words.length,
+  };
 }
 
 function wrongCount(word) {
@@ -195,9 +216,8 @@ function speakJapanese(text) {
 
 function renderWordList() {
   const units = Array.from({ length: unitCount() }, (_, unitIndex) => {
-    const range = unitRange(unitIndex);
-    const mastered = unitMasteredCount(unitIndex);
-    return { unitIndex, ...range, mastered };
+    const stats = unitStudyStats(unitIndex);
+    return { unitIndex, ...stats };
   });
 
   return `
@@ -212,14 +232,14 @@ function renderWordList() {
       <div class="vocab-unit-list">
         ${units
           .map(
-            ({ unitIndex, start, end, words, mastered }) => `
+            ({ unitIndex, start, end, words, mastered, review, pending }) => `
               <section class="vocab-unit-card ${unitIndex === currentUnitIndex() ? "active" : ""}">
                 <div class="vocab-unit-card-head">
                   <button type="button" data-unit="${unitIndex}">
                     <span>第 ${unitIndex + 1} 单元</span>
                     <b>${start + 1}-${end}</b>
                   </button>
-                  <em>${mastered}/${words.length} 已掌握</em>
+                  <em>${mastered} 会 · ${review} 待复习 · ${pending} 未学</em>
                 </div>
                 <div class="vocab-table compact">
                   ${words
@@ -293,16 +313,16 @@ function renderMistakeBook() {
 
 function renderStudyPlan() {
   const activeUnit = currentUnitIndex();
-  const range = unitRange(activeUnit);
-  const mastered = unitMasteredCount(activeUnit);
+  const range = unitStudyStats(activeUnit);
   const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
   const units = Array.from({ length: unitCount() }, (_, index) => {
-    const unit = unitRange(index);
+    const unit = unitStudyStats(index);
     return {
       index,
       start: unit.start,
       end: unit.end,
-      mastered: unitMasteredCount(index),
+      mastered: unit.mastered,
+      review: unit.review,
       total: unit.words.length,
     };
   });
@@ -312,13 +332,18 @@ function renderStudyPlan() {
       <div class="vocab-plan-summary">
         <span>${session.level} 学习计划</span>
         <h3>第 ${activeUnit + 1} 单元</h3>
-        <p>今天建议学习 ${range.start + 1}-${range.end} 号词，先听发音，再看例句，最后去测验。</p>
+        <p>${range.complete ? "学习完啦！这个单元的单词都已标记掌握，可以进入单元测验巩固。" : `今天建议学习 ${range.start + 1}-${range.end} 号词，先听发音，再看例句，最后按单元测验。`}</p>
       </div>
       <div class="vocab-plan-metrics">
         <div><strong>${session.words.length}</strong><span>总词数</span></div>
         <div><strong>${unitCount()}</strong><span>单元</span></div>
-        <div><strong>${mastered}/${range.words.length}</strong><span>本单元掌握</span></div>
+        <div><strong>${range.mastered}/${range.words.length}</strong><span>本单元已会</span></div>
+        <div><strong>${range.review}</strong><span>本单元待复习</span></div>
+      </div>
+      <div class="vocab-unit-summary ${range.complete ? "complete" : ""}">
+        <div><strong>${range.pending}</strong><span>未学习</span></div>
         <div><strong>${percent}%</strong><span>总进度</span></div>
+        <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">测第 ${activeUnit + 1} 单元</a>
       </div>
       <div class="vocab-goal-panel">
         <span>每天背几个</span>
@@ -340,7 +365,7 @@ function renderStudyPlan() {
             (unit) => `
               <button type="button" data-unit="${unit.index}" class="${unit.index === activeUnit ? "active" : ""}">
                 <span>${unit.index + 1}</span>
-                <em>${unit.mastered}/${unit.total}</em>
+                <em>${unit.mastered}/${unit.total}${unit.review ? ` · ${unit.review}错` : ""}</em>
               </button>
             `,
           )
@@ -368,7 +393,7 @@ function renderCurrentUnitQueue(range, activeUnit) {
               <li class="${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
                 <button type="button" data-index="${index}">
                   <span>${escapeHtml(item.word)}</span>
-                  <em>${item.mastered ? "已掌握" : "待复习"}</em>
+                  <em>${item.mastered ? "已掌握" : wrongCount(item) > 0 ? "待复习" : "未学习"}</em>
                 </button>
               </li>
             `;
@@ -384,7 +409,7 @@ function draw() {
   if (!word) return;
   const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
   const activeUnit = currentUnitIndex();
-  const range = unitRange(activeUnit);
+  const range = unitStudyStats(activeUnit);
   document.querySelector("#vocabPageContent").innerHTML = `
     <div class="vocab-shell vocab-learning-shell">
       ${renderStudyPlan()}
@@ -415,7 +440,7 @@ function draw() {
           <span>学习模式</span>
           <h4>这里只看单词和例句</h4>
           <p>完成本页学习后，进入独立测验页做选择题。</p>
-          <a class="btn btn-dark" href="test.html?type=vocabulary&level=${encodeURIComponent(session.level)}">进入 ${session.level} 单词测验</a>
+          <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">进入第 ${activeUnit + 1} 单元测验</a>
           <a class="btn btn-light" href="#vocabMistakes">查看错题本</a>
         </div>
       </aside>
@@ -433,6 +458,7 @@ function updateStats() {
 }
 
 async function saveMaster(word, mastered) {
+  const targetUnit = currentUnitIndex();
   const fallback = { attempts: word.attempts, correct: word.correct, mastered };
   try {
     const data = await apiRequest("/api/vocabulary/master", {
@@ -451,8 +477,20 @@ async function saveMaster(word, mastered) {
     showToast(mastered ? "已标记掌握" : "已放回复习");
   }
   updateStats();
+  savedState.vocabularyCompletedUnits = savedState.vocabularyCompletedUnits || {};
+  const completedKey = unitKey(targetUnit);
+  const unitComplete = unitStudyStats(targetUnit).complete;
+  const newlyCompleted = mastered && unitComplete && !savedState.vocabularyCompletedUnits[completedKey];
+  if (unitComplete) {
+    savedState.vocabularyCompletedUnits[completedKey] = new Date().toISOString();
+  } else {
+    delete savedState.vocabularyCompletedUnits[completedKey];
+  }
   saveLocalState();
   draw();
+  if (newlyCompleted) {
+    showToast(`第 ${targetUnit + 1} 单元学习完啦，可以去做单元测验。`);
+  }
 }
 
 function bind() {

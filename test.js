@@ -20,7 +20,29 @@ const session = {
   index: 0,
   questions: [],
   correct: 0,
+  answers: [],
+  unitIndex: Number(params.get("unit")),
+  dailyGoal: Number(params.get("goal") || savedState.vocabularyDailyGoal || 30),
 };
+
+const dailyGoalOptions = [10, 20, 30, 50];
+if (!dailyGoalOptions.includes(session.dailyGoal)) session.dailyGoal = 30;
+if (!Number.isInteger(session.unitIndex) || session.unitIndex < 0) session.unitIndex = null;
+
+function isVocabularyUnitTest() {
+  return testType === "vocabulary" && session.unitIndex !== null;
+}
+
+function vocabularyUnitRange(words) {
+  if (!isVocabularyUnitTest()) return { start: 0, end: words.length, words };
+  const start = session.unitIndex * session.dailyGoal;
+  const end = Math.min(start + session.dailyGoal, words.length);
+  return { start, end, words: words.slice(start, end) };
+}
+
+function unitLabel() {
+  return isVocabularyUnitTest() ? `第 ${session.unitIndex + 1} 单元` : "";
+}
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -78,10 +100,15 @@ function buildOptions(items, current, key) {
 async function loadVocabularyQuestions() {
   const data = await apiRequest(`/api/vocabulary?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(session.level)}`);
   const words = data.vocabulary.words;
-  return words.map((word, index) => {
+  const range = vocabularyUnitRange(words);
+  const scopedWords = range.words.length ? range.words : words;
+  return scopedWords.map((word, index) => {
     const zhToJp = index % 2 === 1;
     return {
       id: word.id,
+      word: word.word,
+      kana: word.kana,
+      meaning: word.meaning,
       prompt: zhToJp ? word.meaning : word.word,
       hint: zhToJp ? "选择对应日语" : word.kana,
       correct: zhToJp ? word.word : word.meaning,
@@ -152,18 +179,41 @@ function draw() {
   const total = session.questions.length;
   const question = session.questions[session.index];
   const percent = total ? Math.round((session.index / total) * 100) : 0;
-  document.querySelector("#testTitle").textContent = `${session.level} ${meta.name}测验`;
+  document.querySelector("#testTitle").textContent = `${session.level} ${meta.name}${isVocabularyUnitTest() ? unitLabel() : ""}测验`;
   document.querySelector("#testCounter").textContent = `${Math.min(session.index + 1, total)} / ${total}`;
   document.querySelector("#testProgress").style.width = `${percent}%`;
   if (!question) {
+    const missed = session.answers.filter((item) => !item.correct);
+    const learned = session.answers.filter((item) => item.correct);
+    const accuracy = total ? Math.round((session.correct / total) * 100) : 0;
     document.querySelector("#testProgress").style.width = "100%";
     document.querySelector("#testContent").innerHTML = `
       <div class="test-result">
         <strong>${session.correct}/${total}</strong>
-        <h3>测验完成</h3>
-        <p>你已经完成 ${session.level} ${meta.name}测验，可以回到学习页继续复习。</p>
+        <h3>${isVocabularyUnitTest() ? `${unitLabel()}测验完成` : "测验完成"}</h3>
+        <p>${isVocabularyUnitTest() ? `本单元背会 ${learned.length} 个，待复习 ${missed.length} 个。答错的单词已经进入错题本，下次可以继续查看。` : `你已经完成 ${session.level} ${meta.name}测验，可以回到学习页继续复习。`}</p>
+        ${
+          isVocabularyUnitTest()
+            ? `<div class="test-result-metrics">
+                <div><b>${learned.length}</b><span>本次背会</span></div>
+                <div><b>${missed.length}</b><span>待复习</span></div>
+                <div><b>${accuracy}%</b><span>正确率</span></div>
+              </div>
+              ${
+                missed.length
+                  ? `<div class="test-review-list">
+                      <span>进入错题本的单词</span>
+                      ${missed
+                        .map((item) => `<em>${escapeHtml(item.word)} · ${escapeHtml(item.meaning)}</em>`)
+                        .join("")}
+                    </div>`
+                  : `<div class="test-review-list clear"><span>这一单元没有错题</span><em>很稳，可以进入下一个单元。</em></div>`
+              }`
+            : ""
+        }
         <div class="hero-actions">
           <a class="btn btn-dark" href="${meta.study}">返回学习</a>
+          ${isVocabularyUnitTest() ? `<a class="btn btn-light" href="vocabulary.html#vocabMistakes">查看错题本</a>` : ""}
           <button class="btn btn-light" type="button" id="restartTest">再测一次</button>
         </div>
       </div>
@@ -201,6 +251,12 @@ function draw() {
   document.querySelectorAll("[data-test-answer]").forEach((button) => {
     button.addEventListener("click", async () => {
       const correct = button.dataset.testAnswer === question.correct;
+      session.answers.push({
+        id: question.id,
+        word: question.word || question.prompt,
+        meaning: question.meaning || question.correct,
+        correct,
+      });
       button.classList.add(correct ? "correct" : "wrong");
       document.querySelector("#testFeedback").textContent = correct ? question.explanation || "答对了。" : "答案不对，先记下错因，下一题继续。";
       document.querySelectorAll("[data-test-answer]").forEach((item) => (item.disabled = true));
@@ -222,6 +278,7 @@ async function setLevel(level) {
   session.level = level;
   session.index = 0;
   session.correct = 0;
+  session.answers = [];
   document.querySelectorAll("[data-test-level]").forEach((button) => {
     button.classList.toggle("active", button.dataset.testLevel === level);
   });
