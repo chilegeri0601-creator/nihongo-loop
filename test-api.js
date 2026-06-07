@@ -80,6 +80,10 @@ async function main() {
   assert.match(vocabScriptText, /学习完啦/);
   assert.match(vocabScriptText, /本单元待复习/);
   assert.match(vocabScriptText, /本单元 .* 个单词学习完成/);
+  assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(word.kana || word.word)}"'));
+  assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(item.kana || item.word)}"'));
+  assert.doesNotMatch(vocabScriptText, /data-speak="\$\{escapeHtml\(word\.word\)\}"/);
+  assert.doesNotMatch(vocabScriptText, /data-speak="\$\{escapeHtml\(item\.word\)\}"/);
 
   const grammarPage = await fetch(`${BASE_URL}/grammar.html`);
   assert.equal(grammarPage.status, 200);

@@ -277,7 +277,7 @@ function renderWordList() {
                             <b>${escapeHtml(item.meaning)}</b>
                             <small>${escapeHtml(item.type)}</small>
                           </button>
-                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.word)}" aria-label="听 ${escapeHtml(item.word)} 的发音">听</button>
+                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}" aria-label="听 ${escapeHtml(item.word)} 的发音">听</button>
                         </article>
                       `;
                     })
@@ -318,7 +318,7 @@ function renderMistakeBook() {
                       </button>
                       <div class="vocab-mistake-meta">
                         <small>错 ${wrongCount(item)} 次 · 答对 ${Number(item.correct || 0)} 次</small>
-                        <button type="button" class="sound-button small" data-speak="${escapeHtml(item.word)}">听</button>
+                        <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}">听</button>
                       </div>
                     </article>
                   `;
@@ -446,7 +446,7 @@ function draw() {
         <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(word.exampleMeaning)}</span></div>
         <div class="vocab-actions wide">
           <button type="button" data-prev>上一词</button>
-          <button type="button" class="sound-button" data-speak="${escapeHtml(word.word)}">听发音</button>
+          <button type="button" class="sound-button" data-speak="${escapeHtml(word.kana || word.word)}">听发音</button>
           <button type="button" data-master="${word.mastered ? "false" : "true"}">${word.mastered ? "放回复习" : "标记掌握"}</button>
           <button type="button" data-next>下一词</button>
         </div>
