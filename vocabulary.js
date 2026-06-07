@@ -350,6 +350,35 @@ function renderStudyPlan() {
   `;
 }
 
+function renderCurrentUnitQueue(range, activeUnit) {
+  return `
+    <section class="vocab-unit-strip" aria-label="当前单元单词速览">
+      <div class="vocab-unit-strip-head">
+        <div>
+          <span>当前单元速览</span>
+          <strong>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</strong>
+        </div>
+        <em>点击单词可直接切换学习</em>
+      </div>
+      <ul class="vocab-queue">
+        ${range.words
+          .map((item, offset) => {
+            const index = range.start + offset;
+            return `
+              <li class="${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
+                <button type="button" data-index="${index}">
+                  <span>${escapeHtml(item.word)}</span>
+                  <em>${item.mastered ? "已掌握" : "待复习"}</em>
+                </button>
+              </li>
+            `;
+          })
+          .join("")}
+      </ul>
+    </section>
+  `;
+}
+
 function draw() {
   const word = session.words[session.index];
   if (!word) return;
@@ -389,21 +418,8 @@ function draw() {
           <a class="btn btn-dark" href="test.html?type=vocabulary&level=${encodeURIComponent(session.level)}">进入 ${session.level} 单词测验</a>
           <a class="btn btn-light" href="#vocabMistakes">查看错题本</a>
         </div>
-        <ul class="vocab-queue">
-          ${range.words
-            .map(
-              (item, offset) => {
-                const index = range.start + offset;
-                return `
-                <li class="${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
-                  <button type="button" data-index="${index}"><span>${escapeHtml(item.word)}</span><em>${item.mastered ? "已掌握" : "待复习"}</em></button>
-                </li>
-              `;
-              },
-            )
-            .join("")}
-        </ul>
       </aside>
+      ${renderCurrentUnitQueue(range, activeUnit)}
       ${renderWordList()}
       ${renderMistakeBook()}
     </div>

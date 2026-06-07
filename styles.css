@@ -1481,8 +1481,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  margin-top: auto;
-  padding-top: 24px;
+  margin-top: 18px;
+  padding-top: 0;
 }
 
 .vocab-actions.wide {
@@ -1503,12 +1503,8 @@ h1 {
   min-height: 46px;
 }
 
-.vocab-actions button:nth-child(2) {
-  background: #111827;
-  color: var(--white);
-}
-
-.vocab-actions.wide button:nth-child(3) {
+.vocab-actions button[data-next],
+.vocab-actions.wide button[data-next] {
   background: #111827;
   color: var(--white);
 }
@@ -1655,11 +1651,18 @@ h1 {
 }
 
 .vocab-queue {
-  display: grid;
+  display: flex;
   gap: 8px;
   margin: 4px 0 0;
   padding: 0;
+  overflow-x: auto;
   list-style: none;
+  scroll-snap-type: x proximity;
+}
+
+.vocab-queue li {
+  flex: 0 0 150px;
+  scroll-snap-align: start;
 }
 
 .vocab-queue button {
@@ -1732,6 +1735,45 @@ h1 {
 .vocab-unit-label strong {
   color: #111827;
   font-size: 15px;
+}
+
+.vocab-unit-strip {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 12px;
+  border-radius: 22px;
+  background: #f8fafc;
+  padding: 18px;
+}
+
+.vocab-unit-strip-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.vocab-unit-strip-head div {
+  display: grid;
+  gap: 5px;
+}
+
+.vocab-unit-strip-head span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.vocab-unit-strip-head strong {
+  color: #111827;
+  font-size: 18px;
+}
+
+.vocab-unit-strip-head em {
+  color: var(--muted);
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .vocab-unit-list {
@@ -2970,6 +3012,15 @@ h1 {
   .vocab-unit-card-head {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .vocab-unit-strip-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .vocab-queue li {
+    flex-basis: 132px;
   }
 
   .vocab-unit-card-head button {
