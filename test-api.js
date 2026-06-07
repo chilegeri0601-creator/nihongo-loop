@@ -79,6 +79,7 @@ async function main() {
   assert.match(vocabScriptText, /unitTestHref/);
   assert.match(vocabScriptText, /学习完啦/);
   assert.match(vocabScriptText, /本单元待复习/);
+  assert.match(vocabScriptText, /本单元单词学习完成/);
 
   const grammarPage = await fetch(`${BASE_URL}/grammar.html`);
   assert.equal(grammarPage.status, 200);

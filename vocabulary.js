@@ -74,6 +74,11 @@ function unitKey(unitIndex = currentUnitIndex()) {
   return `${session.level}-${session.dailyGoal}-${unitIndex + 1}`;
 }
 
+function ensureUnitTracking() {
+  savedState.vocabularyViewedUnits = savedState.vocabularyViewedUnits || {};
+  savedState.vocabularyUnitViewPrompts = savedState.vocabularyUnitViewPrompts || {};
+}
+
 function unitTestHref(unitIndex = currentUnitIndex()) {
   return `test.html?type=vocabulary&level=${encodeURIComponent(session.level)}&unit=${unitIndex}&goal=${session.dailyGoal}`;
 }
@@ -93,6 +98,25 @@ function unitStudyStats(unitIndex = currentUnitIndex()) {
 
 function wrongCount(word) {
   return Math.max(0, Number(word.attempts || 0) - Number(word.correct || 0));
+}
+
+function markWordViewed(unitIndex, word) {
+  if (!word?.id) return false;
+  ensureUnitTracking();
+  const key = unitKey(unitIndex);
+  const viewed = new Set(savedState.vocabularyViewedUnits[key] || []);
+  const wasViewed = viewed.has(word.id);
+  viewed.add(word.id);
+  savedState.vocabularyViewedUnits[key] = [...viewed];
+
+  const range = unitRange(unitIndex);
+  const unitViewedComplete = range.words.length > 0 && range.words.every((item) => viewed.has(item.id));
+  const shouldPrompt = !wasViewed && unitViewedComplete && !savedState.vocabularyUnitViewPrompts[key];
+  if (shouldPrompt) {
+    savedState.vocabularyUnitViewPrompts[key] = new Date().toISOString();
+  }
+  saveLocalState();
+  return shouldPrompt;
 }
 
 function escapeHtml(value) {
@@ -410,6 +434,7 @@ function draw() {
   const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
   const activeUnit = currentUnitIndex();
   const range = unitStudyStats(activeUnit);
+  const shouldShowUnitViewedPrompt = markWordViewed(activeUnit, word);
   document.querySelector("#vocabPageContent").innerHTML = `
     <div class="vocab-shell vocab-learning-shell">
       ${renderStudyPlan()}
@@ -450,6 +475,16 @@ function draw() {
     </div>
   `;
   bind();
+  if (shouldShowUnitViewedPrompt) {
+    window.setTimeout(() => {
+      const goToTest = window.confirm(`本单元单词学习完成！要现在进入第 ${activeUnit + 1} 单元测试吗？`);
+      if (goToTest) {
+        window.location.href = unitTestHref(activeUnit);
+      } else {
+        showToast("已留在学习页，你可以稍后从“测第 " + (activeUnit + 1) + " 单元”进入测试。");
+      }
+    }, 180);
+  }
 }
 
 function updateStats() {
