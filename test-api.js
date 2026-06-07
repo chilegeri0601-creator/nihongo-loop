@@ -249,7 +249,7 @@ async function main() {
 
   const n5Vocabulary = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=N5`);
   assert.equal(n5Vocabulary.vocabulary.level, "N5");
-  assert.ok(n5Vocabulary.vocabulary.words.length >= 250);
+  assert.ok(n5Vocabulary.vocabulary.words.length >= 800);
 
   for (const [level, minimum] of [
     ["N4", 180],

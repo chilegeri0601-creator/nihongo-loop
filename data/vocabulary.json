@@ -2357,6 +2357,4848 @@
       "type": "表达",
       "example": "もしもし、田中です。",
       "exampleMeaning": "喂，我是田中。"
+    },
+    {
+      "id": "n5-mlc-001-word",
+      "word": "～駅",
+      "kana": "～えき",
+      "meaning": "车站",
+      "type": "助数词/接尾词",
+      "example": "「～駅」を覚えます。",
+      "exampleMeaning": "记住「～駅」这个词。"
+    },
+    {
+      "id": "n5-mlc-002-word",
+      "word": "～円",
+      "kana": "～えん",
+      "meaning": "日元",
+      "type": "助数词/接尾词",
+      "example": "「～円」を覚えます。",
+      "exampleMeaning": "记住「～円」这个词。"
+    },
+    {
+      "id": "n5-mlc-003-word",
+      "word": "～かい",
+      "kana": "～かい",
+      "meaning": "地面",
+      "type": "助数词/接尾词",
+      "example": "「～かい」を覚えます。",
+      "exampleMeaning": "记住「～かい」这个词。"
+    },
+    {
+      "id": "n5-mlc-005-word",
+      "word": "～日間",
+      "kana": "～かかん",
+      "meaning": "......天",
+      "type": "助数词/接尾词",
+      "example": "「～日間」を覚えます。",
+      "exampleMeaning": "记住「～日間」这个词。"
+    },
+    {
+      "id": "n5-mlc-006-word",
+      "word": "～か月",
+      "kana": "～かげつ",
+      "meaning": "（针对）...月",
+      "type": "助数词/接尾词",
+      "example": "「～か月」を覚えます。",
+      "exampleMeaning": "记住「～か月」这个词。"
+    },
+    {
+      "id": "n5-mlc-007-word",
+      "word": "～かた",
+      "kana": "～かた",
+      "meaning": "如何",
+      "type": "助数词/接尾词",
+      "example": "「～かた」を覚えます。",
+      "exampleMeaning": "记住「～かた」这个词。"
+    },
+    {
+      "id": "n5-mlc-008-word",
+      "word": "～月",
+      "kana": "～がつ",
+      "meaning": "月",
+      "type": "助数词/接尾词",
+      "example": "「～月」を覚えます。",
+      "exampleMeaning": "记住「～月」这个词。"
+    },
+    {
+      "id": "n5-mlc-009-word",
+      "word": "～がります",
+      "kana": "～がります",
+      "meaning": "（第三人称）想要",
+      "type": "助数词/接尾词",
+      "example": "「～がります」を覚えます。",
+      "exampleMeaning": "记住「～がります」这个词。"
+    },
+    {
+      "id": "n5-mlc-010-word",
+      "word": "～がわ",
+      "kana": "～がわ",
+      "meaning": "边",
+      "type": "助数词/接尾词",
+      "example": "「～がわ」を覚えます。",
+      "exampleMeaning": "记住「～がわ」这个词。"
+    },
+    {
+      "id": "n5-mlc-011-word",
+      "word": "～キロ",
+      "kana": "～キロ",
+      "meaning": "公斤=",
+      "type": "助数词/接尾词",
+      "example": "「～キロ」を覚えます。",
+      "exampleMeaning": "记住「～キロ」这个词。"
+    },
+    {
+      "id": "n5-mlc-013-word",
+      "word": "～くらい/ぐらい",
+      "kana": "～くらい/ぐらい",
+      "meaning": "关于",
+      "type": "助数词/接尾词",
+      "example": "「～くらい/ぐらい」を覚えます。",
+      "exampleMeaning": "记住「～くらい/ぐらい」这个词。"
+    },
+    {
+      "id": "n5-mlc-014-word",
+      "word": "～グラム",
+      "kana": "～グラム",
+      "meaning": "克",
+      "type": "助数词/接尾词",
+      "example": "「～グラム」を覚えます。",
+      "exampleMeaning": "记住「～グラム」这个词。"
+    },
+    {
+      "id": "n5-mlc-015-word",
+      "word": "～こ",
+      "kana": "～こ",
+      "meaning": "小物体计数器",
+      "type": "助数词/接尾词",
+      "example": "「～こ」を覚えます。",
+      "exampleMeaning": "记住「～こ」这个词。"
+    },
+    {
+      "id": "n5-mlc-016-word",
+      "word": "～語",
+      "kana": "～ご",
+      "meaning": "语言",
+      "type": "助数词/接尾词",
+      "example": "「～語」を覚えます。",
+      "exampleMeaning": "记住「～語」这个词。"
+    },
+    {
+      "id": "n5-mlc-017-word",
+      "word": "～ごろ",
+      "kana": "～ごろ",
+      "meaning": "大约...（时间）",
+      "type": "助数词/接尾词",
+      "example": "「～ごろ」を覚えます。",
+      "exampleMeaning": "记住「～ごろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-018-word",
+      "word": "～さい",
+      "kana": "～さい",
+      "meaning": "岁",
+      "type": "助数词/接尾词",
+      "example": "「～さい」を覚えます。",
+      "exampleMeaning": "记住「～さい」这个词。"
+    },
+    {
+      "id": "n5-mlc-019-word",
+      "word": "～さつ",
+      "kana": "～さつ",
+      "meaning": "书柜台",
+      "type": "助数词/接尾词",
+      "example": "「～さつ」を覚えます。",
+      "exampleMeaning": "记住「～さつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-020-word",
+      "word": "～さん",
+      "kana": "～さん",
+      "meaning": "先生、夫人、小姐",
+      "type": "助数词/接尾词",
+      "example": "「～さん」を覚えます。",
+      "exampleMeaning": "记住「～さん」这个词。"
+    },
+    {
+      "id": "n5-mlc-021-word",
+      "word": "～時",
+      "kana": "～じ",
+      "meaning": "点钟",
+      "type": "助数词/接尾词",
+      "example": "「～時」を覚えます。",
+      "exampleMeaning": "记住「～時」这个词。"
+    },
+    {
+      "id": "n5-mlc-022-word",
+      "word": "～時間",
+      "kana": "～じかん",
+      "meaning": "小时",
+      "type": "助数词/接尾词",
+      "example": "「～時間」を覚えます。",
+      "exampleMeaning": "记住「～時間」这个词。"
+    },
+    {
+      "id": "n5-mlc-023-word",
+      "word": "～週間",
+      "kana": "～しゅうかん",
+      "meaning": "（持续）...周",
+      "type": "助数词/接尾词",
+      "example": "「～週間」を覚えます。",
+      "exampleMeaning": "记住「～週間」这个词。"
+    },
+    {
+      "id": "n5-mlc-024-word",
+      "word": "～人",
+      "kana": "～じん",
+      "meaning": "一个，... 语",
+      "type": "助数词/接尾词",
+      "example": "「～人」を覚えます。",
+      "exampleMeaning": "记住「～人」这个词。"
+    },
+    {
+      "id": "n5-mlc-025-word",
+      "word": "～すぎ",
+      "kana": "～すぎ",
+      "meaning": "过去，结束",
+      "type": "助数词/接尾词",
+      "example": "「～すぎ」を覚えます。",
+      "exampleMeaning": "记住「～すぎ」这个词。"
+    },
+    {
+      "id": "n5-mlc-026-word",
+      "word": "～ずつ",
+      "kana": "～ずつ",
+      "meaning": "每个",
+      "type": "助数词/接尾词",
+      "example": "「～ずつ」を覚えます。",
+      "exampleMeaning": "记住「～ずつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-027-word",
+      "word": "～先生",
+      "kana": "～せんせい",
+      "meaning": "老师",
+      "type": "助数词/接尾词",
+      "example": "「～先生」を覚えます。",
+      "exampleMeaning": "记住「～先生」这个词。"
+    },
+    {
+      "id": "n5-mlc-028-word",
+      "word": "～だい",
+      "kana": "～だい",
+      "meaning": "机器计数器",
+      "type": "助数词/接尾词",
+      "example": "「～だい」を覚えます。",
+      "exampleMeaning": "记住「～だい」这个词。"
+    },
+    {
+      "id": "n5-mlc-029-word",
+      "word": "～たち",
+      "kana": "～たち",
+      "meaning": "s、...以及其他",
+      "type": "助数词/接尾词",
+      "example": "「～たち」を覚えます。",
+      "exampleMeaning": "记住「～たち」这个词。"
+    },
+    {
+      "id": "n5-mlc-030-word",
+      "word": "～中",
+      "kana": "～ちゅう",
+      "meaning": "处于...中间，（期间）",
+      "type": "助数词/接尾词",
+      "example": "「～中」を覚えます。",
+      "exampleMeaning": "记住「～中」这个词。"
+    },
+    {
+      "id": "n5-mlc-031-word",
+      "word": "～つ",
+      "kana": "～つ",
+      "meaning": "对象计数器",
+      "type": "助数词/接尾词",
+      "example": "「～つ」を覚えます。",
+      "exampleMeaning": "记住「～つ」这个词。"
+    },
+    {
+      "id": "n5-mlc-032-word",
+      "word": "～ど",
+      "kana": "～ど",
+      "meaning": "时间",
+      "type": "助数词/接尾词",
+      "example": "「～ど」を覚えます。",
+      "exampleMeaning": "记住「～ど」这个词。"
+    },
+    {
+      "id": "n5-mlc-033-word",
+      "word": "～日",
+      "kana": "～にち",
+      "meaning": "st、...nd、...th",
+      "type": "助数词/接尾词",
+      "example": "「～日」を覚えます。",
+      "exampleMeaning": "记住「～日」这个词。"
+    },
+    {
+      "id": "n5-mlc-034-word",
+      "word": "～人",
+      "kana": "～にん",
+      "meaning": "人柜台",
+      "type": "助数词/接尾词",
+      "example": "「～人」を覚えます。",
+      "exampleMeaning": "记住「～人」这个词。"
+    },
+    {
+      "id": "n5-mlc-035-word",
+      "word": "～年",
+      "kana": "～ねん",
+      "meaning": "年",
+      "type": "助数词/接尾词",
+      "example": "「～年」を覚えます。",
+      "exampleMeaning": "记住「～年」这个词。"
+    },
+    {
+      "id": "n5-mlc-036-word",
+      "word": "～はい/ばい/ぱい",
+      "kana": "～はい/ばい/ぱい",
+      "meaning": "杯子",
+      "type": "助数词/接尾词",
+      "example": "「～はい/ばい/ぱい」を覚えます。",
+      "exampleMeaning": "记住「～はい/ばい/ぱい」这个词。"
+    },
+    {
+      "id": "n5-mlc-037-word",
+      "word": "～半",
+      "kana": "～はん",
+      "meaning": "一半",
+      "type": "助数词/接尾词",
+      "example": "「～半」を覚えます。",
+      "exampleMeaning": "记住「～半」这个词。"
+    },
+    {
+      "id": "n5-mlc-038-word",
+      "word": "～ばん",
+      "kana": "～ばん",
+      "meaning": "不",
+      "type": "助数词/接尾词",
+      "example": "「～ばん」を覚えます。",
+      "exampleMeaning": "记住「～ばん」这个词。"
+    },
+    {
+      "id": "n5-mlc-039-word",
+      "word": "～ひき/びき/ぴき",
+      "kana": "～ひき/びき/ぴき",
+      "meaning": "动物计数器",
+      "type": "助数词/接尾词",
+      "example": "「～ひき/びき/ぴき」を覚えます。",
+      "exampleMeaning": "记住「～ひき/びき/ぴき」这个词。"
+    },
+    {
+      "id": "n5-mlc-040-word",
+      "word": "～分",
+      "kana": "～ふん/ぷん",
+      "meaning": "分钟）",
+      "type": "助数词/接尾词",
+      "example": "「～分」を覚えます。",
+      "exampleMeaning": "记住「～分」这个词。"
+    },
+    {
+      "id": "n5-mlc-041-word",
+      "word": "～ページ",
+      "kana": "～ページ",
+      "meaning": "页",
+      "type": "助数词/接尾词",
+      "example": "「～ページ」を覚えます。",
+      "exampleMeaning": "记住「～ページ」这个词。"
+    },
+    {
+      "id": "n5-mlc-042-word",
+      "word": "～本",
+      "kana": "～ほん/ぼん/ぽん",
+      "meaning": "长物体计数器",
+      "type": "助数词/接尾词",
+      "example": "「～本」を覚えます。",
+      "exampleMeaning": "记住「～本」这个词。"
+    },
+    {
+      "id": "n5-mlc-043-word",
+      "word": "～まい",
+      "kana": "～まい",
+      "meaning": "薄物体计数器",
+      "type": "助数词/接尾词",
+      "example": "「～まい」を覚えます。",
+      "exampleMeaning": "记住「～まい」这个词。"
+    },
+    {
+      "id": "n5-mlc-044-word",
+      "word": "～前",
+      "kana": "～まえ",
+      "meaning": "2ねん前ににほんにきました。我两年前来日本",
+      "type": "助数词/接尾词",
+      "example": "「～前」を覚えます。",
+      "exampleMeaning": "记住「～前」这个词。"
+    },
+    {
+      "id": "n5-mlc-045-word",
+      "word": "～メートル",
+      "kana": "～メートル",
+      "meaning": "仪表",
+      "type": "助数词/接尾词",
+      "example": "「～メートル」を覚えます。",
+      "exampleMeaning": "记住「～メートル」这个词。"
+    },
+    {
+      "id": "n5-mlc-046-word",
+      "word": "～や",
+      "kana": "～や",
+      "meaning": "商店，...商店",
+      "type": "助数词/接尾词",
+      "example": "「～や」を覚えます。",
+      "exampleMeaning": "记住「～や」这个词。"
+    },
+    {
+      "id": "n5-mlc-047-word",
+      "word": "会います",
+      "kana": "あいます",
+      "meaning": "见到（一个人），遇见",
+      "type": "动词",
+      "example": "「会います」を覚えます。",
+      "exampleMeaning": "记住「会います」这个词。"
+    },
+    {
+      "id": "n5-mlc-048-word",
+      "word": "あおい",
+      "kana": "あおい",
+      "meaning": "蓝色的",
+      "type": "形容词",
+      "example": "「あおい」を覚えます。",
+      "exampleMeaning": "记住「あおい」这个词。"
+    },
+    {
+      "id": "n5-mlc-049-word",
+      "word": "赤",
+      "kana": "あか",
+      "meaning": "红色的",
+      "type": "形容词",
+      "example": "「赤」を覚えます。",
+      "exampleMeaning": "记住「赤」这个词。"
+    },
+    {
+      "id": "n5-mlc-051-word",
+      "word": "あがります",
+      "kana": "あがります",
+      "meaning": "上",
+      "type": "动词",
+      "example": "「あがります」を覚えます。",
+      "exampleMeaning": "记住「あがります」这个词。"
+    },
+    {
+      "id": "n5-mlc-052-word",
+      "word": "あかるい",
+      "kana": "あかるい",
+      "meaning": "明亮，明亮",
+      "type": "形容词",
+      "example": "「あかるい」を覚えます。",
+      "exampleMeaning": "记住「あかるい」这个词。"
+    },
+    {
+      "id": "n5-mlc-053-word",
+      "word": "あき",
+      "kana": "あき",
+      "meaning": "秋天，秋天",
+      "type": "名词",
+      "example": "「あき」を覚えます。",
+      "exampleMeaning": "记住「あき」这个词。"
+    },
+    {
+      "id": "n5-mlc-054-word",
+      "word": "あきます",
+      "kana": "あきます",
+      "meaning": "打开",
+      "type": "动词",
+      "example": "「あきます」を覚えます。",
+      "exampleMeaning": "记住「あきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-055-word",
+      "word": "あけます",
+      "kana": "あけます",
+      "meaning": "打开",
+      "type": "动词",
+      "example": "「あけます」を覚えます。",
+      "exampleMeaning": "记住「あけます」这个词。"
+    },
+    {
+      "id": "n5-mlc-056-word",
+      "word": "あげます",
+      "kana": "あげます",
+      "meaning": "给",
+      "type": "动词",
+      "example": "「あげます」を覚えます。",
+      "exampleMeaning": "记住「あげます」这个词。"
+    },
+    {
+      "id": "n5-mlc-058-word",
+      "word": "朝ごはん",
+      "kana": "あさごはん",
+      "meaning": "早餐",
+      "type": "名词",
+      "example": "「朝ごはん」を覚えます。",
+      "exampleMeaning": "记住「朝ごはん」这个词。"
+    },
+    {
+      "id": "n5-mlc-059-word",
+      "word": "あさって",
+      "kana": "あさって",
+      "meaning": "后天",
+      "type": "名词",
+      "example": "「あさって」を覚えます。",
+      "exampleMeaning": "记住「あさって」这个词。"
+    },
+    {
+      "id": "n5-mlc-061-word",
+      "word": "あした",
+      "kana": "あした",
+      "meaning": "明天",
+      "type": "名词",
+      "example": "「あした」を覚えます。",
+      "exampleMeaning": "记住「あした」这个词。"
+    },
+    {
+      "id": "n5-mlc-063-word",
+      "word": "あそびます",
+      "kana": "あそびます",
+      "meaning": "玩",
+      "type": "动词",
+      "example": "「あそびます」を覚えます。",
+      "exampleMeaning": "记住「あそびます」这个词。"
+    },
+    {
+      "id": "n5-mlc-064-word",
+      "word": "あたたかい",
+      "kana": "あたたかい",
+      "meaning": "温暖的",
+      "type": "名词",
+      "example": "「あたたかい」を覚えます。",
+      "exampleMeaning": "记住「あたたかい」这个词。"
+    },
+    {
+      "id": "n5-mlc-065-word",
+      "word": "あたま",
+      "kana": "あたま",
+      "meaning": "头",
+      "type": "名词",
+      "example": "「あたま」を覚えます。",
+      "exampleMeaning": "记住「あたま」这个词。"
+    },
+    {
+      "id": "n5-mlc-067-word",
+      "word": "あちら",
+      "kana": "あちら",
+      "meaning": "那边「あそこ」の更有礼貌",
+      "type": "名词",
+      "example": "「あちら」を覚えます。",
+      "exampleMeaning": "记住「あちら」这个词。"
+    },
+    {
+      "id": "n5-mlc-068-word",
+      "word": "あつい",
+      "kana": "あつい",
+      "meaning": "热的",
+      "type": "形容词",
+      "example": "「あつい」を覚えます。",
+      "exampleMeaning": "记住「あつい」这个词。"
+    },
+    {
+      "id": "n5-mlc-070-word",
+      "word": "後(で)",
+      "kana": "あと(で)",
+      "meaning": "后",
+      "type": "名词",
+      "example": "「後(で)」を覚えます。",
+      "exampleMeaning": "记住「後(で)」这个词。"
+    },
+    {
+      "id": "n5-mlc-071-word",
+      "word": "あに",
+      "kana": "あに",
+      "meaning": "（我的）哥哥",
+      "type": "名词",
+      "example": "「あに」を覚えます。",
+      "exampleMeaning": "记住「あに」这个词。"
+    },
+    {
+      "id": "n5-mlc-072-word",
+      "word": "あね",
+      "kana": "あね",
+      "meaning": "（我的）姐姐",
+      "type": "名词",
+      "example": "「あね」を覚えます。",
+      "exampleMeaning": "记住「あね」这个词。"
+    },
+    {
+      "id": "n5-mlc-073-word",
+      "word": "あの～",
+      "kana": "あの～",
+      "meaning": "那",
+      "type": "名词",
+      "example": "「あの～」を覚えます。",
+      "exampleMeaning": "记住「あの～」这个词。"
+    },
+    {
+      "id": "n5-mlc-074-word",
+      "word": "アパート",
+      "kana": "アパート",
+      "meaning": "公寓",
+      "type": "名词",
+      "example": "「アパート」を覚えます。",
+      "exampleMeaning": "记住「アパート」这个词。"
+    },
+    {
+      "id": "n5-mlc-075-word",
+      "word": "あびます",
+      "kana": "あびます",
+      "meaning": "洗澡",
+      "type": "动词",
+      "example": "「あびます」を覚えます。",
+      "exampleMeaning": "记住「あびます」这个词。"
+    },
+    {
+      "id": "n5-mlc-076-word",
+      "word": "あぶない",
+      "kana": "あぶない",
+      "meaning": "危险的",
+      "type": "名词",
+      "example": "「あぶない」を覚えます。",
+      "exampleMeaning": "记住「あぶない」这个词。"
+    },
+    {
+      "id": "n5-mlc-077-word",
+      "word": "あまい",
+      "kana": "あまい",
+      "meaning": "甜的",
+      "type": "名词",
+      "example": "「あまい」を覚えます。",
+      "exampleMeaning": "记住「あまい」这个词。"
+    },
+    {
+      "id": "n5-mlc-080-word",
+      "word": "アメリカ",
+      "kana": "アメリカ",
+      "meaning": "美利坚合众国",
+      "type": "名词",
+      "example": "「アメリカ」を覚えます。",
+      "exampleMeaning": "记住「アメリカ」这个词。"
+    },
+    {
+      "id": "n5-mlc-081-word",
+      "word": "あらいます",
+      "kana": "あらいます",
+      "meaning": "洗",
+      "type": "动词",
+      "example": "「あらいます」を覚えます。",
+      "exampleMeaning": "记住「あらいます」这个词。"
+    },
+    {
+      "id": "n5-mlc-082-word",
+      "word": "あります",
+      "kana": "あります",
+      "meaning": "是",
+      "type": "动词",
+      "example": "「あります」を覚えます。",
+      "exampleMeaning": "记住「あります」这个词。"
+    },
+    {
+      "id": "n5-mlc-084-word",
+      "word": "歩きます",
+      "kana": "あるきます",
+      "meaning": "走",
+      "type": "动词",
+      "example": "「歩きます」を覚えます。",
+      "exampleMeaning": "记住「歩きます」这个词。"
+    },
+    {
+      "id": "n5-mlc-087-word",
+      "word": "言います",
+      "kana": "いいます",
+      "meaning": "说，告诉",
+      "type": "动词",
+      "example": "「言います」を覚えます。",
+      "exampleMeaning": "记住「言います」这个词。"
+    },
+    {
+      "id": "n5-mlc-089-word",
+      "word": "行きます",
+      "kana": "いきます",
+      "meaning": "去",
+      "type": "动词",
+      "example": "「行きます」を覚えます。",
+      "exampleMeaning": "记住「行きます」这个词。"
+    },
+    {
+      "id": "n5-mlc-090-word",
+      "word": "いくつ",
+      "kana": "いくつ",
+      "meaning": "多少、几岁",
+      "type": "疑问词",
+      "example": "「いくつ」を覚えます。",
+      "exampleMeaning": "记住「いくつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-091-word",
+      "word": "いくら",
+      "kana": "いくら",
+      "meaning": "多少",
+      "type": "疑问词",
+      "example": "「いくら」を覚えます。",
+      "exampleMeaning": "记住「いくら」这个词。"
+    },
+    {
+      "id": "n5-mlc-092-word",
+      "word": "いけ",
+      "kana": "いけ",
+      "meaning": "池塘",
+      "type": "名词",
+      "example": "「いけ」を覚えます。",
+      "exampleMeaning": "记住「いけ」这个词。"
+    },
+    {
+      "id": "n5-mlc-093-word",
+      "word": "いしゃ",
+      "kana": "いしゃ",
+      "meaning": "医生=おいしゃさん。",
+      "type": "名词",
+      "example": "「いしゃ」を覚えます。",
+      "exampleMeaning": "记住「いしゃ」这个词。"
+    },
+    {
+      "id": "n5-mlc-094-word",
+      "word": "いす",
+      "kana": "いす",
+      "meaning": "椅子",
+      "type": "名词",
+      "example": "「いす」を覚えます。",
+      "exampleMeaning": "记住「いす」这个词。"
+    },
+    {
+      "id": "n5-mlc-095-word",
+      "word": "いそがしい",
+      "kana": "いそがしい",
+      "meaning": "忙碌的",
+      "type": "形容词",
+      "example": "「いそがしい」を覚えます。",
+      "exampleMeaning": "记住「いそがしい」这个词。"
+    },
+    {
+      "id": "n5-mlc-096-word",
+      "word": "いたい",
+      "kana": "いたい",
+      "meaning": "感到痛苦",
+      "type": "名词",
+      "example": "「いたい」を覚えます。",
+      "exampleMeaning": "记住「いたい」这个词。"
+    },
+    {
+      "id": "n5-mlc-097-word",
+      "word": "一",
+      "kana": "いち",
+      "meaning": "一",
+      "type": "名词",
+      "example": "「一」を覚えます。",
+      "exampleMeaning": "记住「一」这个词。"
+    },
+    {
+      "id": "n5-mlc-098-word",
+      "word": "一ど",
+      "kana": "いちど",
+      "meaning": "一次",
+      "type": "名词",
+      "example": "「一ど」を覚えます。",
+      "exampleMeaning": "记住「一ど」这个词。"
+    },
+    {
+      "id": "n5-mlc-099-word",
+      "word": "一日",
+      "kana": "いちにち",
+      "meaning": "一天",
+      "type": "名词",
+      "example": "「一日」を覚えます。",
+      "exampleMeaning": "记住「一日」这个词。"
+    },
+    {
+      "id": "n5-mlc-100-word",
+      "word": "一ばん",
+      "kana": "いちばん",
+      "meaning": "最好的",
+      "type": "形容词",
+      "example": "「一ばん」を覚えます。",
+      "exampleMeaning": "记住「一ばん」这个词。"
+    },
+    {
+      "id": "n5-mlc-101-word",
+      "word": "いつ",
+      "kana": "いつ",
+      "meaning": "什么时候",
+      "type": "疑问词",
+      "example": "「いつ」を覚えます。",
+      "exampleMeaning": "记住「いつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-102-word",
+      "word": "五日",
+      "kana": "いつか",
+      "meaning": "月初五，五天",
+      "type": "名词",
+      "example": "「五日」を覚えます。",
+      "exampleMeaning": "记住「五日」这个词。"
+    },
+    {
+      "id": "n5-mlc-103-word",
+      "word": "いっしょ(に)",
+      "kana": "いっしょ(に)",
+      "meaning": "一起",
+      "type": "名词",
+      "example": "「いっしょ(に)」を覚えます。",
+      "exampleMeaning": "记住「いっしょ(に)」这个词。"
+    },
+    {
+      "id": "n5-mlc-104-word",
+      "word": "五つ",
+      "kana": "いつつ",
+      "meaning": "五",
+      "type": "名词",
+      "example": "「五つ」を覚えます。",
+      "exampleMeaning": "记住「五つ」这个词。"
+    },
+    {
+      "id": "n5-mlc-107-word",
+      "word": "います",
+      "kana": "います",
+      "meaning": "わたしはいまいえにいます。我现在在家",
+      "type": "动词",
+      "example": "「います」を覚えます。",
+      "exampleMeaning": "记住「います」这个词。"
+    },
+    {
+      "id": "n5-mlc-108-word",
+      "word": "いみ",
+      "kana": "いみ",
+      "meaning": "意义",
+      "type": "名词",
+      "example": "「いみ」を覚えます。",
+      "exampleMeaning": "记住「いみ」这个词。"
+    },
+    {
+      "id": "n5-mlc-109-word",
+      "word": "いもうと",
+      "kana": "いもうと",
+      "meaning": "（我的）妹妹",
+      "type": "名词",
+      "example": "「いもうと」を覚えます。",
+      "exampleMeaning": "记住「いもうと」这个词。"
+    },
+    {
+      "id": "n5-mlc-110-word",
+      "word": "いもうとさん",
+      "kana": "いもうとさん",
+      "meaning": "（某人的）妹妹",
+      "type": "名词",
+      "example": "「いもうとさん」を覚えます。",
+      "exampleMeaning": "记住「いもうとさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-111-word",
+      "word": "いや",
+      "kana": "いや",
+      "meaning": "可恨的，不讨人喜欢的，不愉快的",
+      "type": "表达",
+      "example": "「いや」を覚えます。",
+      "exampleMeaning": "记住「いや」这个词。"
+    },
+    {
+      "id": "n5-mlc-112-word",
+      "word": "入口",
+      "kana": "いりぐち",
+      "meaning": "入口",
+      "type": "名词",
+      "example": "「入口」を覚えます。",
+      "exampleMeaning": "记住「入口」这个词。"
+    },
+    {
+      "id": "n5-mlc-113-word",
+      "word": "いります",
+      "kana": "いります",
+      "meaning": "有必要，必须有，需要",
+      "type": "动词",
+      "example": "「いります」を覚えます。",
+      "exampleMeaning": "记住「いります」这个词。"
+    },
+    {
+      "id": "n5-mlc-114-word",
+      "word": "入れます",
+      "kana": "いれます",
+      "meaning": "普京",
+      "type": "动词",
+      "example": "「入れます」を覚えます。",
+      "exampleMeaning": "记住「入れます」这个词。"
+    },
+    {
+      "id": "n5-mlc-115-word",
+      "word": "いろ",
+      "kana": "いろ",
+      "meaning": "颜色",
+      "type": "名词",
+      "example": "「いろ」を覚えます。",
+      "exampleMeaning": "记住「いろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-116-word",
+      "word": "いろいろ",
+      "kana": "いろいろ",
+      "meaning": "各种各样的",
+      "type": "名词",
+      "example": "「いろいろ」を覚えます。",
+      "exampleMeaning": "记住「いろいろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-119-word",
+      "word": "うすい",
+      "kana": "うすい",
+      "meaning": "薄的",
+      "type": "名词",
+      "example": "「うすい」を覚えます。",
+      "exampleMeaning": "记住「うすい」这个词。"
+    },
+    {
+      "id": "n5-mlc-120-word",
+      "word": "うた",
+      "kana": "うた",
+      "meaning": "歌曲",
+      "type": "名词",
+      "example": "「うた」を覚えます。",
+      "exampleMeaning": "记住「うた」这个词。"
+    },
+    {
+      "id": "n5-mlc-121-word",
+      "word": "うたいます",
+      "kana": "うたいます",
+      "meaning": "唱歌",
+      "type": "动词",
+      "example": "「うたいます」を覚えます。",
+      "exampleMeaning": "记住「うたいます」这个词。"
+    },
+    {
+      "id": "n5-mlc-122-word",
+      "word": "うち",
+      "kana": "うち",
+      "meaning": "家",
+      "type": "名词",
+      "example": "「うち」を覚えます。",
+      "exampleMeaning": "记住「うち」这个词。"
+    },
+    {
+      "id": "n5-mlc-123-word",
+      "word": "生まれます",
+      "kana": "うまれます",
+      "meaning": "诞生",
+      "type": "动词",
+      "example": "「生まれます」を覚えます。",
+      "exampleMeaning": "记住「生まれます」这个词。"
+    },
+    {
+      "id": "n5-mlc-124-word",
+      "word": "うみ",
+      "kana": "うみ",
+      "meaning": "海",
+      "type": "名词",
+      "example": "「うみ」を覚えます。",
+      "exampleMeaning": "记住「うみ」这个词。"
+    },
+    {
+      "id": "n5-mlc-125-word",
+      "word": "うります",
+      "kana": "うります",
+      "meaning": "卖",
+      "type": "动词",
+      "example": "「うります」を覚えます。",
+      "exampleMeaning": "记住「うります」这个词。"
+    },
+    {
+      "id": "n5-mlc-126-word",
+      "word": "うるさい",
+      "kana": "うるさい",
+      "meaning": "大声",
+      "type": "形容词",
+      "example": "「うるさい」を覚えます。",
+      "exampleMeaning": "记住「うるさい」这个词。"
+    },
+    {
+      "id": "n5-mlc-127-word",
+      "word": "うれしい",
+      "kana": "うれしい",
+      "meaning": "高兴，高兴",
+      "type": "名词",
+      "example": "「うれしい」を覚えます。",
+      "exampleMeaning": "记住「うれしい」这个词。"
+    },
+    {
+      "id": "n5-mlc-128-word",
+      "word": "うわぎ",
+      "kana": "うわぎ",
+      "meaning": "外套，夹克，外衣",
+      "type": "名词",
+      "example": "「うわぎ」を覚えます。",
+      "exampleMeaning": "记住「うわぎ」这个词。"
+    },
+    {
+      "id": "n5-mlc-129-word",
+      "word": "え",
+      "kana": "え",
+      "meaning": "绘画、图画、绘画",
+      "type": "名词",
+      "example": "「え」を覚えます。",
+      "exampleMeaning": "记住「え」这个词。"
+    },
+    {
+      "id": "n5-mlc-130-word",
+      "word": "エアコン",
+      "kana": "エアコン",
+      "meaning": "空调",
+      "type": "名词",
+      "example": "「エアコン」を覚えます。",
+      "exampleMeaning": "记住「エアコン」这个词。"
+    },
+    {
+      "id": "n5-mlc-131-word",
+      "word": "えいが",
+      "kana": "えいが",
+      "meaning": "电影",
+      "type": "名词",
+      "example": "「えいが」を覚えます。",
+      "exampleMeaning": "记住「えいが」这个词。"
+    },
+    {
+      "id": "n5-mlc-132-word",
+      "word": "えいがかん",
+      "kana": "えいがかん",
+      "meaning": "电影院",
+      "type": "名词",
+      "example": "「えいがかん」を覚えます。",
+      "exampleMeaning": "记住「えいがかん」这个词。"
+    },
+    {
+      "id": "n5-mlc-133-word",
+      "word": "えいご",
+      "kana": "えいご",
+      "meaning": "英语",
+      "type": "名词",
+      "example": "「えいご」を覚えます。",
+      "exampleMeaning": "记住「えいご」这个词。"
+    },
+    {
+      "id": "n5-mlc-135-word",
+      "word": "えらびます",
+      "kana": "えらびます",
+      "meaning": "选择",
+      "type": "动词",
+      "example": "「えらびます」を覚えます。",
+      "exampleMeaning": "记住「えらびます」这个词。"
+    },
+    {
+      "id": "n5-mlc-136-word",
+      "word": "エレベーター",
+      "kana": "エレベーター",
+      "meaning": "电梯，升降机",
+      "type": "名词",
+      "example": "「エレベーター」を覚えます。",
+      "exampleMeaning": "记住「エレベーター」这个词。"
+    },
+    {
+      "id": "n5-mlc-137-word",
+      "word": "えんぴつ",
+      "kana": "えんぴつ",
+      "meaning": "铅笔",
+      "type": "名词",
+      "example": "「えんぴつ」を覚えます。",
+      "exampleMeaning": "记住「えんぴつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-138-word",
+      "word": "お～",
+      "kana": "お～",
+      "meaning": "N5词汇",
+      "type": "名词",
+      "example": "「お～」を覚えます。",
+      "exampleMeaning": "记住「お～」这个词。"
+    },
+    {
+      "id": "n5-mlc-139-word",
+      "word": "おいしい",
+      "kana": "おいしい",
+      "meaning": "好吃，好，好吃",
+      "type": "形容词",
+      "example": "「おいしい」を覚えます。",
+      "exampleMeaning": "记住「おいしい」这个词。"
+    },
+    {
+      "id": "n5-mlc-140-word",
+      "word": "おいでになります",
+      "kana": "おいでになります",
+      "meaning": "来，去，成为",
+      "type": "动词",
+      "example": "「おいでになります」を覚えます。",
+      "exampleMeaning": "记住「おいでになります」这个词。"
+    },
+    {
+      "id": "n5-mlc-143-word",
+      "word": "大きな",
+      "kana": "おおきな",
+      "meaning": "大 大きな = 大きい",
+      "type": "形容词",
+      "example": "「大きな」を覚えます。",
+      "exampleMeaning": "记住「大きな」这个词。"
+    },
+    {
+      "id": "n5-mlc-144-word",
+      "word": "おおぜい",
+      "kana": "おおぜい",
+      "meaning": "很多（人），很多（人）",
+      "type": "名词",
+      "example": "「おおぜい」を覚えます。",
+      "exampleMeaning": "记住「おおぜい」这个词。"
+    },
+    {
+      "id": "n5-mlc-146-word",
+      "word": "おかし",
+      "kana": "おかし",
+      "meaning": "糖果, 蛋糕, 糖果, 糖果",
+      "type": "名词",
+      "example": "「おかし」を覚えます。",
+      "exampleMeaning": "记住「おかし」这个词。"
+    },
+    {
+      "id": "n5-mlc-147-word",
+      "word": "お金",
+      "kana": "おかね",
+      "meaning": "钱",
+      "type": "名词",
+      "example": "「お金」を覚えます。",
+      "exampleMeaning": "记住「お金」这个词。"
+    },
+    {
+      "id": "n5-mlc-148-word",
+      "word": "おきます",
+      "kana": "おきます",
+      "meaning": "put（第 1 组动词）",
+      "type": "动词",
+      "example": "「おきます」を覚えます。",
+      "exampleMeaning": "记住「おきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-150-word",
+      "word": "おくさん",
+      "kana": "おくさん",
+      "meaning": "（某人的）妻子",
+      "type": "名词",
+      "example": "「おくさん」を覚えます。",
+      "exampleMeaning": "记住「おくさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-151-word",
+      "word": "お国",
+      "kana": "おくに",
+      "meaning": "国家=くに。",
+      "type": "名词",
+      "example": "「お国」を覚えます。",
+      "exampleMeaning": "记住「お国」这个词。"
+    },
+    {
+      "id": "n5-mlc-152-word",
+      "word": "おくります",
+      "kana": "おくります",
+      "meaning": "发送",
+      "type": "动词",
+      "example": "「おくります」を覚えます。",
+      "exampleMeaning": "记住「おくります」这个词。"
+    },
+    {
+      "id": "n5-mlc-153-word",
+      "word": "おさけ",
+      "kana": "おさけ",
+      "meaning": "酒，（酒精）饮料，清酒",
+      "type": "名词",
+      "example": "「おさけ」を覚えます。",
+      "exampleMeaning": "记住「おさけ」这个词。"
+    },
+    {
+      "id": "n5-mlc-154-word",
+      "word": "おさら",
+      "kana": "おさら",
+      "meaning": "盘子=さら。",
+      "type": "名词",
+      "example": "「おさら」を覚えます。",
+      "exampleMeaning": "记住「おさら」这个词。"
+    },
+    {
+      "id": "n5-mlc-155-word",
+      "word": "おじさん",
+      "kana": "おじさん",
+      "meaning": "叔叔",
+      "type": "名词",
+      "example": "「おじさん」を覚えます。",
+      "exampleMeaning": "记住「おじさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-156-word",
+      "word": "おじいさん",
+      "kana": "おじいさん",
+      "meaning": "祖父",
+      "type": "名词",
+      "example": "「おじいさん」を覚えます。",
+      "exampleMeaning": "记住「おじいさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-157-word",
+      "word": "おしえます",
+      "kana": "おしえます",
+      "meaning": "教导，告诉",
+      "type": "动词",
+      "example": "「おしえます」を覚えます。",
+      "exampleMeaning": "记住「おしえます」这个词。"
+    },
+    {
+      "id": "n5-mlc-158-word",
+      "word": "おそい",
+      "kana": "おそい",
+      "meaning": "晚的",
+      "type": "名词",
+      "example": "「おそい」を覚えます。",
+      "exampleMeaning": "记住「おそい」这个词。"
+    },
+    {
+      "id": "n5-mlc-159-word",
+      "word": "おそく",
+      "kana": "おそく",
+      "meaning": "晚的",
+      "type": "名词",
+      "example": "「おそく」を覚えます。",
+      "exampleMeaning": "记住「おそく」这个词。"
+    },
+    {
+      "id": "n5-mlc-160-word",
+      "word": "おちゃ",
+      "kana": "おちゃ",
+      "meaning": "茶",
+      "type": "名词",
+      "example": "「おちゃ」を覚えます。",
+      "exampleMeaning": "记住「おちゃ」这个词。"
+    },
+    {
+      "id": "n5-mlc-161-word",
+      "word": "おてあらい",
+      "kana": "おてあらい",
+      "meaning": "盥洗室，厕所",
+      "type": "名词",
+      "example": "「おてあらい」を覚えます。",
+      "exampleMeaning": "记住「おてあらい」这个词。"
+    },
+    {
+      "id": "n5-mlc-163-word",
+      "word": "おとうと",
+      "kana": "おとうと",
+      "meaning": "（我的）弟弟",
+      "type": "名词",
+      "example": "「おとうと」を覚えます。",
+      "exampleMeaning": "记住「おとうと」这个词。"
+    },
+    {
+      "id": "n5-mlc-164-word",
+      "word": "おとうとさん",
+      "kana": "おとうとさん",
+      "meaning": "（某人的）弟弟",
+      "type": "名词",
+      "example": "「おとうとさん」を覚えます。",
+      "exampleMeaning": "记住「おとうとさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-166-word",
+      "word": "男の子",
+      "kana": "おとこのこ",
+      "meaning": "男生",
+      "type": "名词",
+      "example": "「男の子」を覚えます。",
+      "exampleMeaning": "记住「男の子」这个词。"
+    },
+    {
+      "id": "n5-mlc-167-word",
+      "word": "おととい",
+      "kana": "おととい",
+      "meaning": "前天",
+      "type": "名词",
+      "example": "「おととい」を覚えます。",
+      "exampleMeaning": "记住「おととい」这个词。"
+    },
+    {
+      "id": "n5-mlc-168-word",
+      "word": "おととし",
+      "kana": "おととし",
+      "meaning": "前年",
+      "type": "名词",
+      "example": "「おととし」を覚えます。",
+      "exampleMeaning": "记住「おととし」这个词。"
+    },
+    {
+      "id": "n5-mlc-169-word",
+      "word": "大人",
+      "kana": "おとな",
+      "meaning": "成人",
+      "type": "名词",
+      "example": "「大人」を覚えます。",
+      "exampleMeaning": "记住「大人」这个词。"
+    },
+    {
+      "id": "n5-mlc-170-word",
+      "word": "おなか",
+      "kana": "おなか",
+      "meaning": "胃",
+      "type": "名词",
+      "example": "「おなか」を覚えます。",
+      "exampleMeaning": "记住「おなか」这个词。"
+    },
+    {
+      "id": "n5-mlc-171-word",
+      "word": "おなじ",
+      "kana": "おなじ",
+      "meaning": "相同的",
+      "type": "名词",
+      "example": "「おなじ」を覚えます。",
+      "exampleMeaning": "记住「おなじ」这个词。"
+    },
+    {
+      "id": "n5-mlc-172-word",
+      "word": "おにいさん",
+      "kana": "おにいさん",
+      "meaning": "（某人的）哥哥",
+      "type": "名词",
+      "example": "「おにいさん」を覚えます。",
+      "exampleMeaning": "记住「おにいさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-173-word",
+      "word": "おにぎり",
+      "kana": "おにぎり",
+      "meaning": "饭团",
+      "type": "名词",
+      "example": "「おにぎり」を覚えます。",
+      "exampleMeaning": "记住「おにぎり」这个词。"
+    },
+    {
+      "id": "n5-mlc-174-word",
+      "word": "おねえさん",
+      "kana": "おねえさん",
+      "meaning": "（某人的）姐姐",
+      "type": "名词",
+      "example": "「おねえさん」を覚えます。",
+      "exampleMeaning": "记住「おねえさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-175-word",
+      "word": "おばさん",
+      "kana": "おばさん",
+      "meaning": "阿姨",
+      "type": "名词",
+      "example": "「おばさん」を覚えます。",
+      "exampleMeaning": "记住「おばさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-176-word",
+      "word": "おばあさん",
+      "kana": "おばあさん",
+      "meaning": "祖母",
+      "type": "名词",
+      "example": "「おばあさん」を覚えます。",
+      "exampleMeaning": "记住「おばあさん」这个词。"
+    },
+    {
+      "id": "n5-mlc-177-word",
+      "word": "おべんとう",
+      "kana": "おべんとう",
+      "meaning": "饭盒",
+      "type": "名词",
+      "example": "「おべんとう」を覚えます。",
+      "exampleMeaning": "记住「おべんとう」这个词。"
+    },
+    {
+      "id": "n5-mlc-178-word",
+      "word": "おぼえます",
+      "kana": "おぼえます",
+      "meaning": "记住",
+      "type": "动词",
+      "example": "「おぼえます」を覚えます。",
+      "exampleMeaning": "记住「おぼえます」这个词。"
+    },
+    {
+      "id": "n5-mlc-179-word",
+      "word": "お店",
+      "kana": "おみせ",
+      "meaning": "店=みせ。",
+      "type": "名词",
+      "example": "「お店」を覚えます。",
+      "exampleMeaning": "记住「お店」这个词。"
+    },
+    {
+      "id": "n5-mlc-180-word",
+      "word": "おもい",
+      "kana": "おもい",
+      "meaning": "重的",
+      "type": "形容词",
+      "example": "「おもい」を覚えます。",
+      "exampleMeaning": "记住「おもい」这个词。"
+    },
+    {
+      "id": "n5-mlc-181-word",
+      "word": "おもしろい",
+      "kana": "おもしろい",
+      "meaning": "有趣的，有趣的，有趣的",
+      "type": "名词",
+      "example": "「おもしろい」を覚えます。",
+      "exampleMeaning": "记住「おもしろい」这个词。"
+    },
+    {
+      "id": "n5-mlc-182-word",
+      "word": "およぎます",
+      "kana": "およぎます",
+      "meaning": "游泳",
+      "type": "动词",
+      "example": "「およぎます」を覚えます。",
+      "exampleMeaning": "记住「およぎます」这个词。"
+    },
+    {
+      "id": "n5-mlc-183-word",
+      "word": "おります",
+      "kana": "おります",
+      "meaning": "下车",
+      "type": "动词",
+      "example": "「おります」を覚えます。",
+      "exampleMeaning": "记住「おります」这个词。"
+    },
+    {
+      "id": "n5-mlc-184-word",
+      "word": "おわります",
+      "kana": "おわります",
+      "meaning": "结束，结束",
+      "type": "动词",
+      "example": "「おわります」を覚えます。",
+      "exampleMeaning": "记住「おわります」这个词。"
+    },
+    {
+      "id": "n5-mlc-185-word",
+      "word": "おんがく",
+      "kana": "おんがく",
+      "meaning": "音乐",
+      "type": "名词",
+      "example": "「おんがく」を覚えます。",
+      "exampleMeaning": "记住「おんがく」这个词。"
+    },
+    {
+      "id": "n5-mlc-187-word",
+      "word": "女の子",
+      "kana": "おんなのこ",
+      "meaning": "女孩",
+      "type": "名词",
+      "example": "「女の子」を覚えます。",
+      "exampleMeaning": "记住「女の子」这个词。"
+    },
+    {
+      "id": "n5-mlc-188-word",
+      "word": "火",
+      "kana": "か",
+      "meaning": "星期二=かようび。",
+      "type": "名词",
+      "example": "「火」を覚えます。",
+      "exampleMeaning": "记住「火」这个词。"
+    },
+    {
+      "id": "n5-mlc-190-word",
+      "word": "外国人",
+      "kana": "がいこくじん",
+      "meaning": "外国人",
+      "type": "名词",
+      "example": "「外国人」を覚えます。",
+      "exampleMeaning": "记住「外国人」这个词。"
+    },
+    {
+      "id": "n5-mlc-192-word",
+      "word": "かいだん",
+      "kana": "かいだん",
+      "meaning": "楼梯",
+      "type": "名词",
+      "example": "「かいだん」を覚えます。",
+      "exampleMeaning": "记住「かいだん」这个词。"
+    },
+    {
+      "id": "n5-mlc-193-word",
+      "word": "かいとうようし",
+      "kana": "かいとうようし",
+      "meaning": "答题纸",
+      "type": "名词",
+      "example": "「かいとうようし」を覚えます。",
+      "exampleMeaning": "记住「かいとうようし」这个词。"
+    },
+    {
+      "id": "n5-mlc-194-word",
+      "word": "買います",
+      "kana": "かいます",
+      "meaning": "买",
+      "type": "动词",
+      "example": "「買います」を覚えます。",
+      "exampleMeaning": "记住「買います」这个词。"
+    },
+    {
+      "id": "n5-mlc-195-word",
+      "word": "買いもの",
+      "kana": "かいもの",
+      "meaning": "购物",
+      "type": "名词",
+      "example": "「買いもの」を覚えます。",
+      "exampleMeaning": "记住「買いもの」这个词。"
+    },
+    {
+      "id": "n5-mlc-196-word",
+      "word": "かえします",
+      "kana": "かえします",
+      "meaning": "返回（对象）",
+      "type": "动词",
+      "example": "「かえします」を覚えます。",
+      "exampleMeaning": "记住「かえします」这个词。"
+    },
+    {
+      "id": "n5-mlc-197-word",
+      "word": "かえります",
+      "kana": "かえります",
+      "meaning": "返回，回去",
+      "type": "动词",
+      "example": "「かえります」を覚えます。",
+      "exampleMeaning": "记住「かえります」这个词。"
+    },
+    {
+      "id": "n5-mlc-198-word",
+      "word": "かお",
+      "kana": "かお",
+      "meaning": "脸",
+      "type": "名词",
+      "example": "「かお」を覚えます。",
+      "exampleMeaning": "记住「かお」这个词。"
+    },
+    {
+      "id": "n5-mlc-199-word",
+      "word": "かかります",
+      "kana": "かかります",
+      "meaning": "花费（时间、金钱）",
+      "type": "动词",
+      "example": "「かかります」を覚えます。",
+      "exampleMeaning": "记住「かかります」这个词。"
+    },
+    {
+      "id": "n5-mlc-200-word",
+      "word": "かぎ",
+      "kana": "かぎ",
+      "meaning": "钥匙",
+      "type": "名词",
+      "example": "「かぎ」を覚えます。",
+      "exampleMeaning": "记住「かぎ」这个词。"
+    },
+    {
+      "id": "n5-mlc-201-word",
+      "word": "書きます",
+      "kana": "かきます",
+      "meaning": "写",
+      "type": "动词",
+      "example": "「書きます」を覚えます。",
+      "exampleMeaning": "记住「書きます」这个词。"
+    },
+    {
+      "id": "n5-mlc-203-word",
+      "word": "かけます",
+      "kana": "かけます",
+      "meaning": "穿",
+      "type": "动词",
+      "example": "「かけます」を覚えます。",
+      "exampleMeaning": "记住「かけます」这个词。"
+    },
+    {
+      "id": "n5-mlc-205-word",
+      "word": "かさ",
+      "kana": "かさ",
+      "meaning": "伞",
+      "type": "名词",
+      "example": "「かさ」を覚えます。",
+      "exampleMeaning": "记住「かさ」这个词。"
+    },
+    {
+      "id": "n5-mlc-206-word",
+      "word": "かします",
+      "kana": "かします",
+      "meaning": "借",
+      "type": "动词",
+      "example": "「かします」を覚えます。",
+      "exampleMeaning": "记住「かします」这个词。"
+    },
+    {
+      "id": "n5-mlc-207-word",
+      "word": "かぜ",
+      "kana": "かぜ",
+      "meaning": "风",
+      "type": "名词",
+      "example": "「かぜ」を覚えます。",
+      "exampleMeaning": "记住「かぜ」这个词。"
+    },
+    {
+      "id": "n5-mlc-209-word",
+      "word": "かぞく",
+      "kana": "かぞく",
+      "meaning": "家庭",
+      "type": "名词",
+      "example": "「かぞく」を覚えます。",
+      "exampleMeaning": "记住「かぞく」这个词。"
+    },
+    {
+      "id": "n5-mlc-210-word",
+      "word": "かた",
+      "kana": "かた",
+      "meaning": "人（尊重）",
+      "type": "形容词",
+      "example": "「かた」を覚えます。",
+      "exampleMeaning": "记住「かた」这个词。"
+    },
+    {
+      "id": "n5-mlc-211-word",
+      "word": "カタカナ",
+      "kana": "カタカナ",
+      "meaning": "片假名",
+      "type": "名词",
+      "example": "「カタカナ」を覚えます。",
+      "exampleMeaning": "记住「カタカナ」这个词。"
+    },
+    {
+      "id": "n5-mlc-213-word",
+      "word": "かど",
+      "kana": "かど",
+      "meaning": "角落",
+      "type": "名词",
+      "example": "「かど」を覚えます。",
+      "exampleMeaning": "记住「かど」这个词。"
+    },
+    {
+      "id": "n5-mlc-214-word",
+      "word": "かない",
+      "kana": "かない",
+      "meaning": "（我的妻子",
+      "type": "名词",
+      "example": "「かない」を覚えます。",
+      "exampleMeaning": "记住「かない」这个词。"
+    },
+    {
+      "id": "n5-mlc-216-word",
+      "word": "かびん",
+      "kana": "かびん",
+      "meaning": "花瓶",
+      "type": "名词",
+      "example": "「かびん」を覚えます。",
+      "exampleMeaning": "记住「かびん」这个词。"
+    },
+    {
+      "id": "n5-mlc-217-word",
+      "word": "かぶります",
+      "kana": "かぶります",
+      "meaning": "穿",
+      "type": "动词",
+      "example": "「かぶります」を覚えます。",
+      "exampleMeaning": "记住「かぶります」这个词。"
+    },
+    {
+      "id": "n5-mlc-219-word",
+      "word": "カメラ",
+      "kana": "カメラ",
+      "meaning": "相机",
+      "type": "名词",
+      "example": "「カメラ」を覚えます。",
+      "exampleMeaning": "记住「カメラ」这个词。"
+    },
+    {
+      "id": "n5-mlc-220-word",
+      "word": "火よう日",
+      "kana": "かようび",
+      "meaning": "周二",
+      "type": "名词",
+      "example": "「火よう日」を覚えます。",
+      "exampleMeaning": "记住「火よう日」这个词。"
+    },
+    {
+      "id": "n5-mlc-221-word",
+      "word": "からい",
+      "kana": "からい",
+      "meaning": "热的，辣的",
+      "type": "形容词",
+      "example": "「からい」を覚えます。",
+      "exampleMeaning": "记住「からい」这个词。"
+    },
+    {
+      "id": "n5-mlc-222-word",
+      "word": "からだ",
+      "kana": "からだ",
+      "meaning": "身体",
+      "type": "名词",
+      "example": "「からだ」を覚えます。",
+      "exampleMeaning": "记住「からだ」这个词。"
+    },
+    {
+      "id": "n5-mlc-223-word",
+      "word": "かります",
+      "kana": "かります",
+      "meaning": "借",
+      "type": "动词",
+      "example": "「かります」を覚えます。",
+      "exampleMeaning": "记住「かります」这个词。"
+    },
+    {
+      "id": "n5-mlc-224-word",
+      "word": "かるい",
+      "kana": "かるい",
+      "meaning": "轻，不重",
+      "type": "表达",
+      "example": "「かるい」を覚えます。",
+      "exampleMeaning": "记住「かるい」这个词。"
+    },
+    {
+      "id": "n5-mlc-225-word",
+      "word": "カレンダー",
+      "kana": "カレンダー",
+      "meaning": "日历",
+      "type": "名词",
+      "example": "「カレンダー」を覚えます。",
+      "exampleMeaning": "记住「カレンダー」这个词。"
+    },
+    {
+      "id": "n5-mlc-227-word",
+      "word": "かわいい",
+      "kana": "かわいい",
+      "meaning": "漂亮、甜美、可爱",
+      "type": "名词",
+      "example": "「かわいい」を覚えます。",
+      "exampleMeaning": "记住「かわいい」这个词。"
+    },
+    {
+      "id": "n5-mlc-228-word",
+      "word": "かんがえます",
+      "kana": "かんがえます",
+      "meaning": "考虑，认为",
+      "type": "动词",
+      "example": "「かんがえます」を覚えます。",
+      "exampleMeaning": "记住「かんがえます」这个词。"
+    },
+    {
+      "id": "n5-mlc-229-word",
+      "word": "かんじ",
+      "kana": "かんじ",
+      "meaning": "汉字",
+      "type": "名词",
+      "example": "「かんじ」を覚えます。",
+      "exampleMeaning": "记住「かんじ」这个词。"
+    },
+    {
+      "id": "n5-mlc-230-word",
+      "word": "かんたん",
+      "kana": "かんたん",
+      "meaning": "简单的",
+      "type": "形容词",
+      "example": "「かんたん」を覚えます。",
+      "exampleMeaning": "记住「かんたん」这个词。"
+    },
+    {
+      "id": "n5-mlc-232-word",
+      "word": "きいろい",
+      "kana": "きいろい",
+      "meaning": "黄色的",
+      "type": "名词",
+      "example": "「きいろい」を覚えます。",
+      "exampleMeaning": "记住「きいろい」这个词。"
+    },
+    {
+      "id": "n5-mlc-233-word",
+      "word": "きえます",
+      "kana": "きえます",
+      "meaning": "出去，走开",
+      "type": "动词",
+      "example": "「きえます」を覚えます。",
+      "exampleMeaning": "记住「きえます」这个词。"
+    },
+    {
+      "id": "n5-mlc-234-word",
+      "word": "聞きます",
+      "kana": "ききます",
+      "meaning": "问、听、听",
+      "type": "动词",
+      "example": "「聞きます」を覚えます。",
+      "exampleMeaning": "记住「聞きます」这个词。"
+    },
+    {
+      "id": "n5-mlc-235-word",
+      "word": "北",
+      "kana": "きた",
+      "meaning": "北",
+      "type": "名词",
+      "example": "「北」を覚えます。",
+      "exampleMeaning": "记住「北」这个词。"
+    },
+    {
+      "id": "n5-mlc-236-word",
+      "word": "ギター",
+      "kana": "ギター",
+      "meaning": "吉他",
+      "type": "名词",
+      "example": "「ギター」を覚えます。",
+      "exampleMeaning": "记住「ギター」这个词。"
+    },
+    {
+      "id": "n5-mlc-237-word",
+      "word": "きたない",
+      "kana": "きたない",
+      "meaning": "肮脏的",
+      "type": "名词",
+      "example": "「きたない」を覚えます。",
+      "exampleMeaning": "记住「きたない」这个词。"
+    },
+    {
+      "id": "n5-mlc-238-word",
+      "word": "きっさてん",
+      "kana": "きっさてん",
+      "meaning": "咖啡馆",
+      "type": "名词",
+      "example": "「きっさてん」を覚えます。",
+      "exampleMeaning": "记住「きっさてん」这个词。"
+    },
+    {
+      "id": "n5-mlc-239-word",
+      "word": "きって",
+      "kana": "きって",
+      "meaning": "邮票",
+      "type": "名词",
+      "example": "「きって」を覚えます。",
+      "exampleMeaning": "记住「きって」这个词。"
+    },
+    {
+      "id": "n5-mlc-240-word",
+      "word": "きっぷ",
+      "kana": "きっぷ",
+      "meaning": "票",
+      "type": "名词",
+      "example": "「きっぷ」を覚えます。",
+      "exampleMeaning": "记住「きっぷ」这个词。"
+    },
+    {
+      "id": "n5-mlc-241-word",
+      "word": "きのう",
+      "kana": "きのう",
+      "meaning": "昨天",
+      "type": "名词",
+      "example": "「きのう」を覚えます。",
+      "exampleMeaning": "记住「きのう」这个词。"
+    },
+    {
+      "id": "n5-mlc-242-word",
+      "word": "来ます",
+      "kana": "きます",
+      "meaning": "来",
+      "type": "动词",
+      "example": "「来ます」を覚えます。",
+      "exampleMeaning": "记住「来ます」这个词。"
+    },
+    {
+      "id": "n5-mlc-243-word",
+      "word": "きます",
+      "kana": "きます",
+      "meaning": "穿上，穿",
+      "type": "动词",
+      "example": "「きます」を覚えます。",
+      "exampleMeaning": "记住「きます」这个词。"
+    },
+    {
+      "id": "n5-mlc-244-word",
+      "word": "九",
+      "kana": "きゅう",
+      "meaning": "九",
+      "type": "名词",
+      "example": "「九」を覚えます。",
+      "exampleMeaning": "记住「九」这个词。"
+    },
+    {
+      "id": "n5-mlc-245-word",
+      "word": "ぎゅうにく",
+      "kana": "ぎゅうにく",
+      "meaning": "牛肉",
+      "type": "名词",
+      "example": "「ぎゅうにく」を覚えます。",
+      "exampleMeaning": "记住「ぎゅうにく」这个词。"
+    },
+    {
+      "id": "n5-mlc-246-word",
+      "word": "ぎゅうにゅう",
+      "kana": "ぎゅうにゅう",
+      "meaning": "牛奶",
+      "type": "名词",
+      "example": "「ぎゅうにゅう」を覚えます。",
+      "exampleMeaning": "记住「ぎゅうにゅう」这个词。"
+    },
+    {
+      "id": "n5-mlc-248-word",
+      "word": "きょうしつ",
+      "kana": "きょうしつ",
+      "meaning": "课堂",
+      "type": "名词",
+      "example": "「きょうしつ」を覚えます。",
+      "exampleMeaning": "记住「きょうしつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-249-word",
+      "word": "きょうだい",
+      "kana": "きょうだい",
+      "meaning": "兄弟姐妹们；兄弟姐妹",
+      "type": "名词",
+      "example": "「きょうだい」を覚えます。",
+      "exampleMeaning": "记住「きょうだい」这个词。"
+    },
+    {
+      "id": "n5-mlc-250-word",
+      "word": "きょうと",
+      "kana": "きょうと",
+      "meaning": "京都",
+      "type": "名词",
+      "example": "「きょうと」を覚えます。",
+      "exampleMeaning": "记住「きょうと」这个词。"
+    },
+    {
+      "id": "n5-mlc-251-word",
+      "word": "きょねん",
+      "kana": "きょねん",
+      "meaning": "去年",
+      "type": "名词",
+      "example": "「きょねん」を覚えます。",
+      "exampleMeaning": "记住「きょねん」这个词。"
+    },
+    {
+      "id": "n5-mlc-252-word",
+      "word": "きらい",
+      "kana": "きらい",
+      "meaning": "可恨的，不愉快的，不讨人喜欢的",
+      "type": "表达",
+      "example": "「きらい」を覚えます。",
+      "exampleMeaning": "记住「きらい」这个词。"
+    },
+    {
+      "id": "n5-mlc-253-word",
+      "word": "きります",
+      "kana": "きります",
+      "meaning": "切",
+      "type": "动词",
+      "example": "「きります」を覚えます。",
+      "exampleMeaning": "记住「きります」这个词。"
+    },
+    {
+      "id": "n5-mlc-255-word",
+      "word": "金",
+      "kana": "きん",
+      "meaning": "星期五=きんようび。",
+      "type": "名词",
+      "example": "「金」を覚えます。",
+      "exampleMeaning": "记住「金」这个词。"
+    },
+    {
+      "id": "n5-mlc-257-word",
+      "word": "金よう日",
+      "kana": "きんようび",
+      "meaning": "星期五",
+      "type": "名词",
+      "example": "「金よう日」を覚えます。",
+      "exampleMeaning": "记住「金よう日」这个词。"
+    },
+    {
+      "id": "n5-mlc-258-word",
+      "word": "九",
+      "kana": "く",
+      "meaning": "九",
+      "type": "名词",
+      "example": "「九」を覚えます。",
+      "exampleMeaning": "记住「九」这个词。"
+    },
+    {
+      "id": "n5-mlc-259-word",
+      "word": "くすり",
+      "kana": "くすり",
+      "meaning": "药品",
+      "type": "名词",
+      "example": "「くすり」を覚えます。",
+      "exampleMeaning": "记住「くすり」这个词。"
+    },
+    {
+      "id": "n5-mlc-260-word",
+      "word": "くだもの",
+      "kana": "くだもの",
+      "meaning": "水果",
+      "type": "名词",
+      "example": "「くだもの」を覚えます。",
+      "exampleMeaning": "记住「くだもの」这个词。"
+    },
+    {
+      "id": "n5-mlc-262-word",
+      "word": "くつ",
+      "kana": "くつ",
+      "meaning": "鞋",
+      "type": "名词",
+      "example": "「くつ」を覚えます。",
+      "exampleMeaning": "记住「くつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-263-word",
+      "word": "くつ下",
+      "kana": "くつした",
+      "meaning": "袜子",
+      "type": "名词",
+      "example": "「くつ下」を覚えます。",
+      "exampleMeaning": "记住「くつ下」这个词。"
+    },
+    {
+      "id": "n5-mlc-265-word",
+      "word": "くもり",
+      "kana": "くもり",
+      "meaning": "多云天气",
+      "type": "名词",
+      "example": "「くもり」を覚えます。",
+      "exampleMeaning": "记住「くもり」这个词。"
+    },
+    {
+      "id": "n5-mlc-266-word",
+      "word": "くらい",
+      "kana": "くらい",
+      "meaning": "黑暗的",
+      "type": "形容词",
+      "example": "「くらい」を覚えます。",
+      "exampleMeaning": "记住「くらい」这个词。"
+    },
+    {
+      "id": "n5-mlc-267-word",
+      "word": "クラス",
+      "kana": "クラス",
+      "meaning": "班级",
+      "type": "名词",
+      "example": "「クラス」を覚えます。",
+      "exampleMeaning": "记住「クラス」这个词。"
+    },
+    {
+      "id": "n5-mlc-269-word",
+      "word": "くろ",
+      "kana": "くろ",
+      "meaning": "黑色的",
+      "type": "形容词",
+      "example": "「くろ」を覚えます。",
+      "exampleMeaning": "记住「くろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-270-word",
+      "word": "くろい",
+      "kana": "くろい",
+      "meaning": "黑色的",
+      "type": "形容词",
+      "example": "「くろい」を覚えます。",
+      "exampleMeaning": "记住「くろい」这个词。"
+    },
+    {
+      "id": "n5-mlc-271-word",
+      "word": "くろく",
+      "kana": "くろく",
+      "meaning": "黑色的",
+      "type": "形容词",
+      "example": "「くろく」を覚えます。",
+      "exampleMeaning": "记住「くろく」这个词。"
+    },
+    {
+      "id": "n5-mlc-272-word",
+      "word": "ケーキ",
+      "kana": "ケーキ",
+      "meaning": "蛋糕",
+      "type": "名词",
+      "example": "「ケーキ」を覚えます。",
+      "exampleMeaning": "记住「ケーキ」这个词。"
+    },
+    {
+      "id": "n5-mlc-273-word",
+      "word": "今朝",
+      "kana": "けさ",
+      "meaning": "今晨",
+      "type": "名词",
+      "example": "「今朝」を覚えます。",
+      "exampleMeaning": "记住「今朝」这个词。"
+    },
+    {
+      "id": "n5-mlc-274-word",
+      "word": "けしゴム",
+      "kana": "けしゴム",
+      "meaning": "橡皮",
+      "type": "名词",
+      "example": "「けしゴム」を覚えます。",
+      "exampleMeaning": "记住「けしゴム」这个词。"
+    },
+    {
+      "id": "n5-mlc-275-word",
+      "word": "けします",
+      "kana": "けします",
+      "meaning": "关闭、关闭、擦除",
+      "type": "动词",
+      "example": "「けします」を覚えます。",
+      "exampleMeaning": "记住「けします」这个词。"
+    },
+    {
+      "id": "n5-mlc-276-word",
+      "word": "月",
+      "kana": "げつ",
+      "meaning": "星期一=げつようび。",
+      "type": "名词",
+      "example": "「月」を覚えます。",
+      "exampleMeaning": "记住「月」这个词。"
+    },
+    {
+      "id": "n5-mlc-277-word",
+      "word": "けっこんします",
+      "kana": "けっこんします",
+      "meaning": "结婚",
+      "type": "动词",
+      "example": "「けっこんします」を覚えます。",
+      "exampleMeaning": "记住「けっこんします」这个词。"
+    },
+    {
+      "id": "n5-mlc-278-word",
+      "word": "月よう日",
+      "kana": "げつようび",
+      "meaning": "周一",
+      "type": "名词",
+      "example": "「月よう日」を覚えます。",
+      "exampleMeaning": "记住「月よう日」这个词。"
+    },
+    {
+      "id": "n5-mlc-279-word",
+      "word": "げんかん",
+      "kana": "げんかん",
+      "meaning": "前门, 正门",
+      "type": "名词",
+      "example": "「げんかん」を覚えます。",
+      "exampleMeaning": "记住「げんかん」这个词。"
+    },
+    {
+      "id": "n5-mlc-280-word",
+      "word": "げんき",
+      "kana": "げんき",
+      "meaning": "美好的",
+      "type": "形容词",
+      "example": "「げんき」を覚えます。",
+      "exampleMeaning": "记住「げんき」这个词。"
+    },
+    {
+      "id": "n5-mlc-281-word",
+      "word": "五",
+      "kana": "ご",
+      "meaning": "五",
+      "type": "名词",
+      "example": "「五」を覚えます。",
+      "exampleMeaning": "记住「五」这个词。"
+    },
+    {
+      "id": "n5-mlc-282-word",
+      "word": "こうえん",
+      "kana": "こうえん",
+      "meaning": "公园",
+      "type": "名词",
+      "example": "「こうえん」を覚えます。",
+      "exampleMeaning": "记住「こうえん」这个词。"
+    },
+    {
+      "id": "n5-mlc-283-word",
+      "word": "こうばん",
+      "kana": "こうばん",
+      "meaning": "警察岗亭",
+      "type": "名词",
+      "example": "「こうばん」を覚えます。",
+      "exampleMeaning": "记住「こうばん」这个词。"
+    },
+    {
+      "id": "n5-mlc-284-word",
+      "word": "こえ",
+      "kana": "こえ",
+      "meaning": "嗓音",
+      "type": "名词",
+      "example": "「こえ」を覚えます。",
+      "exampleMeaning": "记住「こえ」这个词。"
+    },
+    {
+      "id": "n5-mlc-285-word",
+      "word": "コート",
+      "kana": "コート",
+      "meaning": "外套",
+      "type": "名词",
+      "example": "「コート」を覚えます。",
+      "exampleMeaning": "记住「コート」这个词。"
+    },
+    {
+      "id": "n5-mlc-286-word",
+      "word": "コーヒー",
+      "kana": "コーヒー",
+      "meaning": "咖啡",
+      "type": "名词",
+      "example": "「コーヒー」を覚えます。",
+      "exampleMeaning": "记住「コーヒー」这个词。"
+    },
+    {
+      "id": "n5-mlc-288-word",
+      "word": "午後",
+      "kana": "ごご",
+      "meaning": "下午，下午",
+      "type": "名词",
+      "example": "「午後」を覚えます。",
+      "exampleMeaning": "记住「午後」这个词。"
+    },
+    {
+      "id": "n5-mlc-289-word",
+      "word": "九日",
+      "kana": "ここのか",
+      "meaning": "月初九，九天",
+      "type": "名词",
+      "example": "「九日」を覚えます。",
+      "exampleMeaning": "记住「九日」这个词。"
+    },
+    {
+      "id": "n5-mlc-290-word",
+      "word": "九つ",
+      "kana": "ここのつ",
+      "meaning": "九",
+      "type": "名词",
+      "example": "「九つ」を覚えます。",
+      "exampleMeaning": "记住「九つ」这个词。"
+    },
+    {
+      "id": "n5-mlc-291-word",
+      "word": "ごしゅじん",
+      "kana": "ごしゅじん",
+      "meaning": "（某人的）丈夫",
+      "type": "名词",
+      "example": "「ごしゅじん」を覚えます。",
+      "exampleMeaning": "记住「ごしゅじん」这个词。"
+    },
+    {
+      "id": "n5-mlc-292-word",
+      "word": "午前",
+      "kana": "ごぜん",
+      "meaning": "是",
+      "type": "名词",
+      "example": "「午前」を覚えます。",
+      "exampleMeaning": "记住「午前」这个词。"
+    },
+    {
+      "id": "n5-mlc-293-word",
+      "word": "こたえ",
+      "kana": "こたえ",
+      "meaning": "回答",
+      "type": "名词",
+      "example": "「こたえ」を覚えます。",
+      "exampleMeaning": "记住「こたえ」这个词。"
+    },
+    {
+      "id": "n5-mlc-294-word",
+      "word": "こたえかた",
+      "kana": "こたえかた",
+      "meaning": "如何回答",
+      "type": "疑问词",
+      "example": "「こたえかた」を覚えます。",
+      "exampleMeaning": "记住「こたえかた」这个词。"
+    },
+    {
+      "id": "n5-mlc-295-word",
+      "word": "こたえます",
+      "kana": "こたえます",
+      "meaning": "回答",
+      "type": "动词",
+      "example": "「こたえます」を覚えます。",
+      "exampleMeaning": "记住「こたえます」这个词。"
+    },
+    {
+      "id": "n5-mlc-296-word",
+      "word": "こちら",
+      "kana": "こちら",
+      "meaning": "这边，这边，这边",
+      "type": "名词",
+      "example": "「こちら」を覚えます。",
+      "exampleMeaning": "记住「こちら」这个词。"
+    },
+    {
+      "id": "n5-mlc-297-word",
+      "word": "コップ",
+      "kana": "コップ",
+      "meaning": "玻璃杯，饮水杯",
+      "type": "名词",
+      "example": "「コップ」を覚えます。",
+      "exampleMeaning": "记住「コップ」这个词。"
+    },
+    {
+      "id": "n5-mlc-299-word",
+      "word": "ことば",
+      "kana": "ことば",
+      "meaning": "单词、语言、短语",
+      "type": "名词",
+      "example": "「ことば」を覚えます。",
+      "exampleMeaning": "记住「ことば」这个词。"
+    },
+    {
+      "id": "n5-mlc-300-word",
+      "word": "子ども",
+      "kana": "こども",
+      "meaning": "孩子",
+      "type": "名词",
+      "example": "「子ども」を覚えます。",
+      "exampleMeaning": "记住「子ども」这个词。"
+    },
+    {
+      "id": "n5-mlc-301-word",
+      "word": "この～",
+      "kana": "この～",
+      "meaning": "这",
+      "type": "名词",
+      "example": "「この～」を覚えます。",
+      "exampleMeaning": "记住「この～」这个词。"
+    },
+    {
+      "id": "n5-mlc-302-word",
+      "word": "ごはん",
+      "kana": "ごはん",
+      "meaning": "饭，饭",
+      "type": "名词",
+      "example": "「ごはん」を覚えます。",
+      "exampleMeaning": "记住「ごはん」这个词。"
+    },
+    {
+      "id": "n5-mlc-303-word",
+      "word": "コピー",
+      "kana": "コピー",
+      "meaning": "复制",
+      "type": "名词",
+      "example": "「コピー」を覚えます。",
+      "exampleMeaning": "记住「コピー」这个词。"
+    },
+    {
+      "id": "n5-mlc-304-word",
+      "word": "コピーします",
+      "kana": "コピーします",
+      "meaning": "复印一份",
+      "type": "动词",
+      "example": "「コピーします」を覚えます。",
+      "exampleMeaning": "记住「コピーします」这个词。"
+    },
+    {
+      "id": "n5-mlc-305-word",
+      "word": "こまります",
+      "kana": "こまります",
+      "meaning": "有麻烦了",
+      "type": "动词",
+      "example": "「こまります」を覚えます。",
+      "exampleMeaning": "记住「こまります」这个词。"
+    },
+    {
+      "id": "n5-mlc-307-word",
+      "word": "今月",
+      "kana": "こんげつ",
+      "meaning": "本月",
+      "type": "名词",
+      "example": "「今月」を覚えます。",
+      "exampleMeaning": "记住「今月」这个词。"
+    },
+    {
+      "id": "n5-mlc-309-word",
+      "word": "こんな",
+      "kana": "こんな",
+      "meaning": "类似这样的",
+      "type": "名词",
+      "example": "「こんな」を覚えます。",
+      "exampleMeaning": "记住「こんな」这个词。"
+    },
+    {
+      "id": "n5-mlc-310-word",
+      "word": "こんばん",
+      "kana": "こんばん",
+      "meaning": "今晚",
+      "type": "名词",
+      "example": "「こんばん」を覚えます。",
+      "exampleMeaning": "记住「こんばん」这个词。"
+    },
+    {
+      "id": "n5-mlc-311-word",
+      "word": "さいご",
+      "kana": "さいご",
+      "meaning": "结束，最后一次",
+      "type": "名词",
+      "example": "「さいご」を覚えます。",
+      "exampleMeaning": "记住「さいご」这个词。"
+    },
+    {
+      "id": "n5-mlc-313-word",
+      "word": "先",
+      "kana": "さき",
+      "meaning": "以前的，较早的",
+      "type": "名词",
+      "example": "「先」を覚えます。",
+      "exampleMeaning": "记住「先」这个词。"
+    },
+    {
+      "id": "n5-mlc-314-word",
+      "word": "さきます",
+      "kana": "さきます",
+      "meaning": "盛开",
+      "type": "动词",
+      "example": "「さきます」を覚えます。",
+      "exampleMeaning": "记住「さきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-315-word",
+      "word": "さくぶん",
+      "kana": "さくぶん",
+      "meaning": "作品",
+      "type": "名词",
+      "example": "「さくぶん」を覚えます。",
+      "exampleMeaning": "记住「さくぶん」这个词。"
+    },
+    {
+      "id": "n5-mlc-316-word",
+      "word": "さします",
+      "kana": "さします",
+      "meaning": "撑起（伞）",
+      "type": "动词",
+      "example": "「さします」を覚えます。",
+      "exampleMeaning": "记住「さします」这个词。"
+    },
+    {
+      "id": "n5-mlc-317-word",
+      "word": "サッカー",
+      "kana": "サッカー",
+      "meaning": "足球, 足球",
+      "type": "名词",
+      "example": "「サッカー」を覚えます。",
+      "exampleMeaning": "记住「サッカー」这个词。"
+    },
+    {
+      "id": "n5-mlc-318-word",
+      "word": "ざっし",
+      "kana": "ざっし",
+      "meaning": "杂志",
+      "type": "名词",
+      "example": "「ざっし」を覚えます。",
+      "exampleMeaning": "记住「ざっし」这个词。"
+    },
+    {
+      "id": "n5-mlc-319-word",
+      "word": "さとう",
+      "kana": "さとう",
+      "meaning": "糖",
+      "type": "名词",
+      "example": "「さとう」を覚えます。",
+      "exampleMeaning": "记住「さとう」这个词。"
+    },
+    {
+      "id": "n5-mlc-320-word",
+      "word": "さむい",
+      "kana": "さむい",
+      "meaning": "冷（天气）",
+      "type": "形容词",
+      "example": "「さむい」を覚えます。",
+      "exampleMeaning": "记住「さむい」这个词。"
+    },
+    {
+      "id": "n5-mlc-321-word",
+      "word": "さらいねん",
+      "kana": "さらいねん",
+      "meaning": "后年",
+      "type": "名词",
+      "example": "「さらいねん」を覚えます。",
+      "exampleMeaning": "记住「さらいねん」这个词。"
+    },
+    {
+      "id": "n5-mlc-322-word",
+      "word": "三",
+      "kana": "さん",
+      "meaning": "三",
+      "type": "名词",
+      "example": "「三」を覚えます。",
+      "exampleMeaning": "记住「三」这个词。"
+    },
+    {
+      "id": "n5-mlc-323-word",
+      "word": "さんぽ",
+      "kana": "さんぽ",
+      "meaning": "走",
+      "type": "名词",
+      "example": "「さんぽ」を覚えます。",
+      "exampleMeaning": "记住「さんぽ」这个词。"
+    },
+    {
+      "id": "n5-mlc-324-word",
+      "word": "さんぽ(を)します",
+      "kana": "さんぽ(を)します",
+      "meaning": "散步",
+      "type": "动词",
+      "example": "「さんぽ(を)します」を覚えます。",
+      "exampleMeaning": "记住「さんぽ(を)します」这个词。"
+    },
+    {
+      "id": "n5-mlc-325-word",
+      "word": "四",
+      "kana": "し",
+      "meaning": "四=よん。",
+      "type": "名词",
+      "example": "「四」を覚えます。",
+      "exampleMeaning": "记住「四」这个词。"
+    },
+    {
+      "id": "n5-mlc-326-word",
+      "word": "しお",
+      "kana": "しお",
+      "meaning": "盐",
+      "type": "名词",
+      "example": "「しお」を覚えます。",
+      "exampleMeaning": "记住「しお」这个词。"
+    },
+    {
+      "id": "n5-mlc-327-word",
+      "word": "しかし",
+      "kana": "しかし",
+      "meaning": "但是，但是（正式的书面语言）",
+      "type": "名词",
+      "example": "「しかし」を覚えます。",
+      "exampleMeaning": "记住「しかし」这个词。"
+    },
+    {
+      "id": "n5-mlc-329-word",
+      "word": "しごと",
+      "kana": "しごと",
+      "meaning": "工作",
+      "type": "名词",
+      "example": "「しごと」を覚えます。",
+      "exampleMeaning": "记住「しごと」这个词。"
+    },
+    {
+      "id": "n5-mlc-330-word",
+      "word": "じしょ",
+      "kana": "じしょ",
+      "meaning": "字典",
+      "type": "名词",
+      "example": "「じしょ」を覚えます。",
+      "exampleMeaning": "记住「じしょ」这个词。"
+    },
+    {
+      "id": "n5-mlc-331-word",
+      "word": "しずか",
+      "kana": "しずか",
+      "meaning": "安静的",
+      "type": "名词",
+      "example": "「しずか」を覚えます。",
+      "exampleMeaning": "记住「しずか」这个词。"
+    },
+    {
+      "id": "n5-mlc-333-word",
+      "word": "しつもん",
+      "kana": "しつもん",
+      "meaning": "问题",
+      "type": "名词",
+      "example": "「しつもん」を覚えます。",
+      "exampleMeaning": "记住「しつもん」这个词。"
+    },
+    {
+      "id": "n5-mlc-334-word",
+      "word": "じてんしゃ",
+      "kana": "じてんしゃ",
+      "meaning": "自行车",
+      "type": "名词",
+      "example": "「じてんしゃ」を覚えます。",
+      "exampleMeaning": "记住「じてんしゃ」这个词。"
+    },
+    {
+      "id": "n5-mlc-335-word",
+      "word": "じどうしゃ",
+      "kana": "じどうしゃ",
+      "meaning": "车",
+      "type": "名词",
+      "example": "「じどうしゃ」を覚えます。",
+      "exampleMeaning": "记住「じどうしゃ」这个词。"
+    },
+    {
+      "id": "n5-mlc-336-word",
+      "word": "しにます",
+      "kana": "しにます",
+      "meaning": "死",
+      "type": "动词",
+      "example": "「しにます」を覚えます。",
+      "exampleMeaning": "记住「しにます」这个词。"
+    },
+    {
+      "id": "n5-mlc-337-word",
+      "word": "じびき",
+      "kana": "じびき",
+      "meaning": "字典=じしょ",
+      "type": "名词",
+      "example": "「じびき」を覚えます。",
+      "exampleMeaning": "记住「じびき」这个词。"
+    },
+    {
+      "id": "n5-mlc-338-word",
+      "word": "じぶん",
+      "kana": "じぶん",
+      "meaning": "自己",
+      "type": "名词",
+      "example": "「じぶん」を覚えます。",
+      "exampleMeaning": "记住「じぶん」这个词。"
+    },
+    {
+      "id": "n5-mlc-339-word",
+      "word": "します",
+      "kana": "します",
+      "meaning": "做",
+      "type": "动词",
+      "example": "「します」を覚えます。",
+      "exampleMeaning": "记住「します」这个词。"
+    },
+    {
+      "id": "n5-mlc-340-word",
+      "word": "しまります",
+      "kana": "しまります",
+      "meaning": "关闭（不及物动词）",
+      "type": "动词",
+      "example": "「しまります」を覚えます。",
+      "exampleMeaning": "记住「しまります」这个词。"
+    },
+    {
+      "id": "n5-mlc-341-word",
+      "word": "しめます",
+      "kana": "しめます",
+      "meaning": "关闭（及物动词）",
+      "type": "动词",
+      "example": "「しめます」を覚えます。",
+      "exampleMeaning": "记住「しめます」这个词。"
+    },
+    {
+      "id": "n5-mlc-342-word",
+      "word": "しゃしん",
+      "kana": "しゃしん",
+      "meaning": "照片、照片、图片",
+      "type": "名词",
+      "example": "「しゃしん」を覚えます。",
+      "exampleMeaning": "记住「しゃしん」这个词。"
+    },
+    {
+      "id": "n5-mlc-343-word",
+      "word": "シャツ",
+      "kana": "シャツ",
+      "meaning": "衬衫",
+      "type": "名词",
+      "example": "「シャツ」を覚えます。",
+      "exampleMeaning": "记住「シャツ」这个词。"
+    },
+    {
+      "id": "n5-mlc-344-word",
+      "word": "シャワー",
+      "kana": "シャワー",
+      "meaning": "淋浴",
+      "type": "名词",
+      "example": "「シャワー」を覚えます。",
+      "exampleMeaning": "记住「シャワー」这个词。"
+    },
+    {
+      "id": "n5-mlc-346-word",
+      "word": "十",
+      "kana": "じゅう",
+      "meaning": "十",
+      "type": "名词",
+      "example": "「十」を覚えます。",
+      "exampleMeaning": "记住「十」这个词。"
+    },
+    {
+      "id": "n5-mlc-347-word",
+      "word": "ジュース",
+      "kana": "ジュース",
+      "meaning": "汁",
+      "type": "名词",
+      "example": "「ジュース」を覚えます。",
+      "exampleMeaning": "记住「ジュース」这个词。"
+    },
+    {
+      "id": "n5-mlc-348-word",
+      "word": "じゅぎょう",
+      "kana": "じゅぎょう",
+      "meaning": "班级，课程",
+      "type": "名词",
+      "example": "「じゅぎょう」を覚えます。",
+      "exampleMeaning": "记住「じゅぎょう」这个词。"
+    },
+    {
+      "id": "n5-mlc-349-word",
+      "word": "しゅくだい",
+      "kana": "しゅくだい",
+      "meaning": "家庭作业",
+      "type": "名词",
+      "example": "「しゅくだい」を覚えます。",
+      "exampleMeaning": "记住「しゅくだい」这个词。"
+    },
+    {
+      "id": "n5-mlc-351-word",
+      "word": "上手に",
+      "kana": "じょうずに",
+      "meaning": "出色地",
+      "type": "名词",
+      "example": "「上手に」を覚えます。",
+      "exampleMeaning": "记住「上手に」这个词。"
+    },
+    {
+      "id": "n5-mlc-352-word",
+      "word": "じょうぶ",
+      "kana": "じょうぶ",
+      "meaning": "健康、强壮、坚固、耐用",
+      "type": "名词",
+      "example": "「じょうぶ」を覚えます。",
+      "exampleMeaning": "记住「じょうぶ」这个词。"
+    },
+    {
+      "id": "n5-mlc-353-word",
+      "word": "しょうゆ",
+      "kana": "しょうゆ",
+      "meaning": "酱油",
+      "type": "名词",
+      "example": "「しょうゆ」を覚えます。",
+      "exampleMeaning": "记住「しょうゆ」这个词。"
+    },
+    {
+      "id": "n5-mlc-354-word",
+      "word": "しょくどう",
+      "kana": "しょくどう",
+      "meaning": "饭厅",
+      "type": "名词",
+      "example": "「しょくどう」を覚えます。",
+      "exampleMeaning": "记住「しょくどう」这个词。"
+    },
+    {
+      "id": "n5-mlc-355-word",
+      "word": "知ります",
+      "kana": "しります",
+      "meaning": "知道",
+      "type": "动词",
+      "example": "「知ります」を覚えます。",
+      "exampleMeaning": "记住「知ります」这个词。"
+    },
+    {
+      "id": "n5-mlc-358-word",
+      "word": "水",
+      "kana": "すい",
+      "meaning": "星期三=すいようび。",
+      "type": "名词",
+      "example": "「水」を覚えます。",
+      "exampleMeaning": "记住「水」这个词。"
+    },
+    {
+      "id": "n5-mlc-359-word",
+      "word": "すいます",
+      "kana": "すいます",
+      "meaning": "吸气，抽烟",
+      "type": "动词",
+      "example": "「すいます」を覚えます。",
+      "exampleMeaning": "记住「すいます」这个词。"
+    },
+    {
+      "id": "n5-mlc-360-word",
+      "word": "水よう日",
+      "kana": "すいようび",
+      "meaning": "周三",
+      "type": "名词",
+      "example": "「水よう日」を覚えます。",
+      "exampleMeaning": "记住「水よう日」这个词。"
+    },
+    {
+      "id": "n5-mlc-361-word",
+      "word": "スカート",
+      "kana": "スカート",
+      "meaning": "裙子",
+      "type": "名词",
+      "example": "「スカート」を覚えます。",
+      "exampleMeaning": "记住「スカート」这个词。"
+    },
+    {
+      "id": "n5-mlc-362-word",
+      "word": "すき",
+      "kana": "すき",
+      "meaning": "喜欢",
+      "type": "名词",
+      "example": "「すき」を覚えます。",
+      "exampleMeaning": "记住「すき」这个词。"
+    },
+    {
+      "id": "n5-mlc-364-word",
+      "word": "すぐに",
+      "kana": "すぐに",
+      "meaning": "很快，马上",
+      "type": "名词",
+      "example": "「すぐに」を覚えます。",
+      "exampleMeaning": "记住「すぐに」这个词。"
+    },
+    {
+      "id": "n5-mlc-366-word",
+      "word": "すし",
+      "kana": "すし",
+      "meaning": "寿司",
+      "type": "名词",
+      "example": "「すし」を覚えます。",
+      "exampleMeaning": "记住「すし」这个词。"
+    },
+    {
+      "id": "n5-mlc-367-word",
+      "word": "すしや",
+      "kana": "すしや",
+      "meaning": "寿司店",
+      "type": "名词",
+      "example": "「すしや」を覚えます。",
+      "exampleMeaning": "记住「すしや」这个词。"
+    },
+    {
+      "id": "n5-mlc-368-word",
+      "word": "すずしい",
+      "kana": "すずしい",
+      "meaning": "凉爽（天气）",
+      "type": "名词",
+      "example": "「すずしい」を覚えます。",
+      "exampleMeaning": "记住「すずしい」这个词。"
+    },
+    {
+      "id": "n5-mlc-369-word",
+      "word": "ストーブ",
+      "kana": "ストーブ",
+      "meaning": "炉灶、加热器",
+      "type": "形容词",
+      "example": "「ストーブ」を覚えます。",
+      "exampleMeaning": "记住「ストーブ」这个词。"
+    },
+    {
+      "id": "n5-mlc-370-word",
+      "word": "スプーン",
+      "kana": "スプーン",
+      "meaning": "勺子",
+      "type": "名词",
+      "example": "「スプーン」を覚えます。",
+      "exampleMeaning": "记住「スプーン」这个词。"
+    },
+    {
+      "id": "n5-mlc-371-word",
+      "word": "スポーツ",
+      "kana": "スポーツ",
+      "meaning": "运动的",
+      "type": "名词",
+      "example": "「スポーツ」を覚えます。",
+      "exampleMeaning": "记住「スポーツ」这个词。"
+    },
+    {
+      "id": "n5-mlc-372-word",
+      "word": "ズボン",
+      "kana": "ズボン",
+      "meaning": "裤子，裤子",
+      "type": "名词",
+      "example": "「ズボン」を覚えます。",
+      "exampleMeaning": "记住「ズボン」这个词。"
+    },
+    {
+      "id": "n5-mlc-373-word",
+      "word": "住みます",
+      "kana": "すみます",
+      "meaning": "居住，居住",
+      "type": "动词",
+      "example": "「住みます」を覚えます。",
+      "exampleMeaning": "记住「住みます」这个词。"
+    },
+    {
+      "id": "n5-mlc-374-word",
+      "word": "スリッパ",
+      "kana": "スリッパ",
+      "meaning": "拖鞋",
+      "type": "名词",
+      "example": "「スリッパ」を覚えます。",
+      "exampleMeaning": "记住「スリッパ」这个词。"
+    },
+    {
+      "id": "n5-mlc-375-word",
+      "word": "すわります",
+      "kana": "すわります",
+      "meaning": "坐下",
+      "type": "动词",
+      "example": "「すわります」を覚えます。",
+      "exampleMeaning": "记住「すわります」这个词。"
+    },
+    {
+      "id": "n5-mlc-376-word",
+      "word": "せ",
+      "kana": "せ",
+      "meaning": "高度",
+      "type": "名词",
+      "example": "「せ」を覚えます。",
+      "exampleMeaning": "记住「せ」这个词。"
+    },
+    {
+      "id": "n5-mlc-377-word",
+      "word": "せいと",
+      "kana": "せいと",
+      "meaning": "学生",
+      "type": "名词",
+      "example": "「せいと」を覚えます。",
+      "exampleMeaning": "记住「せいと」这个词。"
+    },
+    {
+      "id": "n5-mlc-378-word",
+      "word": "セーター",
+      "kana": "セーター",
+      "meaning": "毛衣",
+      "type": "名词",
+      "example": "「セーター」を覚えます。",
+      "exampleMeaning": "记住「セーター」这个词。"
+    },
+    {
+      "id": "n5-mlc-379-word",
+      "word": "せっけん",
+      "kana": "せっけん",
+      "meaning": "肥皂",
+      "type": "名词",
+      "example": "「せっけん」を覚えます。",
+      "exampleMeaning": "记住「せっけん」这个词。"
+    },
+    {
+      "id": "n5-mlc-380-word",
+      "word": "せびろ",
+      "kana": "せびろ",
+      "meaning": "夹克、西装",
+      "type": "名词",
+      "example": "「せびろ」を覚えます。",
+      "exampleMeaning": "记住「せびろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-381-word",
+      "word": "せまい",
+      "kana": "せまい",
+      "meaning": "狭窄，不宽敞",
+      "type": "表达",
+      "example": "「せまい」を覚えます。",
+      "exampleMeaning": "记住「せまい」这个词。"
+    },
+    {
+      "id": "n5-mlc-382-word",
+      "word": "ゼロ",
+      "kana": "ゼロ",
+      "meaning": "零",
+      "type": "名词",
+      "example": "「ゼロ」を覚えます。",
+      "exampleMeaning": "记住「ゼロ」这个词。"
+    },
+    {
+      "id": "n5-mlc-383-word",
+      "word": "千",
+      "kana": "せん",
+      "meaning": "千",
+      "type": "名词",
+      "example": "「千」を覚えます。",
+      "exampleMeaning": "记住「千」这个词。"
+    },
+    {
+      "id": "n5-mlc-384-word",
+      "word": "先月",
+      "kana": "せんげつ",
+      "meaning": "上个月",
+      "type": "名词",
+      "example": "「先月」を覚えます。",
+      "exampleMeaning": "记住「先月」这个词。"
+    },
+    {
+      "id": "n5-mlc-387-word",
+      "word": "せんたく",
+      "kana": "せんたく",
+      "meaning": "洗涤、洗衣服",
+      "type": "名词",
+      "example": "「せんたく」を覚えます。",
+      "exampleMeaning": "记住「せんたく」这个词。"
+    },
+    {
+      "id": "n5-mlc-388-word",
+      "word": "ぜんぶ",
+      "kana": "ぜんぶ",
+      "meaning": "全部",
+      "type": "名词",
+      "example": "「ぜんぶ」を覚えます。",
+      "exampleMeaning": "记住「ぜんぶ」这个词。"
+    },
+    {
+      "id": "n5-mlc-389-word",
+      "word": "そうじ",
+      "kana": "そうじ",
+      "meaning": "打扫",
+      "type": "名词",
+      "example": "「そうじ」を覚えます。",
+      "exampleMeaning": "记住「そうじ」这个词。"
+    },
+    {
+      "id": "n5-mlc-390-word",
+      "word": "そうじします",
+      "kana": "そうじします",
+      "meaning": "干净的",
+      "type": "动词",
+      "example": "「そうじします」を覚えます。",
+      "exampleMeaning": "记住「そうじします」这个词。"
+    },
+    {
+      "id": "n5-mlc-392-word",
+      "word": "そして",
+      "kana": "そして",
+      "meaning": "进而",
+      "type": "名词",
+      "example": "「そして」を覚えます。",
+      "exampleMeaning": "记住「そして」这个词。"
+    },
+    {
+      "id": "n5-mlc-393-word",
+      "word": "そちら",
+      "kana": "そちら",
+      "meaning": "那里，你的地方",
+      "type": "名词",
+      "example": "「そちら」を覚えます。",
+      "exampleMeaning": "记住「そちら」这个词。"
+    },
+    {
+      "id": "n5-mlc-395-word",
+      "word": "その～",
+      "kana": "その～",
+      "meaning": "那",
+      "type": "名词",
+      "example": "「その～」を覚えます。",
+      "exampleMeaning": "记住「その～」这个词。"
+    },
+    {
+      "id": "n5-mlc-396-word",
+      "word": "そば",
+      "kana": "そば",
+      "meaning": "附近",
+      "type": "名词",
+      "example": "「そば」を覚えます。",
+      "exampleMeaning": "记住「そば」这个词。"
+    },
+    {
+      "id": "n5-mlc-399-word",
+      "word": "それから",
+      "kana": "それから",
+      "meaning": "然后，在那之后",
+      "type": "副词/表达",
+      "example": "「それから」を覚えます。",
+      "exampleMeaning": "记住「それから」这个词。"
+    },
+    {
+      "id": "n5-mlc-400-word",
+      "word": "それでは",
+      "kana": "それでは",
+      "meaning": "那么，好吧",
+      "type": "副词/表达",
+      "example": "「それでは」を覚えます。",
+      "exampleMeaning": "记住「それでは」这个词。"
+    },
+    {
+      "id": "n5-mlc-402-word",
+      "word": "たいしかん",
+      "kana": "たいしかん",
+      "meaning": "大使馆",
+      "type": "形容词",
+      "example": "「たいしかん」を覚えます。",
+      "exampleMeaning": "记住「たいしかん」这个词。"
+    },
+    {
+      "id": "n5-mlc-403-word",
+      "word": "だいじょうぶ",
+      "kana": "だいじょうぶ",
+      "meaning": "好的，没问题",
+      "type": "形容词",
+      "example": "「だいじょうぶ」を覚えます。",
+      "exampleMeaning": "记住「だいじょうぶ」这个词。"
+    },
+    {
+      "id": "n5-mlc-404-word",
+      "word": "だいすき",
+      "kana": "だいすき",
+      "meaning": "非常喜欢, 非常喜欢",
+      "type": "副词/表达",
+      "example": "「だいすき」を覚えます。",
+      "exampleMeaning": "记住「だいすき」这个词。"
+    },
+    {
+      "id": "n5-mlc-405-word",
+      "word": "たいせつ",
+      "kana": "たいせつ",
+      "meaning": "重要的",
+      "type": "形容词",
+      "example": "「たいせつ」を覚えます。",
+      "exampleMeaning": "记住「たいせつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-406-word",
+      "word": "だいたい",
+      "kana": "だいたい",
+      "meaning": "几乎",
+      "type": "名词",
+      "example": "「だいたい」を覚えます。",
+      "exampleMeaning": "记住「だいたい」这个词。"
+    },
+    {
+      "id": "n5-mlc-407-word",
+      "word": "たいてい",
+      "kana": "たいてい",
+      "meaning": "大部分，通常",
+      "type": "形容词",
+      "example": "「たいてい」を覚えます。",
+      "exampleMeaning": "记住「たいてい」这个词。"
+    },
+    {
+      "id": "n5-mlc-408-word",
+      "word": "だいどころ",
+      "kana": "だいどころ",
+      "meaning": "厨房",
+      "type": "名词",
+      "example": "「だいどころ」を覚えます。",
+      "exampleMeaning": "记住「だいどころ」这个词。"
+    },
+    {
+      "id": "n5-mlc-409-word",
+      "word": "たいへん",
+      "kana": "たいへん",
+      "meaning": "非常",
+      "type": "副词/表达",
+      "example": "「たいへん」を覚えます。",
+      "exampleMeaning": "记住「たいへん」这个词。"
+    },
+    {
+      "id": "n5-mlc-413-word",
+      "word": "だから",
+      "kana": "だから",
+      "meaning": "所以，因此",
+      "type": "名词",
+      "example": "「だから」を覚えます。",
+      "exampleMeaning": "记住「だから」这个词。"
+    },
+    {
+      "id": "n5-mlc-415-word",
+      "word": "タクシー",
+      "kana": "タクシー",
+      "meaning": "出租车",
+      "type": "名词",
+      "example": "「タクシー」を覚えます。",
+      "exampleMeaning": "记住「タクシー」这个词。"
+    },
+    {
+      "id": "n5-mlc-416-word",
+      "word": "出します",
+      "kana": "だします",
+      "meaning": "取出",
+      "type": "动词",
+      "example": "「出します」を覚えます。",
+      "exampleMeaning": "记住「出します」这个词。"
+    },
+    {
+      "id": "n5-mlc-417-word",
+      "word": "ただしい",
+      "kana": "ただしい",
+      "meaning": "正确的",
+      "type": "名词",
+      "example": "「ただしい」を覚えます。",
+      "exampleMeaning": "记住「ただしい」这个词。"
+    },
+    {
+      "id": "n5-mlc-418-word",
+      "word": "立ちます",
+      "kana": "たちます",
+      "meaning": "起来",
+      "type": "动词",
+      "example": "「立ちます」を覚えます。",
+      "exampleMeaning": "记住「立ちます」这个词。"
+    },
+    {
+      "id": "n5-mlc-419-word",
+      "word": "たてもの",
+      "kana": "たてもの",
+      "meaning": "建筑",
+      "type": "名词",
+      "example": "「たてもの」を覚えます。",
+      "exampleMeaning": "记住「たてもの」这个词。"
+    },
+    {
+      "id": "n5-mlc-420-word",
+      "word": "たのしい",
+      "kana": "たのしい",
+      "meaning": "令人愉快的，愉快的",
+      "type": "名词",
+      "example": "「たのしい」を覚えます。",
+      "exampleMeaning": "记住「たのしい」这个词。"
+    },
+    {
+      "id": "n5-mlc-421-word",
+      "word": "たのみます",
+      "kana": "たのみます",
+      "meaning": "询问，请求",
+      "type": "动词",
+      "example": "「たのみます」を覚えます。",
+      "exampleMeaning": "记住「たのみます」这个词。"
+    },
+    {
+      "id": "n5-mlc-422-word",
+      "word": "たばこ",
+      "kana": "たばこ",
+      "meaning": "香烟，烟草",
+      "type": "名词",
+      "example": "「たばこ」を覚えます。",
+      "exampleMeaning": "记住「たばこ」这个词。"
+    },
+    {
+      "id": "n5-mlc-423-word",
+      "word": "たぶん",
+      "kana": "たぶん",
+      "meaning": "也许，也许",
+      "type": "名词",
+      "example": "「たぶん」を覚えます。",
+      "exampleMeaning": "记住「たぶん」这个词。"
+    },
+    {
+      "id": "n5-mlc-424-word",
+      "word": "食べもの",
+      "kana": "たべもの",
+      "meaning": "食物",
+      "type": "名词",
+      "example": "「食べもの」を覚えます。",
+      "exampleMeaning": "记住「食べもの」这个词。"
+    },
+    {
+      "id": "n5-mlc-425-word",
+      "word": "食べます",
+      "kana": "たべます",
+      "meaning": "吃",
+      "type": "动词",
+      "example": "「食べます」を覚えます。",
+      "exampleMeaning": "记住「食べます」这个词。"
+    },
+    {
+      "id": "n5-mlc-426-word",
+      "word": "たまご",
+      "kana": "たまご",
+      "meaning": "蛋",
+      "type": "名词",
+      "example": "「たまご」を覚えます。",
+      "exampleMeaning": "记住「たまご」这个词。"
+    },
+    {
+      "id": "n5-mlc-427-word",
+      "word": "だれ",
+      "kana": "だれ",
+      "meaning": "WHO",
+      "type": "名词",
+      "example": "「だれ」を覚えます。",
+      "exampleMeaning": "记住「だれ」这个词。"
+    },
+    {
+      "id": "n5-mlc-428-word",
+      "word": "たんじょうび",
+      "kana": "たんじょうび",
+      "meaning": "生日",
+      "type": "名词",
+      "example": "「たんじょうび」を覚えます。",
+      "exampleMeaning": "记住「たんじょうび」这个词。"
+    },
+    {
+      "id": "n5-mlc-429-word",
+      "word": "だんだん",
+      "kana": "だんだん",
+      "meaning": "逐渐地，一点一点地",
+      "type": "名词",
+      "example": "「だんだん」を覚えます。",
+      "exampleMeaning": "记住「だんだん」这个词。"
+    },
+    {
+      "id": "n5-mlc-431-noun",
+      "word": "小さな",
+      "kana": "ちいさな+[noun]",
+      "meaning": "小小さな+",
+      "type": "形容词",
+      "example": "「小さな」を覚えます。",
+      "exampleMeaning": "记住「小さな」这个词。"
+    },
+    {
+      "id": "n5-mlc-433-word",
+      "word": "ちがいます",
+      "kana": "ちがいます",
+      "meaning": "有所不同，有所不同",
+      "type": "动词",
+      "example": "「ちがいます」を覚えます。",
+      "exampleMeaning": "记住「ちがいます」这个词。"
+    },
+    {
+      "id": "n5-mlc-435-word",
+      "word": "ちかてつ",
+      "kana": "ちかてつ",
+      "meaning": "地铁",
+      "type": "名词",
+      "example": "「ちかてつ」を覚えます。",
+      "exampleMeaning": "记住「ちかてつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-436-word",
+      "word": "ちず",
+      "kana": "ちず",
+      "meaning": "地图",
+      "type": "名词",
+      "example": "「ちず」を覚えます。",
+      "exampleMeaning": "记住「ちず」这个词。"
+    },
+    {
+      "id": "n5-mlc-438-word",
+      "word": "ちゃいろ",
+      "kana": "ちゃいろ",
+      "meaning": "棕色的",
+      "type": "名词",
+      "example": "「ちゃいろ」を覚えます。",
+      "exampleMeaning": "记住「ちゃいろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-439-word",
+      "word": "ちゃわん",
+      "kana": "ちゃわん",
+      "meaning": "（饭碗",
+      "type": "名词",
+      "example": "「ちゃわん」を覚えます。",
+      "exampleMeaning": "记住「ちゃわん」这个词。"
+    },
+    {
+      "id": "n5-mlc-440-word",
+      "word": "ちょうど",
+      "kana": "ちょうど",
+      "meaning": "只是",
+      "type": "名词",
+      "example": "「ちょうど」を覚えます。",
+      "exampleMeaning": "记住「ちょうど」这个词。"
+    },
+    {
+      "id": "n5-mlc-441-word",
+      "word": "ちょっと",
+      "kana": "ちょっと",
+      "meaning": "一点",
+      "type": "名词",
+      "example": "「ちょっと」を覚えます。",
+      "exampleMeaning": "记住「ちょっと」这个词。"
+    },
+    {
+      "id": "n5-mlc-442-word",
+      "word": "一日",
+      "kana": "ついたち",
+      "meaning": "该月的第一天",
+      "type": "名词",
+      "example": "「一日」を覚えます。",
+      "exampleMeaning": "记住「一日」这个词。"
+    },
+    {
+      "id": "n5-mlc-443-word",
+      "word": "つかいます",
+      "kana": "つかいます",
+      "meaning": "使用",
+      "type": "动词",
+      "example": "「つかいます」を覚えます。",
+      "exampleMeaning": "记住「つかいます」这个词。"
+    },
+    {
+      "id": "n5-mlc-444-word",
+      "word": "つかれます",
+      "kana": "つかれます",
+      "meaning": "累了",
+      "type": "动词",
+      "example": "「つかれます」を覚えます。",
+      "exampleMeaning": "记住「つかれます」这个词。"
+    },
+    {
+      "id": "n5-mlc-445-word",
+      "word": "つぎ",
+      "kana": "つぎ",
+      "meaning": "下一个",
+      "type": "名词",
+      "example": "「つぎ」を覚えます。",
+      "exampleMeaning": "记住「つぎ」这个词。"
+    },
+    {
+      "id": "n5-mlc-446-word",
+      "word": "つきます",
+      "kana": "つきます",
+      "meaning": "到达",
+      "type": "动词",
+      "example": "「つきます」を覚えます。",
+      "exampleMeaning": "记住「つきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-447-word",
+      "word": "つくえ",
+      "kana": "つくえ",
+      "meaning": "桌子",
+      "type": "名词",
+      "example": "「つくえ」を覚えます。",
+      "exampleMeaning": "记住「つくえ」这个词。"
+    },
+    {
+      "id": "n5-mlc-448-word",
+      "word": "つくりかた",
+      "kana": "つくりかた",
+      "meaning": "如何制作",
+      "type": "疑问词",
+      "example": "「つくりかた」を覚えます。",
+      "exampleMeaning": "记住「つくりかた」这个词。"
+    },
+    {
+      "id": "n5-mlc-449-word",
+      "word": "つくります",
+      "kana": "つくります",
+      "meaning": "制作",
+      "type": "动词",
+      "example": "「つくります」を覚えます。",
+      "exampleMeaning": "记住「つくります」这个词。"
+    },
+    {
+      "id": "n5-mlc-450-word",
+      "word": "つけます",
+      "kana": "つけます",
+      "meaning": "打开",
+      "type": "动词",
+      "example": "「つけます」を覚えます。",
+      "exampleMeaning": "记住「つけます」这个词。"
+    },
+    {
+      "id": "n5-mlc-451-word",
+      "word": "つとめます",
+      "kana": "つとめます",
+      "meaning": "为...工作",
+      "type": "动词",
+      "example": "「つとめます」を覚えます。",
+      "exampleMeaning": "记住「つとめます」这个词。"
+    },
+    {
+      "id": "n5-mlc-453-word",
+      "word": "つめたい",
+      "kana": "つめたい",
+      "meaning": "寒冷（物体）",
+      "type": "形容词",
+      "example": "「つめたい」を覚えます。",
+      "exampleMeaning": "记住「つめたい」这个词。"
+    },
+    {
+      "id": "n5-mlc-454-word",
+      "word": "つよい",
+      "kana": "つよい",
+      "meaning": "强的",
+      "type": "名词",
+      "example": "「つよい」を覚えます。",
+      "exampleMeaning": "记住「つよい」这个词。"
+    },
+    {
+      "id": "n5-mlc-456-word",
+      "word": "ティッシュペーパー",
+      "kana": "ティッシュペーパー",
+      "meaning": "组织",
+      "type": "名词",
+      "example": "「ティッシュペーパー」を覚えます。",
+      "exampleMeaning": "记住「ティッシュペーパー」这个词。"
+    },
+    {
+      "id": "n5-mlc-457-word",
+      "word": "テープ",
+      "kana": "テープ",
+      "meaning": "磁带",
+      "type": "名词",
+      "example": "「テープ」を覚えます。",
+      "exampleMeaning": "记住「テープ」这个词。"
+    },
+    {
+      "id": "n5-mlc-458-word",
+      "word": "テープレコーダー",
+      "kana": "テープレコーダー",
+      "meaning": "录音机",
+      "type": "名词",
+      "example": "「テープレコーダー」を覚えます。",
+      "exampleMeaning": "记住「テープレコーダー」这个词。"
+    },
+    {
+      "id": "n5-mlc-459-word",
+      "word": "テーブル",
+      "kana": "テーブル",
+      "meaning": "桌子",
+      "type": "名词",
+      "example": "「テーブル」を覚えます。",
+      "exampleMeaning": "记住「テーブル」这个词。"
+    },
+    {
+      "id": "n5-mlc-460-word",
+      "word": "出かけます",
+      "kana": "でかけます",
+      "meaning": "出去",
+      "type": "动词",
+      "example": "「出かけます」を覚えます。",
+      "exampleMeaning": "记住「出かけます」这个词。"
+    },
+    {
+      "id": "n5-mlc-462-word",
+      "word": "できます",
+      "kana": "できます",
+      "meaning": "能",
+      "type": "动词",
+      "example": "「できます」を覚えます。",
+      "exampleMeaning": "记住「できます」这个词。"
+    },
+    {
+      "id": "n5-mlc-463-word",
+      "word": "出口",
+      "kana": "でぐち",
+      "meaning": "出口",
+      "type": "名词",
+      "example": "「出口」を覚えます。",
+      "exampleMeaning": "记住「出口」这个词。"
+    },
+    {
+      "id": "n5-mlc-464-word",
+      "word": "テスト",
+      "kana": "テスト",
+      "meaning": "测试",
+      "type": "名词",
+      "example": "「テスト」を覚えます。",
+      "exampleMeaning": "记住「テスト」这个词。"
+    },
+    {
+      "id": "n5-mlc-465-word",
+      "word": "では",
+      "kana": "では",
+      "meaning": "那么，那么=じゃ。",
+      "type": "副词/表达",
+      "example": "「では」を覚えます。",
+      "exampleMeaning": "记住「では」这个词。"
+    },
+    {
+      "id": "n5-mlc-466-word",
+      "word": "デパート",
+      "kana": "デパート",
+      "meaning": "百货商店",
+      "type": "名词",
+      "example": "「デパート」を覚えます。",
+      "exampleMeaning": "记住「デパート」这个词。"
+    },
+    {
+      "id": "n5-mlc-467-word",
+      "word": "出ます",
+      "kana": "でます",
+      "meaning": "离开",
+      "type": "动词",
+      "example": "「出ます」を覚えます。",
+      "exampleMeaning": "记住「出ます」这个词。"
+    },
+    {
+      "id": "n5-mlc-468-word",
+      "word": "でも",
+      "kana": "でも",
+      "meaning": "但",
+      "type": "名词",
+      "example": "「でも」を覚えます。",
+      "exampleMeaning": "记住「でも」这个词。"
+    },
+    {
+      "id": "n5-mlc-469-word",
+      "word": "テレビ",
+      "kana": "テレビ",
+      "meaning": "电视",
+      "type": "名词",
+      "example": "「テレビ」を覚えます。",
+      "exampleMeaning": "记住「テレビ」这个词。"
+    },
+    {
+      "id": "n5-mlc-471-word",
+      "word": "電気",
+      "kana": "でんき",
+      "meaning": "电",
+      "type": "名词",
+      "example": "「電気」を覚えます。",
+      "exampleMeaning": "记住「電気」这个词。"
+    },
+    {
+      "id": "n5-mlc-474-word",
+      "word": "電話します",
+      "kana": "でんわします",
+      "meaning": "呼叫、响铃",
+      "type": "动词",
+      "example": "「電話します」を覚えます。",
+      "exampleMeaning": "记住「電話します」这个词。"
+    },
+    {
+      "id": "n5-mlc-475-word",
+      "word": "電話ばんごう",
+      "kana": "でんわばんごう",
+      "meaning": "电话号码",
+      "type": "名词",
+      "example": "「電話ばんごう」を覚えます。",
+      "exampleMeaning": "记住「電話ばんごう」这个词。"
+    },
+    {
+      "id": "n5-mlc-476-word",
+      "word": "と",
+      "kana": "と",
+      "meaning": "门",
+      "type": "名词",
+      "example": "「と」を覚えます。",
+      "exampleMeaning": "记住「と」这个词。"
+    },
+    {
+      "id": "n5-mlc-477-word",
+      "word": "ど",
+      "kana": "ど",
+      "meaning": "星期六=どようび。",
+      "type": "名词",
+      "example": "「ど」を覚えます。",
+      "exampleMeaning": "记住「ど」这个词。"
+    },
+    {
+      "id": "n5-mlc-478-word",
+      "word": "ドア",
+      "kana": "ドア",
+      "meaning": "门",
+      "type": "名词",
+      "example": "「ドア」を覚えます。",
+      "exampleMeaning": "记住「ドア」这个词。"
+    },
+    {
+      "id": "n5-mlc-479-word",
+      "word": "トイレ",
+      "kana": "トイレ",
+      "meaning": "厕所,盥洗室",
+      "type": "名词",
+      "example": "「トイレ」を覚えます。",
+      "exampleMeaning": "记住「トイレ」这个词。"
+    },
+    {
+      "id": "n5-mlc-480-word",
+      "word": "トイレットペーパー",
+      "kana": "トイレットペーパー",
+      "meaning": "卫生纸",
+      "type": "名词",
+      "example": "「トイレットペーパー」を覚えます。",
+      "exampleMeaning": "记住「トイレットペーパー」这个词。"
+    },
+    {
+      "id": "n5-mlc-481-word",
+      "word": "どう",
+      "kana": "どう",
+      "meaning": "如何",
+      "type": "疑问词",
+      "example": "「どう」を覚えます。",
+      "exampleMeaning": "记住「どう」这个词。"
+    },
+    {
+      "id": "n5-mlc-482-word",
+      "word": "とうきょう",
+      "kana": "とうきょう",
+      "meaning": "东京",
+      "type": "名词",
+      "example": "「とうきょう」を覚えます。",
+      "exampleMeaning": "记住「とうきょう」这个词。"
+    },
+    {
+      "id": "n5-mlc-483-word",
+      "word": "どうして",
+      "kana": "どうして",
+      "meaning": "为什么",
+      "type": "疑问词",
+      "example": "「どうして」を覚えます。",
+      "exampleMeaning": "记住「どうして」这个词。"
+    },
+    {
+      "id": "n5-mlc-484-word",
+      "word": "とうふ",
+      "kana": "とうふ",
+      "meaning": "豆腐",
+      "type": "名词",
+      "example": "「とうふ」を覚えます。",
+      "exampleMeaning": "记住「とうふ」这个词。"
+    },
+    {
+      "id": "n5-mlc-485-word",
+      "word": "どうぶつ",
+      "kana": "どうぶつ",
+      "meaning": "动物",
+      "type": "名词",
+      "example": "「どうぶつ」を覚えます。",
+      "exampleMeaning": "记住「どうぶつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-486-word",
+      "word": "十",
+      "kana": "とお",
+      "meaning": "ひとつ、ふたつ、みっつ、よっつ、いつつ、むっつ、ななつ、やっつ、ここのつ、十。一、二、三、四、五、六、七、",
+      "type": "名词",
+      "example": "「十」を覚えます。",
+      "exampleMeaning": "记住「十」这个词。"
+    },
+    {
+      "id": "n5-mlc-487-word",
+      "word": "とおい",
+      "kana": "とおい",
+      "meaning": "远的",
+      "type": "名词",
+      "example": "「とおい」を覚えます。",
+      "exampleMeaning": "记住「とおい」这个词。"
+    },
+    {
+      "id": "n5-mlc-488-word",
+      "word": "とおく",
+      "kana": "とおく",
+      "meaning": "遥远地，远方",
+      "type": "名词",
+      "example": "「とおく」を覚えます。",
+      "exampleMeaning": "记住「とおく」这个词。"
+    },
+    {
+      "id": "n5-mlc-489-word",
+      "word": "十日",
+      "kana": "とおか",
+      "meaning": "十日，十天",
+      "type": "名词",
+      "example": "「十日」を覚えます。",
+      "exampleMeaning": "记住「十日」这个词。"
+    },
+    {
+      "id": "n5-mlc-490-word",
+      "word": "ときどき",
+      "kana": "ときどき",
+      "meaning": "有时",
+      "type": "名词",
+      "example": "「ときどき」を覚えます。",
+      "exampleMeaning": "记住「ときどき」这个词。"
+    },
+    {
+      "id": "n5-mlc-491-word",
+      "word": "とけい",
+      "kana": "とけい",
+      "meaning": "时钟，手表",
+      "type": "名词",
+      "example": "「とけい」を覚えます。",
+      "exampleMeaning": "记住「とけい」这个词。"
+    },
+    {
+      "id": "n5-mlc-493-word",
+      "word": "どこか",
+      "kana": "どこか",
+      "meaning": "某处",
+      "type": "名词",
+      "example": "「どこか」を覚えます。",
+      "exampleMeaning": "记住「どこか」这个词。"
+    },
+    {
+      "id": "n5-mlc-494-word",
+      "word": "ところ",
+      "kana": "ところ",
+      "meaning": "地方",
+      "type": "名词",
+      "example": "「ところ」を覚えます。",
+      "exampleMeaning": "记住「ところ」这个词。"
+    },
+    {
+      "id": "n5-mlc-495-word",
+      "word": "としょかん",
+      "kana": "としょかん",
+      "meaning": "图书馆",
+      "type": "名词",
+      "example": "「としょかん」を覚えます。",
+      "exampleMeaning": "记住「としょかん」这个词。"
+    },
+    {
+      "id": "n5-mlc-496-word",
+      "word": "どちら",
+      "kana": "どちら",
+      "meaning": "コーヒーとこうちゃ、どちがいいですか。您想要咖啡还是茶？",
+      "type": "名词",
+      "example": "「どちら」を覚えます。",
+      "exampleMeaning": "记住「どちら」这个词。"
+    },
+    {
+      "id": "n5-mlc-498-word",
+      "word": "どなた",
+      "kana": "どなた",
+      "meaning": "だれ。谁の礼貌",
+      "type": "名词",
+      "example": "「どなた」を覚えます。",
+      "exampleMeaning": "记住「どなた」这个词。"
+    },
+    {
+      "id": "n5-mlc-499-word",
+      "word": "となり",
+      "kana": "となり",
+      "meaning": "旁边",
+      "type": "名词",
+      "example": "「となり」を覚えます。",
+      "exampleMeaning": "记住「となり」这个词。"
+    },
+    {
+      "id": "n5-mlc-500-word",
+      "word": "どの～",
+      "kana": "どの～",
+      "meaning": "哪个",
+      "type": "疑问词",
+      "example": "「どの～」を覚えます。",
+      "exampleMeaning": "记住「どの～」这个词。"
+    },
+    {
+      "id": "n5-mlc-501-word",
+      "word": "とびます",
+      "kana": "とびます",
+      "meaning": "飞",
+      "type": "动词",
+      "example": "「とびます」を覚えます。",
+      "exampleMeaning": "记住「とびます」这个词。"
+    },
+    {
+      "id": "n5-mlc-502-word",
+      "word": "とまります",
+      "kana": "とまります",
+      "meaning": "停止",
+      "type": "动词",
+      "example": "「とまります」を覚えます。",
+      "exampleMeaning": "记住「とまります」这个词。"
+    },
+    {
+      "id": "n5-mlc-503-word",
+      "word": "友だち",
+      "kana": "ともだち",
+      "meaning": "朋友",
+      "type": "名词",
+      "example": "「友だち」を覚えます。",
+      "exampleMeaning": "记住「友だち」这个词。"
+    },
+    {
+      "id": "n5-mlc-504-word",
+      "word": "土よう日",
+      "kana": "どようび",
+      "meaning": "周六",
+      "type": "名词",
+      "example": "「土よう日」を覚えます。",
+      "exampleMeaning": "记住「土よう日」这个词。"
+    },
+    {
+      "id": "n5-mlc-505-word",
+      "word": "とり",
+      "kana": "とり",
+      "meaning": "鸟",
+      "type": "名词",
+      "example": "「とり」を覚えます。",
+      "exampleMeaning": "记住「とり」这个词。"
+    },
+    {
+      "id": "n5-mlc-506-word",
+      "word": "とりにく",
+      "kana": "とりにく",
+      "meaning": "鸡",
+      "type": "名词",
+      "example": "「とりにく」を覚えます。",
+      "exampleMeaning": "记住「とりにく」这个词。"
+    },
+    {
+      "id": "n5-mlc-507-word",
+      "word": "とります",
+      "kana": "とります",
+      "meaning": "拿",
+      "type": "动词",
+      "example": "「とります」を覚えます。",
+      "exampleMeaning": "记住「とります」这个词。"
+    },
+    {
+      "id": "n5-mlc-510-word",
+      "word": "どんな",
+      "kana": "どんな",
+      "meaning": "什么样的",
+      "type": "疑问词",
+      "example": "「どんな」を覚えます。",
+      "exampleMeaning": "记住「どんな」这个词。"
+    },
+    {
+      "id": "n5-mlc-511-word",
+      "word": "ナイフ",
+      "kana": "ナイフ",
+      "meaning": "刀",
+      "type": "名词",
+      "example": "「ナイフ」を覚えます。",
+      "exampleMeaning": "记住「ナイフ」这个词。"
+    },
+    {
+      "id": "n5-mlc-514-word",
+      "word": "なきます",
+      "kana": "なきます",
+      "meaning": "唱歌、喵喵、哞哞等",
+      "type": "动词",
+      "example": "「なきます」を覚えます。",
+      "exampleMeaning": "记住「なきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-515-word",
+      "word": "なつ",
+      "kana": "なつ",
+      "meaning": "夏天",
+      "type": "名词",
+      "example": "「なつ」を覚えます。",
+      "exampleMeaning": "记住「なつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-516-word",
+      "word": "など",
+      "kana": "など",
+      "meaning": "等等等等",
+      "type": "名词",
+      "example": "「など」を覚えます。",
+      "exampleMeaning": "记住「など」这个词。"
+    },
+    {
+      "id": "n5-mlc-517-word",
+      "word": "七つ",
+      "kana": "ななつ",
+      "meaning": "七",
+      "type": "名词",
+      "example": "「七つ」を覚えます。",
+      "exampleMeaning": "记住「七つ」这个词。"
+    },
+    {
+      "id": "n5-mlc-519-word",
+      "word": "何か",
+      "kana": "なにか",
+      "meaning": "某物",
+      "type": "名词",
+      "example": "「何か」を覚えます。",
+      "exampleMeaning": "记住「何か」这个词。"
+    },
+    {
+      "id": "n5-mlc-520-word",
+      "word": "七日",
+      "kana": "なのか",
+      "meaning": "该月的第七天",
+      "type": "名词",
+      "example": "「七日」を覚えます。",
+      "exampleMeaning": "记住「七日」这个词。"
+    },
+    {
+      "id": "n5-mlc-522-word",
+      "word": "ならいます",
+      "kana": "ならいます",
+      "meaning": "（向某人）学习",
+      "type": "动词",
+      "example": "「ならいます」を覚えます。",
+      "exampleMeaning": "记住「ならいます」这个词。"
+    },
+    {
+      "id": "n5-mlc-523-word",
+      "word": "ならびます",
+      "kana": "ならびます",
+      "meaning": "（某人）排队",
+      "type": "动词",
+      "example": "「ならびます」を覚えます。",
+      "exampleMeaning": "记住「ならびます」这个词。"
+    },
+    {
+      "id": "n5-mlc-524-word",
+      "word": "ならべます",
+      "kana": "ならべます",
+      "meaning": "排队（某事）",
+      "type": "动词",
+      "example": "「ならべます」を覚えます。",
+      "exampleMeaning": "记住「ならべます」这个词。"
+    },
+    {
+      "id": "n5-mlc-525-word",
+      "word": "なります",
+      "kana": "なります",
+      "meaning": "变得",
+      "type": "动词",
+      "example": "「なります」を覚えます。",
+      "exampleMeaning": "记住「なります」这个词。"
+    },
+    {
+      "id": "n5-mlc-526-word",
+      "word": "何",
+      "kana": "なん",
+      "meaning": "什么",
+      "type": "疑问词",
+      "example": "「何」を覚えます。",
+      "exampleMeaning": "记住「何」这个词。"
+    },
+    {
+      "id": "n5-mlc-527-word",
+      "word": "何時",
+      "kana": "なんじ",
+      "meaning": "什么时候",
+      "type": "疑问词",
+      "example": "「何時」を覚えます。",
+      "exampleMeaning": "记住「何時」这个词。"
+    },
+    {
+      "id": "n5-mlc-528-word",
+      "word": "何日",
+      "kana": "なんにち",
+      "meaning": "该月的哪一天",
+      "type": "名词",
+      "example": "「何日」を覚えます。",
+      "exampleMeaning": "记住「何日」这个词。"
+    },
+    {
+      "id": "n5-mlc-529-word",
+      "word": "二",
+      "kana": "に",
+      "meaning": "二",
+      "type": "名词",
+      "example": "「二」を覚えます。",
+      "exampleMeaning": "记住「二」这个词。"
+    },
+    {
+      "id": "n5-mlc-531-word",
+      "word": "にく",
+      "kana": "にく",
+      "meaning": "肉",
+      "type": "名词",
+      "example": "「にく」を覚えます。",
+      "exampleMeaning": "记住「にく」这个词。"
+    },
+    {
+      "id": "n5-mlc-532-word",
+      "word": "西",
+      "kana": "にし",
+      "meaning": "西方",
+      "type": "名词",
+      "example": "「西」を覚えます。",
+      "exampleMeaning": "记住「西」这个词。"
+    },
+    {
+      "id": "n5-mlc-533-word",
+      "word": "日",
+      "kana": "にち",
+      "meaning": "周日=にちようび。",
+      "type": "名词",
+      "example": "「日」を覚えます。",
+      "exampleMeaning": "记住「日」这个词。"
+    },
+    {
+      "id": "n5-mlc-534-word",
+      "word": "日よう日",
+      "kana": "にちようび",
+      "meaning": "星期日",
+      "type": "名词",
+      "example": "「日よう日」を覚えます。",
+      "exampleMeaning": "记住「日よう日」这个词。"
+    },
+    {
+      "id": "n5-mlc-535-word",
+      "word": "二年",
+      "kana": "にねん",
+      "meaning": "两年",
+      "type": "名词",
+      "example": "「二年」を覚えます。",
+      "exampleMeaning": "记住「二年」这个词。"
+    },
+    {
+      "id": "n5-mlc-537-word",
+      "word": "日本語",
+      "kana": "にほんご",
+      "meaning": "日语",
+      "type": "名词",
+      "example": "「日本語」を覚えます。",
+      "exampleMeaning": "记住「日本語」这个词。"
+    },
+    {
+      "id": "n5-mlc-538-word",
+      "word": "にもつ",
+      "kana": "にもつ",
+      "meaning": "行李",
+      "type": "名词",
+      "example": "「にもつ」を覚えます。",
+      "exampleMeaning": "记住「にもつ」这个词。"
+    },
+    {
+      "id": "n5-mlc-539-word",
+      "word": "ニュース",
+      "kana": "ニュース",
+      "meaning": "消息",
+      "type": "名词",
+      "example": "「ニュース」を覚えます。",
+      "exampleMeaning": "记住「ニュース」这个词。"
+    },
+    {
+      "id": "n5-mlc-540-word",
+      "word": "にわ",
+      "kana": "にわ",
+      "meaning": "花园",
+      "type": "名词",
+      "example": "「にわ」を覚えます。",
+      "exampleMeaning": "记住「にわ」这个词。"
+    },
+    {
+      "id": "n5-mlc-541-word",
+      "word": "ぬぎます",
+      "kana": "ぬぎます",
+      "meaning": "起飞",
+      "type": "动词",
+      "example": "「ぬぎます」を覚えます。",
+      "exampleMeaning": "记住「ぬぎます」这个词。"
+    },
+    {
+      "id": "n5-mlc-542-word",
+      "word": "ぬります",
+      "kana": "ぬります",
+      "meaning": "画",
+      "type": "动词",
+      "example": "「ぬります」を覚えます。",
+      "exampleMeaning": "记住「ぬります」这个词。"
+    },
+    {
+      "id": "n5-mlc-543-word",
+      "word": "ネクタイ",
+      "kana": "ネクタイ",
+      "meaning": "领带",
+      "type": "名词",
+      "example": "「ネクタイ」を覚えます。",
+      "exampleMeaning": "记住「ネクタイ」这个词。"
+    },
+    {
+      "id": "n5-mlc-544-word",
+      "word": "ねます",
+      "kana": "ねます",
+      "meaning": "上床睡觉",
+      "type": "动词",
+      "example": "「ねます」を覚えます。",
+      "exampleMeaning": "记住「ねます」这个词。"
+    },
+    {
+      "id": "n5-mlc-545-word",
+      "word": "ノート",
+      "kana": "ノート",
+      "meaning": "笔记本",
+      "type": "名词",
+      "example": "「ノート」を覚えます。",
+      "exampleMeaning": "记住「ノート」这个词。"
+    },
+    {
+      "id": "n5-mlc-546-word",
+      "word": "のぼります",
+      "kana": "のぼります",
+      "meaning": "上去，爬上去",
+      "type": "动词",
+      "example": "「のぼります」を覚えます。",
+      "exampleMeaning": "记住「のぼります」这个词。"
+    },
+    {
+      "id": "n5-mlc-547-word",
+      "word": "飲みます",
+      "kana": "のみます",
+      "meaning": "喝",
+      "type": "动词",
+      "example": "「飲みます」を覚えます。",
+      "exampleMeaning": "记住「飲みます」这个词。"
+    },
+    {
+      "id": "n5-mlc-548-word",
+      "word": "飲みもの",
+      "kana": "のみもの",
+      "meaning": "饮料",
+      "type": "名词",
+      "example": "「飲みもの」を覚えます。",
+      "exampleMeaning": "记住「飲みもの」这个词。"
+    },
+    {
+      "id": "n5-mlc-549-word",
+      "word": "のります",
+      "kana": "のります",
+      "meaning": "上，骑，乘坐",
+      "type": "动词",
+      "example": "「のります」を覚えます。",
+      "exampleMeaning": "记住「のります」这个词。"
+    },
+    {
+      "id": "n5-mlc-550-word",
+      "word": "は",
+      "kana": "は",
+      "meaning": "牙齿",
+      "type": "名词",
+      "example": "「は」を覚えます。",
+      "exampleMeaning": "记住「は」这个词。"
+    },
+    {
+      "id": "n5-mlc-551-word",
+      "word": "パーティー",
+      "kana": "パーティー",
+      "meaning": "派对",
+      "type": "名词",
+      "example": "「パーティー」を覚えます。",
+      "exampleMeaning": "记住「パーティー」这个词。"
+    },
+    {
+      "id": "n5-mlc-552-word",
+      "word": "はいざら",
+      "kana": "はいざら",
+      "meaning": "烟灰缸",
+      "type": "名词",
+      "example": "「はいざら」を覚えます。",
+      "exampleMeaning": "记住「はいざら」这个词。"
+    },
+    {
+      "id": "n5-mlc-553-word",
+      "word": "入ります",
+      "kana": "はいります",
+      "meaning": "进入",
+      "type": "动词",
+      "example": "「入ります」を覚えます。",
+      "exampleMeaning": "记住「入ります」这个词。"
+    },
+    {
+      "id": "n5-mlc-554-word",
+      "word": "はがき",
+      "kana": "はがき",
+      "meaning": "明信片",
+      "type": "名词",
+      "example": "「はがき」を覚えます。",
+      "exampleMeaning": "记住「はがき」这个词。"
+    },
+    {
+      "id": "n5-mlc-555-word",
+      "word": "はきます",
+      "kana": "はきます",
+      "meaning": "穿",
+      "type": "动词",
+      "example": "「はきます」を覚えます。",
+      "exampleMeaning": "记住「はきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-556-word",
+      "word": "はこ",
+      "kana": "はこ",
+      "meaning": "盒子",
+      "type": "名词",
+      "example": "「はこ」を覚えます。",
+      "exampleMeaning": "记住「はこ」这个词。"
+    },
+    {
+      "id": "n5-mlc-557-word",
+      "word": "はし/おはし",
+      "kana": "はし/おはし",
+      "meaning": "筷子",
+      "type": "名词",
+      "example": "「はし/おはし」を覚えます。",
+      "exampleMeaning": "记住「はし/おはし」这个词。"
+    },
+    {
+      "id": "n5-mlc-558-word",
+      "word": "はし",
+      "kana": "はし",
+      "meaning": "桥",
+      "type": "名词",
+      "example": "「はし」を覚えます。",
+      "exampleMeaning": "记住「はし」这个词。"
+    },
+    {
+      "id": "n5-mlc-559-word",
+      "word": "はじまります",
+      "kana": "はじまります",
+      "meaning": "开始，开始",
+      "type": "动词",
+      "example": "「はじまります」を覚えます。",
+      "exampleMeaning": "记住「はじまります」这个词。"
+    },
+    {
+      "id": "n5-mlc-560-word",
+      "word": "はじめに",
+      "kana": "はじめに",
+      "meaning": "一开始",
+      "type": "名词",
+      "example": "「はじめに」を覚えます。",
+      "exampleMeaning": "记住「はじめに」这个词。"
+    },
+    {
+      "id": "n5-mlc-561-word",
+      "word": "はじめて",
+      "kana": "はじめて",
+      "meaning": "首次",
+      "type": "名词",
+      "example": "「はじめて」を覚えます。",
+      "exampleMeaning": "记住「はじめて」这个词。"
+    },
+    {
+      "id": "n5-mlc-562-word",
+      "word": "バス",
+      "kana": "バス",
+      "meaning": "公共汽车",
+      "type": "名词",
+      "example": "「バス」を覚えます。",
+      "exampleMeaning": "记住「バス」这个词。"
+    },
+    {
+      "id": "n5-mlc-563-word",
+      "word": "バス会社",
+      "kana": "バスがいしゃ",
+      "meaning": "巴士代理处, 巴士公司",
+      "type": "名词",
+      "example": "「バス会社」を覚えます。",
+      "exampleMeaning": "记住「バス会社」这个词。"
+    },
+    {
+      "id": "n5-mlc-564-word",
+      "word": "バスてい",
+      "kana": "バスてい",
+      "meaning": "巴士站",
+      "type": "名词",
+      "example": "「バスてい」を覚えます。",
+      "exampleMeaning": "记住「バスてい」这个词。"
+    },
+    {
+      "id": "n5-mlc-565-word",
+      "word": "バスりょこう",
+      "kana": "バスりょこう",
+      "meaning": "巴士旅行, 巴士旅行",
+      "type": "名词",
+      "example": "「バスりょこう」を覚えます。",
+      "exampleMeaning": "记住「バスりょこう」这个词。"
+    },
+    {
+      "id": "n5-mlc-566-word",
+      "word": "バター",
+      "kana": "バター",
+      "meaning": "黄油",
+      "type": "名词",
+      "example": "「バター」を覚えます。",
+      "exampleMeaning": "记住「バター」这个词。"
+    },
+    {
+      "id": "n5-mlc-567-word",
+      "word": "はたち",
+      "kana": "はたち",
+      "meaning": "二十岁",
+      "type": "名词",
+      "example": "「はたち」を覚えます。",
+      "exampleMeaning": "记住「はたち」这个词。"
+    },
+    {
+      "id": "n5-mlc-568-word",
+      "word": "はたらきます",
+      "kana": "はたらきます",
+      "meaning": "工作",
+      "type": "动词",
+      "example": "「はたらきます」を覚えます。",
+      "exampleMeaning": "记住「はたらきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-569-word",
+      "word": "八",
+      "kana": "はち",
+      "meaning": "八",
+      "type": "名词",
+      "example": "「八」を覚えます。",
+      "exampleMeaning": "记住「八」这个词。"
+    },
+    {
+      "id": "n5-mlc-570-word",
+      "word": "二十日",
+      "kana": "はつか",
+      "meaning": "二十天，二十天",
+      "type": "名词",
+      "example": "「二十日」を覚えます。",
+      "exampleMeaning": "记住「二十日」这个词。"
+    },
+    {
+      "id": "n5-mlc-571-word",
+      "word": "はな",
+      "kana": "はな",
+      "meaning": "鼻子",
+      "type": "名词",
+      "example": "「はな」を覚えます。",
+      "exampleMeaning": "记住「はな」这个词。"
+    },
+    {
+      "id": "n5-mlc-573-word",
+      "word": "話",
+      "kana": "はなし",
+      "meaning": "故事",
+      "type": "名词",
+      "example": "「話」を覚えます。",
+      "exampleMeaning": "记住「話」这个词。"
+    },
+    {
+      "id": "n5-mlc-574-word",
+      "word": "話します",
+      "kana": "はなします",
+      "meaning": "说话，说话，告诉",
+      "type": "动词",
+      "example": "「話します」を覚えます。",
+      "exampleMeaning": "记住「話します」这个词。"
+    },
+    {
+      "id": "n5-mlc-576-word",
+      "word": "はやい",
+      "kana": "はやい",
+      "meaning": "早期的",
+      "type": "名词",
+      "example": "「はやい」を覚えます。",
+      "exampleMeaning": "记住「はやい」这个词。"
+    },
+    {
+      "id": "n5-mlc-578-word",
+      "word": "はる",
+      "kana": "はる",
+      "meaning": "春天",
+      "type": "名词",
+      "example": "「はる」を覚えます。",
+      "exampleMeaning": "记住「はる」这个词。"
+    },
+    {
+      "id": "n5-mlc-579-word",
+      "word": "はります",
+      "kana": "はります",
+      "meaning": "粘住，放上东西",
+      "type": "动词",
+      "example": "「はります」を覚えます。",
+      "exampleMeaning": "记住「はります」这个词。"
+    },
+    {
+      "id": "n5-mlc-580-word",
+      "word": "はれ",
+      "kana": "はれ",
+      "meaning": "天气晴朗",
+      "type": "名词",
+      "example": "「はれ」を覚えます。",
+      "exampleMeaning": "记住「はれ」这个词。"
+    },
+    {
+      "id": "n5-mlc-581-word",
+      "word": "はれます",
+      "kana": "はれます",
+      "meaning": "清理",
+      "type": "动词",
+      "example": "「はれます」を覚えます。",
+      "exampleMeaning": "记住「はれます」这个词。"
+    },
+    {
+      "id": "n5-mlc-582-word",
+      "word": "ばん",
+      "kana": "ばん",
+      "meaning": "晚上，晚上",
+      "type": "名词",
+      "example": "「ばん」を覚えます。",
+      "exampleMeaning": "记住「ばん」这个词。"
+    },
+    {
+      "id": "n5-mlc-583-word",
+      "word": "パン",
+      "kana": "パン",
+      "meaning": "面包",
+      "type": "名词",
+      "example": "「パン」を覚えます。",
+      "exampleMeaning": "记住「パン」这个词。"
+    },
+    {
+      "id": "n5-mlc-584-word",
+      "word": "ハンカチ",
+      "kana": "ハンカチ",
+      "meaning": "手帕",
+      "type": "名词",
+      "example": "「ハンカチ」を覚えます。",
+      "exampleMeaning": "记住「ハンカチ」这个词。"
+    },
+    {
+      "id": "n5-mlc-585-word",
+      "word": "ばんごう",
+      "kana": "ばんごう",
+      "meaning": "数字",
+      "type": "名词",
+      "example": "「ばんごう」を覚えます。",
+      "exampleMeaning": "记住「ばんごう」这个词。"
+    },
+    {
+      "id": "n5-mlc-586-word",
+      "word": "ばんごはん",
+      "kana": "ばんごはん",
+      "meaning": "晚餐",
+      "type": "名词",
+      "example": "「ばんごはん」を覚えます。",
+      "exampleMeaning": "记住「ばんごはん」这个词。"
+    },
+    {
+      "id": "n5-mlc-587-word",
+      "word": "半分",
+      "kana": "はんぶん",
+      "meaning": "一半",
+      "type": "名词",
+      "example": "「半分」を覚えます。",
+      "exampleMeaning": "记住「半分」这个词。"
+    },
+    {
+      "id": "n5-mlc-588-word",
+      "word": "パンや",
+      "kana": "パンや",
+      "meaning": "面包店",
+      "type": "名词",
+      "example": "「パンや」を覚えます。",
+      "exampleMeaning": "记住「パンや」这个词。"
+    },
+    {
+      "id": "n5-mlc-589-word",
+      "word": "日",
+      "kana": "ひ",
+      "meaning": "天",
+      "type": "名词",
+      "example": "「日」を覚えます。",
+      "exampleMeaning": "记住「日」这个词。"
+    },
+    {
+      "id": "n5-mlc-590-word",
+      "word": "東",
+      "kana": "ひがし",
+      "meaning": "东方",
+      "type": "名词",
+      "example": "「東」を覚えます。",
+      "exampleMeaning": "记住「東」这个词。"
+    },
+    {
+      "id": "n5-mlc-591-word",
+      "word": "ひきます",
+      "kana": "ひきます",
+      "meaning": "拉",
+      "type": "动词",
+      "example": "「ひきます」を覚えます。",
+      "exampleMeaning": "记住「ひきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-593-word",
+      "word": "ひくい",
+      "kana": "ひくい",
+      "meaning": "低的",
+      "type": "名词",
+      "example": "「ひくい」を覚えます。",
+      "exampleMeaning": "记住「ひくい」这个词。"
+    },
+    {
+      "id": "n5-mlc-594-word",
+      "word": "ひこうき",
+      "kana": "ひこうき",
+      "meaning": "飞机",
+      "type": "名词",
+      "example": "「ひこうき」を覚えます。",
+      "exampleMeaning": "记住「ひこうき」这个词。"
+    },
+    {
+      "id": "n5-mlc-597-word",
+      "word": "一つ",
+      "kana": "ひとつ",
+      "meaning": "一",
+      "type": "名词",
+      "example": "「一つ」を覚えます。",
+      "exampleMeaning": "记住「一つ」这个词。"
+    },
+    {
+      "id": "n5-mlc-598-word",
+      "word": "一月",
+      "kana": "ひとつき",
+      "meaning": "一个月=いっかげつ。",
+      "type": "名词",
+      "example": "「一月」を覚えます。",
+      "exampleMeaning": "记住「一月」这个词。"
+    },
+    {
+      "id": "n5-mlc-599-word",
+      "word": "一人",
+      "kana": "ひとり",
+      "meaning": "一个人",
+      "type": "名词",
+      "example": "「一人」を覚えます。",
+      "exampleMeaning": "记住「一人」这个词。"
+    },
+    {
+      "id": "n5-mlc-600-word",
+      "word": "ひま",
+      "kana": "ひま",
+      "meaning": "空闲（时间），不忙，空闲时间",
+      "type": "表达",
+      "example": "「ひま」を覚えます。",
+      "exampleMeaning": "记住「ひま」这个词。"
+    },
+    {
+      "id": "n5-mlc-601-word",
+      "word": "百",
+      "kana": "ひゃく",
+      "meaning": "百",
+      "type": "名词",
+      "example": "「百」を覚えます。",
+      "exampleMeaning": "记住「百」这个词。"
+    },
+    {
+      "id": "n5-mlc-602-word",
+      "word": "びょういん",
+      "kana": "びょういん",
+      "meaning": "医院",
+      "type": "名词",
+      "example": "「びょういん」を覚えます。",
+      "exampleMeaning": "记住「びょういん」这个词。"
+    },
+    {
+      "id": "n5-mlc-603-word",
+      "word": "びょうき",
+      "kana": "びょうき",
+      "meaning": "疾病，疾病",
+      "type": "名词",
+      "example": "「びょうき」を覚えます。",
+      "exampleMeaning": "记住「びょうき」这个词。"
+    },
+    {
+      "id": "n5-mlc-604-word",
+      "word": "ひらがな",
+      "kana": "ひらがな",
+      "meaning": "平假名",
+      "type": "名词",
+      "example": "「ひらがな」を覚えます。",
+      "exampleMeaning": "记住「ひらがな」这个词。"
+    },
+    {
+      "id": "n5-mlc-606-word",
+      "word": "ビル",
+      "kana": "ビル",
+      "meaning": "建筑",
+      "type": "名词",
+      "example": "「ビル」を覚えます。",
+      "exampleMeaning": "记住「ビル」这个词。"
+    },
+    {
+      "id": "n5-mlc-607-word",
+      "word": "昼ごはん",
+      "kana": "ひるごはん",
+      "meaning": "午餐",
+      "type": "名词",
+      "example": "「昼ごはん」を覚えます。",
+      "exampleMeaning": "记住「昼ごはん」这个词。"
+    },
+    {
+      "id": "n5-mlc-609-word",
+      "word": "フィルム",
+      "kana": "フィルム",
+      "meaning": "电影",
+      "type": "名词",
+      "example": "「フィルム」を覚えます。",
+      "exampleMeaning": "记住「フィルム」这个词。"
+    },
+    {
+      "id": "n5-mlc-610-word",
+      "word": "ふうとう",
+      "kana": "ふうとう",
+      "meaning": "信封",
+      "type": "名词",
+      "example": "「ふうとう」を覚えます。",
+      "exampleMeaning": "记住「ふうとう」这个词。"
+    },
+    {
+      "id": "n5-mlc-611-word",
+      "word": "プール",
+      "kana": "プール",
+      "meaning": "游泳池",
+      "type": "名词",
+      "example": "「プール」を覚えます。",
+      "exampleMeaning": "记住「プール」这个词。"
+    },
+    {
+      "id": "n5-mlc-612-word",
+      "word": "フォーク",
+      "kana": "フォーク",
+      "meaning": "叉",
+      "type": "名词",
+      "example": "「フォーク」を覚えます。",
+      "exampleMeaning": "记住「フォーク」这个词。"
+    },
+    {
+      "id": "n5-mlc-613-word",
+      "word": "ふきます",
+      "kana": "ふきます",
+      "meaning": "吹",
+      "type": "动词",
+      "example": "「ふきます」を覚えます。",
+      "exampleMeaning": "记住「ふきます」这个词。"
+    },
+    {
+      "id": "n5-mlc-614-word",
+      "word": "ふく",
+      "kana": "ふく",
+      "meaning": "衣服",
+      "type": "名词",
+      "example": "「ふく」を覚えます。",
+      "exampleMeaning": "记住「ふく」这个词。"
+    },
+    {
+      "id": "n5-mlc-615-word",
+      "word": "二つ",
+      "kana": "ふたつ",
+      "meaning": "二",
+      "type": "名词",
+      "example": "「二つ」を覚えます。",
+      "exampleMeaning": "记住「二つ」这个词。"
+    },
+    {
+      "id": "n5-mlc-616-word",
+      "word": "ぶたにく",
+      "kana": "ぶたにく",
+      "meaning": "猪肉",
+      "type": "名词",
+      "example": "「ぶたにく」を覚えます。",
+      "exampleMeaning": "记住「ぶたにく」这个词。"
+    },
+    {
+      "id": "n5-mlc-617-word",
+      "word": "二人",
+      "kana": "ふたり",
+      "meaning": "两个人",
+      "type": "名词",
+      "example": "「二人」を覚えます。",
+      "exampleMeaning": "记住「二人」这个词。"
+    },
+    {
+      "id": "n5-mlc-618-word",
+      "word": "二日",
+      "kana": "ふつか",
+      "meaning": "每月的第二天，两天",
+      "type": "名词",
+      "example": "「二日」を覚えます。",
+      "exampleMeaning": "记住「二日」这个词。"
+    },
+    {
+      "id": "n5-mlc-619-word",
+      "word": "ふとい",
+      "kana": "ふとい",
+      "meaning": "厚，脂肪",
+      "type": "名词",
+      "example": "「ふとい」を覚えます。",
+      "exampleMeaning": "记住「ふとい」这个词。"
+    },
+    {
+      "id": "n5-mlc-620-word",
+      "word": "ふゆ",
+      "kana": "ふゆ",
+      "meaning": "冬天",
+      "type": "名词",
+      "example": "「ふゆ」を覚えます。",
+      "exampleMeaning": "记住「ふゆ」这个词。"
+    },
+    {
+      "id": "n5-mlc-621-word",
+      "word": "ふります",
+      "kana": "ふります",
+      "meaning": "跌倒，下来",
+      "type": "动词",
+      "example": "「ふります」を覚えます。",
+      "exampleMeaning": "记住「ふります」这个词。"
+    },
+    {
+      "id": "n5-mlc-623-word",
+      "word": "ふろ",
+      "kana": "ふろ",
+      "meaning": "洗澡",
+      "type": "名词",
+      "example": "「ふろ」を覚えます。",
+      "exampleMeaning": "记住「ふろ」这个词。"
+    },
+    {
+      "id": "n5-mlc-624-word",
+      "word": "文",
+      "kana": "ぶん",
+      "meaning": "句子",
+      "type": "名词",
+      "example": "「文」を覚えます。",
+      "exampleMeaning": "记住「文」这个词。"
+    },
+    {
+      "id": "n5-mlc-625-word",
+      "word": "ぶんしょう",
+      "kana": "ぶんしょう",
+      "meaning": "つぎの ぶんしょうを よんで、しつもんに こたえてください。请阅读下列句子并回答",
+      "type": "表达",
+      "example": "「ぶんしょう」を覚えます。",
+      "exampleMeaning": "记住「ぶんしょう」这个词。"
+    },
+    {
+      "id": "n5-mlc-626-word",
+      "word": "ページ",
+      "kana": "ページ",
+      "meaning": "页",
+      "type": "名词",
+      "example": "「ページ」を覚えます。",
+      "exampleMeaning": "记住「ページ」这个词。"
+    },
+    {
+      "id": "n5-mlc-627-word",
+      "word": "へた",
+      "kana": "へた",
+      "meaning": "贫穷的，无技能的",
+      "type": "名词",
+      "example": "「へた」を覚えます。",
+      "exampleMeaning": "记住「へた」这个词。"
+    },
+    {
+      "id": "n5-mlc-628-word",
+      "word": "ベッド",
+      "kana": "ベッド",
+      "meaning": "床",
+      "type": "名词",
+      "example": "「ベッド」を覚えます。",
+      "exampleMeaning": "记住「ベッド」这个词。"
+    },
+    {
+      "id": "n5-mlc-629-word",
+      "word": "へや",
+      "kana": "へや",
+      "meaning": "房间",
+      "type": "名词",
+      "example": "「へや」を覚えます。",
+      "exampleMeaning": "记住「へや」这个词。"
+    },
+    {
+      "id": "n5-mlc-630-word",
+      "word": "へん",
+      "kana": "へん",
+      "meaning": "侧面，部分このへん。 = 靠近这里",
+      "type": "名词",
+      "example": "「へん」を覚えます。",
+      "exampleMeaning": "记住「へん」这个词。"
+    },
+    {
+      "id": "n5-mlc-631-word",
+      "word": "ペン",
+      "kana": "ペン",
+      "meaning": "笔",
+      "type": "名词",
+      "example": "「ペン」を覚えます。",
+      "exampleMeaning": "记住「ペン」这个词。"
+    },
+    {
+      "id": "n5-mlc-632-word",
+      "word": "べんきょうします",
+      "kana": "べんきょうします",
+      "meaning": "学习",
+      "type": "动词",
+      "example": "「べんきょうします」を覚えます。",
+      "exampleMeaning": "记住「べんきょうします」这个词。"
+    },
+    {
+      "id": "n5-mlc-633-word",
+      "word": "べんり",
+      "kana": "べんり",
+      "meaning": "方便",
+      "type": "形容词",
+      "example": "「べんり」を覚えます。",
+      "exampleMeaning": "记住「べんり」这个词。"
     }
   ],
   "N4": [
