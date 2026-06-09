@@ -2616,8 +2616,8 @@ h1 {
 }
 
 .grammar-page {
-  max-width: 1120px;
-  padding-top: 38px;
+  max-width: 920px;
+  padding-top: 34px;
 }
 
 .grammar-hero {
@@ -2638,22 +2638,25 @@ h1 {
 
 .grammar-page-panel {
   border-radius: 22px;
-  padding: 22px;
+  padding: 18px;
+  overflow: hidden;
 }
 
 .grammar-shell {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
+  gap: 14px;
+  min-width: 0;
 }
 
 .grammar-sidebar {
   display: grid;
-  gap: 14px;
+  gap: 12px;
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 18px;
   background: #f8fafc;
-  padding: 16px;
+  padding: 14px;
+  min-width: 0;
 }
 
 .grammar-stats {
@@ -2671,27 +2674,17 @@ h1 {
   font-size: 20px;
 }
 
-.grammar-categories {
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding-bottom: 2px;
-  scrollbar-width: thin;
-}
-
-.grammar-categories button {
-  flex: 0 0 auto;
-  min-height: 36px;
-}
-
 .grammar-detail {
   display: grid;
-  gap: 14px;
+  gap: 12px;
   border: 1px solid #dbeafe;
-  border-radius: 24px;
+  border-radius: 22px;
   background:
     linear-gradient(135deg, rgba(239, 246, 255, 0.92), rgba(255, 255, 255, 0.96) 42%),
     var(--white);
-  padding: 24px;
+  padding: 20px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .grammar-detail-top {
@@ -2699,7 +2692,8 @@ h1 {
 }
 
 .grammar-detail h3 {
-  font-size: clamp(28px, 4.4vw, 44px);
+  font-size: clamp(26px, 4vw, 38px);
+  overflow-wrap: anywhere;
 }
 
 .grammar-focus {
@@ -2712,7 +2706,7 @@ h1 {
 .grammar-focus p {
   margin: 8px 0 0;
   color: #334155;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   line-height: 1.45;
 }
@@ -2735,20 +2729,24 @@ h1 {
 }
 
 .grammar-pattern {
-  border-radius: 18px;
-  padding: 16px 18px;
-  font-size: clamp(20px, 3vw, 30px);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 14px 16px;
+  font-size: clamp(19px, 2.8vw, 26px);
+  overflow-wrap: anywhere;
 }
 
 .grammar-example {
   border-color: transparent;
   background: var(--white);
-  padding: 18px 20px;
+  padding: 16px 18px;
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
 }
 
 .grammar-example b {
-  font-size: clamp(20px, 2.7vw, 28px);
+  font-size: clamp(20px, 2.6vw, 26px);
+  overflow-wrap: anywhere;
 }
 
 .grammar-explain-grid {
@@ -2756,8 +2754,8 @@ h1 {
 }
 
 .grammar-explain-grid article {
-  min-height: 118px;
-  padding: 16px;
+  min-height: auto;
+  padding: 14px;
 }
 
 .grammar-note-strip {
@@ -2795,53 +2793,39 @@ h1 {
   justify-content: center;
   min-height: 46px;
   padding-inline: 14px;
+  white-space: nowrap;
 }
 
-.grammar-list-wrap {
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: #f8fafc;
-  padding: 16px;
+.grammar-select-row {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 10px;
 }
 
-.grammar-list-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 12px;
-}
-
-.grammar-list-head strong {
-  color: #111827;
-  font-size: 15px;
-}
-
-.grammar-list-head span {
+.grammar-select-row label {
+  display: grid;
+  gap: 6px;
   color: var(--muted);
   font-size: 12px;
   font-weight: 900;
 }
 
-.grammar-list {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  padding-bottom: 2px;
-  scrollbar-width: thin;
+.grammar-select-row select {
+  width: 100%;
+  min-width: 0;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+  color: #111827;
+  padding: 0 12px;
+  font-size: 14px;
+  font-weight: 900;
+  outline: 0;
 }
 
-.grammar-list-item {
-  flex: 0 0 220px;
-  min-height: 74px;
-  border-radius: 16px;
-  padding: 12px 14px;
-}
-
-.grammar-list-item strong {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.grammar-select-row select:focus {
+  border-color: #111827;
 }
 
 #grammarFeedback {
@@ -3600,6 +3584,42 @@ h1 {
   .vocab-mistake-grid,
   .test-options {
     grid-template-columns: 1fr;
+  }
+
+  .grammar-page {
+    padding: 28px 14px 56px;
+  }
+
+  .grammar-page-panel {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .grammar-sidebar,
+  .grammar-detail {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .grammar-select-row,
+  .grammar-explain-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grammar-focus {
+    gap: 10px;
+  }
+
+  .grammar-focus span {
+    padding: 7px 10px;
+  }
+
+  .grammar-pattern {
+    padding: 13px 14px;
+  }
+
+  .grammar-actions {
+    grid-template-columns: 1fr 1fr;
   }
 
   .account-tools {

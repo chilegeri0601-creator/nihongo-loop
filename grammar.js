@@ -123,22 +123,16 @@ function currentPoint() {
   return points[Math.min(session.index, Math.max(0, points.length - 1))] || points[0];
 }
 
-function renderCategoryButtons() {
+function renderCategoryOptions() {
   return ["全部", ...session.categories]
-    .map((category) => `<button type="button" class="${session.category === category ? "active" : ""}" data-grammar-category="${escapeHtml(category)}">${escapeHtml(category)}</button>`)
+    .map((category) => `<option value="${escapeHtml(category)}" ${session.category === category ? "selected" : ""}>${escapeHtml(category)}</option>`)
     .join("");
 }
 
-function renderPointList() {
+function renderPointOptions() {
   return filteredPoints()
     .map(
-      (point, index) => `
-        <button type="button" class="grammar-list-item ${index === session.index ? "current" : ""} ${point.completed ? "completed" : ""}" data-grammar-index="${index}">
-          <span>${escapeHtml(point.pattern)}</span>
-          <strong>${escapeHtml(point.title)}</strong>
-          <em>${point.completed ? "已学会" : point.category}</em>
-        </button>
-      `,
+      (point, index) => `<option value="${index}" ${index === session.index ? "selected" : ""}>${point.completed ? "✓ " : ""}${escapeHtml(point.title)}</option>`,
     )
     .join("");
 }
@@ -212,16 +206,18 @@ function draw() {
           <div><strong>${session.categories.length}</strong><span>分类</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
-        <div class="grammar-categories" aria-label="语法分类">${renderCategoryButtons()}</div>
+        <div class="grammar-select-row">
+          <label>
+            分类
+            <select data-grammar-category-select>${renderCategoryOptions()}</select>
+          </label>
+          <label>
+            语法点
+            <select data-grammar-picker>${renderPointOptions()}</select>
+          </label>
+        </div>
       </section>
       ${renderDetail(point)}
-      <section class="grammar-list-wrap" aria-label="当前分类语法点">
-        <div class="grammar-list-head">
-          <strong>${escapeHtml(session.category)} · 快速选择</strong>
-          <span>${visible.total} 个语法点</span>
-        </div>
-        <div class="grammar-list">${renderPointList()}</div>
-      </section>
     </div>
   `;
   bind();
@@ -243,19 +239,15 @@ async function setLevel(level) {
 }
 
 function bind() {
-  document.querySelectorAll("[data-grammar-category]").forEach((button) => {
-    button.addEventListener("click", () => {
-      session.category = button.dataset.grammarCategory;
-      session.index = 0;
-      saveLocalState();
-      draw();
-    });
+  document.querySelector("[data-grammar-category-select]")?.addEventListener("change", (event) => {
+    session.category = event.target.value;
+    session.index = 0;
+    saveLocalState();
+    draw();
   });
-  document.querySelectorAll("[data-grammar-index]").forEach((button) => {
-    button.addEventListener("click", () => {
-      session.index = Number(button.dataset.grammarIndex);
-      draw();
-    });
+  document.querySelector("[data-grammar-picker]")?.addEventListener("change", (event) => {
+    session.index = Number(event.target.value);
+    draw();
   });
   document.querySelector("[data-grammar-prev]")?.addEventListener("click", () => moveGrammar(-1));
   document.querySelector("[data-grammar-next]")?.addEventListener("click", () => moveGrammar(1));
