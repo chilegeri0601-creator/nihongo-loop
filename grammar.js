@@ -143,16 +143,34 @@ function renderPointList() {
     .join("");
 }
 
+function visiblePosition() {
+  const points = filteredPoints();
+  return {
+    total: points.length,
+    current: points.length ? Math.min(session.index + 1, points.length) : 0,
+  };
+}
+
 function renderDetail(point) {
+  const position = visiblePosition();
   return `
     <section class="grammar-detail">
       <div class="grammar-detail-top">
         <span>${escapeHtml(point.level)} · ${escapeHtml(point.category)}</span>
-        <strong>${point.completed ? "已学会" : "学习中"}</strong>
+        <strong>${position.current}/${position.total}</strong>
       </div>
-      <h3>${escapeHtml(point.title)}</h3>
+      <div class="grammar-focus">
+        <div>
+          <h3>${escapeHtml(point.title)}</h3>
+          <p>${escapeHtml(point.meaning)}</p>
+        </div>
+        <span class="${point.completed ? "learned" : ""}">${point.completed ? "已学会" : "学习中"}</span>
+      </div>
       <p class="grammar-pattern">${escapeHtml(point.pattern)}</p>
-      <div class="grammar-meaning">${escapeHtml(point.meaning)}</div>
+      <div class="grammar-example">
+        <b>${escapeHtml(point.example)}</b>
+        <span>${escapeHtml(point.exampleMeaning)}</span>
+      </div>
       <div class="grammar-explain-grid">
         <article>
           <span>什么时候用</span>
@@ -163,25 +181,15 @@ function renderDetail(point) {
           <p>${escapeHtml(point.structure)}</p>
         </article>
       </div>
-      <div class="grammar-example">
-        <b>${escapeHtml(point.example)}</b>
-        <span>${escapeHtml(point.exampleMeaning)}</span>
+      <div class="grammar-note-strip">
+        <span>${escapeHtml(point.beginnerTip)}</span>
+        <small>${escapeHtml(point.commonMistake)}</small>
       </div>
-      <div class="grammar-notes">
-        <article>
-          <span>初学者提示</span>
-          <p>${escapeHtml(point.beginnerTip)}</p>
-        </article>
-        <article>
-          <span>易错点</span>
-          <p>${escapeHtml(point.commonMistake)}</p>
-        </article>
-      </div>
-      <div class="study-link-panel grammar-study-link">
-        <span>学习模式</span>
-        <h4>这里只讲清楚语法点</h4>
-        <p>掌握用法、接续和例句后，再进入独立测验页答题。</p>
-        <a class="btn btn-dark" href="test.html?type=grammar&level=${encodeURIComponent(point.level)}">进入 ${escapeHtml(point.level)} 语法测验</a>
+      <div class="grammar-actions">
+        <button class="btn btn-light" type="button" data-grammar-prev>上一条</button>
+        <button class="btn btn-red" type="button" data-grammar-complete>${point.completed ? "已完成" : "标记学会"}</button>
+        <button class="btn btn-dark" type="button" data-grammar-next>下一条</button>
+        <a class="btn btn-light" href="test.html?type=grammar&level=${encodeURIComponent(point.level)}">去测验</a>
       </div>
     </section>
   `;
@@ -190,22 +198,30 @@ function renderDetail(point) {
 function draw() {
   const point = currentPoint();
   const percent = session.stats.total ? Math.round((session.stats.completed / session.stats.total) * 100) : 0;
+  const visible = visiblePosition();
   if (!point) {
     document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>暂无语法点</strong><span>请切换其他等级。</span></div>`;
     return;
   }
   document.querySelector("#grammarPageContent").innerHTML = `
     <div class="grammar-shell" id="grammarMap">
-      <aside class="grammar-sidebar">
+      <section class="grammar-sidebar">
         <div class="grammar-stats">
-          <div><strong>${session.stats.completed}/${session.stats.total}</strong><span>已学会</span></div>
+          <div><strong>${session.stats.completed}/${session.stats.total}</strong><span>全等级进度</span></div>
+          <div><strong>${visible.current}/${visible.total}</strong><span>当前分类</span></div>
           <div><strong>${session.categories.length}</strong><span>分类</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         <div class="grammar-categories" aria-label="语法分类">${renderCategoryButtons()}</div>
-        <div class="grammar-list">${renderPointList()}</div>
-      </aside>
+      </section>
       ${renderDetail(point)}
+      <section class="grammar-list-wrap" aria-label="当前分类语法点">
+        <div class="grammar-list-head">
+          <strong>${escapeHtml(session.category)} · 快速选择</strong>
+          <span>${visible.total} 个语法点</span>
+        </div>
+        <div class="grammar-list">${renderPointList()}</div>
+      </section>
     </div>
   `;
   bind();
@@ -241,6 +257,42 @@ function bind() {
       draw();
     });
   });
+  document.querySelector("[data-grammar-prev]")?.addEventListener("click", () => moveGrammar(-1));
+  document.querySelector("[data-grammar-next]")?.addEventListener("click", () => moveGrammar(1));
+  document.querySelector("[data-grammar-complete]")?.addEventListener("click", () => markCurrentComplete());
+}
+
+function moveGrammar(step) {
+  const points = filteredPoints();
+  if (!points.length) return;
+  session.index = (session.index + step + points.length) % points.length;
+  draw();
+}
+
+async function markCurrentComplete() {
+  const point = currentPoint();
+  if (!point) return;
+  if (!point.completed) {
+    point.completed = true;
+    session.stats.completed += 1;
+    session.stats.remaining = Math.max(0, session.stats.total - session.stats.completed);
+    savedState.grammar = savedState.grammar || {};
+    const record = savedState.grammar[point.id] || { attempts: 0, correct: 0, completed: false };
+    record.attempts += 1;
+    record.correct += 1;
+    record.completed = true;
+    record.lastAnsweredAt = new Date().toISOString();
+    savedState.grammar[point.id] = record;
+    saveLocalState();
+    try {
+      await apiRequest("/api/grammar/answer", { method: "POST", body: JSON.stringify({ userId: currentUserId, grammarId: point.id, correct: true }) });
+      setServiceStatus(true);
+    } catch {
+      setServiceStatus(false);
+    }
+  }
+  showToast("已标记学会，继续下一条。");
+  moveGrammar(1);
 }
 
 document.querySelectorAll("[data-grammar-level]").forEach((button) => {

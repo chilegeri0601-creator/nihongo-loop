@@ -102,6 +102,8 @@ async function main() {
   const grammarScriptText = await grammarScript.text();
   assert.match(grammarScriptText, /data-grammar-level/);
   assert.match(grammarScriptText, /data-grammar-category/);
+  assert.match(grammarScriptText, /data-grammar-complete/);
+  assert.match(grammarScriptText, /data-grammar-next/);
   assert.doesNotMatch(grammarScriptText, /data-grammar-answer/);
 
   for (const [page, title] of [
