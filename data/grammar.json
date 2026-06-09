@@ -7,17 +7,21 @@
       "title": "は：提示主题",
       "pattern": "A は B です",
       "meaning": "A 是 B / 关于 A",
-      "whenToUse": "想介绍一个人、物或话题时使用。",
-      "structure": "名词 + は + 说明内容",
-      "example": "わたしは学生です。",
+      "whenToUse": "介绍人物、物品、身份或话题。",
+      "structure": "名词 + は + 说明",
+      "example": "私は学生です。",
       "exampleMeaning": "我是学生。",
-      "beginnerTip": "は 在这里读作 wa，不读 ha。先把它理解成“接下来我要说 A 的事情”。",
-      "commonMistake": "不要把 は 和 が 完全等同。は 更像提出话题，が 更像指出主语。",
+      "beginnerTip": "は 在这里读 wa。",
+      "commonMistake": "不要把 は 和 が 完全等同。",
       "miniQuestion": {
         "question": "「私は学生です」里的 は 表示什么？",
-        "options": ["主题", "过去", "否定"],
+        "options": [
+          "主题",
+          "过去",
+          "否定"
+        ],
         "correct": "主题",
-        "explanation": "这里的 は 用来提示“我”这个话题。"
+        "explanation": "は 用来提示“我”这个话题。"
       }
     },
     {
@@ -27,15 +31,19 @@
       "title": "が：指出主语",
       "pattern": "A が あります / います",
       "meaning": "有 A / A 存在",
-      "whenToUse": "想明确指出“谁/什么”存在、发生或具备某个性质时使用。",
+      "whenToUse": "指出存在、发生或强调主语。",
       "structure": "名词 + が + 动词/形容词",
-      "example": "つくえの上に本があります。",
+      "example": "机の上に本があります。",
       "exampleMeaning": "桌子上有书。",
-      "beginnerTip": "先记住固定搭配：物 + が あります，人或动物 + が います。",
-      "commonMistake": "存在句里经常用 が，不要写成 本はあります。",
+      "beginnerTip": "物用 あります，人和动物用 います。",
+      "commonMistake": "存在句里常用 が。",
       "miniQuestion": {
         "question": "「猫がいます」表示什么？",
-        "options": ["有猫", "猫很贵", "猫过去了"],
+        "options": [
+          "有猫",
+          "猫很贵",
+          "猫过去了"
+        ],
         "correct": "有猫",
         "explanation": "います 用于人或动物的存在。"
       }
@@ -46,78 +54,1414 @@
       "category": "助词",
       "title": "を：动作对象",
       "pattern": "名词 を 动词",
-      "meaning": "做某个动作的对象",
-      "whenToUse": "吃、喝、看、读、写等动作作用在某个对象上时使用。",
+      "meaning": "动作作用的对象",
+      "whenToUse": "吃、喝、看、读、写等动作有对象时。",
       "structure": "对象名词 + を + 他动词",
-      "example": "日本語の本を読みます。",
-      "exampleMeaning": "读日语书。",
-      "beginnerTip": "を 在现代日语中通常读作 o。可以先理解成“把动作放到这个东西上”。",
-      "commonMistake": "不是所有动词前都用 を，例如 行く 前常用 へ 或 に。",
+      "example": "水を飲みます。",
+      "exampleMeaning": "喝水。",
+      "beginnerTip": "を 现代读音接近 o。",
+      "commonMistake": "不是所有动词前都用 を。",
       "miniQuestion": {
-        "question": "「水を飲みます」里的 を 标出什么？",
-        "options": ["动作对象", "时间", "地点"],
+        "question": "「本を読みます」里的 を 标出什么？",
+        "options": [
+          "动作对象",
+          "时间",
+          "地点"
+        ],
         "correct": "动作对象",
-        "explanation": "喝的对象是水，所以用 を。"
+        "explanation": "读的对象是书。"
+      }
+    },
+    {
+      "id": "n5-ni-time",
+      "level": "N5",
+      "category": "助词",
+      "title": "に：时间点",
+      "pattern": "时间 に 动词",
+      "meaning": "在某个具体时间做某事",
+      "whenToUse": "几点、星期几、日期等具体时间。",
+      "structure": "七時に / 月曜日に",
+      "example": "七時に起きます。",
+      "exampleMeaning": "七点起床。",
+      "beginnerTip": "具体时间常用 に。",
+      "commonMistake": "毎日、明日 这类词通常不加 に。",
+      "miniQuestion": {
+        "question": "「七時に」里的 に 表示什么？",
+        "options": [
+          "时间点",
+          "动作对象",
+          "原因"
+        ],
+        "correct": "时间点",
+        "explanation": "に 标记具体时间点。"
+      }
+    },
+    {
+      "id": "n5-ni-place",
+      "level": "N5",
+      "category": "助词",
+      "title": "に：存在地点",
+      "pattern": "地点 に あります / います",
+      "meaning": "在某处存在",
+      "whenToUse": "说明人、动物、物品在哪里。",
+      "structure": "場所 + に + あります/います",
+      "example": "部屋に猫がいます。",
+      "exampleMeaning": "房间里有猫。",
+      "beginnerTip": "存在地点用 に。",
+      "commonMistake": "动作发生地点通常用 で。",
+      "miniQuestion": {
+        "question": "存在地点一般用哪个助词？",
+        "options": [
+          "に",
+          "を",
+          "から"
+        ],
+        "correct": "に",
+        "explanation": "に 表示存在的位置。"
+      }
+    },
+    {
+      "id": "n5-de-place",
+      "level": "N5",
+      "category": "助词",
+      "title": "で：动作地点",
+      "pattern": "地点 で 动词",
+      "meaning": "在某地做动作",
+      "whenToUse": "学习、吃饭、买东西等动作发生的地方。",
+      "structure": "学校で勉強します",
+      "example": "図書館で本を読みます。",
+      "exampleMeaning": "在图书馆读书。",
+      "beginnerTip": "动作发生地点用 で。",
+      "commonMistake": "存在地点不要和 に 混淆。",
+      "miniQuestion": {
+        "question": "「学校で勉強します」里的 で 表示什么？",
+        "options": [
+          "动作地点",
+          "所有者",
+          "过去"
+        ],
+        "correct": "动作地点",
+        "explanation": "学习这个动作发生在学校。"
+      }
+    },
+    {
+      "id": "n5-e",
+      "level": "N5",
+      "category": "助词",
+      "title": "へ：方向",
+      "pattern": "地点 へ 行きます",
+      "meaning": "朝某方向去",
+      "whenToUse": "表示移动方向，常与 行く、来る、帰る 搭配。",
+      "structure": "場所 + へ + 移动动词",
+      "example": "日本へ行きます。",
+      "exampleMeaning": "去日本。",
+      "beginnerTip": "へ 在助词里读 e。",
+      "commonMistake": "へ 强调方向，に 更强调到达点。",
+      "miniQuestion": {
+        "question": "助词 へ 在这里读作？",
+        "options": [
+          "e",
+          "he",
+          "wa"
+        ],
+        "correct": "e",
+        "explanation": "方向助词 へ 读 e。"
+      }
+    },
+    {
+      "id": "n5-to",
+      "level": "N5",
+      "category": "助词",
+      "title": "と：和、引用",
+      "pattern": "A と B / ～と言います",
+      "meaning": "和；说……",
+      "whenToUse": "连接名词，或引用说话内容。",
+      "structure": "友達と / 「はい」と言います",
+      "example": "友達と映画を見ます。",
+      "exampleMeaning": "和朋友看电影。",
+      "beginnerTip": "と 可以表示“和”。",
+      "commonMistake": "不要把 と 和 も 混成一个意思。",
+      "miniQuestion": {
+        "question": "「友達と」表示什么？",
+        "options": [
+          "和朋友",
+          "从朋友",
+          "给朋友"
+        ],
+        "correct": "和朋友",
+        "explanation": "と 连接一起行动的人。"
+      }
+    },
+    {
+      "id": "n5-mo",
+      "level": "N5",
+      "category": "助词",
+      "title": "も：也",
+      "pattern": "A も",
+      "meaning": "A 也……",
+      "whenToUse": "表示同类追加。",
+      "structure": "名词 + も",
+      "example": "私も行きます。",
+      "exampleMeaning": "我也去。",
+      "beginnerTip": "も 会替代 は/が/を 的位置。",
+      "commonMistake": "不要说 私はも。",
+      "miniQuestion": {
+        "question": "「私も」是什么意思？",
+        "options": [
+          "我也",
+          "只有我",
+          "从我"
+        ],
+        "correct": "我也",
+        "explanation": "も 表示“也”。"
+      }
+    },
+    {
+      "id": "n5-no",
+      "level": "N5",
+      "category": "助词",
+      "title": "の：所属和修饰",
+      "pattern": "A の B",
+      "meaning": "A 的 B",
+      "whenToUse": "表示所属、内容、类别。",
+      "structure": "名词 + の + 名词",
+      "example": "日本語の本です。",
+      "exampleMeaning": "是日语书。",
+      "beginnerTip": "の 是 N5 最常见连接词之一。",
+      "commonMistake": "两个名词之间不要直接堆在一起。",
+      "miniQuestion": {
+        "question": "「日本語の本」是什么意思？",
+        "options": [
+          "日语书",
+          "日语在读",
+          "去日本"
+        ],
+        "correct": "日语书",
+        "explanation": "の 连接两个名词。"
+      }
+    },
+    {
+      "id": "n5-ka",
+      "level": "N5",
+      "category": "助词",
+      "title": "か：疑问",
+      "pattern": "句子 + か",
+      "meaning": "……吗？",
+      "whenToUse": "把陈述句变成疑问句。",
+      "structure": "です/ます + か",
+      "example": "学生ですか。",
+      "exampleMeaning": "是学生吗？",
+      "beginnerTip": "礼貌问句句尾加 か。",
+      "commonMistake": "句尾有 か 时通常不用中文式问号语气硬读。",
+      "miniQuestion": {
+        "question": "疑问句常在句尾加什么？",
+        "options": [
+          "か",
+          "を",
+          "で"
+        ],
+        "correct": "か",
+        "explanation": "か 表示疑问。"
+      }
+    },
+    {
+      "id": "n5-ne-yo",
+      "level": "N5",
+      "category": "助词",
+      "title": "ね / よ：句尾语气",
+      "pattern": "ですね / ですよ",
+      "meaning": "确认、提醒、强调",
+      "whenToUse": "ね 求共鸣，よ 提醒对方新信息。",
+      "structure": "句子 + ね / よ",
+      "example": "いい天気ですね。",
+      "exampleMeaning": "天气真好啊。",
+      "beginnerTip": "ね 像“对吧”，よ 像“哦”。",
+      "commonMistake": "不要所有句子都加 よ，会显得生硬。",
+      "miniQuestion": {
+        "question": "ね 更接近哪种语气？",
+        "options": [
+          "对吧",
+          "命令",
+          "否定"
+        ],
+        "correct": "对吧",
+        "explanation": "ね 常用于确认或共鸣。"
+      }
+    },
+    {
+      "id": "n5-desu",
+      "level": "N5",
+      "category": "判断句",
+      "title": "です：礼貌判断",
+      "pattern": "名词/な形容词 + です",
+      "meaning": "是…… / 很……",
+      "whenToUse": "礼貌地说明身份、状态、性质。",
+      "structure": "学生です / 静かです",
+      "example": "ここは学校です。",
+      "exampleMeaning": "这里是学校。",
+      "beginnerTip": "です 是礼貌句的基础。",
+      "commonMistake": "い形容词现在肯定不说 高いですか? 可以，但结构不是 高いだ。",
+      "miniQuestion": {
+        "question": "です 是什么语气？",
+        "options": [
+          "礼貌",
+          "命令",
+          "禁止"
+        ],
+        "correct": "礼貌",
+        "explanation": "です 让句子变礼貌。"
+      }
+    },
+    {
+      "id": "n5-dewa-nai",
+      "level": "N5",
+      "category": "判断句",
+      "title": "ではありません：否定",
+      "pattern": "名词/な形容词 + ではありません",
+      "meaning": "不是……",
+      "whenToUse": "礼貌否定名词或な形容词。",
+      "structure": "学生ではありません",
+      "example": "私は先生ではありません。",
+      "exampleMeaning": "我不是老师。",
+      "beginnerTip": "口语里也常听到 じゃありません。",
+      "commonMistake": "不要用在动词后面。",
+      "miniQuestion": {
+        "question": "「学生ではありません」是什么意思？",
+        "options": [
+          "不是学生",
+          "是学生",
+          "想当学生"
+        ],
+        "correct": "不是学生",
+        "explanation": "ではありません 表示否定。"
+      }
+    },
+    {
+      "id": "n5-deshita",
+      "level": "N5",
+      "category": "判断句",
+      "title": "でした：过去",
+      "pattern": "名词/な形容词 + でした",
+      "meaning": "过去是……",
+      "whenToUse": "说明过去的身份或状态。",
+      "structure": "昨日は休みでした",
+      "example": "昨日は雨でした。",
+      "exampleMeaning": "昨天是雨天。",
+      "beginnerTip": "でした 是 です 的过去式。",
+      "commonMistake": "否定过去要用 ではありませんでした。",
+      "miniQuestion": {
+        "question": "でした 表示什么？",
+        "options": [
+          "过去",
+          "现在",
+          "命令"
+        ],
+        "correct": "过去",
+        "explanation": "でした 是礼貌过去。"
+      }
+    },
+    {
+      "id": "n5-aru-iru",
+      "level": "N5",
+      "category": "存在句",
+      "title": "あります / います：存在",
+      "pattern": "物 があります / 人がいます",
+      "meaning": "有、在",
+      "whenToUse": "描述物品、人、动物的存在。",
+      "structure": "物 + あります；人/动物 + います",
+      "example": "公園に子どもがいます。",
+      "exampleMeaning": "公园里有孩子。",
+      "beginnerTip": "先分清有生命和无生命。",
+      "commonMistake": "猫用 あります 是常见错误。",
+      "miniQuestion": {
+        "question": "猫的存在用哪个？",
+        "options": [
+          "います",
+          "あります",
+          "です"
+        ],
+        "correct": "います",
+        "explanation": "猫是动物，用 います。"
       }
     },
     {
       "id": "n5-masu",
       "level": "N5",
-      "category": "动词",
-      "title": "ます形：礼貌表达",
+      "category": "动词形式",
+      "title": "ます形：礼貌现在/将来",
       "pattern": "動詞ます形",
-      "meaning": "礼貌地描述现在或将来的动作",
-      "whenToUse": "和老师、陌生人、普通场合说话时使用。",
-      "structure": "行きます / 食べます / 見ます",
+      "meaning": "礼貌地说现在或将来动作",
+      "whenToUse": "日常礼貌表达。",
+      "structure": "行きます / 食べます",
       "example": "明日、学校へ行きます。",
       "exampleMeaning": "明天去学校。",
-      "beginnerTip": "ます形可以先当作“礼貌版动词”。它不一定只表示现在，也可以表示将来。",
-      "commonMistake": "不要把 明日 行きます 翻译成“明天正在去”，这里是将来动作。",
+      "beginnerTip": "ます 可表示现在习惯或将来。",
+      "commonMistake": "不要把 明日行きます 译成“明天正在去”。",
       "miniQuestion": {
-        "question": "「行きます」通常是什么语气？",
-        "options": ["礼貌", "命令", "否定"],
+        "question": "行きます 通常是什么语气？",
+        "options": [
+          "礼貌",
+          "禁止",
+          "过去"
+        ],
         "correct": "礼貌",
-        "explanation": "ます 是礼貌表达的核心标志。"
+        "explanation": "ます 是礼貌表达。"
+      }
+    },
+    {
+      "id": "n5-masen",
+      "level": "N5",
+      "category": "动词形式",
+      "title": "ません：礼貌否定",
+      "pattern": "動詞ます形語幹 + ません",
+      "meaning": "不做……",
+      "whenToUse": "礼貌地否定动作。",
+      "structure": "行きません / 食べません",
+      "example": "今日は行きません。",
+      "exampleMeaning": "今天不去。",
+      "beginnerTip": "ません 是 ます 的否定。",
+      "commonMistake": "过去否定是 ませんでした。",
+      "miniQuestion": {
+        "question": "「飲みません」是什么意思？",
+        "options": [
+          "不喝",
+          "喝了",
+          "想喝"
+        ],
+        "correct": "不喝",
+        "explanation": "ません 表示否定。"
+      }
+    },
+    {
+      "id": "n5-mashita",
+      "level": "N5",
+      "category": "动词形式",
+      "title": "ました：礼貌过去",
+      "pattern": "動詞ます形語幹 + ました",
+      "meaning": "做了……",
+      "whenToUse": "礼貌地说明过去动作。",
+      "structure": "行きました / 食べました",
+      "example": "昨日、映画を見ました。",
+      "exampleMeaning": "昨天看了电影。",
+      "beginnerTip": "ました 是过去肯定。",
+      "commonMistake": "过去否定不要说 ましたない。",
+      "miniQuestion": {
+        "question": "ました 表示什么？",
+        "options": [
+          "过去肯定",
+          "现在否定",
+          "可能"
+        ],
+        "correct": "过去肯定",
+        "explanation": "ました 是礼貌过去。"
+      }
+    },
+    {
+      "id": "n5-masendeshita",
+      "level": "N5",
+      "category": "动词形式",
+      "title": "ませんでした：过去否定",
+      "pattern": "動詞ます形語幹 + ませんでした",
+      "meaning": "没有做……",
+      "whenToUse": "礼貌地否定过去动作。",
+      "structure": "行きませんでした",
+      "example": "昨日は勉強しませんでした。",
+      "exampleMeaning": "昨天没有学习。",
+      "beginnerTip": "把 ません 和 でした 组合成过去否定。",
+      "commonMistake": "不要说 しませんでしたでした。",
+      "miniQuestion": {
+        "question": "「食べませんでした」是什么意思？",
+        "options": [
+          "没有吃",
+          "不吃",
+          "正在吃"
+        ],
+        "correct": "没有吃",
+        "explanation": "ませんでした 是过去否定。"
       }
     },
     {
       "id": "n5-te",
       "level": "N5",
-      "category": "动词",
+      "category": "て形",
       "title": "て形：连接动作",
-      "pattern": "動詞て形 + ください / います",
-      "meaning": "连接动作、请求、表示正在进行",
-      "whenToUse": "想说“请做某事”或“正在做某事”时常用。",
-      "structure": "読んでください / 食べています",
-      "example": "この文を読んでください。",
-      "exampleMeaning": "请读这个句子。",
-      "beginnerTip": "て形很重要，但变化多。初学时先按动词分组慢慢记，不要一口气硬背完。",
-      "commonMistake": "てください 是请求，不是普通现在时。",
+      "pattern": "動詞て形",
+      "meaning": "连接动作、请求、状态",
+      "whenToUse": "多个基础句型的入口。",
+      "structure": "読んで / 食べて / 行って",
+      "example": "朝ご飯を食べて、学校へ行きます。",
+      "exampleMeaning": "吃早饭后去学校。",
+      "beginnerTip": "て形非常重要，慢慢按动词组练。",
+      "commonMistake": "て形不是单独的时态。",
       "miniQuestion": {
-        "question": "「読んでください」是什么意思？",
-        "options": ["请读", "已经读完", "不能读"],
-        "correct": "请读",
-        "explanation": "て形 + ください 表示请求。"
+        "question": "て形常用于什么？",
+        "options": [
+          "连接动作",
+          "只表示过去",
+          "只表示否定"
+        ],
+        "correct": "连接动作",
+        "explanation": "て形可以连接句子。"
       }
     },
     {
-      "id": "n5-adj",
+      "id": "n5-te-kudasai",
+      "level": "N5",
+      "category": "て形",
+      "title": "てください：请……",
+      "pattern": "動詞て形 + ください",
+      "meaning": "请做某事",
+      "whenToUse": "礼貌请求别人做动作。",
+      "structure": "見てください",
+      "example": "名前を書いてください。",
+      "exampleMeaning": "请写名字。",
+      "beginnerTip": "适合课堂、服务场景。",
+      "commonMistake": "对上级可更委婉，但 N5 先掌握它。",
+      "miniQuestion": {
+        "question": "てください 表示什么？",
+        "options": [
+          "请求",
+          "过去",
+          "比较"
+        ],
+        "correct": "请求",
+        "explanation": "请别人做某事。"
+      }
+    },
+    {
+      "id": "n5-te-imasu",
+      "level": "N5",
+      "category": "て形",
+      "title": "ています：正在/状态",
+      "pattern": "動詞て形 + います",
+      "meaning": "正在做；结果状态",
+      "whenToUse": "描述正在进行或持续状态。",
+      "structure": "読んでいます / 住んでいます",
+      "example": "今、本を読んでいます。",
+      "exampleMeaning": "现在正在读书。",
+      "beginnerTip": "住んでいます 表示“住在”。",
+      "commonMistake": "不是所有 ています 都是正在。",
+      "miniQuestion": {
+        "question": "「勉強しています」是什么意思？",
+        "options": [
+          "正在学习",
+          "学完了",
+          "不学习"
+        ],
+        "correct": "正在学习",
+        "explanation": "ています 可表示正在进行。"
+      }
+    },
+    {
+      "id": "n5-te-mo-ii",
+      "level": "N5",
+      "category": "て形",
+      "title": "てもいいです：可以……",
+      "pattern": "動詞て形 + もいいです",
+      "meaning": "可以做某事",
+      "whenToUse": "询问或说明许可。",
+      "structure": "入ってもいいです",
+      "example": "写真を撮ってもいいですか。",
+      "exampleMeaning": "可以拍照吗？",
+      "beginnerTip": "问许可时常加 か。",
+      "commonMistake": "不要和 てはいけません 混淆。",
+      "miniQuestion": {
+        "question": "てもいいです 表示什么？",
+        "options": [
+          "允许",
+          "禁止",
+          "必须"
+        ],
+        "correct": "允许",
+        "explanation": "もいい 表示可以。"
+      }
+    },
+    {
+      "id": "n5-te-wa-ikenai",
+      "level": "N5",
+      "category": "て形",
+      "title": "てはいけません：不可以……",
+      "pattern": "動詞て形 + はいけません",
+      "meaning": "禁止做某事",
+      "whenToUse": "说明规则、禁止事项。",
+      "structure": "入ってはいけません",
+      "example": "ここでタバコを吸ってはいけません。",
+      "exampleMeaning": "这里不可以吸烟。",
+      "beginnerTip": "常用于规则。",
+      "commonMistake": "语气比较直接，不适合随便对上级命令。",
+      "miniQuestion": {
+        "question": "てはいけません 表示什么？",
+        "options": [
+          "禁止",
+          "愿望",
+          "过去"
+        ],
+        "correct": "禁止",
+        "explanation": "表示不可以做。"
+      }
+    },
+    {
+      "id": "n5-ta",
+      "level": "N5",
+      "category": "た形",
+      "title": "た形：过去普通形",
+      "pattern": "動詞た形",
+      "meaning": "做了……",
+      "whenToUse": "普通体过去，很多句型的基础。",
+      "structure": "行った / 食べた",
+      "example": "昨日、友達に会った。",
+      "exampleMeaning": "昨天见了朋友。",
+      "beginnerTip": "た形和て形变化很像。",
+      "commonMistake": "礼貌过去是 ました。",
+      "miniQuestion": {
+        "question": "た形表示什么？",
+        "options": [
+          "过去",
+          "未来",
+          "可能"
+        ],
+        "correct": "过去",
+        "explanation": "た形是普通体过去。"
+      }
+    },
+    {
+      "id": "n5-ta-koto-ga-aru",
+      "level": "N5",
+      "category": "た形",
+      "title": "たことがあります：有过经验",
+      "pattern": "動詞た形 + ことがあります",
+      "meaning": "曾经做过",
+      "whenToUse": "表达经历。",
+      "structure": "行ったことがあります",
+      "example": "日本へ行ったことがあります。",
+      "exampleMeaning": "去过日本。",
+      "beginnerTip": "强调经验，不强调具体时间。",
+      "commonMistake": "昨天做了某事不用这个句型。",
+      "miniQuestion": {
+        "question": "ことがあります 表示什么？",
+        "options": [
+          "经验",
+          "命令",
+          "正在"
+        ],
+        "correct": "经验",
+        "explanation": "表示曾经有过。"
+      }
+    },
+    {
+      "id": "n5-ta-houga-ii",
+      "level": "N5",
+      "category": "た形",
+      "title": "たほうがいい：最好……",
+      "pattern": "動詞た形 + ほうがいい",
+      "meaning": "最好做某事",
+      "whenToUse": "给建议。",
+      "structure": "早く寝たほうがいいです",
+      "example": "病院へ行ったほうがいいです。",
+      "exampleMeaning": "最好去医院。",
+      "beginnerTip": "常用于建议。",
+      "commonMistake": "否定建议用 ないほうがいい。",
+      "miniQuestion": {
+        "question": "たほうがいい 是什么？",
+        "options": [
+          "建议",
+          "禁止",
+          "引用"
+        ],
+        "correct": "建议",
+        "explanation": "表示最好做。"
+      }
+    },
+    {
+      "id": "n5-nai",
+      "level": "N5",
+      "category": "ない形",
+      "title": "ない形：普通否定",
+      "pattern": "動詞ない形",
+      "meaning": "不做……",
+      "whenToUse": "普通体否定和很多句型基础。",
+      "structure": "行かない / 食べない",
+      "example": "今日はテレビを見ない。",
+      "exampleMeaning": "今天不看电视。",
+      "beginnerTip": "五段动词变化要特别练。",
+      "commonMistake": "ある 的否定是 ない。",
+      "miniQuestion": {
+        "question": "ない形表示什么？",
+        "options": [
+          "否定",
+          "过去",
+          "许可"
+        ],
+        "correct": "否定",
+        "explanation": "ない 是普通否定。"
+      }
+    },
+    {
+      "id": "n5-nai-de-kudasai",
+      "level": "N5",
+      "category": "ない形",
+      "title": "ないでください：请不要……",
+      "pattern": "動詞ない形 + でください",
+      "meaning": "请不要做某事",
+      "whenToUse": "礼貌请求别人不要做。",
+      "structure": "忘れないでください",
+      "example": "ここに入らないでください。",
+      "exampleMeaning": "请不要进这里。",
+      "beginnerTip": "ないで 是固定连接。",
+      "commonMistake": "不要说 なくてください。",
+      "miniQuestion": {
+        "question": "ないでください 表示什么？",
+        "options": [
+          "请不要",
+          "可以",
+          "曾经"
+        ],
+        "correct": "请不要",
+        "explanation": "请求对方不要做。"
+      }
+    },
+    {
+      "id": "n5-nakereba-naranai",
+      "level": "N5",
+      "category": "ない形",
+      "title": "なければなりません：必须……",
+      "pattern": "動詞ない形去い + ければなりません",
+      "meaning": "必须做",
+      "whenToUse": "表达义务。",
+      "structure": "行かなければなりません",
+      "example": "宿題をしなければなりません。",
+      "exampleMeaning": "必须做作业。",
+      "beginnerTip": "意思上是“不做不行”。",
+      "commonMistake": "口语也常说 なきゃ。",
+      "miniQuestion": {
+        "question": "なければなりません 表示什么？",
+        "options": [
+          "必须",
+          "禁止",
+          "经验"
+        ],
+        "correct": "必须",
+        "explanation": "表示义务。"
+      }
+    },
+    {
+      "id": "n5-nakutemo-ii",
+      "level": "N5",
+      "category": "ない形",
+      "title": "なくてもいいです：不做也可以",
+      "pattern": "動詞ない形去い + くてもいいです",
+      "meaning": "不必……",
+      "whenToUse": "说明没有义务。",
+      "structure": "行かなくてもいいです",
+      "example": "明日は来なくてもいいです。",
+      "exampleMeaning": "明天不来也可以。",
+      "beginnerTip": "和 なければなりません 正好相反。",
+      "commonMistake": "不要漏掉 も。",
+      "miniQuestion": {
+        "question": "なくてもいい 表示什么？",
+        "options": [
+          "不必",
+          "必须",
+          "禁止"
+        ],
+        "correct": "不必",
+        "explanation": "表示不做也可以。"
+      }
+    },
+    {
+      "id": "n5-dictionary",
+      "level": "N5",
+      "category": "普通形",
+      "title": "辞书形：原形",
+      "pattern": "動詞辞書形",
+      "meaning": "动词基本形",
+      "whenToUse": "查词典、接名词化和能力表达。",
+      "structure": "行く / 食べる / する",
+      "example": "日本語を話すことができます。",
+      "exampleMeaning": "会说日语。",
+      "beginnerTip": "辞书形不是礼貌体。",
+      "commonMistake": "和ます形不要混着接。",
+      "miniQuestion": {
+        "question": "辞书形是动词的什么？",
+        "options": [
+          "基本形",
+          "过去形",
+          "否定形"
+        ],
+        "correct": "基本形",
+        "explanation": "辞书形是查词典的形式。"
+      }
+    },
+    {
+      "id": "n5-koto",
+      "level": "N5",
+      "category": "普通形",
+      "title": "こと：把动作名词化",
+      "pattern": "動詞辞書形 + こと",
+      "meaning": "做某事这件事",
+      "whenToUse": "把动作当名词使用。",
+      "structure": "泳ぐこと / 読むこと",
+      "example": "歌うことが好きです。",
+      "exampleMeaning": "我喜欢唱歌。",
+      "beginnerTip": "こと 像“……这件事”。",
+      "commonMistake": "不要和 もの 混淆。",
+      "miniQuestion": {
+        "question": "読むこと 是什么？",
+        "options": [
+          "读书这件事",
+          "读过了",
+          "不读"
+        ],
+        "correct": "读书这件事",
+        "explanation": "こと 把动作名词化。"
+      }
+    },
+    {
+      "id": "n5-koto-ga-dekiru",
+      "level": "N5",
+      "category": "普通形",
+      "title": "ことができます：能够……",
+      "pattern": "動詞辞書形 + ことができます",
+      "meaning": "会、能够",
+      "whenToUse": "表达能力或可能。",
+      "structure": "泳ぐことができます",
+      "example": "漢字を読むことができます。",
+      "exampleMeaning": "会读汉字。",
+      "beginnerTip": "N5 先用这个表达能力。",
+      "commonMistake": "不要把できます直接接ます形。",
+      "miniQuestion": {
+        "question": "ことができます 表示什么？",
+        "options": [
+          "能够",
+          "必须",
+          "禁止"
+        ],
+        "correct": "能够",
+        "explanation": "表示能力。"
+      }
+    },
+    {
+      "id": "n5-tai",
+      "level": "N5",
+      "category": "愿望",
+      "title": "たいです：想做",
+      "pattern": "動詞ます形語幹 + たいです",
+      "meaning": "想要做某事",
+      "whenToUse": "表达自己的愿望。",
+      "structure": "食べたいです / 行きたいです",
+      "example": "日本へ行きたいです。",
+      "exampleMeaning": "想去日本。",
+      "beginnerTip": "たい 像い形容词一样变化。",
+      "commonMistake": "直接问上级愿望可能太直接。",
+      "miniQuestion": {
+        "question": "行きたいです 是什么？",
+        "options": [
+          "想去",
+          "去了",
+          "不能去"
+        ],
+        "correct": "想去",
+        "explanation": "たい 表示想做。"
+      }
+    },
+    {
+      "id": "n5-hoshii",
+      "level": "N5",
+      "category": "愿望",
+      "title": "ほしいです：想要东西",
+      "pattern": "名词 が ほしいです",
+      "meaning": "想要某物",
+      "whenToUse": "表达想要一个东西。",
+      "structure": "水がほしいです",
+      "example": "新しい辞書がほしいです。",
+      "exampleMeaning": "想要一本新词典。",
+      "beginnerTip": "动作愿望用 たい，东西愿望用 ほしい。",
+      "commonMistake": "助词常用 が。",
+      "miniQuestion": {
+        "question": "ほしいです 用来表达什么？",
+        "options": [
+          "想要东西",
+          "过去动作",
+          "禁止"
+        ],
+        "correct": "想要东西",
+        "explanation": "ほしい 表示想要某物。"
+      }
+    },
+    {
+      "id": "n5-adj-i",
       "level": "N5",
       "category": "形容词",
-      "title": "い形容词：直接修饰",
-      "pattern": "い形容詞 + 名詞",
-      "meaning": "描述性质、状态",
-      "whenToUse": "描述东西贵、便宜、新、旧、大、小等。",
-      "structure": "高い本 / 新しいかばん",
-      "example": "これは新しい本です。",
-      "exampleMeaning": "这是一本新书。",
-      "beginnerTip": "い形容词接名词时可以直接放在名词前，不需要 な。",
-      "commonMistake": "不要说 新しいな本。な 通常用于な形容词。",
+      "title": "い形容词：现在肯定",
+      "pattern": "い形容詞 + です",
+      "meaning": "……的",
+      "whenToUse": "描述性质、状态。",
+      "structure": "高いです / 新しいです",
+      "example": "この本は新しいです。",
+      "exampleMeaning": "这本书是新的。",
+      "beginnerTip": "い形容词可直接接名词。",
+      "commonMistake": "不要说 新しいな本。",
       "miniQuestion": {
-        "question": "「新しい本」里形容词后面需要 な 吗？",
-        "options": ["不需要", "一定需要", "只能过去式需要"],
+        "question": "新しい本 需要 な 吗？",
+        "options": [
+          "不需要",
+          "需要",
+          "只过去需要"
+        ],
         "correct": "不需要",
-        "explanation": "新しい 是い形容词，直接修饰名词。"
+        "explanation": "い形容词直接修饰名词。"
+      }
+    },
+    {
+      "id": "n5-adj-i-neg",
+      "level": "N5",
+      "category": "形容词",
+      "title": "い形容词否定",
+      "pattern": "い → くないです",
+      "meaning": "不……",
+      "whenToUse": "否定い形容词。",
+      "structure": "高くないです",
+      "example": "この店は安くないです。",
+      "exampleMeaning": "这家店不便宜。",
+      "beginnerTip": "先去掉最后的 い。",
+      "commonMistake": "いい 的否定是 よくない。",
+      "miniQuestion": {
+        "question": "高い 的否定是？",
+        "options": [
+          "高くない",
+          "高いない",
+          "高くありませんでした"
+        ],
+        "correct": "高くない",
+        "explanation": "い 变 くない。"
+      }
+    },
+    {
+      "id": "n5-adj-i-past",
+      "level": "N5",
+      "category": "形容词",
+      "title": "い形容词过去",
+      "pattern": "い → かったです",
+      "meaning": "过去很……",
+      "whenToUse": "描述过去状态。",
+      "structure": "楽しかったです",
+      "example": "旅行は楽しかったです。",
+      "exampleMeaning": "旅行很开心。",
+      "beginnerTip": "过去否定是 くなかったです。",
+      "commonMistake": "不要说 楽しいでした。",
+      "miniQuestion": {
+        "question": "楽しい 的过去是？",
+        "options": [
+          "楽しかった",
+          "楽しいでした",
+          "楽しくです"
+        ],
+        "correct": "楽しかった",
+        "explanation": "い 变 かった。"
+      }
+    },
+    {
+      "id": "n5-adj-na",
+      "level": "N5",
+      "category": "形容词",
+      "title": "な形容词：修饰名词",
+      "pattern": "な形容詞 + な + 名詞",
+      "meaning": "……的名词",
+      "whenToUse": "安静、方便、漂亮等な形容词修饰名词。",
+      "structure": "静かな部屋",
+      "example": "ここは便利な町です。",
+      "exampleMeaning": "这里是方便的城市。",
+      "beginnerTip": "接名词时要加 な。",
+      "commonMistake": "句末是 静かです，不是 静かなです。",
+      "miniQuestion": {
+        "question": "便利 修饰名词时加什么？",
+        "options": [
+          "な",
+          "い",
+          "を"
+        ],
+        "correct": "な",
+        "explanation": "な形容词修饰名词加 な。"
+      }
+    },
+    {
+      "id": "n5-adj-na-neg",
+      "level": "N5",
+      "category": "形容词",
+      "title": "な形容词否定",
+      "pattern": "な形容詞 + ではありません",
+      "meaning": "不……",
+      "whenToUse": "否定な形容词。",
+      "structure": "静かではありません",
+      "example": "この部屋はきれいではありません。",
+      "exampleMeaning": "这个房间不干净。",
+      "beginnerTip": "和名词否定类似。",
+      "commonMistake": "不要说 静かくない。",
+      "miniQuestion": {
+        "question": "静か 的礼貌否定是？",
+        "options": [
+          "静かではありません",
+          "静かくないです",
+          "静かないです"
+        ],
+        "correct": "静かではありません",
+        "explanation": "な形容词用 ではありません 否定。"
+      }
+    },
+    {
+      "id": "n5-kunaru",
+      "level": "N5",
+      "category": "变化",
+      "title": "くなります / になります：变得",
+      "pattern": "い形容詞く + なる / 名词・な形容詞に + なる",
+      "meaning": "变成……",
+      "whenToUse": "描述状态变化。",
+      "structure": "寒くなります / 先生になります",
+      "example": "日本語が上手になります。",
+      "exampleMeaning": "日语会变好。",
+      "beginnerTip": "い形容词用 く，名词/な形容词用 に。",
+      "commonMistake": "不要说 上手くなります（上手是な形容词）。",
+      "miniQuestion": {
+        "question": "便利 的变化用什么？",
+        "options": [
+          "便利になります",
+          "便利くなります",
+          "便利をなります"
+        ],
+        "correct": "便利になります",
+        "explanation": "な形容词用 に。"
+      }
+    },
+    {
+      "id": "n5-suki-kirai",
+      "level": "N5",
+      "category": "喜好能力",
+      "title": "好き / 嫌い",
+      "pattern": "名词 が 好きです / 嫌いです",
+      "meaning": "喜欢 / 不喜欢",
+      "whenToUse": "表达喜好。",
+      "structure": "音楽が好きです",
+      "example": "私は猫が好きです。",
+      "exampleMeaning": "我喜欢猫。",
+      "beginnerTip": "对象常用 が。",
+      "commonMistake": "好き 是な形容词，不是动词。",
+      "miniQuestion": {
+        "question": "喜欢猫怎么说？",
+        "options": [
+          "猫が好きです",
+          "猫を好きます",
+          "猫に好きです"
+        ],
+        "correct": "猫が好きです",
+        "explanation": "好き 的对象常用 が。"
+      }
+    },
+    {
+      "id": "n5-jouzu-heta",
+      "level": "N5",
+      "category": "喜好能力",
+      "title": "上手 / 下手",
+      "pattern": "名词 が 上手です / 下手です",
+      "meaning": "擅长 / 不擅长",
+      "whenToUse": "评价能力。",
+      "structure": "料理が上手です",
+      "example": "妹は歌が上手です。",
+      "exampleMeaning": "妹妹唱歌很好。",
+      "beginnerTip": "对象常用 が。",
+      "commonMistake": "夸自己上手有时会显得不谦虚。",
+      "miniQuestion": {
+        "question": "不擅长用哪个？",
+        "options": [
+          "下手",
+          "上手",
+          "好き"
+        ],
+        "correct": "下手",
+        "explanation": "下手 表示不擅长。"
+      }
+    },
+    {
+      "id": "n5-yori",
+      "level": "N5",
+      "category": "比较",
+      "title": "より：比……",
+      "pattern": "A は B より 形容词",
+      "meaning": "A 比 B 更……",
+      "whenToUse": "比较两者。",
+      "structure": "日本は中国より小さいです",
+      "example": "今日は昨日より暑いです。",
+      "exampleMeaning": "今天比昨天热。",
+      "beginnerTip": "より 标记被比较的对象。",
+      "commonMistake": "不要把より当“从”用在所有句子里。",
+      "miniQuestion": {
+        "question": "より 在比较句里表示什么？",
+        "options": [
+          "比",
+          "也",
+          "请"
+        ],
+        "correct": "比",
+        "explanation": "より 标记比较基准。"
+      }
+    },
+    {
+      "id": "n5-houga",
+      "level": "N5",
+      "category": "比较",
+      "title": "ほうが：……的一方",
+      "pattern": "A より B のほうが 形容词",
+      "meaning": "B 比 A 更……",
+      "whenToUse": "强调两者中某一方。",
+      "structure": "犬より猫のほうが好きです",
+      "example": "バスより電車のほうが速いです。",
+      "exampleMeaning": "电车比公交快。",
+      "beginnerTip": "のほうが 后面接评价。",
+      "commonMistake": "不要漏掉比较基准。",
+      "miniQuestion": {
+        "question": "のほうが 表示什么？",
+        "options": [
+          "这一方更……",
+          "禁止",
+          "过去"
+        ],
+        "correct": "这一方更……",
+        "explanation": "ほう 表示一方。"
+      }
+    },
+    {
+      "id": "n5-ichiban",
+      "level": "N5",
+      "category": "比较",
+      "title": "一番：最……",
+      "pattern": "范围で A が 一番 形容词",
+      "meaning": "在某范围内最……",
+      "whenToUse": "三者以上比较。",
+      "structure": "クラスで一番",
+      "example": "一年で夏が一番好きです。",
+      "exampleMeaning": "一年中最喜欢夏天。",
+      "beginnerTip": "先说明范围更清楚。",
+      "commonMistake": "两者比较一般不用一番。",
+      "miniQuestion": {
+        "question": "一番 表示什么？",
+        "options": [
+          "最",
+          "也",
+          "不"
+        ],
+        "correct": "最",
+        "explanation": "一番 表示最高级。"
+      }
+    },
+    {
+      "id": "n5-kara-reason",
+      "level": "N5",
+      "category": "连接",
+      "title": "から：因为",
+      "pattern": "句子 + から",
+      "meaning": "因为……所以……",
+      "whenToUse": "说明原因。",
+      "structure": "忙しいですから",
+      "example": "雨ですから、行きません。",
+      "exampleMeaning": "因为下雨，所以不去。",
+      "beginnerTip": "から 后面常接结果。",
+      "commonMistake": "正式写作可用 ので，但 N5 先掌握から。",
+      "miniQuestion": {
+        "question": "から 表示什么？",
+        "options": [
+          "原因",
+          "地点",
+          "对象"
+        ],
+        "correct": "原因",
+        "explanation": "から 可表示原因。"
+      }
+    },
+    {
+      "id": "n5-demo",
+      "level": "N5",
+      "category": "连接",
+      "title": "でも：但是",
+      "pattern": "句子。でも、句子。",
+      "meaning": "但是、不过",
+      "whenToUse": "转折。",
+      "structure": "でも、行きます",
+      "example": "高いです。でも、買いたいです。",
+      "exampleMeaning": "很贵。但是想买。",
+      "beginnerTip": "口语和基础作文常用。",
+      "commonMistake": "不要和 ても 混淆。",
+      "miniQuestion": {
+        "question": "でも 表示什么？",
+        "options": [
+          "但是",
+          "如果",
+          "已经"
+        ],
+        "correct": "但是",
+        "explanation": "でも 表示转折。"
+      }
+    },
+    {
+      "id": "n5-soshite",
+      "level": "N5",
+      "category": "连接",
+      "title": "そして：然后、而且",
+      "pattern": "句子。そして、句子。",
+      "meaning": "然后、并且",
+      "whenToUse": "连接顺序或追加信息。",
+      "structure": "朝起きます。そして、ご飯を食べます",
+      "example": "宿題をしました。そして、寝ました。",
+      "exampleMeaning": "做了作业，然后睡了。",
+      "beginnerTip": "适合连接简单句。",
+      "commonMistake": "不要每句都用そして，文章会单调。",
+      "miniQuestion": {
+        "question": "そして 表示什么？",
+        "options": [
+          "然后",
+          "禁止",
+          "比较"
+        ],
+        "correct": "然后",
+        "explanation": "そして 连接后续内容。"
+      }
+    },
+    {
+      "id": "n5-mae-ni",
+      "level": "N5",
+      "category": "时间",
+      "title": "前に：……之前",
+      "pattern": "動詞辞書形 / 名词 の + 前に",
+      "meaning": "在……之前",
+      "whenToUse": "说明先后顺序。",
+      "structure": "寝る前に / 食事の前に",
+      "example": "寝る前に歯を磨きます。",
+      "exampleMeaning": "睡前刷牙。",
+      "beginnerTip": "动词前用辞书形。",
+      "commonMistake": "不要说 寝ます前に。",
+      "miniQuestion": {
+        "question": "动词接前に用什么形？",
+        "options": [
+          "辞书形",
+          "ます形",
+          "て形"
+        ],
+        "correct": "辞书形",
+        "explanation": "寝る前に。"
+      }
+    },
+    {
+      "id": "n5-ato-de",
+      "level": "N5",
+      "category": "时间",
+      "title": "後で：……之后",
+      "pattern": "動詞た形 / 名词 の + 後で",
+      "meaning": "在……之后",
+      "whenToUse": "说明后做某事。",
+      "structure": "食べた後で / 授業の後で",
+      "example": "勉強した後で、ゲームをします。",
+      "exampleMeaning": "学习后玩游戏。",
+      "beginnerTip": "动词前多用た形。",
+      "commonMistake": "不要说 食べる後で。",
+      "miniQuestion": {
+        "question": "动词接後で常用什么形？",
+        "options": [
+          "た形",
+          "ない形",
+          "ます形"
+        ],
+        "correct": "た形",
+        "explanation": "食べた後で。"
+      }
+    },
+    {
+      "id": "n5-toki",
+      "level": "N5",
+      "category": "时间",
+      "title": "とき：……的时候",
+      "pattern": "普通形 + とき",
+      "meaning": "当……时",
+      "whenToUse": "说明时间背景。",
+      "structure": "子どものとき / 暇なとき",
+      "example": "日本へ行くとき、パスポートが必要です。",
+      "exampleMeaning": "去日本的时候需要护照。",
+      "beginnerTip": "名词用 の，な形容词用 な。",
+      "commonMistake": "行くとき 和 行ったとき 时间不同。",
+      "miniQuestion": {
+        "question": "とき 表示什么？",
+        "options": [
+          "时候",
+          "禁止",
+          "比较"
+        ],
+        "correct": "时候",
+        "explanation": "とき 表示时间。"
+      }
+    },
+    {
+      "id": "n5-mou-mada",
+      "level": "N5",
+      "category": "副词",
+      "title": "もう / まだ",
+      "pattern": "もう + 肯定 / まだ + 否定",
+      "meaning": "已经 / 还没",
+      "whenToUse": "表达完成或未完成。",
+      "structure": "もう食べました / まだ食べていません",
+      "example": "宿題はもう終わりました。",
+      "exampleMeaning": "作业已经做完了。",
+      "beginnerTip": "まだです 也很常用。",
+      "commonMistake": "まだ食べました 不自然。",
+      "miniQuestion": {
+        "question": "まだ食べていません 是什么？",
+        "options": [
+          "还没吃",
+          "已经吃了",
+          "想吃"
+        ],
+        "correct": "还没吃",
+        "explanation": "まだ + 否定表示还没。"
+      }
+    },
+    {
+      "id": "n5-amari-nai",
+      "level": "N5",
+      "category": "副词",
+      "title": "あまり～ない：不太……",
+      "pattern": "あまり + 否定",
+      "meaning": "不太……",
+      "whenToUse": "表达程度不高。",
+      "structure": "あまり好きではありません",
+      "example": "この映画はあまり面白くないです。",
+      "exampleMeaning": "这部电影不太有趣。",
+      "beginnerTip": "后面要接否定。",
+      "commonMistake": "不要说 あまり面白いです 表示“不太”。",
+      "miniQuestion": {
+        "question": "あまり 后面常接什么？",
+        "options": [
+          "否定",
+          "命令",
+          "过去肯定"
+        ],
+        "correct": "否定",
+        "explanation": "あまり～ない 表示不太。"
+      }
+    },
+    {
+      "id": "n5-takusan",
+      "level": "N5",
+      "category": "副词",
+      "title": "たくさん：很多",
+      "pattern": "たくさん + 动词 / 名词",
+      "meaning": "很多",
+      "whenToUse": "数量多。",
+      "structure": "たくさんあります",
+      "example": "本をたくさん読みます。",
+      "exampleMeaning": "读很多书。",
+      "beginnerTip": "可作副词使用。",
+      "commonMistake": "不要和 とても 混淆，とても修饰程度。",
+      "miniQuestion": {
+        "question": "たくさん 表示什么？",
+        "options": [
+          "很多",
+          "一点也不",
+          "马上"
+        ],
+        "correct": "很多",
+        "explanation": "たくさん 表示数量多。"
+      }
+    },
+    {
+      "id": "n5-dake",
+      "level": "N5",
+      "category": "范围",
+      "title": "だけ：只、仅",
+      "pattern": "名词 / 数量 + だけ",
+      "meaning": "只有……",
+      "whenToUse": "限定范围。",
+      "structure": "一つだけ",
+      "example": "水だけ飲みます。",
+      "exampleMeaning": "只喝水。",
+      "beginnerTip": "だけ 放在被限定的词后。",
+      "commonMistake": "だけ 和 しか～ない 都有限定，但结构不同。",
+      "miniQuestion": {
+        "question": "だけ 表示什么？",
+        "options": [
+          "只",
+          "也",
+          "从"
+        ],
+        "correct": "只",
+        "explanation": "だけ 表示限定。"
+      }
+    },
+    {
+      "id": "n5-kurai",
+      "level": "N5",
+      "category": "范围",
+      "title": "くらい / ぐらい：大约",
+      "pattern": "数量 + くらい",
+      "meaning": "大约……",
+      "whenToUse": "表示大概数量或程度。",
+      "structure": "三十分くらい",
+      "example": "駅まで十分くらいです。",
+      "exampleMeaning": "到车站大约十分钟。",
+      "beginnerTip": "くらい 和 ぐらい 都常见。",
+      "commonMistake": "不要用于非常精确的正式数字。",
+      "miniQuestion": {
+        "question": "三つくらい 是什么？",
+        "options": [
+          "大约三个",
+          "只有三个",
+          "第三个"
+        ],
+        "correct": "大约三个",
+        "explanation": "くらい 表示大约。"
+      }
+    },
+    {
+      "id": "n5-ya",
+      "level": "N5",
+      "category": "列举",
+      "title": "や：列举",
+      "pattern": "A や B など",
+      "meaning": "A、B 等",
+      "whenToUse": "举例列出部分项目。",
+      "structure": "パンや牛乳",
+      "example": "スーパーで野菜や果物を買います。",
+      "exampleMeaning": "在超市买蔬菜水果等。",
+      "beginnerTip": "や 是不完全列举。",
+      "commonMistake": "全部列举常用 と。",
+      "miniQuestion": {
+        "question": "や 表示什么？",
+        "options": [
+          "举例列举",
+          "疑问",
+          "禁止"
+        ],
+        "correct": "举例列举",
+        "explanation": "や 表示……等。"
+      }
+    },
+    {
+      "id": "n5-tari",
+      "level": "N5",
+      "category": "列举",
+      "title": "たり～たりします：做做这个做做那个",
+      "pattern": "動詞た形り + 動詞た形りします",
+      "meaning": "列举动作",
+      "whenToUse": "举例说明做了哪些动作。",
+      "structure": "見たり、聞いたりします",
+      "example": "休みの日は映画を見たり、散歩したりします。",
+      "exampleMeaning": "休息日看看电影、散散步。",
+      "beginnerTip": "不是完整列出所有动作。",
+      "commonMistake": "たり 后面常以 します 结束。",
+      "miniQuestion": {
+        "question": "たり～たり 表示什么？",
+        "options": [
+          "动作列举",
+          "必须",
+          "禁止"
+        ],
+        "correct": "动作列举",
+        "explanation": "列举几个动作。"
       }
     }
   ],
@@ -137,7 +1481,11 @@
       "commonMistake": "不要把两个都很复杂的动作硬塞进 ながら，先写简单句更清楚。",
       "miniQuestion": {
         "question": "「音楽を聞きながら勉強します」的主要动作是什么？",
-        "options": ["学习", "听音乐", "睡觉"],
+        "options": [
+          "学习",
+          "听音乐",
+          "睡觉"
+        ],
         "correct": "学习",
         "explanation": "后面的 勉強します 是主要动作。"
       }
@@ -157,7 +1505,11 @@
       "commonMistake": "いい 的形式是 よさそう，不是 いそう。",
       "miniQuestion": {
         "question": "「おいしそう」表示什么？",
-        "options": ["看起来好吃", "已经吃了", "必须吃"],
+        "options": [
+          "看起来好吃",
+          "已经吃了",
+          "必须吃"
+        ],
         "correct": "看起来好吃",
         "explanation": "そうだ 表示根据外观判断。"
       }
@@ -177,7 +1529,11 @@
       "commonMistake": "不要把 はずだ 当成 つもりだ。つもりだ 是打算。",
       "miniQuestion": {
         "question": "はずだ 更接近哪种语感？",
-        "options": ["按理应该", "想要", "禁止"],
+        "options": [
+          "按理应该",
+          "想要",
+          "禁止"
+        ],
         "correct": "按理应该",
         "explanation": "はずだ 是有根据的判断。"
       }
@@ -199,7 +1555,11 @@
       "commonMistake": "話すために 和 話せるように 重点不同：前者是为了说，后者是为了能说。",
       "miniQuestion": {
         "question": "「話せるように」强调什么？",
-        "options": ["能够说", "已经说完", "不能说"],
+        "options": [
+          "能够说",
+          "已经说完",
+          "不能说"
+        ],
         "correct": "能够说",
         "explanation": "可能形 + ように 表示为了能够做到。"
       }
@@ -219,7 +1579,11 @@
       "commonMistake": "不要所有“如果”都只用 たら，通知和规则里 場合は 很常见。",
       "miniQuestion": {
         "question": "場合は 常用于什么语境？",
-        "options": ["规则说明", "撒娇", "命令别人必须做"],
+        "options": [
+          "规则说明",
+          "撒娇",
+          "命令别人必须做"
+        ],
         "correct": "规则说明",
         "explanation": "場合は 常用于正式一些的情况说明。"
       }
@@ -239,7 +1603,11 @@
       "commonMistake": "ところだ 强调时间点，不是地点的“地方”。",
       "miniQuestion": {
         "question": "「終わったところです」是什么意思？",
-        "options": ["刚刚结束", "正要结束", "不能结束"],
+        "options": [
+          "刚刚结束",
+          "正要结束",
+          "不能结束"
+        ],
         "correct": "刚刚结束",
         "explanation": "た形 + ところだ 表示刚刚做完。"
       }
@@ -261,7 +1629,11 @@
       "commonMistake": "雨が降りそうだ 是看起来快下雨；雨が降ったようだ 是推测已经下过雨。",
       "miniQuestion": {
         "question": "「雨が降ったようだ」表示什么？",
-        "options": ["似乎下过雨", "马上要下雨", "必须下雨"],
+        "options": [
+          "似乎下过雨",
+          "马上要下雨",
+          "必须下雨"
+        ],
         "correct": "似乎下过雨",
         "explanation": "た形 + ようだ 常表示根据证据推测已经发生。"
       }
@@ -281,7 +1653,11 @@
       "commonMistake": "わりに 后面通常不是完全符合预期的结果。",
       "miniQuestion": {
         "question": "わりに 的核心感觉是什么？",
-        "options": ["有落差", "完全相同", "禁止"],
+        "options": [
+          "有落差",
+          "完全相同",
+          "禁止"
+        ],
         "correct": "有落差",
         "explanation": "わりに 表示按某条件来看，结果和预想有差别。"
       }
@@ -301,7 +1677,11 @@
       "commonMistake": "后面要接评价，不只是继续叙述事实。",
       "miniQuestion": {
         "question": "から言えば 用来表示什么？",
-        "options": ["评价角度", "动作对象", "过去时间"],
+        "options": [
+          "评价角度",
+          "动作对象",
+          "过去时间"
+        ],
         "correct": "评价角度",
         "explanation": "它表示从某个立场或角度来看。"
       }
@@ -323,7 +1703,11 @@
       "commonMistake": "日常口语里不常用，普通聊天可用 だから 或 ので。",
       "miniQuestion": {
         "question": "ゆえに 更常见于什么风格？",
-        "options": ["正式书面", "儿童口语", "短信缩写"],
+        "options": [
+          "正式书面",
+          "儿童口语",
+          "短信缩写"
+        ],
         "correct": "正式书面",
         "explanation": "ゆえに 是正式、书面的表达。"
       }
@@ -343,7 +1727,11 @@
       "commonMistake": "前面通常是人或群体，不是普通物品。",
       "miniQuestion": {
         "question": "専門家に言わせれば 表示什么？",
-        "options": ["按专家来说", "专家被迫说", "专家不能说"],
+        "options": [
+          "按专家来说",
+          "专家被迫说",
+          "专家不能说"
+        ],
         "correct": "按专家来说",
         "explanation": "に言わせれば 表示从某人的观点出发。"
       }
@@ -363,7 +1751,11 @@
       "commonMistake": "它不是“只要”的意思；这里强调信息范围。",
       "miniQuestion": {
         "question": "調べた限りでは 强调什么？",
-        "options": ["调查范围内", "只要调查", "禁止调查"],
+        "options": [
+          "调查范围内",
+          "只要调查",
+          "禁止调查"
+        ],
         "correct": "调查范围内",
         "explanation": "限りでは 表示在已知范围内做判断。"
       }

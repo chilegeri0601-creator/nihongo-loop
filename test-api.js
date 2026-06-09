@@ -262,7 +262,7 @@ async function main() {
   assert.ok(n5Vocabulary.vocabulary.words.length >= 800);
 
   for (const [level, minimum] of [
-    ["N4", 180],
+    ["N4", 570],
     ["N3", 35],
     ["N2", 30],
     ["N1", 30],
@@ -274,8 +274,15 @@ async function main() {
 
   const n5Grammar = await request(`/api/grammar?userId=${encodeURIComponent(userId)}&level=N5`);
   assert.equal(n5Grammar.grammar.level, "N5");
-  assert.ok(n5Grammar.grammar.points.length >= 6);
+  assert.ok(n5Grammar.grammar.points.length >= 60);
   assert.ok(n5Grammar.grammar.categories.includes("助词"));
+  assert.ok(n5Grammar.grammar.categories.includes("て形"));
+  assert.ok(n5Grammar.grammar.categories.includes("比较"));
+  const teKudasai = n5Grammar.grammar.points.find((point) => point.id === "n5-te-kudasai");
+  assert.ok(teKudasai);
+  assert.match(teKudasai.example, /ください/);
+  assert.ok(teKudasai.beginnerTip);
+  assert.ok(teKudasai.miniQuestion.options.includes(teKudasai.miniQuestion.correct));
 
   const n1Grammar = await request(`/api/grammar?userId=${encodeURIComponent(userId)}&level=N1`);
   assert.equal(n1Grammar.grammar.level, "N1");

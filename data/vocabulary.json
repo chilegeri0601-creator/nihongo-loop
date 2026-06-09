@@ -7203,382 +7203,67 @@
   ],
   "N4": [
     {
-      "id": "n4-hitsuyou",
-      "word": "必要",
-      "kana": "ひつよう",
-      "meaning": "必要",
-      "type": "形容动词",
-      "example": "試験には準備が必要です。",
-      "exampleMeaning": "考试需要准备。"
+      "id": "n4-1-あ",
+      "word": "あ",
+      "kana": "あ",
+      "meaning": "Ah; oh",
+      "type": "表达",
+      "example": "「あ」を使って文を作ります。",
+      "exampleMeaning": "用「あ」造句。"
     },
     {
-      "id": "n4-tokubetsu",
-      "word": "特別",
-      "kana": "とくべつ",
-      "meaning": "特别",
-      "type": "形容动词",
-      "example": "今日は特別な日です。",
-      "exampleMeaning": "今天是特别的日子。"
-    },
-    {
-      "id": "n4-futsuu",
-      "word": "普通",
-      "kana": "ふつう",
-      "meaning": "普通",
-      "type": "名词/形容动词",
-      "example": "普通の電車に乗ります。",
-      "exampleMeaning": "乘坐普通电车。"
-    },
-    {
-      "id": "n4-junbi",
-      "word": "準備",
-      "kana": "じゅんび",
-      "meaning": "准备",
-      "type": "名词/サ变",
-      "example": "旅行の準備をします。",
-      "exampleMeaning": "做旅行准备。"
-    },
-    {
-      "id": "n4-yotei",
-      "word": "予定",
-      "kana": "よてい",
-      "meaning": "计划",
-      "type": "名词",
-      "example": "明日の予定を確認します。",
-      "exampleMeaning": "确认明天的计划。"
-    },
-    {
-      "id": "n4-yoyaku",
-      "word": "予約",
-      "kana": "よやく",
-      "meaning": "预约",
-      "type": "名词/サ变",
-      "example": "ホテルを予約しました。",
-      "exampleMeaning": "预约了酒店。"
-    },
-    {
-      "id": "n4-iken",
-      "word": "意見",
-      "kana": "いけん",
-      "meaning": "意见",
-      "type": "名词",
-      "example": "あなたの意見を聞きたいです。",
-      "exampleMeaning": "想听你的意见。"
-    },
-    {
-      "id": "n4-keiken",
-      "word": "経験",
-      "kana": "けいけん",
-      "meaning": "经验",
-      "type": "名词/サ变",
-      "example": "日本で生活した経験があります。",
-      "exampleMeaning": "有在日本生活的经验。"
-    },
-    {
-      "id": "n4-setsumei",
-      "word": "説明",
-      "kana": "せつめい",
-      "meaning": "说明",
-      "type": "名词/サ变",
-      "example": "先生が文法を説明します。",
-      "exampleMeaning": "老师说明语法。"
-    },
-    {
-      "id": "n4-renraku",
-      "word": "連絡",
-      "kana": "れんらく",
-      "meaning": "联系",
-      "type": "名词/サ变",
-      "example": "後で連絡します。",
-      "exampleMeaning": "稍后联系。"
-    },
-    {
-      "id": "n4-juusho",
-      "word": "住所",
-      "kana": "じゅうしょ",
-      "meaning": "地址",
-      "type": "名词",
-      "example": "住所を書いてください。",
-      "exampleMeaning": "请写地址。"
-    },
-    {
-      "id": "n4-shinamono",
-      "word": "品物",
-      "kana": "しなもの",
-      "meaning": "商品、物品",
-      "type": "名词",
-      "example": "この店は品物が多いです。",
-      "exampleMeaning": "这家店商品很多。"
-    },
-    {
-      "id": "n4-koujou",
-      "word": "工場",
-      "kana": "こうじょう",
-      "meaning": "工厂",
-      "type": "名词",
-      "example": "父は工場で働いています。",
-      "exampleMeaning": "父亲在工厂工作。"
-    },
-    {
-      "id": "n4-kuuki",
-      "word": "空気",
-      "kana": "くうき",
-      "meaning": "空气",
-      "type": "名词",
-      "example": "山の空気はきれいです。",
-      "exampleMeaning": "山里的空气很清新。"
-    },
-    {
-      "id": "n4-koutsuu",
-      "word": "交通",
-      "kana": "こうつう",
-      "meaning": "交通",
-      "type": "名词",
-      "example": "この町は交通が便利です。",
-      "exampleMeaning": "这个城市交通方便。"
-    },
-    {
-      "id": "n4-shiyakusho",
-      "word": "市役所",
-      "kana": "しやくしょ",
-      "meaning": "市政府、办事处",
-      "type": "名词",
-      "example": "市役所へ行きます。",
-      "exampleMeaning": "去市政府。"
-    },
-    {
-      "id": "n4-bijutsukan",
-      "word": "美術館",
-      "kana": "びじゅつかん",
-      "meaning": "美术馆",
-      "type": "名词",
-      "example": "日曜日に美術館へ行きました。",
-      "exampleMeaning": "星期天去了美术馆。"
-    },
-    {
-      "id": "n4-doubutsuen",
-      "word": "動物園",
-      "kana": "どうぶつえん",
-      "meaning": "动物园",
-      "type": "名词",
-      "example": "子供と動物園へ行きます。",
-      "exampleMeaning": "和孩子去动物园。"
-    },
-    {
-      "id": "n4-ryokan",
-      "word": "旅館",
-      "kana": "りょかん",
-      "meaning": "日式旅馆",
-      "type": "名词",
-      "example": "京都の旅館に泊まりました。",
-      "exampleMeaning": "住在京都的日式旅馆。"
-    },
-    {
-      "id": "n4-hataraku",
-      "word": "働く",
-      "kana": "はたらく",
-      "meaning": "工作",
-      "type": "动词",
-      "example": "兄は会社で働いています。",
-      "exampleMeaning": "哥哥在公司工作。"
-    },
-    {
-      "id": "n4-tetsudau",
-      "word": "手伝う",
-      "kana": "てつだう",
-      "meaning": "帮忙",
-      "type": "动词",
-      "example": "母の料理を手伝います。",
-      "exampleMeaning": "帮妈妈做饭。"
-    },
-    {
-      "id": "n4-hakobu",
-      "word": "運ぶ",
-      "kana": "はこぶ",
-      "meaning": "搬运",
-      "type": "动词",
-      "example": "荷物を部屋まで運びます。",
-      "exampleMeaning": "把行李搬到房间。"
-    },
-    {
-      "id": "n4-naosu",
-      "word": "直す",
-      "kana": "なおす",
-      "meaning": "修理、改正",
-      "type": "动词",
-      "example": "壊れた時計を直します。",
-      "exampleMeaning": "修坏了的钟。"
-    },
-    {
-      "id": "n4-tomaru",
-      "word": "止まる",
-      "kana": "とまる",
-      "meaning": "停止",
-      "type": "动词",
-      "example": "電車が駅で止まります。",
-      "exampleMeaning": "电车在车站停。"
-    },
-    {
-      "id": "n4-isogu",
-      "word": "急ぐ",
-      "kana": "いそぐ",
-      "meaning": "赶紧",
-      "type": "动词",
-      "example": "時間がないので急ぎます。",
-      "exampleMeaning": "因为没时间所以赶紧。"
-    },
-    {
-      "id": "n4-erabu",
-      "word": "選ぶ",
-      "kana": "えらぶ",
-      "meaning": "选择",
-      "type": "动词",
-      "example": "好きな本を選びます。",
-      "exampleMeaning": "选择喜欢的书。"
-    },
-    {
-      "id": "n4-ma-ni-au",
-      "word": "間に合う",
-      "kana": "まにあう",
-      "meaning": "来得及",
-      "type": "动词",
-      "example": "試験に間に合いました。",
-      "exampleMeaning": "赶上了考试。"
-    },
-    {
-      "id": "n4-norikaeru",
-      "word": "乗り換える",
-      "kana": "のりかえる",
-      "meaning": "换乘",
-      "type": "动词",
-      "example": "新宿で電車を乗り換えます。",
-      "exampleMeaning": "在新宿换乘电车。"
-    },
-    {
-      "id": "n4-nemui",
-      "word": "眠い",
-      "kana": "ねむい",
-      "meaning": "困的",
-      "type": "形容词",
-      "example": "昨日遅く寝たので眠いです。",
-      "exampleMeaning": "昨天睡得晚所以困。"
-    },
-    {
-      "id": "n4-tadashii",
-      "word": "正しい",
-      "kana": "ただしい",
-      "meaning": "正确的",
-      "type": "形容词",
-      "example": "正しい答えを選んでください。",
-      "exampleMeaning": "请选择正确答案。"
-    },
-    {
-      "id": "n4-komakai",
-      "word": "細かい",
-      "kana": "こまかい",
-      "meaning": "细小的、详细的",
-      "type": "形容词",
-      "example": "細かい説明を読みます。",
-      "exampleMeaning": "阅读详细说明。"
-    },
-    {
-      "id": "n4-futoi",
-      "word": "太い",
-      "kana": "ふとい",
-      "meaning": "粗的",
-      "type": "形容词",
-      "example": "太いペンで書きます。",
-      "exampleMeaning": "用粗笔写。"
-    },
-    {
-      "id": "n4-anzen",
-      "word": "安全",
-      "kana": "あんぜん",
-      "meaning": "安全",
-      "type": "形容动词",
-      "example": "この道は安全です。",
-      "exampleMeaning": "这条路很安全。"
-    },
-    {
-      "id": "n4-kiken",
-      "word": "危険",
-      "kana": "きけん",
-      "meaning": "危险",
-      "type": "形容动词",
-      "example": "夜の山は危険です。",
-      "exampleMeaning": "夜晚的山很危险。"
-    },
-    {
-      "id": "n4-teinei",
-      "word": "丁寧",
-      "kana": "ていねい",
-      "meaning": "礼貌、仔细",
-      "type": "形容动词",
-      "example": "丁寧に説明してください。",
-      "exampleMeaning": "请仔细说明。"
-    },
-    {
-      "id": "n4-nesshin",
-      "word": "熱心",
-      "kana": "ねっしん",
-      "meaning": "热心、认真",
-      "type": "形容动词",
-      "example": "彼は日本語の勉強に熱心です。",
-      "exampleMeaning": "他热心学习日语。"
-    },
-    {
-      "id": "n4-zannen",
-      "word": "残念",
-      "kana": "ざんねん",
-      "meaning": "遗憾",
-      "type": "形容动词",
-      "example": "雨で旅行が中止になって残念です。",
-      "exampleMeaning": "因为下雨旅行取消了很遗憾。"
-    },
-    {
-      "id": "n4-taitei",
-      "word": "たいてい",
-      "kana": "たいてい",
-      "meaning": "大多、通常",
+      "id": "n4-2-ああ",
+      "word": "ああ",
+      "kana": "ああ",
+      "meaning": "ah; yes",
       "type": "副词",
-      "example": "朝はたいていパンを食べます。",
-      "exampleMeaning": "早上通常吃面包。"
+      "example": "「ああ」を使って文を作ります。",
+      "exampleMeaning": "用「ああ」造句。"
     },
     {
-      "id": "n4-shikkari",
-      "word": "しっかり",
-      "kana": "しっかり",
-      "meaning": "好好地、牢固地",
-      "type": "副词",
-      "example": "試験前にしっかり復習します。",
-      "exampleMeaning": "考试前好好复习。"
+      "id": "n4-3-アフリカ",
+      "word": "アフリカ",
+      "kana": "アフリカ",
+      "meaning": "非洲",
+      "type": "外来语",
+      "example": "「アフリカ」を使って文を作ります。",
+      "exampleMeaning": "用「アフリカ」造句。"
     },
     {
-      "id": "n4-soro-soro",
-      "word": "そろそろ",
-      "kana": "そろそろ",
-      "meaning": "差不多该",
-      "type": "副词",
-      "example": "そろそろ帰りましょう。",
-      "exampleMeaning": "差不多该回去了。"
+      "id": "n4-4-あか-る",
+      "word": "上がる",
+      "kana": "あがる",
+      "meaning": "上升",
+      "type": "动词",
+      "example": "「上がる」を使って文を作ります。",
+      "exampleMeaning": "用「上がる」造句。"
     },
     {
       "id": "n4-aisatsu",
       "word": "挨拶",
       "kana": "あいさつ",
-      "meaning": "寒暄、问候",
-      "type": "名词/サ变",
-      "example": "毎朝、先生に挨拶します。",
-      "exampleMeaning": "每天早上向老师问候。"
+      "meaning": "问候、打招呼",
+      "type": "动词",
+      "example": "「挨拶」を使って文を作ります。",
+      "exampleMeaning": "用「挨拶」造句。"
     },
     {
-      "id": "n4-aida",
-      "word": "間",
-      "kana": "あいだ",
-      "meaning": "期间、之间",
+      "id": "n4-aji",
+      "word": "味",
+      "kana": "あじ",
+      "meaning": "flavor; taste​; uniqueness; attractiveness; experience",
       "type": "名词",
-      "example": "休みの間、旅行しました。",
-      "exampleMeaning": "假期期间去旅行了。"
+      "example": "「味」を使って文を作ります。",
+      "exampleMeaning": "用「味」造句。"
+    },
+    {
+      "id": "n4-7-アシ-ア",
+      "word": "アジア",
+      "kana": "アジア",
+      "meaning": "亚洲",
+      "type": "外来语",
+      "example": "「アジア」を使って文を作ります。",
+      "exampleMeaning": "用「アジア」造句。"
     },
     {
       "id": "n4-akachan",
@@ -7586,197 +7271,467 @@
       "kana": "あかちゃん",
       "meaning": "婴儿",
       "type": "名词",
-      "example": "赤ちゃんが寝ています。",
-      "exampleMeaning": "婴儿正在睡觉。"
+      "example": "「赤ちゃん」を使って文を作ります。",
+      "exampleMeaning": "用「赤ちゃん」造句。"
     },
     {
-      "id": "n4-aji",
-      "word": "味",
-      "kana": "あじ",
-      "meaning": "味道",
+      "id": "n4-9-あかんほ-う",
+      "word": "赤ん坊",
+      "kana": "あかんぼう",
+      "meaning": "婴儿",
       "type": "名词",
-      "example": "この料理は味がいいです。",
-      "exampleMeaning": "这道菜味道很好。"
+      "example": "「赤ん坊」を使って文を作ります。",
+      "exampleMeaning": "用「赤ん坊」造句。"
     },
     {
-      "id": "n4-ajia",
-      "word": "アジア",
-      "kana": "あじあ",
-      "meaning": "亚洲",
-      "type": "名词",
-      "example": "日本はアジアにあります。",
-      "exampleMeaning": "日本在亚洲。"
+      "id": "n4-10-アクセサリー",
+      "word": "アクセサリー",
+      "kana": "アクセサリー",
+      "meaning": "饰品、配件",
+      "type": "外来语",
+      "example": "「アクセサリー」を使って文を作ります。",
+      "exampleMeaning": "用「アクセサリー」造句。"
     },
     {
-      "id": "n4-atsumeru",
-      "word": "集める",
-      "kana": "あつめる",
-      "meaning": "收集",
-      "type": "动词",
-      "example": "新しい単語を集めます。",
-      "exampleMeaning": "收集新单词。"
+      "id": "n4-11-アメリカ",
+      "word": "アメリカ",
+      "kana": "アメリカ",
+      "meaning": "美国",
+      "type": "外来语",
+      "example": "「アメリカ」を使って文を作ります。",
+      "exampleMeaning": "用「アメリカ」造句。"
     },
     {
-      "id": "n4-ateru",
-      "word": "当てる",
-      "kana": "あてる",
-      "meaning": "猜中、碰上",
-      "type": "动词",
-      "example": "正しい答えを当てます。",
-      "exampleMeaning": "猜中正确答案。"
+      "id": "n4-12-アナウンサー",
+      "word": "アナウンサー",
+      "kana": "アナウンサー",
+      "meaning": "播音员",
+      "type": "外来语",
+      "example": "「アナウンサー」を使って文を作ります。",
+      "exampleMeaning": "用「アナウンサー」造句。"
+    },
+    {
+      "id": "n4-13-あんな",
+      "word": "あんな",
+      "kana": "あんな",
+      "meaning": "那样的",
+      "type": "连体词",
+      "example": "「あんな」を使って文を作ります。",
+      "exampleMeaning": "用「あんな」造句。"
     },
     {
       "id": "n4-anna",
       "word": "案内",
       "kana": "あんない",
       "meaning": "带路、介绍",
-      "type": "名词/サ变",
-      "example": "駅まで案内します。",
-      "exampleMeaning": "带路到车站。"
-    },
-    {
-      "id": "n4-ika",
-      "word": "以下",
-      "kana": "いか",
-      "meaning": "以下",
-      "type": "名词",
-      "example": "五百円以下の本を買います。",
-      "exampleMeaning": "买五百日元以下的书。"
-    },
-    {
-      "id": "n4-igai",
-      "word": "以外",
-      "kana": "いがい",
-      "meaning": "以外",
-      "type": "名词",
-      "example": "日曜日以外は学校があります。",
-      "exampleMeaning": "星期天以外都有课。"
-    },
-    {
-      "id": "n4-ijou",
-      "word": "以上",
-      "kana": "いじょう",
-      "meaning": "以上",
-      "type": "名词",
-      "example": "十人以上が参加しました。",
-      "exampleMeaning": "十人以上参加了。"
-    },
-    {
-      "id": "n4-inai",
-      "word": "以内",
-      "kana": "いない",
-      "meaning": "以内",
-      "type": "名词",
-      "example": "十分以内に戻ります。",
-      "exampleMeaning": "十分钟以内回来。"
-    },
-    {
-      "id": "n4-igaku",
-      "word": "医学",
-      "kana": "いがく",
-      "meaning": "医学",
-      "type": "名词",
-      "example": "兄は大学で医学を勉強しています。",
-      "exampleMeaning": "哥哥在大学学医学。"
-    },
-    {
-      "id": "n4-ishii",
-      "word": "石",
-      "kana": "いし",
-      "meaning": "石头",
-      "type": "名词",
-      "example": "道に石があります。",
-      "exampleMeaning": "路上有石头。"
-    },
-    {
-      "id": "n4-itadaku",
-      "word": "いただく",
-      "kana": "いただく",
-      "meaning": "吃、喝、接受（谦让语）",
       "type": "动词",
-      "example": "先生から本をいただきました。",
-      "exampleMeaning": "从老师那里收到了书。"
+      "example": "「案内」を使って文を作ります。",
+      "exampleMeaning": "用「案内」造句。"
     },
     {
-      "id": "n4-utsuru",
-      "word": "移る",
-      "kana": "うつる",
-      "meaning": "移动、转移",
-      "type": "动词",
-      "example": "新しい教室に移ります。",
-      "exampleMeaning": "搬到新教室。"
-    },
-    {
-      "id": "n4-utsu",
-      "word": "打つ",
-      "kana": "うつ",
-      "meaning": "打、敲",
-      "type": "动词",
-      "example": "メールを打ちます。",
-      "exampleMeaning": "打邮件。"
-    },
-    {
-      "id": "n4-utsukushii",
-      "word": "美しい",
-      "kana": "うつくしい",
-      "meaning": "美丽的",
+      "id": "n4-15-あんしん",
+      "word": "安心",
+      "kana": "あんしん",
+      "meaning": "安心、放心",
       "type": "形容词",
-      "example": "美しい景色を見ました。",
-      "exampleMeaning": "看到了美丽的景色。"
+      "example": "「安心」を使って文を作ります。",
+      "exampleMeaning": "用「安心」造句。"
     },
     {
-      "id": "n4-ude",
-      "word": "腕",
-      "kana": "うで",
-      "meaning": "手臂、本领",
+      "id": "n4-anzen",
+      "word": "安全",
+      "kana": "あんぜん",
+      "meaning": "safety; security​",
+      "type": "形容词",
+      "example": "「安全」を使って文を作ります。",
+      "exampleMeaning": "用「安全」造句。"
+    },
+    {
+      "id": "n4-17-アルハ-イト",
+      "word": "アルバイト",
+      "kana": "アルバイト",
+      "meaning": "兼职",
+      "type": "动词",
+      "example": "「アルバイト」を使って文を作ります。",
+      "exampleMeaning": "用「アルバイト」造句。"
+    },
+    {
+      "id": "n4-18-アルコール",
+      "word": "アルコール",
+      "kana": "アルコール",
+      "meaning": "酒精",
+      "type": "外来语",
+      "example": "「アルコール」を使って文を作ります。",
+      "exampleMeaning": "用「アルコール」造句。"
+    },
+    {
+      "id": "n4-19-あさい",
+      "word": "浅い",
+      "kana": "あさい",
+      "meaning": "浅的",
+      "type": "形容词",
+      "example": "「浅い」を使って文を作ります。",
+      "exampleMeaning": "用「浅い」造句。"
+    },
+    {
+      "id": "n4-20-あそひ",
+      "word": "遊び",
+      "kana": "あそび",
+      "meaning": "玩耍",
       "type": "名词",
-      "example": "腕が痛いです。",
-      "exampleMeaning": "手臂疼。"
+      "example": "「遊び」を使って文を作ります。",
+      "exampleMeaning": "用「遊び」造句。"
     },
     {
-      "id": "n4-ura",
-      "word": "裏",
-      "kana": "うら",
-      "meaning": "背面、里面",
+      "id": "n4-21-あつまる",
+      "word": "集まる",
+      "kana": "あつまる",
+      "meaning": "聚集、集合",
+      "type": "动词",
+      "example": "「集まる」を使って文を作ります。",
+      "exampleMeaning": "用「集まる」造句。"
+    },
+    {
+      "id": "n4-atsumeru",
+      "word": "集める",
+      "kana": "あつめる",
+      "meaning": "收集、集合",
+      "type": "动词",
+      "example": "「集める」を使って文を作ります。",
+      "exampleMeaning": "用「集める」造句。"
+    },
+    {
+      "id": "n4-23-あやまる",
+      "word": "謝る",
+      "kana": "あやまる",
+      "meaning": "道歉",
+      "type": "动词",
+      "example": "「謝る」を使って文を作ります。",
+      "exampleMeaning": "用「謝る」造句。"
+    },
+    {
+      "id": "n4-24-は-い",
+      "word": "倍",
+      "kana": "ばい",
+      "meaning": "倍",
       "type": "名词",
-      "example": "紙の裏に書いてください。",
-      "exampleMeaning": "请写在纸的背面。"
+      "example": "「倍」を使って文を作ります。",
+      "exampleMeaning": "用「倍」造句。"
     },
     {
-      "id": "n4-uriba",
-      "word": "売り場",
-      "kana": "うりば",
-      "meaning": "卖场、柜台",
+      "id": "n4-25-は-んく-み",
+      "word": "番組",
+      "kana": "ばんぐみ",
+      "meaning": "节目",
       "type": "名词",
-      "example": "靴の売り場は二階です。",
-      "exampleMeaning": "鞋柜台在二楼。"
+      "example": "「番組」を使って文を作ります。",
+      "exampleMeaning": "用「番組」造句。"
     },
     {
-      "id": "n4-unten",
-      "word": "運転",
-      "kana": "うんてん",
-      "meaning": "驾驶",
-      "type": "名词/サ变",
-      "example": "父は車を運転します。",
-      "exampleMeaning": "父亲开车。"
-    },
-    {
-      "id": "n4-untenshu",
-      "word": "運転手",
-      "kana": "うんてんしゅ",
-      "meaning": "司机",
+      "id": "n4-26-は-しょ",
+      "word": "場所",
+      "kana": "ばしょ",
+      "meaning": "地方、场所",
       "type": "名词",
-      "example": "バスの運転手に聞きました。",
-      "exampleMeaning": "问了公交车司机。"
+      "example": "「場所」を使って文を作ります。",
+      "exampleMeaning": "用「場所」造句。"
     },
     {
-      "id": "n4-undou",
-      "word": "運動",
-      "kana": "うんどう",
-      "meaning": "运动",
-      "type": "名词/サ变",
-      "example": "毎日少し運動します。",
-      "exampleMeaning": "每天运动一点。"
+      "id": "n4-27-ヘ-ル",
+      "word": "ベル",
+      "kana": "ベル",
+      "meaning": "铃、钟",
+      "type": "外来语",
+      "example": "「ベル」を使って文を作ります。",
+      "exampleMeaning": "用「ベル」造句。"
+    },
+    {
+      "id": "n4-bijutsukan",
+      "word": "美術館",
+      "kana": "びじゅつかん",
+      "meaning": "美术馆",
+      "type": "名词",
+      "example": "「美術館」を使って文を作ります。",
+      "exampleMeaning": "用「美術館」造句。"
+    },
+    {
+      "id": "n4-29-ひ-っくり",
+      "word": "びっくり",
+      "kana": "びっくり",
+      "meaning": "吃惊",
+      "type": "副词",
+      "example": "「びっくり」を使って文を作ります。",
+      "exampleMeaning": "用「びっくり」造句。"
+    },
+    {
+      "id": "n4-30-ヒ-ル",
+      "word": "ビル",
+      "kana": "ビル",
+      "meaning": "大楼",
+      "type": "外来语",
+      "example": "「ビル」を使って文を作ります。",
+      "exampleMeaning": "用「ビル」造句。"
+    },
+    {
+      "id": "n4-31-ほ-く",
+      "word": "僕",
+      "kana": "ぼく",
+      "meaning": "我（男性自称）",
+      "type": "代词",
+      "example": "「僕」を使って文を作ります。",
+      "exampleMeaning": "用「僕」造句。"
+    },
+    {
+      "id": "n4-32-ほ-うえき",
+      "word": "貿易",
+      "kana": "ぼうえき",
+      "meaning": "贸易",
+      "type": "动词",
+      "example": "「貿易」を使って文を作ります。",
+      "exampleMeaning": "用「貿易」造句。"
+    },
+    {
+      "id": "n4-33-ふ-ちょう",
+      "word": "部長",
+      "kana": "ぶちょう",
+      "meaning": "部长、科长",
+      "type": "名词",
+      "example": "「部長」を使って文を作ります。",
+      "exampleMeaning": "用「部長」造句。"
+    },
+    {
+      "id": "n4-34-ふ-と-う",
+      "word": "ぶどう",
+      "kana": "ぶどう",
+      "meaning": "葡萄",
+      "type": "名词",
+      "example": "「ぶどう」を使って文を作ります。",
+      "exampleMeaning": "用「ぶどう」造句。"
+    },
+    {
+      "id": "n4-35-ふ-んか-く",
+      "word": "文学",
+      "kana": "ぶんがく",
+      "meaning": "文学",
+      "type": "名词",
+      "example": "「文学」を使って文を作ります。",
+      "exampleMeaning": "用「文学」造句。"
+    },
+    {
+      "id": "n4-36-ふ-んか",
+      "word": "文化",
+      "kana": "ぶんか",
+      "meaning": "文化",
+      "type": "名词",
+      "example": "「文化」を使って文を作ります。",
+      "exampleMeaning": "用「文化」造句。"
+    },
+    {
+      "id": "n4-37-ふ-んほ-う",
+      "word": "文法",
+      "kana": "ぶんぽう",
+      "meaning": "语法",
+      "type": "名词",
+      "example": "「文法」を使って文を作ります。",
+      "exampleMeaning": "用「文法」造句。"
+    },
+    {
+      "id": "n4-38-ちゃん",
+      "word": "ちゃん",
+      "kana": "ちゃん",
+      "meaning": "for familiar female person",
+      "type": "接尾词",
+      "example": "「ちゃん」を使って文を作ります。",
+      "exampleMeaning": "用「ちゃん」造句。"
+    },
+    {
+      "id": "n4-39-チェック",
+      "word": "チェック",
+      "kana": "チェック",
+      "meaning": "check",
+      "type": "动词",
+      "example": "「チェック」を使って文を作ります。",
+      "exampleMeaning": "用「チェック」造句。"
+    },
+    {
+      "id": "n4-40-ち",
+      "word": "血",
+      "kana": "ち",
+      "meaning": "血",
+      "type": "名词",
+      "example": "「血」を使って文を作ります。",
+      "exampleMeaning": "用「血」造句。"
+    },
+    {
+      "id": "n4-41-ちから",
+      "word": "力",
+      "kana": "ちから",
+      "meaning": "力量",
+      "type": "名词",
+      "example": "「力」を使って文を作ります。",
+      "exampleMeaning": "用「力」造句。"
+    },
+    {
+      "id": "n4-42-ちり",
+      "word": "地理",
+      "kana": "ちり",
+      "meaning": "地理",
+      "type": "名词",
+      "example": "「地理」を使って文を作ります。",
+      "exampleMeaning": "用「地理」造句。"
+    },
+    {
+      "id": "n4-43-ちゅうか-っこう",
+      "word": "中学校",
+      "kana": "ちゅうがっこう",
+      "meaning": "初中",
+      "type": "名词",
+      "example": "「中学校」を使って文を作ります。",
+      "exampleMeaning": "用「中学校」造句。"
+    },
+    {
+      "id": "n4-44-ちゅうい",
+      "word": "注意",
+      "kana": "ちゅうい",
+      "meaning": "注意",
+      "type": "动词",
+      "example": "「注意」を使って文を作ります。",
+      "exampleMeaning": "用「注意」造句。"
+    },
+    {
+      "id": "n4-45-ちゅうしゃ",
+      "word": "注射",
+      "kana": "ちゅうしゃ",
+      "meaning": "注射",
+      "type": "动词",
+      "example": "「注射」を使って文を作ります。",
+      "exampleMeaning": "用「注射」造句。"
+    },
+    {
+      "id": "n4-46-ちゅうしゃし-ょう",
+      "word": "駐車場",
+      "kana": "ちゅうしゃじょう",
+      "meaning": "停车场",
+      "type": "名词",
+      "example": "「駐車場」を使って文を作ります。",
+      "exampleMeaning": "用「駐車場」造句。"
+    },
+    {
+      "id": "n4-47-た-いふ",
+      "word": "大分",
+      "kana": "だいぶ",
+      "meaning": "considerably; greatly; a lot​",
+      "type": "副词",
+      "example": "「大分」を使って文を作ります。",
+      "exampleMeaning": "用「大分」造句。"
+    },
+    {
+      "id": "n4-48-た-いか-くせい",
+      "word": "大学生",
+      "kana": "だいがくせい",
+      "meaning": "大学生",
+      "type": "名词",
+      "example": "「大学生」を使って文を作ります。",
+      "exampleMeaning": "用「大学生」造句。"
+    },
+    {
+      "id": "n4-49-た-いし",
+      "word": "大事",
+      "kana": "だいじ",
+      "meaning": "重要、要紧",
+      "type": "形容词",
+      "example": "「大事」を使って文を作ります。",
+      "exampleMeaning": "用「大事」造句。"
+    },
+    {
+      "id": "n4-50-た-いたい",
+      "word": "大体",
+      "kana": "だいたい",
+      "meaning": "大概、大体",
+      "type": "名词",
+      "example": "「大体」を使って文を作ります。",
+      "exampleMeaning": "用「大体」造句。"
+    },
+    {
+      "id": "n4-51-た-んほ-う",
+      "word": "暖房",
+      "kana": "だんぼう",
+      "meaning": "暖气",
+      "type": "动词",
+      "example": "「暖房」を使って文を作ります。",
+      "exampleMeaning": "用「暖房」造句。"
+    },
+    {
+      "id": "n4-52-た-んせい",
+      "word": "男性",
+      "kana": "だんせい",
+      "meaning": "男性",
+      "type": "名词",
+      "example": "「男性」を使って文を作ります。",
+      "exampleMeaning": "用「男性」造句。"
+    },
+    {
+      "id": "n4-53-て-きるた-け",
+      "word": "できるだけ",
+      "kana": "できるだけ",
+      "meaning": "尽可能",
+      "type": "副词",
+      "example": "「できるだけ」を使って文を作ります。",
+      "exampleMeaning": "用「できるだけ」造句。"
+    },
+    {
+      "id": "n4-54-て-んほ-う",
+      "word": "電報",
+      "kana": "でんぽう",
+      "meaning": "电报",
+      "type": "名词",
+      "example": "「電報」を使って文を作ります。",
+      "exampleMeaning": "用「電報」造句。"
+    },
+    {
+      "id": "n4-55-て-んとう",
+      "word": "電灯",
+      "kana": "でんとう",
+      "meaning": "电灯",
+      "type": "名词",
+      "example": "「電灯」を使って文を作ります。",
+      "exampleMeaning": "用「電灯」造句。"
+    },
+    {
+      "id": "n4-56-と-んと-ん",
+      "word": "どんどん",
+      "kana": "どんどん",
+      "meaning": "不断地、迅速地",
+      "type": "副词",
+      "example": "「どんどん」を使って文を作ります。",
+      "exampleMeaning": "用「どんどん」造句。"
+    },
+    {
+      "id": "n4-57-と-ろほ-う",
+      "word": "泥棒",
+      "kana": "どろぼう",
+      "meaning": "小偷",
+      "type": "名词",
+      "example": "「泥棒」を使って文を作ります。",
+      "exampleMeaning": "用「泥棒」造句。"
+    },
+    {
+      "id": "n4-doubutsuen",
+      "word": "動物園",
+      "kana": "どうぶつえん",
+      "meaning": "动物园",
+      "type": "名词",
+      "example": "「動物園」を使って文を作ります。",
+      "exampleMeaning": "用「動物園」造句。"
+    },
+    {
+      "id": "n4-59-と-うく",
+      "word": "道具",
+      "kana": "どうぐ",
+      "meaning": "工具",
+      "type": "名词",
+      "example": "「道具」を使って文を作ります。",
+      "exampleMeaning": "用「道具」造句。"
     },
     {
       "id": "n4-ega",
@@ -7784,881 +7739,782 @@
       "kana": "えだ",
       "meaning": "树枝",
       "type": "名词",
-      "example": "木の枝に鳥がいます。",
-      "exampleMeaning": "树枝上有鸟。"
+      "example": "「枝」を使って文を作ります。",
+      "exampleMeaning": "用「枝」造句。"
     },
     {
       "id": "n4-enryo",
       "word": "遠慮",
       "kana": "えんりょ",
       "meaning": "客气、顾虑",
-      "type": "名词/サ变",
-      "example": "遠慮しないで食べてください。",
-      "exampleMeaning": "请不要客气地吃。"
+      "type": "动词",
+      "example": "「遠慮」を使って文を作ります。",
+      "exampleMeaning": "用「遠慮」造句。"
     },
     {
-      "id": "n4-oiwai",
-      "word": "お祝い",
-      "kana": "おいわい",
-      "meaning": "庆祝、贺礼",
-      "type": "名词",
-      "example": "友達の誕生日をお祝いします。",
-      "exampleMeaning": "庆祝朋友的生日。"
+      "id": "n4-erabu",
+      "word": "選ぶ",
+      "kana": "えらぶ",
+      "meaning": "选择",
+      "type": "动词",
+      "example": "「選ぶ」を使って文を作ります。",
+      "exampleMeaning": "用「選ぶ」造句。"
     },
     {
-      "id": "n4-okashii",
-      "word": "おかしい",
-      "kana": "おかしい",
-      "meaning": "奇怪的、可笑的",
+      "id": "n4-63-エスカレーター",
+      "word": "エスカレーター",
+      "kana": "エスカレーター",
+      "meaning": "自动扶梯",
+      "type": "外来语",
+      "example": "「エスカレーター」を使って文を作ります。",
+      "exampleMeaning": "用「エスカレーター」造句。"
+    },
+    {
+      "id": "n4-64-ファックス",
+      "word": "ファックス",
+      "kana": "ファックス",
+      "meaning": "传真",
+      "type": "动词",
+      "example": "「ファックス」を使って文を作ります。",
+      "exampleMeaning": "用「ファックス」造句。"
+    },
+    {
+      "id": "n4-65-ふへ-ん",
+      "word": "不便",
+      "kana": "ふべん",
+      "meaning": "不方便",
       "type": "形容词",
-      "example": "この文は少しおかしいです。",
-      "exampleMeaning": "这个句子有点奇怪。"
+      "example": "「不便」を使って文を作ります。",
+      "exampleMeaning": "用「不便」造句。"
     },
     {
-      "id": "n4-oku",
-      "word": "億",
-      "kana": "おく",
-      "meaning": "亿",
-      "type": "名词",
-      "example": "人口は一億人以上です。",
-      "exampleMeaning": "人口超过一亿。"
-    },
-    {
-      "id": "n4-okujou",
-      "word": "屋上",
-      "kana": "おくじょう",
-      "meaning": "屋顶",
-      "type": "名词",
-      "example": "屋上から町が見えます。",
-      "exampleMeaning": "从屋顶能看到城市。"
-    },
-    {
-      "id": "n4-okurimono",
-      "word": "贈り物",
-      "kana": "おくりもの",
-      "meaning": "礼物",
-      "type": "名词",
-      "example": "母に贈り物を買いました。",
-      "exampleMeaning": "给妈妈买了礼物。"
-    },
-    {
-      "id": "n4-ojousan",
-      "word": "お嬢さん",
-      "kana": "おじょうさん",
-      "meaning": "女儿、小姐",
-      "type": "名词",
-      "example": "お嬢さんはおいくつですか。",
-      "exampleMeaning": "您女儿几岁？"
-    },
-    {
-      "id": "n4-otaku",
-      "word": "お宅",
-      "kana": "おたく",
-      "meaning": "贵府、您家",
-      "type": "名词",
-      "example": "先生のお宅へ伺いました。",
-      "exampleMeaning": "去了老师家拜访。"
-    },
-    {
-      "id": "n4-otosu",
-      "word": "落とす",
-      "kana": "おとす",
-      "meaning": "弄掉、丢失",
+      "id": "n4-66-ふえる",
+      "word": "増える",
+      "kana": "ふえる",
+      "meaning": "增加",
       "type": "动词",
-      "example": "財布を落としました。",
-      "exampleMeaning": "钱包掉了。"
+      "example": "「増える」を使って文を作ります。",
+      "exampleMeaning": "用「増える」造句。"
     },
     {
-      "id": "n4-odoru",
-      "word": "踊る",
-      "kana": "おどる",
-      "meaning": "跳舞",
-      "type": "动词",
-      "example": "祭りで踊ります。",
-      "exampleMeaning": "在祭典上跳舞。"
-    },
-    {
-      "id": "n4-omatsuri",
-      "word": "お祭り",
-      "kana": "おまつり",
-      "meaning": "祭典",
-      "type": "名词",
-      "example": "夏のお祭りに行きます。",
-      "exampleMeaning": "去夏季祭典。"
-    },
-    {
-      "id": "n4-omimai",
-      "word": "お見舞い",
-      "kana": "おみまい",
-      "meaning": "探病、慰问",
-      "type": "名词",
-      "example": "病院へお見舞いに行きます。",
-      "exampleMeaning": "去医院探病。"
-    },
-    {
-      "id": "n4-kaigi",
-      "word": "会議",
-      "kana": "かいぎ",
-      "meaning": "会议",
-      "type": "名词",
-      "example": "午後に会議があります。",
-      "exampleMeaning": "下午有会议。"
-    },
-    {
-      "id": "n4-kaijou",
-      "word": "会場",
-      "kana": "かいじょう",
-      "meaning": "会场",
-      "type": "名词",
-      "example": "試験会場を確認しました。",
-      "exampleMeaning": "确认了考试会场。"
-    },
-    {
-      "id": "n4-kaeri",
-      "word": "帰り",
-      "kana": "かえり",
-      "meaning": "回去、归途",
-      "type": "名词",
-      "example": "帰りにスーパーへ寄ります。",
-      "exampleMeaning": "回去时顺路去超市。"
-    },
-    {
-      "id": "n4-kagaku",
-      "word": "科学",
-      "kana": "かがく",
-      "meaning": "科学",
-      "type": "名词",
-      "example": "科学の本を読みます。",
-      "exampleMeaning": "读科学书。"
-    },
-    {
-      "id": "n4-kagami",
-      "word": "鏡",
-      "kana": "かがみ",
-      "meaning": "镜子",
-      "type": "名词",
-      "example": "鏡で顔を見ます。",
-      "exampleMeaning": "照镜子看脸。"
-    },
-    {
-      "id": "n4-kakeru",
-      "word": "掛ける",
-      "kana": "かける",
-      "meaning": "挂、打电话、花费",
-      "type": "动词",
-      "example": "壁に絵を掛けます。",
-      "exampleMeaning": "把画挂在墙上。"
-    },
-    {
-      "id": "n4-kaji",
-      "word": "火事",
-      "kana": "かじ",
-      "meaning": "火灾",
-      "type": "名词",
-      "example": "近くで火事がありました。",
-      "exampleMeaning": "附近发生了火灾。"
-    },
-    {
-      "id": "n4-gasu",
-      "word": "ガス",
-      "kana": "がす",
-      "meaning": "燃气",
-      "type": "名词",
-      "example": "ガスを止めてください。",
-      "exampleMeaning": "请关掉燃气。"
-    },
-    {
-      "id": "n4-gasorin",
-      "word": "ガソリン",
-      "kana": "がそりん",
-      "meaning": "汽油",
-      "type": "名词",
-      "example": "車にガソリンを入れます。",
-      "exampleMeaning": "给车加汽油。"
-    },
-    {
-      "id": "n4-katai",
-      "word": "硬い",
-      "kana": "かたい",
-      "meaning": "硬的",
+      "id": "n4-67-ふかい",
+      "word": "深い",
+      "kana": "ふかい",
+      "meaning": "深的",
       "type": "形容词",
-      "example": "このパンは硬いです。",
-      "exampleMeaning": "这个面包很硬。"
+      "example": "「深い」を使って文を作ります。",
+      "exampleMeaning": "用「深い」造句。"
     },
     {
-      "id": "n4-katachi",
-      "word": "形",
-      "kana": "かたち",
-      "meaning": "形状",
-      "type": "名词",
-      "example": "この漢字は形が似ています。",
-      "exampleMeaning": "这个汉字形状很像。"
-    },
-    {
-      "id": "n4-katadukeru",
-      "word": "片付ける",
-      "kana": "かたづける",
-      "meaning": "收拾、整理",
+      "id": "n4-68-ふくしゅう",
+      "word": "復習",
+      "kana": "ふくしゅう",
+      "meaning": "复习",
       "type": "动词",
-      "example": "部屋を片付けます。",
-      "exampleMeaning": "收拾房间。"
+      "example": "「復習」を使って文を作ります。",
+      "exampleMeaning": "用「復習」造句。"
     },
     {
-      "id": "n4-kachou",
-      "word": "課長",
-      "kana": "かちょう",
-      "meaning": "课长",
-      "type": "名词",
-      "example": "課長に報告します。",
-      "exampleMeaning": "向课长报告。"
-    },
-    {
-      "id": "n4-katsu",
-      "word": "勝つ",
-      "kana": "かつ",
-      "meaning": "获胜",
-      "type": "动词",
-      "example": "試合に勝ちました。",
-      "exampleMeaning": "比赛赢了。"
-    },
-    {
-      "id": "n4-kanai",
-      "word": "家内",
-      "kana": "かない",
-      "meaning": "妻子（我的）",
-      "type": "名词",
-      "example": "家内は家にいます。",
-      "exampleMeaning": "我妻子在家。"
-    },
-    {
-      "id": "n4-kanashii",
-      "word": "悲しい",
-      "kana": "かなしい",
-      "meaning": "悲伤的",
+      "id": "n4-69-ふくさ-つ",
+      "word": "複雑",
+      "kana": "ふくざつ",
+      "meaning": "复杂",
       "type": "形容词",
-      "example": "悲しい映画を見ました。",
-      "exampleMeaning": "看了悲伤的电影。"
+      "example": "「複雑」を使って文を作ります。",
+      "exampleMeaning": "用「複雑」造句。"
     },
     {
-      "id": "n4-kanarazu",
-      "word": "必ず",
-      "kana": "かならず",
-      "meaning": "一定",
+      "id": "n4-70-ふむ",
+      "word": "踏む",
+      "kana": "ふむ",
+      "meaning": "踩、踏",
+      "type": "动词",
+      "example": "「踏む」を使って文を作ります。",
+      "exampleMeaning": "用「踏む」造句。"
+    },
+    {
+      "id": "n4-71-ふね",
+      "word": "船",
+      "kana": "ふね",
+      "meaning": "船",
+      "type": "名词",
+      "example": "「船」を使って文を作ります。",
+      "exampleMeaning": "用「船」造句。"
+    },
+    {
+      "id": "n4-72-ふりた-す",
+      "word": "降り出す",
+      "kana": "ふりだす",
+      "meaning": "to start to rain",
+      "type": "动词",
+      "example": "「降り出す」を使って文を作ります。",
+      "exampleMeaning": "用「降り出す」造句。"
+    },
+    {
+      "id": "n4-73-ふとん",
+      "word": "布団",
+      "kana": "ふとん",
+      "meaning": "被褥",
+      "type": "名词",
+      "example": "「布団」を使って文を作ります。",
+      "exampleMeaning": "用「布団」造句。"
+    },
+    {
+      "id": "n4-74-ふとる",
+      "word": "太る",
+      "kana": "ふとる",
+      "meaning": "变胖",
+      "type": "动词",
+      "example": "「太る」を使って文を作ります。",
+      "exampleMeaning": "用「太る」造句。"
+    },
+    {
+      "id": "n4-futsuu",
+      "word": "普通",
+      "kana": "ふつう",
+      "meaning": "普通、通常",
       "type": "副词",
-      "example": "明日必ず来てください。",
-      "exampleMeaning": "明天请一定来。"
+      "example": "「普通」を使って文を作ります。",
+      "exampleMeaning": "用「普通」造句。"
     },
     {
-      "id": "n4-kabe",
-      "word": "壁",
-      "kana": "かべ",
-      "meaning": "墙壁",
-      "type": "名词",
-      "example": "壁に時計があります。",
-      "exampleMeaning": "墙上有钟。"
-    },
-    {
-      "id": "n4-kami-hair",
-      "word": "髪",
-      "kana": "かみ",
-      "meaning": "头发",
-      "type": "名词",
-      "example": "髪を短く切りました。",
-      "exampleMeaning": "把头发剪短了。"
-    },
-    {
-      "id": "n4-kamu",
-      "word": "噛む",
-      "kana": "かむ",
-      "meaning": "咬、嚼",
-      "type": "动词",
-      "example": "よく噛んで食べます。",
-      "exampleMeaning": "好好咀嚼再吃。"
-    },
-    {
-      "id": "n4-kayou",
-      "word": "通う",
-      "kana": "かよう",
-      "meaning": "往返、上学",
-      "type": "动词",
-      "example": "毎日学校に通っています。",
-      "exampleMeaning": "每天上学。"
-    },
-    {
-      "id": "n4-garasu",
+      "id": "n4-76-カ-ラス",
       "word": "ガラス",
-      "kana": "がらす",
+      "kana": "ガラス",
       "meaning": "玻璃",
-      "type": "名词",
-      "example": "ガラスのコップを使います。",
-      "exampleMeaning": "使用玻璃杯。"
+      "type": "外来语",
+      "example": "「ガラス」を使って文を作ります。",
+      "exampleMeaning": "用「ガラス」造句。"
     },
     {
-      "id": "n4-kare",
-      "word": "彼",
-      "kana": "かれ",
-      "meaning": "他、男朋友",
-      "type": "代词",
-      "example": "彼は日本語が上手です。",
-      "exampleMeaning": "他日语很好。"
+      "id": "n4-77-カ-ソリン",
+      "word": "ガソリン",
+      "kana": "ガソリン",
+      "meaning": "汽油",
+      "type": "外来语",
+      "example": "「ガソリン」を使って文を作ります。",
+      "exampleMeaning": "用「ガソリン」造句。"
     },
     {
-      "id": "n4-kanojo",
-      "word": "彼女",
-      "kana": "かのじょ",
-      "meaning": "她、女朋友",
-      "type": "代词",
-      "example": "彼女は大学生です。",
-      "exampleMeaning": "她是大学生。"
+      "id": "n4-78-カ-ソリンスタント",
+      "word": "ガソリンスタンド",
+      "kana": "ガソリンスタンド",
+      "meaning": "加油站",
+      "type": "外来语",
+      "example": "「ガソリンスタンド」を使って文を作ります。",
+      "exampleMeaning": "用「ガソリンスタンド」造句。"
     },
     {
-      "id": "n4-kawaku",
-      "word": "乾く",
-      "kana": "かわく",
-      "meaning": "干",
+      "id": "n4-79-カ-ス",
+      "word": "ガス",
+      "kana": "ガス",
+      "meaning": "petrol",
+      "type": "外来语",
+      "example": "「ガス」を使って文を作ります。",
+      "exampleMeaning": "用「ガス」造句。"
+    },
+    {
+      "id": "n4-80-け-んいん",
+      "word": "原因",
+      "kana": "げんいん",
+      "meaning": "原因",
       "type": "动词",
-      "example": "服が乾きました。",
-      "exampleMeaning": "衣服干了。"
+      "example": "「原因」を使って文を作ります。",
+      "exampleMeaning": "用「原因」造句。"
     },
     {
-      "id": "n4-kawaru",
-      "word": "変わる",
-      "kana": "かわる",
-      "meaning": "改变、变化",
+      "id": "n4-81-け-しゅく",
+      "word": "下宿",
+      "kana": "げしゅく",
+      "meaning": "寄宿、住宿",
       "type": "动词",
-      "example": "予定が変わりました。",
-      "exampleMeaning": "计划改变了。"
+      "example": "「下宿」を使って文を作ります。",
+      "exampleMeaning": "用「下宿」造句。"
     },
     {
-      "id": "n4-kangaeru",
-      "word": "考える",
-      "kana": "かんがえる",
-      "meaning": "思考、考虑",
+      "id": "n4-82-き-し-ゅつ",
+      "word": "技術",
+      "kana": "ぎじゅつ",
+      "meaning": "技术",
+      "type": "名词",
+      "example": "「技術」を使って文を作ります。",
+      "exampleMeaning": "用「技術」造句。"
+    },
+    {
+      "id": "n4-gochisou",
+      "word": "ごちそう",
+      "kana": "ごちそう",
+      "meaning": "盛宴、款待",
       "type": "动词",
-      "example": "答えをよく考えます。",
-      "exampleMeaning": "好好思考答案。"
+      "example": "「ごちそう」を使って文を作ります。",
+      "exampleMeaning": "用「ごちそう」造句。"
     },
     {
-      "id": "n4-kangoshi",
-      "word": "看護師",
-      "kana": "かんごし",
-      "meaning": "护士",
+      "id": "n4-84-こ-み",
+      "word": "ごみ",
+      "kana": "ごみ",
+      "meaning": "垃圾",
       "type": "名词",
-      "example": "姉は看護師です。",
-      "exampleMeaning": "姐姐是护士。"
+      "example": "「ごみ」を使って文を作ります。",
+      "exampleMeaning": "用「ごみ」造句。"
     },
     {
-      "id": "n4-kikoeu",
-      "word": "聞こえる",
-      "kana": "きこえる",
-      "meaning": "听得见",
+      "id": "n4-85-こ-らんになる",
+      "word": "ご覧になる",
+      "kana": "ごらんになる",
+      "meaning": "看（尊敬语）",
       "type": "动词",
-      "example": "隣の部屋の音が聞こえます。",
-      "exampleMeaning": "听得见隔壁房间的声音。"
+      "example": "「ご覧になる」を使って文を作ります。",
+      "exampleMeaning": "用「ご覧になる」造句。"
     },
     {
-      "id": "n4-kimaru",
-      "word": "決まる",
-      "kana": "きまる",
-      "meaning": "决定",
-      "type": "动词",
-      "example": "試験の日が決まりました。",
-      "exampleMeaning": "考试日期定了。"
-    },
-    {
-      "id": "n4-kimi",
-      "word": "君",
-      "kana": "きみ",
-      "meaning": "你",
-      "type": "代词",
-      "example": "君の意見を聞きたいです。",
-      "exampleMeaning": "想听你的意见。"
-    },
-    {
-      "id": "n4-kimochi",
-      "word": "気持ち",
-      "kana": "きもち",
-      "meaning": "心情、感觉",
+      "id": "n4-goshujin",
+      "word": "ご主人",
+      "kana": "ごしゅじん",
+      "meaning": "您丈夫",
       "type": "名词",
-      "example": "気持ちがいい朝です。",
-      "exampleMeaning": "这是感觉很舒服的早晨。"
-    },
-    {
-      "id": "n4-kyaku",
-      "word": "客",
-      "kana": "きゃく",
-      "meaning": "客人",
-      "type": "名词",
-      "example": "店に客がたくさんいます。",
-      "exampleMeaning": "店里有很多客人。"
-    },
-    {
-      "id": "n4-kyuukou",
-      "word": "急行",
-      "kana": "きゅうこう",
-      "meaning": "快车",
-      "type": "名词",
-      "example": "急行電車に乗ります。",
-      "exampleMeaning": "坐快车。"
-    },
-    {
-      "id": "n4-kyouiku",
-      "word": "教育",
-      "kana": "きょういく",
-      "meaning": "教育",
-      "type": "名词",
-      "example": "教育について勉強します。",
-      "exampleMeaning": "学习关于教育的内容。"
-    },
-    {
-      "id": "n4-kyoukai",
-      "word": "教会",
-      "kana": "きょうかい",
-      "meaning": "教堂",
-      "type": "名词",
-      "example": "古い教会を見学しました。",
-      "exampleMeaning": "参观了古老的教堂。"
-    },
-    {
-      "id": "n4-kyousou",
-      "word": "競争",
-      "kana": "きょうそう",
-      "meaning": "竞争",
-      "type": "名词/サ变",
-      "example": "友達と点数を競争します。",
-      "exampleMeaning": "和朋友竞争分数。"
-    },
-    {
-      "id": "n4-kyoumi",
-      "word": "興味",
-      "kana": "きょうみ",
-      "meaning": "兴趣",
-      "type": "名词",
-      "example": "日本文化に興味があります。",
-      "exampleMeaning": "对日本文化感兴趣。"
-    },
-    {
-      "id": "n4-kinjo",
-      "word": "近所",
-      "kana": "きんじょ",
-      "meaning": "附近、邻居",
-      "type": "名词",
-      "example": "近所に新しい店ができました。",
-      "exampleMeaning": "附近开了新店。"
-    },
-    {
-      "id": "n4-guai",
-      "word": "具合",
-      "kana": "ぐあい",
-      "meaning": "情况、状态",
-      "type": "名词",
-      "example": "体の具合が悪いです。",
-      "exampleMeaning": "身体状况不好。"
-    },
-    {
-      "id": "n4-kusa",
-      "word": "草",
-      "kana": "くさ",
-      "meaning": "草",
-      "type": "名词",
-      "example": "庭に草が生えています。",
-      "exampleMeaning": "院子里长着草。"
-    },
-    {
-      "id": "n4-kubi",
-      "word": "首",
-      "kana": "くび",
-      "meaning": "脖子",
-      "type": "名词",
-      "example": "首が痛いです。",
-      "exampleMeaning": "脖子疼。"
-    },
-    {
-      "id": "n4-kumo",
-      "word": "雲",
-      "kana": "くも",
-      "meaning": "云",
-      "type": "名词",
-      "example": "空に白い雲があります。",
-      "exampleMeaning": "天空中有白云。"
-    },
-    {
-      "id": "n4-kureru",
-      "word": "暮れる",
-      "kana": "くれる",
-      "meaning": "天黑、岁月过去",
-      "type": "动词",
-      "example": "日が暮れました。",
-      "exampleMeaning": "天黑了。"
-    },
-    {
-      "id": "n4-keisatsu",
-      "word": "警察",
-      "kana": "けいさつ",
-      "meaning": "警察",
-      "type": "名词",
-      "example": "警察に道を聞きます。",
-      "exampleMeaning": "向警察问路。"
-    },
-    {
-      "id": "n4-keshiki",
-      "word": "景色",
-      "kana": "けしき",
-      "meaning": "景色",
-      "type": "名词",
-      "example": "山の景色が美しいです。",
-      "exampleMeaning": "山景很美。"
-    },
-    {
-      "id": "n4-keshigomu",
-      "word": "消しゴム",
-      "kana": "けしごむ",
-      "meaning": "橡皮",
-      "type": "名词",
-      "example": "消しゴムを貸してください。",
-      "exampleMeaning": "请借我橡皮。"
-    },
-    {
-      "id": "n4-kenkyuu",
-      "word": "研究",
-      "kana": "けんきゅう",
-      "meaning": "研究",
-      "type": "名词/サ变",
-      "example": "日本語教育を研究しています。",
-      "exampleMeaning": "正在研究日语教育。"
-    },
-    {
-      "id": "n4-kenkyuushitsu",
-      "word": "研究室",
-      "kana": "けんきゅうしつ",
-      "meaning": "研究室",
-      "type": "名词",
-      "example": "先生の研究室へ行きます。",
-      "exampleMeaning": "去老师的研究室。"
-    },
-    {
-      "id": "n4-kenbutsu",
-      "word": "見物",
-      "kana": "けんぶつ",
-      "meaning": "参观、游览",
-      "type": "名词/サ变",
-      "example": "京都のお寺を見物します。",
-      "exampleMeaning": "参观京都的寺庙。"
-    },
-    {
-      "id": "n4-ko",
-      "word": "子",
-      "kana": "こ",
-      "meaning": "孩子",
-      "type": "名词",
-      "example": "あの子は元気です。",
-      "exampleMeaning": "那个孩子很精神。"
-    },
-    {
-      "id": "n4-kougai",
-      "word": "郊外",
-      "kana": "こうがい",
-      "meaning": "郊外",
-      "type": "名词",
-      "example": "郊外に住んでいます。",
-      "exampleMeaning": "住在郊外。"
-    },
-    {
-      "id": "n4-kougi",
-      "word": "講義",
-      "kana": "こうぎ",
-      "meaning": "讲课、讲义",
-      "type": "名词",
-      "example": "大学で講義を聞きます。",
-      "exampleMeaning": "在大学听课。"
-    },
-    {
-      "id": "n4-koukou",
-      "word": "高校",
-      "kana": "こうこう",
-      "meaning": "高中",
-      "type": "名词",
-      "example": "高校で英語を勉強しました。",
-      "exampleMeaning": "在高中学了英语。"
-    },
-    {
-      "id": "n4-koukousei",
-      "word": "高校生",
-      "kana": "こうこうせい",
-      "meaning": "高中生",
-      "type": "名词",
-      "example": "弟は高校生です。",
-      "exampleMeaning": "弟弟是高中生。"
-    },
-    {
-      "id": "n4-goukaku",
-      "word": "合格",
-      "kana": "ごうかく",
-      "meaning": "合格",
-      "type": "名词/サ变",
-      "example": "試験に合格しました。",
-      "exampleMeaning": "考试合格了。"
-    },
-    {
-      "id": "n4-kokusai",
-      "word": "国際",
-      "kana": "こくさい",
-      "meaning": "国际",
-      "type": "名词",
-      "example": "国際ニュースを読みます。",
-      "exampleMeaning": "读国际新闻。"
-    },
-    {
-      "id": "n4-kokoro",
-      "word": "心",
-      "kana": "こころ",
-      "meaning": "心",
-      "type": "名词",
-      "example": "心を込めて手紙を書きます。",
-      "exampleMeaning": "用心写信。"
+      "example": "「ご主人」を使って文を作ります。",
+      "exampleMeaning": "用「ご主人」造句。"
     },
     {
       "id": "n4-gozonji",
       "word": "ご存じ",
       "kana": "ごぞんじ",
       "meaning": "知道（尊敬语）",
-      "type": "名词/形容动词",
-      "example": "先生はこの本をご存じですか。",
-      "exampleMeaning": "老师知道这本书吗？"
-    },
-    {
-      "id": "n4-goshujin",
-      "word": "ご主人",
-      "kana": "ごしゅじん",
-      "meaning": "丈夫、主人",
       "type": "名词",
-      "example": "ご主人はお元気ですか。",
-      "exampleMeaning": "您丈夫好吗？"
+      "example": "「ご存じ」を使って文を作ります。",
+      "exampleMeaning": "用「ご存じ」造句。"
     },
     {
-      "id": "n4-koshou",
-      "word": "故障",
-      "kana": "こしょう",
-      "meaning": "故障",
-      "type": "名词/サ变",
-      "example": "パソコンが故障しました。",
-      "exampleMeaning": "电脑故障了。"
-    },
-    {
-      "id": "n4-gochisou",
-      "word": "ごちそう",
-      "kana": "ごちそう",
-      "meaning": "盛餐、款待",
+      "id": "n4-guai",
+      "word": "具合",
+      "kana": "ぐあい",
+      "meaning": "状况、身体情况",
       "type": "名词",
-      "example": "ごちそうを作りました。",
-      "exampleMeaning": "做了丰盛的饭菜。"
+      "example": "「具合」を使って文を作ります。",
+      "exampleMeaning": "用「具合」造句。"
     },
     {
-      "id": "n4-komu",
-      "word": "込む",
-      "kana": "こむ",
-      "meaning": "拥挤",
+      "id": "n4-89-は",
+      "word": "葉",
+      "kana": "は",
+      "meaning": "叶子",
+      "type": "名词",
+      "example": "「葉」を使って文を作ります。",
+      "exampleMeaning": "用「葉」造句。"
+    },
+    {
+      "id": "n4-90-はいけん",
+      "word": "拝見",
+      "kana": "はいけん",
+      "meaning": "seeing; looking at​",
       "type": "动词",
-      "example": "朝の電車は込んでいます。",
-      "exampleMeaning": "早上的电车很拥挤。"
+      "example": "「拝見」を使って文を作ります。",
+      "exampleMeaning": "用「拝見」造句。"
     },
     {
-      "id": "n4-kowai",
-      "word": "怖い",
-      "kana": "こわい",
-      "meaning": "可怕的",
+      "id": "n4-91-はいしゃ",
+      "word": "歯医者",
+      "kana": "はいしゃ",
+      "meaning": "牙医",
+      "type": "名词",
+      "example": "「歯医者」を使って文を作ります。",
+      "exampleMeaning": "用「歯医者」造句。"
+    },
+    {
+      "id": "n4-92-はっきり",
+      "word": "はっきり",
+      "kana": "はっきり",
+      "meaning": "清楚地",
+      "type": "副词",
+      "example": "「はっきり」を使って文を作ります。",
+      "exampleMeaning": "用「はっきり」造句。"
+    },
+    {
+      "id": "n4-hakobu",
+      "word": "運ぶ",
+      "kana": "はこぶ",
+      "meaning": "搬运",
+      "type": "动词",
+      "example": "「運ぶ」を使って文を作ります。",
+      "exampleMeaning": "用「運ぶ」造句。"
+    },
+    {
+      "id": "n4-94-はなみ",
+      "word": "花見",
+      "kana": "はなみ",
+      "meaning": "赏花",
+      "type": "动词",
+      "example": "「花見」を使って文を作ります。",
+      "exampleMeaning": "用「花見」造句。"
+    },
+    {
+      "id": "n4-95-ハント-ハ-ック",
+      "word": "ハンドバッグ",
+      "kana": "ハンドバッグ",
+      "meaning": "手提包",
+      "type": "外来语",
+      "example": "「ハンドバッグ」を使って文を作ります。",
+      "exampleMeaning": "用「ハンドバッグ」造句。"
+    },
+    {
+      "id": "n4-96-はんたい",
+      "word": "反対",
+      "kana": "はんたい",
+      "meaning": "反对",
       "type": "形容词",
-      "example": "怖い話を聞きました。",
-      "exampleMeaning": "听了可怕的故事。"
+      "example": "「反対」を使って文を作ります。",
+      "exampleMeaning": "用「反対」造句。"
     },
     {
-      "id": "n4-kowasu",
-      "word": "壊す",
-      "kana": "こわす",
-      "meaning": "弄坏",
+      "id": "n4-97-はらう",
+      "word": "払う",
+      "kana": "はらう",
+      "meaning": "支付",
       "type": "动词",
-      "example": "弟が時計を壊しました。",
-      "exampleMeaning": "弟弟弄坏了钟。"
+      "example": "「払う」を使って文を作ります。",
+      "exampleMeaning": "用「払う」造句。"
     },
     {
-      "id": "n4-kowareru",
-      "word": "壊れる",
-      "kana": "こわれる",
-      "meaning": "坏掉",
+      "id": "n4-98-はつおん",
+      "word": "発音",
+      "kana": "はつおん",
+      "meaning": "发音",
       "type": "动词",
-      "example": "古いテレビが壊れました。",
-      "exampleMeaning": "旧电视坏了。"
+      "example": "「発音」を使って文を作ります。",
+      "exampleMeaning": "用「発音」造句。"
     },
     {
-      "id": "n4-kondo",
-      "word": "今度",
-      "kana": "こんど",
-      "meaning": "这次、下次",
+      "id": "n4-99-はやし",
+      "word": "林",
+      "kana": "はやし",
+      "meaning": "树林",
       "type": "名词",
-      "example": "今度、一緒に行きましょう。",
-      "exampleMeaning": "下次一起去吧。"
+      "example": "「林」を使って文を作ります。",
+      "exampleMeaning": "用「林」造句。"
     },
     {
-      "id": "n4-konya",
-      "word": "今夜",
-      "kana": "こんや",
-      "meaning": "今晚",
-      "type": "名词",
-      "example": "今夜は早く寝ます。",
-      "exampleMeaning": "今晚早点睡。"
-    },
-    {
-      "id": "n4-saigo",
-      "word": "最後",
-      "kana": "さいご",
-      "meaning": "最后",
-      "type": "名词",
-      "example": "最後まで読んでください。",
-      "exampleMeaning": "请读到最后。"
-    },
-    {
-      "id": "n4-saisho",
-      "word": "最初",
-      "kana": "さいしょ",
-      "meaning": "最初",
-      "type": "名词",
-      "example": "最初の問題は簡単です。",
-      "exampleMeaning": "最开始的题很简单。"
-    },
-    {
-      "id": "n4-saka",
-      "word": "坂",
-      "kana": "さか",
-      "meaning": "坡",
-      "type": "名词",
-      "example": "長い坂を上ります。",
-      "exampleMeaning": "爬长坡。"
-    },
-    {
-      "id": "n4-sagasu",
-      "word": "探す",
-      "kana": "さがす",
-      "meaning": "寻找",
-      "type": "动词",
-      "example": "なくした鍵を探します。",
-      "exampleMeaning": "寻找丢失的钥匙。"
-    },
-    {
-      "id": "n4-sagaru",
-      "word": "下がる",
-      "kana": "さがる",
-      "meaning": "下降",
-      "type": "动词",
-      "example": "熱が下がりました。",
-      "exampleMeaning": "退烧了。"
-    },
-    {
-      "id": "n4-sageru",
-      "word": "下げる",
-      "kana": "さげる",
-      "meaning": "降低、放低",
-      "type": "动词",
-      "example": "音を少し下げてください。",
-      "exampleMeaning": "请把声音调低一点。"
-    },
-    {
-      "id": "n4-sashiageru",
-      "word": "差し上げる",
-      "kana": "さしあげる",
-      "meaning": "给（谦让语）",
-      "type": "动词",
-      "example": "先生に写真を差し上げました。",
-      "exampleMeaning": "把照片给了老师。"
-    },
-    {
-      "id": "n4-sabishii",
-      "word": "寂しい",
-      "kana": "さびしい",
-      "meaning": "寂寞的",
+      "id": "n4-100-はす-かしい",
+      "word": "恥ずかしい",
+      "kana": "はずかしい",
+      "meaning": "害羞的",
       "type": "形容词",
-      "example": "一人で少し寂しいです。",
-      "exampleMeaning": "一个人有点寂寞。"
+      "example": "「恥ずかしい」を使って文を作ります。",
+      "exampleMeaning": "用「恥ずかしい」造句。"
     },
     {
-      "id": "n4-sara-nen",
-      "word": "再来年",
-      "kana": "さらいねん",
-      "meaning": "后年",
-      "type": "名词",
-      "example": "再来年、日本へ行きたいです。",
-      "exampleMeaning": "后年想去日本。"
+      "id": "n4-101-へん",
+      "word": "変",
+      "kana": "へん",
+      "meaning": "奇怪的",
+      "type": "形容词",
+      "example": "「変」を使って文を作ります。",
+      "exampleMeaning": "用「変」造句。"
     },
     {
-      "id": "n4-sawagu",
-      "word": "騒ぐ",
-      "kana": "さわぐ",
-      "meaning": "吵闹",
+      "id": "n4-102-へんし",
+      "word": "返事",
+      "kana": "へんじ",
+      "meaning": "回复",
       "type": "动词",
-      "example": "教室で騒がないでください。",
-      "exampleMeaning": "请不要在教室吵闹。"
+      "example": "「返事」を使って文を作ります。",
+      "exampleMeaning": "用「返事」造句。"
     },
     {
-      "id": "n4-sawaru",
-      "word": "触る",
-      "kana": "さわる",
-      "meaning": "触摸",
+      "id": "n4-103-ひ",
+      "word": "火",
+      "kana": "ひ",
+      "meaning": "火、火灾",
+      "type": "名词",
+      "example": "「火」を使って文を作ります。",
+      "exampleMeaning": "用「火」造句。"
+    },
+    {
+      "id": "n4-104-ひと-い",
+      "word": "酷い",
+      "kana": "ひどい",
+      "meaning": "terrible; awful​",
+      "type": "形容词",
+      "example": "「酷い」を使って文を作ります。",
+      "exampleMeaning": "用「酷い」造句。"
+    },
+    {
+      "id": "n4-105-ひえる",
+      "word": "冷える",
+      "kana": "ひえる",
+      "meaning": "变冷",
       "type": "动词",
-      "example": "展示品に触らないでください。",
-      "exampleMeaning": "请不要触摸展品。"
+      "example": "「冷える」を使って文を作ります。",
+      "exampleMeaning": "用「冷える」造句。"
     },
     {
-      "id": "n4-sangyou",
-      "word": "産業",
-      "kana": "さんぎょう",
-      "meaning": "产业",
+      "id": "n4-106-ひけ",
+      "word": "髭",
+      "kana": "ひげ",
+      "meaning": "胡子",
       "type": "名词",
-      "example": "日本の産業について学びます。",
-      "exampleMeaning": "学习日本的产业。"
+      "example": "「髭」を使って文を作ります。",
+      "exampleMeaning": "用「髭」造句。"
     },
     {
-      "id": "n4-shi",
-      "word": "市",
-      "kana": "し",
-      "meaning": "市",
-      "type": "名词",
-      "example": "この市は人口が多いです。",
-      "exampleMeaning": "这个市人口多。"
+      "id": "n4-107-ひし-ょうに",
+      "word": "非常に",
+      "kana": "ひじょうに",
+      "meaning": "非常",
+      "type": "副词",
+      "example": "「非常に」を使って文を作ります。",
+      "exampleMeaning": "用「非常に」造句。"
     },
     {
-      "id": "n4-shiai",
-      "word": "試合",
-      "kana": "しあい",
-      "meaning": "比赛",
+      "id": "n4-108-ひかり",
+      "word": "光",
+      "kana": "ひかり",
+      "meaning": "光",
       "type": "名词",
-      "example": "サッカーの試合を見ます。",
-      "exampleMeaning": "看足球比赛。"
+      "example": "「光」を使って文を作ります。",
+      "exampleMeaning": "用「光」造句。"
     },
     {
-      "id": "n4-shikata",
-      "word": "仕方",
-      "kana": "しかた",
-      "meaning": "方法、办法",
-      "type": "名词",
-      "example": "漢字の覚え方を習います。",
-      "exampleMeaning": "学习汉字的记法。"
+      "id": "n4-109-ひかる",
+      "word": "光る",
+      "kana": "ひかる",
+      "meaning": "发光",
+      "type": "动词",
+      "example": "「光る」を使って文を作ります。",
+      "exampleMeaning": "用「光る」造句。"
     },
     {
-      "id": "n4-jiko",
-      "word": "事故",
-      "kana": "じこ",
-      "meaning": "事故",
+      "id": "n4-110-ひきた-し",
+      "word": "引き出し",
+      "kana": "ひきだし",
+      "meaning": "抽屉",
       "type": "名词",
-      "example": "駅の近くで事故がありました。",
-      "exampleMeaning": "车站附近发生了事故。"
+      "example": "「引き出し」を使って文を作ります。",
+      "exampleMeaning": "用「引き出し」造句。"
     },
     {
-      "id": "n4-jishin",
-      "word": "地震",
-      "kana": "じしん",
-      "meaning": "地震",
+      "id": "n4-111-ひきた-す",
+      "word": "引き出す",
+      "kana": "ひきだす",
+      "meaning": "取出",
+      "type": "动词",
+      "example": "「引き出す」を使って文を作ります。",
+      "exampleMeaning": "用「引き出す」造句。"
+    },
+    {
+      "id": "n4-112-ひっこす",
+      "word": "引っ越す",
+      "kana": "ひっこす",
+      "meaning": "搬家",
+      "type": "动词",
+      "example": "「引っ越す」を使って文を作ります。",
+      "exampleMeaning": "用「引っ越す」造句。"
+    },
+    {
+      "id": "n4-113-ひこうし-ょう",
+      "word": "飛行場",
+      "kana": "ひこうじょう",
+      "meaning": "机场",
       "type": "名词",
-      "example": "大きな地震がありました。",
-      "exampleMeaning": "发生了大地震。"
+      "example": "「飛行場」を使って文を作ります。",
+      "exampleMeaning": "用「飛行場」造句。"
+    },
+    {
+      "id": "n4-114-ひらく",
+      "word": "開く",
+      "kana": "ひらく",
+      "meaning": "打开、开设",
+      "type": "动词",
+      "example": "「開く」を使って文を作ります。",
+      "exampleMeaning": "用「開く」造句。"
+    },
+    {
+      "id": "n4-115-ひろう",
+      "word": "拾う",
+      "kana": "ひろう",
+      "meaning": "捡起",
+      "type": "动词",
+      "example": "「拾う」を使って文を作ります。",
+      "exampleMeaning": "用「拾う」造句。"
+    },
+    {
+      "id": "n4-116-ひるま",
+      "word": "昼間",
+      "kana": "ひるま",
+      "meaning": "白天",
+      "type": "名词",
+      "example": "「昼間」を使って文を作ります。",
+      "exampleMeaning": "用「昼間」造句。"
+    },
+    {
+      "id": "n4-117-ひるやすみ",
+      "word": "昼休み",
+      "kana": "ひるやすみ",
+      "meaning": "午休",
+      "type": "名词",
+      "example": "「昼休み」を使って文を作ります。",
+      "exampleMeaning": "用「昼休み」造句。"
+    },
+    {
+      "id": "n4-118-ひさしふ-り",
+      "word": "久しぶり",
+      "kana": "ひさしぶり",
+      "meaning": "好久不见",
+      "type": "形容词",
+      "example": "「久しぶり」を使って文を作ります。",
+      "exampleMeaning": "用「久しぶり」造句。"
+    },
+    {
+      "id": "n4-119-ほめる",
+      "word": "褒める",
+      "kana": "ほめる",
+      "meaning": "表扬",
+      "type": "动词",
+      "example": "「褒める」を使って文を作ります。",
+      "exampleMeaning": "用「褒める」造句。"
+    },
+    {
+      "id": "n4-120-ほんやく",
+      "word": "翻訳",
+      "kana": "ほんやく",
+      "meaning": "翻译",
+      "type": "动词",
+      "example": "「翻訳」を使って文を作ります。",
+      "exampleMeaning": "用「翻訳」造句。"
+    },
+    {
+      "id": "n4-121-ほし",
+      "word": "星",
+      "kana": "ほし",
+      "meaning": "星星",
+      "type": "名词",
+      "example": "「星」を使って文を作ります。",
+      "exampleMeaning": "用「星」造句。"
+    },
+    {
+      "id": "n4-122-ほとんと",
+      "word": "ほとんど",
+      "kana": "ほとんど",
+      "meaning": "几乎、大部分",
+      "type": "副词",
+      "example": "「ほとんど」を使って文を作ります。",
+      "exampleMeaning": "用「ほとんど」造句。"
+    },
+    {
+      "id": "n4-123-ほうりつ",
+      "word": "法律",
+      "kana": "ほうりつ",
+      "meaning": "法律",
+      "type": "名词",
+      "example": "「法律」を使って文を作ります。",
+      "exampleMeaning": "用「法律」造句。"
+    },
+    {
+      "id": "n4-124-ほうそう",
+      "word": "放送",
+      "kana": "ほうそう",
+      "meaning": "广播",
+      "type": "动词",
+      "example": "「放送」を使って文を作ります。",
+      "exampleMeaning": "用「放送」造句。"
+    },
+    {
+      "id": "n4-125-いちと",
+      "word": "一度",
+      "kana": "いちど",
+      "meaning": "一次",
+      "type": "名词",
+      "example": "「一度」を使って文を作ります。",
+      "exampleMeaning": "用「一度」造句。"
+    },
+    {
+      "id": "n4-igai",
+      "word": "以外",
+      "kana": "いがい",
+      "meaning": "以外、除了",
+      "type": "名词",
+      "example": "「以外」を使って文を作ります。",
+      "exampleMeaning": "用「以外」造句。"
+    },
+    {
+      "id": "n4-igaku",
+      "word": "医学",
+      "kana": "いがく",
+      "meaning": "医学",
+      "type": "名词",
+      "example": "「医学」を使って文を作ります。",
+      "exampleMeaning": "用「医学」造句。"
+    },
+    {
+      "id": "n4-128-いし-める",
+      "word": "いじめる",
+      "kana": "いじめる",
+      "meaning": "欺负",
+      "type": "动词",
+      "example": "「いじめる」を使って文を作ります。",
+      "exampleMeaning": "用「いじめる」造句。"
+    },
+    {
+      "id": "n4-ijou",
+      "word": "以上",
+      "kana": "いじょう",
+      "meaning": "... and more; ... and upwards​",
+      "type": "副词",
+      "example": "「以上」を使って文を作ります。",
+      "exampleMeaning": "用「以上」造句。"
+    },
+    {
+      "id": "n4-ika",
+      "word": "以下",
+      "kana": "いか",
+      "meaning": "以下",
+      "type": "名词",
+      "example": "「以下」を使って文を作ります。",
+      "exampleMeaning": "用「以下」造句。"
+    },
+    {
+      "id": "n4-iken",
+      "word": "意見",
+      "kana": "いけん",
+      "meaning": "意见",
+      "type": "动词",
+      "example": "「意見」を使って文を作ります。",
+      "exampleMeaning": "用「意見」造句。"
+    },
+    {
+      "id": "n4-132-いきもの",
+      "word": "生き物",
+      "kana": "いきもの",
+      "meaning": "生物",
+      "type": "名词",
+      "example": "「生き物」を使って文を作ります。",
+      "exampleMeaning": "用「生き物」造句。"
+    },
+    {
+      "id": "n4-133-いきる",
+      "word": "生きる",
+      "kana": "いきる",
+      "meaning": "生活、生存",
+      "type": "动词",
+      "example": "「生きる」を使って文を作ります。",
+      "exampleMeaning": "用「生きる」造句。"
+    },
+    {
+      "id": "n4-inai",
+      "word": "以内",
+      "kana": "いない",
+      "meaning": "以内",
+      "type": "接尾词",
+      "example": "「以内」を使って文を作ります。",
+      "exampleMeaning": "用「以内」造句。"
+    },
+    {
+      "id": "n4-135-いなか",
+      "word": "田舎",
+      "kana": "いなか",
+      "meaning": "乡下",
+      "type": "名词",
+      "example": "「田舎」を使って文を作ります。",
+      "exampleMeaning": "用「田舎」造句。"
+    },
+    {
+      "id": "n4-136-いのる",
+      "word": "祈る",
+      "kana": "いのる",
+      "meaning": "祈祷",
+      "type": "动词",
+      "example": "「祈る」を使って文を作ります。",
+      "exampleMeaning": "用「祈る」造句。"
+    },
+    {
+      "id": "n4-137-いっは-い",
+      "word": "いっぱい",
+      "kana": "いっぱい",
+      "meaning": "满、很多",
+      "type": "副词",
+      "example": "「いっぱい」を使って文を作ります。",
+      "exampleMeaning": "用「いっぱい」造句。"
+    },
+    {
+      "id": "n4-138-いろんな",
+      "word": "色んな",
+      "kana": "いろんな",
+      "meaning": "各种各样的",
+      "type": "连体词",
+      "example": "「色んな」を使って文を作ります。",
+      "exampleMeaning": "用「色んな」造句。"
+    },
+    {
+      "id": "n4-ishii",
+      "word": "石",
+      "kana": "いし",
+      "meaning": "石头",
+      "type": "名词",
+      "example": "「石」を使って文を作ります。",
+      "exampleMeaning": "用「石」造句。"
+    },
+    {
+      "id": "n4-isogu",
+      "word": "急ぐ",
+      "kana": "いそぐ",
+      "meaning": "着急、赶紧",
+      "type": "动词",
+      "example": "「急ぐ」を使って文を作ります。",
+      "exampleMeaning": "用「急ぐ」造句。"
+    },
+    {
+      "id": "n4-141-いっしょうけんめい",
+      "word": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "meaning": "拼命、努力",
+      "type": "副词",
+      "example": "「一生懸命」を使って文を作ります。",
+      "exampleMeaning": "用「一生懸命」造句。"
+    },
+    {
+      "id": "n4-142-いたた-く",
+      "word": "頂く",
+      "kana": "いただく",
+      "meaning": "收到、吃喝（谦让语）",
+      "type": "动词",
+      "example": "「頂く」を使って文を作ります。",
+      "exampleMeaning": "用「頂く」造句。"
+    },
+    {
+      "id": "n4-143-いたす",
+      "word": "致す",
+      "kana": "いたす",
+      "meaning": "做（谦让语）",
+      "type": "动词",
+      "example": "「致す」を使って文を作ります。",
+      "exampleMeaning": "用「致す」造句。"
+    },
+    {
+      "id": "n4-144-いと",
+      "word": "糸",
+      "kana": "いと",
+      "meaning": "线",
+      "type": "名词",
+      "example": "「糸」を使って文を作ります。",
+      "exampleMeaning": "用「糸」造句。"
+    },
+    {
+      "id": "n4-145-シ-ャム",
+      "word": "ジャム",
+      "kana": "ジャム",
+      "meaning": "果酱",
+      "type": "外来语",
+      "example": "「ジャム」を使って文を作ります。",
+      "exampleMeaning": "用「ジャム」造句。"
+    },
+    {
+      "id": "n4-146-し",
+      "word": "字",
+      "kana": "じ",
+      "meaning": "字",
+      "type": "名词",
+      "example": "「字」を使って文を作ります。",
+      "exampleMeaning": "用「字」造句。"
     },
     {
       "id": "n4-jidai",
@@ -8666,134 +8522,80 @@
       "kana": "じだい",
       "meaning": "时代",
       "type": "名词",
-      "example": "今の時代は便利です。",
-      "exampleMeaning": "现在的时代很方便。"
+      "example": "「時代」を使って文を作ります。",
+      "exampleMeaning": "用「時代」造句。"
     },
     {
-      "id": "n4-shitaku",
-      "word": "支度",
-      "kana": "したく",
-      "meaning": "准备",
-      "type": "名词/サ变",
-      "example": "出かける支度をします。",
-      "exampleMeaning": "做出门准备。"
-    },
-    {
-      "id": "n4-shima",
-      "word": "島",
-      "kana": "しま",
-      "meaning": "岛",
+      "id": "n4-jiko",
+      "word": "事故",
+      "kana": "じこ",
+      "meaning": "事故",
       "type": "名词",
-      "example": "小さい島に住んでいます。",
-      "exampleMeaning": "住在小岛上。"
+      "example": "「事故」を使って文を作ります。",
+      "exampleMeaning": "用「事故」造句。"
     },
     {
-      "id": "n4-shimin",
-      "word": "市民",
-      "kana": "しみん",
-      "meaning": "市民",
+      "id": "n4-149-し-むしょ",
+      "word": "事務所",
+      "kana": "じむしょ",
+      "meaning": "事务所",
       "type": "名词",
-      "example": "市民センターで勉強します。",
-      "exampleMeaning": "在市民中心学习。"
+      "example": "「事務所」を使って文を作ります。",
+      "exampleMeaning": "用「事務所」造句。"
     },
     {
-      "id": "n4-shuukan",
-      "word": "習慣",
-      "kana": "しゅうかん",
-      "meaning": "习惯",
+      "id": "n4-150-し-んし-ゃ",
+      "word": "神社",
+      "kana": "じんじゃ",
+      "meaning": "神社",
       "type": "名词",
-      "example": "毎日読む習慣を作ります。",
-      "exampleMeaning": "养成每天阅读的习惯。"
+      "example": "「神社」を使って文を作ります。",
+      "exampleMeaning": "用「神社」造句。"
     },
     {
-      "id": "n4-juudou",
-      "word": "柔道",
-      "kana": "じゅうどう",
-      "meaning": "柔道",
+      "id": "n4-151-し-んこう",
+      "word": "人口",
+      "kana": "じんこう",
+      "meaning": "人口",
       "type": "名词",
-      "example": "学校で柔道を習いました。",
-      "exampleMeaning": "在学校学过柔道。"
+      "example": "「人口」を使って文を作ります。",
+      "exampleMeaning": "用「人口」造句。"
     },
     {
-      "id": "n4-shusseki",
-      "word": "出席",
-      "kana": "しゅっせき",
-      "meaning": "出席",
-      "type": "名词/サ变",
-      "example": "会議に出席します。",
-      "exampleMeaning": "出席会议。"
-    },
-    {
-      "id": "n4-shuppatsu",
-      "word": "出発",
-      "kana": "しゅっぱつ",
-      "meaning": "出发",
-      "type": "名词/サ变",
-      "example": "八時に出発します。",
-      "exampleMeaning": "八点出发。"
-    },
-    {
-      "id": "n4-shumi",
-      "word": "趣味",
-      "kana": "しゅみ",
-      "meaning": "兴趣爱好",
+      "id": "n4-152-し-んせい",
+      "word": "人生",
+      "kana": "じんせい",
+      "meaning": "人生",
       "type": "名词",
-      "example": "私の趣味は読書です。",
-      "exampleMeaning": "我的爱好是读书。"
+      "example": "「人生」を使って文を作ります。",
+      "exampleMeaning": "用「人生」造句。"
     },
     {
-      "id": "n4-shoukai",
-      "word": "紹介",
-      "kana": "しょうかい",
-      "meaning": "介绍",
-      "type": "名词/サ变",
-      "example": "友達を紹介します。",
-      "exampleMeaning": "介绍朋友。"
-    },
-    {
-      "id": "n4-shougakkou",
-      "word": "小学校",
-      "kana": "しょうがっこう",
-      "meaning": "小学",
+      "id": "n4-jishin",
+      "word": "地震",
+      "kana": "じしん",
+      "meaning": "地震",
       "type": "名词",
-      "example": "家の近くに小学校があります。",
-      "exampleMeaning": "家附近有小学。"
+      "example": "「地震」を使って文を作ります。",
+      "exampleMeaning": "用「地震」造句。"
     },
     {
-      "id": "n4-shousetsu",
-      "word": "小説",
-      "kana": "しょうせつ",
-      "meaning": "小说",
+      "id": "n4-154-し-てん",
+      "word": "辞典",
+      "kana": "じてん",
+      "meaning": "词典",
       "type": "名词",
-      "example": "日本語の小説を読みます。",
-      "exampleMeaning": "读日语小说。"
+      "example": "「辞典」を使って文を作ります。",
+      "exampleMeaning": "用「辞典」造句。"
     },
     {
-      "id": "n4-shourai",
-      "word": "将来",
-      "kana": "しょうらい",
-      "meaning": "将来",
-      "type": "名词",
-      "example": "将来、日本で働きたいです。",
-      "exampleMeaning": "将来想在日本工作。"
-    },
-    {
-      "id": "n4-shokuji",
-      "word": "食事",
-      "kana": "しょくじ",
-      "meaning": "用餐",
-      "type": "名词/サ变",
-      "example": "家族と食事します。",
-      "exampleMeaning": "和家人吃饭。"
-    },
-    {
-      "id": "n4-shokuryouhin",
-      "word": "食料品",
-      "kana": "しょくりょうひん",
-      "meaning": "食品",
-      "type": "名词",
-      "example": "スーパーで食料品を買います。",
-      "exampleMeaning": "在超市买食品。"
+      "id": "n4-155-し-ゆう",
+      "word": "自由",
+      "kana": "じゆう",
+      "meaning": "自由",
+      "type": "形容词",
+      "example": "「自由」を使って文を作ります。",
+      "exampleMeaning": "用「自由」造句。"
     },
     {
       "id": "n4-josei",
@@ -8801,107 +8603,3743 @@
       "kana": "じょせい",
       "meaning": "女性",
       "type": "名词",
-      "example": "女性の先生に習います。",
-      "exampleMeaning": "跟女老师学习。"
+      "example": "「女性」を使って文を作ります。",
+      "exampleMeaning": "用「女性」造句。"
     },
     {
-      "id": "n4-shiraseru",
-      "word": "知らせる",
-      "kana": "しらせる",
-      "meaning": "通知",
+      "id": "n4-junbi",
+      "word": "準備",
+      "kana": "じゅんび",
+      "meaning": "准备",
       "type": "动词",
-      "example": "結果をメールで知らせます。",
-      "exampleMeaning": "用邮件通知结果。"
+      "example": "「準備」を使って文を作ります。",
+      "exampleMeaning": "用「準備」造句。"
+    },
+    {
+      "id": "n4-158-し-ゅうふ-ん",
+      "word": "十分",
+      "kana": "じゅうぶん",
+      "meaning": "充分、足够",
+      "type": "副词",
+      "example": "「十分」を使って文を作ります。",
+      "exampleMeaning": "用「十分」造句。"
+    },
+    {
+      "id": "n4-juudou",
+      "word": "柔道",
+      "kana": "じゅうどう",
+      "meaning": "柔道",
+      "type": "名词",
+      "example": "「柔道」を使って文を作ります。",
+      "exampleMeaning": "用「柔道」造句。"
+    },
+    {
+      "id": "n4-juusho",
+      "word": "住所",
+      "kana": "じゅうしょ",
+      "meaning": "地址",
+      "type": "名词",
+      "example": "「住所」を使って文を作ります。",
+      "exampleMeaning": "用「住所」造句。"
+    },
+    {
+      "id": "n4-161-カーテン",
+      "word": "カーテン",
+      "kana": "カーテン",
+      "meaning": "curtain",
+      "type": "外来语",
+      "example": "「カーテン」を使って文を作ります。",
+      "exampleMeaning": "用「カーテン」造句。"
+    },
+    {
+      "id": "n4-kabe",
+      "word": "壁",
+      "kana": "かべ",
+      "meaning": "wall",
+      "type": "名词",
+      "example": "「壁」を使って文を作ります。",
+      "exampleMeaning": "用「壁」造句。"
+    },
+    {
+      "id": "n4-kachou",
+      "word": "課長",
+      "kana": "かちょう",
+      "meaning": "section manager; section chief",
+      "type": "名词",
+      "example": "「課長」を使って文を作ります。",
+      "exampleMeaning": "用「課長」造句。"
+    },
+    {
+      "id": "n4-kaeri",
+      "word": "帰り",
+      "kana": "かえり",
+      "meaning": "return; coming back",
+      "type": "名词",
+      "example": "「帰り」を使って文を作ります。",
+      "exampleMeaning": "用「帰り」造句。"
+    },
+    {
+      "id": "n4-165-かえる",
+      "word": "変える",
+      "kana": "かえる",
+      "meaning": "to change; to transform",
+      "type": "动词",
+      "example": "「変える」を使って文を作ります。",
+      "exampleMeaning": "用「変える」造句。"
+    },
+    {
+      "id": "n4-kagaku",
+      "word": "科学",
+      "kana": "かがく",
+      "meaning": "science",
+      "type": "名词",
+      "example": "「科学」を使って文を作ります。",
+      "exampleMeaning": "用「科学」造句。"
+    },
+    {
+      "id": "n4-kagami",
+      "word": "鏡",
+      "kana": "かがみ",
+      "meaning": "mirror",
+      "type": "名词",
+      "example": "「鏡」を使って文を作ります。",
+      "exampleMeaning": "用「鏡」造句。"
+    },
+    {
+      "id": "n4-168-かいか-ん",
+      "word": "海岸",
+      "kana": "かいがん",
+      "meaning": "coast",
+      "type": "名词",
+      "example": "「海岸」を使って文を作ります。",
+      "exampleMeaning": "用「海岸」造句。"
+    },
+    {
+      "id": "n4-kaigi",
+      "word": "会議",
+      "kana": "かいぎ",
+      "meaning": "meeting; conference; session; assembly",
+      "type": "动词",
+      "example": "「会議」を使って文を作ります。",
+      "exampleMeaning": "用「会議」造句。"
+    },
+    {
+      "id": "n4-170-かいき-しつ",
+      "word": "会議室",
+      "kana": "かいぎしつ",
+      "meaning": "conference room; conference hall; council room",
+      "type": "名词",
+      "example": "「会議室」を使って文を作ります。",
+      "exampleMeaning": "用「会議室」造句。"
+    },
+    {
+      "id": "n4-kaijou",
+      "word": "会場",
+      "kana": "かいじょう",
+      "meaning": "assembly hall; meeting place; venue; grounds",
+      "type": "名词",
+      "example": "「会場」を使って文を作ります。",
+      "exampleMeaning": "用「会場」造句。"
+    },
+    {
+      "id": "n4-172-かいわ",
+      "word": "会話",
+      "kana": "かいわ",
+      "meaning": "conversation",
+      "type": "动词",
+      "example": "「会話」を使って文を作ります。",
+      "exampleMeaning": "用「会話」造句。"
+    },
+    {
+      "id": "n4-kaji",
+      "word": "火事",
+      "kana": "かじ",
+      "meaning": "火、火灾",
+      "type": "名词",
+      "example": "「火事」を使って文を作ります。",
+      "exampleMeaning": "用「火事」造句。"
+    },
+    {
+      "id": "n4-174-かっこう",
+      "word": "格好",
+      "kana": "かっこう",
+      "meaning": "appearance",
+      "type": "名词",
+      "example": "「格好」を使って文を作ります。",
+      "exampleMeaning": "用「格好」造句。"
+    },
+    {
+      "id": "n4-175-かまう",
+      "word": "構う",
+      "kana": "かまう",
+      "meaning": "to mind",
+      "type": "动词",
+      "example": "「構う」を使って文を作ります。",
+      "exampleMeaning": "用「構う」造句。"
+    },
+    {
+      "id": "n4-kami-hair",
+      "word": "髪",
+      "kana": "かみ",
+      "meaning": "hair",
+      "type": "名词",
+      "example": "「髪」を使って文を作ります。",
+      "exampleMeaning": "用「髪」造句。"
+    },
+    {
+      "id": "n4-kamu",
+      "word": "噛む",
+      "kana": "かむ",
+      "meaning": "to bite,to chew",
+      "type": "动词",
+      "example": "「噛む」を使って文を作ります。",
+      "exampleMeaning": "用「噛む」造句。"
+    },
+    {
+      "id": "n4-kanai",
+      "word": "家内",
+      "kana": "かない",
+      "meaning": "(my) wife; inside the home; one's family",
+      "type": "名词",
+      "example": "「家内」を使って文を作ります。",
+      "exampleMeaning": "用「家内」造句。"
+    },
+    {
+      "id": "n4-kanarazu",
+      "word": "必ず",
+      "kana": "かならず",
+      "meaning": "always; certainly",
+      "type": "副词",
+      "example": "「必ず」を使って文を作ります。",
+      "exampleMeaning": "用「必ず」造句。"
+    },
+    {
+      "id": "n4-kanashii",
+      "word": "悲しい",
+      "kana": "かなしい",
+      "meaning": "sad",
+      "type": "形容词",
+      "example": "「悲しい」を使って文を作ります。",
+      "exampleMeaning": "用「悲しい」造句。"
+    },
+    {
+      "id": "n4-kangaeru",
+      "word": "考える",
+      "kana": "かんがえる",
+      "meaning": "to think",
+      "type": "动词",
+      "example": "「考える」を使って文を作ります。",
+      "exampleMeaning": "用「考える」造句。"
+    },
+    {
+      "id": "n4-182-かんこ-ふ",
+      "word": "看護婦",
+      "kana": "かんごふ",
+      "meaning": "female nurse",
+      "type": "名词",
+      "example": "「看護婦」を使って文を作ります。",
+      "exampleMeaning": "用「看護婦」造句。"
+    },
+    {
+      "id": "n4-183-かんけい",
+      "word": "関係",
+      "kana": "かんけい",
+      "meaning": "relationship",
+      "type": "动词",
+      "example": "「関係」を使って文を作ります。",
+      "exampleMeaning": "用「関係」造句。"
+    },
+    {
+      "id": "n4-kanojo",
+      "word": "彼女",
+      "kana": "かのじょ",
+      "meaning": "she; her​",
+      "type": "代词",
+      "example": "「彼女」を使って文を作ります。",
+      "exampleMeaning": "用「彼女」造句。"
+    },
+    {
+      "id": "n4-185-かんたん",
+      "word": "簡単",
+      "kana": "かんたん",
+      "meaning": "simple; easy",
+      "type": "形容词",
+      "example": "「簡単」を使って文を作ります。",
+      "exampleMeaning": "用「簡単」造句。"
+    },
+    {
+      "id": "n4-kare",
+      "word": "彼",
+      "kana": "かれ",
+      "meaning": "he; him​; his",
+      "type": "代词",
+      "example": "「彼」を使って文を作ります。",
+      "exampleMeaning": "用「彼」造句。"
+    },
+    {
+      "id": "n4-187-かれら",
+      "word": "彼ら",
+      "kana": "かれら",
+      "meaning": "they; them",
+      "type": "代词",
+      "example": "「彼ら」を使って文を作ります。",
+      "exampleMeaning": "用「彼ら」造句。"
+    },
+    {
+      "id": "n4-katachi",
+      "word": "形",
+      "kana": "かたち",
+      "meaning": "shape",
+      "type": "名词",
+      "example": "「形」を使って文を作ります。",
+      "exampleMeaning": "用「形」造句。"
+    },
+    {
+      "id": "n4-katadukeru",
+      "word": "片付ける",
+      "kana": "かたづける",
+      "meaning": "to tidy up",
+      "type": "动词",
+      "example": "「片付ける」を使って文を作ります。",
+      "exampleMeaning": "用「片付ける」造句。"
+    },
+    {
+      "id": "n4-katai",
+      "word": "硬い",
+      "kana": "かたい",
+      "meaning": "hard",
+      "type": "形容词",
+      "example": "「硬い」を使って文を作ります。",
+      "exampleMeaning": "用「硬い」造句。"
+    },
+    {
+      "id": "n4-katsu",
+      "word": "勝つ",
+      "kana": "かつ",
+      "meaning": "to win",
+      "type": "动词",
+      "example": "「勝つ」を使って文を作ります。",
+      "exampleMeaning": "用「勝つ」造句。"
+    },
+    {
+      "id": "n4-kawaku",
+      "word": "乾く",
+      "kana": "かわく",
+      "meaning": "to get dry",
+      "type": "动词",
+      "example": "「乾く」を使って文を作ります。",
+      "exampleMeaning": "用「乾く」造句。"
+    },
+    {
+      "id": "n4-193-かわり",
+      "word": "代わり",
+      "kana": "かわり",
+      "meaning": "instead; in place",
+      "type": "名词",
+      "example": "「代わり」を使って文を作ります。",
+      "exampleMeaning": "用「代わり」造句。"
+    },
+    {
+      "id": "n4-kawaru",
+      "word": "変わる",
+      "kana": "かわる",
+      "meaning": "to change",
+      "type": "动词",
+      "example": "「変わる」を使って文を作ります。",
+      "exampleMeaning": "用「変わる」造句。"
+    },
+    {
+      "id": "n4-kayou",
+      "word": "通う",
+      "kana": "かよう",
+      "meaning": "to commute",
+      "type": "动词",
+      "example": "「通う」を使って文を作ります。",
+      "exampleMeaning": "用「通う」造句。"
+    },
+    {
+      "id": "n4-196-かさ-る",
+      "word": "飾る",
+      "kana": "かざる",
+      "meaning": "to decorate",
+      "type": "动词",
+      "example": "「飾る」を使って文を作ります。",
+      "exampleMeaning": "用「飾る」造句。"
+    },
+    {
+      "id": "n4-197-け",
+      "word": "毛",
+      "kana": "け",
+      "meaning": "hair or fur",
+      "type": "名词",
+      "example": "「毛」を使って文を作ります。",
+      "exampleMeaning": "用「毛」造句。"
+    },
+    {
+      "id": "n4-198-ケーキ",
+      "word": "ケーキ",
+      "kana": "ケーキ",
+      "meaning": "cake",
+      "type": "外来语",
+      "example": "「ケーキ」を使って文を作ります。",
+      "exampleMeaning": "用「ケーキ」造句。"
+    },
+    {
+      "id": "n4-199-けか",
+      "word": "怪我",
+      "kana": "けが",
+      "meaning": "to injure",
+      "type": "动词",
+      "example": "「怪我」を使って文を作ります。",
+      "exampleMeaning": "用「怪我」造句。"
+    },
+    {
+      "id": "n4-200-けいかく",
+      "word": "計画",
+      "kana": "けいかく",
+      "meaning": "to plan",
+      "type": "动词",
+      "example": "「計画」を使って文を作ります。",
+      "exampleMeaning": "用「計画」造句。"
+    },
+    {
+      "id": "n4-keiken",
+      "word": "経験",
+      "kana": "けいけん",
+      "meaning": "to experience",
+      "type": "动词",
+      "example": "「経験」を使って文を作ります。",
+      "exampleMeaning": "用「経験」造句。"
+    },
+    {
+      "id": "n4-keisatsu",
+      "word": "警察",
+      "kana": "けいさつ",
+      "meaning": "police",
+      "type": "名词",
+      "example": "「警察」を使って文を作ります。",
+      "exampleMeaning": "用「警察」造句。"
+    },
+    {
+      "id": "n4-203-けいさ-い",
+      "word": "経済",
+      "kana": "けいざい",
+      "meaning": "finance, economy",
+      "type": "名词",
+      "example": "「経済」を使って文を作ります。",
+      "exampleMeaning": "用「経済」造句。"
+    },
+    {
+      "id": "n4-kenbutsu",
+      "word": "見物",
+      "kana": "けんぶつ",
+      "meaning": "sightseeing; visit",
+      "type": "动词",
+      "example": "「見物」を使って文を作ります。",
+      "exampleMeaning": "用「見物」造句。"
+    },
+    {
+      "id": "n4-205-けんか",
+      "word": "喧嘩",
+      "kana": "けんか",
+      "meaning": "to quarrel",
+      "type": "动词",
+      "example": "「喧嘩」を使って文を作ります。",
+      "exampleMeaning": "用「喧嘩」造句。"
+    },
+    {
+      "id": "n4-kenkyuu",
+      "word": "研究",
+      "kana": "けんきゅう",
+      "meaning": "research",
+      "type": "动词",
+      "example": "「研究」を使って文を作ります。",
+      "exampleMeaning": "用「研究」造句。"
+    },
+    {
+      "id": "n4-kenkyuushitsu",
+      "word": "研究室",
+      "kana": "けんきゅうしつ",
+      "meaning": "laboratory",
+      "type": "名词",
+      "example": "「研究室」を使って文を作ります。",
+      "exampleMeaning": "用「研究室」造句。"
+    },
+    {
+      "id": "n4-208-消しコ-ム",
+      "word": "消しゴム",
+      "kana": "消しゴム",
+      "meaning": "eraser",
+      "type": "名词",
+      "example": "「消しゴム」を使って文を作ります。",
+      "exampleMeaning": "用「消しゴム」造句。"
+    },
+    {
+      "id": "n4-keshiki",
+      "word": "景色",
+      "kana": "けしき",
+      "meaning": "scenery",
+      "type": "名词",
+      "example": "「景色」を使って文を作ります。",
+      "exampleMeaning": "用「景色」造句。"
+    },
+    {
+      "id": "n4-210-き",
+      "word": "気",
+      "kana": "き",
+      "meaning": "spirit",
+      "type": "名词",
+      "example": "「気」を使って文を作ります。",
+      "exampleMeaning": "用「気」造句。"
+    },
+    {
+      "id": "n4-211-きひ-しい",
+      "word": "厳しい",
+      "kana": "きびしい",
+      "meaning": "strict",
+      "type": "形容词",
+      "example": "「厳しい」を使って文を作ります。",
+      "exampleMeaning": "用「厳しい」造句。"
+    },
+    {
+      "id": "n4-212-きふ-ん",
+      "word": "気分",
+      "kana": "きぶん",
+      "meaning": "feeling; mood",
+      "type": "名词",
+      "example": "「気分」を使って文を作ります。",
+      "exampleMeaning": "用「気分」造句。"
+    },
+    {
+      "id": "n4-213-きかい",
+      "word": "機会",
+      "kana": "きかい",
+      "meaning": "chance; opportunity",
+      "type": "名词",
+      "example": "「機会」を使って文を作ります。",
+      "exampleMeaning": "用「機会」造句。"
+    },
+    {
+      "id": "n4-kiken",
+      "word": "危険",
+      "kana": "きけん",
+      "meaning": "danger",
+      "type": "形容词",
+      "example": "「危険」を使って文を作ります。",
+      "exampleMeaning": "用「危険」造句。"
+    },
+    {
+      "id": "n4-kikoeu",
+      "word": "聞こえる",
+      "kana": "きこえる",
+      "meaning": "to be heard; to be audible; to be said",
+      "type": "动词",
+      "example": "「聞こえる」を使って文を作ります。",
+      "exampleMeaning": "用「聞こえる」造句。"
+    },
+    {
+      "id": "n4-kimaru",
+      "word": "決まる",
+      "kana": "きまる",
+      "meaning": "to be decided",
+      "type": "动词",
+      "example": "「決まる」を使って文を作ります。",
+      "exampleMeaning": "用「決まる」造句。"
+    },
+    {
+      "id": "n4-217-きめる",
+      "word": "決める",
+      "kana": "きめる",
+      "meaning": "to decide",
+      "type": "动词",
+      "example": "「決める」を使って文を作ります。",
+      "exampleMeaning": "用「決める」造句。"
+    },
+    {
+      "id": "n4-kimi",
+      "word": "君",
+      "kana": "きみ",
+      "meaning": "You",
+      "type": "代词",
+      "example": "「君」を使って文を作ります。",
+      "exampleMeaning": "用「君」造句。"
+    },
+    {
+      "id": "n4-kimochi",
+      "word": "気持ち",
+      "kana": "きもち",
+      "meaning": "feeling",
+      "type": "名词",
+      "example": "「気持ち」を使って文を作ります。",
+      "exampleMeaning": "用「気持ち」造句。"
+    },
+    {
+      "id": "n4-220-きもの",
+      "word": "着物",
+      "kana": "きもの",
+      "meaning": "kimono; Japanese traditional clothing",
+      "type": "名词",
+      "example": "「着物」を使って文を作ります。",
+      "exampleMeaning": "用「着物」造句。"
+    },
+    {
+      "id": "n4-kinjo",
+      "word": "近所",
+      "kana": "きんじょ",
+      "meaning": "neighbourhood",
+      "type": "名词",
+      "example": "「近所」を使って文を作ります。",
+      "exampleMeaning": "用「近所」造句。"
+    },
+    {
+      "id": "n4-222-きぬ",
+      "word": "絹",
+      "kana": "きぬ",
+      "meaning": "silk",
+      "type": "名词",
+      "example": "「絹」を使って文を作ります。",
+      "exampleMeaning": "用「絹」造句。"
+    },
+    {
+      "id": "n4-223-きせつ",
+      "word": "季節",
+      "kana": "きせつ",
+      "meaning": "season",
+      "type": "名词",
+      "example": "「季節」を使って文を作ります。",
+      "exampleMeaning": "用「季節」造句。"
+    },
+    {
+      "id": "n4-224-きしゃ",
+      "word": "汽車",
+      "kana": "きしゃ",
+      "meaning": "train",
+      "type": "名词",
+      "example": "「汽車」を使って文を作ります。",
+      "exampleMeaning": "用「汽車」造句。"
+    },
+    {
+      "id": "n4-225-きそく",
+      "word": "規則",
+      "kana": "きそく",
+      "meaning": "rule",
+      "type": "名词",
+      "example": "「規則」を使って文を作ります。",
+      "exampleMeaning": "用「規則」造句。"
+    },
+    {
+      "id": "n4-ko",
+      "word": "子",
+      "kana": "こ",
+      "meaning": "child",
+      "type": "名词",
+      "example": "「子」を使って文を作ります。",
+      "exampleMeaning": "用「子」造句。"
+    },
+    {
+      "id": "n4-kokoro",
+      "word": "心",
+      "kana": "こころ",
+      "meaning": "heart",
+      "type": "名词",
+      "example": "「心」を使って文を作ります。",
+      "exampleMeaning": "用「心」造句。"
+    },
+    {
+      "id": "n4-kokusai",
+      "word": "国際",
+      "kana": "こくさい",
+      "meaning": "international",
+      "type": "名词",
+      "example": "「国際」を使って文を作ります。",
+      "exampleMeaning": "用「国際」造句。"
+    },
+    {
+      "id": "n4-komakai",
+      "word": "細かい",
+      "kana": "こまかい",
+      "meaning": "small, fine",
+      "type": "形容词",
+      "example": "「細かい」を使って文を作ります。",
+      "exampleMeaning": "用「細かい」造句。"
+    },
+    {
+      "id": "n4-230-こめ",
+      "word": "米",
+      "kana": "こめ",
+      "meaning": "(husked grains of) rice",
+      "type": "名词",
+      "example": "「米」を使って文を作ります。",
+      "exampleMeaning": "用「米」造句。"
+    },
+    {
+      "id": "n4-komu",
+      "word": "込む",
+      "kana": "こむ",
+      "meaning": "to be crowded",
+      "type": "动词",
+      "example": "「込む」を使って文を作ります。",
+      "exampleMeaning": "用「込む」造句。"
+    },
+    {
+      "id": "n4-kondo",
+      "word": "今度",
+      "kana": "こんど",
+      "meaning": "this time; next time",
+      "type": "名词",
+      "example": "「今度」を使って文を作ります。",
+      "exampleMeaning": "用「今度」造句。"
+    },
+    {
+      "id": "n4-233-このあいた",
+      "word": "この間",
+      "kana": "このあいだ",
+      "meaning": "the other day; recently",
+      "type": "副词",
+      "example": "「この間」を使って文を作ります。",
+      "exampleMeaning": "用「この間」造句。"
+    },
+    {
+      "id": "n4-234-このこ-ろ",
+      "word": "このごろ",
+      "kana": "このごろ",
+      "meaning": "these days; nowadays",
+      "type": "副词",
+      "example": "「このごろ」を使って文を作ります。",
+      "exampleMeaning": "用「このごろ」造句。"
+    },
+    {
+      "id": "n4-235-コンヒ-ュータ",
+      "word": "コンピュータ",
+      "kana": "コンピュータ",
+      "meaning": "computer",
+      "type": "外来语",
+      "example": "「コンピュータ」を使って文を作ります。",
+      "exampleMeaning": "用「コンピュータ」造句。"
+    },
+    {
+      "id": "n4-236-コンサート",
+      "word": "コンサート",
+      "kana": "コンサート",
+      "meaning": "concert",
+      "type": "外来语",
+      "example": "「コンサート」を使って文を作ります。",
+      "exampleMeaning": "用「コンサート」造句。"
+    },
+    {
+      "id": "n4-konya",
+      "word": "今夜",
+      "kana": "こんや",
+      "meaning": "this evening; tonigh",
+      "type": "名词",
+      "example": "「今夜」を使って文を作ります。",
+      "exampleMeaning": "用「今夜」造句。"
+    },
+    {
+      "id": "n4-238-これから",
+      "word": "これから",
+      "kana": "これから",
+      "meaning": "after this",
+      "type": "词汇",
+      "example": "「これから」を使って文を作ります。",
+      "exampleMeaning": "用「これから」造句。"
+    },
+    {
+      "id": "n4-239-こしょう",
+      "word": "故障",
+      "kana": "こしょう",
+      "meaning": "to break-down",
+      "type": "动词",
+      "example": "「故障」を使って文を作ります。",
+      "exampleMeaning": "用「故障」造句。"
+    },
+    {
+      "id": "n4-240-こたえ",
+      "word": "答え",
+      "kana": "こたえ",
+      "meaning": "response",
+      "type": "名词",
+      "example": "「答え」を使って文を作ります。",
+      "exampleMeaning": "用「答え」造句。"
+    },
+    {
+      "id": "n4-241-ことり",
+      "word": "小鳥",
+      "kana": "ことり",
+      "meaning": "small bird",
+      "type": "名词",
+      "example": "「小鳥」を使って文を作ります。",
+      "exampleMeaning": "用「小鳥」造句。"
+    },
+    {
+      "id": "n4-242-こう",
+      "word": "こう",
+      "kana": "こう",
+      "meaning": "this way",
+      "type": "副词",
+      "example": "「こう」を使って文を作ります。",
+      "exampleMeaning": "用「こう」造句。"
+    },
+    {
+      "id": "n4-243-こうちょう",
+      "word": "校長",
+      "kana": "こうちょう",
+      "meaning": "principal; headmaster",
+      "type": "名词",
+      "example": "「校長」を使って文を作ります。",
+      "exampleMeaning": "用「校長」造句。"
+    },
+    {
+      "id": "n4-244-こうと-う",
+      "word": "講堂",
+      "kana": "こうどう",
+      "meaning": "auditorium",
+      "type": "名词",
+      "example": "「講堂」を使って文を作ります。",
+      "exampleMeaning": "用「講堂」造句。"
+    },
+    {
+      "id": "n4-kougai",
+      "word": "郊外",
+      "kana": "こうがい",
+      "meaning": "suburb; residential area on the outskirt of a city",
+      "type": "名词",
+      "example": "「郊外」を使って文を作ります。",
+      "exampleMeaning": "用「郊外」造句。"
+    },
+    {
+      "id": "n4-kougi",
+      "word": "講義",
+      "kana": "こうぎ",
+      "meaning": "lecture",
+      "type": "动词",
+      "example": "「講義」を使って文を作ります。",
+      "exampleMeaning": "用「講義」造句。"
+    },
+    {
+      "id": "n4-247-こうき-ょう",
+      "word": "工業",
+      "kana": "こうぎょう",
+      "meaning": "industry",
+      "type": "名词",
+      "example": "「工業」を使って文を作ります。",
+      "exampleMeaning": "用「工業」造句。"
+    },
+    {
+      "id": "n4-koujou",
+      "word": "工場",
+      "kana": "こうじょう",
+      "meaning": "factory",
+      "type": "名词",
+      "example": "「工場」を使って文を作ります。",
+      "exampleMeaning": "用「工場」造句。"
+    },
+    {
+      "id": "n4-koukou",
+      "word": "高校",
+      "kana": "こうこう",
+      "meaning": "senior high school; high school​",
+      "type": "名词",
+      "example": "「高校」を使って文を作ります。",
+      "exampleMeaning": "用「高校」造句。"
+    },
+    {
+      "id": "n4-koukousei",
+      "word": "高校生",
+      "kana": "こうこうせい",
+      "meaning": "high school student",
+      "type": "名词",
+      "example": "「高校生」を使って文を作ります。",
+      "exampleMeaning": "用「高校生」造句。"
+    },
+    {
+      "id": "n4-251-こうむいん",
+      "word": "公務員",
+      "kana": "こうむいん",
+      "meaning": "government worker",
+      "type": "名词",
+      "example": "「公務員」を使って文を作ります。",
+      "exampleMeaning": "用「公務員」造句。"
+    },
+    {
+      "id": "n4-252-こうとうか-っこう",
+      "word": "高等学校",
+      "kana": "こうとうがっこう",
+      "meaning": "high school",
+      "type": "名词",
+      "example": "「高等学校」を使って文を作ります。",
+      "exampleMeaning": "用「高等学校」造句。"
+    },
+    {
+      "id": "n4-koutsuu",
+      "word": "交通",
+      "kana": "こうつう",
+      "meaning": "traffic",
+      "type": "名词",
+      "example": "「交通」を使って文を作ります。",
+      "exampleMeaning": "用「交通」造句。"
+    },
+    {
+      "id": "n4-kowai",
+      "word": "怖い",
+      "kana": "こわい",
+      "meaning": "frightening",
+      "type": "形容词",
+      "example": "「怖い」を使って文を作ります。",
+      "exampleMeaning": "用「怖い」造句。"
+    },
+    {
+      "id": "n4-kowareru",
+      "word": "壊れる",
+      "kana": "こわれる",
+      "meaning": "to be broken",
+      "type": "动词",
+      "example": "「壊れる」を使って文を作ります。",
+      "exampleMeaning": "用「壊れる」造句。"
+    },
+    {
+      "id": "n4-kowasu",
+      "word": "壊す",
+      "kana": "こわす",
+      "meaning": "to break",
+      "type": "动词",
+      "example": "「壊す」を使って文を作ります。",
+      "exampleMeaning": "用「壊す」造句。"
+    },
+    {
+      "id": "n4-kubi",
+      "word": "首",
+      "kana": "くび",
+      "meaning": "neck",
+      "type": "名词",
+      "example": "「首」を使って文を作ります。",
+      "exampleMeaning": "用「首」造句。"
+    },
+    {
+      "id": "n4-258-くた-さる",
+      "word": "下さる",
+      "kana": "くださる",
+      "meaning": "(respectful) to give",
+      "type": "动词",
+      "example": "「下さる」を使って文を作ります。",
+      "exampleMeaning": "用「下さる」造句。"
+    },
+    {
+      "id": "n4-kumo",
+      "word": "雲",
+      "kana": "くも",
+      "meaning": "cloud",
+      "type": "名词",
+      "example": "「雲」を使って文を作ります。",
+      "exampleMeaning": "用「雲」造句。"
+    },
+    {
+      "id": "n4-260-くん",
+      "word": "君",
+      "kana": "くん",
+      "meaning": "for familiar young male",
+      "type": "接尾词",
+      "example": "「君」を使って文を作ります。",
+      "exampleMeaning": "用「君」造句。"
+    },
+    {
+      "id": "n4-261-くらへ-る",
+      "word": "比べる",
+      "kana": "くらべる",
+      "meaning": "to compare",
+      "type": "动词",
+      "example": "「比べる」を使って文を作ります。",
+      "exampleMeaning": "用「比べる」造句。"
+    },
+    {
+      "id": "n4-kureru",
+      "word": "暮れる",
+      "kana": "くれる",
+      "meaning": "to get dark",
+      "type": "动词",
+      "example": "「暮れる」を使って文を作ります。",
+      "exampleMeaning": "用「暮れる」造句。"
+    },
+    {
+      "id": "n4-kusa",
+      "word": "草",
+      "kana": "くさ",
+      "meaning": "grass",
+      "type": "名词",
+      "example": "「草」を使って文を作ります。",
+      "exampleMeaning": "用「草」造句。"
+    },
+    {
+      "id": "n4-kuuki",
+      "word": "空気",
+      "kana": "くうき",
+      "meaning": "air",
+      "type": "名词",
+      "example": "「空気」を使って文を作ります。",
+      "exampleMeaning": "用「空気」造句。"
+    },
+    {
+      "id": "n4-265-くうこう",
+      "word": "空港",
+      "kana": "くうこう",
+      "meaning": "airport",
+      "type": "名词",
+      "example": "「空港」を使って文を作ります。",
+      "exampleMeaning": "用「空港」造句。"
+    },
+    {
+      "id": "n4-kyaku",
+      "word": "客",
+      "kana": "きゃく",
+      "meaning": "guest; customer",
+      "type": "名词",
+      "example": "「客」を使って文を作ります。",
+      "exampleMeaning": "用「客」造句。"
+    },
+    {
+      "id": "n4-kyouiku",
+      "word": "教育",
+      "kana": "きょういく",
+      "meaning": "education",
+      "type": "动词",
+      "example": "「教育」を使って文を作ります。",
+      "exampleMeaning": "用「教育」造句。"
+    },
+    {
+      "id": "n4-kyoukai",
+      "word": "教会",
+      "kana": "きょうかい",
+      "meaning": "church; congregation; Christian church",
+      "type": "名词",
+      "example": "「教会」を使って文を作ります。",
+      "exampleMeaning": "用「教会」造句。"
+    },
+    {
+      "id": "n4-kyoumi",
+      "word": "興味",
+      "kana": "きょうみ",
+      "meaning": "interest (in something); curiosity (about something); zest (for)",
+      "type": "名词",
+      "example": "「興味」を使って文を作ります。",
+      "exampleMeaning": "用「興味」造句。"
+    },
+    {
+      "id": "n4-kyousou",
+      "word": "競争",
+      "kana": "きょうそう",
+      "meaning": "competition",
+      "type": "动词",
+      "example": "「競争」を使って文を作ります。",
+      "exampleMeaning": "用「競争」造句。"
+    },
+    {
+      "id": "n4-271-きゅう",
+      "word": "急",
+      "kana": "きゅう",
+      "meaning": "sudden; abrupt; unexpected",
+      "type": "形容词",
+      "example": "「急」を使って文を作ります。",
+      "exampleMeaning": "用「急」造句。"
+    },
+    {
+      "id": "n4-kyuukou",
+      "word": "急行",
+      "kana": "きゅうこう",
+      "meaning": "hurrying (to somewhere); rushing; hastening",
+      "type": "动词",
+      "example": "「急行」を使って文を作ります。",
+      "exampleMeaning": "用「急行」造句。"
+    },
+    {
+      "id": "n4-273-まちか-える",
+      "word": "間違える",
+      "kana": "まちがえる",
+      "meaning": "to make a mistake (in)",
+      "type": "动词",
+      "example": "「間違える」を使って文を作ります。",
+      "exampleMeaning": "用「間違える」造句。"
+    },
+    {
+      "id": "n4-274-まいる",
+      "word": "参る",
+      "kana": "まいる",
+      "meaning": "(humble) to go; to come",
+      "type": "动词",
+      "example": "「参る」を使って文を作ります。",
+      "exampleMeaning": "用「参る」造句。"
+    },
+    {
+      "id": "n4-275-まける",
+      "word": "負ける",
+      "kana": "まける",
+      "meaning": "to lose",
+      "type": "动词",
+      "example": "「負ける」を使って文を作ります。",
+      "exampleMeaning": "用「負ける」造句。"
+    },
+    {
+      "id": "n4-276-まんか",
+      "word": "漫画",
+      "kana": "まんが",
+      "meaning": "comic",
+      "type": "名词",
+      "example": "「漫画」を使って文を作ります。",
+      "exampleMeaning": "用「漫画」造句。"
+    },
+    {
+      "id": "n4-ma-ni-au",
+      "word": "間に合う",
+      "kana": "まにあう",
+      "meaning": "to be in time (for)",
+      "type": "动词",
+      "example": "「間に合う」を使って文を作ります。",
+      "exampleMeaning": "用「間に合う」造句。"
+    },
+    {
+      "id": "n4-278-まんなか",
+      "word": "真ん中",
+      "kana": "まんなか",
+      "meaning": "middle; centre; center",
+      "type": "名词",
+      "example": "「真ん中」を使って文を作ります。",
+      "exampleMeaning": "用「真ん中」造句。"
+    },
+    {
+      "id": "n4-279-まわり",
+      "word": "周り",
+      "kana": "まわり",
+      "meaning": "around",
+      "type": "名词",
+      "example": "「周り」を使って文を作ります。",
+      "exampleMeaning": "用「周り」造句。"
+    },
+    {
+      "id": "n4-280-まわる",
+      "word": "回る",
+      "kana": "まわる",
+      "meaning": "to go around",
+      "type": "动词",
+      "example": "「回る」を使って文を作ります。",
+      "exampleMeaning": "用「回る」造句。"
+    },
+    {
+      "id": "n4-281-ます",
+      "word": "まず",
+      "kana": "まず",
+      "meaning": "first of all",
+      "type": "副词",
+      "example": "「まず」を使って文を作ります。",
+      "exampleMeaning": "用「まず」造句。"
+    },
+    {
+      "id": "n4-282-めしあか-る",
+      "word": "召し上がる",
+      "kana": "めしあがる",
+      "meaning": "to eat; to drink​",
+      "type": "动词",
+      "example": "「召し上がる」を使って文を作ります。",
+      "exampleMeaning": "用「召し上がる」造句。"
+    },
+    {
+      "id": "n4-283-めす-らしい",
+      "word": "珍しい",
+      "kana": "めずらしい",
+      "meaning": "unusual; rare",
+      "type": "形容词",
+      "example": "「珍しい」を使って文を作ります。",
+      "exampleMeaning": "用「珍しい」造句。"
+    },
+    {
+      "id": "n4-284-みえる",
+      "word": "見える",
+      "kana": "みえる",
+      "meaning": "to be seen; to be in sight; to look; to seem",
+      "type": "动词",
+      "example": "「見える」を使って文を作ります。",
+      "exampleMeaning": "用「見える」造句。"
+    },
+    {
+      "id": "n4-285-みなと",
+      "word": "港",
+      "kana": "みなと",
+      "meaning": "harbour",
+      "type": "名词",
+      "example": "「港」を使って文を作ります。",
+      "exampleMeaning": "用「港」造句。"
+    },
+    {
+      "id": "n4-286-みそ",
+      "word": "味噌",
+      "kana": "みそ",
+      "meaning": "fermented condiment made from soybeans",
+      "type": "名词",
+      "example": "「味噌」を使って文を作ります。",
+      "exampleMeaning": "用「味噌」造句。"
+    },
+    {
+      "id": "n4-287-みつかる",
+      "word": "見つかる",
+      "kana": "みつかる",
+      "meaning": "to be found; to be discovered",
+      "type": "动词",
+      "example": "「見つかる」を使って文を作ります。",
+      "exampleMeaning": "用「見つかる」造句。"
+    },
+    {
+      "id": "n4-288-みつける",
+      "word": "見つける",
+      "kana": "みつける",
+      "meaning": "to discover; to find; to come across; to detect; to spot",
+      "type": "动词",
+      "example": "「見つける」を使って文を作ります。",
+      "exampleMeaning": "用「見つける」造句。"
+    },
+    {
+      "id": "n4-289-みやこ",
+      "word": "都",
+      "kana": "みやこ",
+      "meaning": "capital",
+      "type": "名词",
+      "example": "「都」を使って文を作ります。",
+      "exampleMeaning": "用「都」造句。"
+    },
+    {
+      "id": "n4-290-みす-うみ",
+      "word": "湖",
+      "kana": "みずうみ",
+      "meaning": "lake",
+      "type": "名词",
+      "example": "「湖」を使って文を作ります。",
+      "exampleMeaning": "用「湖」造句。"
+    },
+    {
+      "id": "n4-291-もと-る",
+      "word": "戻る",
+      "kana": "もどる",
+      "meaning": "to turn back",
+      "type": "动词",
+      "example": "「戻る」を使って文を作ります。",
+      "exampleMeaning": "用「戻る」造句。"
+    },
+    {
+      "id": "n4-292-もめん",
+      "word": "木綿",
+      "kana": "もめん",
+      "meaning": "cotton (material)",
+      "type": "名词",
+      "example": "「木綿」を使って文を作ります。",
+      "exampleMeaning": "用「木綿」造句。"
+    },
+    {
+      "id": "n4-293-もり",
+      "word": "森",
+      "kana": "もり",
+      "meaning": "forest",
+      "type": "名词",
+      "example": "「森」を使って文を作ります。",
+      "exampleMeaning": "用「森」造句。"
+    },
+    {
+      "id": "n4-294-もし",
+      "word": "もし",
+      "kana": "もし",
+      "meaning": "if; in case; supposing",
+      "type": "副词",
+      "example": "「もし」を使って文を作ります。",
+      "exampleMeaning": "用「もし」造句。"
+    },
+    {
+      "id": "n4-295-もうしあけ-る",
+      "word": "申し上げる",
+      "kana": "もうしあげる",
+      "meaning": "to say; to offer",
+      "type": "动词",
+      "example": "「申し上げる」を使って文を作ります。",
+      "exampleMeaning": "用「申し上げる」造句。"
+    },
+    {
+      "id": "n4-296-もうす",
+      "word": "申す",
+      "kana": "もうす",
+      "meaning": "to be called; to say",
+      "type": "动词",
+      "example": "「申す」を使って文を作ります。",
+      "exampleMeaning": "用「申す」造句。"
+    },
+    {
+      "id": "n4-297-もうすく",
+      "word": "もうすぐ",
+      "kana": "もうすぐ",
+      "meaning": "soon",
+      "type": "副词",
+      "example": "「もうすぐ」を使って文を作ります。",
+      "exampleMeaning": "用「もうすぐ」造句。"
+    },
+    {
+      "id": "n4-298-むかえる",
+      "word": "迎える",
+      "kana": "むかえる",
+      "meaning": "to go out to meet",
+      "type": "动词",
+      "example": "「迎える」を使って文を作ります。",
+      "exampleMeaning": "用「迎える」造句。"
+    },
+    {
+      "id": "n4-299-むかし",
+      "word": "昔",
+      "kana": "むかし",
+      "meaning": "olden days, former",
+      "type": "副词",
+      "example": "「昔」を使って文を作ります。",
+      "exampleMeaning": "用「昔」造句。"
+    },
+    {
+      "id": "n4-300-むかう",
+      "word": "向かう",
+      "kana": "むかう",
+      "meaning": "to head towards",
+      "type": "动词",
+      "example": "「向かう」を使って文を作ります。",
+      "exampleMeaning": "用「向かう」造句。"
+    },
+    {
+      "id": "n4-301-むり",
+      "word": "無理",
+      "kana": "むり",
+      "meaning": "impossible",
+      "type": "形容词",
+      "example": "「無理」を使って文を作ります。",
+      "exampleMeaning": "用「無理」造句。"
+    },
+    {
+      "id": "n4-302-むし",
+      "word": "虫",
+      "kana": "むし",
+      "meaning": "insect",
+      "type": "名词",
+      "example": "「虫」を使って文を作ります。",
+      "exampleMeaning": "用「虫」造句。"
+    },
+    {
+      "id": "n4-303-むすこ",
+      "word": "息子",
+      "kana": "むすこ",
+      "meaning": "son",
+      "type": "名词",
+      "example": "「息子」を使って文を作ります。",
+      "exampleMeaning": "用「息子」造句。"
+    },
+    {
+      "id": "n4-304-むすめ",
+      "word": "娘",
+      "kana": "むすめ",
+      "meaning": "daughter",
+      "type": "名词",
+      "example": "「娘」を使って文を作ります。",
+      "exampleMeaning": "用「娘」造句。"
+    },
+    {
+      "id": "n4-305-なけ-る",
+      "word": "投げる",
+      "kana": "なげる",
+      "meaning": "to throw or cast away",
+      "type": "动词",
+      "example": "「投げる」を使って文を作ります。",
+      "exampleMeaning": "用「投げる」造句。"
+    },
+    {
+      "id": "n4-306-なく",
+      "word": "泣く",
+      "kana": "なく",
+      "meaning": "to weep",
+      "type": "动词",
+      "example": "「泣く」を使って文を作ります。",
+      "exampleMeaning": "用「泣く」造句。"
+    },
+    {
+      "id": "n4-307-なくなる",
+      "word": "無くなる",
+      "kana": "なくなる",
+      "meaning": "to disappear; to get lost",
+      "type": "动词",
+      "example": "「無くなる」を使って文を作ります。",
+      "exampleMeaning": "用「無くなる」造句。"
+    },
+    {
+      "id": "n4-308-なくなる",
+      "word": "亡くなる",
+      "kana": "なくなる",
+      "meaning": "to die",
+      "type": "动词",
+      "example": "「亡くなる」を使って文を作ります。",
+      "exampleMeaning": "用「亡くなる」造句。"
+    },
+    {
+      "id": "n4-309-なま",
+      "word": "生",
+      "kana": "なま",
+      "meaning": "raw",
+      "type": "名词",
+      "example": "「生」を使って文を作ります。",
+      "exampleMeaning": "用「生」造句。"
+    },
+    {
+      "id": "n4-310-なおる",
+      "word": "直る",
+      "kana": "なおる",
+      "meaning": "to be fixed,to be repaired",
+      "type": "动词",
+      "example": "「直る」を使って文を作ります。",
+      "exampleMeaning": "用「直る」造句。"
+    },
+    {
+      "id": "n4-311-なおる",
+      "word": "治る",
+      "kana": "なおる",
+      "meaning": "to be cured; to heal",
+      "type": "动词",
+      "example": "「治る」を使って文を作ります。",
+      "exampleMeaning": "用「治る」造句。"
+    },
+    {
+      "id": "n4-312-なれる",
+      "word": "慣れる",
+      "kana": "なれる",
+      "meaning": "to get used to",
+      "type": "动词",
+      "example": "「慣れる」を使って文を作ります。",
+      "exampleMeaning": "用「慣れる」造句。"
+    },
+    {
+      "id": "n4-313-なる",
+      "word": "鳴る",
+      "kana": "なる",
+      "meaning": "to sound",
+      "type": "动词",
+      "example": "「鳴る」を使って文を作ります。",
+      "exampleMeaning": "用「鳴る」造句。"
+    },
+    {
+      "id": "n4-314-なるほと",
+      "word": "なるほど",
+      "kana": "なるほど",
+      "meaning": "now I understand",
+      "type": "副词",
+      "example": "「なるほど」を使って文を作ります。",
+      "exampleMeaning": "用「なるほど」造句。"
+    },
+    {
+      "id": "n4-315-ねほ-う",
+      "word": "寝坊",
+      "kana": "ねぼう",
+      "meaning": "sleeping in late; oversleeping",
+      "type": "动词",
+      "example": "「寝坊」を使って文を作ります。",
+      "exampleMeaning": "用「寝坊」造句。"
+    },
+    {
+      "id": "n4-316-ねた-ん",
+      "word": "値段",
+      "kana": "ねだん",
+      "meaning": "price; cost",
+      "type": "名词",
+      "example": "「値段」を使って文を作ります。",
+      "exampleMeaning": "用「値段」造句。"
+    },
+    {
+      "id": "n4-nemui",
+      "word": "眠い",
+      "kana": "ねむい",
+      "meaning": "sleepy",
+      "type": "形容词",
+      "example": "「眠い」を使って文を作ります。",
+      "exampleMeaning": "用「眠い」造句。"
+    },
+    {
+      "id": "n4-318-ねむる",
+      "word": "眠る",
+      "kana": "ねむる",
+      "meaning": "to sleep",
+      "type": "动词",
+      "example": "「眠る」を使って文を作ります。",
+      "exampleMeaning": "用「眠る」造句。"
+    },
+    {
+      "id": "n4-319-ねつ",
+      "word": "熱",
+      "kana": "ねつ",
+      "meaning": "fever",
+      "type": "名词",
+      "example": "「熱」を使って文を作ります。",
+      "exampleMeaning": "用「熱」造句。"
+    },
+    {
+      "id": "n4-320-にか-い",
+      "word": "苦い",
+      "kana": "にがい",
+      "meaning": "bitter",
+      "type": "形容词",
+      "example": "「苦い」を使って文を作ります。",
+      "exampleMeaning": "用「苦い」造句。"
+    },
+    {
+      "id": "n4-321-にけ-る",
+      "word": "逃げる",
+      "kana": "にげる",
+      "meaning": "to escape",
+      "type": "动词",
+      "example": "「逃げる」を使って文を作ります。",
+      "exampleMeaning": "用「逃げる」造句。"
+    },
+    {
+      "id": "n4-322-にかいた-て",
+      "word": "二階建て",
+      "kana": "にかいだて",
+      "meaning": "two-storied building",
+      "type": "名词",
+      "example": "「二階建て」を使って文を作ります。",
+      "exampleMeaning": "用「二階建て」造句。"
+    },
+    {
+      "id": "n4-323-にんき-ょう",
+      "word": "人形",
+      "kana": "にんぎょう",
+      "meaning": "doll",
+      "type": "名词",
+      "example": "「人形」を使って文を作ります。",
+      "exampleMeaning": "用「人形」造句。"
+    },
+    {
+      "id": "n4-324-におい",
+      "word": "匂い",
+      "kana": "におい",
+      "meaning": "a smell",
+      "type": "名词",
+      "example": "「匂い」を使って文を作ります。",
+      "exampleMeaning": "用「匂い」造句。"
+    },
+    {
+      "id": "n4-325-にる",
+      "word": "似る",
+      "kana": "にる",
+      "meaning": "to be similar",
+      "type": "动词",
+      "example": "「似る」を使って文を作ります。",
+      "exampleMeaning": "用「似る」造句。"
+    },
+    {
+      "id": "n4-326-のと",
+      "word": "喉",
+      "kana": "のど",
+      "meaning": "throat",
+      "type": "名词",
+      "example": "「喉」を使って文を作ります。",
+      "exampleMeaning": "用「喉」造句。"
+    },
+    {
+      "id": "n4-327-のこる",
+      "word": "残る",
+      "kana": "のこる",
+      "meaning": "to remain",
+      "type": "动词",
+      "example": "「残る」を使って文を作ります。",
+      "exampleMeaning": "用「残る」造句。"
+    },
+    {
+      "id": "n4-norikaeru",
+      "word": "乗り換える",
+      "kana": "のりかえる",
+      "meaning": "to change between buses or trains",
+      "type": "动词",
+      "example": "「乗り換える」を使って文を作ります。",
+      "exampleMeaning": "用「乗り換える」造句。"
+    },
+    {
+      "id": "n4-329-のりもの",
+      "word": "乗り物",
+      "kana": "のりもの",
+      "meaning": "vehicle",
+      "type": "名词",
+      "example": "「乗り物」を使って文を作ります。",
+      "exampleMeaning": "用「乗り物」造句。"
+    },
+    {
+      "id": "n4-330-ぬれる",
+      "word": "濡れる",
+      "kana": "ぬれる",
+      "meaning": "to get wet",
+      "type": "动词",
+      "example": "「濡れる」を使って文を作ります。",
+      "exampleMeaning": "用「濡れる」造句。"
+    },
+    {
+      "id": "n4-331-ぬる",
+      "word": "塗る",
+      "kana": "ぬる",
+      "meaning": "to paint; to plaster",
+      "type": "动词",
+      "example": "「塗る」を使って文を作ります。",
+      "exampleMeaning": "用「塗る」造句。"
+    },
+    {
+      "id": "n4-332-ぬすむ",
+      "word": "盗む",
+      "kana": "ぬすむ",
+      "meaning": "to steal",
+      "type": "动词",
+      "example": "「盗む」を使って文を作ります。",
+      "exampleMeaning": "用「盗む」造句。"
+    },
+    {
+      "id": "n4-333-にゅうか-く",
+      "word": "入学",
+      "kana": "にゅうがく",
+      "meaning": "entry to school or university; enrollment",
+      "type": "动词",
+      "example": "「入学」を使って文を作ります。",
+      "exampleMeaning": "用「入学」造句。"
+    },
+    {
+      "id": "n4-334-にゅういん",
+      "word": "入院",
+      "kana": "にゅういん",
+      "meaning": "hospitalization",
+      "type": "动词",
+      "example": "「入院」を使って文を作ります。",
+      "exampleMeaning": "用「入院」造句。"
+    },
+    {
+      "id": "n4-335-おちる",
+      "word": "落ちる",
+      "kana": "おちる",
+      "meaning": "to fall or drop",
+      "type": "动词",
+      "example": "「落ちる」を使って文を作ります。",
+      "exampleMeaning": "用「落ちる」造句。"
+    },
+    {
+      "id": "n4-336-おと-り",
+      "word": "踊り",
+      "kana": "おどり",
+      "meaning": "a dance",
+      "type": "名词",
+      "example": "「踊り」を使って文を作ります。",
+      "exampleMeaning": "用「踊り」造句。"
+    },
+    {
+      "id": "n4-337-おと-ろく",
+      "word": "驚く",
+      "kana": "おどろく",
+      "meaning": "吃惊",
+      "type": "动词",
+      "example": "「驚く」を使って文を作ります。",
+      "exampleMeaning": "用「驚く」造句。"
+    },
+    {
+      "id": "n4-odoru",
+      "word": "踊る",
+      "kana": "おどる",
+      "meaning": "to dance",
+      "type": "动词",
+      "example": "「踊る」を使って文を作ります。",
+      "exampleMeaning": "用「踊る」造句。"
+    },
+    {
+      "id": "n4-339-おいて-になる",
+      "word": "お出でになる",
+      "kana": "おいでになる",
+      "meaning": "(respectful) to be",
+      "type": "动词",
+      "example": "「お出でになる」を使って文を作ります。",
+      "exampleMeaning": "用「お出でになる」造句。"
+    },
+    {
+      "id": "n4-oiwai",
+      "word": "お祝い",
+      "kana": "おいわい",
+      "meaning": "congratulation",
+      "type": "动词",
+      "example": "「お祝い」を使って文を作ります。",
+      "exampleMeaning": "用「お祝い」造句。"
+    },
+    {
+      "id": "n4-ojousan",
+      "word": "お嬢さん",
+      "kana": "おじょうさん",
+      "meaning": "(another's) daughter",
+      "type": "名词",
+      "example": "「お嬢さん」を使って文を作ります。",
+      "exampleMeaning": "用「お嬢さん」造句。"
+    },
+    {
+      "id": "n4-342-おかしい",
+      "word": "可笑しい",
+      "kana": "おかしい",
+      "meaning": "strange or funny",
+      "type": "形容词",
+      "example": "「可笑しい」を使って文を作ります。",
+      "exampleMeaning": "用「可笑しい」造句。"
+    },
+    {
+      "id": "n4-343-おこなう",
+      "word": "行う",
+      "kana": "おこなう",
+      "meaning": "to perform; to do; to carry out",
+      "type": "动词",
+      "example": "「行う」を使って文を作ります。",
+      "exampleMeaning": "用「行う」造句。"
+    },
+    {
+      "id": "n4-344-おこる",
+      "word": "怒る",
+      "kana": "おこる",
+      "meaning": "to be angry",
+      "type": "动词",
+      "example": "「怒る」を使って文を作ります。",
+      "exampleMeaning": "用「怒る」造句。"
+    },
+    {
+      "id": "n4-345-おこす",
+      "word": "起こす",
+      "kana": "おこす",
+      "meaning": "to wake",
+      "type": "动词",
+      "example": "「起こす」を使って文を作ります。",
+      "exampleMeaning": "用「起こす」造句。"
+    },
+    {
+      "id": "n4-346-おく",
+      "word": "億",
+      "kana": "おく",
+      "meaning": "one hundred million",
+      "type": "词汇",
+      "example": "「億」を使って文を作ります。",
+      "exampleMeaning": "用「億」造句。"
+    },
+    {
+      "id": "n4-347-おくし-ょう",
+      "word": "屋上",
+      "kana": "おくじょう",
+      "meaning": "rooftop​",
+      "type": "名词",
+      "example": "「屋上」を使って文を作ります。",
+      "exampleMeaning": "用「屋上」造句。"
+    },
+    {
+      "id": "n4-348-おくれる",
+      "word": "遅れる",
+      "kana": "おくれる",
+      "meaning": "to be late",
+      "type": "动词",
+      "example": "「遅れる」を使って文を作ります。",
+      "exampleMeaning": "用「遅れる」造句。"
+    },
+    {
+      "id": "n4-okurimono",
+      "word": "贈り物",
+      "kana": "おくりもの",
+      "meaning": "present; gift",
+      "type": "名词",
+      "example": "「贈り物」を使って文を作ります。",
+      "exampleMeaning": "用「贈り物」造句。"
+    },
+    {
+      "id": "n4-350-おくる",
+      "word": "送る",
+      "kana": "おくる",
+      "meaning": "to send",
+      "type": "动词",
+      "example": "「送る」を使って文を作ります。",
+      "exampleMeaning": "用「送る」造句。"
+    },
+    {
+      "id": "n4-omatsuri",
+      "word": "お祭り",
+      "kana": "おまつり",
+      "meaning": "festival",
+      "type": "名词",
+      "example": "「お祭り」を使って文を作ります。",
+      "exampleMeaning": "用「お祭り」造句。"
+    },
+    {
+      "id": "n4-omimai",
+      "word": "お見舞い",
+      "kana": "おみまい",
+      "meaning": "visiting ill or distressed people",
+      "type": "名词",
+      "example": "「お見舞い」を使って文を作ります。",
+      "exampleMeaning": "用「お見舞い」造句。"
+    },
+    {
+      "id": "n4-353-おみやけ",
+      "word": "お土産",
+      "kana": "おみやげ",
+      "meaning": "souvenir",
+      "type": "名词",
+      "example": "「お土産」を使って文を作ります。",
+      "exampleMeaning": "用「お土産」造句。"
+    },
+    {
+      "id": "n4-354-おもちゃ",
+      "word": "おもちゃ",
+      "kana": "おもちゃ",
+      "meaning": "toy",
+      "type": "名词",
+      "example": "「おもちゃ」を使って文を作ります。",
+      "exampleMeaning": "用「おもちゃ」造句。"
+    },
+    {
+      "id": "n4-355-おもいた-す",
+      "word": "思い出す",
+      "kana": "おもいだす",
+      "meaning": "to remember",
+      "type": "动词",
+      "example": "「思い出す」を使って文を作ります。",
+      "exampleMeaning": "用「思い出す」造句。"
+    },
+    {
+      "id": "n4-356-おもて",
+      "word": "表",
+      "kana": "おもて",
+      "meaning": "the front",
+      "type": "名词",
+      "example": "「表」を使って文を作ります。",
+      "exampleMeaning": "用「表」造句。"
+    },
+    {
+      "id": "n4-357-オートハ-イ",
+      "word": "オートバイ",
+      "kana": "オートバイ",
+      "meaning": "motorcycle",
+      "type": "外来语",
+      "example": "「オートバイ」を使って文を作ります。",
+      "exampleMeaning": "用「オートバイ」造句。"
+    },
+    {
+      "id": "n4-358-おれい",
+      "word": "お礼",
+      "kana": "おれい",
+      "meaning": "thanks",
+      "type": "名词",
+      "example": "「お礼」を使って文を作ります。",
+      "exampleMeaning": "用「お礼」造句。"
+    },
+    {
+      "id": "n4-359-おれる",
+      "word": "折れる",
+      "kana": "おれる",
+      "meaning": "to break; to be broken",
+      "type": "动词",
+      "example": "「折れる」を使って文を作ります。",
+      "exampleMeaning": "用「折れる」造句。"
+    },
+    {
+      "id": "n4-360-おりる",
+      "word": "下りる",
+      "kana": "おりる",
+      "meaning": "to get off",
+      "type": "动词",
+      "example": "「下りる」を使って文を作ります。",
+      "exampleMeaning": "用「下りる」造句。"
+    },
+    {
+      "id": "n4-361-おる",
+      "word": "折る",
+      "kana": "おる",
+      "meaning": "to break or to fold",
+      "type": "动词",
+      "example": "「折る」を使って文を作ります。",
+      "exampleMeaning": "用「折る」造句。"
+    },
+    {
+      "id": "n4-362-おしいれ",
+      "word": "押し入れ",
+      "kana": "おしいれ",
+      "meaning": "closet",
+      "type": "名词",
+      "example": "「押し入れ」を使って文を作ります。",
+      "exampleMeaning": "用「押し入れ」造句。"
+    },
+    {
+      "id": "n4-363-おっしゃる",
+      "word": "仰る",
+      "kana": "おっしゃる",
+      "meaning": "(respectful) to say",
+      "type": "动词",
+      "example": "「仰る」を使って文を作ります。",
+      "exampleMeaning": "用「仰る」造句。"
+    },
+    {
+      "id": "n4-otaku",
+      "word": "お宅",
+      "kana": "おたく",
+      "meaning": "your home",
+      "type": "名词",
+      "example": "「お宅」を使って文を作ります。",
+      "exampleMeaning": "用「お宅」造句。"
+    },
+    {
+      "id": "n4-365-おと",
+      "word": "音",
+      "kana": "おと",
+      "meaning": "sound; note",
+      "type": "名词",
+      "example": "「音」を使って文を作ります。",
+      "exampleMeaning": "用「音」造句。"
+    },
+    {
+      "id": "n4-otosu",
+      "word": "落とす",
+      "kana": "おとす",
+      "meaning": "to drop",
+      "type": "动词",
+      "example": "「落とす」を使って文を作ります。",
+      "exampleMeaning": "用「落とす」造句。"
+    },
+    {
+      "id": "n4-367-おつり",
+      "word": "お釣り",
+      "kana": "おつり",
+      "meaning": "change (for a purchase)​",
+      "type": "名词",
+      "example": "「お釣り」を使って文を作ります。",
+      "exampleMeaning": "用「お釣り」造句。"
+    },
+    {
+      "id": "n4-368-おっと",
+      "word": "夫",
+      "kana": "おっと",
+      "meaning": "husband",
+      "type": "名词",
+      "example": "「夫」を使って文を作ります。",
+      "exampleMeaning": "用「夫」造句。"
+    },
+    {
+      "id": "n4-369-おわり",
+      "word": "終わり",
+      "kana": "おわり",
+      "meaning": "the end",
+      "type": "名词",
+      "example": "「終わり」を使って文を作ります。",
+      "exampleMeaning": "用「終わり」造句。"
+    },
+    {
+      "id": "n4-370-おや",
+      "word": "親",
+      "kana": "おや",
+      "meaning": "parents",
+      "type": "名词",
+      "example": "「親」を使って文を作ります。",
+      "exampleMeaning": "用「親」造句。"
+    },
+    {
+      "id": "n4-371-およき-かた",
+      "word": "泳ぎ方",
+      "kana": "およぎかた",
+      "meaning": "way of swimming",
+      "type": "名词",
+      "example": "「泳ぎ方」を使って文を作ります。",
+      "exampleMeaning": "用「泳ぎ方」造句。"
+    },
+    {
+      "id": "n4-372-ハ-ート",
+      "word": "パート",
+      "kana": "パート",
+      "meaning": "part; part time",
+      "type": "外来语",
+      "example": "「パート」を使って文を作ります。",
+      "exampleMeaning": "用「パート」造句。"
+    },
+    {
+      "id": "n4-373-ハ-ソコン",
+      "word": "パソコン",
+      "kana": "パソコン",
+      "meaning": "personal computer",
+      "type": "外来语",
+      "example": "「パソコン」を使って文を作ります。",
+      "exampleMeaning": "用「パソコン」造句。"
+    },
+    {
+      "id": "n4-374-ヒ-アノ",
+      "word": "ピアノ",
+      "kana": "ピアノ",
+      "meaning": "piano",
+      "type": "外来语",
+      "example": "「ピアノ」を使って文を作ります。",
+      "exampleMeaning": "用「ピアノ」造句。"
+    },
+    {
+      "id": "n4-375-フ-レセ-ント",
+      "word": "プレゼント",
+      "kana": "プレゼント",
+      "meaning": "present; gift",
+      "type": "外来语",
+      "example": "「プレゼント」を使って文を作ります。",
+      "exampleMeaning": "用「プレゼント」造句。"
+    },
+    {
+      "id": "n4-376-れいほ-う",
+      "word": "冷房",
+      "kana": "れいぼう",
+      "meaning": "air conditioning",
+      "type": "动词",
+      "example": "「冷房」を使って文を作ります。",
+      "exampleMeaning": "用「冷房」造句。"
+    },
+    {
+      "id": "n4-377-レシ",
+      "word": "レジ",
+      "kana": "レジ",
+      "meaning": "cashier​",
+      "type": "外来语",
+      "example": "「レジ」を使って文を作ります。",
+      "exampleMeaning": "用「レジ」造句。"
+    },
+    {
+      "id": "n4-378-れきし",
+      "word": "歴史",
+      "kana": "れきし",
+      "meaning": "history",
+      "type": "名词",
+      "example": "「歴史」を使って文を作ります。",
+      "exampleMeaning": "用「歴史」造句。"
+    },
+    {
+      "id": "n4-379-れんらく",
+      "word": "連絡",
+      "kana": "れんらく",
+      "meaning": "to contact; to get in touch​",
+      "type": "动词",
+      "example": "「連絡」を使って文を作ります。",
+      "exampleMeaning": "用「連絡」造句。"
+    },
+    {
+      "id": "n4-380-レホ-ート",
+      "word": "レポート",
+      "kana": "レポート",
+      "meaning": "report",
+      "type": "外来语",
+      "example": "「レポート」を使って文を作ります。",
+      "exampleMeaning": "用「レポート」造句。"
+    },
+    {
+      "id": "n4-381-りよう",
+      "word": "利用",
+      "kana": "りよう",
+      "meaning": "use; utilization; application",
+      "type": "动词",
+      "example": "「利用」を使って文を作ります。",
+      "exampleMeaning": "用「利用」造句。"
+    },
+    {
+      "id": "n4-382-りゆう",
+      "word": "理由",
+      "kana": "りゆう",
+      "meaning": "reason",
+      "type": "名词",
+      "example": "「理由」を使って文を作ります。",
+      "exampleMeaning": "用「理由」造句。"
+    },
+    {
+      "id": "n4-383-るす",
+      "word": "留守",
+      "kana": "るす",
+      "meaning": "absence",
+      "type": "动词",
+      "example": "「留守」を使って文を作ります。",
+      "exampleMeaning": "用「留守」造句。"
+    },
+    {
+      "id": "n4-ryokan",
+      "word": "旅館",
+      "kana": "りょかん",
+      "meaning": "traditional inn; Japanese-style lodging",
+      "type": "名词",
+      "example": "「旅館」を使って文を作ります。",
+      "exampleMeaning": "用「旅館」造句。"
+    },
+    {
+      "id": "n4-385-りょうほう",
+      "word": "両方",
+      "kana": "りょうほう",
+      "meaning": "both sides",
+      "type": "名词",
+      "example": "「両方」を使って文を作ります。",
+      "exampleMeaning": "用「両方」造句。"
+    },
+    {
+      "id": "n4-sabishii",
+      "word": "寂しい",
+      "kana": "さびしい",
+      "meaning": "lonely",
+      "type": "形容词",
+      "example": "「寂しい」を使って文を作ります。",
+      "exampleMeaning": "用「寂しい」造句。"
+    },
+    {
+      "id": "n4-sagaru",
+      "word": "下がる",
+      "kana": "さがる",
+      "meaning": "to get down",
+      "type": "动词",
+      "example": "「下がる」を使って文を作ります。",
+      "exampleMeaning": "用「下がる」造句。"
+    },
+    {
+      "id": "n4-sagasu",
+      "word": "探す",
+      "kana": "さがす",
+      "meaning": "to look for",
+      "type": "动词",
+      "example": "「探す」を使って文を作ります。",
+      "exampleMeaning": "用「探す」造句。"
+    },
+    {
+      "id": "n4-sageru",
+      "word": "下げる",
+      "kana": "さげる",
+      "meaning": "to lower",
+      "type": "动词",
+      "example": "「下げる」を使って文を作ります。",
+      "exampleMeaning": "用「下げる」造句。"
+    },
+    {
+      "id": "n4-saigo",
+      "word": "最後",
+      "kana": "さいご",
+      "meaning": "end; last",
+      "type": "名词",
+      "example": "「最後」を使って文を作ります。",
+      "exampleMeaning": "用「最後」造句。"
+    },
+    {
+      "id": "n4-391-さいきん",
+      "word": "最近",
+      "kana": "さいきん",
+      "meaning": "recently",
+      "type": "副词",
+      "example": "「最近」を使って文を作ります。",
+      "exampleMeaning": "用「最近」造句。"
+    },
+    {
+      "id": "n4-saisho",
+      "word": "最初",
+      "kana": "さいしょ",
+      "meaning": "beginning; first",
+      "type": "副词",
+      "example": "「最初」を使って文を作ります。",
+      "exampleMeaning": "用「最初」造句。"
+    },
+    {
+      "id": "n4-saka",
+      "word": "坂",
+      "kana": "さか",
+      "meaning": "slope; hill",
+      "type": "名词",
+      "example": "「坂」を使って文を作ります。",
+      "exampleMeaning": "用「坂」造句。"
+    },
+    {
+      "id": "n4-394-さかん",
+      "word": "盛ん",
+      "kana": "さかん",
+      "meaning": "popularity; prosperous",
+      "type": "形容词",
+      "example": "「盛ん」を使って文を作ります。",
+      "exampleMeaning": "用「盛ん」造句。"
+    },
+    {
+      "id": "n4-395-さくや",
+      "word": "昨夜",
+      "kana": "さくや",
+      "meaning": "last night",
+      "type": "副词",
+      "example": "「昨夜」を使って文を作ります。",
+      "exampleMeaning": "用「昨夜」造句。"
+    },
+    {
+      "id": "n4-396-サンタ-ル",
+      "word": "サンダル",
+      "kana": "サンダル",
+      "meaning": "sandal",
+      "type": "外来语",
+      "example": "「サンダル」を使って文を作ります。",
+      "exampleMeaning": "用「サンダル」造句。"
+    },
+    {
+      "id": "n4-397-サント-イッチ",
+      "word": "サンドイッチ",
+      "kana": "サンドイッチ",
+      "meaning": "sandwich",
+      "type": "外来语",
+      "example": "「サンドイッチ」を使って文を作ります。",
+      "exampleMeaning": "用「サンドイッチ」造句。"
+    },
+    {
+      "id": "n4-sangyou",
+      "word": "産業",
+      "kana": "さんぎょう",
+      "meaning": "industry",
+      "type": "名词",
+      "example": "「産業」を使って文を作ります。",
+      "exampleMeaning": "用「産業」造句。"
+    },
+    {
+      "id": "n4-399-サラタ",
+      "word": "サラダ",
+      "kana": "サラダ",
+      "meaning": "salad",
+      "type": "外来语",
+      "example": "「サラダ」を使って文を作ります。",
+      "exampleMeaning": "用「サラダ」造句。"
+    },
+    {
+      "id": "n4-400-さらいけ-つ",
+      "word": "再来月",
+      "kana": "さらいげつ",
+      "meaning": "month after next",
+      "type": "副词",
+      "example": "「再来月」を使って文を作ります。",
+      "exampleMeaning": "用「再来月」造句。"
+    },
+    {
+      "id": "n4-401-さらいしゅう",
+      "word": "再来週",
+      "kana": "さらいしゅう",
+      "meaning": "week after next",
+      "type": "副词",
+      "example": "「再来週」を使って文を作ります。",
+      "exampleMeaning": "用「再来週」造句。"
+    },
+    {
+      "id": "n4-sashiageru",
+      "word": "差し上げる",
+      "kana": "さしあげる",
+      "meaning": "to give",
+      "type": "动词",
+      "example": "「差し上げる」を使って文を作ります。",
+      "exampleMeaning": "用「差し上げる」造句。"
+    },
+    {
+      "id": "n4-sawagu",
+      "word": "騒ぐ",
+      "kana": "さわぐ",
+      "meaning": "to make noise,to be excited",
+      "type": "动词",
+      "example": "「騒ぐ」を使って文を作ります。",
+      "exampleMeaning": "用「騒ぐ」造句。"
+    },
+    {
+      "id": "n4-sawaru",
+      "word": "触る",
+      "kana": "さわる",
+      "meaning": "to touch",
+      "type": "动词",
+      "example": "「触る」を使って文を作ります。",
+      "exampleMeaning": "用「触る」造句。"
+    },
+    {
+      "id": "n4-405-せいふ-つ",
+      "word": "生物",
+      "kana": "せいぶつ",
+      "meaning": "生物",
+      "type": "名词",
+      "example": "「生物」を使って文を作ります。",
+      "exampleMeaning": "用「生物」造句。"
+    },
+    {
+      "id": "n4-406-せいし",
+      "word": "政治",
+      "kana": "せいじ",
+      "meaning": "politics",
+      "type": "名词",
+      "example": "「政治」を使って文を作ります。",
+      "exampleMeaning": "用「政治」造句。"
+    },
+    {
+      "id": "n4-407-せいかつ",
+      "word": "生活",
+      "kana": "せいかつ",
+      "meaning": "生活、生存",
+      "type": "动词",
+      "example": "「生活」を使って文を作ります。",
+      "exampleMeaning": "用「生活」造句。"
+    },
+    {
+      "id": "n4-408-せいめい",
+      "word": "生命",
+      "kana": "せいめい",
+      "meaning": "life",
+      "type": "名词",
+      "example": "「生命」を使って文を作ります。",
+      "exampleMeaning": "用「生命」造句。"
+    },
+    {
+      "id": "n4-409-せいさん",
+      "word": "生産",
+      "kana": "せいさん",
+      "meaning": "production",
+      "type": "动词",
+      "example": "「生産」を使って文を作ります。",
+      "exampleMeaning": "用「生産」造句。"
+    },
+    {
+      "id": "n4-410-せいよう",
+      "word": "西洋",
+      "kana": "せいよう",
+      "meaning": "the west; Western countries",
+      "type": "名词",
+      "example": "「西洋」を使って文を作ります。",
+      "exampleMeaning": "用「西洋」造句。"
+    },
+    {
+      "id": "n4-411-せかい",
+      "word": "世界",
+      "kana": "せかい",
+      "meaning": "the world",
+      "type": "名词",
+      "example": "「世界」を使って文を作ります。",
+      "exampleMeaning": "用「世界」造句。"
+    },
+    {
+      "id": "n4-412-せき",
+      "word": "席",
+      "kana": "せき",
+      "meaning": "seat",
+      "type": "名词",
+      "example": "「席」を使って文を作ります。",
+      "exampleMeaning": "用「席」造句。"
+    },
+    {
+      "id": "n4-413-せん",
+      "word": "線",
+      "kana": "せん",
+      "meaning": "line",
+      "type": "名词",
+      "example": "「線」を使って文を作ります。",
+      "exampleMeaning": "用「線」造句。"
+    },
+    {
+      "id": "n4-414-せなか",
+      "word": "背中",
+      "kana": "せなか",
+      "meaning": "back (of body)",
+      "type": "名词",
+      "example": "「背中」を使って文を作ります。",
+      "exampleMeaning": "用「背中」造句。"
+    },
+    {
+      "id": "n4-415-せんは-い",
+      "word": "先輩",
+      "kana": "せんぱい",
+      "meaning": "senior",
+      "type": "名词",
+      "example": "「先輩」を使って文を作ります。",
+      "exampleMeaning": "用「先輩」造句。"
+    },
+    {
+      "id": "n4-416-せんそう",
+      "word": "戦争",
+      "kana": "せんそう",
+      "meaning": "war",
+      "type": "动词",
+      "example": "「戦争」を使って文を作ります。",
+      "exampleMeaning": "用「戦争」造句。"
+    },
+    {
+      "id": "n4-setsumei",
+      "word": "説明",
+      "kana": "せつめい",
+      "meaning": "explanation",
+      "type": "动词",
+      "example": "「説明」を使って文を作ります。",
+      "exampleMeaning": "用「説明」造句。"
+    },
+    {
+      "id": "n4-418-しゃちょう",
+      "word": "社長",
+      "kana": "しゃちょう",
+      "meaning": "company president; manager; director",
+      "type": "名词",
+      "example": "「社長」を使って文を作ります。",
+      "exampleMeaning": "用「社長」造句。"
+    },
+    {
+      "id": "n4-419-しゃかい",
+      "word": "社会",
+      "kana": "しゃかい",
+      "meaning": "society; public; community; the world",
+      "type": "名词",
+      "example": "「社会」を使って文を作ります。",
+      "exampleMeaning": "用「社会」造句。"
+    },
+    {
+      "id": "n4-shi",
+      "word": "市",
+      "kana": "し",
+      "meaning": "city",
+      "type": "名词",
+      "example": "「市」を使って文を作ります。",
+      "exampleMeaning": "用「市」造句。"
+    },
+    {
+      "id": "n4-shiai",
+      "word": "試合",
+      "kana": "しあい",
+      "meaning": "match,game",
+      "type": "动词",
+      "example": "「試合」を使って文を作ります。",
+      "exampleMeaning": "用「試合」造句。"
+    },
+    {
+      "id": "n4-422-しかる",
+      "word": "叱る",
+      "kana": "しかる",
+      "meaning": "to scold",
+      "type": "动词",
+      "example": "「叱る」を使って文を作ります。",
+      "exampleMeaning": "用「叱る」造句。"
+    },
+    {
+      "id": "n4-shikata",
+      "word": "仕方",
+      "kana": "しかた",
+      "meaning": "way; method",
+      "type": "名词",
+      "example": "「仕方」を使って文を作ります。",
+      "exampleMeaning": "用「仕方」造句。"
+    },
+    {
+      "id": "n4-424-しけん",
+      "word": "試験",
+      "kana": "しけん",
+      "meaning": "examination",
+      "type": "动词",
+      "example": "「試験」を使って文を作ります。",
+      "exampleMeaning": "用「試験」造句。"
+    },
+    {
+      "id": "n4-shikkari",
+      "word": "しっかり",
+      "kana": "しっかり",
+      "meaning": "firmly; steadily",
+      "type": "副词",
+      "example": "「しっかり」を使って文を作ります。",
+      "exampleMeaning": "用「しっかり」造句。"
+    },
+    {
+      "id": "n4-shima",
+      "word": "島",
+      "kana": "しま",
+      "meaning": "island",
+      "type": "名词",
+      "example": "「島」を使って文を作ります。",
+      "exampleMeaning": "用「島」造句。"
+    },
+    {
+      "id": "n4-427-市民",
+      "word": "市民",
+      "kana": "市民",
+      "meaning": "citizen",
+      "type": "名词",
+      "example": "「市民」を使って文を作ります。",
+      "exampleMeaning": "用「市民」造句。"
+    },
+    {
+      "id": "n4-shinamono",
+      "word": "品物",
+      "kana": "しなもの",
+      "meaning": "goods; article; thing",
+      "type": "名词",
+      "example": "「品物」を使って文を作ります。",
+      "exampleMeaning": "用「品物」造句。"
+    },
+    {
+      "id": "n4-429-しんふ-んしゃ",
+      "word": "新聞社",
+      "kana": "しんぶんしゃ",
+      "meaning": "newspaper company",
+      "type": "名词",
+      "example": "「新聞社」を使って文を作ります。",
+      "exampleMeaning": "用「新聞社」造句。"
     },
     {
       "id": "n4-shinsetsu",
       "word": "親切",
       "kana": "しんせつ",
-      "meaning": "亲切",
-      "type": "形容动词",
-      "example": "店員さんは親切です。",
-      "exampleMeaning": "店员很亲切。"
-    },
-    {
-      "id": "n4-shinpai",
-      "word": "心配",
-      "kana": "しんぱい",
-      "meaning": "担心",
-      "type": "名词/サ变",
-      "example": "試験の結果が心配です。",
-      "exampleMeaning": "担心考试结果。"
-    },
-    {
-      "id": "n4-suidou",
-      "word": "水道",
-      "kana": "すいどう",
-      "meaning": "自来水",
-      "type": "名词",
-      "example": "水道の水を飲みます。",
-      "exampleMeaning": "喝自来水。"
-    },
-    {
-      "id": "n4-suugaku",
-      "word": "数学",
-      "kana": "すうがく",
-      "meaning": "数学",
-      "type": "名词",
-      "example": "数学は少し難しいです。",
-      "exampleMeaning": "数学有点难。"
-    },
-    {
-      "id": "n4-sugiru",
-      "word": "過ぎる",
-      "kana": "すぎる",
-      "meaning": "经过、过度",
-      "type": "动词",
-      "example": "駅を過ぎました。",
-      "exampleMeaning": "过了车站。"
-    },
-    {
-      "id": "n4-sugoi",
-      "word": "すごい",
-      "kana": "すごい",
-      "meaning": "厉害的、惊人的",
+      "meaning": "kindness",
       "type": "形容词",
-      "example": "すごい景色ですね。",
-      "exampleMeaning": "景色真厉害啊。"
+      "example": "「親切」を使って文を作ります。",
+      "exampleMeaning": "用「親切」造句。"
     },
     {
-      "id": "n4-susumu",
-      "word": "進む",
-      "kana": "すすむ",
-      "meaning": "前进、进展",
+      "id": "n4-431-しっは-い",
+      "word": "失敗",
+      "kana": "しっぱい",
+      "meaning": "failure",
       "type": "动词",
-      "example": "勉強が順調に進んでいます。",
-      "exampleMeaning": "学习顺利进展。"
+      "example": "「失敗」を使って文を作ります。",
+      "exampleMeaning": "用「失敗」造句。"
     },
     {
-      "id": "n4-suteru",
-      "word": "捨てる",
-      "kana": "すてる",
-      "meaning": "扔掉",
+      "id": "n4-432-しらへ-る",
+      "word": "調べる",
+      "kana": "しらべる",
+      "meaning": "to investigate",
       "type": "动词",
-      "example": "古い紙を捨てます。",
-      "exampleMeaning": "扔掉旧纸。"
+      "example": "「調べる」を使って文を作ります。",
+      "exampleMeaning": "用「調べる」造句。"
     },
     {
-      "id": "n4-suna",
-      "word": "砂",
-      "kana": "すな",
-      "meaning": "沙子",
+      "id": "n4-shiraseru",
+      "word": "知らせる",
+      "kana": "しらせる",
+      "meaning": "to notify",
+      "type": "动词",
+      "example": "「知らせる」を使って文を作ります。",
+      "exampleMeaning": "用「知らせる」造句。"
+    },
+    {
+      "id": "n4-434-したき",
+      "word": "下着",
+      "kana": "したぎ",
+      "meaning": "underwear",
       "type": "名词",
-      "example": "靴に砂が入りました。",
-      "exampleMeaning": "鞋里进了沙子。"
+      "example": "「下着」を使って文を作ります。",
+      "exampleMeaning": "用「下着」造句。"
+    },
+    {
+      "id": "n4-shokuryouhin",
+      "word": "食料品",
+      "kana": "しょくりょうひん",
+      "meaning": "food; groceries",
+      "type": "名词",
+      "example": "「食料品」を使って文を作ります。",
+      "exampleMeaning": "用「食料品」造句。"
+    },
+    {
+      "id": "n4-shougakkou",
+      "word": "小学校",
+      "kana": "しょうがっこう",
+      "meaning": "elementary school",
+      "type": "名词",
+      "example": "「小学校」を使って文を作ります。",
+      "exampleMeaning": "用「小学校」造句。"
+    },
+    {
+      "id": "n4-437-しょうし-る",
+      "word": "生じる",
+      "kana": "しょうじる",
+      "meaning": "to produce",
+      "type": "动词",
+      "example": "「生じる」を使って文を作ります。",
+      "exampleMeaning": "用「生じる」造句。"
+    },
+    {
+      "id": "n4-shoukai",
+      "word": "紹介",
+      "kana": "しょうかい",
+      "meaning": "introduction",
+      "type": "动词",
+      "example": "「紹介」を使って文を作ります。",
+      "exampleMeaning": "用「紹介」造句。"
+    },
+    {
+      "id": "n4-shourai",
+      "word": "将来",
+      "kana": "しょうらい",
+      "meaning": "future",
+      "type": "副词",
+      "example": "「将来」を使って文を作ります。",
+      "exampleMeaning": "用「将来」造句。"
+    },
+    {
+      "id": "n4-shousetsu",
+      "word": "小説",
+      "kana": "しょうせつ",
+      "meaning": "novel",
+      "type": "名词",
+      "example": "「小説」を使って文を作ります。",
+      "exampleMeaning": "用「小説」造句。"
+    },
+    {
+      "id": "n4-shumi",
+      "word": "趣味",
+      "kana": "しゅみ",
+      "meaning": "hobby; pastime; preference",
+      "type": "名词",
+      "example": "「趣味」を使って文を作ります。",
+      "exampleMeaning": "用「趣味」造句。"
+    },
+    {
+      "id": "n4-shuukan",
+      "word": "習慣",
+      "kana": "しゅうかん",
+      "meaning": "habit; custom; cultural practice.",
+      "type": "名词",
+      "example": "「習慣」を使って文を作ります。",
+      "exampleMeaning": "用「習慣」造句。"
+    },
+    {
+      "id": "n4-443-そほ",
+      "word": "祖母",
+      "kana": "そぼ",
+      "meaning": "grandmother",
+      "type": "名词",
+      "example": "「祖母」を使って文を作ります。",
+      "exampleMeaning": "用「祖母」造句。"
+    },
+    {
+      "id": "n4-444-そた-てる",
+      "word": "育てる",
+      "kana": "そだてる",
+      "meaning": "to rear,to bring up",
+      "type": "动词",
+      "example": "「育てる」を使って文を作ります。",
+      "exampleMeaning": "用「育てる」造句。"
+    },
+    {
+      "id": "n4-445-そふ",
+      "word": "祖父",
+      "kana": "そふ",
+      "meaning": "grandfather",
+      "type": "名词",
+      "example": "「祖父」を使って文を作ります。",
+      "exampleMeaning": "用「祖父」造句。"
+    },
+    {
+      "id": "n4-446-ソフト",
+      "word": "ソフト",
+      "kana": "ソフト",
+      "meaning": "soft",
+      "type": "外来语",
+      "example": "「ソフト」を使って文を作ります。",
+      "exampleMeaning": "用「ソフト」造句。"
+    },
+    {
+      "id": "n4-447-そんな",
+      "word": "そんな",
+      "kana": "そんな",
+      "meaning": "that sort of",
+      "type": "连体词",
+      "example": "「そんな」を使って文を作ります。",
+      "exampleMeaning": "用「そんな」造句。"
+    },
+    {
+      "id": "n4-448-それて",
+      "word": "それで",
+      "kana": "それで",
+      "meaning": "because of that",
+      "type": "词汇",
+      "example": "「それで」を使って文を作ります。",
+      "exampleMeaning": "用「それで」造句。"
+    },
+    {
+      "id": "n4-449-それほと",
+      "word": "それほど",
+      "kana": "それほど",
+      "meaning": "to that extent",
+      "type": "副词",
+      "example": "「それほど」を使って文を作ります。",
+      "exampleMeaning": "用「それほど」造句。"
+    },
+    {
+      "id": "n4-soro-soro",
+      "word": "そろそろ",
+      "kana": "そろそろ",
+      "meaning": "gradually; soon",
+      "type": "副词",
+      "example": "「そろそろ」を使って文を作ります。",
+      "exampleMeaning": "用「そろそろ」造句。"
+    },
+    {
+      "id": "n4-451-そつき-ょう",
+      "word": "卒業",
+      "kana": "そつぎょう",
+      "meaning": "graduation",
+      "type": "动词",
+      "example": "「卒業」を使って文を作ります。",
+      "exampleMeaning": "用「卒業」造句。"
+    },
+    {
+      "id": "n4-452-そうた-ん",
+      "word": "相談",
+      "kana": "そうだん",
+      "meaning": "to discuss",
+      "type": "动词",
+      "example": "「相談」を使って文を作ります。",
+      "exampleMeaning": "用「相談」造句。"
+    },
+    {
+      "id": "n4-453-すは-らしい",
+      "word": "素晴らしい",
+      "kana": "すばらしい",
+      "meaning": "wonderful",
+      "type": "形容词",
+      "example": "「素晴らしい」を使って文を作ります。",
+      "exampleMeaning": "用「素晴らしい」造句。"
     },
     {
       "id": "n4-suberu",
       "word": "滑る",
       "kana": "すべる",
-      "meaning": "滑、滑倒",
+      "meaning": "to slide; to slip",
       "type": "动词",
-      "example": "雪の道で滑りました。",
-      "exampleMeaning": "在雪路上滑倒了。"
+      "example": "「滑る」を使って文を作ります。",
+      "exampleMeaning": "用「滑る」造句。"
+    },
+    {
+      "id": "n4-455-すこ-い",
+      "word": "凄い",
+      "kana": "すごい",
+      "meaning": "terrific",
+      "type": "形容词",
+      "example": "「凄い」を使って文を作ります。",
+      "exampleMeaning": "用「凄い」造句。"
+    },
+    {
+      "id": "n4-suidou",
+      "word": "水道",
+      "kana": "すいどう",
+      "meaning": "water supply",
+      "type": "名词",
+      "example": "「水道」を使って文を作ります。",
+      "exampleMeaning": "用「水道」造句。"
+    },
+    {
+      "id": "n4-457-すいえい",
+      "word": "水泳",
+      "kana": "すいえい",
+      "meaning": "swimming",
+      "type": "动词",
+      "example": "「水泳」を使って文を作ります。",
+      "exampleMeaning": "用「水泳」造句。"
+    },
+    {
+      "id": "n4-458-すっかり",
+      "word": "すっかり",
+      "kana": "すっかり",
+      "meaning": "completely",
+      "type": "副词",
+      "example": "「すっかり」を使って文を作ります。",
+      "exampleMeaning": "用「すっかり」造句。"
+    },
+    {
+      "id": "n4-459-すく",
+      "word": "空く",
+      "kana": "すく",
+      "meaning": "to be hungry",
+      "type": "动词",
+      "example": "「空く」を使って文を作ります。",
+      "exampleMeaning": "用「空く」造句。"
+    },
+    {
+      "id": "n4-460-スクリーン",
+      "word": "スクリーン",
+      "kana": "スクリーン",
+      "meaning": "screen",
+      "type": "外来语",
+      "example": "「スクリーン」を使って文を作ります。",
+      "exampleMeaning": "用「スクリーン」造句。"
+    },
+    {
+      "id": "n4-461-すみ",
+      "word": "隅",
+      "kana": "すみ",
+      "meaning": "corner; nook",
+      "type": "名词",
+      "example": "「隅」を使って文を作ります。",
+      "exampleMeaning": "用「隅」造句。"
+    },
+    {
+      "id": "n4-462-すむ",
+      "word": "済む",
+      "kana": "すむ",
+      "meaning": "to finish",
+      "type": "动词",
+      "example": "「済む」を使って文を作ります。",
+      "exampleMeaning": "用「済む」造句。"
+    },
+    {
+      "id": "n4-suna",
+      "word": "砂",
+      "kana": "すな",
+      "meaning": "sand",
+      "type": "名词",
+      "example": "「砂」を使って文を作ります。",
+      "exampleMeaning": "用「砂」造句。"
+    },
+    {
+      "id": "n4-464-すり",
+      "word": "すり",
+      "kana": "すり",
+      "meaning": "pickpocket",
+      "type": "名词",
+      "example": "「すり」を使って文を作ります。",
+      "exampleMeaning": "用「すり」造句。"
+    },
+    {
+      "id": "n4-465-スーツケース",
+      "word": "スーツケース",
+      "kana": "スーツケース",
+      "meaning": "suitcase",
+      "type": "外来语",
+      "example": "「スーツケース」を使って文を作ります。",
+      "exampleMeaning": "用「スーツケース」造句。"
+    },
+    {
+      "id": "n4-susumu",
+      "word": "進む",
+      "kana": "すすむ",
+      "meaning": "to make progress",
+      "type": "动词",
+      "example": "「進む」を使って文を作ります。",
+      "exampleMeaning": "用「進む」造句。"
+    },
+    {
+      "id": "n4-467-ステーキ",
+      "word": "ステーキ",
+      "kana": "ステーキ",
+      "meaning": "steak",
+      "type": "外来语",
+      "example": "「ステーキ」を使って文を作ります。",
+      "exampleMeaning": "用「ステーキ」造句。"
+    },
+    {
+      "id": "n4-468-ステレオ",
+      "word": "ステレオ",
+      "kana": "ステレオ",
+      "meaning": "stereo",
+      "type": "外来语",
+      "example": "「ステレオ」を使って文を作ります。",
+      "exampleMeaning": "用「ステレオ」造句。"
+    },
+    {
+      "id": "n4-suteru",
+      "word": "捨てる",
+      "kana": "すてる",
+      "meaning": "to throw away",
+      "type": "动词",
+      "example": "「捨てる」を使って文を作ります。",
+      "exampleMeaning": "用「捨てる」造句。"
+    },
+    {
+      "id": "n4-suugaku",
+      "word": "数学",
+      "kana": "すうがく",
+      "meaning": "mathematics; arithmetic",
+      "type": "名词",
+      "example": "「数学」を使って文を作ります。",
+      "exampleMeaning": "用「数学」造句。"
+    },
+    {
+      "id": "n4-471-スーツ",
+      "word": "スーツ",
+      "kana": "スーツ",
+      "meaning": "suit",
+      "type": "外来语",
+      "example": "「スーツ」を使って文を作ります。",
+      "exampleMeaning": "用「スーツ」造句。"
+    },
+    {
+      "id": "n4-tadashii",
+      "word": "正しい",
+      "kana": "ただしい",
+      "meaning": "right; correct",
+      "type": "形容词",
+      "example": "「正しい」を使って文を作ります。",
+      "exampleMeaning": "用「正しい」造句。"
+    },
+    {
+      "id": "n4-473-たいいん",
+      "word": "退院",
+      "kana": "たいいん",
+      "meaning": "leaving hospital; discharge from hospital",
+      "type": "动词",
+      "example": "「退院」を使って文を作ります。",
+      "exampleMeaning": "用「退院」造句。"
+    },
+    {
+      "id": "n4-474-たいふう",
+      "word": "台風",
+      "kana": "たいふう",
+      "meaning": "typhoon",
+      "type": "名词",
+      "example": "「台風」を使って文を作ります。",
+      "exampleMeaning": "用「台風」造句。"
+    },
+    {
+      "id": "n4-475-タイフ",
+      "word": "タイプ",
+      "kana": "タイプ",
+      "meaning": "type,style",
+      "type": "名词",
+      "example": "「タイプ」を使って文を作ります。",
+      "exampleMeaning": "用「タイプ」造句。"
+    },
+    {
+      "id": "n4-taitei",
+      "word": "たいてい",
+      "kana": "たいてい",
+      "meaning": "普通、通常",
+      "type": "副词",
+      "example": "「たいてい」を使って文を作ります。",
+      "exampleMeaning": "用「たいてい」造句。"
+    },
+    {
+      "id": "n4-477-たまに",
+      "word": "たまに",
+      "kana": "たまに",
+      "meaning": "occasionally",
+      "type": "副词",
+      "example": "「たまに」を使って文を作ります。",
+      "exampleMeaning": "用「たまに」造句。"
+    },
+    {
+      "id": "n4-478-たな",
+      "word": "棚",
+      "kana": "たな",
+      "meaning": "shelves",
+      "type": "名词",
+      "example": "「棚」を使って文を作ります。",
+      "exampleMeaning": "用「棚」造句。"
+    },
+    {
+      "id": "n4-479-たんし-ょう",
+      "word": "誕生",
+      "kana": "たんじょう",
+      "meaning": "birth",
+      "type": "动词",
+      "example": "「誕生」を使って文を作ります。",
+      "exampleMeaning": "用「誕生」造句。"
+    },
+    {
+      "id": "n4-480-たのしみ",
+      "word": "楽しみ",
+      "kana": "たのしみ",
+      "meaning": "looking forward to​",
+      "type": "形容词",
+      "example": "「楽しみ」を使って文を作ります。",
+      "exampleMeaning": "用「楽しみ」造句。"
+    },
+    {
+      "id": "n4-481-たおれる",
+      "word": "倒れる",
+      "kana": "たおれる",
+      "meaning": "to fall (over, down)",
+      "type": "动词",
+      "example": "「倒れる」を使って文を作ります。",
+      "exampleMeaning": "用「倒れる」造句。"
+    },
+    {
+      "id": "n4-482-たりる",
+      "word": "足りる",
+      "kana": "たりる",
+      "meaning": "to be sufficient; to be enough",
+      "type": "动词",
+      "example": "「足りる」を使って文を作ります。",
+      "exampleMeaning": "用「足りる」造句。"
+    },
+    {
+      "id": "n4-483-たす",
+      "word": "足す",
+      "kana": "たす",
+      "meaning": "to add (numbers / something)",
+      "type": "动词",
+      "example": "「足す」を使って文を作ります。",
+      "exampleMeaning": "用「足す」造句。"
+    },
+    {
+      "id": "n4-484-たたみ",
+      "word": "畳",
+      "kana": "たたみ",
+      "meaning": "Japanese straw mat",
+      "type": "名词",
+      "example": "「畳」を使って文を作ります。",
+      "exampleMeaning": "用「畳」造句。"
+    },
+    {
+      "id": "n4-485-たてる",
+      "word": "建てる",
+      "kana": "たてる",
+      "meaning": "to build",
+      "type": "动词",
+      "example": "「建てる」を使って文を作ります。",
+      "exampleMeaning": "用「建てる」造句。"
+    },
+    {
+      "id": "n4-486-たす-ねる",
+      "word": "尋ねる",
+      "kana": "たずねる",
+      "meaning": "to ask",
+      "type": "动词",
+      "example": "「尋ねる」を使って文を作ります。",
+      "exampleMeaning": "用「尋ねる」造句。"
+    },
+    {
+      "id": "n4-487-たす-ねる",
+      "word": "訪ねる",
+      "kana": "たずねる",
+      "meaning": "to visit",
+      "type": "动词",
+      "example": "「訪ねる」を使って文を作ります。",
+      "exampleMeaning": "用「訪ねる」造句。"
+    },
+    {
+      "id": "n4-488-てふ-くろ",
+      "word": "手袋",
+      "kana": "てぶくろ",
+      "meaning": "glove",
+      "type": "名词",
+      "example": "「手袋」を使って文を作ります。",
+      "exampleMeaning": "用「手袋」造句。"
+    },
+    {
+      "id": "n4-teinei",
+      "word": "丁寧",
+      "kana": "ていねい",
+      "meaning": "polite",
+      "type": "形容词",
+      "example": "「丁寧」を使って文を作ります。",
+      "exampleMeaning": "用「丁寧」造句。"
+    },
+    {
+      "id": "n4-490-テキスト",
+      "word": "テキスト",
+      "kana": "テキスト",
+      "meaning": "text; textbook",
+      "type": "外来语",
+      "example": "「テキスト」を使って文を作ります。",
+      "exampleMeaning": "用「テキスト」造句。"
+    },
+    {
+      "id": "n4-491-てきとう",
+      "word": "適当",
+      "kana": "てきとう",
+      "meaning": "suitable",
+      "type": "形容词",
+      "example": "「適当」を使って文を作ります。",
+      "exampleMeaning": "用「適当」造句。"
+    },
+    {
+      "id": "n4-492-てん",
+      "word": "点",
+      "kana": "てん",
+      "meaning": "point; dot",
+      "type": "名词",
+      "example": "「点」を使って文を作ります。",
+      "exampleMeaning": "用「点」造句。"
+    },
+    {
+      "id": "n4-493-てんいん",
+      "word": "店員",
+      "kana": "てんいん",
+      "meaning": "employee (of a store); shop assistant; clerk",
+      "type": "名词",
+      "example": "「店員」を使って文を作ります。",
+      "exampleMeaning": "用「店員」造句。"
+    },
+    {
+      "id": "n4-494-テニス",
+      "word": "テニス",
+      "kana": "テニス",
+      "meaning": "tennis",
+      "type": "外来语",
+      "example": "「テニス」を使って文を作ります。",
+      "exampleMeaning": "用「テニス」造句。"
+    },
+    {
+      "id": "n4-495-てんきよほう",
+      "word": "天気予報",
+      "kana": "てんきよほう",
+      "meaning": "weather forecast",
+      "type": "名词",
+      "example": "「天気予報」を使って文を作ります。",
+      "exampleMeaning": "用「天気予報」造句。"
+    },
+    {
+      "id": "n4-496-てんらんかい",
+      "word": "展覧会",
+      "kana": "てんらんかい",
+      "meaning": "exhibition",
+      "type": "名词",
+      "example": "「展覧会」を使って文を作ります。",
+      "exampleMeaning": "用「展覧会」造句。"
+    },
+    {
+      "id": "n4-497-てら",
+      "word": "寺",
+      "kana": "てら",
+      "meaning": "temple",
+      "type": "名词",
+      "example": "「寺」を使って文を作ります。",
+      "exampleMeaning": "用「寺」造句。"
+    },
+    {
+      "id": "n4-tetsudau",
+      "word": "手伝う",
+      "kana": "てつだう",
+      "meaning": "to help; to assist; to aid​",
+      "type": "动词",
+      "example": "「手伝う」を使って文を作ります。",
+      "exampleMeaning": "用「手伝う」造句。"
+    },
+    {
+      "id": "n4-499-とちゅう",
+      "word": "途中",
+      "kana": "とちゅう",
+      "meaning": "on the way",
+      "type": "副词",
+      "example": "「途中」を使って文を作ります。",
+      "exampleMeaning": "用「途中」造句。"
+    },
+    {
+      "id": "n4-500-とと-ける",
+      "word": "届ける",
+      "kana": "とどける",
+      "meaning": "to send​",
+      "type": "动词",
+      "example": "「届ける」を使って文を作ります。",
+      "exampleMeaning": "用「届ける」造句。"
+    },
+    {
+      "id": "n4-501-とっきゅう",
+      "word": "特急",
+      "kana": "とっきゅう",
+      "meaning": "limited express (train, faster than an express)",
+      "type": "名词",
+      "example": "「特急」を使って文を作ります。",
+      "exampleMeaning": "用「特急」造句。"
+    },
+    {
+      "id": "n4-502-とこや",
+      "word": "床屋",
+      "kana": "とこや",
+      "meaning": "barber",
+      "type": "名词",
+      "example": "「床屋」を使って文を作ります。",
+      "exampleMeaning": "用「床屋」造句。"
+    },
+    {
+      "id": "n4-tokubetsu",
+      "word": "特別",
+      "kana": "とくべつ",
+      "meaning": "special; particular; extraordinary; exceptional",
+      "type": "形容词",
+      "example": "「特別」を使って文を作ります。",
+      "exampleMeaning": "用「特別」造句。"
+    },
+    {
+      "id": "n4-504-とくに",
+      "word": "特に",
+      "kana": "とくに",
+      "meaning": "particularly; especially; in particular; expressly",
+      "type": "副词",
+      "example": "「特に」を使って文を作ります。",
+      "exampleMeaning": "用「特に」造句。"
+    },
+    {
+      "id": "n4-505-とまる",
+      "word": "泊まる",
+      "kana": "とまる",
+      "meaning": "to stay at",
+      "type": "动词",
+      "example": "「泊まる」を使って文を作ります。",
+      "exampleMeaning": "用「泊まる」造句。"
+    },
+    {
+      "id": "n4-506-とめる",
+      "word": "止める",
+      "kana": "とめる",
+      "meaning": "to stop something",
+      "type": "动词",
+      "example": "「止める」を使って文を作ります。",
+      "exampleMeaning": "用「止める」造句。"
+    },
+    {
+      "id": "n4-507-とおく",
+      "word": "遠く",
+      "kana": "とおく",
+      "meaning": "distant",
+      "type": "副词",
+      "example": "「遠く」を使って文を作ります。",
+      "exampleMeaning": "用「遠く」造句。"
+    },
+    {
+      "id": "n4-508-とおる",
+      "word": "通る",
+      "kana": "とおる",
+      "meaning": "to go through",
+      "type": "动词",
+      "example": "「通る」を使って文を作ります。",
+      "exampleMeaning": "用「通る」造句。"
+    },
+    {
+      "id": "n4-509-とりかえる",
+      "word": "取り替える",
+      "kana": "とりかえる",
+      "meaning": "to exchange; to swap; to replace",
+      "type": "动词",
+      "example": "「取り替える」を使って文を作ります。",
+      "exampleMeaning": "用「取り替える」造句。"
+    },
+    {
+      "id": "n4-510-とうとう",
+      "word": "到頭",
+      "kana": "とうとう",
+      "meaning": "finally, after all",
+      "type": "副词",
+      "example": "「到頭」を使って文を作ります。",
+      "exampleMeaning": "用「到頭」造句。"
+    },
+    {
+      "id": "n4-511-つつ-ける",
+      "word": "続ける",
+      "kana": "つづける",
+      "meaning": "to continue; to keep up; to keep on",
+      "type": "动词",
+      "example": "「続ける」を使って文を作ります。",
+      "exampleMeaning": "用「続ける」造句。"
+    },
+    {
+      "id": "n4-512-つつ-く",
+      "word": "続く",
+      "kana": "つづく",
+      "meaning": "to continue",
+      "type": "动词",
+      "example": "「続く」を使って文を作ります。",
+      "exampleMeaning": "用「続く」造句。"
+    },
+    {
+      "id": "n4-513-つこ-う",
+      "word": "都合",
+      "kana": "つごう",
+      "meaning": "convenience",
+      "type": "副词",
+      "example": "「都合」を使って文を作ります。",
+      "exampleMeaning": "用「都合」造句。"
+    },
+    {
+      "id": "n4-514-つかまえる",
+      "word": "捕まえる",
+      "kana": "つかまえる",
+      "meaning": "to catch",
+      "type": "动词",
+      "example": "「捕まえる」を使って文を作ります。",
+      "exampleMeaning": "用「捕まえる」造句。"
+    },
+    {
+      "id": "n4-515-つける",
+      "word": "漬ける",
+      "kana": "つける",
+      "meaning": "to soak; to pickle",
+      "type": "动词",
+      "example": "「漬ける」を使って文を作ります。",
+      "exampleMeaning": "用「漬ける」造句。"
+    },
+    {
+      "id": "n4-516-つき",
+      "word": "月",
+      "kana": "つき",
+      "meaning": "moon",
+      "type": "名词",
+      "example": "「月」を使って文を作ります。",
+      "exampleMeaning": "用「月」造句。"
+    },
+    {
+      "id": "n4-517-つく",
+      "word": "付く",
+      "kana": "つく",
+      "meaning": "to be attached",
+      "type": "动词",
+      "example": "「付く」を使って文を作ります。",
+      "exampleMeaning": "用「付く」造句。"
+    },
+    {
+      "id": "n4-518-つま",
+      "word": "妻",
+      "kana": "つま",
+      "meaning": "(humble) wife",
+      "type": "名词",
+      "example": "「妻」を使って文を作ります。",
+      "exampleMeaning": "用「妻」造句。"
+    },
+    {
+      "id": "n4-519-つれる",
+      "word": "連れる",
+      "kana": "つれる",
+      "meaning": "to take (someone) with one",
+      "type": "动词",
+      "example": "「連れる」を使って文を作ります。",
+      "exampleMeaning": "用「連れる」造句。"
+    },
+    {
+      "id": "n4-520-つる",
+      "word": "釣る",
+      "kana": "つる",
+      "meaning": "to fish",
+      "type": "动词",
+      "example": "「釣る」を使って文を作ります。",
+      "exampleMeaning": "用「釣る」造句。"
+    },
+    {
+      "id": "n4-521-つたえる",
+      "word": "伝える",
+      "kana": "つたえる",
+      "meaning": "to report; to tell",
+      "type": "动词",
+      "example": "「伝える」を使って文を作ります。",
+      "exampleMeaning": "用「伝える」造句。"
+    },
+    {
+      "id": "n4-522-つつむ",
+      "word": "包む",
+      "kana": "つつむ",
+      "meaning": "to wrap",
+      "type": "动词",
+      "example": "「包む」を使って文を作ります。",
+      "exampleMeaning": "用「包む」造句。"
+    },
+    {
+      "id": "n4-ude",
+      "word": "腕",
+      "kana": "うで",
+      "meaning": "arm",
+      "type": "名词",
+      "example": "「腕」を使って文を作ります。",
+      "exampleMeaning": "用「腕」造句。"
+    },
+    {
+      "id": "n4-524-うえる",
+      "word": "植える",
+      "kana": "うえる",
+      "meaning": "to plant; to grow",
+      "type": "动词",
+      "example": "「植える」を使って文を作ります。",
+      "exampleMeaning": "用「植える」造句。"
+    },
+    {
+      "id": "n4-525-うこ-く",
+      "word": "動く",
+      "kana": "うごく",
+      "meaning": "to move",
+      "type": "动词",
+      "example": "「動く」を使って文を作ります。",
+      "exampleMeaning": "用「動く」造句。"
+    },
+    {
+      "id": "n4-526-うかか-う",
+      "word": "伺う",
+      "kana": "うかがう",
+      "meaning": "to visit",
+      "type": "动词",
+      "example": "「伺う」を使って文を作ります。",
+      "exampleMeaning": "用「伺う」造句。"
+    },
+    {
+      "id": "n4-527-うける",
+      "word": "受ける",
+      "kana": "うける",
+      "meaning": "to take a lesson or test",
+      "type": "动词",
+      "example": "「受ける」を使って文を作ります。",
+      "exampleMeaning": "用「受ける」造句。"
+    },
+    {
+      "id": "n4-528-うけつけ",
+      "word": "受付",
+      "kana": "うけつけ",
+      "meaning": "reception (desk); information desk​",
+      "type": "名词",
+      "example": "「受付」を使って文を作ります。",
+      "exampleMeaning": "用「受付」造句。"
+    },
+    {
+      "id": "n4-529-うまれ",
+      "word": "生まれ",
+      "kana": "うまれ",
+      "meaning": "birth",
+      "type": "名词",
+      "example": "「生まれ」を使って文を作ります。",
+      "exampleMeaning": "用「生まれ」造句。"
+    },
+    {
+      "id": "n4-untenshu",
+      "word": "運転手",
+      "kana": "うんてんしゅ",
+      "meaning": "driver; chauffeur",
+      "type": "名词",
+      "example": "「運転手」を使って文を作ります。",
+      "exampleMeaning": "用「運転手」造句。"
+    },
+    {
+      "id": "n4-ura",
+      "word": "裏",
+      "kana": "うら",
+      "meaning": "reverse side",
+      "type": "名词",
+      "example": "「裏」を使って文を作ります。",
+      "exampleMeaning": "用「裏」造句。"
+    },
+    {
+      "id": "n4-532-うれしい",
+      "word": "嬉しい",
+      "kana": "うれしい",
+      "meaning": "happy",
+      "type": "形容词",
+      "example": "「嬉しい」を使って文を作ります。",
+      "exampleMeaning": "用「嬉しい」造句。"
+    },
+    {
+      "id": "n4-uriba",
+      "word": "売り場",
+      "kana": "うりば",
+      "meaning": "selling area",
+      "type": "名词",
+      "example": "「売り場」を使って文を作ります。",
+      "exampleMeaning": "用「売り場」造句。"
+    },
+    {
+      "id": "n4-534-うそ",
+      "word": "嘘",
+      "kana": "うそ",
+      "meaning": "a lie",
+      "type": "名词",
+      "example": "「嘘」を使って文を作ります。",
+      "exampleMeaning": "用「嘘」造句。"
+    },
+    {
+      "id": "n4-utsu",
+      "word": "打つ",
+      "kana": "うつ",
+      "meaning": "to hit",
+      "type": "动词",
+      "example": "「打つ」を使って文を作ります。",
+      "exampleMeaning": "用「打つ」造句。"
+    },
+    {
+      "id": "n4-utsukushii",
+      "word": "美しい",
+      "kana": "うつくしい",
+      "meaning": "beautiful",
+      "type": "形容词",
+      "example": "「美しい」を使って文を作ります。",
+      "exampleMeaning": "用「美しい」造句。"
+    },
+    {
+      "id": "n4-utsuru",
+      "word": "移る",
+      "kana": "うつる",
+      "meaning": "to move house or transfer",
+      "type": "动词",
+      "example": "「移る」を使って文を作ります。",
+      "exampleMeaning": "用「移る」造句。"
+    },
+    {
+      "id": "n4-538-うつす",
+      "word": "写す",
+      "kana": "うつす",
+      "meaning": "to copy or photograph",
+      "type": "动词",
+      "example": "「写す」を使って文を作ります。",
+      "exampleMeaning": "用「写す」造句。"
+    },
+    {
+      "id": "n4-539-ワーフ-ロ",
+      "word": "ワープロ",
+      "kana": "ワープロ",
+      "meaning": "word processor",
+      "type": "外来语",
+      "example": "「ワープロ」を使って文を作ります。",
+      "exampleMeaning": "用「ワープロ」造句。"
+    },
+    {
+      "id": "n4-540-わかれる",
+      "word": "別れる",
+      "kana": "わかれる",
+      "meaning": "to separate",
+      "type": "动词",
+      "example": "「別れる」を使って文を作ります。",
+      "exampleMeaning": "用「別れる」造句。"
+    },
+    {
+      "id": "n4-541-わかす",
+      "word": "沸かす",
+      "kana": "わかす",
+      "meaning": "to boil; to heat",
+      "type": "动词",
+      "example": "「沸かす」を使って文を作ります。",
+      "exampleMeaning": "用「沸かす」造句。"
+    },
+    {
+      "id": "n4-542-わく",
+      "word": "沸く",
+      "kana": "わく",
+      "meaning": "to boil",
+      "type": "动词",
+      "example": "「沸く」を使って文を作ります。",
+      "exampleMeaning": "用「沸く」造句。"
+    },
+    {
+      "id": "n4-543-わらう",
+      "word": "笑う",
+      "kana": "わらう",
+      "meaning": "to laugh; to smile",
+      "type": "动词",
+      "example": "「笑う」を使って文を作ります。",
+      "exampleMeaning": "用「笑う」造句。"
+    },
+    {
+      "id": "n4-544-われる",
+      "word": "割れる",
+      "kana": "われる",
+      "meaning": "to break",
+      "type": "动词",
+      "example": "「割れる」を使って文を作ります。",
+      "exampleMeaning": "用「割れる」造句。"
+    },
+    {
+      "id": "n4-545-わりあい",
+      "word": "割合",
+      "kana": "わりあい",
+      "meaning": "rate; ratio",
+      "type": "名词",
+      "example": "「割合」を使って文を作ります。",
+      "exampleMeaning": "用「割合」造句。"
+    },
+    {
+      "id": "n4-546-わすれもの",
+      "word": "忘れ物",
+      "kana": "わすれもの",
+      "meaning": "lost article",
+      "type": "名词",
+      "example": "「忘れ物」を使って文を作ります。",
+      "exampleMeaning": "用「忘れ物」造句。"
+    },
+    {
+      "id": "n4-547-やける",
+      "word": "焼ける",
+      "kana": "やける",
+      "meaning": "to burn; to be roasted",
+      "type": "动词",
+      "example": "「焼ける」を使って文を作ります。",
+      "exampleMeaning": "用「焼ける」造句。"
+    },
+    {
+      "id": "n4-548-やく",
+      "word": "焼く",
+      "kana": "やく",
+      "meaning": "to bake; to grill",
+      "type": "动词",
+      "example": "「焼く」を使って文を作ります。",
+      "exampleMeaning": "用「焼く」造句。"
+    },
+    {
+      "id": "n4-549-やくにたつ",
+      "word": "役に立つ",
+      "kana": "やくにたつ",
+      "meaning": "to be helpful",
+      "type": "动词",
+      "example": "「役に立つ」を使って文を作ります。",
+      "exampleMeaning": "用「役に立つ」造句。"
+    },
+    {
+      "id": "n4-550-やくそく",
+      "word": "約束",
+      "kana": "やくそく",
+      "meaning": "promise",
+      "type": "动词",
+      "example": "「約束」を使って文を作ります。",
+      "exampleMeaning": "用「約束」造句。"
+    },
+    {
+      "id": "n4-551-やむ",
+      "word": "止む",
+      "kana": "やむ",
+      "meaning": "to stop",
+      "type": "动词",
+      "example": "「止む」を使って文を作ります。",
+      "exampleMeaning": "用「止む」造句。"
+    },
+    {
+      "id": "n4-552-やっは-り",
+      "word": "やっぱり",
+      "kana": "やっぱり",
+      "meaning": "as I thought",
+      "type": "副词",
+      "example": "「やっぱり」を使って文を作ります。",
+      "exampleMeaning": "用「やっぱり」造句。"
+    },
+    {
+      "id": "n4-553-やさしい",
+      "word": "優しい",
+      "kana": "やさしい",
+      "meaning": "kind",
+      "type": "形容词",
+      "example": "「優しい」を使って文を作ります。",
+      "exampleMeaning": "用「優しい」造句。"
+    },
+    {
+      "id": "n4-554-やせる",
+      "word": "痩せる",
+      "kana": "やせる",
+      "meaning": "to become thin",
+      "type": "动词",
+      "example": "「痩せる」を使って文を作ります。",
+      "exampleMeaning": "用「痩せる」造句。"
+    },
+    {
+      "id": "n4-555-やわらかい",
+      "word": "柔らかい",
+      "kana": "やわらかい",
+      "meaning": "soft",
+      "type": "形容词",
+      "example": "「柔らかい」を使って文を作ります。",
+      "exampleMeaning": "用「柔らかい」造句。"
+    },
+    {
+      "id": "n4-556-よこ-れる",
+      "word": "汚れる",
+      "kana": "よごれる",
+      "meaning": "to get dirty",
+      "type": "动词",
+      "example": "「汚れる」を使って文を作ります。",
+      "exampleMeaning": "用「汚れる」造句。"
+    },
+    {
+      "id": "n4-557-よろこふ",
+      "word": "喜ぶ",
+      "kana": "よろこぶ",
+      "meaning": "to be delighted",
+      "type": "动词",
+      "example": "「喜ぶ」を使って文を作ります。",
+      "exampleMeaning": "用「喜ぶ」造句。"
+    },
+    {
+      "id": "n4-558-よる",
+      "word": "寄る",
+      "kana": "よる",
+      "meaning": "to visit; to drop by",
+      "type": "动词",
+      "example": "「寄る」を使って文を作ります。",
+      "exampleMeaning": "用「寄る」造句。"
+    },
+    {
+      "id": "n4-559-よしゅう",
+      "word": "予習",
+      "kana": "よしゅう",
+      "meaning": "preparation for a lesson",
+      "type": "动词",
+      "example": "「予習」を使って文を作ります。",
+      "exampleMeaning": "用「予習」造句。"
+    },
+    {
+      "id": "n4-yotei",
+      "word": "予定",
+      "kana": "よてい",
+      "meaning": "plan",
+      "type": "动词",
+      "example": "「予定」を使って文を作ります。",
+      "exampleMeaning": "用「予定」造句。"
+    },
+    {
+      "id": "n4-561-よう",
+      "word": "用",
+      "kana": "よう",
+      "meaning": "business; task; errand; use; purpose",
+      "type": "接尾词",
+      "example": "「用」を使って文を作ります。",
+      "exampleMeaning": "用「用」造句。"
+    },
+    {
+      "id": "n4-562-ようい",
+      "word": "用意",
+      "kana": "ようい",
+      "meaning": "preparation; arrangements; provision; getting ready",
+      "type": "动词",
+      "example": "「用意」を使って文を作ります。",
+      "exampleMeaning": "用「用意」造句。"
+    },
+    {
+      "id": "n4-563-ようし",
+      "word": "用事",
+      "kana": "ようじ",
+      "meaning": "tasks; things to do; errand; business (to take care of)",
+      "type": "名词",
+      "example": "「用事」を使って文を作ります。",
+      "exampleMeaning": "用「用事」造句。"
+    },
+    {
+      "id": "n4-yoyaku",
+      "word": "予約",
+      "kana": "よやく",
+      "meaning": "reservation",
+      "type": "动词",
+      "example": "「予約」を使って文を作ります。",
+      "exampleMeaning": "用「予約」造句。"
+    },
+    {
+      "id": "n4-565-ゆ",
+      "word": "湯",
+      "kana": "ゆ",
+      "meaning": "hot water",
+      "type": "名词",
+      "example": "「湯」を使って文を作ります。",
+      "exampleMeaning": "用「湯」造句。"
+    },
+    {
+      "id": "n4-566-ゆひ",
+      "word": "指",
+      "kana": "ゆび",
+      "meaning": "finger",
+      "type": "名词",
+      "example": "「指」を使って文を作ります。",
+      "exampleMeaning": "用「指」造句。"
+    },
+    {
+      "id": "n4-567-ゆひ-わ",
+      "word": "指輪",
+      "kana": "ゆびわ",
+      "meaning": "finger ring",
+      "type": "名词",
+      "example": "「指輪」を使って文を作ります。",
+      "exampleMeaning": "用「指輪」造句。"
+    },
+    {
+      "id": "n4-568-ゆめ",
+      "word": "夢",
+      "kana": "ゆめ",
+      "meaning": "dream",
+      "type": "名词",
+      "example": "「夢」を使って文を作ります。",
+      "exampleMeaning": "用「夢」造句。"
+    },
+    {
+      "id": "n4-569-ゆれる",
+      "word": "揺れる",
+      "kana": "ゆれる",
+      "meaning": "to shake",
+      "type": "动词",
+      "example": "「揺れる」を使って文を作ります。",
+      "exampleMeaning": "用「揺れる」造句。"
+    },
+    {
+      "id": "n4-zannen",
+      "word": "残念",
+      "kana": "ざんねん",
+      "meaning": "regrettable; unfortunate",
+      "type": "形容词",
+      "example": "「残念」を使って文を作ります。",
+      "exampleMeaning": "用「残念」造句。"
+    },
+    {
+      "id": "n4-571-せ-んせ-ん",
+      "word": "全然",
+      "kana": "ぜんぜん",
+      "meaning": "not entirely (used in a negative sentence)",
+      "type": "副词",
+      "example": "「全然」を使って文を作ります。",
+      "exampleMeaning": "用「全然」造句。"
     }
   ],
   "N3": [
