@@ -266,7 +266,7 @@ async function main() {
 
   for (const [level, minimum] of [
     ["N4", 570],
-    ["N3", 35],
+    ["N3", 1800],
     ["N2", 30],
     ["N1", 30],
   ]) {

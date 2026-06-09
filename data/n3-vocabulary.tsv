@@ -1,38 +1,1894 @@
 id	word	kana	meaning	type	example	exampleMeaning
-n3-kakunin	確認	かくにん	确认	名词/サ变	メールの内容を確認します。	确认邮件内容。
-n3-juuyou	重要	じゅうよう	重要	形容动词	これは重要な問題です。	这是重要问题。
-n3-kankei	関係	かんけい	关系	名词/サ变	この二つは関係があります。	这两者有关系。
-n3-genin	原因	げんいん	原因	名词	失敗の原因を考えます。	思考失败的原因。
-n3-kekka	結果	けっか	结果	名词	試験の結果が出ました。	考试结果出来了。
-n3-houhou	方法	ほうほう	方法	名词	いい勉強方法を探します。	寻找好的学习方法。
-n3-baai	場合	ばあい	情况、场合	名词	雨の場合は中止です。	下雨的情况下取消。
-n3-mokuteki	目的	もくてき	目的	名词	旅行の目的は勉強です。	旅行的目的是学习。
-n3-bunka	文化	ぶんか	文化	名词	日本の文化に興味があります。	对日本文化感兴趣。
-n3-shakai	社会	しゃかい	社会	名词	社会の変化を学びます。	学习社会变化。
-n3-seikatsu	生活	せいかつ	生活	名词/サ变	日本での生活に慣れました。	习惯了在日本的生活。
-n3-keizai	経済	けいざい	经济	名词	経済のニュースを読みます。	读经济新闻。
-n3-gijutsu	技術	ぎじゅつ	技术	名词	新しい技術を使います。	使用新技术。
-n3-shiryou	資料	しりょう	资料	名词	会議の資料を作ります。	制作会议资料。
-n3-sanka	参加	さんか	参加	名词/サ变	イベントに参加します。	参加活动。
-n3-soudan	相談	そうだん	商量、咨询	名词/サ变	先生に相談します。	向老师咨询。
-n3-kansei	完成	かんせい	完成	名词/サ变	レポートが完成しました。	报告完成了。
-n3-shippai	失敗	しっぱい	失败	名词/サ变	失敗から学びます。	从失败中学习。
-n3-tsuzukeru	続ける	つづける	继续	动词	毎日勉強を続けます。	每天继续学习。
-n3-kuraberu	比べる	くらべる	比较	动词	二つの答えを比べます。	比较两个答案。
-n3-fueru	増える	ふえる	增加	动词	覚えた単語が増えました。	记住的单词增加了。
-n3-heru	減る	へる	减少	动词	間違いが減りました。	错误减少了。
-n3-kimeru	決める	きめる	决定	动词	勉強時間を決めます。	决定学习时间。
-n3-tsutaeru	伝える	つたえる	传达	动词	予定を友達に伝えます。	把计划告诉朋友。
-n3-sodateru	育てる	そだてる	培养、养育	动词	良い習慣を育てます。	培养好习惯。
-n3-shiraberu	調べる	しらべる	调查、查找	动词	辞書で意味を調べます。	用词典查意思。
-n3-sentaku	選択	せんたく	选择	名词/サ变	正しい答えを選択します。	选择正确答案。
-n3-doryoku	努力	どりょく	努力	名词/サ变	合格のために努力します。	为了合格而努力。
-n3-kuwashii	詳しい	くわしい	详细的、熟悉的	形容词	彼は日本の歴史に詳しいです。	他熟悉日本历史。
-n3-seikaku	正確	せいかく	准确	形容动词	正確に発音してください。	请准确发音。
-n3-fukuzatsu	複雑	ふくざつ	复杂	形容动词	この文法は少し複雑です。	这个语法有点复杂。
-n3-jiyuu	自由	じゆう	自由	形容动词	自由に答えてください。	请自由回答。
-n3-juubun	十分	じゅうぶん	充分	形容动词/副词	復習時間は十分あります。	复习时间很充分。
-n3-kyuuni	急に	きゅうに	突然	副词	急に雨が降りました。	突然下雨了。
-n3-dandan	だんだん	だんだん	渐渐	副词	日本語がだんだん分かります。	渐渐懂日语了。
-n3-hotonndo	ほとんど	ほとんど	几乎	副词	宿題はほとんど終わりました。	作业几乎完成了。
-n3-tatoeba	例えば	たとえば	例如	副词	例えば、この文を見てください。	例如，请看这个句子。
+n3-1-なま	生	なま	raw; uncooked; fresh; natural	形容词/前缀	この魚は生で食べられますか。	Can this fish be eaten raw?
+n3-2-のんひ-り	のんびり	のんびり	carefree; at leisure	动词/副词	休みの日はのんびり過ごしたい。	I want to spend my days off relaxing.
+n3-3-もし	文字	もじ	letter; character	名词	この文字が小さすぎて読めない。	These characters are too small to read.
+n3-4-か-ら	柄	がら	pattern; design	名词/接尾词	この花柄のシャツが気に入った。	I like this floral pattern shirt.
+n3-5-つゆ	梅雨	つゆ	rainy season (early June to mid-July)	名词	梅雨の時期は洗濯物が乾かない。	During the rainy season, laundry doesn't dry.
+n3-6-か-っかり	がっかり	がっかり	be disappointed; dejected; feel let down	名词/动词/副词	試験に落ちてがっかりした。	I was disappointed to fail the exam.
+n3-7-マイク	マイク	マイク	(abbr) microphone	名词	マイクの音量を上げてください。	Please turn up the microphone volume.
+n3-8-ひとこと	一言	ひとこと	single word; brief comment	名词/动词	出発する前に一言だけ言わせてください。	Please let me say just one thing before leaving.
+n3-9-ふまん	不満	ふまん	dissatisfaction; discontent; displeasure	名词/形容词	サービスに不満を持つ客が増えている。	More customers are becoming dissatisfied with the service.
+n3-10-ふそく	不足	ふそく	insufficiency; lack; shortage	名词/动词	最近、睡眠不足が続いている。	Lately, I've been suffering from lack of sleep.
+n3-11-よのなか	世の中	よのなか	society; the world	名词	世の中は思い通りにならないものだ。	The world doesn't always go as you want.
+n3-12-よさん	予算	よさん	estimate; budget	名词/动词	旅行の予算は十万円です。	The budget for the trip is 100,000 yen.
+n3-13-し-けん	事件	じけん	event; incident; case (usually negative)	名词	近所で大きな事件が起きた。	A major incident occurred in the neighborhood.
+n3-14-にんけ-ん	人間	にんげん	human being; person	名词	人間は失敗から学ぶものだ。	Humans learn from their mistakes.
+n3-15-し-んるい	人類	じんるい	mankind; humanity	名词	人類が月に初めて降り立った。	Humankind first set foot on the moon.
+n3-16-いせ-ん	以前	いぜん	since; before; previous	名词/副词	以前はここにコンビニがあった。	There used to be a convenience store here.
+n3-17-きゅうけい	休憩	きゅうけい	rest; break	名词/动词	三時間働いたので、少し休憩しましょう。	We've worked for three hours, so let's take a short break.
+n3-18-きゅうか	休暇	きゅうか	holiday; day off	名词	来週、夏休暇を取る予定です。	I plan to take summer vacation next week.
+n3-19-かいいん	会員	かいいん	member; the membership	名词	このジムの会員になりたい。	I want to become a member of this gym.
+n3-20-て-んとう	伝統	でんとう	tradition; convention	名词	日本の伝統文化に興味があります。	I'm interested in Japanese traditional culture.
+n3-21-のひ-る	伸びる	のびる	to stretch; to extend; to grow	动词	子供の身長がどんどん伸びている。	The child's height is growing rapidly.
+n3-22-にあう	似合う	にあう	to suit; to match	动词	その帽子はあなたによく似合いますね。	That hat really suits you.
+n3-23-し-ゅうみん	住民	じゅうみん	inhabitant; resident	名词	住民が公園の建設に反対している。	Residents are opposing the construction of the park.
+n3-24-さくひん	作品	さくひん	work; production (book, film, etc.)	名词	彼女の最新の作品を読んだ。	I read her latest work.
+n3-25-さき-ょう	作業	さぎょう	work; operation; manufacturing	名词/动词	作業が予定より遅れている。	The work is behind schedule.
+n3-26-ほそ-ん	保存	ほぞん	saving; storage; maintenance	名词/动词	このファイルを保存してください。	Please save this file.
+n3-27-しんらい	信頼	しんらい	reliance; confidence	名词/动词	彼は信頼できる人だ。	He is a trustworthy person.
+n3-28-はいゆう	俳優	はいゆう	actor	名词/形容词	彼女は有名な俳優になった。	She became a famous actor.
+n3-29-ゆうしょう	優勝	ゆうしょう	overall victory; championship	名词/动词	うちのチームが全国大会で優勝した。	Our team won the national championship.
+n3-30-ゆうしゅう	優秀	ゆうしゅう	superiority; excellence	名词/形容词	彼女は優秀な学生です。	She is an excellent student.
+n3-31-せんし-つ	先日	せんじつ	the other day; a few days ago	名词/副词	先日、高校の友達に偶然会った。	The other day, I happened to meet a friend from high school.
+n3-32-すへ-て	全て	すべて	everything; all; entirely; completely	名词/副词	全ての問題を解き終わった。	I finished solving all the problems.
+n3-33-せ-んたい	全体	ぜんたい	whole; entirety	名词/副词	全体の七十パーセントが賛成した。	Seventy percent of the whole agreed.
+n3-34-せ-んいん	全員	ぜんいん	all members; everyone	名词/副词	全員がそろったら会議を始めましょう。	Let's start the meeting when everyone has gathered.
+n3-35-きょうつう	共通	きょうつう	common; shared	名词/动词/形容词	二人には共通の趣味がある。	The two of them share a common hobby.
+n3-36-ないよう	内容	ないよう	contents; substance; details	名词	メールの内容を確認してください。	Please check the contents of the email.
+n3-37-し-ょうた-ん	冗談	じょうだん	joke	名词/形容词	冗談を言って皆を笑わせた。	I told a joke and made everyone laugh.
+n3-38-ふ-ん	分	ぶん	part; segment; share	名词/前缀/接尾词	自分の分は自分で払います。	I'll pay for my own share.
+n3-39-ふ-んの	～分の～	～ぶんの～	expresses a fraction/portion where the first ～ is the denominator	名词	彼の～分の～は分かりやすい。	His expresses a fraction/portion where the
+n3-40-ふ-んや	分野	ぶんや	field; area; realm	名词	彼女はIT分野で活躍している。	She is active in the IT field.
+n3-41-けいし	刑事	けいじ	(police) detective	名词	刑事がその事件を担当している。	A detective is handling that case.
+n3-42-とうちゃく	到着	とうちゃく	arrival	名词/动词	飛行機は予定通り到着した。	The plane arrived on schedule.
+n3-doryoku	努力	どりょく	effort; exertion; hard work	名词/动词	努力すれば、きっと成功する。	If you make an effort, you will surely succeed.
+n3-44-こうか	効果	こうか	effect; efficacy	名词/形容词	この薬の効果はすぐに現れた。	The effect of this medicine appeared immediately.
+n3-45-きょうりょく	協力	きょうりょく	cooperation; collaboration	名词/动词	皆さんの協力が必要です。	We need everyone's cooperation.
+n3-46-たんこ	単語	たんご	word; vocabulary	名词/形容词	毎日新しい単語を十個覚えている。	I memorize ten new words every day.
+n3-47-しめる	占める	しめる	to occupy; to hold; to comprise; to make up	动词	女性が全体の六十パーセントを占めている。	Women make up sixty percent of the total.
+n3-48-いんしょう	印象	いんしょう	impression	名词/动词	彼女の笑顔が印象に残っている。	Her smile left an impression on me.
+n3-49-ゆうし-ん	友人	ゆうじん	friend	名词	大学時代の友人と久しぶりに会った。	I met a friend from college after a long time.
+n3-50-ふたこ	双子	ふたご	twins	名词	彼女は双子の姉がいます。	She has a twin sister.
+n3-51-しゅうかく	収穫	しゅうかく	harvest; crop	名词/动词	収穫するのに時間がかかる。	It takes time to harvest.
+n3-52-さけふ	叫ぶ	さけぶ	to shout; to cry; to yell; to clamour	动词	彼は驚いて大声で叫んだ。	He was surprised and shouted loudly.
+n3-53-と-うりょう	同僚	どうりょう	coworker; colleague	名词	同僚にお金を貸してほしいと泣きつかれた。	A colleague begged me to lend them some money.
+n3-54-みかた	味方	みかた	friend; ally; supporter	名词/形容词	とても味方だと思う。	I think it's very friend.
+n3-55-しな	品	しな	article; item; good	名词	日本の品はおもしろい。	Japanese article is interesting.
+n3-56-たた	ただ	ただ	ordinary; common; usual | only; merely | but; however	名词/形容词/副词/接续词	ただの風邪だから心配しないで。	It's just a cold, so don't worry.
+n3-57-しょうひん	商品	しょうひん	good; merchandise	名词	この商品は珍しい。	This good is rare.
+n3-58-こくみん	国民	こくみん	people (of a country); citizen	名词	国民について議論した。	We debated about people.
+n3-59-ちいき	地域	ちいき	area; region	名词	地域が必要です。	Area is necessary.
+n3-60-ちほう	地方	ちほう	district; region | countryside; rural area	名词/形容词	地方なことに気づいた。	I noticed something district.
+n3-61-ほうこく	報告	ほうこく	report; information	名词/动词	報告が上手になりたい。	I want to become better at report.
+n3-62-へんこう	変更	へんこう	change; alteration	名词/动词	変更するつもりだ。	I intend to change.
+n3-63-よなか	夜中	よなか	middle of the night	名词/副词	夜中食べている。	I'm eating middle of the night.
+n3-64-むちゅう	夢中	むちゅう	daze; engrossment; obsessed with; hooked on	名词	夢中になりたい。	I want to become daze.
+n3-65-た-いとうりょう	大統領	だいとうりょう	president (of a country)	名词	大統領について議論した。	We debated about president.
+n3-66-たいよう	太陽	たいよう	sun	名词	太陽の景色がきれいだった。	The scenery of the sun was beautiful.
+n3-67-うしなう	失う	うしなう	to lose	动词	早く失うてください。	Please lose it quickly.
+n3-68-けいやく	契約	けいやく	contract	名词/动词	彼女は契約するのが上手だ。	She is good at contracting.
+n3-69-おく	奥	おく	inside; interior; depths; back	名词	彼女は奥が大きい。	She has big inside.
+n3-70-このみ	好み	このみ	liking; taste	名词	好みが好きで毎日食べている。	I like liking and eat it every day.
+n3-71-いいん	委員	いいん	committee member	名词	委員のことをもっと知りたい。	I want to learn more about committee member.
+n3-72-きらう	嫌う	きらう	to hate; to dislike	动词	上手に嫌うことができる。	I can hate well.
+n3-73-まこ	孫	まご	grandchild	名词	孫に問題がある。	There is a problem with the grandchild.
+n3-74-まもる	守る	まもる	to protect; to guard; to uphold; to follow	动词	早く守るてください。	Please protect it quickly.
+n3-kansei	完成	かんせい	completion; accomplishment	名词/动词	彼女は完成するのが上手だ。	She is good at completioning.
+n3-76-し-っさい	実際	じっさい	practicality; reality; actual	名词/副词	実際なことに気づいた。	I noticed something practicality.
+n3-77-かし	家事	かじ	housework; chores	名词	家事が広くて明るい。	The housework is spacious and bright.
+n3-78-やちん	家賃	やちん	rent	名词	家賃を掃除した。	I cleaned the rent.
+n3-79-しゅくはく	宿泊	しゅくはく	lodging	名词/动词	宿泊する必要がある。	It's necessary to lodging.
+n3-80-しゅうしょく	就職	しゅうしょく	finding employment	名词/动词	就職活動で面接の準備をしている。	I'm preparing for interviews during job hunting.
+n3-81-きほ-う	希望	きぼう	request; hope; aspiration	名词/动词	希望した結果、うまくいった。	As a result of requesting, it went well.
+n3-82-し-ょうしき	常識	じょうしき	common sense	名词	常識が大切だと思う。	I think common sense is important.
+n3-83-はは	幅	はば	width; range; gap; difference	名词	この道は幅が狭くて車が通れない。	This road is too narrow for cars to pass.
+n3-84-へいわ	平和	へいわ	peace; harmony	名词/形容词	世界の平和を願っている。	I wish for world peace.
+n3-85-へいきん	平均	へいきん	average; mean; balance; equilibrium	名词/动词	平均するのは大変だ。	It's difficult to average.
+n3-86-としつき-ねんけ-つ	年月	としつき、ねんげつ	months and years	名词	年月のことを覚えていますか。	Do you remember months and years?
+n3-87-ねんれい	年齢	ねんれい	age; years	名词	年齢から変わっていない。	It hasn't changed since age.
+n3-88-ひろか-る	広がる	ひろがる	to spread (out); to extend	动词	だんだん広がるてきた。	It gradually started to spread.
+n3-89-けんせつ	建設	けんせつ	construction; establishment	名词/动词	彼女は建設するのが上手だ。	She is good at constructioning.
+n3-90-えいきょう	影響	えいきょう	influence; effect	名词/动词	影響したほうがいい。	You should influence.
+n3-91-やく	役	やく	use; service; role	名词	役が大切だと思う。	I think use is important.
+n3-92-える	得る	える	to get; to obtain; to win	动词	何を得るばいいかわからない。	I don't know what to get.
+n3-93-とくい	得意	とくい	one's strong point; one's forte	名词/形容词	あの場所は得意だ。	That place is one's strong point.
+n3-94-てつや	徹夜	てつや	all night; sleepless night	名词/动词	徹夜した結果、うまくいった。	As a result of all nighting, it went well.
+n3-95-かいてき	快適	かいてき	pleasant; comfortable	名词/形容词	彼の態度に快適を感じた。	I felt pleasant at his attitude.
+n3-kyuuni	急に	きゅうに	quickly; suddenly	副词	急に歩いている。	I'm walking quickly.
+n3-97-せいかく	性格	せいかく	character; personality	名词	性格に問題がある。	There is a problem with the character.
+n3-98-なやむ	悩む	なやむ	to be worried; to be uncertain	动词	なかなか悩むない。	It doesn't easily be worried.
+n3-99-わるくち-あっこう	悪口	わるくち、あっこう	insult; bad mouth	名词/动词	できるだけ早く悪口してください。	Please insult as soon as possible.
+n3-100-し-ょうほう	情報	じょうほう	information; news; data	名词	情報が壊れてしまった。	The information broke.
+n3-101-そうそ-う	想像	そうぞう	imagination; guess	名词/动词	毎日想像している。	I imagination every day.
+n3-102-あいし-ょう	愛情	あいじょう	love; affection	名词/形容词	子供に愛情を注いでいる。	I pour affection into my children.
+n3-103-かんしゃ	感謝	かんしゃ	thanks; gratitude	名词/动词	先生に感謝してもらった。	I had the teacher thanks for me.
+n3-104-たいと	態度	たいど	attitude	名词/形容词	彼の態度が悪い。	His attitude is bad.
+n3-105-せいこう	成功	せいこう	success	名词/动词	できるだけ早く成功してください。	Please success as soon as possible.
+n3-106-せいせき	成績	せいせき	results; grades	名词	今学期の成績が上がった。	My grades went up this semester.
+n3-107-もと-す	戻す	もどす	to return; to restore	动词	彼の態度が急に変わった。	His attitude suddenly changed.
+n3-108-てつた-い	手伝い	てつだい	help	名词	手伝いが注目されている。	The help is getting attention.
+n3-109-しゅし-ゅつ	手術	しゅじゅつ	surgery	名词/动词	手術するつもりだ。	I intend to surgery.
+n3-110-とうひょう	投票	とうひょう	voting	名词/动词	投票した結果、うまくいった。	As a result of votinging, it went well.
+n3-111-ぬける	抜ける	ぬける	to come out; to fall out; to be omitted	动词	抜けるたら、すぐ連絡してください。	If it come outs, please contact me immediately.
+n3-112-いた-く-た-く	抱く	いだく、だく	to embrace; to hug	动词	彼女がそれを抱くた。	She embraced it.
+n3-113-しと-う	指導	しどう	guidance; instruction	名词/动词	指導しなければならない。	I have to guidance.
+n3-114-えか-く	描く	えがく	to draw; to paint; to sketch	动词	早く描くてください。	Please draw it quickly.
+n3-115-えんし-ょ	援助	えんじょ	aid; support	名词/动词	先生に援助してもらった。	I had the teacher aid for me.
+n3-116-そうさ	操作	そうさ	operation; management	名词/动词	操作しなければならない。	I have to operation.
+n3-117-しはらう	支払う	しはらう	to pay	动词	何を支払うばいいかわからない。	I don't know what to pay.
+n3-118-こうけ-き	攻撃	こうげき	attack; strike; offensive	名词/动词	今日は最高の天気だった。	Today had the best weather.
+n3-119-こきょう-ふるさと	故郷	こきょう、ふるさと	home town; birthplace	名词	故郷が広くて明るい。	The home town is spacious and bright.
+n3-120-きょうし	教師	きょうし	teacher (in school/classroom)	名词/形容词	あの場所は教師だ。	That place is teacher.
+n3-121-かす	数（かず）	かず	number; amount	名词	数（かず）について話し合った。	We discussed number.
+n3-122-すう	数（すう）	すう	several; a few | quantity; amount	名词/前缀/接尾词	日本の数（すう）は独特だ。	Japanese several is unique.
+n3-123-かそ-える	数える	かぞえる	to count	动词	これを数えるましょう。	Let's count this.
+n3-124-もんく	文句	もんく	complaint	名词	文句ばかり言っていても何も変わらない。	Nothing changes if you just keep complaining.
+n3-125-ことわる	断る	ことわる	to decline; to refuse	动词	栄養のバランスを考えて食べる。	I eat with nutritional balance in mind.
+n3-126-しんせん	新鮮	しんせん	fresh	形容词	あの場所は新鮮だ。	That place is fresh.
+n3-127-かたか-た	方々	かたがた	(hon) they; you (plural people)	名词	会場にお集まりの方々、ありがとうございます。	Thank you to everyone gathered at the venue.
+n3-houhou	方法	ほうほう	method; way; process	名词	木の根が深く伸びている。	The tree's roots extend deep.
+n3-129-し-き	時期	じき	time; season	名词	時期の景色がきれいだった。	The scenery of the time was beautiful.
+n3-130-さいこう	最高	さいこう	most; highest; best; finest	名词/形容词	今日の天気は最高だ。	Today's weather is the best.
+n3-131-きたい	期待	きたい	expectation; anticipation	名词/动词	毎日期待している。	I expectation every day.
+n3-132-し-ょうけん	条件	じょうけん	condition; requirement; prerequisite	名词	朝から機嫌が悪い。	I've been in a bad mood since morning.
+n3-133-えいよう	栄養	えいよう	nutrition	名词/形容词	栄養のある食事をとる。	I eat nutritious meals.
+n3-134-ね	根	ね	root (of a plant, tooth, hair, etc.)	名词	木の根が深い。	The tree's roots are deep.
+n3-135-けんさ	検査	けんさ	inspection; examination	名词/动词	検査するのは大変だ。	It's difficult to inspection.
+n3-136-きょく	極	きょく	extreme; zenith; pole	名词	極について話し合った。	We discussed extreme.
+n3-137-ようす	様子	ようす	state; situation; appearance	名词	様子について話し合った。	We discussed state.
+n3-138-きけ-ん	機嫌	きげん	mood; spirits | be in a good mood	名词/形容词	今日は機嫌がいい。	I'm in a good mood today.
+n3-139-きのう	機能	きのう	function; feature	名词/动词	急な用事で帰らなければならない。	I have to go home due to urgent business.
+n3-140-けっせき	欠席	けっせき	absence; non-attendance	名词/动词	欠席するつもりだ。	I intend to absence.
+n3-141-かしゅ	歌手	かしゅ	singer	名词	歌手を楽しんだ。	I enjoyed the singer.
+n3-142-しょうし-き	正直	しょうじき	honesty; frankness	名词/副词	正直に話してください。	Please speak honestly.
+n3-seikaku	正確	せいかく	accurate; correct; exact	名词/形容词	正確なことに気づいた。	I noticed something accurate.
+n3-144-のこり	残り	のこり	remaining; left-over	名词/形容词	残りのケーキを食べた。	I ate the remaining cake.
+n3-145-きにいる	気に入る	きにいる	to be pleased with	表达	気に入るということを学んだ。	I learned that be pleased with.
+n3-146-きこう	気候	きこう	climate	名词	思わず笑ってしまった。	I couldn't help but laugh.
+n3-147-けっしん	決心	けっしん	decision; resolution	名词/动词	もっと決心したい。	I want to decision more.
+n3-148-と-ろ	泥	どろ	mud; slush	名词/形容词	とても泥だと思う。	I think it's very mud.
+n3-149-そそく	注ぐ	そそぐ	to pour (into a container); to water (e.g. plants) | to flow into (e.g. a river)	动词	注ぐたら、すぐ連絡してください。	If it pours, please contact me immediately.
+n3-150-ちゅうもん	注文	ちゅうもん	order; request	名词/动词	注文するのに時間がかかる。	It takes time to order.
+n3-151-りゅうこう	流行	りゅうこう	fashion; fad	名词/动词	先生に流行してもらった。	I had the teacher fashion for me.
+n3-152-なみた	涙	なみだ	tears	名词	母が涙を作ってくれた。	My mother made tears for me.
+n3-153-しんこく	深刻	しんこく	serious; grave	名词/形容词	政治のことはよくわからない。	I don't really understand politics.
+n3-heru	減る	へる	to decrease (in size or number); to diminish	动词	なかなか減るない。	It doesn't easily decrease.
+n3-155-おんた-ん	温暖	おんだん	warm; mild; temperate	名词/形容词	とても温暖だと思う。	I think it's very warm.
+n3-156-まんそ-く	満足	まんぞく	satisfaction; contentment; sufficient	名词/动词	満足するのに時間がかかる。	It takes time to satisfaction.
+n3-157-えんそう	演奏	えんそう	(musical) performance	名词/动词	演奏を楽しんだ。	I enjoyed the performance.
+n3-158-えんき	演技	えんぎ	acting; performance	名词/动词	演技する必要がある。	It's necessary to acting.
+n3-159-はけ-しい	激しい	はげしい	intense; fierce; vehement	形容词	とても激しそうだ。	It looks very intense.
+n3-160-むりょう	無料	むりょう	free; no charge	名词/形容词	これは神聖な場所です。	This is a sacred place.
+n3-161-むし	無視	むし	disregarding; ignoring	名词/动词	無視するつもりだ。	I intend to disregarding.
+n3-162-むた	無駄	むだ	uselessness; pointlessness	名词/形容词	無駄な買い物をした。	I made a pointless purchase.
+n3-163-もえる	燃える	もえる	to burn	动词	燃えるないように気をつけている。	I'm careful not to burn.
+n3-164-ふ-つり	物理	ぶつり	physics	名词/形容词	あの場所は物理だ。	That place is physics.
+n3-165-はんにん	犯人	はんにん	criminal	名词	彼は紳士的な人だ。	He is a gentleman.
+n3-166-し-ょうたい	状態	じょうたい	current status; condition	名词	患者の状態は安定している。	The patient's condition is stable.
+n3-167-と-くしん	独身	どくしん	single; unmarried	名词/形容词	普段は早起きしている。	I usually wake up early.
+n3-168-さる	猿	さる	monkey	名词	猿を大切にしている。	I value monkey.
+n3-169-け-んさ-い	現在	げんざい	current; present time	名词/副词	まともな返事をしてくれ。	Give me a proper answer.
+n3-170-け-んは	現場	げんば	actual spot; actual site; shop/factory floor	名词	新しい現場に引っ越した。	I moved to a new actual spot.
+n3-171-け-んし-つ	現実	げんじつ	reality; actuality	名词	日本の現実は独特だ。	Japanese reality is unique.
+n3-172-きゅう	球	きゅう	sphere; (baseball) counter for balls	名词	ピッチャーが速い球を投げた。	The pitcher threw a fast ball.
+n3-173-りそう	理想	りそう	ideal	名词/形容词	彼は立派な人だ。	He is an admirable person.
+n3-174-りかい	理解	りかい	understanding; comprehension	名词/动词	この問題は深刻だ。	This problem is serious.
+n3-175-せいふ-つ	生物	せいぶつ	living thing; creature; life	名词	日本の生物は独特だ。	Japanese living thing is unique.
+n3-176-か-か	画家	がか	painter	名词/形容词	彼女は親切な人だ。	She is a kind person.
+n3-177-いし-ょう	異常	いじょう	abnormality; strangeness	名词/形容词	あの場所は異常だ。	That place is abnormality.
+n3-178-はっしゃ	発車	はっしゃ	departure; leaving	名词/动词	発車するつもりだ。	I intend to departure.
+n3-179-とさ-ん	登山	とざん	mountain climbing	名词/动词	真剣に考えている。	I'm thinking seriously.
+n3-180-さかり	盛り	さかり	height (e.g. of summer); prime (of one's life)	名词/接尾词	盛りを見に行った。	I went to see the height.
+n3-mokuteki	目的	もくてき	goal; objective	名词	素敵なプレゼントをありがとう。	Thank you for the lovely present.
+n3-182-まね	真似	まね	imitating; copying	名词/动词	真似する必要がある。	It's necessary to imitating.
+n3-183-しんけん	真剣	しんけん	serious; earnest	形容词	彼女は真剣が大きい。	She has big serious.
+n3-184-たしかめる	確かめる	たしかめる	to check; to confirm	动词	彼は素直な子だ。	He is an honest child.
+n3-kakunin	確認	かくにん	confirmation; verification	名词/动词	彼女は確認するのが上手だ。	She is good at confirmationing.
+n3-186-きんえん	禁煙	きんえん	"No Smoking"; quitting smoking	名词/动词/形容词/表达	禁煙したほうがいい。	You should "no smoking".
+n3-187-かもく	科目	かもく	(school) subject; curriculum	名词	勝手に入らないで。	Don't enter without permission.
+n3-188-ひみつ	秘密	ひみつ	secret	名词/形容词	交通事故に遭った。	I was in a traffic accident.
+n3-189-とつせ-ん	突然	とつぜん	abrupt; sudden; unexpected	形容词/副词	突然雨が降り出した。	It suddenly started raining.
+n3-190-かんり	管理	かんり	control; management (e.g. of a business)	名词/动词	この問題は厄介だ。	This problem is troublesome.
+n3-191-めん	綿	めん	cotton	名词	綿の意味を説明した。	I explained the meaning of cotton.
+n3-192-きんちょう	緊張	きんちょう	nervousness; stress	名词/动词	緊張するのは大変だ。	It's difficult to nervousness.
+n3-193-ふち	縁	ふち	edge; rim	名词	彼女は賢い人だ。	She is a clever person.
+n3-194-はた	肌	はだ	skin	名词/接尾词	彼女は肌が大きい。	She has big skin.
+n3-195-い	胃	い	stomach	名词	犯人はまだ逃げている。	The criminal is still on the run.
+n3-196-こし	腰	こし	lower back	名词	変な音が聞こえた。	I heard a strange sound.
+n3-197-しせ-ん	自然	しぜん	natural; nature	名词/形容词	自然を見に行った。	I went to see the natural.
+n3-198-ふ-たい	舞台	ぶたい	stage (theatre)	名词	舞台に問題がある。	There is a problem with the stage.
+n3-199-ひか-い	被害	ひがい	damage; injury	名词	彼は器用だ。	He is skillful with his hands.
+n3-200-さいは-ん	裁判	さいばん	trial; judgement	名词/动词	裁判するつもりだ。	I intend to trial.
+n3-201-せいひん	製品	せいひん	manufactured goods; product	名词	製品が大切だと思う。	I think manufactured goods is important.
+n3-202-ようきゅう	要求	ようきゅう	demand; request; requirement	名词/动词	工場で働いている。	I work at a factory.
+n3-203-しんゆう	親友	しんゆう	close friend	名词	彼女は小学校からの親友だ。	She's been my close friend since elementary school.
+n3-204-かんきゃく	観客	かんきゃく	spectator	名词	観客について話し合った。	We discussed spectator.
+n3-205-とく	解く	とく	to solve; to unravel; to untie	动词	夜遅くに帰宅した。	I came home late at night.
+n3-206-とける	解ける	とける	to be solved; to be untied	动词	だんだん解けるてきた。	It gradually started to be solved.
+n3-207-せつひ	設備	せつび	equipment; facilities	名词/动词	彼女は設備するのが上手だ。	She is good at equipmenting.
+n3-208-ゆるす	許す	ゆるす	to permit; to allow; to forgive	动词	物音で目が覚めた。	I woke up from a noise.
+n3-209-しょうめい	証明	しょうめい	proof; verification; certification	名词/动词	証明する必要がある。	It's necessary to proof.
+n3-210-ひょうは-ん	評判	ひょうばん	reputation; popularity	名词/形容词	あのレストランは評判がいい。	That restaurant has a good reputation.
+n3-211-ためす	試す	ためす	to test; to try out	动词	明け方に起きた。	I woke up at dawn.
+n3-212-かたる	語る	かたる	to talk about; to speak of	动词	何を語るばいいかわからない。	I don't know what to talk about.
+n3-213-こ-かい	誤解	ごかい	misunderstanding	名词/动词	誤解する必要がある。	It's necessary to misunderstanding.
+n3-214-と-くしょ	読書	どくしょ	reading (as a hobby)	名词/动词	余計なことを言うな。	Don't say unnecessary things.
+n3-215-ちょうさ	調査	ちょうさ	survey	名词/动词	調査するのに時間がかかる。	It takes time to survey.
+n3-216-ろんふ-ん	論文	ろんぶん	thesis; essay	名词	卒業論文の締め切りが近づいている。	The deadline for my graduation thesis is approaching.
+n3-217-こ-うか	豪華	ごうか	wonderful; extravagant; splendid	名词/形容词	この映画は傑作だ。	This movie is a masterpiece.
+n3-218-おくる	贈る	おくる	to give (as a gift); to present	动词	これを贈るましょう。	Let's give this.
+n3-219-けん	～軒	～けん	counter for houses	词汇	～軒を掃除した。	I cleaned the counter for houses.
+n3-220-のき	軒	のき	eaves	名词	絶えず努力している。	I'm constantly making efforts.
+n3-221-ころふ	転ぶ	ころぶ	to fall down; to fall over	动词	なかなか転ぶない。	It doesn't easily fall down.
+n3-222-のうか	農家	のうか	farmer	名词	農家が必要です。	Farmer is necessary.
+n3-223-まいこ	迷子	まいご	lost child	名词	上達が早い。	Your improvement is fast.
+n3-224-れんそ-く	連続	れんぞく	occurring in succession; continuing	名词/动词	連続するつもりだ。	I intend to occurring in succession.
+n3-225-すすめる	進める	すすめる	to advance; to progress	动词	早く進めるてください。	Please advance it quickly.
+n3-226-しんほ	進歩	しんぽ	progress; improvement	名词/动词	急速に変化している。	It's changing rapidly.
+n3-227-ちか-い	違い	ちがい	difference	名词	この違いは珍しい。	This difference is rare.
+n3-228-せんしゅ	選手	せんしゅ	player; team member	名词	この選手はとてもおいしい。	This player is very delicious.
+n3-229-とかい	都会	とかい	city	名词/形容词	貴重な体験だった。	It was a precious experience.
+n3-230-てつ	鉄	てつ	iron (Fe)	名词	鉄の意味を説明した。	I explained the meaning of iron.
+n3-231-なへ	鍋	なべ	pot	名词	鍋を大切にしている。	I value pot.
+n3-232-かいし	開始	かいし	start; commencement	名词/动词	適度な運動が大切だ。	Moderate exercise is important.
+n3-233-まちか-い	間違い	まちがい	mistake; error	名词	間違いの意味を説明した。	I explained the meaning of mistake.
+n3-234-ちょうし-ょう	頂上	ちょうじょう	top; summit; peak	名词/形容词	頂上なことに気づいた。	I noticed something top.
+n3-235-し-ゅんちょう	順調	じゅんちょう	favourable; OK; all right	名词/形容词	順調に進んでいる。	It's going smoothly.
+n3-236-ほほ	頬	ほほ	cheek (of face)	名词	彼女は頬が大きい。	She has big cheek.
+n3-237-す-つう	頭痛	ずつう	headache	名词	彼女は頭痛が大きい。	She has big headache.
+n3-238-たよる	頼る	たよる	to rely on; to count on	动词	有利な条件で契約した。	I signed a contract on favorable terms.
+n3-239-ひたい	額	ひたい	forehead; brow	名词	額の意味を説明した。	I explained the meaning of forehead.
+n3-240-ふうけい	風景	ふうけい	scenery	名词/形容词	とても風景だと思う。	I think it's very scenery.
+n3-241-かう	飼う	かう	to have (a pet or other animal)	动词	不利な状況だ。	It's an unfavorable situation.
+n3-242-うま	馬	うま	horse	名词	馬について話し合った。	We discussed horse.
+n3-243-そうおん	騒音	そうおん	noise	名词	騒音のことをもっと知りたい。	I want to learn more about noise.
+n3-244-ほね	骨	ほね	bone	名词	この店は高級だ。	This store is high-end.
+n3-245-きちんと	きちんと	きちんと	properly; accurately	动词/副词	きちんと歩いている。	I'm walking properly.
+n3-246-きつい	きつい	きつい	intense; severe; hard	形容词	今日はきつくてたまらない。	Today is unbearably intense.
+n3-247-く-っすり	ぐっすり	ぐっすり	fast asleep	副词	彼は極端な人だ。	He's an extreme person.
+n3-248-さっは-り	さっぱり	さっぱり	feeling refreshed | completely; entirely	动词/副词	さっぱり考えた。	I thought about it feeling refreshed | completely.
+n3-249-さ-っと	ざっと	ざっと	roughly; approximately	副词	ざっと考えた。	I thought about it roughly.
+n3-250-そっくり	そっくり	そっくり	all; altogether | exactly like; just like	副词	適当に選んだ。	I chose randomly.
+n3-251-たっふ-り	たっぷり	たっぷり	full; ample	名词/形容词/副词	たっぷりになりたい。	I want to become full.
+n3-252-にっこり	にっこり	にっこり	smile; grin	名词/动词/副词	にっこりするのに時間がかかる。	It takes time to smile.
+n3-253-ひ-ったり	ぴったり	ぴったり	tightly; closely; exactly; precisely	动词/副词	かなり疲れた。	I'm quite tired.
+n3-254-ほ-んやり	ぼんやり	ぼんやり	absentmindedly; vacantly	动词/副词	ぼんやり歩いている。	I'm walking absentmindedly.
+n3-255-エネルキ-ー	エネルギー	エネルギー	energy; power	名词	太陽のエネルギーを利用した発電が増えている。	Power generation using solar energy is increasing.
+n3-256-キロ	キロ	キロ	kilometer; kilogram	名词	大変お待たせしました。	I'm very sorry to have kept you waiting.
+n3-257-ク-ルーフ	グループ	グループ	group	名词	グループについて話し合った。	We discussed group.
+n3-258-スター	スター	スター	star (celestial); celebrity; idol	名词	スターが好きでよく散歩する。	I like star and often go for walks.
+n3-259-セット	セット	セット	set; set meal	名词/动词	相当難しい問題だ。	It's a considerably difficult problem.
+n3-260-ソファー	ソファー	ソファー	sofa	名词	ソファーに座ってテレビを見ている。	I'm sitting on the sofa watching TV.
+n3-261-チャンス	チャンス	チャンス	chance	名词	チャンスの意味を説明した。	I explained the meaning of chance.
+n3-262-チース	チーズ	チーズ	cheese	名词	比較的簡単だった。	It was relatively easy.
+n3-263-テ-ート	デート	デート	date	名词/动词	先生にデートしてもらった。	I had the teacher date for me.
+n3-264-トッフ	トップ	トップ	top	名词	トップについて話し合った。	We discussed top.
+n3-265-ト-ラマ	ドラマ	ドラマ	(TV) drama	名词	彼は楽観的だ。	He's optimistic.
+n3-266-ト-レス	ドレス	ドレス	dress	名词	結婚式のためにドレスを買った。	I bought a dress for the wedding.
+n3-267-フ-ラン	プラン	プラン	plan	名词	プランを大切にしている。	I value plan.
+n3-268-ミス	ミス	ミス	mistake	名词/动词	彼女は悲観的だ。	She's pessimistic.
+n3-269-メモ	メモ	メモ	memo	名词/动词	毎日メモしている。	I memo every day.
+n3-270-いったい	一体	いったい	...the heck (e.g. "what the heck?"); generally	副词	一体食べている。	I'm eating ...the heck.
+n3-271-いっか	一家	いっか	a family; a household	名词	積極的に参加する。	I'll participate actively.
+n3-272-いっそう	一層	いっそう	much more; all the more	副词	一層努力する必要がある。	There's a need to try even harder.
+n3-273-いちと-に	一度に	いちどに	all at once	副词	一度に歩いている。	I'm walking all at once.
+n3-274-いっほ-う	一方	いっぽう	one side (of two); one way	名词	彼は消極的だ。	He's passive.
+n3-275-いちし-てき	一時的	いちじてき	temporary	形容词	一時的な問題だった。	It was a temporary problem.
+n3-276-いちし	一時	いちじ	one time; a moment	名词	一時のことを覚えていますか。	Do you remember one time?
+n3-277-いっしょう	一生	いっしょう	whole life; a lifetime	名词/副词	具体的に説明してください。	Please explain concretely.
+n3-278-いっしゅん	一瞬	いっしゅん	instant; moment	名词/副词	一瞬話してください。	Please speak instant.
+n3-279-いっしゅ	一種	いっしゅ	species; kind	名词/副词	一種準備した。	I prepared species.
+n3-280-いっち	一致	いっち	coincidence; agreement	名词/动词	抽象的な話は苦手だ。	I'm not good at abstract talk.
+n3-281-いっは-んてき	一般的	いっぱんてき	common; general; for the masses	形容词	これは一般的な意見だ。	This is a general opinion.
+n3-282-いっは-ん	一般	いっぱん	general; ordinary; common	名词/形容词	一般になりたい。	I want to become general.
+n3-283-まんいち	万一	まんいち	emergency; unlikely event | by some chance	名词/副词	自動的に動く。	It moves automatically.
+n3-284-まんか-いち	万が一	まんがいち	in the unlikely event; in the worst case	副词	万が一食べている。	I'm eating in the unlikely event.
+n3-285-し-ょうきょう	上京	じょうきょう	going to the capital (Tokyo)	名词/动词	彼女は上京するのが上手だ。	She is good at going to the capitaling.
+n3-286-し-ょうとう	上等	じょうとう	superior; first-class	名词/形容词	彼女は理想的な人だ。	She's an ideal person.
+n3-287-し-ょうたつ	上達	じょうたつ	improvement (e.g. in skill, ability); advance	名词/动词	上達するつもりだ。	I intend to improvement.
+n3-288-おろす	下す（おろす）	おろす	to lower	动词	早く下す（おろす）てください。	Please lower it quickly.
+n3-289-くた-り	下り	くだり	train going away from Tokyo	名词	彼女は現実的だ。	She's realistic.
+n3-290-ふり	不利	ふり	disadvantage; handicap	名词/形容词	不利な立場に立たされた。	I was put in a disadvantageous position.
+n3-291-ふか	不可	ふか	not possible	名词/形容词/接尾词	それは不可能だ。	That's impossible.
+n3-292-ふあん	不安	ふあん	anxiety; insecurity	名词/形容词	電気的な問題だ。	It's an electrical problem.
+n3-293-ふへい	不平	ふへい	discontent; dissatisfaction	名词/形容词	彼は不平を言っている。	He's complaining.
+n3-294-ふこう	不幸	ふこう	misfortune	名词/形容词	不幸な事故が起きた。	An unfortunate accident occurred.
+n3-295-ふしき	不思議	ふしぎ	wonder; miracle; strange	名词/形容词	基本的に賛成だ。	I basically agree.
+n3-296-ふせい	不正	ふせい	injustice; unfairness	名词/形容词	不正になりたい。	I want to become injustice.
+n3-297-ふし-ゆう	不自由	ふじゆう	disability; impairment (physical, mental, etc.)	名词/形容词	不自由になりたい。	I want to become disability.
+n3-298-あたえる	与える	あたえる	to give; to bestow	动词	全体的に良かった。	It was good overall.
+n3-299-せいき	世紀	せいき	century; era	名词	世紀から変わっていない。	It hasn't changed since century.
+n3-300-せけん	世間	せけん	society; people	名词	世間に関心がある。	I'm interested in society.
+n3-301-おか	丘	おか	hill	名词	部分的に正しい。	It's partially correct.
+n3-302-りょうか-え	両替	りょうがえ	money exchange	名词/动词	両替した結果、うまくいった。	As a result of money exchangeing, it went well.
+n3-303-ちゅうこ	中古	ちゅうこ	used; second-hand	名词/形容词	彼女は中古が大きい。	She has big used.
+n3-304-ちゅうおう	中央	ちゅうおう	centre; middle; capitol	名词/形容词	一般的な意見を聞いた。	I heard general opinions.
+n3-305-ちゅうか-く	中学	ちゅうがく	middle school	名词	中学の成績がよかった。	My middle school grades were good.
+n3-306-ちゅうしん	中心	ちゅうしん	center; middle; core	名词/形容词	中心になりたい。	I want to become center.
+n3-307-ちゅうし	中止	ちゅうし	suspension; interruption	名词/动词	個人的な質問だ。	It's a personal question.
+n3-308-まる	丸	まる	circle	名词	丸が必要です。	Circle is necessary.
+n3-309-おもに	主に	おもに	mainly	副词	主に話してください。	Please speak mainly.
+n3-310-しゅふ	主婦	しゅふ	housewife	名词	彼は国際的な人だ。	He's an international person.
+n3-311-しゅちょう	主張	しゅちょう	claim; assertion	名词/动词	毎日主張している。	I claim every day.
+n3-312-しゅき	主義	しゅぎ	doctrine; rule	名词	主義に関心がある。	I'm interested in doctrine.
+n3-313-しゅよう	主要	しゅよう	main; principal	名词/形容词	精神的に疲れた。	I'm mentally tired.
+n3-314-のせる	乗せる	のせる	to place on (something)	动词	これを乗せるましょう。	Let's place on this.
+n3-315-し-ょうきゃく	乗客	じょうきゃく	passenger	名词	乗客が必要です。	Passenger is necessary.
+n3-316-よほう	予報	よほう	forecast; prediction	名词/动词	肉体的に限界だ。	I'm at my physical limit.
+n3-317-よき	予期	よき	expectation; assumption	名词/动词	予期した結果、うまくいった。	As a result of expectationing, it went well.
+n3-318-よそく	予測	よそく	estimation	名词/动词	予測した結果、うまくいった。	As a result of estimationing, it went well.
+n3-319-よほ-う	予防	よぼう	prevention	名词/动词	表面的な付き合いだ。	It's a superficial relationship.
+n3-320-し-む	事務	じむ	office work	名词	事務が忙しい。	The office work is busy.
+n3-321-し-し-つ	事実	じじつ	fact; reality	名词/副词	事実準備した。	I prepared fact.
+n3-322-し-し-ょう	事情	じじょう	circumstances	名词	内面的な美しさ。	Inner beauty.
+n3-323-し-たい	事態	じたい	situation	名词	事態のことをもっと知りたい。	I want to learn more about situation.
+n3-324-おたか-い	お互い	おたがい	mutual; reciprocal	名词	お互いが必要です。	Mutual is necessary.
+n3-325-こうかん	交換	こうかん	exchange; substitution	名词/动词	論理的に説明してくれ。	Explain it logically.
+n3-326-こうさい	交際	こうさい	company; friendship	名词/动词	長い交際を経て結婚した。	We got married after a long relationship.
+n3-327-し-んこう	人工	じんこう	artificial; man-made	名词/形容词	とても人工だと思う。	I think it's very artificial.
+n3-328-にんき	人気	にんき	popularity	名词/形容词	感情的になるな。	Don't get emotional.
+n3-329-し-んふ-つ	人物	じんぶつ	person	名词	人物のことをもっと知りたい。	I want to learn more about person.
+n3-330-し-んしゅ	人種	じんしゅ	race (of people)	名词	人種に問題がある。	There is a problem with the race.
+n3-331-いまに	今に	いまに	before long; even now	副词	効果的な方法を探す。	I'm looking for an effective method.
+n3-332-いまにも	今にも	いまにも	at any time	副词	今にも歩いている。	I'm walking at any time.
+n3-333-こんかい	今回	こんかい	this time	名词/副词	今回考えた。	I thought about it this time.
+n3-334-こんこ	今後	こんご	from now on	名词/副词	彼は社会的な地位がある。	He has social status.
+n3-335-たにん	他人	たにん	another person; others	名词	他人の意味を説明した。	I explained the meaning of another person.
+n3-336-た-いり	代理	だいり	proxy; agent	名词/动词	代理した結果、うまくいった。	As a result of proxying, it went well.
+n3-337-た-いひょう	代表	だいひょう	representative	名词/动词	文化的な交流をした。	We had cultural exchange.
+n3-338-た-いきん	代金	だいきん	cost; charge; bill; fee	名词	代金が足りない。	There isn't enough cost.
+n3-339-いらい	以来	いらい	henceforth	名词/副词	以来話してください。	Please speak henceforth.
+n3-340-なかま	仲間	なかま	associate; comrade	名词	歴史的な建物を見た。	I saw a historical building.
+n3-341-まかせる	任せる	まかせる	to entrust (e.g. a task) to another; to leave to	动词	上手に任せることができる。	I can entrust  to another well.
+n3-342-きき-ょう	企業	きぎょう	corporation; business	名词	企業が忙しい。	The corporation is busy.
+n3-343-かいこ-う	会合	かいごう	assembly; gathering	名词/动词	技術的な問題だ。	It's a technical problem.
+n3-344-かいけい	会計	かいけい	accounting; finance	名词/形容词	レストランで会計を済ませた。	I settled the bill at the restaurant.
+n3-345-のは-す	伸ばす	のばす	to grow (e.g. hair, nails); to stretch; to reach out	动词	彼女がそれを伸ばすた。	She growed it.
+n3-346-うかか-う	伺う	うかがう	(hum) to ask; to inquire | (hum) to visit	动词	意外な結果だった。	It was an unexpected result.
+n3-347-くらい	位	くらい	about	副词/接尾词	彼は慎重に行動した。	He acted carefully.
+n3-348-いち	位置	いち	place; position	名词/动词	位置するのに時間がかかる。	It takes time to place.
+n3-349-し-ゅうたく	住宅	じゅうたく	residence; housing	名词	彼は思ったより真面目だ。	He's more serious than I thought.
+n3-350-たいおん	体温	たいおん	body temperature	名词	強烈な印象を受けた。	I received a strong impression.
+n3-351-たいいく	体育	たいいく	physical education	名词	体育の授業で水泳をした。	We did swimming in physical education class.
+n3-352-よふ-ん	余分	よぶん	extra; excess	名词/形容词	この料理はおいしい。	This dish is delicious.
+n3-353-よゆう	余裕	よゆう	surplus; leeway; flexibility	名词	敏感な肌だ。	I have sensitive skin.
+n3-354-さっか	作家	さっか	author	名词	作家のことをもっと知りたい。	I want to learn more about author.
+n3-355-さっきょく	作曲	さっきょく	composition (of music)	名词/动词	彼女は明るい人だ。	She's a cheerful person.
+n3-356-さほう	作法	さほう	manners; etiquette	名词	素朴な味がする。	It has a simple taste.
+n3-357-さくもつ	作物	さくもつ	crops	名词	作物が注目されている。	The crops is getting attention.
+n3-358-しよう	使用	しよう	use	名词/动词	暗い気持ちになった。	I felt gloomy.
+n3-359-れい	例	れい	example	名词/前缀	新鮮な野菜を買った。	I bought fresh vegetables.
+n3-360-きょうきゅう	供給	きょうきゅう	supply; provision	名词/动词	彼女は供給するのが上手だ。	She is good at supplying.
+n3-361-いらい	依頼	いらい	request; commission	名词/动词	彼は優しい人だ。	He's a gentle person.
+n3-362-かち	価値	かち	value; worth	名词	彼は誠実な人だ。	He's a sincere person.
+n3-363-かかく	価格	かかく	price; value	名词	価格を節約している。	I'm saving on price.
+n3-364-ひ-ん	便	びん	flight (e.g. airline flight)	名词/接尾词	厳しい先生だ。	He's a strict teacher.
+n3-365-たより	便り	たより	news; tidings; letter	名词/动词/接尾词	必然的にそうなった。	It inevitably became that way.
+n3-366-かかり	係	かかり	person in charge; clerk	名词	受付の係の人に聞いてください。	Please ask the person in charge at the reception.
+n3-367-ほしょう	保証	ほしょう	guarantee; warranty	名词/动词	彼は頭がいい。	He's smart.
+n3-368-しんし-る	信じる	しんじる	to believe; to place trust in	动词	偶然会った。	I met by chance.
+n3-369-しんこう	信仰	しんこう	(religious) faith; belief	名词/动词	信仰する必要がある。	It's necessary to faith.
+n3-370-しんこ-う	信号	しんごう	traffic signal	名词	この映画は面白い。	This movie is interesting.
+n3-371-しんよう	信用	しんよう	confidence; trust	名词/动词	精密な機械だ。	It's precision machinery.
+n3-372-しゅうせい	修正	しゅうせい	amendment; correction; revision	名词/动词	先生に修正してもらった。	I had the teacher amendment for me.
+n3-373-しゅうり	修理	しゅうり	repair	名词/动词	つまらない話だった。	It was a boring story.
+n3-374-こし-ん	個人	こじん	individual; personal	名词/形容词	不自然な動きだった。	It was an unnatural movement.
+n3-375-たおす	倒す	たおす	to knock down; to ruin	动词	何を倒すばいいかわからない。	I don't know what to knock down.
+n3-376-こうほ	候補	こうほ	candidate; contender	名词	彼女は美しい。	She's beautiful.
+n3-377-しゃっきん	借金	しゃっきん	debt; loan	名词/动词	この計画は妥当だ。	This plan is reasonable.
+n3-378-いた-い	偉大	いだい	greatness	名词/形容词	彼は偉大な科学者だ。	He's a great scientist.
+n3-379-けんこう	健康	けんこう	health	名词/形容词	醜い争いだった。	It was an ugly fight.
+n3-380-たまたま	たまたま	たまたま	casually; unexpectedly	副词	率直に言ってください。	Please speak frankly.
+n3-381-く-うせ-ん	偶然	ぐうぜん	coincidence	名词/形容词	偶然なことに気づいた。	I noticed something coincidence.
+n3-382-そなえる	備える	そなえる	to furnish with; to equip with	动词	彼は若い。	He's young.
+n3-383-きす	傷	きず	wound; injury	名词	彼は勤勉だ。	He's diligent.
+n3-384-けいこう	傾向	けいこう	tendency; inclination	名词/动词	毎日傾向している。	I tendency every day.
+n3-385-わす-か	わずか	わずか	only; merely; small quantity	名词/副词	彼女は老いている。	She's old.
+n3-386-はたらき	働き	はたらき	work; labor	名词	彼は巧みに話す。	He speaks skillfully.
+n3-387-すく-れる	優れる	すぐれる	to surpass; to excel	动词	優れるたら、すぐ連絡してください。	If it surpasss, please contact me immediately.
+n3-388-もと	元	もと	origin; source; foundation	名词	この部屋は広い。	This room is spacious.
+n3-389-こうけい	光景	こうけい	scene; view	名词	繊細な問題だ。	It's a delicate matter.
+n3-390-こくふく	克服	こくふく	overcoming (of a difficulty, illness, handicap, etc.); victory over	名词/动词	もっと克服したい。	I want to overcoming more.
+n3-391-めんきょ	免許	めんきょ	license	名词/动词	この道は狭い。	This road is narrow.
+n3-392-うさき	うさぎ	うさぎ	rabbit	名词	奇妙な音が聞こえた。	I heard a strange sound.
+n3-393-とう	党	とう	party (political); faction	名词/接尾词	党が必要です。	Party is necessary.
+n3-394-にゅうりょく	入力	にゅうりょく	input; (data) entry	名词/动词	問題が複雑だ。	The problem is complex.
+n3-395-にゅうし-ょう	入場	にゅうじょう	entrance; admission	名词/动词	彼は華やかだ。	He's flashy.
+n3-396-せ-んこく	全国	ぜんこく	nationwide	名词/形容词	全国で人気がある。	It's popular nationwide.
+n3-397-こうへい	公平	こうへい	fairness; impartiality	名词/形容词	彼の説明は単純だ。	His explanation is simple.
+n3-398-きょうと-う	共同	きょうどう	co-operation; collaboration	名词/动词	軽率な発言だった。	It was a careless remark.
+n3-399-く-たいてき	具体的	ぐたいてき	concrete	形容词	あの場所は具体的だ。	That place is concrete.
+n3-400-く-たい	具体	ぐたい	concrete; tangible	名词	この本は難しい。	This book is difficult.
+n3-401-てんけい	典型	てんけい	model; archetypal; representative	名词/形容词	彼は地道に努力した。	He made steady efforts.
+n3-402-ほ-うけん	冒険	ぼうけん	risk; venture	名词/动词	冒険する必要がある。	It's necessary to risk.
+n3-403-れいせい	冷静	れいせい	calmness; composure	名词/形容词	この問題は易しい。	This problem is easy.
+n3-404-こおる	凍る	こおる	to freeze	动词	彼女は健やかに育った。	She grew up healthy.
+n3-405-しょり	処理	しょり	processing; disposal	名词/动词	処理するのは大変だ。	It's difficult to processing.
+n3-406-て-あい	出会い	であい	meeting; encounter	名词	彼女は静かだ。	She's quiet.
+n3-407-て-あう	出会う	であう	to come across; to meet; to encounter	动词	朗らかな声で歌った。	I sang with a cheerful voice.
+n3-408-て-きこ-と	出来事	できごと	incident; happening	名词	日本の出来事は独特だ。	Japanese incident is unique.
+n3-409-しゅっは-ん	出版	しゅっぱん	publication	名词/动词	この通りは賑やかだ。	This street is lively.
+n3-410-しゅっしん	出身	しゅっしん	person's origin (e.g. city, country, parentage, school)	名词/形容词	真っ直ぐに進んでください。	Please go straight ahead.
+n3-411-かたな	刀	かたな	sword; katana	名词	刀について話し合った。	We discussed sword.
+n3-412-わける	分ける	わける	to divide; to split	动词	彼は忙しい。	He's busy.
+n3-413-ふ-んせき	分析	ぶんせき	analysis	名词/动词	彼は軽々しく約束する。	He makes promises lightly.
+n3-414-きれ	切れ	きれ	piece; slice	名词	チーズを一切れ食べた。	I ate a slice of cheese.
+n3-415-きれる	切れる	きれる	to be cut; to split	动词	今日は暇だ。	I'm free today.
+n3-416-かる	刈る	かる	to cut; to mow; to prune	动词	のどかな田園風景だ。	It's a peaceful rural scenery.
+n3-417-れつ	列	れつ	row; line; column	名词	列のことをもっと知りたい。	I want to learn more about row.
+n3-418-れっしゃ	列車	れっしゃ	train	名词	彼女は親しい友達だ。	She's a close friend.
+n3-419-はんた-ん	判断	はんだん	judgement; decision	名词/动词	だらしない服装だ。	It's a sloppy outfit.
+n3-420-わかれ	別れ	わかれ	parting; separation	名词	この別れは珍しい。	This parting is rare.
+n3-421-りこう	利口	りこう	clever; shrewd; well-behaved (of kids, animals, etc)	名词/形容词	疎遠な関係になった。	We became distant.
+n3-422-りえき	利益	りえき	profit; gains	名词/动词	そっけない返事だった。	It was a curt reply.
+n3-423-せいと	制度	せいど	system; institution	名词/形容词	制度に関心がある。	I'm interested in system.
+n3-424-せいけ-ん	制限	せいげん	restriction; limit	名词/动词	制限しなければならない。	I have to restriction.
+n3-425-けん	券	けん	ticket; coupon	名词/接尾词	ひそかに計画した。	I secretly planned.
+n3-426-しけ-き	刺激	しげき	stimulus	名词/动词	刺激する必要がある。	It's necessary to stimulus.
+n3-427-せ-んしゃ	前者	ぜんしゃ	the former	名词	前者から変わっていない。	It hasn't changed since the former.
+n3-428-せ-んしん	前進	ぜんしん	advance; progress	名词/动词	うっかり忘れた。	I carelessly forgot.
+n3-429-わる	割る	わる	to divide; to split; to break	动词	何を割るばいいかわからない。	I don't know what to divide.
+n3-430-け-きし-ょう	劇場	げきじょう	theatre; playhouse	名词/形容词	劇場を楽しんだ。	I enjoyed the theatre.
+n3-431-くわえる	加える	くわえる	to add; to include	动词	すっきりした気分だ。	I feel refreshed.
+n3-432-くわわる	加わる	くわわる	to be added to	动词	加わるたら、すぐ連絡してください。	If it be added tos, please contact me immediately.
+n3-433-かけ-ん	加減	かげん	adjustment; add and subtract	名词/动词	もっと加減したい。	I want to adjustment more.
+n3-434-おとる	劣る	おとる	to be inferior to	动词	こっそり出かけた。	I went out secretly.
+n3-435-たすける	助ける	たすける	to save; to rescue; to aid	动词	何を助けるばいいかわからない。	I don't know what to save.
+n3-436-し-ょしゅ	助手	じょしゅ	assistant; helper	名词	日本の助手は独特だ。	Japanese assistant is unique.
+n3-437-ろうと-う	労働	ろうどう	labor; work	名词/动词	ぐっすり眠った。	I slept soundly.
+n3-438-きく	効く	きく	to be effective	动词	効くたら、すぐ連絡してください。	If it be effectives, please contact me immediately.
+n3-439-ゆうき	勇気	ゆうき	courage; bravery	名词	勇気を大切にしている。	I value courage.
+n3-440-うこ-かす	動かす	うごかす	to move; to shift	动词	うっとうしい天気だ。	It's gloomy weather.
+n3-441-と-うし	動詞	どうし	verb	名词/形容词	動詞を覚えている。	I'm memorizing verbs.
+n3-442-かん	勘	かん	intuition	名词	勘が大切だと思う。	I think intuition is important.
+n3-443-かんし-ょう	勘定	かんじょう	calculation; computation; consideration	名词/动词	めったに風邪を引かない。	I rarely catch a cold.
+n3-444-かち	勝ち	かち	victory	名词	勝ちに問題がある。	There is a problem with the victory.
+n3-445-かって	勝手	かって	one's own convenience	名词/形容词	勝手に決めないで。	Don't decide on your own.
+n3-446-かってに	勝手に	かってに	selfishly, of one's own convenience	副词	せめて連絡してください。	At least contact me.
+n3-447-いきおい	勢い	いきおい	force; vigor; spirit	名词	勢いを大切にしている。	I value force.
+n3-448-つとめ	勤め	つとめ	service; business; responsibility	名词	会社勤めをしている。	I work for a company.
+n3-449-すすめる	勧める	すすめる	to recommend	动词	さっさと帰ろう。	Let's go home quickly.
+n3-450-つつみ	包み	つつみ	bundle; package	名词	母から届いた包みを開けた。	I opened the package that arrived from my mother.
+n3-451-かか-く	化学	かがく	chemistry	名词/形容词	化学になりたい。	I want to become chemistry.
+n3-452-けしょう	化粧	けしょう	makeup; cosmetics	名词/动词	ずっと待っていた。	I was waiting the whole time.
+n3-453-くへ-つ	区別	くべつ	distinction; classification	名词/动词	区別するのは大変だ。	It's difficult to distinction.
+n3-454-いし	医師	いし	doctor	名词/形容词	医師で病院に行った。	I went to the hospital for doctor.
+n3-455-いりょう	医療	いりょう	medical treatment	名词/形容词	ぼんやりしていた。	I was absent-minded.
+n3-456-なかは	半ば	なかば	middle; halfway; partly	名词/副词/接尾词	半ば準備した。	I prepared middle.
+n3-457-たんなる	単なる	たんなる	mere; simple	形容词/代词	単なるに関する本を読んだ。	I read a book about mere.
+n3-458-たんに	単に	たんに	simply; merely	副词	ふと思い出した。	I suddenly remembered.
+n3-459-たんい	単位	たんい	unit; denomination	名词	大学の単位が足りなくて卒業できなかった。	I couldn't graduate because I didn't have enough credits.
+n3-460-たんし-ゅん	単純	たんじゅん	simple; plain	名词/形容词	単純な計算だ。	It's a simple calculation.
+n3-461-はかせ-はかし	博士	はかせ、はかし	doctorate; PhD	名词	いきなり怒り出した。	He suddenly got angry.
+n3-462-はくふ-つかん	博物館	はくぶつかん	museum	名词	日本の博物館は独特だ。	Japanese museum is unique.
+n3-463-しるし	印	しるし	mark; sign	名词	印が必要です。	Mark is necessary.
+n3-464-いんさつ	印刷	いんさつ	printing	名词/动词	彼の説明はもっともだ。	His explanation is reasonable.
+n3-465-やっかい	厄介	やっかい	trouble; burden; nuisance;	名词/形容词	あの場所は厄介だ。	That place is trouble.
+n3-466-はら	原	はら	field; plain	名词	原について話し合った。	We discussed field.
+n3-467-さる	去る	さる	to leave; to go away	动词	まさか失敗するとは。	I never thought I'd fail.
+n3-sanka	参加	さんか	participation	名词/动词	参加しなければならない。	I have to participation.
+n3-469-さんこう	参考	さんこう	reference	名词/形容词	参考にしてください。	Please use it as reference.
+n3-470-およほ-す	及ぼす	およぼす	to exert; to cause	动词	どうやら成功したようだ。	It seems I've succeeded.
+n3-471-ゆうし-ょう	友情	ゆうじょう	friendship; camaraderie	名词	友情を大切にしている。	I cherish my friendship.
+n3-472-はんこう	反抗	はんこう	opposition; resistance	名词/动词	反抗したほうがいい。	You should opposition.
+n3-473-おさめる	収める	おさめる	to make an offering; to finish; to achieve (e.g. a result)	动词	ようやく完成した。	I finally completed it.
+n3-474-しゅうにゅう	収入	しゅうにゅう	income; revenue	名词	収入が高くなった。	The income has gone up.
+n3-475-とれる	取れる	とれる	to come off; to be removed	动词	取れるないように気をつけている。	I'm careful not to come off.
+n3-476-うけとる	受け取る	うけとる	to accept; to receive	动词	なるほど、そうですか。	I see, is that so.
+n3-477-く	句	く	section (i.e. of text); paragraph	名词	句が大切だと思う。	I think section is important.
+n3-478-たたく	叩く	たたく	to strike; to clap; to beat; to tap	动词	上手に叩くことができる。	I can strike well.
+n3-479-かのう	可能	かのう	possible; feasible	名词/形容词	もはや手遅れだ。	It's already too late.
+n3-480-あわせる	合わせる	あわせる	to match (rhythm, speed, etc.); to combine	动词	これを合わせるましょう。	Let's match this.
+n3-481-あいす	合図	あいず	signal; cue	名词/动词	合図するつもりだ。	I intend to signal.
+n3-482-こ-うかく	合格	ごうかく	success; passing (e.g. exam)	名词/动词	むしろ賛成だ。	I'd rather agree.
+n3-483-こ-うけい	合計	ごうけい	total amount	名词/动词	合計したほうがいい。	You should total amount.
+n3-484-と-ういつ	同一	どういつ	identical; equal	形容词	同一人物だ。	It's the same person.
+n3-485-と-うし	同時	どうじ	simultaneous; concurrent	名词/形容词	そもそも間違いだった。	It was wrong from the start.
+n3-486-と-うよう	同様	どうよう	identical; equal to	名词/形容词	同様の問題が起きた。	A similar problem occurred.
+n3-487-な	名	な	name (first); given name	名词	名に関する本を読んだ。	I read a book about name.
+n3-488-めいし-ん	名人	めいじん	expert	名词	たちまち人気が出た。	It became popular instantly.
+n3-489-はく	吐く	はく	to breathe out; to vomit	动词	彼女がそれを吐くた。	She breathe outed it.
+n3-490-むかい	向かい	むかい	facing; across the street	名词/形容词	向かいの家に住んでいる。	I live in the house across.
+n3-491-むく	向く	むく	to turn toward; to face; to be suited to	动词	わずかに残っている。	A little remains.
+n3-492-むける	向ける	むける	to turn towards	动词	これを向けるましょう。	Let's turn towards this.
+n3-493-ほえる	吠える	ほえる	to bark; to howl	动词	吠えるないように気をつけている。	I'm careful not to bark.
+n3-494-ひてい	否定	ひてい	denial; repudiation	名词/动词	いつの間にか寝ていた。	I fell asleep before I knew it.
+n3-495-ふくむ	含む	ふくむ	to contain; to include	动词	何を含むばいいかわからない。	I don't know what to contain.
+n3-496-きゅうしゅう	吸収	きゅうしゅう	absorption	名词/动词	先生に吸収してもらった。	I had the teacher absorption for me.
+n3-497-しゅうい	周囲	しゅうい	surroundings	名词/形容词	周囲を見回した。	I looked around.
+n3-498-こきゅう	呼吸	こきゅう	breathing; respiration	名词/动词	呼吸するつもりだ。	I intend to breathing.
+n3-499-いのち	命	いのち	life; lifetime	名词	日本の命は独特だ。	Japanese life is unique.
+n3-500-めいし-る	命じる	めいじる	to order; to command	动词	何を命じるばいいかわからない。	I don't know what to order.
+n3-501-めいれい	命令	めいれい	order; command	名词/动词	命令しなければならない。	I have to order.
+n3-502-せき	咳	せき	cough	名词	咳が止まらないので病院に行った。	I went to the hospital because my cough wouldn't stop.
+n3-503-あわれ	哀れ	あわれ	pity; sorrow	名词	彼の態度に哀れを感じた。	I felt pity at his attitude.
+n3-504-てつか-く	哲学	てつがく	philosophy	名词	哲学について話し合った。	We discussed philosophy.
+n3-505-ゆいいつ	唯一	ゆいいつ	sole; unique	副词	唯一になりたい。	I want to become sole.
+n3-506-しょうにん	商人	しょうにん	trader; merchant	名词/形容词	商人が高くなった。	The trader has gone up.
+n3-507-しょうは-い	商売	しょうばい	trade; commerce	名词/动词	彼女は商売するのが上手だ。	She is good at tradeing.
+n3-508-とい	問い	とい	question	名词	問いが大切だと思う。	I think question is important.
+n3-509-よろこひ	喜び	よろこび	joy; delight	名词	喜びな気持ちになった。	I felt joy.
+n3-510-えいき-ょう	営業	えいぎょう	sales; selling	名词/动词	営業が高くなった。	The sales has gone up.
+n3-511-うわさ	噂	うわさ	rumour; gossip	名词/动词	噂しなければならない。	I have to rumour.
+n3-512-きよう	器用	きよう	skilful; adroit	名词/形容词	彼は器用だ。	He's skillful.
+n3-513-まわす	回す	まわす	to turn; to rotate	动词	これを回すましょう。	Let's turn this.
+n3-514-まわり	回り	まわり	rotation	名词	回りが注目されている。	The rotation is getting attention.
+n3-515-かいふく	回復	かいふく	restoration; return	名词/动词	回復するのは大変だ。	It's difficult to restoration.
+n3-516-た-んたい	団体	だんたい	organization; association	名词	団体が大切だと思う。	I think organization is important.
+n3-517-こんなん	困難	こんなん	difficulty; hardship	名词/形容词	とても困難だと思う。	I think it's very difficulty.
+n3-518-かこむ	囲む	かこむ	to encircle; to enclose	动词	彼女がそれを囲むた。	She encircled it.
+n3-519-す	図	ず	drawing; picture; diagram; figure	名词/接尾词	図に関する本を読んだ。	I read a book about drawing.
+n3-520-こっかい	国会	こっかい	National Diet	名词	国会が変わりつつある。	National Diet is changing.
+n3-521-こっきょう	国境	こっきょう	national border	名词/形容词	国境に関心がある。	I'm interested in national border.
+n3-522-こっか	国家	こっか	state; nation	名词	国家に関心がある。	I'm interested in state.
+n3-523-こくこ	国語	こくご	national language; Japanese language	名词	国語が変わりつつある。	National language is changing.
+n3-524-つち	土	つち	soil; dirt; mud	名词	この土は珍しい。	This soil is rare.
+n3-525-とち	土地	とち	plot of land	名词	土地が大切だと思う。	I think plot of land is important.
+n3-526-ちか	地下	ちか	basement; cellar	名词/形容词	地下に降りた。	I went down to the basement.
+n3-527-ちい	地位	ちい	position; status	名词	地位が必要です。	Position is necessary.
+n3-528-ちく	地区	ちく	district; section	名词/形容词	この地区に住んでいる。	I live in this district.
+n3-529-ちきゅう	地球	ちきゅう	the earth; the globe	名词/形容词	地球を守りたい。	I want to protect the earth.
+n3-530-かた	型	かた	mould; template; type; pattern	名词	型が注目されている。	The mould is getting attention.
+n3-531-ほこり	ほこり	ほこり	dust	名词	ほこりに関する本を読んだ。	I read a book about dust.
+n3-532-しろ	城	しろ	castle	名词	城のことをもっと知りたい。	I want to learn more about castle.
+n3-533-きほん	基本	きほん	foundation; basis	名词/形容词	基本なことに気づいた。	I noticed something foundation.
+n3-534-は	場	ば	place	名词	場の意味を説明した。	I explained the meaning of place.
+n3-535-は-めん	場面	ばめん	scene; setting (e.g. of novel)	名词/形容词	感動的な場面だった。	It was a moving scene.
+n3-536-へい	塀	へい	wall; fence	名词	塀が広くて明るい。	The wall is spacious and bright.
+n3-537-とう	塔	とう	tower; spire	名词	塔のことをもっと知りたい。	I want to learn more about tower.
+n3-538-はか	墓	はか	gravesite; tomb	名词	墓が大切だと思う。	I think gravesite is important.
+n3-539-ます	増す	ます	to increase; to grow	动词	増すないように気をつけている。	I'm careful not to increase.
+n3-540-そ-うか	増加	ぞうか	increase; growth	名词/动词	増加するつもりだ。	I intend to increase.
+n3-541-うれる	売れる	うれる	to sell (a lot)	动词	売れるないように気をつけている。	I'm careful not to sell.
+n3-542-へんか	変化	へんか	change; transformation	名词/动词	できるだけ早く変化してください。	Please change as soon as possible.
+n3-543-はす-す	外す	はずす	to take off; to detach; to unfasten	动词	これを外すましょう。	Let's take off this.
+n3-544-か-いこう	外交	がいこう	diplomacy	名词	外交が大切だと思う。	I think diplomacy is important.
+n3-545-か-いしゅつ	外出	がいしゅつ	going out	名词/动词	彼女は外出するのが上手だ。	She is good at going outing.
+n3-546-たしょう	多少	たしょう	more or less; somewhat	副词	多少の誤差がある。	There's some margin of error.
+n3-547-よあけ	夜明け	よあけ	dawn; daybreak	名词	夜明けから変わっていない。	It hasn't changed since dawn.
+n3-548-おおいに	大いに	おおいに	very; much; greatly; a lot of	副词	大いに歩いている。	I'm walking very.
+n3-549-たいした	大した	たいした	considerable; important; significant; a big deal	形容词/代词	大したが大切だと思う。	I think considerable is important.
+n3-550-たいかい	大会	たいかい	convention; tournament	名词/形容词	大会で優勝した。	I won the tournament.
+n3-551-たいし	大使	たいし	ambassador	名词/形容词	大使になりたい。	I want to become ambassador.
+n3-552-たいはん	大半	たいはん	majority; more than half	名词/形容词	大半の人が賛成した。	The majority of people agreed.
+n3-553-たいか	大家	たいか	master; expert	名词	彼は日本画の大家として尊敬されている。	He is respected as a master of Japanese painting.
+n3-554-たいせん	大戦	たいせん	great war; World War	名词	大戦に関心がある。	I'm interested in great war.
+n3-555-たいき	大気	たいき	atmosphere	名词	大気汚染が深刻な問題になっている。	Air pollution has become a serious problem.
+n3-556-た-いし-ん	大臣	だいじん	cabinet minister	名词	大臣を大切にしている。	I value cabinet minister.
+n3-557-た-いふ-ふ-ん	大部分	だいぶぶん	greater part; majority	名词	大部分を大切にしている。	I value greater part.
+n3-558-たいりく	大陸	たいりく	continent	名词	大陸が必要です。	Continent is necessary.
+n3-559-てんこう	天候	てんこう	weather	名词	天候を見に行った。	I went to see the weather.
+n3-560-てんねん	天然	てんねん	nature	名词/形容词	天然の素材だ。	It's a natural material.
+n3-561-ふし-ん	夫人	ふじん	(hon) wife; Mrs	名词	夫人を大切にしている。	I cherish my wife.
+n3-562-ふうふ	夫婦	ふうふ	married couple; husband and wife	名词	夫婦との関係がいい。	I have a good relationship with my married couple.
+n3-563-しつほ-う	失望	しつぼう	disappointment; despair	名词/动词	天気予報を見た。	I watched the weather forecast.
+n3-564-しつき-ょう	失業	しつぎょう	losing one's job; becoming unemployed	名词/动词	彼は会社が倒産して失業した。	He lost his job when the company went bankrupt.
+n3-565-きみょう	奇妙	きみょう	strange; curious	名词/形容词	奇妙な人が好きだ。	I like strange people.
+n3-566-しょうか-くきん	奨学金	しょうがくきん	scholarship; stipend	名词	重大な決断だ。	It's a crucial decision.
+n3-567-うは-う	奪う	うばう	to snatch away; to steal	动词	早く奪うてください。	Please snatch away it quickly.
+n3-568-し-ょゆう	女優	じょゆう	actress	名词/形容词	あの場所は女優だ。	That place is actress.
+n3-569-し-ょし	女子	じょし	girl	名词/形容词	重要なポイントだ。	It's an important point.
+n3-570-し-ょおう	女王	じょおう	queen	名词/形容词	とても女王だと思う。	I think it's very queen.
+n3-571-このむ	好む	このむ	to prefer; to like	动词	これを好むましょう。	Let's prefer this.
+n3-572-みょう	妙	みょう	strange; weird; odd	名词/形容词	従来のやり方だ。	It's the conventional way.
+n3-573-しまい	姉妹	しまい	sisters	名词	姉妹との関係がいい。	I have a good relationship with my sisters.
+n3-574-はし-まり	始まり	はじまり	beginning	名词	始まりについて話し合った。	We discussed beginning.
+n3-575-すか-た	姿	すがた	figure; form	名词	純粋な気持ちだ。	It's a pure feeling.
+n3-576-こんやく	婚約	こんやく	engagement; betrothal	名词/动词	婚約するのは大変だ。	It's difficult to engagement.
+n3-577-ふし-ん	婦人	ふじん	woman; lady	名词	婦人に関する本を読んだ。	I read a book about woman.
+n3-578-よめ	嫁	よめ	(my) wife; bride	名词	準備が整った。	Preparations are complete.
+n3-579-そんさ-い	存在	そんざい	existence; being	名词/动词	彼女は存在するのが上手だ。	She is good at existenceing.
+n3-580-か-く	学	がく	learning; scholarship	名词	学のある人は尊敬される。	People with learning are respected.
+n3-581-まなふ	学ぶ	まなぶ	to study	动词	順番を守ってください。	Please follow the order.
+n3-582-か-くもん	学問	がくもん	scholarship; study; learning	名词/动词	学問の成績がよかった。	My scholarship grades were good.
+n3-583-か-っき	学期	がっき	school term; semester	名词/形容词	学期なことに気づいた。	I noticed something school term.
+n3-584-か-くしゅう	学習	がくしゅう	study; learning	名词/动词	順調に進んでいる。	It's going smoothly.
+n3-585-か-くしゃ	学者	がくしゃ	scholar	名词/形容词	学者なことに気づいた。	I noticed something scholar.
+n3-586-うちゅう	宇宙	うちゅう	universe; cosmos; space	名词	宇宙が必要です。	Universe is necessary.
+n3-587-あんてい	安定	あんてい	stability; steadiness	名词/动词/形容词	消費者を守る。	I protect consumers.
+n3-588-かんりょう	完了	かんりょう	completion	名词/动词	完了したほうがいい。	You should completion.
+n3-589-かんせ-ん	完全	かんぜん	completeness	名词	完全になりたい。	I want to become completeness.
+n3-590-しゅうきょう	宗教	しゅうきょう	religion	名词	使用方法を確認した。	I confirmed the usage method.
+n3-591-ていき	定期	ていき	fixed period; fixed term	名词	定期のことを覚えていますか。	Do you remember fixed period?
+n3-592-たから	宝	たから	treasure	名词	宝について話し合った。	We discussed treasure.
+n3-593-ほうせき	宝石	ほうせき	gem; jewel	名词/形容词	障害を乗り越えた。	I overcame the obstacle.
+n3-594-し-つは	実は	じつは	as a matter of fact; frankly	副词/表达	実は考えた。	I thought about it as a matter of fact.
+n3-595-し-っし	実施	じっし	enforcement; implementation	名词/动词	実施するのに時間がかかる。	It takes time to enforcement.
+n3-596-し-つけ-ん	実現	じつげん	implementation (e.g. of a system)	名词/动词	将来の夢を語った。	I talked about my future dream.
+n3-597-し-っこう	実行	じっこう	execution (e.g. of a plan)	名词/动词	もっと実行したい。	I want to execution more.
+n3-598-し-っけん	実験	じっけん	experiment	名词/动词	実験した結果、うまくいった。	As a result of experimenting, it went well.
+n3-599-かく	家具	かぐ	furniture	名词	状態が安定している。	The condition is stable.
+n3-600-ようい	容易	ようい	easy; simple; plain	名词/形容词	容易な人が好きだ。	I like easy people.
+n3-601-きふ	寄付	きふ	donation	名词/动词	先生に寄付してもらった。	I had the teacher donation for me.
+n3-602-しんは-ん	審判	しんぱん	referee; judgement; umpire	名词/动词	状況を説明した。	I explained the situation.
+n3-603-たいする	対する	たいする	to face (each other); to confront; to oppose	动词	対するたら、すぐ連絡してください。	If it faces, please contact me immediately.
+n3-604-たいしょう	対象	たいしょう	target; object; scope	名词/形容词	対象な結果になった。	It turned out to be a target result.
+n3-605-せんこう	専攻	せんこう	major (in school or study); specialty	名词/动词	上昇が続いている。	The rise continues.
+n3-606-そんけい	尊敬	そんけい	respect; honor	名词/动词	もっと尊敬したい。	I want to respect more.
+n3-607-そんちょう	尊重	そんちょう	respect; regard	名词/动词	彼女は尊重するのが上手だ。	She is good at respecting.
+n3-608-こつ-つみ	小包	こづつみ	(small) parcel; package	名词	情報を集めている。	I'm gathering information.
+n3-609-こや	小屋	こや	hut; cabin; shed	名词	小屋が注目されている。	The hut is getting attention.
+n3-610-こむき	小麦	こむぎ	wheat	名词	小麦が注目されている。	The wheat is getting attention.
+n3-611-しょうしょう	少々	しょうしょう	just a minute; small quantity	名词/副词	職業を聞かれた。	I was asked my occupation.
+n3-612-しょうし-ょ	少女	しょうじょ	maiden; young lady	名词	少女の意味を説明した。	I explained the meaning of maiden.
+n3-613-しょうねん	少年	しょうねん	juvenile; youth (usually male)	名词	少年を大切にしている。	I value juvenile.
+n3-614-つく	就く	つく	to be hired; to be employed	动词	食欲がない。	I have no appetite.
+n3-615-おしり	お尻	おしり	buttocks; behind	名词	赤ちゃんのお尻にクリームを塗った。	I applied cream to the baby's bottom.
+n3-616-きょく	局	きょく	bureau; department	名词/接尾词	この件については総務局に問い合わせてください。	Please contact the general affairs bureau regarding this matter.
+n3-617-いねむり	居眠り	いねむり	nodding off (when sitting); dozing	名词/动词	食事を済ませた。	I finished my meal.
+n3-618-とと-く	届く	とどく	to be delivered	动词	届くたら、すぐ連絡してください。	If it be delivereds, please contact me immediately.
+n3-619-やね	屋根	やね	roof	名词	屋根を掃除した。	I cleaned the roof.
+n3-620-いわ	岩	いわ	rock; boulder	名词	食品を買った。	I bought food items.
+n3-621-あらし	嵐	あらし	storm; tempest	名词	嵐を見に行った。	I went to see the storm.
+n3-622-しゅう	州	しゅう	state; province; county	名词/接尾词	州に問題がある。	There is a problem with the state.
+n3-623-す	巣	す	nest; hive	名词	人口が増えている。	The population is increasing.
+n3-624-さゆう	左右	さゆう	left and right	名词/动词	左右が変わりつつある。	Left and right is changing.
+n3-625-きょた-い	巨大	きょだい	huge; gigantic	名词/形容词	巨大になりたい。	I want to become huge.
+n3-626-さ	差	さ	difference; variation	名词	人事異動があった。	There was a personnel change.
+n3-627-さへ-つ	差別	さべつ	discrimination; differentiation	名词/动词	先生に差別してもらった。	I had the teacher discrimination for me.
+n3-628-いちは	市場（いちば）	いちば	market; marketplace (physical place)	名词	市場（いちば）が注目されている。	The market is getting attention.
+n3-629-しし-ょう	市場（しじょう）	しじょう	(the) market (as a concept)	名词	人生を楽しむ。	I enjoy life.
+n3-630-ぬの	布	ぬの	cloth	名词	この布は珍しい。	This cloth is rare.
+n3-631-きたく	帰宅	きたく	returning home	名词/动词	毎日帰宅している。	I returning home every day.
+n3-632-つねに	常に	つねに	always; constantly	副词	心配をかけた。	I caused worry.
+n3-633-まく	幕	まく	curtain	名词	幕が必要です。	Curtain is necessary.
+n3-634-たいら	平ら	たいら	flatness; level	名词/形容词	平らな結果になった。	It turned out to be a flatness result.
+n3-635-ひ-ょうと-う	平等	びょうどう	impartiality; evenness	名词/形容词	親友と遊んだ。	I played with my best friend.
+n3-636-ねんし-ゅう	年中	ねんじゅう	whole year; all year round	名词	沖縄は年中暖かい気候だ。	Okinawa has a warm climate all year round.
+n3-637-ねんた-い	年代	ねんだい	age; era	名词	年代のことを覚えていますか。	Do you remember age?
+n3-638-ねんかん	年間	ねんかん	(period of) a year	名词	身体を鍛えている。	I'm training my body.
+n3-639-さいわい	幸い	さいわい	happiness; fortune	名词/形容词	幸いな結果になった。	It turned out to be a happiness result.
+n3-640-しあわせ	幸せ	しあわせ	happiness; good fortune	名词/形容词	幸せな人が好きだ。	I like happiness people.
+n3-641-こうふく	幸福	こうふく	happiness; well-being	名词/形容词	水準が高い。	The standard is high.
+n3-642-こううん	幸運	こううん	good luck	名词/形容词	幸運な人が好きだ。	I like good luck people.
+n3-643-おさない	幼い	おさない	childish; immature	形容词	今日は幼くてたまらない。	Today is unbearably childish.
+n3-644-こうこく	広告	こうこく	advertisement	名词/动词	水曜日に会おう。	Let's meet on Wednesday.
+n3-645-ゆか	床	ゆか	floor	名词	床を掃除した。	I cleaned the floor.
+n3-646-そこ	底	そこ	bottom; sole	名词	底を大切にしている。	I value bottom.
+n3-647-さ-せき	座席	ざせき	seat	名词/形容词	数字を確認した。	I checked the numbers.
+n3-648-えんき	延期	えんき	postponement; deferment	名词/动词	延期する必要がある。	It's necessary to postponement.
+n3-649-けんちく	建築	けんちく	construction; architecture	名词/动词	建築するのに時間がかかる。	It takes time to construction.
+n3-650-へ-んこ-し	弁護士	べんごし	lawyer; attorney	名词	世紀の発明だ。	It's an invention of the century.
+n3-651-しき	式	しき	equation; formula	名词/接尾词	卒業式に両親が来てくれた。	My parents came to the graduation ceremony.
+n3-652-ひっは-る	引っ張る	ひっぱる	to pull out; to draw out	动词	これを引っ張るましょう。	Let's pull out this.
+n3-653-いんよう	引用	いんよう	quotation; reference	名词/动词	成果を出した。	I produced results.
+n3-654-いんたい	引退	いんたい	retirement	名词/动词	引退しなければならない。	I have to retirement.
+n3-655-きょうりょく	強力	きょうりょく	powerful; strong	名词/形容词	強力なことに気づいた。	I noticed something powerful.
+n3-656-こ-うとう	強盗	ごうとう	mugger; burgler	名词	生活費が足りない。	Living expenses aren't enough.
+n3-657-きょうちょう	強調	きょうちょう	emphasis; highlight	名词/动词	強調したほうがいい。	You should emphasis.
+n3-658-あたる	当たる	あたる	to be hit; to strike; to be selected; to win	动词	だんだん当たるてきた。	It gradually started to be hit.
+n3-659-あてる	当てる	あてる	to hit; to put on; to expose	动词	制限時間がある。	There's a time limit.
+n3-660-とうし	当時	とうじ	at that time; in those days	名词/副词	当時準備した。	I prepared at that time.
+n3-661-とうせ-ん	当然	とうぜん	natural; of course	形容词	当然になりたい。	I want to become natural.
+n3-662-かけ	影	かげ	shadow; silhouette	名词	成功を収めた。	I achieved success.
+n3-663-やくわり	役割	やくわり	part; role	名词	この役割は珍しい。	This part is rare.
+n3-664-こうしゃ	後者	こうしゃ	the latter	名词/形容词	とても後者だと思う。	I think it's very the latter.
+n3-665-したか-う	従う	したがう	to obey; to follow	动词	政治に興味がある。	I'm interested in politics.
+n3-666-いとこ	いとこ	いとこ	cousin	名词	いとこに関する本を読んだ。	I read a book about cousin.
+n3-667-ひ-みょう	微妙	びみょう	subtle; sensitive	名词/形容词	あの場所は微妙だ。	That place is subtle.
+n3-668-ほほえむ	微笑む	ほほえむ	to smile	动词	精神的に疲れた。	I'm mentally tired.
+n3-669-てってい	徹底	てってい	thoroughness; completeness	名词/动词	徹底したほうがいい。	You should thoroughness.
+n3-670-しんり	心理	しんり	state of mind; psychology	名词	心理を大切にしている。	I value state of mind.
+n3-671-しんそ-う	心臓	しんぞう	heart (medical)	名词/形容词	製造業で働く。	I work in manufacturing.
+n3-672-かならす-しも	必ずしも	かならずしも	not always; not necessarily	副词	必ずしも準備した。	I prepared not always.
+n3-673-ひっし	必死	ひっし	frantic; desperate	形容词	必死になりたい。	I want to become frantic.
+n3-674-おうし-る	応じる	おうじる	to satisfy; to accept; to comply with	动词	税務署に行った。	I went to the tax office.
+n3-675-おもいて	思い出	おもいで	memories; reminiscence	名词	思い出について話し合った。	We discussed memories.
+n3-676-おもわす	思わず	おもわず	reflexively; instinctively	副词	思わず食べている。	I'm eating reflexively.
+n3-677-しそう	思想	しそう	idea; ideology	名词	世界中を旅した。	I traveled around the world.
+n3-678-なまける	怠ける	なまける	to be idle | to neglect (e.g. one's work)	动词	早く怠けるてください。	Please be idle | to neglect it quickly.
+n3-679-きゅうけ-き	急激	きゅうげき	sudden; abrupt	名词/形容词	急激な人が好きだ。	I like sudden people.
+n3-680-きゅうそく	急速	きゅうそく	rapid (e.g. progress)	名词/形容词	石油の価格が上がった。	Oil prices rose.
+n3-681-こい	恋	こい	(romantic) love	名词	彼の態度に恋を感じた。	I felt love at his attitude.
+n3-682-こいひ-と	恋人	こいびと	lover; sweetheart	名词	恋人な気持ちになった。	I felt lover.
+n3-683-おそれる	恐れる	おそれる	to fear	动词	設計図を見た。	I looked at the blueprint.
+n3-684-おそろしい	恐ろしい	おそろしい	dreadful; terrifying; frightening	形容词	恐ろしければ、教えてください。	If it's dreadful, please let me know.
+n3-685-きょうふ	恐怖	きょうふ	fear; dread	名词/动词	恐怖するつもりだ。	I intend to fear.
+n3-686-いき	息	いき	breath	名词	積極的に参加した。	I actively participated.
+n3-687-かんし-ゃ	患者	かんじゃ	(medical) patient	名词	患者の治療を受けている。	I'm receiving treatment for patient.
+n3-688-あくま	悪魔	あくま	devil; demon	名词	悪魔のことをもっと知りたい。	I want to learn more about devil.
+n3-689-かなしむ	悲しむ	かなしむ	to be sad	动词	説得力がある。	It's convincing.
+n3-690-ひけ-き	悲劇	ひげき	tragedy; disaster	名词	悲劇を大切にしている。	I value tragedy.
+n3-691-ゆかい	愉快	ゆかい	pleasant; delightfu	名词/形容词	とても愉快だと思う。	I think it's very pleasant.
+n3-692-いか-い	意外	いがい	unexpected; surprising	名词/副词	絶対に勝つ。	I'll definitely win.
+n3-693-いし	意志	いし	will; volition	名词	意志について話し合った。	We discussed will.
+n3-694-いし	意思	いし	intention; wish	名词	意思に問題がある。	There is a problem with the intention.
+n3-695-いしき	意識	いしき	consciousness; awareness	名词/动词	節約を心がける。	I try to save.
+n3-696-あい	愛	あい	love	名词	彼の態度に愛を感じた。	I felt love at his attitude.
+n3-697-あいする	愛する	あいする	to love	动词	早く愛するてください。	Please love it quickly.
+n3-698-かんし	感じ	かんじ	feeling; sense	名词	宣伝を出した。	I put out an advertisement.
+n3-699-かんし-る	感じる	かんじる	to feel; to sense	动词	上手に感じることができる。	I can feel well.
+n3-700-かんと-う	感動	かんどう	being deeply moved emotionally	名词/动词	毎日感動している。	I being deeply moved emotionally every day.
+n3-701-かんしん	感心	かんしん	admiration; being impressed	名词/动词	選択肢が多い。	There are many options.
+n3-702-かんし-ょう	感情	かんじょう	emotion; feelings	名词/形容词	感情なことに気づいた。	I noticed something emotion.
+n3-703-かんかく	感覚	かんかく	sensation; feeling	名词/动词	感覚する必要がある。	It's necessary to sensation.
+n3-704-しんちょう	慎重	しんちょう	cautious; prudent	名词/形容词	先輩にお世話になった。	I was taken care of by my senior.
+n3-705-けんほ-う	憲法	けんぽう	constitution	名词/形容词	あの場所は憲法だ。	That place is constitution.
+n3-706-せいし-ん	成人	せいじん	adult	名词	成人に関する本を読んだ。	I read a book about adult.
+n3-707-せいちょう	成長	せいちょう	growth	名词/动词	専門家に聞いた。	I asked an expert.
+n3-708-われわれ	我々	われわれ	we	形容词/代词	とても我々だと思う。	I think it's very we.
+n3-709-か-まん	我慢	がまん	tolerance; self-control	名词/动词	もっと我慢したい。	I want to tolerance more.
+n3-710-たたかい	戦い	たたかい	battle; conflict	名词	戦略を立てた。	I made a strategy.
+n3-711-たたかう	戦う	たたかう	to wage war; to fight	动词	突然戦うた。	It suddenly wage wared.
+n3-712-のおかけ	～のおかげ	～のおかげ	due to ～ (positive meaning)	表达	友達に「～のおかげ」と言われた。	My friend said "due to ～" to me.
+n3-713-のせい	～のせい	～のせい	～'s fault (negative meaning)	表达	全力で頑張る。	I'll do my best.
+n3-714-てし-な	手品	てじな	sleight of hand	名词	彼女は手品が大きい。	She has big sleight of hand.
+n3-715-しゅた-ん	手段	しゅだん	means; way	名词	手段の意味を説明した。	I explained the meaning of means.
+n3-716-てま	手間	てま	time; labour; trouble	名词	全滅した部隊だ。	It's an annihilated unit.
+n3-717-さいのう	才能	さいのう	talent; ability	名词	才能のことをもっと知りたい。	I want to learn more about talent.
+n3-718-あつかう	扱う	あつかう	to handle; to manage; to deal with	动词	上手に扱うことができる。	I can handle well.
+n3-719-ひはん	批判	ひはん	criticism; judgement	名词/动词	善悪を判断する。	I judge right from wrong.
+n3-720-ひひょう	批評	ひひょう	criticism; review	名词/动词	彼女は批評するのが上手だ。	She is good at criticisming.
+n3-721-しょうにん	承認	しょうにん	approval; consent	名词/动词	先生に承認してもらった。	I had the teacher approval for me.
+n3-722-き-し	技師	ぎし	technician; engineer	名词	前回と比べた。	I compared with last time.
+n3-723-ぬく	抜く	ぬく	to extract; to omit	动词	早く抜くてください。	Please extract it quickly.
+n3-724-かかえる	抱える	かかえる	to hold or carry under or in the arms	动词	彼女がそれを抱えるた。	She hold or carry under or in the armsed it.
+n3-725-ていこう	抵抗	ていこう	resistance; reluctance	名词/动词	前後の文脈を見る。	I look at the context.
+n3-726-たんとう	担当	たんとう	being in charge; being responsible for	名词/动词	毎日担当している。	I being in charge every day.
+n3-727-はくしゅ	拍手	はくしゅ	applause	名词/动词	拍手したほうがいい。	You should applause.
+n3-728-まねく	招く	まねく	to invite	动词	前進した話だ。	It's progress.
+n3-729-かくた-い	拡大	かくだい	magnification; amplification; enlargement; expansion	名词/动词	毎日拡大している。	I magnification every day.
+n3-730-さす	指す	さす	to point; to specify; to select	动词	これを指すましょう。	Let's point this.
+n3-731-ふる	振る	ふる	to shake; to wave	动词	前提として認める。	I accept it as a premise.
+n3-732-つかまる	捕まる	つかまる	to be caught; to be arrested	动词	捕まるないように気をつけている。	I'm careful not to be caught.
+n3-733-すいせん	推薦	すいせん	recommendation; endorsement	名词/动词	推薦する必要がある。	It's necessary to recommendation.
+n3-734-けいし	掲示	けいじ	notice; bulletin	名词/动词	操作を覚えた。	I learned the operation.
+n3-735-つかむ	掴む	つかむ	to seize; to grasp; to grip	动词	これを掴むましょう。	Let's seize this.
+n3-736-ていしゅつ	提出	ていしゅつ	to present; to submit (e.g. a report or a thesis)	名词/动词	提出が上手になりたい。	I want to become better at present.
+n3-737-ていあん	提案	ていあん	proposal	名词/动词	総合的に判断する。	I judge comprehensively.
+n3-738-にき-る	握る	にぎる	to grasp; to grip	动词	早く握るてください。	Please grasp it quickly.
+n3-739-あくしゅ	握手	あくしゅ	handshake	名词/动词	握手する必要がある。	It's necessary to handshake.
+n3-740-そん	損	そん	loss; damage; harm	名词/形容词/接尾词	相互に協力する。	We cooperate mutually.
+n3-741-そんか-い	損害	そんがい	damage; injury; loss	名词/动词	損害するのは大変だ。	It's difficult to damage.
+n3-742-うつ	撃つ	うつ	to shoot	动词	これを撃つましょう。	Let's shoot this.
+n3-743-ささえる	支える	ささえる	to support; to hold up	动词	創作した作品だ。	It's a creative work.
+n3-744-ししゅつ	支出	ししゅつ	expenditure; disbursement	名词/动词	支出した結果、うまくいった。	As a result of expenditureing, it went well.
+n3-745-してん	支店	してん	branch office; branch store	名词	彼女は支店に満足している。	She is satisfied with her branch office.
+n3-746-しはらい	支払い	しはらい	payment	名词	相対的に見る。	I look at it relatively.
+n3-747-しきゅう	支給	しきゅう	payment; allowance	名词/动词	支給したほうがいい。	You should payment.
+n3-748-しはい	支配	しはい	domination; control; direction; management	名词/动词	支配する必要がある。	It's necessary to domination.
+n3-749-かいせ-ん	改善	かいぜん	improvement	名词/动词	早退した。	I left early.
+n3-750-はなす	放す	はなす	to release; to let go	动词	上手に放すことができる。	I can release well.
+n3-751-せいふ	政府	せいふ	government	名词	政府が変わりつつある。	Government is changing.
+n3-752-すくう	救う	すくう	to rescue from; to save	动词	送迎バスに乗った。	I rode the shuttle bus.
+n3-753-きゅうし-ょ	救助	きゅうじょ	relief; aid	名词/动词	もっと救助したい。	I want to relief more.
+n3-754-きょうし-ゅ	教授	きょうじゅ	professor	名词	大学の教授にメールで質問を送った。	I sent a question by email to my university professor.
+n3-755-きょうかしょ	教科書	きょうかしょ	textbook; coursebook; schoolbook	名词	総理大臣になった。	I became prime minister.
+n3-756-けいい	敬意	けいい	respect; honor	名词	敬意のことをもっと知りたい。	I want to learn more about respect.
+n3-757-すうし	数字	すうじ	(math) numeral; digit; number	名词	数字の意味を説明した。	I explained the meaning of numeral.
+n3-758-せいり	整理	せいり	putting in order; organization; adjustment; regulation	名词/动词	存在感がある。	It has presence.
+n3-759-ふ-ん	文	ぶん	sentence; text	名词	文が上手になりたい。	I want to become better at sentence.
+n3-760-ふ-んめい	文明	ぶんめい	civilization; culture	名词	日本の文明はおもしろい。	Japanese civilization is interesting.
+n3-761-りょうきん	料金	りょうきん	fee; charge	名词	損害を受けた。	I suffered damage.
+n3-762-あらた	新た	あらた	new; novel	名词/形容词	新たなことに気づいた。	I noticed something new.
+n3-763-ほうこう	方向	ほうこう	direction; orientation	名词	この方向は珍しい。	This direction is rare.
+n3-764-たひ	旅	たび	trip; journey	名词/动词	体温を測った。	I measured my temperature.
+n3-765-はた	旗	はた	flag	名词	旗の意味を説明した。	I explained the meaning of flag.
+n3-766-にっちゅう	日中	にっちゅう	daytime; during the day	名词/副词	日中準備した。	I prepared daytime.
+n3-767-ひつ-け	日付	ひづけ	date	名词/形容词	対応が早い。	The response is quick.
+n3-768-にっこう	日光	にっこう	sunlight	名词	日光が好きでよく散歩する。	I like sunlight and often go for walks.
+n3-769-にちし-ょう	日常	にちじょう	ordinary; usual; regular	名词/形容词/副词	日常になりたい。	I want to become ordinary.
+n3-770-あかり	明かり	あかり	illumination	名词	大気汚染が深刻だ。	Air pollution is serious.
+n3-771-あける	明ける	あける	to empty; to make space | to dawn; to grow light	动词	早く明けるてください。	Please empty it quickly.
+n3-772-あきらか	明らか	あきらか	obvious; evident; clear	名词/形容词	明らかな結果になった。	It turned out to be a obvious result.
+n3-773-めいかく	明確	めいかく	precise; definite	形容词	大陸を横断した。	I crossed the continent.
+n3-774-ちゅうしょく	昼食	ちゅうしょく	lunch	名词	昼食が大切だと思う。	I think lunch is important.
+n3-775-とき	時（とき）	とき	time; occasion	名词	時（とき）から変わっていない。	It hasn't changed since time.
+n3-776-し-こく	時刻	じこく	time (shown on a clock)	名词/副词	体力が落ちている。	My physical strength is declining.
+n3-777-ふた-ん	普段	ふだん	usual; everyday	名词/形容词/副词	普段なことに気づいた。	I noticed something usual.
+n3-778-けいき	景気	けいき	business conditions; economic climate	名词	景気の経験がある。	I have experience with business conditions.
+n3-779-あんき	暗記	あんき	memorization	名词/动词	逮捕された容疑者だ。	It's an arrested suspect.
+n3-780-くらし	暮らし	くらし	living; life circumstances	名词/接尾词	暮らしについて話し合った。	We discussed living.
+n3-781-くらす	暮らす	くらす	to live; to get along	动词	暮らすないように気をつけている。	I'm careful not to live.
+n3-782-くれ	暮れ	くれ	sunset; end; close	名词/形容词/接尾词	対面で話した。	I spoke face-to-face.
+n3-783-さらに	更に	さらに	furthermore; moreover	副词/接续词	更に歩いている。	I'm walking furthermore.
+n3-784-しょもつ	書物	しょもつ	books	名词	日本の書物はおもしろい。	Japanese books is interesting.
+n3-785-しょるい	書類	しょるい	documents; official papers	名词	代理で出席した。	I attended as a representative.
+n3-786-さいてい	最低	さいてい	least; lowest; worst	名词/形容词	最低な結果になった。	It turned out to be a least result.
+n3-787-さいしゅう	最終	さいしゅう	last; final	名词/形容词	最終なことに気づいた。	I noticed something last.
+n3-788-ゆうり	有利	ゆうり	advantageous; profitable	名词/形容词	対立した意見だ。	It's a conflicting opinion.
+n3-789-ゆうこう	有効	ゆうこう	effective	名词/形容词	有効な人が好きだ。	I like effective people.
+n3-790-ゆうのう	有能	ゆうのう	able; capable	名词/形容词	有能な結果になった。	It turned out to be a able result.
+n3-791-ふくそう	服装	ふくそう	garments; attire	名词	高さを測った。	I measured the height.
+n3-792-のそ-み	望み	のぞみ	wish; desire	名词	望みのことをもっと知りたい。	I want to learn more about wish.
+n3-793-のそ-む	望む	のぞむ	to desire; to wish for	动词	彼女がそれを望むた。	She desired it.
+n3-794-きかん	期間	きかん	period; term	名词	多額の借金だ。	It's a large debt.
+n3-795-みらい	未来	みらい	the future	名词/形容词	とても未来だと思う。	I think it's very the future.
+n3-796-すえ	末（すえ）	すえ	tip; end	名词	この末（すえ）は珍しい。	This tip is rare.
+n3-797-まつ	末（まつ）	まつ	the end of	名词/副词	だからといって諦めない。	That doesn't mean I'll give up.
+n3-798-ほんにん	本人	ほんにん	the person themselves	名词/形容词	とても本人だと思う。	I think it's very the person themselves.
+n3-799-ほんもの	本物	ほんもの	genuine article; real thing	名词/形容词	本物な結果になった。	It turned out to be a genuine article result.
+n3-800-さつ	札	さつ	paper money	名词/接尾词	確か彼に聞いた。	I think I asked him.
+n3-801-さ-いりょう	材料	ざいりょう	ingredients; materials	名词	材料の意味を説明した。	I explained the meaning of ingredients.
+n3-802-まつ	松	まつ	pine tree	名词	松の景色がきれいだった。	The scenery of the pine tree was beautiful.
+n3-803-いた	板	いた	board; plank	名词	正しい答えだ。	It's the correct answer.
+n3-804-かふ	株	かぶ	stock; stump; stock (share of a company)	名词	株が忙しい。	The stock is busy.
+n3-805-あん	案	あん	idea; thought	名词/接尾词	案を大切にしている。	I value idea.
+n3-806-さくら	桜	さくら	cherry tree; cherry blossom	名词	立ち寄った店だ。	It's a store I stopped by.
+n3-807-うめ	梅	うめ	Japanese apricot	名词	梅に関する本を読んだ。	I read a book about japanese apricot.
+n3-808-ほ-う	棒	ぼう	pole; rod; stick	名词	子どもが棒を拾って振り回していた。	The child picked up a stick and was swinging it around.
+n3-809-しょくふ-つ	植物	しょくぶつ	plant; vegetation	名词	立場を考えてほしい。	I want you to consider my position.
+n3-810-けんとう	検討	けんとう	consideration	名词/动词	検討するのに時間がかかる。	It takes time to consideration.
+n3-811-らく	楽	らく	comfort; ease	名词/形容词	楽な結果になった。	It turned out to be a comfort result.
+n3-812-こうせい	構成	こうせい	organization; configuration	名词/动词	脱退したメンバーだ。	It's a member who left.
+n3-813-さまさ-ま	様々	さまざま	various	名词/形容词	とても様々だと思う。	I think it's very various.
+n3-814-もよう	模様	もよう	model; pattern; example	名词	この着物は花の模様が美しい。	The floral pattern on this kimono is beautiful.
+n3-815-けんり	権利	けんり	right; privilege	名词	建て替えた家だ。	It's a rebuilt house.
+n3-816-よこき-る	横切る	よこぎる	to cross (e.g. road)	动词	何を横切るばいいかわからない。	I don't know what to cross.
+n3-817-おうた-ん	横断	おうだん	crossing; traversing	名词/动词	先生に横断してもらった。	I had the teacher crossing for me.
+n3-818-きかい	機械	きかい	machine; apparatus	名词	例え話をした。	I gave an analogy.
+n3-819-きかん	機関	きかん	agency; institution; system; facility	名词	機関が変わりつつある。	Agency is changing.
+n3-820-かける	欠ける	かける	to be chipped; to be broken | to be lacking; to be insufficient	动词	欠けるないように気をつけている。	I'm careful not to be chipped.
+n3-821-けってん	欠点	けってん	defect; flaw; weak point	名词	楽しそうに遊んでいる。	They're playing happily.
+n3-822-けっかん	欠陥	けっかん	defect; deficiency; shortage	名词	車に欠陥が見つかり、リコールされた。	A defect was found in the car, and it was recalled.
+n3-823-つき-つき	次々	つぎつぎ	in succession; one by one	名词/副词	次々準備した。	I prepared in succession.
+n3-824-かんけ-い	歓迎	かんげい	welcome; reception	名词/动词	他人に迷惑をかけるな。	Don't trouble others.
+n3-825-よす	止す	よす	to cease; to desist; to abolish	动词	何を止すばいいかわからない。	I don't know what to cease.
+n3-826-せい	正	せい	(logical) true; regular	名词/形容词	正な人が好きだ。	I like true people.
+n3-827-しょうこ	正午	しょうご	noon; mid-day	名词/副词	食べ過ぎた。	I ate too much.
+n3-828-せいしき	正式	せいしき	official; formality	名词/形容词	とても正式だと思う。	I think it's very official.
+n3-829-ふ-き	武器	ぶき	weapon; arms	名词	武器が痛い。	My weapon hurts.
+n3-830-ほと-う	歩道	ほどう	walkway; sidewalk	名词	多様な意見がある。	There are diverse opinions.
+n3-831-しほ-う	死亡	しぼう	to die; to pass away	名词/动词	死亡した結果、うまくいった。	As a result of dieing, it went well.
+n3-832-のこす	残す	のこす	to leave (behind, over)	动词	これを残すましょう。	Let's leave this.
+n3-833-た-ん	段	だん	step; stair; rank; level	名词	だらだら過ごした。	I spent time idly.
+n3-834-ころす	殺す	ころす	to kill	动词	彼女がそれを殺すた。	She killed it.
+n3-835-ははおや	母親	ははおや	mother	名词/形容词	母親を大切にしている。	I cherish my mother.
+n3-836-と-く	毒	どく	poison	名词	短縮した時間だ。	It's shortened time.
+n3-837-ひかく	比較	ひかく	comparison	名词/动词	比較する必要がある。	It's necessary to comparison.
+n3-838-もうふ	毛布	もうふ	blanket	名词	毛布について話し合った。	We discussed blanket.
+n3-839-きのと-く	気の毒	きのどく	pitiful; unfortunate	名词/形容词	探偵を雇った。	I hired a detective.
+n3-840-きつ-く	気付く	きづく	to notice; to become aware of	动词	だんだん気付くてきた。	It gradually started to notice.
+n3-841-きみ	気味	きみ	sensation; feeling	名词	気味を大切にしている。	I value sensation.
+n3-842-きおん	気温	きおん	temperature (weather)	名词	団体で旅行した。	I traveled as a group.
+n3-843-すいし-ゅん	水準	すいじゅん	level; standard	名词	この国の教育水準は高いと言われている。	The education standards in this country are said to be high.
+n3-844-こおり	氷	こおり	ice	名词	日本の氷は独特だ。	Japanese ice is unique.
+n3-845-えいきゅう	永久	えいきゅう	eternity; perpetuity	名词/形容词	小さな問題だ。	It's a small problem.
+n3-846-えいえん	永遠	えいえん	eternity; perpetuity	名词/形容词	あの場所は永遠だ。	That place is eternity.
+n3-847-もとめる	求める	もとめる	to want; to request; to seek	动词	何を求めるばいいかわからない。	I don't know what to want.
+n3-848-あせ	汗	あせ	sweat; perspiration; condensation	名词	地位を確立した。	I established my position.
+n3-849-おせん	汚染	おせん	pollution; contamination	名词/动词	もっと汚染したい。	I want to pollution more.
+n3-850-きまり	決まり	きまり	settlement; conclusion; agreement	名词/形容词	決まりになりたい。	I want to become settlement.
+n3-851-けってい	決定	けってい	decision	名词/动词	近道を通った。	I took a shortcut.
+n3-852-しす-む	沈む	しずむ	to sink; to go under	动词	突然沈むた。	It suddenly sinked.
+n3-853-おき	沖	おき	open sea	名词	沖を見に行った。	I went to see the open sea.
+n3-854-あふ-ら	油	あぶら	oil	名词	力強い演技だった。	It was a powerful performance.
+n3-855-いす-み	泉	いずみ	spring; fountain	名词	泉の景色がきれいだった。	The scenery of the spring was beautiful.
+n3-856-ほう	法	ほう	law; act	名词/接尾词	法について議論した。	We debated about law.
+n3-857-あわ	泡	あわ	bubble; foam; froth	名词	地図を見ながら歩いた。	I walked while looking at the map.
+n3-858-なみ	波	なみ	wave	名词	波について話し合った。	We discussed wave.
+n3-859-ちゅうもく	注目	ちゅうもく	notice; attention	名词/动词	注目したほうがいい。	You should notice.
+n3-860-およき	泳ぎ	およぎ	swimming	名词	遅刻しそうだ。	I'm about to be late.
+n3-861-かつと-う	活動	かつどう	activity	名词/动词	活動する必要がある。	It's necessary to activity.
+n3-862-かっき	活気	かっき	energy; liveliness	名词	活気の意味を説明した。	I explained the meaning of energy.
+n3-863-かつよう	活用	かつよう	practical use; application	名词/动词	彼女は活用するのが上手だ。	She is good at practical useing.
+n3-864-なか-す	流す	ながす	to drain; to pour; to wash away; to broadcast; to circulate	动词	早く流すてください。	Please drain it quickly.
+n3-865-なか-れ	流れ	ながれ	current; flow | course of events	名词	流れが大切だと思う。	I think current is important.
+n3-866-なか-れる	流れる	ながれる	to flow (liquid, time, etc.); to be washed away; to be broadcast; to circulate	动词	流れるたら、すぐ連絡してください。	If it flows, please contact me immediately.
+n3-867-かいか-い	海外	かいがい	foreign; overseas	名词/形容词	あの場所は海外だ。	That place is foreign.
+n3-868-しょうひ	消費	しょうひ	consumption; expenditure	名词/动词	できるだけ早く消費してください。	Please consumption as soon as possible.
+n3-869-しょうほ-う	消防	しょうぼう	fire fighting	名词/动词	消防に応募した。	I applied for the fire fighting.
+n3-870-こんらん	混乱	こんらん	disorder; confusion	名词/动词	先生に混乱してもらった。	I had the teacher disorder for me.
+n3-871-こんさ-つ	混雑	こんざつ	crowding; confusion; disorder	名词/动词	混雑するのは大変だ。	It's difficult to crowding.
+n3-872-せいけつ	清潔	せいけつ	clean; sanitary	名词/形容词	清潔な人が好きだ。	I like clean people.
+n3-873-すませる	済ませる	すませる	to finish	动词	彼女がそれを済ませるた。	She finished it.
+n3-874-し-ゅうたい	渋滞	じゅうたい	congestion (e.g. traffic); stagnation	名词/动词	彼女は渋滞するのが上手だ。	She is good at congestioning.
+n3-875-へらす	減らす	へらす	to decrease; to diminish	动词	上手に減らすことができる。	I can decrease well.
+n3-876-おんと	温度	おんど	temperature	名词	日本の温度は独特だ。	Japanese temperature is unique.
+n3-877-わん	湾	わん	bay; gulf; inlet	名词/接尾词	湾に問題がある。	There is a problem with the bay.
+n3-878-みちる	満ちる	みちる	to be full; to mature; to expire	动词	満ちるたら、すぐ連絡してください。	If it be fulls, please contact me immediately.
+n3-879-おほ-れる	おぼれる	おぼれる	to drown; to sink below the surface	动词	突然おぼれるた。	It suddenly drowned.
+n3-880-たいさ-い	滞在	たいざい	stay; sojourn	名词/动词	滞在した結果、うまくいった。	As a result of staying, it went well.
+n3-881-えんせ-つ	演説	えんぜつ	speech; address	名词/动词	演説するのは大変だ。	It's difficult to speech.
+n3-882-こい	濃い	こい	deep; strong (flavour, smell, etc.); thick (consistency)	形容词	今日は濃くてたまらない。	Today is unbearably deep.
+n3-883-かさい	火災	かさい	conflagration; fire	名词	火災に応募した。	I applied for the conflagration.
+n3-884-ひ	灯	ひ	lamp; torch	名词	灯が注目されている。	The lamp is getting attention.
+n3-885-はい	灰	はい	ashes	名词	この灰は珍しい。	This ashes is rare.
+n3-886-ほのお	炎	ほのお	flame; blaze	名词	炎の意味を説明した。	I explained the meaning of flame.
+n3-887-ふ-し	無事	ぶじ	safety; peace	名词/形容词	無事が変わりつつある。	Safety is changing.
+n3-888-けむり	煙	けむり	smoke	名词	工場から黒い煙が出ている。	Black smoke is coming from the factory.
+n3-889-ねったい	熱帯	ねったい	tropics	名词	熱帯の意味を説明した。	I explained the meaning of tropics.
+n3-890-は-くはつ	爆発	ばくはつ	explosion; detonation	名词/动词	毎日爆発している。	I explosion every day.
+n3-891-ちちおや	父親	ちちおや	father	名词	父親との関係がいい。	I have a good relationship with my father.
+n3-892-うし	牛	うし	cow; bull	名词	牧場で牛が草を食べている。	Cows are eating grass at the ranch.
+n3-893-ものこ-と	物事	ものごと	things	名词	物事のことをもっと知りたい。	I want to learn more about things.
+n3-894-ふ-っか	物価	ぶっか	prices (in general, of commodities)	名词	物価を節約している。	I'm saving on prices.
+n3-895-ものか-たり	物語	ものがたり	tale; story	名词/动词	先生に物語してもらった。	I had the teacher tale for me.
+n3-896-ふ-っしつ	物質	ぶっしつ	material; substance; matter	名词	物質について話し合った。	We discussed material.
+n3-897-ものおと	物音	ものおと	sounds	名词	物音の意味を説明した。	I explained the meaning of sounds.
+n3-898-とくちょう	特徴	とくちょう	trait; characteristic	名词	特徴に問題がある。	There is a problem with the trait.
+n3-899-はんさ-い	犯罪	はんざい	crime; offence	名词/形容词	犯罪な人が好きだ。	I like crime people.
+n3-900-し-ょうきょう	状況	じょうきょう	situation; circumstances	名词/形容词	状況になりたい。	I want to become situation.
+n3-901-くるう	狂う	くるう	to go mad; to get out of order	动词	狂うないように気をつけている。	I'm careful not to go mad.
+n3-902-と-くとく	独特	どくとく	peculiarity; uniqueness	名词/形容词	独特なことに気づいた。	I noticed something peculiarity.
+n3-903-と-くりつ	独立	どくりつ	independence; self-support	名词/动词	独立するのに時間がかかる。	It takes time to independence.
+n3-904-りつ	率	りつ	ratio; proportion; percentage	名词/接尾词	率を大切にしている。	I value ratio.
+n3-905-おうし	王子	おうじ	prince	名词	王子が大切だと思う。	I think prince is important.
+n3-906-あらわれ	現れ	あらわれ	manifestation; materialization; expression	名词	彼の現れは分かりやすい。	His manifestation is easy to understand.
+n3-907-あらわれる	現れる	あらわれる	to appear; to become visible	动词	なかなか現れるない。	It doesn't easily appear.
+n3-908-け-んた-い	現代	げんだい	nowadays; modern times	名词/形容词/副词	とても現代だと思う。	I think it's very nowadays.
+n3-909-け-んし-ょう	現状	げんじょう	present condition	名词/形容词	あの場所は現状だ。	That place is present condition.
+n3-910-け-んしょう	現象	げんしょう	phenomenon	名词	この不思議な現象の原因はまだわかっていない。	The cause of this mysterious phenomenon is still unknown.
+n3-911-け-んきん	現金	げんきん	cash	名词	現金に関する本を読んだ。	I read a book about cash.
+n3-912-かんきょう	環境	かんきょう	environment	名词/形容词	あの場所は環境だ。	That place is environment.
+n3-913-ひ-ん	瓶	びん	bottle; jar	名词	瓶に関する本を読んだ。	I read a book about bottle.
+n3-914-いきもの	生き物	いきもの	living thing	名词	生き物が注目されている。	The living thing is getting attention.
+n3-915-しょうし-る	生じる	しょうじる	to produce; to yield | to result from	动词	何を生じるばいいかわからない。	I don't know what to produce.
+n3-916-うまれ	生まれ	うまれ	birth; birthplace	名词	生まれが注目されている。	The birth is getting attention.
+n3-917-せいめい	生命	せいめい	life	名词	生命のことをもっと知りたい。	I want to learn more about life.
+n3-918-もちいる	用いる	もちいる	to use; to utilize	动词	上手に用いることができる。	I can use well.
+n3-919-ようし-ん	用心	ようじん	care; caution	名词/动词	用心が混んでいた。	The care was crowded.
+n3-920-もうしわけ	申し訳	もうしわけ	apology; excuse	名词/动词	もっと申し訳したい。	I want to apology more.
+n3-921-もうしこむ	申し込む	もうしこむ	to apply for	动词	何を申し込むばいいかわからない。	I don't know what to apply for.
+n3-922-た-んし	男子	だんし	young man	名词	男子を大切にしている。	I value young man.
+n3-923-か-めん	画面	がめん	screen; picture	名词	画面が壊れてしまった。	The screen broke.
+n3-924-はたけ	畑	はたけ	field; cultivated land	名词	おじいさんは毎朝畑で野菜の世話をしている。	Grandpa takes care of the vegetables in the field every morning.
+n3-925-とと-める	留める	とどめる	to stop; to keep (in position, in place); to limit	动词	上手に留めることができる。	I can stop well.
+n3-926-りゅうか-く	留学	りゅうがく	studying abroad	名词/动词	留学するのは大変だ。	It's difficult to studying abroad.
+n3-927-ことなる	異なる	ことなる	to differ	动词	異なるたら、すぐ連絡してください。	If it differs, please contact me immediately.
+n3-928-うたか-う	疑う	うたがう	to doubt; to suspect	动词	彼女がそれを疑うた。	She doubted it.
+n3-929-き-もん	疑問	ぎもん	question; doubt; problem	名词	疑問が必要です。	Question is necessary.
+n3-930-つかれ	疲れ	つかれ	tiredness; fatigue	名词	疲れに問題がある。	There is a problem with the tiredness.
+n3-931-しょうし-ょう	症状	しょうじょう	symptom	名词/形容词	症状が心配です。	I'm worried about symptom.
+n3-932-いたみ	痛み	いたみ	pain; soreness	名词	痛みの治療を受けている。	I'm receiving treatment for pain.
+n3-933-くせ	癖	くせ	habit; tendency; peculiarity	名词	日本の癖は独特だ。	Japanese habit is unique.
+n3-934-はってん	発展	はってん	development; growth; expansion	名词/动词	発展したほうがいい。	You should development.
+n3-935-はつめい	発明	はつめい	invention; becoming clear	名词/动词	発明した結果、うまくいった。	As a result of inventioning, it went well.
+n3-936-はっこう	発行	はっこう	publication; issue	名词/动词	発行しなければならない。	I have to publication.
+n3-937-はっひ-ょう	発表	はっぴょう	announcement; publication; presenting	名词/动词	発表するのは大変だ。	It's difficult to announcement.
+n3-938-はっけん	発見	はっけん	discovery; detection	名词/动词	発見するつもりだ。	I intend to discovery.
+n3-939-はったつ	発達	はったつ	development; growth	名词/动词	発達するのに時間がかかる。	It takes time to development.
+n3-940-かわ	皮	かわ	skin; hide; fur	名词	皮が痛い。	My skin hurts.
+n3-941-かんとく	監督	かんとく	supervision; direction | coach; manager; director	名词/动词	もっと監督したい。	I want to supervision more.
+n3-942-もくひょう	目標	もくひょう	objective; target	名词	目標を大切にしている。	I value objective.
+n3-943-たた-ちに	直ちに	ただちに	at once; immediately	副词	直ちに準備した。	I prepared at once.
+n3-944-し-きに	直に	じきに	in person; firsthand	副词	直に準備した。	I prepared in person.
+n3-945-ちょくせつ	直接	ちょくせつ	direct	名词/形容词/副词	とても直接だと思う。	I think it's very direct.
+n3-946-そうとう	相当	そうとう	considerably; rather; quite	副词	相当準備した。	I prepared considerably.
+n3-947-あいて	相手	あいて	compaion; partner; other party	名词	相手に関する本を読んだ。	I read a book about compaion.
+n3-948-そうそ-く	相続	そうぞく	succession; inheritance	名词/动词	もっと相続したい。	I want to succession more.
+n3-949-はふ-く	省く	はぶく	to omit; to exclude	动词	何を省くばいいかわからない。	I don't know what to omit.
+n3-950-けん	県	けん	prefecture	名词	県について話し合った。	We discussed prefecture.
+n3-951-なか-め	眺め	ながめ	scene; view	名词	眺めの意味を説明した。	I explained the meaning of scene.
+n3-952-なか-める	眺める	ながめる	to gaze at	动词	これを眺めるましょう。	Let's gaze at this.
+n3-953-すいみん	睡眠	すいみん	sleep	名词/形容词	あの場所は睡眠だ。	That place is sleep.
+n3-954-しゅんかん	瞬間	しゅんかん	moment; instant	名词/副词	瞬間歩いている。	I'm walking moment.
+n3-955-おしらせ	お知らせ	おしらせ	news; notification	名词	お知らせが上手になりたい。	I want to become better at news.
+n3-956-ちし	知事	ちじ	governor	名词/形容词	知事な人が好きだ。	I like governor people.
+n3-957-ちえ	知恵	ちえ	wisdom	名词	日本の知恵は独特だ。	Japanese wisdom is unique.
+n3-958-ちのう	知能	ちのう	intelligence	名词	知能を大切にしている。	I value intelligence.
+n3-959-ちしき	知識	ちしき	knowledge	名词	本を読んで専門的な知識を身につけた。	I gained specialized knowledge by reading books.
+n3-960-せきゆ	石油	せきゆ	oil; petroleum	名词	石油を食べたことがありますか。	Have you ever eaten oil?
+n3-961-せきたん	石炭	せきたん	coal	名词	石炭に関する本を読んだ。	I read a book about coal.
+n3-962-さは-く	砂漠	さばく	desert	名词	砂漠が好きでよく散歩する。	I like desert and often go for walks.
+n3-963-やふ-る	破る	やぶる	to tear; to break; to destroy	动词	何を破るばいいかわからない。	I don't know what to tear.
+n3-964-はさん	破産	はさん	bankruptcy	名词/动词	破産するのに時間がかかる。	It takes time to bankruptcy.
+n3-965-こうか	硬貨	こうか	coin; hard currency	名词	硬貨に関する本を読んだ。	I read a book about coin.
+n3-966-かくし-つ	確実	かくじつ	certainty; reliability	名词/形容词	確実になりたい。	I want to become certainty.
+n3-967-しめす	示す	しめす	toshow; to demonstrate	动词	彼女がそれを示すた。	She toshowed it.
+n3-968-れいき	礼儀	れいぎ	manners; etiquette	名词	礼儀が必要です。	Manners is necessary.
+n3-969-いわい	祝い	いわい	congratulations	名词	友人の結婚のお祝いにワインを贈った。	I gave wine as a wedding gift to my friend.
+n3-970-いわう	祝う	いわう	to congratulate	动词	上手に祝うことができる。	I can congratulate well.
+n3-971-かみさま	神様	かみさま	god; deity	名词	神様が注目されている。	The god is getting attention.
+n3-972-しんけい	神経	しんけい	nerve (medical)	名词/形容词	あの場所は神経だ。	That place is nerve.
+n3-973-おまつり	お祭	おまつり	festival	名词	日本のお祭はおもしろい。	Japanese festival is interesting.
+n3-974-きんし	禁止	きんし	prohibition; ban	名词/动词	できるだけ早く禁止してください。	Please prohibition as soon as possible.
+n3-975-ひ-ょう	秒	びょう	second (unit of time)	名词	秒から変わっていない。	It hasn't changed since second.
+n3-976-うつす	移す	うつす	to change; to substitute; to transfer	动词	彼女がそれを移すた。	She changed it.
+n3-977-いと-う	移動	いどう	moving; transfer; migration	名词/动词	できるだけ早く移動してください。	Please moving as soon as possible.
+n3-978-ていと	程度	ていど	degree; amount; grade	名词/副词/接尾词	程度話してください。	Please speak degree.
+n3-979-せ-いきん	税金	ぜいきん	tax; duty	名词	税金が変わりつつある。	Tax is changing.
+n3-980-たね	種	たね	seed (e.g. of a plant)	名词	種のことをもっと知りたい。	I want to learn more about seed.
+n3-981-しゅるい	種類	しゅるい	type; kind; category	名词	種類のことをもっと知りたい。	I want to learn more about type.
+n3-982-いね	稲	いね	rice plant	名词	稲を食べたことがありますか。	Have you ever eaten rice plant?
+n3-983-かせく	稼ぐ	かせぐ	to earn (income); to make (money)	动词	突然稼ぐた。	It suddenly earned.
+n3-984-こくもつ	穀物	こくもつ	grain; cereal	名词/形容词	穀物になりたい。	I want to become grain.
+n3-985-つもる	積もる	つもる	to pile up; to accumulate	动词	だんだん積もるてきた。	It gradually started to pile up.
+n3-986-せっきょくてき	積極的	せっきょくてき	active; proactive; assertive	形容词	積極的な人が好きだ。	I like active people.
+n3-987-おた-やか	穏やか	おだやか	calm; quiet	名词/形容词	穏やかなことに気づいた。	I noticed something calm.
+n3-988-あな	穴	あな	hole	名词/接尾词	道路に大きな穴が開いていて危なかった。	There was a big hole in the road, and it was dangerous.
+n3-989-あき	空き	あき	vacancy; opening	名词	この空きは珍しい。	This vacancy is rare.
+n3-990-たちあか-る	立ち上がる	たちあがる	to stand up; to get up; to take action	动词	だんだん立ち上がるてきた。	It gradually started to stand up.
+n3-991-たちは	立場	たちば	standpoint; position	名词	相手の立場になって考えることが大切だ。	It's important to think from the other person's standpoint.
+n3-992-しょう	章	しょう	chapter; section	名词	章を大切にしている。	I value chapter.
+n3-993-はし	端	はし	end (e.g. of street); tip; edge	名词	端で通勤している。	I commute by end.
+n3-994-きょうき	競技	きょうぎ	game; match	名词/动词	競技するのは大変だ。	It's difficult to game.
+n3-995-わらい	笑い	わらい	laughter; smile	名词	笑いの意味を説明した。	I explained the meaning of laughter.
+n3-996-えか-お	笑顔	えがお	smiling face; smile	名词/动词	笑顔するのに時間がかかる。	It takes time to smiling face.
+n3-997-ふえ	笛	ふえ	flute; pipe	名词	笛のことをもっと知りたい。	I want to learn more about flute.
+n3-998-ふて	筆	ふで	writing brush	名词	筆を大切にしている。	I value writing brush.
+n3-999-ひとしい	等しい	ひとしい	equal; similar	形容词	今日は等しくてたまらない。	Today is unbearably equal.
+n3-1000-すし	筋	すじ	tendon; artery; fiber	名词	日本の筋はおもしろい。	Japanese tendon is interesting.
+n3-1001-きんにく	筋肉	きんにく	muscle	名词/形容词	筋肉な結果になった。	It turned out to be a muscle result.
+n3-1002-とうあん	答案	とうあん	answer sheet	名词	答案が上手になりたい。	I want to become better at answer sheet.
+n3-1003-かん	管	かん	pipe; tube	名词/接尾词	管のことをもっと知りたい。	I want to learn more about pipe.
+n3-1004-ふし	節	ふし	joint	名词	節を大切にしている。	I value joint.
+n3-1005-せつやく	節約	せつやく	economising; saving	名词/动词	節約しなければならない。	I have to economising.
+n3-1006-はんい	範囲	はんい	extent; scope	名词	この範囲は珍しい。	This extent is rare.
+n3-1007-かこ	かご	かご	basket (shopping, etc.); hamper; case	名词	かごを節約している。	I'm saving on basket.
+n3-1008-こな	粉	こな	flour; powder	名词	粉の意味を説明した。	I explained the meaning of flour.
+n3-1009-そまつ	粗末	そまつ	crude; rough; shabby	名词/形容词	あの場所は粗末だ。	That place is crude.
+n3-1010-せいせ-い	せいぜい	せいぜい	at the most; at best	副词	せいぜい準備した。	I prepared at the most.
+n3-1011-せいしん	精神	せいしん	mind; soul; heart; spirit	名词	彼女は精神が大きい。	She has big mind.
+n3-1012-やく	約～	やく～	approximately ～; about ～	名词/副词	彼女は約～笑った。	She laughed approximately ～.
+n3-1013-なっとく	納得	なっとく	consent; agreement	名词/动词	先生に納得してもらった。	I had the teacher consent for me.
+n3-1014-ひも	紐	ひも	string; cord	名词	紐のことをもっと知りたい。	I want to learn more about string.
+n3-1015-きゅう	級	きゅう	class; grade; rank	名词/接尾词	日本語能力試験のN3級に合格した。	I passed the N3 level of the Japanese Language Proficiency Test.
+n3-1016-おえる	終える	おえる	to finish	动词	何を終えるばいいかわからない。	I don't know what to finish.
+n3-1017-くみ	組	くみ	group; class (of students)	名词/接尾词	うちの子は三年二組に入っています。	My child is in class 2 of the third grade.
+n3-1018-くむ	組む	くむ	to cross (legs or arms); to put together; to assemble	动词	早く組むてください。	Please cross it quickly.
+n3-1019-くみあい	組合	くみあい	association; union	名词	組合のことをもっと知りたい。	I want to learn more about association.
+n3-1020-そしき	組織	そしき	organization; structure	名词/动词	組織するつもりだ。	I intend to organization.
+n3-1021-たつ	経つ	たつ	to pass; to elapse	动词	経つないように気をつけている。	I'm careful not to pass.
+n3-1022-けいえい	経営	けいえい	management; administration	名词/动词	先生に経営してもらった。	I had the teacher management for me.
+n3-1023-けいゆ	経由	けいゆ	through; by way of; via	名词/副词	経由歩いている。	I'm walking through.
+n3-1024-むすふ	結ぶ	むすぶ	to tie; to bind	动词	何を結ぶばいいかわからない。	I don't know what to tie.
+n3-1025-けっきょく	結局	けっきょく	after all; ultimately	副词	結局歩いている。	I'm walking after all.
+n3-kekka	結果	けっか	result; consequence; outcome	名词	結果を大切にしている。	I value result.
+n3-1027-けつろん	結論	けつろん	conclusion	名词/动词	先生に結論してもらった。	I had the teacher conclusion for me.
+n3-1028-きゅうりょう	給料	きゅうりょう	salary; wages	名词	給料が忙しい。	The salary is busy.
+n3-1029-かいか	絵画	かいが	painting	名词	絵画の治療を受けている。	I'm receiving treatment for painting.
+n3-1030-せ-ったい	絶対	ぜったい	absolutely; unconditionally	副词	絶対準備した。	I prepared absolutely.
+n3-1031-せ-つめつ	絶滅	ぜつめつ	extinction; extermination	名词/动词	先生に絶滅してもらった。	I had the teacher extinction for me.
+n3-1032-つつ-き	続き	つづき	continuation; succession	名词/接尾词	続きに問題がある。	There is a problem with the continuation.
+n3-1033-いし	維持	いじ	maintenance; preservation	名词/动词	維持するのは大変だ。	It's difficult to maintenance.
+n3-1034-なわ	縄	なわ	rope; cord	名词	縄について話し合った。	We discussed rope.
+n3-1035-つなく	繋ぐ	つなぐ	to connect; to link together	动词	早く繋ぐてください。	Please connect it quickly.
+n3-1036-くりかえす	繰り返す	くりかえす	to repeat	动词	だんだん繰り返すてきた。	It gradually started to repeat.
+n3-1037-かん	缶	かん	can; tin	名词	缶が必要です。	Can is necessary.
+n3-1038-つみ	罪	つみ	crime; sin	名词/形容词	罪な人が好きだ。	I like crime people.
+n3-1039-は-っする	罰する	ばっする	to punish; to penalize	动词	上手に罰することができる。	I can punish well.
+n3-1040-しょめい	署名	しょめい	signature	名词/动词	できるだけ早く署名してください。	Please signature as soon as possible.
+n3-1041-かかる	罹る（かかる）	かかる	to contract (a disease); to suffer from	动词	罹る（かかる）たら、すぐ連絡してください。	If it contracts, please contact me immediately.
+n3-1042-ひ-し-ん	美人	びじん	beautiful woman	名词	美人のことをもっと知りたい。	I want to learn more about beautiful woman.
+n3-1043-き-む	義務	ぎむ	duty; obligation	名词/形容词	とても義務だと思う。	I think it's very duty.
+n3-1044-はね	羽	はね	feather	名词	羽に関する本を読んだ。	I read a book about feather.
+n3-1045-つは-さ	翼	つばさ	wing	名词	日本の翼は独特だ。	Japanese wing is unique.
+n3-1046-おい	老い	おい	old age; old person	名词	日本の老いは独特だ。	Japanese old age is unique.
+n3-1047-ろうし-ん	老人	ろうじん	old person	名词/形容词	老人な人が好きだ。	I like old person people.
+n3-1048-かんか-え	考え	かんがえ	thought; idea; opinion	名词	彼の考えは分かりやすい。	His thought is easy to understand.
+n3-1049-こうりょ	考慮	こうりょ	consideration; taking into account	名词/动词	考慮するのに時間がかかる。	It takes time to consideration.
+n3-1050-もの	者	もの	person	名词	者が注目されている。	The person is getting attention.
+n3-1051-しょく	職	しょく	job; work; occupation	名词/接尾词	彼女は職に満足している。	She is satisfied with her job.
+n3-1052-しょくは	職場	しょくば	place of work	名词	職場が忙しい。	The place of work is busy.
+n3-1053-しょくき-ょう	職業	しょくぎょう	occupation	名词/形容词	職業な結果になった。	It turned out to be a occupation result.
+n3-1054-かた	肩	かた	shoulder	名词	肩を動かしてください。	Please move your shoulder.
+n3-1055-そた-つ	育つ	そだつ	to be raised; to be brought up	动词	なかなか育つない。	It doesn't easily be raised.
+n3-1056-むね	胸	むね	chest	名词	彼女は胸が大きい。	She has big chest.
+n3-1057-のうりょく	能力	のうりょく	ability; faculty	名词	能力が大切だと思う。	I think ability is important.
+n3-1058-わき	脇	わき	armpit; side; flank	名词	脇が痛い。	My armpit hurts.
+n3-1059-くさる	腐る	くさる	to spoil; to go bad	动词	腐るないように気をつけている。	I'm careful not to spoil.
+n3-1060-はら	腹	はら	stomach	名词	彼女は腹が大きい。	She has big stomach.
+n3-1061-ひさ	膝	ひざ	knee	名词	彼女は膝が大きい。	She has big knee.
+n3-1062-し-しん	自信	じしん	self-confidence; confidence	名词/动词	自信したほうがいい。	You should self-confidence.
+n3-1063-し-と-う	自動	じどう	automatic	名词/形容词	自動なことに気づいた。	I noticed something automatic.
+n3-1064-し-まん	自慢	じまん	boast	名词/动词	自慢する必要がある。	It's necessary to boast.
+n3-1065-し-さつ	自殺	じさつ	suicide	名词/动词	自殺しなければならない。	I have to suicide.
+n3-1066-し-しん	自身	じしん	(by) oneself	名词	自身が注目されている。	The oneself is getting attention.
+n3-1067-いたる	至る	いたる	to arrive at; to reach; to come; to result in	动词	だんだん至るてきた。	It gradually started to arrive at.
+n3-1068-した	舌	した	tongue	名词	舌の意味を説明した。	I explained the meaning of tongue.
+n3-1069-こうくう	航空	こうくう	aviation; flying	名词/形容词	航空なことに気づいた。	I noticed something aviation.
+n3-1070-しは-い	芝居	しばい	play; drama	名词	芝居に興味がある。	I'm interested in play.
+n3-1071-しは-ふ	芝生	しばふ	lawn	名词/形容词	芝生なことに気づいた。	I noticed something lawn.
+n3-1072-け-いし-ゅつ	芸術	げいじゅつ	fine arts	名词	芸術を楽しんだ。	I enjoyed the fine arts.
+n3-1073-め	芽	め	sprout	名词	日本の芽は独特だ。	Japanese sprout is unique.
+n3-1074-わかもの	若者	わかもの	young person	名词/形容词	若者な人が好きだ。	I like young person people.
+n3-1075-くるしい	苦しい	くるしい	difficult; agonizing; painful	形容词	今日は苦しくてたまらない。	Today is unbearably difficult.
+n3-1076-くるしむ	苦しむ	くるしむ	to suffer	动词	苦しむたら、すぐ連絡してください。	If it suffers, please contact me immediately.
+n3-1077-くろう	苦労	くろう	hardship; labour; toil	名词/动词	苦労したほうがいい。	You should hardship.
+n3-1078-にか-て	苦手	にがて	poor (at); weak (in); dislike (of)	名词/形容词	あの場所は苦手だ。	That place is poor.
+n3-1079-くつう	苦痛	くつう	pain; agony	名词	苦痛が改善した。	Pain has improved.
+n3-1080-は-くた-い	莫大	ばくだい	enormous; vast	名词/形容词	莫大なことに気づいた。	I noticed something enormous.
+n3-1081-ちょしゃ	著者	ちょしゃ	author; writer	名词	著者を楽しんだ。	I enjoyed the author.
+n3-1082-とら	虎	とら	tiger	名词	虎に問題がある。	There is a problem with the tiger.
+n3-1083-むしは	虫歯	むしば	cavity; tooth decay	名词	彼女は虫歯が大きい。	She has big cavity.
+n3-1084-ゆき	～行き	～ゆき	bound for ～	接尾词	東京行きの新幹線は何番ホームですか。	Which platform is the bullet train bound for Tokyo?
+n3-1085-いき	行き	いき	the way there; outbound leg	名词	行きを動かしてください。	Please move your the way there.
+n3-1086-き-ょうき	行儀	ぎょうぎ	manners; behavior	名词	あの子は行儀がよくて、いつもきちんと挨拶する。	That child has good manners and always greets people properly.
+n3-1087-こうと-う	行動	こうどう	action; conduct	名词/动词	毎日行動している。	I action every day.
+n3-1088-えいせい	衛星	えいせい	satellite	名词/形容词	衛星な結果になった。	It turned out to be a satellite result.
+n3-1089-いふく	衣服	いふく	clothes	名词	衣服が大切だと思う。	I think clothes is important.
+n3-1090-あらわす	表す	あらわす	to represent; to signify; to show; to display	动词	これを表すましょう。	Let's represent this.
+n3-1091-ひょうし-ょう	表情	ひょうじょう	facial expression	名词	彼の表情は分かりやすい。	His facial expression is easy to understand.
+n3-1092-ひょうけ-ん	表現	ひょうげん	expression; notation	名词/动词	毎日表現している。	I expression every day.
+n3-1093-ひょうめん	表面	ひょうめん	surface; exterior	名词/形容词	表面な人が好きだ。	I like surface people.
+n3-1094-ふくろ	袋	ふくろ	bag; pouch	名词	袋の意味を説明した。	I explained the meaning of bag.
+n3-1095-そて	袖	そで	sleeve	名词	袖が必要です。	Sleeve is necessary.
+n3-1096-そうち	装置	そうち	equipment; device	名词/动词	先生に装置してもらった。	I had the teacher equipment for me.
+n3-1097-うらき-る	裏切る	うらぎる	to betray	动词	上手に裏切ることができる。	I can betray well.
+n3-1098-はた-か	裸	はだか	naked	名词/形容词	裸なことに気づいた。	I noticed something naked.
+n3-1099-せいそ-う	製造	せいぞう	manufacture	名词/动词	先生に製造してもらった。	I had the teacher manufacture for me.
+n3-1100-ようてん	要点	ようてん	gist; main point	名词	日本の要点は独特だ。	Japanese gist is unique.
+n3-1101-ようそ	要素	ようそ	component; factor; item	名词	成功するためには、努力が重要な要素だ。	Effort is an important factor for success.
+n3-1102-おおう	覆う	おおう	to cover; to hide	动词	何を覆うばいいかわからない。	I don't know what to cover.
+n3-1103-みこ-と	見事	みごと	splendid; magnificent	形容词	あの場所は見事だ。	That place is splendid.
+n3-1104-けんとう	見当	けんとう	estimate; guess	名词	見当が注目されている。	The estimate is getting attention.
+n3-1105-けんかい	見解	けんかい	opinion; point of view	名词	彼の見解は分かりやすい。	His opinion is easy to understand.
+n3-1106-みおくり	見送り	みおくり	seeing one off; farewell	名词	見送りに関する本を読んだ。	I read a book about seeing one off.
+n3-1107-さます	覚ます	さます	to awaken; to arouse from sleep	动词	彼女がそれを覚ますた。	She awakened it.
+n3-1108-さめる	覚める	さめる	to wake; to wake up	动词	なかなか覚めるない。	It doesn't easily wake.
+n3-1109-かくこ	覚悟	かくご	readiness; preparedness	名词/动词	できるだけ早く覚悟してください。	Please readiness as soon as possible.
+n3-1110-したしい	親しい	したしい	close; familiar; intimate	形容词	親しくなってきた。	It has become close.
+n3-1111-しんせき	親戚	しんせき	relative; kin	名词	親戚を大切にしている。	I cherish my relative.
+n3-1112-かんこう	観光	かんこう	sightseeing	名词/动词	観光する必要がある。	It's necessary to sightseeing.
+n3-1113-かんさつ	観察	かんさつ	observation	名词/动词	観察する必要がある。	It's necessary to observation.
+n3-1114-かいけつ	解決	かいけつ	solution; resolution	名词/动词	もっと解決したい。	I want to solution more.
+n3-1115-かいしゃく	解釈	かいしゃく	explanation; interpretation	名词/动词	彼女は解釈するのが上手だ。	She is good at explanationing.
+n3-1116-ふれる	触れる	ふれる	to touch; to touch on a subject; to come in contact with	动词	突然触れるた。	It suddenly touched.
+n3-1117-いわは	言わば	いわば	so to speak; so to call it	副词	彼女は言わば笑った。	She laughed so to speak.
+n3-1118-け-んこ	言語	げんご	language	名词	言語が上手になりたい。	I want to become better at language.
+n3-1119-はかる	計る	はかる	to measure; to weigh	动词	上手に計ることができる。	I can measure well.
+n3-1120-けいさん	計算	けいさん	calculation	名词/动词	毎日計算している。	I calculation every day.
+n3-1121-くんれん	訓練	くんれん	training; drill	名词/动词	できるだけ早く訓練してください。	Please training as soon as possible.
+n3-1122-きし	記事	きじ	article; news story	名词	彼の記事は分かりやすい。	His article is easy to understand.
+n3-1123-きにゅう	記入	きにゅう	entry; filling in; filling out	名词/动词	記入する必要がある。	It's necessary to entry.
+n3-1124-きねん	記念	きねん	commemoration; memory	名词/动词	記念した結果、うまくいった。	As a result of commemorationing, it went well.
+n3-1125-きおく	記憶	きおく	memory; recollection	名词/动词	記憶したほうがいい。	You should memory.
+n3-1126-きしゃ	記者	きしゃ	reporter	名词/形容词	記者が上手になりたい。	I want to become better at reporter.
+n3-1127-きろく	記録	きろく	record; document	名词/动词	記録した結果、うまくいった。	As a result of recording, it went well.
+n3-1128-ほうもん	訪問	ほうもん	call; visit	名词/动词	訪問するつもりだ。	I intend to call.
+n3-1129-せっけい	設計	せっけい	plan; design	名词/动词	設計した結果、うまくいった。	As a result of planing, it went well.
+n3-1130-きょか	許可	きょか	permission; approval	名词/动词	許可したほうがいい。	You should permission.
+n3-1131-わけ	訳	わけ	reason; excuse	名词	訳のことをもっと知りたい。	I want to learn more about reason.
+n3-1132-うったえる	訴える	うったえる	to raise; to bring to (someone's attention)	动词	早く訴えるてください。	Please raise it quickly.
+n3-1133-しんさつ	診察	しんさつ	medical examination	名词/动词	診察する必要がある。	It's necessary to medical examination.
+n3-1134-ひょうか	評価	ひょうか	assessment; evaluation	名词/动词	評価するつもりだ。	I intend to assessment.
+n3-1135-ためし	試し	ためし	trial; test	名词	試しに新しいレシピで料理を作ってみた。	I tried cooking with a new recipe as a test.
+n3-1136-し	詩	し	poem; verse	名词	詩が大切だと思う。	I think poem is important.
+n3-1137-しし-ん	詩人	しじん	poet	名词	詩人について話し合った。	We discussed poet.
+n3-1138-つめる	詰める	つめる	to stuff into; to fill	动词	これを詰めるましょう。	Let's stuff into this.
+n3-1139-はなしあう	話し合う	はなしあう	to discuss; to talk together	动词	話し合うたら、すぐ連絡してください。	If it discusss, please contact me immediately.
+n3-1140-わた-い	話題	わだい	topic; subject	名词/形容词	話題な結果になった。	It turned out to be a topic result.
+n3-kuwashii	詳しい	くわしい	detailed	形容词	あまり詳しくない。	It's not very detailed.
+n3-1142-ほこり	誇り	ほこり	pride	名词	誇りに問題がある。	There is a problem with the pride.
+n3-1143-みとめる	認める	みとめる	to recognize; to approve; to allow	动词	これを認めるましょう。	Let's recognize this.
+n3-1144-たんし-ょう	誕生	たんじょう	birth; creation; formation	名词/动词	誕生したほうがいい。	You should birth.
+n3-1145-さそう	誘う	さそう	to invite; to ask (someone to do)	动词	何を誘うばいいかわからない。	I don't know what to invite.
+n3-1146-こ	語	ご	language	名词/接尾词	語が上手になりたい。	I want to become better at language.
+n3-1147-こ-か-く	語学	ごがく	study of language; linguistics	名词	語学を身につけるには、毎日の練習が必要だ。	To master a language, daily practice is necessary.
+n3-1148-あやまり	誤り	あやまり	error; mistake	名词	誤りが注目されている。	The error is getting attention.
+n3-1149-せつ	説	せつ	theory; doctrine	名词/接尾词	説が大切だと思う。	I think theory is important.
+n3-1150-よみ	読み	よみ	reading	名词	読みを楽しんだ。	I enjoyed the reading.
+n3-1151-ちょうし	調子	ちょうし	tone; pitch; mood; manner	名词	調子に問題がある。	There is a problem with the tone.
+n3-1152-せいきゅう	請求	せいきゅう	billing (for a service); claim	名词/动词	請求するつもりだ。	I intend to billing.
+n3-1153-ろんし-る	論じる	ろんじる	to discuss; to deal with (a topic); to dispute	动词	これを論じるましょう。	Let's discuss this.
+n3-1154-ろんそう	論争	ろんそう	dispute; controversy	名词/动词	彼女は論争するのが上手だ。	She is good at disputeing.
+n3-1155-あきらめる	諦める	あきらめる	to give up	动词	これを諦めるましょう。	Let's give up this.
+n3-1156-ことわさ	諺	ことわざ	proverb; saying	名词	彼の諺は分かりやすい。	His proverb is easy to understand.
+n3-1157-なそ	謎	なぞ	enigma; mystery	名词	日本の謎は独特だ。	Japanese enigma is unique.
+n3-1158-こうえん	講演	こうえん	lecture; speech	名词/动词	講演した結果、うまくいった。	As a result of lectureing, it went well.
+n3-1159-けいこく	警告	けいこく	warning; disclaimer	名词/动词	警告するつもりだ。	I intend to warning.
+n3-1160-き-かい	議会	ぎかい	congress; legislative assembly	名词	議会が痛い。	My congress hurts.
+n3-1161-き-いん	議員	ぎいん	member of the Diet	名词	その議員は地元の住民に人気がある。	That legislator is popular with local residents.
+n3-1162-き-ろん	議論	ぎろん	argument; discussion	名词/动词	できるだけ早く議論してください。	Please argument as soon as possible.
+n3-1163-き-ちょう	議長	ぎちょう	chairman; speaker (e.g. of assembly)	名词	新しい議長に引っ越した。	I moved to a new chairman.
+n3-1164-ゆす-る	譲る	ゆずる	to turn over; to yield	动词	何を譲るばいいかわからない。	I don't know what to turn over.
+n3-1165-たに	谷	たに	valley	名词	谷が必要です。	Valley is necessary.
+n3-1166-まめ	豆	まめ	legume; bean	名词	豆を動かしてください。	Please move your legume.
+n3-1167-ゆたか	豊か	ゆたか	abundant; pentiful	形容词	あの場所は豊かだ。	That place is abundant.
+n3-1168-ほうふ	豊富	ほうふ	abundance; wealth	名词/形容词	豊富な人が好きだ。	I like abundance people.
+n3-1169-まけ	負け	まけ	defeat; loss	名词	負けを節約している。	I'm saving on defeat.
+n3-1170-さ-いさん	財産	ざいさん	property; assets	名词	この財産は珍しい。	This property is rare.
+n3-1171-こうけん	貢献	こうけん	contribution	名词/动词	貢献するのは大変だ。	It's difficult to contribution.
+n3-1172-ます-しい	貧しい	まずしい	poor; scanty; inadequate	形容词	とても貧しそうだ。	It looks very poor.
+n3-1173-はんは-い	販売	はんばい	sales; selling	名词/动词	販売する必要がある。	It's necessary to sales.
+n3-1174-せめる	責める	せめる	to blame; to criticize; to press; to persecute	动词	上手に責めることができる。	I can blame well.
+n3-1175-せきにん	責任	せきにん	responsibility	名词	この責任は珍しい。	This responsibility is rare.
+n3-1176-ちょきん	貯金	ちょきん	savings; deposit (e.g. in a bank)	名词/动词	貯金するのに時間がかかる。	It takes time to savings.
+n3-1177-きちょう	貴重	きちょう	precious; valuable	名词/形容词	貴重な結果になった。	It turned out to be a precious result.
+n3-1178-ひよう	費用	ひよう	cost; expense	名词	費用を節約している。	I'm saving on cost.
+n3-1179-しほん	資本	しほん	funds; capital	名词	資本が大切だと思う。	I think funds is important.
+n3-1180-しけ-ん	資源	しげん	resources	名词	資源のことをもっと知りたい。	I want to learn more about resources.
+n3-1181-さんせい	賛成	さんせい	approval; agreement; support	名词/动词	もっと賛成したい。	I want to approval more.
+n3-1182-しょう	賞	しょう	prize; award	名词/接尾词	彼女の小説がノーベル賞の候補になった。	Her novel was nominated for the Nobel Prize.
+n3-1183-かしこい	賢い	かしこい	clever; smart	形容词	あまり賢くない。	It's not very clever.
+n3-1184-しつ	質	しつ	quality; value	名词/接尾词	質が高くなった。	The quality has gone up.
+n3-1185-せ-いたく	贅沢	ぜいたく	luxury; extravagance	名词/形容词	あの場所は贅沢だ。	That place is luxury.
+n3-1186-おこる	起こる	おこる	to occur; to happen	动词	起こるないように気をつけている。	I'm careful not to occur.
+n3-1187-こえる	越える	こえる	to exceed; to pass	动词	これを越えるましょう。	Let's exceed this.
+n3-1188-こす	越す	こす	to cross over (e.g. mountain); to surpass	动词	何を越すばいいかわからない。	I don't know what to cross over.
+n3-1189-あしもと	足元	あしもと	at one's feet	名词/形容词	足元な結果になった。	It turned out to be a at one's feet result.
+n3-1190-あと	跡	あと	trace; tracks; scar	名词	砂浜に動物の足跡が残っていた。	Animal tracks were left on the sandy beach.
+n3-1191-み	身	み	body; oneself	名词	身が痛い。	My body hurts.
+n3-1192-しんちょう	身長	しんちょう	height (of body)	名词	身長が痛い。	My height hurts.
+n3-1193-く-ん	軍	ぐん	army	名词/接尾词	軍を動かしてください。	Please move your army.
+n3-1194-く-んたい	軍隊	ぐんたい	armed forces; military	名词	彼女は軍隊が大きい。	She has big armed forces.
+n3-1195-かか-やく	輝く	かがやく	to shine; to glitter; to sparkle	动词	だんだん輝くてきた。	It gradually started to shine.
+n3-1196-わ	輪	わ	ring; circle; loop	名词	輪のことをもっと知りたい。	I want to learn more about ring.
+n3-1197-やめる	辞める	やめる	to resign; to leave (one's job, etc.)	动词	上手に辞めることができる。	I can resign well.
+n3-1198-のうき-ょう	農業	のうぎょう	agriculture	名词/形容词	とても農業だと思う。	I think it's very agriculture.
+n3-1199-のうみん	農民	のうみん	farmer	名词/形容词	とても農民だと思う。	I think it's very farmer.
+n3-1200-あたり	辺り	あたり	neighborhood; vicinity; nearby	名词	辺りを掃除した。	I cleaned the neighborhood.
+n3-1201-むかえ	迎え	むかえ	meeting; greeting	名词	迎えの経験がある。	I have experience with meeting.
+n3-1202-きんた-い	近代	きんだい	present day; modern times	名词/形容词	近代な結果になった。	It turned out to be a present day result.
+n3-1203-ちかこ-ろ	近頃	ちかごろ	lately; recently	名词/副词	近頃歩いている。	I'm walking lately.
+n3-1204-のへ-る	述べる	のべる	to state; to mention	动词	これを述べるましょう。	Let's state this.
+n3-1205-めいわく	迷惑	めいわく	trouble; annoyance	名词/形容词	迷惑で涙が出た。	I teared up from trouble.
+n3-1206-おいつく	追い付く	おいつく	to catch up (with); to draw level; to get to even	动词	追い付くないように気をつけている。	I'm careful not to catch up.
+n3-1207-おう	追う	おう	to chase; to pursue; to follow	动词	彼女がそれを追うた。	She chased it.
+n3-1208-たいくつ	退屈	たいくつ	tedium; boredom; dullness	名词/形容词	彼の態度に退屈を感じた。	I felt tedium at his attitude.
+n3-1209-き-ゃく	逆	ぎゃく	opposite	名词/形容词	逆なことに気づいた。	I noticed something opposite.
+n3-1210-さからう	逆らう	さからう	to oppose; to defy	动词	だんだん逆らうてきた。	It gradually started to oppose.
+n3-1211-つうし-る	通じる	つうじる	to communicate (with); to be understood; to be connected	动词	通じるたら、すぐ連絡してください。	If it communicates, please contact me immediately.
+n3-1212-とおす	通す	とおす	to let pass; to go through; to pass	动词	早く通すてください。	Please let pass it quickly.
+n3-1213-とおりすき-る	通り過ぎる	とおりすぎる	to go past; to pass by	动词	通り過ぎるないように気をつけている。	I'm careful not to go past.
+n3-1214-つうしん	通信	つうしん	correspondence; communication; transmission; signal	名词/动词	通信しなければならない。	I have to correspondence.
+n3-1215-つうか-く	通学	つうがく	commuting to school	名词/动词	通学する必要がある。	It's necessary to commuting to school.
+n3-1216-つうこう	通行	つうこう	passage (of people, traffic)	名词/动词	できるだけ早く通行してください。	Please passage as soon as possible.
+n3-1217-つうか	通過	つうか	passing through (e.g. train skipping a station); passing by	名词/动词	通過したほうがいい。	You should passing through.
+n3-1218-そくと	速度	そくど	speed; velocity	名词	速度が注目されている。	The speed is getting attention.
+n3-1219-つれ	連れ	つれ	companion	名词/动词	先生に連れしてもらった。	I had the teacher companion for me.
+n3-1220-れんそう	連想	れんそう	association (of ideas)	名词/动词	先生に連想してもらった。	I had the teacher association for me.
+n3-1221-たいほ	逮捕	たいほ	arrest; capture	名词/动词	逮捕する必要がある。	It's necessary to arrest.
+n3-1222-しんか-く	進学	しんがく	going on to a higher-level school	名词/动词	進学をがんばっている。	I'm working hard on going on to a higher-level school.
+n3-1223-ついに	遂に	ついに	finally; in the end	副词	彼女は遂に笑った。	She laughed finally.
+n3-1224-ちこく	遅刻	ちこく	being late	名词/动词	先生に遅刻してもらった。	I had the teacher being late for me.
+n3-1225-うん	運	うん	fortune; luck	名词	この運は珍しい。	This fortune is rare.
+n3-1226-すこ-す	過ごす	すごす	to pass (time); to overdo	动词	上手に過ごすことができる。	I can pass well.
+n3-1227-かこ	過去	かこ	the past	名词/副词	過去話してください。	Please speak the past.
+n3-1228-と-うとく	道徳	どうとく	morals	名词/形容词	道徳な人が好きだ。	I like morals people.
+n3-1229-と-うろ	道路	どうろ	road; highway	名词	道路が混んでいた。	The road was crowded.
+n3-1230-たっする	達する	たっする	to reach; to arrive at	动词	達するないように気をつけている。	I'm careful not to reach.
+n3-1231-いはん	違反	いはん	violation; offense	名词/动词	違反するのに時間がかかる。	It takes time to violation.
+n3-1232-てきする	適する	てきする	to fit; to suit	动词	適するないように気をつけている。	I'm careful not to fit.
+n3-1233-てきせつ	適切	てきせつ	pertinent; appropriate	名词/形容词	あの場所は適切だ。	That place is pertinent.
+n3-1234-てきと	適度	てきど	proper amount; suitable	名词/形容词	とても適度だと思う。	I think it's very proper amount.
+n3-1235-てきよう	適用	てきよう	application (e.g. a technology); adoption	名词/动词	適用した結果、うまくいった。	As a result of applicationing, it went well.
+n3-sentaku	選択	せんたく	selection; choice	名词/动词	選択するのに時間がかかる。	It takes time to selection.
+n3-1237-さける	避ける	さける	to avoid	动词	何を避けるばいいかわからない。	I don't know what to avoid.
+n3-1238-ふ-ふ-ん	部分	ぶぶん	portion; section	名词	部分が大切だと思う。	I think portion is important.
+n3-1239-ゆうひ-ん	郵便	ゆうびん	postal service; mail	名词	郵便を大切にしている。	I value postal service.
+n3-1240-とし	都市	とし	town; city	名词/形容词	都市なことに気づいた。	I noticed something town.
+n3-1241-はいたつ	配達	はいたつ	delivery; distribution	名词/动词	もっと配達したい。	I want to delivery more.
+n3-1242-よう	酔う	よう	to become intoxicated; to feel sick (from movement in e.g. a boat, car)	动词	なかなか酔うない。	It doesn't easily become intoxicated.
+n3-1243-さんそ	酸素	さんそ	oxygen	名词/形容词	酸素なことに気づいた。	I noticed something oxygen.
+n3-1244-し-ゅうた-い	重大	じゅうだい	serious; important	名词/形容词	重大なことに気づいた。	I noticed something serious.
+n3-juuyou	重要	じゅうよう	important; essential	名词/形容词	重要なことに気づいた。	I noticed something important.
+n3-1246-し-ゅうし	重視	じゅうし	regard as important; put emphasis on	名词/动词	重視するのに時間がかかる。	It takes time to regard as important.
+n3-1247-の	野	の	plain; field	名词	広い野を見渡すと、遠くに山が見えた。	Looking across the wide plains, I could see mountains in the distance.
+n3-1248-りょう	量	りょう	quantity; volume	名词/接尾词	量に問題がある。	There is a problem with the quantity.
+n3-1249-きんそ-く	金属	きんぞく	metal	名词	金属のことをもっと知りたい。	I want to learn more about metal.
+n3-1250-きんこ	金庫	きんこ	safe; strongbox	名词	金庫について話し合った。	We discussed safe.
+n3-1251-きんゆう	金融	きんゆう	finance; financing	名词/形容词	あの場所は金融だ。	That place is finance.
+n3-1252-きんせん	金銭	きんせん	money; cash	名词/形容词	金銭なことに気づいた。	I noticed something money.
+n3-1253-きんか-く	金額	きんがく	amount of money	名词	請求書に書かれた金額を確認してください。	Please verify the amount written on the invoice.
+n3-1254-はり	針	はり	needle; pin; stinger; thorn	名词	日本の針は独特だ。	Japanese needle is unique.
+n3-1255-てつと-う	鉄道	てつどう	railroad; railway	名词	鉄道に問題がある。	There is a problem with the railroad.
+n3-1256-き-ん	銀	ぎん	Silver	名词	銀を大切にしている。	I value silver.
+n3-1257-し-ゅう	銃	じゅう	gun; rifle	名词	銃の意味を説明した。	I explained the meaning of gun.
+n3-1258-と-うか	銅貨	どうか	copper coin	名词	博物館で江戸時代の銅貨を見た。	I saw Edo-period copper coins at the museum.
+n3-1259-すると-い	鋭い	するどい	(physically) sharp; pointed; (mentally) sharp; perceptive	形容词	あまり鋭くない。	It's not very sharp.
+n3-1260-くさり	鎖	くさり	chain	名词	鎖の意味を説明した。	I explained the meaning of chain.
+n3-1261-ちょうきてき	長期的	ちょうきてき	long-term	形容词	長期的なことに気づいた。	I noticed something long-term.
+n3-1262-たんきてき	短期的	たんきてき	short-term	形容词	とても短期的だと思う。	I think it's very short-term.
+n3-1263-たんき	短期	たんき	short-term	名词/形容词	あの場所は短期だ。	That place is short-term.
+n3-1264-ちょうき	長期	ちょうき	long-term	名词/形容词	とても長期だと思う。	I think it's very long-term.
+n3-1265-とし-る	閉じる	とじる	to close; to shut	动词	閉じるたら、すぐ連絡してください。	If it closes, please contact me immediately.
+n3-1266-かんする	関する	かんする	to concern; to be related	动词	突然関するた。	It suddenly concerned.
+n3-1267-かんしん	関心	かんしん	interest; concern	名词	関心を大切にしている。	I value interest.
+n3-1268-かんれん	関連	かんれん	relation; connection	名词/动词/接尾词	関連するのに時間がかかる。	It takes time to relation.
+n3-1269-ふせく	防ぐ	ふせぐ	to defend against; to prevent; to avoid	动词	早く防ぐてください。	Please defend against it quickly.
+n3-1270-おろす	降ろす	おろす	to take down; to lower; to unload	动词	早く降ろすてください。	Please take down it quickly.
+n3-1271-かき-る	限る	かぎる	to restrict; to limit	动词	限るたら、すぐ連絡してください。	If it restricts, please contact me immediately.
+n3-1272-け-んかい	限界	げんかい	limit	名词/形容词	とても限界だと思う。	I think it's very limit.
+n3-1273-のそ-く	除く	のぞく	to remove; to eliminate; to exclude	动词	彼女がそれを除くた。	She removed it.
+n3-1274-す-いふ-ん	随分	ずいぶん	very; surprisingly	副词	随分考えた。	I thought about it very.
+n3-1275-さい	～際（さい）	～さい	on the occasion of ～	名词/副词	～際（さい）歩いている。	I'm walking on the occasion of ～.
+n3-1276-しょうか-い	障害	しょうがい	obstacle; handicap; disability	名词/动词	障害するのに時間がかかる。	It takes time to obstacle.
+n3-1277-かくす	隠す	かくす	to hide; to conceal	动词	彼女がそれを隠すた。	She hided it.
+n3-1278-かくれる	隠れる	かくれる	to be hidden	动词	隠れるないように気をつけている。	I'm careful not to be hidden.
+n3-1279-あつまり	集まり	あつまり	gathering; meeting	名词	彼女は集まりに満足している。	She is satisfied with her gathering.
+n3-1280-しゅうちゅう	集中	しゅうちゅう	concentration	名词/动词	集中するのに時間がかかる。	It takes time to concentration.
+n3-1281-しゅうた-ん	集団	しゅうだん	group; mass	名词	この集団は珍しい。	This group is rare.
+n3-1282-やとう	雇う	やとう	to employ; to hire	动词	これを雇うましょう。	Let's employ this.
+n3-1283-はなす	離す	はなす	to separate; to part; to let go	动词	彼女がそれを離すた。	She separated it.
+n3-1284-はなれる	離れる	はなれる	to be separated; to go away; to leave	动词	離れるないように気をつけている。	I'm careful not to be separated.
+n3-1285-りこん	離婚	りこん	divorce	名词/动词	離婚したほうがいい。	You should divorce.
+n3-1286-ふんいき	雰囲気	ふんいき	mood; ambience; atmosphere	名词	雰囲気に関する本を読んだ。	I read a book about mood.
+n3-1287-かみなり	雷	かみなり	lightning; thunder	名词	雷が大切だと思う。	I think lightning is important.
+n3-1288-て-んし	電子	でんし	electronic	词汇	電子の使い方がわからない。	I don't know how to use the electronic.
+n3-1289-し-ゅよう	需要	じゅよう	demand; request	名词	需要のことをもっと知りたい。	I want to learn more about demand.
+n3-1290-ふるえる	震える	ふるえる	to shiver; to shake	动词	だんだん震えるてきた。	It gradually started to shiver.
+n3-1291-しも	霜	しも	frost	名词	霜が必要です。	Frost is necessary.
+n3-1292-きり	霧	きり	fog; mist	名词	霧が必要です。	Fog is necessary.
+n3-1293-せいねん	青年	せいねん	youth	名词	その青年は大学を卒業してすぐ起業した。	The young man started a business right after graduating from university.
+n3-1294-ひし-ょう	非常	ひじょう	emergency | extraordinary; unusual	名词/形容词	非常なことに気づいた。	I noticed something emergency | extraordinary.
+n3-1295-おもて	面（おもて）	おもて	face; front side	名词	面（おもて）が痛い。	My face hurts.
+n3-1296-めん	面（めん）	めん	face; mask	名词	面（めん）が痛い。	My face hurts.
+n3-1297-めんと-う	面倒	めんどう	trouble; bother	名词/形容词	あの場所は面倒だ。	That place is trouble.
+n3-1298-かわ	革	かわ	leather	名词	革が注目されている。	The leather is getting attention.
+n3-1299-し-ゅん	順	じゅん	order; ranking	名词/接尾词	順に問題がある。	There is a problem with the order.
+n3-1300-し-ゅんは-ん	順番	じゅんばん	order; sequential order	名词	順番に関する本を読んだ。	I read a book about order.
+n3-1301-あす-ける	預ける	あずける	to entrust; to deposit; to leave in one's care	动词	早く預けるてください。	Please entrust it quickly.
+n3-1302-ねか-い	願い	ねがい	request; desire	名词	七夕には短冊に願いを書いて笹に飾る。	On Tanabata, we write wishes on strips of paper and hang them on bamboo.
+n3-1303-ねか-う	願う	ねがう	to desire; to request	动词	彼女がそれを願うた。	She desired it.
+n3-1304-とは-す	飛ばす	とばす	to fly; to fire; to launch; to omit; to skip over	动词	早く飛ばすてください。	Please fly it quickly.
+n3-1305-ひこう	飛行	ひこう	aviation; flying	名词/动词	先生に飛行してもらった。	I had the teacher aviation for me.
+n3-1306-くう	食う	くう	to eat (casual or masculine)	动词	これを食うましょう。	Let's eat this.
+n3-1307-しょくたく	食卓	しょくたく	dining table	名词/形容词	あの場所は食卓だ。	That place is dining table.
+n3-1308-しょくひん	食品	しょくひん	food products; foodstuffs	名词	食品が好きで毎日食べている。	I like food products and eat it every day.
+n3-1309-しょくりょう	食料	しょくりょう	food	名词	食料を食べたことがありますか。	Have you ever eaten food?
+n3-1310-しょくよく	食欲	しょくよく	appetite (for food)	名词/形容词	風邪を引いてから食欲がない。	I haven't had an appetite since catching a cold.
+n3-1311-しょくもつ	食物	しょくもつ	food; foodstuff	名词/形容词	とても食物だと思う。	I think it's very food.
+n3-1312-しょくりょう	食糧	しょくりょう	provisions; food supply	名词	食糧を食べたことがありますか。	Have you ever eaten provisions?
+n3-1313-めし	飯	めし	cooked rice	名词	母が飯を作ってくれた。	My mother made cooked rice for me.
+n3-1314-あきる	飽きる	あきる	to get tired of	动词	飽きるたら、すぐ連絡してください。	If it get tired ofs, please contact me immediately.
+n3-1315-えさ	餌	えさ	feed; pet food; bait	名词	餌を食べたことがありますか。	Have you ever eaten feed?
+n3-1316-しゅしょう	首相	しゅしょう	Prime Minister; Chancellor	名词	首相のことをもっと知りたい。	I want to learn more about prime minister.
+n3-1317-しゅと	首都	しゅと	capital city	名词/形容词	あの場所は首都だ。	That place is capital city.
+n3-1318-かおり	香り	かおり	aroma	名词	香りに問題がある。	There is a problem with the aroma.
+n3-1319-ハ-カ	バカ	バカ	fool; idiot; stupid	名词/形容词	バカなことに気づいた。	I noticed something fool.
+n3-1320-ちゅうしゃ	駐車	ちゅうしゃ	parking (e.g. car)	名词/动词	駐車する必要がある。	It's necessary to parking.
+n3-1321-さわき	騒ぎ	さわぎ	uproar	名词/接尾词	騒ぎに関する本を読んだ。	I read a book about uproar.
+n3-1322-こっせつ	骨折	こっせつ	broken bone	名词/动词	骨折が痛い。	My broken bone hurts.
+n3-1323-こうか	高価	こうか	high price	名词/形容词	高価な人が好きだ。	I like high price people.
+n3-1324-こうそく	高速	こうそく	high speed	名词	とても高速だと思う。	I think it's very high speed.
+n3-1325-かみのけ	髪の毛	かみのけ	hair (head)	名词/表达	髪の毛ということを学んだ。	I learned that hair.
+n3-1326-おに	鬼	おに	oni; ogre; demon	名词	日本の昔話には鬼がよく出てくる。	Oni often appear in Japanese folk tales.
+n3-1327-みりょく	魅力	みりょく	charm; attraction; appeal	名词	魅力が注目されている。	The charm is getting attention.
+n3-1328-こくは-ん	黒板	こくばん	blackboard	名词	黒板が必要です。	Blackboard is necessary.
+n3-1329-た-まる	黙る	だまる	to be silent; to say nothing	动词	だんだん黙るてきた。	It gradually started to be silent.
+n3-1330-ネス-ミ	ネズミ	ネズミ	(uk) mouse; rat | dark gray; dark grey; slate (color, colour)	名词	ネズミが大切だと思う。	I think mouse is important.
+n3-1331-あっというまに	あっという間に	あっというまに	just like that; before you know it	副词/表达	彼女はあっという間に笑った。	She laughed just like that.
+n3-1332-おきにいり	お気に入り	おきにいり	favorite; bookmark (e.g. on a web browser)	表达	お気に入りになりたい。	I want to become favorite.
+n3-1333-こんなに	こんなに	こんなに	like this; in this way	副词	こんなに食べている。	I'm eating like this.
+n3-1334-そっと	そっと	そっと	quietly; secretly; stealthily	动词/副词	そっと考えた。	I thought about it quietly.
+n3-1335-ちゃんと	ちゃんと	ちゃんと	seriously; properly; exactly	动词/副词	ちゃんと話してください。	Please speak seriously.
+n3-1336-とんて-もない	とんでもない	とんでもない	unthinkable; outrageous; unexpected	形容词	とてもとんでもなそうだ。	It looks very unthinkable.
+n3-1337-と-んなに	どんなに	どんなに	how; how much	副词	どんなに考えた。	I thought about it how.
+n3-1338-アイスクリーム	アイスクリーム	アイスクリーム	ice cream	名词	アイスクリームの意味を説明した。	I explained the meaning of ice cream.
+n3-1339-アイテ-ィア	アイディア	アイディア	idea	名词	面白いアイディアが浮かんだので、メモに書き留めた。	A good idea came to mind, so I jotted it down.
+n3-1340-アイロン	アイロン	アイロン	iron (clothes); hair iron	名词	アイロンを動かしてください。	Please move your iron.
+n3-1341-アウト	アウト	アウト	outer; external; outside	形容词	アウトが注目されている。	The outer is getting attention.
+n3-1342-アト-ハ-イス	アドバイス	アドバイス	advice	名词/动词	できるだけ早くアドバイスしてください。	Please advice as soon as possible.
+n3-1343-アニメ	アニメ	アニメ	animated film; animated cartoon	名词/形容词	あの場所はアニメだ。	That place is animated film.
+n3-1344-アルハ-ム	アルバム	アルバム	album	名词	このアルバムは珍しい。	This album is rare.
+n3-1345-アレルキ-ー	アレルギー	アレルギー	allergy	名词/形容词	アレルギーなことに気づいた。	I noticed something allergy.
+n3-1346-イヘ-ント	イベント	イベント	event	名词	イベントの意味を説明した。	I explained the meaning of event.
+n3-1347-インク	インク	インク	ink	名词/形容词	インクな人が好きだ。	I like ink people.
+n3-1348-ウイスキー	ウイスキー	ウイスキー	whisky; whiskey	名词	ウイスキーが注目されている。	The whisky is getting attention.
+n3-1349-ウイルス	ウイルス	ウイルス	virus	名词/形容词	ウイルスになりたい。	I want to become virus.
+n3-1350-エンシ-ン	エンジン	エンジン	engine	名词	車のエンジンがかからなくて、修理に出した。	The car engine wouldn't start, so I took it in for repair.
+n3-1351-オフィス	オフィス	オフィス	office	名词	オフィスが忙しい。	The office is busy.
+n3-1352-オリンヒ-ック	オリンピック	オリンピック	Olympics	名词	オリンピックが注目されている。	The olympics is getting attention.
+n3-1353-オーフ-ン	オープン	オープン	open	名词/动词	オープンするつもりだ。	I intend to open.
+n3-1354-カット	カット	カット	cut; haircut; shuffle (cards)	名词/动词	カットしたほうがいい。	You should cut.
+n3-1355-カフェ	カフェ	カフェ	cafe; coffeehouse	名词	母がカフェを作ってくれた。	My mother made cafe for me.
+n3-1356-カロリー	カロリー	カロリー	calorie	名词/形容词	カロリーな人が好きだ。	I like calorie people.
+n3-1357-カート	カード	カード	card	名词	カードが混んでいた。	The card was crowded.
+n3-1358-キャンセル	キャンセル	キャンセル	cancel	名词/动词	キャンセルした結果、うまくいった。	As a result of canceling, it went well.
+n3-1359-キャンフ	キャンプ	キャンプ	camp	名词/动词	キャンプしなければならない。	I have to camp.
+n3-1360-クッキー	クッキー	クッキー	cookie	名词	クッキーを食べたことがありますか。	Have you ever eaten cookie?
+n3-1361-クラシックおんか-く	クラシック音楽	クラシックおんがく	classical music	名词	クラシック音楽を聴くとリラックスできる。	Listening to classical music helps me relax.
+n3-1362-クラスメイト	クラスメイト	クラスメイト	classmate	名词	クラスメイトと放課後にサッカーをした。	I played soccer with my classmates after school.
+n3-1363-クリスマス	クリスマス	クリスマス	Christmas	名词	クリスマスが注目されている。	The christmas is getting attention.
+n3-1364-クリーム	クリーム	クリーム	cream	名词	このクリームは珍しい。	This cream is rare.
+n3-1365-ク-ラウント	グラウンド	グラウンド	sports ground	名词	日本のグラウンドはおもしろい。	Japanese sports ground is interesting.
+n3-1366-ク-ラス	グラス	グラス	glass (drinking vessel)	名词	母がグラスを作ってくれた。	My mother made glass for me.
+n3-1367-ク-ルメ	グルメ	グルメ	gourmet	名词/形容词	グルメなことに気づいた。	I noticed something gourmet.
+n3-1368-ク-レー	グレー	グレー	grey	名词/形容词	グレーな人が好きだ。	I like grey people.
+n3-1369-ク-ローハ-ル	グローバル	グローバル	global	名词/形容词	グローバルな結果になった。	It turned out to be a global result.
+n3-1370-ケース	ケース	ケース	case	名词	スマホのケースを新しいのに変えた。	I changed my phone case to a new one.
+n3-1371-ケ-ーム	ゲーム	ゲーム	game	名词	ゲームを楽しんだ。	I enjoyed the game.
+n3-1372-コアラ	コアラ	コアラ	koala	名词	コアラに関する本を読んだ。	I read a book about koala.
+n3-1373-コミュニケーション	コミュニケーショ ン	コミュニケーション	communication	名词	外国人の同僚とのコミュニケーションは英語で行っている。	I communicate with my foreign colleagues in English.
+n3-1374-コメテ-ィー	コメディー	コメディー	comedy	名词	コメディーの意味を説明した。	I explained the meaning of comedy.
+n3-1375-コンタクトレンス	コンタクトレンズ	コンタクトレンズ	contact lens	名词	コンタクトレンズが大切だと思う。	I think contact lens is important.
+n3-1376-コーチ	コーチ	コーチ	coach	名词/动词	コーチしなければならない。	I have to coach.
+n3-1377-コート	コード	コード	code; cord; chord	名词	コードの意味を説明した。	I explained the meaning of code.
+n3-1378-コ-ルフ	ゴルフ	ゴルフ	golf	名词	ゴルフについて話し合った。	We discussed golf.
+n3-1379-コ-ール	ゴール	ゴール	goal	名词/动词	ゴールしたほうがいい。	You should goal.
+n3-1380-サイン	サイン	サイン	autograph; signature	名词/动词	できるだけ早くサインしてください。	Please autograph as soon as possible.
+n3-1381-サラリーマン	サラリーマン	サラリーマン	company employee	名词	彼女はサラリーマンに満足している。	She is satisfied with her company employee.
+n3-1382-サンク-ラス	サングラス	サングラス	sunglasses	名词	サングラスが好きでよく散歩する。	I like sunglasses and often go for walks.
+n3-1383-サンタクロース	サンタクロース	サンタクロース	Santa Claus	名词	サンタクロースが必要です。	Santa Claus is necessary.
+n3-1384-サークル	サークル	サークル	club (e.g. company sports club); group with common interests	名词	サークルの経験がある。	I have experience with club.
+n3-1385-サーヒ-ス	サービス	サービス	service	名词/动词	サービスしたほうがいい。	You should service.
+n3-1386-システム	システム	システム	system	名词/形容词	システムが変わりつつある。	System is changing.
+n3-1387-シ-ュース	ジュース	ジュース	juice	名词	ジュースの意味を説明した。	I explained the meaning of juice.
+n3-1388-シ-ーンス	ジーンズ	ジーンズ	jeans	名词	ジーンズが必要です。	Jeans is necessary.
+n3-1389-スイッチ	スイッチ	スイッチ	switch	名词/动词	スイッチする必要がある。	It's necessary to switch.
+n3-1390-スキー	スキー	スキー	skiing; ski	名词	スキーに問題がある。	There is a problem with the skiing.
+n3-1391-スケート	スケート	スケート	skating; skates	名词/动词	彼女はスケートするのが上手だ。	She is good at skatinging.
+n3-1392-スタイル	スタイル	スタイル	figure; style	名词	スタイルについて話し合った。	We discussed figure.
+n3-1393-スタッフ	スタッフ	スタッフ	staff	名词/形容词	とてもスタッフだと思う。	I think it's very staff.
+n3-1394-スタント	スタンド	スタンド	stands; bleachers; stand (e.g. lemonade stand)	名词	このスタンドは珍しい。	This stands is rare.
+n3-1395-ストレス	ストレス	ストレス	stress	名词	彼の態度にストレスを感じた。	I felt stress at his attitude.
+n3-1396-ハ-スタ	パスタ	パスタ	pasta	名词	パスタのことを覚えていますか。	Do you remember pasta?
+n3-1397-スヒ-ーチ	スピーチ	スピーチ	speech	名词	結婚式でスピーチを頼まれて緊張した。	I was asked to give a speech at a wedding and got nervous.
+n3-1398-スヒ-ート	スピード	スピード	speed	名词	スピードを大切にしている。	I value speed.
+n3-1399-スーフ	スープ	スープ	soup	名词	寒い日には温かいスープが体にしみる。	On cold days, warm soup really hits the spot.
+n3-1400-センター	センター	センター	center	名词	このセンターは珍しい。	This center is rare.
+n3-1401-セール	セール	セール	sale	名词	日本のセールは独特だ。	Japanese sale is unique.
+n3-1402-タイトル	タイトル	タイトル	title	名词	この映画のタイトルが思い出せない。	I can't remember the title of this movie.
+n3-1403-タオル	タオル	タオル	towel	名词	プールから上がったら、すぐにタオルで体を拭いた。	I dried off with a towel as soon as I got out of the pool.
+n3-1404-タ-イエット	ダイエット	ダイエット	diet	名词/动词	ダイエットするのに時間がかかる。	It takes time to diet.
+n3-1405-タ-イヤ	ダイヤ	ダイヤ	diamond	名词	ダイヤの意味を説明した。	I explained the meaning of diamond.
+n3-1406-タ-ンス	ダンス	ダンス	dance	名词/动词	ダンスするのに時間がかかる。	It takes time to dance.
+n3-1407-チーム	チーム	チーム	team	名词	チームが好きで毎日食べている。	I like team and eat it every day.
+n3-1408-チームワーク	チームワーク	チームワーク	teamwork	名词	母がチームワークを作ってくれた。	My mother made teamwork for me.
+n3-1409-テレヒ-きょく	テレビ局	テレビきょく	television station	名词	テレビ局の予約をした。	I made a reservation for television station.
+n3-1410-テント	テント	テント	tent	名词	日本のテントは独特だ。	Japanese tent is unique.
+n3-1411-テーマ	テーマ	テーマ	theme	名词	このテーマは珍しい。	This theme is rare.
+n3-1412-テ-ィスカッション	ディスカッション	ディスカッション	discussion	名词/动词	ディスカッションが上手になりたい。	I want to become better at discussion.
+n3-1413-テ-ィナー	ディナー	ディナー	dinner	名词	ディナーの意味を説明した。	I explained the meaning of dinner.
+n3-1414-トイレットヘ-ーハ-ー	トイレットペーパ ー	トイレットペーパー	toilet paper	名词	トイレットペーパ	I explained the meaning of toilet paper.
+n3-1415-トマト	トマト	トマト	tomato	名词	庭で育てたトマトを使ってサラダを作った。	I made a salad using tomatoes I grew in the garden.
+n3-1416-トラック	トラック	トラック	truck	名词/形容词	トラックな結果になった。	It turned out to be a truck result.
+n3-1417-トランフ	トランプ	トランプ	playing cards	名词	日本のトランプはおもしろい。	Japanese playing cards is interesting.
+n3-1418-トレーニンク	トレーニング	トレーニング	training	名词/动词	先生にトレーニングしてもらった。	I had the teacher training for me.
+n3-1419-トンネル	トンネル	トンネル	tunnel	名词/动词	トンネルしたほうがいい。	You should tunnel.
+n3-1420-ト-ライフ	ドライブ	ドライブ	drive; trip by car	名词/动词	ドライブするのは大変だ。	It's difficult to drive.
+n3-1421-ト-リンク	ドリンク	ドリンク	drink	名词	母がドリンクを作ってくれた。	My mother made drink for me.
+n3-1422-ト-ロト-ロ	ドロドロ	ドロドロ	syrupy; thick consistency	名词/形容词/副词	ドロドロになりたい。	I want to become syrupy.
+n3-1423-ニース	ニーズ	ニーズ	needs	名词	ニーズが必要です。	Needs is necessary.
+n3-1424-ノック	ノック	ノック	knock (on a door)	名词/动词	新しいノックに引っ越した。	I moved to a new knock.
+n3-1425-ハイキンク	ハイキング	ハイキング	hiking	名词	ハイキングに関する本を読んだ。	I read a book about hiking.
+n3-1426-ハム	ハム	ハム	ham	名词	このハムは珍しい。	This ham is rare.
+n3-1427-ハンハ-ーカ-ー	ハンバーガー	ハンバーガー	hamburger (with bun)	名词	ハンバーガーが必要です。	Hamburger is necessary.
+n3-1428-ハ-イオリン	バイオリン	バイオリン	violin	名词	バイオリンが大切だと思う。	I think violin is important.
+n3-1429-ハ-イク	バイク	バイク	motorcycle	名词	バイクが混んでいた。	The motorcycle was crowded.
+n3-1430-ハ-ック	バッグ	バッグ	bag	名词	バッグが注目されている。	The bag is getting attention.
+n3-1431-ハ-ト-ミントン	バドミントン	バドミントン	badminton	名词	バドミントンについて話し合った。	We discussed badminton.
+n3-1432-ハ-ランス	バランス	バランス	balance	名词/动词	バランスするのは大変だ。	It's difficult to balance.
+n3-1433-ハ-レンタインテ-ー	バレンタインデー	バレンタインデー	Valentine's Day	名词	バレンタインデーのことを覚えていますか。	Do you remember valentine's day?
+n3-1434-ハ-ント	バンド	バンド	band; musical group	名词	バンドを楽しんだ。	I enjoyed the band.
+n3-1435-ハ-イフ	パイプ	パイプ	pipe	名词	パイプが必要です。	Pipe is necessary.
+n3-1436-ハ-イロット	パイロット	パイロット	pilot	名词	パイロットが注目されている。	The pilot is getting attention.
+n3-1437-ハ-ス	パス	パス	path; pass	名词/动词	もっとパスしたい。	I want to path more.
+n3-1438-ハ-スホ-ート	パスポート	パスポート	passport	名词	来月パスポートに行く予定だ。	I plan to go on a passport next month.
+n3-1439-ハ-ーセント	パーセント	パーセント	percent	名词	今年の売上は去年より20パーセント増えた。	This year's sales increased by 20 percent compared to last year.
+n3-1440-ヒット	ヒット	ヒット	hit	名词/动词	ヒットするつもりだ。	I intend to hit.
+n3-1441-ヒ-テ-オ	ビデオ	ビデオ	video	名词	ビデオの使い方がわからない。	I don't know how to use the video.
+n3-1442-ヒ-ール	ビール	ビール	beer	名词	仕事の後、同僚と居酒屋でビールを飲んだ。	After work, I had beer with my colleagues at an izakaya.
+n3-1443-ヒ-アス	ピアス	ピアス	earrings	名词	ピアスが痛い。	My earrings hurts.
+n3-1444-ヒ-クニック	ピクニック	ピクニック	picnic	名词	天気がいいので公園でピクニックをしよう。	The weather's nice, so let's have a picnic in the park.
+n3-1445-ヒ-サ	ピザ	ピザ	pizza	名词	ピザが大切だと思う。	I think pizza is important.
+n3-1446-ヒ-ッチャー	ピッチャー	ピッチャー	pitcher	名词	ピッチャーに問題がある。	There is a problem with the pitcher.
+n3-1447-ヒ-ン	ピン	ピン	pin	名词	ピンのことをもっと知りたい。	I want to learn more about pin.
+n3-1448-ファイル	ファイル	ファイル	file	名词/动词	彼女はファイルするのが上手だ。	She is good at fileing.
+n3-1449-ファストフート	ファストフード	ファストフード	fast-food	名词	このファストフードはとてもおいしい。	This fast-food is very delicious.
+n3-1450-ファッション	ファッション	ファッション	fashion	名词	ファッションを大切にしている。	I value fashion.
+n3-1451-フルーツ	フルーツ	フルーツ	fruit	名词	このフルーツはとてもおいしい。	This fruit is very delicious.
+n3-1452-フ-レーキ	ブレーキ	ブレーキ	brake	名词	ブレーキの意味を説明した。	I explained the meaning of brake.
+n3-1453-フ-ライヘ-ート	プライベート	プライベート	private	名词/形容词	プライベートなことに気づいた。	I noticed something private.
+n3-1454-フ-ラク	プラグ	プラグ	plug; connector	名词	プラグが注目されている。	The plug is getting attention.
+n3-1455-フ-ラス	プラス	プラス	plus; addition; positive	名词/动词	プラスしなければならない。	I have to plus.
+n3-1456-フ-レセ-ンテーション	プレゼンテーショ ン	プレゼンテーション	presentation	名词/动词	彼女はプレゼンテーショ	She is good at presentationing.
+n3-1457-フ-ロ	プロ	プロ	professional	名词/形容词	プロに応募した。	I applied for the professional.
+n3-1458-フ-ロシ-ェクター	プロジェクター	プロジェクター	projector	名词	彼女はプロジェクターに満足している。	She is satisfied with her projector.
+n3-1459-フ-ロシ-ェクト	プロジェクト	プロジェクト	project	名词	プロジェクトに応募した。	I applied for the project.
+n3-1460-ヘット-ホン	ヘッドホン	ヘッドホン	headphone	名词	ヘッドホンが痛い。	My headphone hurts.
+n3-1461-ヘ-ランタ	ベランダ	ベランダ	veranda; balcony	名词	このベランダは珍しい。	This veranda is rare.
+n3-1462-ヘ-ルト	ベルト	ベルト	belt	名词	ベルトについて話し合った。	We discussed belt.
+n3-1463-ヘ-ンチ	ベンチ	ベンチ	bench	名词	ベンチに関する本を読んだ。	I read a book about bench.
+n3-1464-ホーム	ホーム	ホーム	platform (e.g. train) | home	名词	来月ホームに行く予定だ。	I plan to go on a platform  | home next month.
+n3-1465-ホームステイ	ホームステイ	ホームステイ	homestay	名词	ホームステイを掃除した。	I cleaned the homestay.
+n3-1466-ホームヘ-ーシ	ホームページ	ホームページ	homepage	名词	新しいホームページに引っ越した。	I moved to a new homepage.
+n3-1467-ホ-ウリンク	ボウリング	ボウリング	bowling	名词/动词	できるだけ早くボウリングしてください。	Please bowling as soon as possible.
+n3-1468-ホ-ウル	ボウル	ボウル	bowl	名词	このボウルは珍しい。	This bowl is rare.
+n3-1469-ホ-ート	ボート	ボート	boat	名词	ボートが混んでいた。	The boat was crowded.
+n3-1470-ホ-ール	ボール	ボール	ball	名词	ボールについて話し合った。	We discussed ball.
+n3-1471-マスク	マスク	マスク	mask	名词/动词	彼女はマスクするのが上手だ。	She is good at masking.
+n3-1472-ママ	ママ	ママ	mama; mother	名词	ママを大切にしている。	I cherish my mama.
+n3-1473-マンション	マンション	マンション	apartment	名词	新しいマンションに引っ越した。	I moved to a new apartment.
+n3-1474-マーケット	マーケット	マーケット	market	名词	マーケットを節約している。	I'm saving on market.
+n3-1475-ミルク	ミルク	ミルク	milk	名词	ミルクを大切にしている。	I value milk.
+n3-1476-メタ-ル	メダル	メダル	medal	名词	メダルの意味を説明した。	I explained the meaning of medal.
+n3-1477-メリット	メリット	メリット	merit	名词	電車通勤のメリットは時間が読めることだ。	The merit of commuting by train is that the travel time is predictable.
+n3-1478-メンハ-ー	メンバー	メンバー	member	名词	メンバーを大切にしている。	I value member.
+n3-1479-モテ-ル	モデル	モデル	model	名词	モデルが注目されている。	The model is getting attention.
+n3-1480-ユニフォーム	ユニフォーム	ユニフォーム	uniform	名词	サッカー部の新しいユニフォームが届いた。	The soccer club's new uniforms arrived.
+n3-1481-ユーモア	ユーモア	ユーモア	humour	名词	ユーモアに関する本を読んだ。	I read a book about humour.
+n3-1482-ヨット	ヨット	ヨット	yacht	名词	ヨットが大切だと思う。	I think yacht is important.
+n3-1483-ヨーク-ルト	ヨーグルト	ヨーグルト	yogurt	名词	毎朝ヨーグルトにはちみつをかけて食べている。	Every morning I eat yogurt with honey on it.
+n3-1484-ライター	ライター	ライター	lighter	名词	ライターの意味を説明した。	I explained the meaning of lighter.
+n3-1485-ライハ-ル	ライバル	ライバル	rival	名词/形容词	ライバルな人が好きだ。	I like rival people.
+n3-1486-ラケット	ラケット	ラケット	racket	名词	ラケットに関する本を読んだ。	I read a book about racket.
+n3-1487-ランニンク	ランニング	ランニング	running	名词	ランニングに関する本を読んだ。	I read a book about running.
+n3-1488-リットル	リットル	リットル	litre	名词	日本のリットルは独特だ。	Japanese litre is unique.
+n3-1489-レンタル	レンタル	レンタル	rental	名词/动词	レンタルするのに時間がかかる。	It takes time to rental.
+n3-1490-ロケット	ロケット	ロケット	rocket	名词	ロケットの意味を説明した。	I explained the meaning of rocket.
+n3-1491-ワイン	ワイン	ワイン	wine	名词	ワインが注目されている。	The wine is getting attention.
+n3-1492-ひとりひとり	一人一人	ひとりひとり	one by one; one at a time	名词/接尾词	一人一人から変わっていない。	It hasn't changed since one by one.
+n3-1493-ひとは-ん	一晩	ひとばん	one night; | all night	名词/副词	一晩考えた。	I thought about it one night.
+n3-1494-いっきに	一気に	いっきに	all at once; in one gulp	副词	一気に話してください。	Please speak all at once.
+n3-1495-し-ょうし	上司	じょうし	superior; boss	名词	上司に応募した。	I applied for the superior.
+n3-1496-ふけんこう	不健康	ふけんこう	unhealthy	名词/形容词	不健康な結果になった。	It turned out to be a unhealthy result.
+n3-1497-ふかのう	不可能	ふかのう	impossible	名词/形容词	あの場所は不可能だ。	That place is impossible.
+n3-1498-ふよう	不要	ふよう	unnecessary	名词	あの場所は不要だ。	That place is unnecessary.
+n3-1499-なかみ	中身	なかみ	contents; interior	名词/形容词	とても中身だと思う。	I think it's very contents.
+n3-1500-こと	事	こと	thing; matter	名词	事に関する本を読んだ。	I read a book about thing.
+n3-1501-し-せ-ん	事前	じぜん	beforehand; in advance	名词/形容词	事前な人が好きだ。	I like beforehand people.
+n3-1502-し-んし	人事	じんじ	human resources; HR	名词/形容词	あの場所は人事だ。	That place is human resources.
+n3-1503-にんす-う	人数	にんずう	number of people	名词	参加する人数を金曜日までに教えてください。	Please let me know the number of participants by Friday.
+n3-1504-し-んせい	人生	じんせい	life; one's lifetime	名词	人生について話し合った。	We discussed life.
+n3-1505-にんけ-んかんけい	人間関係	にんげんかんけい	human relations	名词/形容词	人間関係になりたい。	I want to become human relations.
+n3-1506-たしゃ	他社	たしゃ	another company	名词	彼女は他社に満足している。	She is satisfied with her another company.
+n3-1507-つきあう	付き合う	つきあう	to associate with; to socialize with	动词	なかなか付き合うない。	It doesn't easily associate with.
+n3-1508-つける	付ける	つける	to attach; to join; to apply	动词	彼女がそれを付けるた。	She attached it.
+n3-1509-きゅうし-つ	休日	きゅうじつ	holiday; day off	名词	休日は家族と過ごすことが多い。	I often spend holidays with my family.
+n3-1510-たいちょう	体調	たいちょう	physical condition; state of health	名词	体調を大切にしている。	I value physical condition.
+n3-1511-なにか	何か	なにか	something	表达	日本では何かと言う。	In Japan, they say something.
+n3-1512-なんて	何で	なんで	why	副词	彼女は何で笑った。	She laughed why.
+n3-1513-なんて-も	何でも	なんでも	anything	副词	何でも話してください。	Please speak anything.
+n3-1514-なんとか	何とか	なんとか	somehow; anyhow	副词	何とか話してください。	Please speak somehow.
+n3-1515-あまり-あんまり	余り	あまり、あんまり	remainder; balance; left over	名词/副词/接尾词	余りなことに気づいた。	I noticed something remainder.
+n3-1516-れいねん	例年	れいねん	ordinay year	名词/副词	例年準備した。	I prepared ordinay year.
+n3-1517-たもつ	保つ	たもつ	to keep; to preserve | to last; to endure	动词	彼女がそれを保つた。	She keeped it.
+n3-1518-しんねん	信念	しんねん	belief; faith	名词/动词	毎日信念している。	I belief every day.
+n3-1519-ねあか-り	値上がり	ねあがり	price increase	名词	最近、ガソリンの値上がりが続いている。	Recently, gasoline prices have been rising.
+n3-1520-ねあけ	値上げ	ねあげ	price increase	名词/动词	もっと値上げしたい。	I want to price increase more.
+n3-1521-ねさけ	値下げ	ねさげ	price decrease	名词/动词	値下げするのに時間がかかる。	It takes time to price decrease.
+n3-1522-にせもの	偽物	にせもの	counterfeit; imitation	名词/形容词	偽物になりたい。	I want to become counterfeit.
+n3-1523-し-ゅうて-ん	充電	じゅうでん	charging (electrically)	名词/动词	充電した結果、うまくいった。	As a result of charginging, it went well.
+n3-1524-にゅうきん	入金	にゅうきん	deposit; payment	名词/动词	できるだけ早く入金してください。	Please deposit as soon as possible.
+n3-1525-まったく	全く	まったく	entirely; completely	副词	全くになりたい。	I want to become entirely.
+n3-1526-ともに	共に	ともに	jointly; at the same time	副词	共に歩いている。	I'm walking jointly.
+n3-1527-ふたたひ	再び	ふたたび	again; a second time	副词	彼女は再び笑った。	She laughed again.
+n3-1528-さいと	再度	さいど	twice; again; second time	名词/副词	再度歩いている。	I'm walking twice.
+n3-1529-れいとうこ	冷凍庫	れいとうこ	freezer	名词	冷凍庫が注目されている。	The freezer is getting attention.
+n3-1530-しょしんしゃ	初心者	しょしんしゃ	beginner	名词	このクラスは初心者向けだから安心してください。	This class is for beginners, so don't worry.
+n3-1531-へ-つに	別に	べつに	not particularly | separately; additionally	副词	彼女は別に笑った。	She laughed not particularly | separately.
+n3-1532-りようしゃ	利用者	りようしゃ	user; consumer	名词	日本の利用者は独特だ。	Japanese user is unique.
+n3-1533-こうかてき	効果的	こうかてき	effective; successful	形容词	とても効果的だと思う。	I think it's very effective.
+n3-1534-さんかしゃ	参加者	さんかしゃ	participant	名词	参加者が注目されている。	The participant is getting attention.
+n3-1535-また	又	また	again; and; also	副词/接续词/前缀	又考えた。	I thought about it again.
+n3-1536-とりあけ-る	取り上げる	とりあげる	to pick up; to adopt; to accept | to confiscate	动词	これを取り上げるましょう。	Let's pick up this.
+n3-1537-うかる	受かる	うかる	to pass (examination)	动词	なかなか受かるない。	It doesn't easily pass.
+n3-1538-かなり	かなり	かなり	considerably; fairly; quite	形容词/副词	かなりな結果になった。	It turned out to be a considerably result.
+n3-1539-た-い	台	だい	stand; rack	名词	台に問題がある。	There is a problem with the stand.
+n3-1540-わか-し	和菓子	わがし	Japanese sweets	名词	お土産に京都の和菓子を買ってきた。	I bought Kyoto's traditional Japanese sweets as souvenirs.
+n3-1541-ちきゅうし-ょう	地球上	ちきゅうじょう	on the earth	形容词	あの場所は地球上だ。	That place is on the earth.
+n3-1542-もとつ-く	基づく	もとづく	to be based on; to originate from	动词	突然基づくた。	It suddenly be based oned.
+n3-1543-ほうこくしょ	報告書	ほうこくしょ	(written) report	名词	報告書が上手になりたい。	I want to become better at report.
+n3-1544-さかい	境	さかい	border; boundary	名词	境のことをもっと知りたい。	I want to learn more about border.
+n3-1545-ゆうへ	ゆうべ	ゆうべ	last night	名词	ゆうべから変わっていない。	It hasn't changed since last night.
+n3-1546-おおこ-え	大声	おおごえ	loud voice	名词/形容词	彼の大声は分かりやすい。	His loud voice is easy to understand.
+n3-1547-たいりょう	大量	たいりょう	large quantity	名词	あの場所は大量だ。	That place is large quantity.
+n3-1548-おおあめ	大雨	おおあめ	heavy rain	名词	大雨の景色がきれいだった。	The scenery of the heavy rain was beautiful.
+n3-1549-か-くひ	学費	がくひ	tuition; school expenses	名词	アルバイトをして学費を自分で稼いでいる。	I'm working part-time to earn my own tuition.
+n3-1550-たからくし	宝くじ	たからくじ	lottery | lottery ticket	名词	宝くじはとても楽しかった。	The lottery | lottery ticket was very enjoyable.
+n3-1551-し-つに	実に	じつに	indeed; really; truly	副词	実に準備した。	I prepared indeed.
+n3-1552-むしろ	むしろ	むしろ	rather; better; instead	副词	むしろ準備した。	I prepared rather.
+n3-1553-せんもんか	専門家	せんもんか	specialist; professional; authority	名词	彼女は専門家に満足している。	She is satisfied with her specialist.
+n3-1554-こむき-こ	小麦粉	こむぎこ	wheat flour	名词	小麦粉に問題がある。	There is a problem with the wheat flour.
+n3-1555-すこしも	少しも	すこしも	not one bit	副词	少しも食べている。	I'm eating not one bit.
+n3-1556-おる	おる	おる	(hum) to be; to exist; keigo version of いる	动词	おるたら、すぐ連絡してください。	If it bes, please contact me immediately.
+n3-1557-くふう	工夫	くふう	scheme; device	名词/动词	新しい工夫を買った。	I bought a new scheme.
+n3-1558-へいし-つ	平日	へいじつ	weekday	名词	平日から変わっていない。	It hasn't changed since weekday.
+n3-1559-へいき	平気	へいき	calmness; composure	名词/形容词	平気なことに気づいた。	I noticed something calmness.
+n3-1560-ねんまつ	年末	ねんまつ	end of the year	名词	年末のことを覚えていますか。	Do you remember end of the year?
+n3-1561-のひ-る	延びる	のびる	to lengthen; to grow; to be extended; to be postponed	动词	突然延びるた。	It suddenly lengthened.
+n3-1562-ひっこし	引っ越し	ひっこし	moving; changing residence	名词/动词	できるだけ早く引っ越ししてください。	Please moving as soon as possible.
+n3-1563-やくた-つ	役立つ	やくだつ	to be useful	动词	役立つたら、すぐ連絡してください。	If it be usefuls, please contact me immediately.
+n3-1564-こうかい	後悔	こうかい	regret; remorse	名词/动词	後悔するつもりだ。	I intend to regret.
+n3-1565-し-ょし-ょ	徐々	じょじょ	gradually; steadily; little by little	副词	徐々食べている。	I'm eating gradually.
+n3-1566-けか	怪我	けが	injury; hurt	名词/动词	怪我するのは大変だ。	It's difficult to injury.
+n3-1567-てにいれる	手に入れる	てにいれる	to obtain; to procure	动词	彼女がそれを手に入れるた。	She obtained it.
+n3-1568-てにもつ	手荷物	てにもつ	hand luggage	名词	手荷物が痛い。	My hand luggage hurts.
+n3-1569-は-つく-ん	抜群	ばつぐん	outstanding; exceptional	形容词	抜群になりたい。	I want to become outstanding.
+n3-1570-たんとうしゃ	担当者	たんとうしゃ	person in charge; person responsible	名词	担当者について話し合った。	We discussed person in charge.
+n3-1571-もちあけ-る	持ち上げる	もちあげる	to raise; to lift up	动词	これを持ち上げるましょう。	Let's raise this.
+n3-1572-けいし-は-ん	掲示板	けいじばん	bulletin board	名词	掲示板に関する本を読んだ。	I read a book about bulletin board.
+n3-1573-けいこ	敬語	けいご	honorific language	名词	敬語が上手になりたい。	I want to become better at honorific language.
+n3-1574-りょうりや	料理屋	りょうりや	restaurant	名词	料理屋のことをもっと知りたい。	I want to learn more about restaurant.
+n3-1575-しんふ	新婦	しんぷ	bride	名词	新婦がウエディングドレス姿で登場して会場が沸いた。	The bride appeared in her wedding dress and the venue erupted in excitement.
+n3-1576-しんろう	新郎	しんろう	bridegroom	名词	新郎について話し合った。	We discussed bridegroom.
+n3-1577-すて-に	既に	すでに	already	副词	彼女は既に笑った。	She laughed already.
+n3-1578-ひこ-ろ	日ごろ	ひごろ	normally; habitually	名词/副词	日ごろ歩いている。	I'm walking normally.
+n3-1579-きゅう	旧～	きゅう～	ex-; former-; old-	前缀	旧～から変わっていない。	It hasn't changed since ex-.
+n3-1580-のほ-る	昇る	のぼる	to ascend; to climb	动词	突然昇るた。	It suddenly ascended.
+n3-1581-ほしうらない	星占い	ほしうらない	astrology; horoscope	名词	星占いについて話し合った。	We discussed astrology.
+n3-1582-さくねん	昨年	さくねん	last year	名词	昨年のことを覚えていますか。	Do you remember last year?
+n3-1583-さくは-ん	昨晩	さくばん	last night	名词	昨晩から変わっていない。	It hasn't changed since last night.
+n3-1584-ひるすき	昼過ぎ	ひるすぎ	a little past noon	名词	昼過ぎから変わっていない。	It hasn't changed since a little past noon.
+n3-1585-し-きゅう	時給	じきゅう	hourly wage	名词	時給のことを覚えていますか。	Do you remember hourly wage?
+n3-1586-ようひ	曜日	ようび	day of the week	名词	曜日のことを覚えていますか。	Do you remember day of the week?
+n3-1587-かえる	替える	かえる	to replace; to exchange; to substitute	动词	何を替えるばいいかわからない。	I don't know what to replace.
+n3-1588-さいちゅう	～最中	～さいちゅう	in the middle of ～	名词/副词	～最中考えた。	I thought about it in the middle of ～.
+n3-1589-け-つよう	月曜	げつよう	Monday	名词	月曜の意味を説明した。	I explained the meaning of monday.
+n3-1590-かよう	火曜	かよう	Tuesday	名词	火曜が注目されている。	The tuesday is getting attention.
+n3-1591-すいよう	水曜	すいよう	Wednesday	名词	水曜について話し合った。	We discussed wednesday.
+n3-1592-もくよう	木曜	もくよう	Thursday	名词	木曜の夜にドラマを楽しみに観ている。	I look forward to watching a drama on Thursday nights.
+n3-1593-きんよう	金曜	きんよう	Friday	名词	金曜が大切だと思う。	I think friday is important.
+n3-1594-と-よう	土曜	どよう	Saturday	名词	この土曜は珍しい。	This saturday is rare.
+n3-1595-にちよう	日曜	にちよう	Sunday	名词	日曜が好きでよく散歩する。	I like sunday and often go for walks.
+n3-1596-あさねほ-う	朝寝坊	あさねぼう	oversleeping	名词/动词	朝寝坊した結果、うまくいった。	As a result of oversleepinging, it went well.
+n3-1597-ちょうしょく	朝食	ちょうしょく	breakfast	名词	朝食が注目されている。	The breakfast is getting attention.
+n3-1598-ほんき	本気	ほんき	seriousness; earnestness	名词/形容词	本気な人が好きだ。	I like seriousness people.
+n3-1599-かっこう	格好	かっこう	shape; form; posture	名词	格好が必要です。	Shape is necessary.
+n3-1600-し-かい	次回	じかい	next time	名词/副词	次回考えた。	I thought about it next time.
+n3-1601-した-い	～次第	～しだい	depending on ～; as soon as ～	接尾词	～次第を大切にしている。	I value depending on ～.
+n3-1602-さ-んき-ょう	残業	ざんぎょう	overtime (work)	名词/动词	残業した結果、うまくいった。	As a result of overtimeing, it went well.
+n3-1603-けむし	毛虫	けむし	hairy caterpillar	名词	毛虫を動かしてください。	Please move your hairy caterpillar.
+n3-1604-ちゅう	注	ちゅう	annotation; explanatory note	名词/动词	注した結果、うまくいった。	As a result of annotationing, it went well.
+n3-1605-つなみ	津波	つなみ	tidal wave	名词	津波警報が出たのですぐに高台へ逃げた。	A tsunami warning was issued, so we immediately fled to higher ground.
+n3-1606-ゆかた	浴衣	ゆかた	yukata (Japanese bathrobe)	名词	浴衣について話し合った。	We discussed yukata.
+n3-1607-まんかい	満開	まんかい	full bloom	名词/动词	毎日満開している。	I full bloom every day.
+n3-1608-とける	溶ける	とける	to melt; to thaw	动词	なかなか溶けるない。	It doesn't easily melt.
+n3-1609-めったに	めったに	めったに	rarely; seldom	副词	めったに歩いている。	I'm walking rarely.
+n3-1610-まんか-か	漫画家	まんがか	cartoonist; manga artist	名词	漫画家に興味がある。	I'm interested in cartoonist.
+n3-1611-ねっちゅう	熱中	ねっちゅう	enthusiasm; mania	名词/动词	熱中するつもりだ。	I intend to enthusiasm.
+n3-1612-かたて	片手	かたて	one hand	名词/形容词	片手が痛い。	My one hand hurts.
+n3-1613-ひとり	独り	ひとり	one person; alone; solitary	名词	独りとの関係がいい。	I have a good relationship with my one person.
+n3-1614-たま	玉	たま	sphere; globe; egg	名词	玉のことをもっと知りたい。	I want to learn more about sphere.
+n3-1615-おう	王	おう	king; monarch	名词	王について話し合った。	We discussed king.
+n3-1616-おうさま	王様	おうさま	king	名词	日本の王様は独特だ。	Japanese king is unique.
+n3-1617-あらわす	現す	あらわす	to represent; to stand for; to show; to display	动词	上手に現すことができる。	I can represent well.
+n3-1618-りろん	理論	りろん	theory	名词	理論のことをもっと知りたい。	I want to learn more about theory.
+n3-1619-きし	生地	きじ	cloth; fabric; material	名词	生地が必要です。	Cloth is necessary.
+n3-1620-た	田	た	rice field	名词	田を食べたことがありますか。	Have you ever eaten rice field?
+n3-1621-おとこのひと	男の人	おとこのひと	man	名词	駅で男の人に道を聞かれた。	A man asked me for directions at the station.
+n3-1622-か-そ-う	画像	がぞう	image; picture	名词	画像の意味を説明した。	I explained the meaning of image.
+n3-1623-りゃく	略	りゃく	abbreviation; omission	名词	略に関する本を読んだ。	I read a book about abbreviation.
+n3-1624-めか-さめる	目が覚める	めがさめる	to awaken	动词	突然目が覚めるた。	It suddenly awakened.
+n3-1625-めのまえ	目の前	めのまえ	before one's eyes	名词	目の前が痛い。	My before one's eyes hurts.
+n3-1626-めさ-す	目指す	めざす	to aim for; to shoot for	动词	上手に目指すことができる。	I can aim for well.
+n3-1627-めく-すり	目薬	めぐすり	eye drops	名词	目薬を動かしてください。	Please move your eye drops.
+n3-1628-めさ-ましと-けい	目覚まし時計	めざましどけい	alarm clock	名词	目覚まし時計が大切だと思う。	I think alarm clock is important.
+n3-1629-まっすく	真っ直ぐ	まっすぐ	straight ahead; direct; straight forward; honest	名词/副词	あの場所は真っ直ぐだ。	That place is straight ahead.
+n3-1630-まっか	真っ赤	まっか	bright red; deep red	名词/形容词	真っ赤な結果になった。	It turned out to be a bright red result.
+n3-1631-まふゆ	真冬	まふゆ	midwinter	名词	真冬が必要です。	Midwinter is necessary.
+n3-1632-まなつ	真夏	まなつ	midsummer	名词	真夏に問題がある。	There is a problem with the midsummer.
+n3-1633-まさか	まさか	まさか	(uk) by no means; never!; something unexpected	词汇	まさかが注目されている。	The by no means is getting attention.
+n3-1634-しりあい	知り合い	しりあい	acquaintance	名词	知り合いに関する本を読んだ。	I read a book about acquaintance.
+n3-1635-しゃかいし-ん	社会人	しゃかいじん	working adult	名词	社会人が忙しい。	The working adult is busy.
+n3-1636-ほと	程（ほど）	ほど	degree; extent	名词/副词	程（ほど）考えた。	I thought about it degree.
+n3-1637-やや	やや	やや	a little; partially; slightly	副词	やや歩いている。	I'm walking a little.
+n3-1638-きょうそう	競走	きょうそう	race	名词/动词	彼女は競走するのが上手だ。	She is good at raceing.
+n3-1639-あらい	粗い	あらい	coarse; rough	形容词	思ったより粗い。	It's more coarse than I expected.
+n3-1640-なっとう	納豆	なっとう	natto (fermented soybeans)	名词	朝ごはんに納豆とご飯を食べるのが好きだ。	I like eating natto and rice for breakfast.
+n3-1641-すてき	素敵	すてき	fantastic; superb	形容词	素敵な結果になった。	It turned out to be a fantastic result.
+n3-1642-けいけんしゃ	経験者	けいけんしゃ	experienced person	名词	経験者を大切にしている。	I value experienced person.
+n3-1643-ひ-よういん	美容院	びよういん	beauty salon	名词	美容院で髪を短く切ってもらった。	I had my hair cut short at the beauty salon.
+n3-1644-よくし-つ	翌日	よくじつ	next day	名词	翌日から変わっていない。	It hasn't changed since next day.
+n3-1645-はんは-いき	販売機	はんばいき	vending machine	名词	販売機の使い方がわからない。	I don't know how to use the vending machine.
+n3-1646-し-と-うはんは-いき	自動販売機	じどうはんばいき	vending machine	名词	自動販売機が壊れてしまった。	The vending machine broke.
+n3-1647-はなひ	花火	はなび	fireworks	名词	花火に応募した。	I applied for the fireworks.
+n3-1648-け-いのうし-ん	芸能人	げいのうじん	entertainer; celebrity	名词	芸能人が必要です。	Entertainer is necessary.
+n3-1649-いらいら	いらいら	いらいら	getting nervous; being irritated	名词/动词/副词	もっといらいらしたい。	I want to getting nervous more.
+n3-1650-やっきょく	薬局	やっきょく	pharmacy	名词	薬局のことをもっと知りたい。	I want to learn more about pharmacy.
+n3-1651-か	蚊	か	mosquito	名词	夏は蚊が多くて困る。	Mosquitoes are a nuisance in summer.
+n3-1652-まち	街	まち	city; town	名词	街の意味を説明した。	I explained the meaning of city.
+n3-1653-しょうとつ	衝突	しょうとつ	collision; crash | conflict	名词/动词	衝突しなければならない。	I have to collision.
+n3-1654-あらわれる	表れる	あらわれる	to appear; to become visible; to be expressed	动词	突然表れるた。	It suddenly appeared.
+n3-1655-ようするに	要するに	ようするに	in a word; the point is; to put it simply	表达	要するにということを学んだ。	I learned that in a word.
+n3-1656-したしむ	親しむ	したしむ	to be close with; to befriend	动词	親しむないように気をつけている。	I'm careful not to be close with.
+n3-1657-かんこうきゃく	観光客	かんこうきゃく	tourist	名词	観光客はとても楽しかった。	The tourist was very enjoyable.
+n3-1658-やくす	訳す	やくす	to translate	动词	早く訳すてください。	Please translate it quickly.
+n3-1659-はなしかける	話しかける	はなしかける	to start a conversation	动词	これを話しかけるましょう。	Let's start a conversation this.
+n3-1660-はなしあい	話し合い	はなしあい	discussion	名词/动词	話し合いする必要がある。	It's necessary to discussion.
+n3-1661-せつめいしょ	説明書	せつめいしょ	instructions; manual	名词	家具を組み立てる前に説明書をよく読んだ。	I carefully read the instructions before assembling the furniture.
+n3-1662-か	～課	～か	counter for chapters in a book	词汇	～課を楽しんだ。	I enjoyed the counter for chapters in a book.
+n3-1663-とうふ	豆腐	とうふ	tofu; bean curd; beancurd	名词	豆腐について話し合った。	We discussed tofu.
+n3-1664-おきあか-る	起き上がる	おきあがる	to rise; to get up	动词	起き上がるないように気をつけている。	I'm careful not to rise.
+n3-1665-こえる	超える	こえる	to exceed	动词	上手に超えることができる。	I can exceed well.
+n3-1666-しんたい	身体	しんたい	body; person	名词	彼女は身体が大きい。	She has big body.
+n3-1667-ちかつ-く	近づく	ちかづく	to approach; to draw near	动词	突然近づくた。	It suddenly approached.
+n3-1668-へんきゃく	返却	へんきゃく	return; repayment	名词/动词	返却するのに時間がかかる。	It takes time to return.
+n3-1669-まよう	迷う	まよう	to be lose one's way; to be puzzled	动词	だんだん迷うてきた。	It gradually started to be lose one's way.
+n3-1670-そうしん	送信	そうしん	transmission; sending	名词/动词	先生に送信してもらった。	I had the teacher transmission for me.
+n3-1671-とたん	～途端	～とたん	just as; at the moment of	副词	彼女は～途端笑った。	She laughed just as.
+n3-1672-つうしんはんは-い	通信販売	つうしんはんばい	mail order	名词/形容词	とても通信販売だと思う。	I think it's very mail order.
+n3-1673-しゅうまつ	週末	しゅうまつ	weekend	名词/副词	彼女は週末笑った。	She laughed weekend.
+n3-1674-ちか-いない	違いない	ちがいない	sure; for certain; no mistaking it	表达	友達に「違いない」と言われた。	My friend said "sure" to me.
+n3-1675-まちか-いない	間違いない	まちがいない	sure; for certain; no mistaking it	表达	友達に「間違いない」と言われた。	My friend said "sure" to me.
+n3-1676-はいそう	配送	はいそう	delivery	名词/动词	彼女は配送するのが上手だ。	She is good at deliverying.
+n3-1677-し-ゅうしょう	重傷	じゅうしょう	serious wound; serious injury	名词	重傷が心配です。	I'm worried about serious wound.
+n3-1678-まちか-う	間違う	まちがう	to make a mistake; to be mistaken	动词	間違うないように気をつけている。	I'm careful not to make a mistake.
+n3-1679-かけ	陰	かげ	shade; shadow	名词	陰が注目されている。	The shade is getting attention.
+n3-1680-おんか-くか	音楽家	おんがくか	musician	名词	音楽家に興味がある。	I'm interested in musician.
+n3-1681-ころ-こ-ろ	頃	ころ、ごろ	approximate time; around; about	名词/副词/接尾词	頃食べている。	I'm eating approximate time.
+n3-1682-とひ-た-す	飛び出す	とびだす	to jump out; to rush out	动词	だんだん飛び出すてきた。	It gradually started to jump out.
+n3-1683-しょくちゅうと-く	食中毒	しょくちゅうどく	food poisoning	名词	母が食中毒を作ってくれた。	My mother made food poisoning for me.
+n3-1684-なきこ-え	鳴き声	なきごえ	animal cry; roar; chirp; tweet	名词/动词	鳴き声したほうがいい。	You should animal cry.
+n3-1685-いたす-ら	いたずら	いたずら	prank; trick; fooling around with	名词/动词/形容词	いたずらするのに時間がかかる。	It takes time to prank.
+n3-1686-おしゃへ-り	おしゃべり	おしゃべり	chattering; chitchat; gossip	名词/动词	もっとおしゃべりしたい。	I want to chattering more.
+n3-1687-あいにく	あいにく	あいにく	unfortunately; Sorry, but	名词/形容词/副词	あいにくなことに気づいた。	I noticed something unfortunately.
+n3-1688-くしゃみ	くしゃみ	くしゃみ	sneeze	名词	くしゃみについて話し合った。	We discussed sneeze.
+n3-1689-せき	せき	せき	cough	名词	せきの治療を受けている。	I'm receiving treatment for cough.
+n3-1690-あくひ	あくび	あくび	yawn	名词	あくびの意味を説明した。	I explained the meaning of yawn.
+n3-1691-あちこち	あちこち	あちこち	here and there; all around	副词	あちこち準備した。	I prepared here and there.
+n3-1692-あらゆる	あらゆる	あらゆる	all; every	词汇	日本のあらゆるは独特だ。	Japanese all is unique.
+n3-1693-あるいは	あるいは	あるいは	or; possibly	接续词/表达	電車、あるいはバスで行くことができる。	You can go by train or by bus.
+n3-1694-あんまり	あんまり	あんまり	not very; not much | surplus; excess	副词	彼女はあんまり笑った。	She laughed not very.
+n3-1695-いす-れ	いずれ	いずれ	anyway; anyhow | at some future date or time	副词	いずれな結果になった。	It turned out to be a anyway result.
+n3-1696-いたた-きます	頂きます	いただきます	expression of gratitude before meals	表达	日本では頂きますと言う。	In Japan, they say expression of gratitude before meals.
+n3-1697-いちこ	いちご	いちご	strawberry	名词	いちごが大切だと思う。	I think strawberry is important.
+n3-1698-いつて-も	いつでも	いつでも	any time; whenever	副词	彼女はいつでも笑った。	She laughed any time.
+n3-1699-いつまて-も	いつまでも	いつまでも	forever; as long as one likes; indefinitely	副词	いつまでも歩いている。	I'm walking forever.
+n3-1700-いわゆる	いわゆる	いわゆる	the so-called	词汇	いわゆるについて話し合った。	We discussed the so-called.
+n3-1701-うか-い	うがい	うがい	(uk) gargling; rinsing one's mouth	名词/动词	うがいするのに時間がかかる。	It takes time to gargling.
+n3-1702-うと-ん	うどん	うどん	udon; thick Japanese noodles	名词	うどんに問題がある。	There is a problem with the udon.
+n3-1703-うなき	うなぎ	うなぎ	eel	名词	うなぎが必要です。	Eel is necessary.
+n3-1704-おそらく	おそらく	おそらく	perhaps; likely; probably	副词	おそらく食べている。	I'm eating perhaps.
+n3-1705-おめて-とうこ-さ-います	おめでとうござい ます	おめでとうございます	congratulations!	表达	おめでとうござい	I learned that congratulations!.
+n3-1706-おめて-とう	おめでとう	おめでとう	congratulations!	表达	おめでとうということを学んだ。	I learned that congratulations!.
+n3-1707-およそ	およそ	およそ	about; roughly; approximately	副词	およそ話してください。	Please speak about.
+n3-1708-かゆい	かゆい	かゆい	itchy	形容词	今日はかゆくてたまらない。	Today is unbearably itchy.
+n3-1709-かわいそう	かわいそう	かわいそう	pathetic; pitiful	形容词	かわいそうな人が好きだ。	I like pathetic people.
+n3-1710-こしょう	こしょう	こしょう	pepper	名词	こしょうが注目されている。	The pepper is getting attention.
+n3-1711-これら	これら	これら	these	名词	これらが注目されている。	The these is getting attention.
+n3-1712-さて	さて	さて	well now; then	接续词	さて、そろそろ出かけましょうか。	Well then, shall we head out soon?
+n3-1713-さらに	さらに	さらに	furthermore; moreover	副词/接续词	さらに食べている。	I'm eating furthermore.
+n3-1714-しかも	しかも	しかも	furthermore | nevertheless; and yet	接续词	しかもが必要です。	Furthermore | nevertheless is necessary.
+n3-1715-しきりに	しきりに	しきりに	frequently; repeatedly	副词	しきりに食べている。	I'm eating frequently.
+n3-1716-したか-って	したがって	したがって	therefore; consequently	接续词	彼は遅刻が多い。したがって、評価は低い。	He is often late. Therefore, his evaluation is low.
+n3-1717-しっほ	しっぽ	しっぽ	tail	名词	このしっぽは珍しい。	This tail is rare.
+n3-1718-しは-しは	しばしば	しばしば	often; repeatedly	副词	しばしば考えた。	I thought about it often.
+n3-1719-しまった	しまった	しまった	damn it!; oops!	词汇	しまったについて話し合った。	We discussed damn it!.
+n3-1720-しゃへ-る	しゃべる	しゃべる	to talk; to chat	动词	突然しゃべるた。	It suddenly talked.
+n3-1721-しわ	しわ	しわ	wrinkle	名词	しわを大切にしている。	I value wrinkle.
+n3-1722-すなわち	すなわち	すなわち	that is; i.e.	接续词	日本のすなわちは独特だ。	Japanese that is is unique.
+n3-1723-すみません	すみません	すみません	excuse me; I'm sorry	表达	すみませんということを学んだ。	I learned that excuse me.
+n3-1724-そこて	そこで	そこで	so; accordingly	接续词	そこでが必要です。	So is necessary.
+n3-1725-そのうち	そのうち	そのうち	eventually; sooner or later	副词	そのうち準備した。	I prepared eventually.
+n3-1726-そのまま	そのまま	そのまま	as it is (was)	副词	とてもそのままだと思う。	I think it's very as it is.
+n3-1727-そは	そば	そば	beside; near	名词	お母さんのそばにいると安心する。	I feel at ease when I'm near my mother.
+n3-1728-それそ-れ	それぞれ	それぞれ	each; respectively	副词	それぞれな結果になった。	It turned out to be a each result.
+n3-1729-それて-も	それでも	それでも	but (still); even so	接续词	雨が降っていた。それでも彼は走り続けた。	It was raining. Even so, he kept running.
+n3-1730-それとも	それとも	それとも	or; or else	接续词	それともが大切だと思う。	I think or is important.
+n3-1731-たとえ	たとえ	たとえ	even if; no matter	副词	たとえ歩いている。	I'm walking even if.
+n3-1732-たひ-たひ	たびたび	たびたび	often; again and again	副词	彼女はたびたび笑った。	She laughed often.
+n3-1733-たまらない	たまらない	たまらない	unbearable | irresistible	形容词	あまりたまらなくない。	It's not very unbearable | irresistible.
+n3-1734-た-いたい	だいたい	だいたい	generally; approximately	名词/副词	だいたい食べている。	I'm eating generally.
+n3-1735-ちょうた-い	ちょうだい	ちょうだい	(hum) to receive; (hum) to eat; to drink	名词/动词	このちょうだいはとてもおいしい。	This receive is very delicious.
+n3-1736-つまり	つまり	つまり	that is; in other words	副词	つまり話してください。	Please speak that is.
+n3-1737-つらい	つらい	つらい	painful; heart-breaking	形容词	あまりつらくない。	It's not very painful.
+n3-1738-ところか	ところが	ところが	despite; however	接续词	天気予報は晴れだった。ところが実際は雨だった。	The weather forecast said clear skies. However, it actually rained.
+n3-1739-ところて	ところで	ところで	by the way	接续词	ところでが注目されている。	The by the way is getting attention.
+n3-1740-とにかく	とにかく	とにかく	anyhow; at any rate	副词	とにかく食べている。	I'm eating anyhow.
+n3-1741-と-うしても	どうしても	どうしても	at any cost; no matter what	副词	どうしても歩いている。	I'm walking at any cost.
+n3-1742-と-こか	どこか	どこか	somewhere; anywhere	名词	どこかが注目されている。	The somewhere is getting attention.
+n3-1743-なお	なお	なお	furthermore; still	接续词	なおのことをもっと知りたい。	I want to learn more about furthermore.
+n3-1744-なせ-なら	なぜなら	なぜなら	because; the reason is	接续词	なぜならを大切にしている。	I value because.
+n3-1745-にんし-ん	にんじん	にんじん	carrot	名词	にんじんで通勤している。	I commute by carrot.
+n3-1746-はさみ	はさみ	はさみ	scissors	名词	はさみで紙を丸く切った。	I cut the paper into a circle with scissors.
+n3-1747-はちみつ	はちみつ	はちみつ	honey	名词	はちみつが注目されている。	The honey is getting attention.
+n3-1748-ひひ	ひび	ひび	crack; rift	名词/形容词	ひびな結果になった。	It turned out to be a crack result.
+n3-1749-ふた	蓋	ふた	cover; lid	名词	蓋に問題がある。	There is a problem with the cover.
+n3-1750-ふと	ふと	ふと	suddenly; casually; accidentally	副词	ふと歩いている。	I'm walking suddenly.
+n3-1751-ほほ	ほぼ	ほぼ	almost; approximately	副词	ほぼ考えた。	I thought about it almost.
+n3-1752-まさに	まさに	まさに	exactly; certainly | right then; just then	副词	彼女はまさに笑った。	She laughed exactly.
+n3-1753-ますます	ますます	ますます	increasingly; more and more	副词	ますます考えた。	I thought about it increasingly.
+n3-1754-まるて	まるで	まるで	entirely; completely	副词	まるで歩いている。	I'm walking entirely.
+n3-1755-もしも	もしも	もしも	if	副词	もしも話してください。	Please speak if.
+n3-1756-やか-て	やがて	やがて	before long; soon | finally; in the end	副词	やがて歩いている。	I'm walking before long.
+n3-1757-によると	～によると	～によると	according to ～	表达	日本では～によるとと言う。	In Japan, they say according to ～.
+n3-1758-わか-まま	わがまま	わがまま	selfishness	名词/形容词	わがままな人が好きだ。	I like selfishness people.
+n3-1759-わさ-と	わざと	わざと	on purpose	副词	わざと話してください。	Please speak on purpose.
+n3-1760-わさ-わさ	わざわざ	わざわざ	specially; especially; intentionally	副词	わざわざ準備した。	I prepared specially.
+n3-1761-あこか-れる	あこがれる	あこがれる	to long for	动词	あこがれるたら、すぐ連絡してください。	If it long fors, please contact me immediately.
+n3-1762-あせる	あせる	あせる	to be in a hurry; to be flustered	动词	だんだんあせるてきた。	It gradually started to be in a hurry.
+n3-1763-あてさき	宛先	あてさき	destination; addressee	名词	宛先の予約をした。	I made a reservation for destination.
+n3-1764-いっせいに	いっせいに	いっせいに	simultaneously; all at once	副词	彼女はいっせいに笑った。	She laughed simultaneously.
+n3-1765-うなる	うなる	うなる	to groan; to moan	动词	うなるないように気をつけている。	I'm careful not to groan.
+n3-1766-えひ	エビ	えび	shrimp	名词	エビが大切だと思う。	I think shrimp is important.
+n3-1767-おし	おじ	おじ	uncle	名词	おじが必要です。	Uncle is necessary.
+n3-1768-おは	おば	おば	aunty	名词	おばに関する本を読んだ。	I read a book about aunty.
+n3-1769-おまえ	おまえ	おまえ	you (familiar person)	形容词/代词	おまえな結果になった。	It turned out to be a you result.
+n3-1770-おわひ	お詫び	おわび	apology	名词/动词	お詫びしたほうがいい。	You should apology.
+n3-1771-かわいらしい	かわいらしい	かわいらしい	lovely; sweet	形容词	かわいらしくなってきた。	It has become lovely.
+n3-1772-くやしい	くやしい	くやしい	frustrating; regrettable	形容词	くやしければ、教えてください。	If it's frustrating, please let me know.
+n3-1773-しかたない	しかたない	しかたない	it can't be helped	表达	しかたないということを学んだ。	I learned that it can't be helped.
+n3-1774-せき	席（せき）	せき	seat	名词	席（せき）を見に行った。	I went to see the seat.
+n3-1775-つふ-す	潰す	つぶす	to smash; to crush	动词	何を潰すばいいかわからない。	I don't know what to smash.
+n3-1776-なにも	何も	なにも	nothing (with neg. verbs)	名词	何もの意味を説明した。	I explained the meaning of nothing.
+n3-1777-はち	蜂	はち	bee	名词	日本の蜂は独特だ。	Japanese bee is unique.
+n3-1778-すす-めは-ち	スズメバチ	すずめばち	wasp	名词	スズメバチに関する本を読んだ。	I read a book about wasp.
+n3-1779-あんなに	あんなに	あんなに	to that extent	副词	彼女はあんなに笑った。	She laughed that extent.
+n3-1780-いやな	嫌な	いやな	unpleasant	形容词	とても嫌なだと思う。	I think it's very unpleasant.
+n3-1781-うそをつく	嘘をつく	うそをつく	to (tell a) lie	动词	嘘をつくないように気をつけている。	I'm careful not to lie.
+n3-1782-おひる	お昼	おひる	lunch; noon break	名词	お昼を大切にしている。	I value lunch.
+n3-1783-おすもうさん	お相撲さん	おすもうさん	sumowrestler	名词	お相撲さんの意味を説明した。	I explained the meaning of sumowrestler.
+n3-1784-おいのり	お祈り	おいのり	a wish	名词/动词	お祈りした結果、うまくいった。	As a result of a wishing, it went well.
+n3-1785-おちゃかい	お茶会	おちゃかい	tea party	名词	お茶会を食べたことがありますか。	Have you ever eaten tea party?
+n3-1786-かっこいい	かっこいい	かっこいい	cool; looking good	形容词	とてもかっこいそうだ。	It looks very cool.
+n3-1787-く-つく-つ	ぐつぐつ	ぐつぐつ	simmering	名词/动词	ぐつぐつした結果、うまくいった。	As a result of simmeringing, it went well.
+n3-1788-けち	ケチ	けち	stingy; miser	形容词	ケチな人が好きだ。	I like stingy people.
+n3-1789-このあたり	この辺り	このあたり	this area; around here	名词	この辺りが注目されている。	The this area is getting attention.
+n3-1790-合格者	合格者	合格者	person who passed	名词	この合格者は珍しい。	This person who passed is rare.
+n3-1791-こ-めんなさい	ごめんなさい	ごめんなさい	I'm sorry; excuse me	表达	友達に「ごめんなさい」と言われた。	My friend said "i'm sorry" to me.
+n3-1792-しょうか-ない	しょうがない	しょうがない	it can't be helped	表达	しょうがないということを学んだ。	I learned that it can't be helped.
+n3-1793-し-っと	じっと	じっと	intently; stoically; quietly	动词/副词	彼女はじっと笑った。	She laughed intently.
+n3-1794-て-きれは	できれば	できれば	if at all possible	副词	彼女はできれば笑った。	She laughed if at all possible.
+n3-1795-にゅうかい	入会	にゅうかい	becoming a member; joining a group	名词/动词	先生に入会してもらった。	I had the teacher becoming a member for me.
+n3-1796-のと-か-かわく	喉が乾く	のどがかわく	to be thirsty	动词/表达	なかなか喉が乾くない。	It doesn't easily be thirsty.
+n3-1797-はらか-たつ	腹が立つ	はらがたつ	to be angry	动词/表达	だんだん腹が立つてきた。	It gradually started to be angry.
+n3-1798-は-らは-ら	ばらばら	ばらばら	unorganized; disarrayed	副词	彼女はばらばら笑った。	She laughed unorganized.
+n3-1799-ほんし-つ	本日	ほんじつ	today	名词	本日から変わっていない。	It hasn't changed since today.
+n3-1800-やるきか-て-る	やる気が出る	やるきがでる	to become motivated	动词	だんだんやる気が出るてきた。	It gradually started to become motivated.
+n3-1801-ゆっくり	ゆっくり	ゆっくり	slowly; at easy	动词/副词	ゆっくり考えた。	I thought about it slowly.
+n3-1802-よやくせい	予約制	よやくせい	by reservation	形容词	予約制なことに気づいた。	I noticed something by reservation.
+n3-1803-わか	我が～	わが～	our ～	名词	我が～について話し合った。	We discussed our ～.
+n3-1804-インターンシッフ	インターンシップ	インターンシップ	internship	名词	インターンシップに問題がある。	There is a problem with the internship.
+n3-1805-ウイルスソフト	ウイルスソフト	ウイルスソフト	anti-virus software	名词	ウイルスソフトが必要です。	Anti-virus software is necessary.
+n3-1806-カヒ	カビ	カビ	mold	名词	カビが大切だと思う。	I think mold is important.
+n3-1807-カ-ーテ-ニンク	ガーデニング	ガーデニング	gardening	名词/动词	ガーデニングする必要がある。	It's necessary to gardening.
+n3-1808-キュウリ	キュウリ	キュウリ	cucumber	名词	キュウリについて話し合った。	We discussed cucumber.
+n3-1809-クーホ-ンけん	クーポン券	クーポンけん	coupon	名词	日本のクーポン券は独特だ。	Japanese coupon is unique.
+n3-1810-ク-ルーフ-テ-ィスカッシ-ョン	グループディスカ ッション	グループディスカッシ ョン	group discussion	名词	彼のグループディスカ	His group discussion is easy to understand.
+n3-1811-コールをきめる	ゴールを決める	コールをきめる	to score a goal	动词	だんだんゴールを決めるてきた。	It gradually started to score a goal.
+n3-1812-サフ-リ	サプリ	サプリ	supplement (drug, medicine)	名词	サプリの治療を受けている。	I'm receiving treatment for supplement.
+n3-1813-サフ-リメント	サプリメント	サプリメント	supplement (drug, medicine)	名词	サプリメントが心配です。	I'm worried about supplement.
+n3-1814-サホ-ート	サポート	サポート	support	名词/动词	もっとサポートしたい。	I want to support more.
+n3-1815-ショッヒ-ンク	ショッピング	ショッピング	shopping	名词/动词	ショッピングした結果、うまくいった。	As a result of shoppinging, it went well.
+n3-1816-ストレスか-たまる	ストレスがたまる	ストレスがたまる	to build up stress	动词	突然ストレスがたまるた。	It suddenly build up stressed.
+n3-1817-スホ-ーツクラフ	スポーツクラブ	スポーツクラブ	sports club; sports gym	名词	スポーツクラブに興味がある。	I'm interested in sports club.
+n3-1818-スホ-ーツせんしゅ	スポーツ選手	スポーツせんしゅ	athlete	名词	このスポーツ選手は珍しい。	This athlete is rare.
+n3-1819-テ-シ-カメ	デジカメ	デジカメ	digital camera	名词	デジカメが壊れてしまった。	The digital camera broke.
+n3-1820-なす	なす	なす	eggplant	名词	なすが必要です。	Eggplant is necessary.
+n3-1821-ネットショッヒ-ンク	ネットショッピン グ	ネットショッピング	online shopping	名词/动词	ネットショッピン	As a result of online shoppinging, it went well.
+n3-1822-ネット	ネット	ネット	internet; (physical) net	名词	ネットの使い方がわからない。	I don't know how to use the internet.
+n3-1823-はと	はと	はと	pigeon	名词	はとが必要です。	Pigeon is necessary.
+n3-1824-ハ-ーヘ-キュー	バーベキュー	バーベキュー	barbeque	名词	バーベキューのことをもっと知りたい。	I want to learn more about barbeque.
+n3-1825-ハ-リ	パリ	パリ	Paris	名词	パリの意味を説明した。	I explained the meaning of paris.
+n3-1826-ヒ-ニールふ-くろ	ビニール袋	ビニールぶくろ	plastic bag	名词	スーパーでビニール袋が有料になった。	Plastic bags became paid at the supermarket.
+n3-1827-フィンラント	フィンランド	フィンランド	Finland	名词	フィンランドに問題がある。	There is a problem with the finland.
+n3-1828-フ-レセ-ン	プレゼン	プレゼン	presentation	名词/动词	プレゼンするのは大変だ。	It's difficult to presentation.
+n3-1829-ヨーロッハ	ヨーロッパ	ヨーロッパ	Europe	名词	ヨーロッパが注目されている。	The europe is getting attention.
+n3-1830-ランチ	ランチ	ランチ	lunch	名词	ランチが必要です。	Lunch is necessary.
+n3-1831-レシヒ	レシピ	レシピ	recipe	名词	母がレシピを作ってくれた。	My mother made recipe for me.
+n3-1832-ワイワイ	ワイワイ	ワイワイ	boisterously; lively	动词/副词	ワイワイ食べている。	I'm eating boisterously.
+n3-1833-ワンルーム	ワンルーム	ワンルーム	one-room (apartment)	名词/形容词	ワンルームなことに気づいた。	I noticed something one-room.
+n3-1834-し-ょうき	上記	じょうき	the above (text)	名词/形容词	あの場所は上記だ。	That place is the above.
+n3-1835-かき	下記	かき	the below (text)	名词/形容词	下記な結果になった。	It turned out to be a the below result.
+n3-1836-ふへ-んをかける	不便をかける	ふべんをかける	to cause inconvenience	动词	だんだん不便をかけるてきた。	It gradually started to cause inconvenience.
+n3-1837-こうつうあんせ-ん	交通安全	こうつうあんぜん	traffic safety	名词	日本の交通安全は独特だ。	Japanese traffic safety is unique.
+n3-1838-ひとこ-み	人混み	ひとごみ	a crowd of people	名词	この人混みは珍しい。	This a crowd of people is rare.
+n3-1839-つきあい	付き合い	つきあい	association; socializing	名词	会社の付き合いで飲み会に参加しなければならない。	I have to attend a drinking party as part of work socializing.
+n3-1840-なかいい	仲良い	なかいい	be friendly with	形容词	とても仲良そうだ。	It looks very be friendly with.
+n3-1841-なかか-いい	仲が良い	なかがいい	be friendly with	形容词	思ったより仲が良い。	It's more be friendly with than I expected.
+n3-1842-からた-をこわす	体を壊す	からだをこわす	to hurt one's health	表达	日本では体を壊すと言う。	In Japan, they say hurt one's health.
+n3-1843-ほけんしょう	保険証	ほけんしょう	insurance card	名词	保険証で通勤している。	I commute by insurance card.
+n3-1844-しんらいかんけい	信頼関係	しんらいかんけい	trusting relationship	名词	信頼関係との関係がいい。	I have a good relationship with my trusting relationship.
+n3-1845-にゅうかいきん	入会金	にゅうかいきん	initial membership fee	名词	入会金に問題がある。	There is a problem with the initial membership fee.
+n3-1846-しゃしんか	写真家	しゃしんか	photographer	名词	写真家を大切にしている。	I value photographer.
+n3-1847-しゅっせきりつ	出席率	しゅっせきりつ	attendance rate	名词	出席率が低いと、試験を受けることができない。	If your attendance rate is low, you won't be allowed to take the exam.
+n3-1848-ちからをあわせる	力を合わせる	ちからをあわせる	to combine efforts	动词	力を合わせるたら、すぐ連絡してください。	If it combine effortss, please contact me immediately.
+n3-1849-りつ	～率	～りつ	～ rate; portion of ～	名词	この地域のリサイクル率は全国平均を上回っている。	The recycling rate in this area exceeds the national average.
+n3-1850-けしょうひん	化粧品	けしょうひん	cosmetics	名词	化粧品について話し合った。	We discussed cosmetics.
+n3-1851-そつき-ょうろんふ-ん	卒業論文	そつぎょうろんぶん	graduation thesis	名词	卒業論文のテーマがなかなか決まらなくて困っている。	I'm having trouble deciding on a topic for my graduation thesis.
+n3-1852-さんこうになる	参考になる	さんこうになる	to be of use (as a reference)	动词	参考になるたら、すぐ連絡してください。	If it be of uses, please contact me immediately.
+n3-1853-とりなおす	取り直す	とりなおす	to re-obtain	动词	これを取り直すましょう。	Let's re-obtain this.
+n3-1854-とりひきさき	取引先	とりひきさき	customer; client	名词	取引先を楽しんだ。	I enjoyed the customer.
+n3-1855-あし-つけ	味付け	あじつけ	flavoring, seasoning	名词/动词	味付けする必要がある。	It's necessary to flavoring, seasoning.
+n3-1856-しょうてんか-い	商店街	しょうてんがい	shopping area; shopping arcade	名词	商店街を節約している。	I'm saving on shopping area.
+n3-1857-えいき-ょうし-かん	営業時間	えいぎょうじかん	business hours	名词	彼女は営業時間に満足している。	She is satisfied with her business hours.
+n3-1858-えいき-ょうふ	営業部	えいぎょうぶ	sales department	名词	営業部のことをもっと知りたい。	I want to learn more about sales department.
+n3-1859-こえをかける	声をかける	こえをかける	to call someone	动词	なかなか声をかけるない。	It doesn't easily call someone.
+n3-1860-た-いし-こ	大事故	だいじこ	major accident; major incident	名词	大事故が必要です。	Major accident is necessary.
+n3-1861-こいぬ	子犬	こいぬ	puppy	名词	公園で子犬を連れた家族に出会った。	I met a family with a puppy at the park.
+n3-1862-こそた-て	子育て	こそだて	raising a child	名词	子育てとの関係がいい。	I have a good relationship with my raising a child.
+n3-1863-ねふ-そく	寝不足	ねぶそく	lack of sleep	名词	寝不足について話し合った。	We discussed lack of sleep.
+n3-1864-せんもんふ-んや	専門分野	せんもんぶんや	area of expertise; specialization	名词	彼の専門分野はロボット工学だ。	His area of expertise is robotics.
+n3-1865-やまほと	山ほど	やまほど	a lot; a great amount of	名词/副词	山ほど話してください。	Please speak a lot.
+n3-1866-きほ-うしゃ	希望者	きぼうしゃ	applicant	名词	希望者に関する本を読んだ。	I read a book about applicant.
+n3-1867-し-ょし-ょに	徐々に	じょじょに	steadily; little by little	副词	徐々に考えた。	I thought about it steadily.
+n3-1868-いきか-きれる	息が切れる	いきがきれる	to be out of breath	动词	息が切れるたら、すぐ連絡してください。	If it be out of breaths, please contact me immediately.
+n3-1869-いきか-とまる	息が止まる	いきがとまる	to stop breathing	动词	息が止まるないように気をつけている。	I'm careful not to stop breathing.
+n3-1870-せいし-んしき	成人式	せいじんしき	coming-of-age ceremony	名词	成人式を楽しんだ。	I enjoyed the coming-of-age ceremony.
+n3-1871-しと-ういん	指導員	しどういん	instructor	名词	指導員のことをもっと知りたい。	I want to learn more about instructor.
+n3-1872-しんにゅうしゃいん	新入社員	しんにゅうしゃいん	new employee	名词	新入社員が忙しい。	The new employee is busy.
+n3-1873-しんしょうひん	新商品	しんしょうひん	new product	名词	新商品が注目されている。	The new product is getting attention.
+n3-1874-しんせいひん	新製品	しんせいひん	new (manufactured) product	名词	日本の新製品は独特だ。	Japanese new  product is unique.
+n3-1875-せいしゃいん	正社員	せいしゃいん	full-time employee	名词	正社員の経験がある。	I have experience with full-time employee.
+n3-1876-あらいなか-す	洗い流す	あらいながす	to rinse off	动词	何を洗い流すばいいかわからない。	I don't know what to rinse off.
+n3-1877-せんたくもの	洗濯物	せんたくもの	laundry	名词	洗濯物に問題がある。	There is a problem with the laundry.
+n3-1878-とくに-ない	特に～ない	とくに～ない	not particularly ～	表达	日本では特に～ないと言う。	In Japan, they say not particularly ～.
+n3-1879-なまクリーム	生クリーム	なまクリーム	whipped cream	名词	この生クリームは珍しい。	This whipped cream is rare.
+n3-1880-めか-まわる	目が回る	めがまわる	to be dizzy	动词	だんだん目が回るてきた。	It gradually started to be dizzy.
+n3-1881-けいさ-いか-く	経済学	けいざいがく	(study of) economics	名词	大学で経済学を専攻している。	I'm majoring in economics at university.
+n3-1882-せか-のひ-る	背が伸びる	せがのびる	to grow (height)	动词	背が伸びるないように気をつけている。	I'm careful not to grow.
+n3-1883-し-しんか-つく	自信がつく	じしんがつく	to gain confidence	动词	自信がつくたら、すぐ連絡してください。	If it gain confidences, please contact me immediately.
+n3-1884-ものいれ	物入れ	ものいれ	container/place to put things	名词	物入れに問題がある。	There is a problem with the container/place to put things.
+n3-1885-かんこうち	観光地	かんこうち	tourist attraction	名词	観光地の予約をした。	I made a reservation for tourist attraction.
+n3-1886-ちょうしか-わるい	調子が悪い	ちょうしがわるい	feeling sick	形容词	あまり調子が悪くない。	It's not very feeling sick.
+n3-1887-きふ-んか-わるい	気分が悪い	きぶんがわるい	not feeling well	形容词	気分が悪くなってきた。	It has become not feeling well.
+n3-1888-めいわくメール	迷惑メール	めいわくメール	spam (email)	名词	毎日大量の迷惑メールが届いて困っている。	I'm bothered by the massive amount of spam emails I receive every day.
+n3-1889-ようき	陽気	ようき	cheerful; lively	形容词	陽気なことに気づいた。	I noticed something cheerful.
+n3-1890-えんきし-と-うしゃ	電気自動車	えんきじどうしゃ	electric car; electric vehicle	名词	電気自動車が混んでいた。	The electric car was crowded.
+n3-1891-かんこくこ	韓国語	かんこくご	Korean language	名词	韓国語が上手になりたい。	I want to become better at korean language.
+n3-1892-しょくさ-い	食材	しょくざい	food stuffs; ingredients	名词	この食材はとてもおいしい。	This food stuffs is very delicious.
+n3-1893-かみか-た	髪型	かみがた	hair style	名词	彼女は髪型が大きい。	She has big hair style.
