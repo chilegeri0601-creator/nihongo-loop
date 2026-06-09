@@ -74,6 +74,11 @@ function unitKey(unitIndex = currentUnitIndex()) {
   return `${session.level}-${session.dailyGoal}-${unitIndex + 1}`;
 }
 
+function unitViewedIds(unitIndex = currentUnitIndex()) {
+  ensureUnitTracking();
+  return new Set(savedState.vocabularyViewedUnits[unitKey(unitIndex)] || []);
+}
+
 function ensureUnitTracking() {
   savedState.vocabularyViewedUnits = savedState.vocabularyViewedUnits || {};
   savedState.vocabularyUnitViewPrompts = savedState.vocabularyUnitViewPrompts || {};
@@ -85,15 +90,30 @@ function unitTestHref(unitIndex = currentUnitIndex()) {
 
 function unitStudyStats(unitIndex = currentUnitIndex()) {
   const range = unitRange(unitIndex);
+  const viewed = unitViewedIds(unitIndex);
+  const viewedCount = range.words.filter((word) => viewed.has(word.id)).length;
   const mastered = range.words.filter((word) => word.mastered).length;
   const review = range.words.filter((word) => !word.mastered && wrongCount(word) > 0).length;
+  const viewedComplete = range.words.length > 0 && viewedCount === range.words.length;
+  const complete = range.words.length > 0 && mastered === range.words.length;
   return {
     ...range,
     mastered,
     review,
-    pending: Math.max(0, range.words.length - mastered - review),
-    complete: range.words.length > 0 && mastered === range.words.length,
+    viewedCount,
+    viewedComplete,
+    pending: Math.max(0, range.words.length - viewedCount),
+    complete,
+    status: complete ? "mastered" : review > 0 ? "review" : viewedComplete ? "viewed" : viewedCount > 0 ? "learning" : "new",
   };
+}
+
+function unitStatusLabel(stats) {
+  if (stats.complete) return "已掌握";
+  if (stats.review > 0) return "待复习";
+  if (stats.viewedComplete) return "已学完";
+  if (stats.viewedCount > 0) return "学习中";
+  return "未开始";
 }
 
 function wrongCount(word) {
@@ -111,12 +131,28 @@ function markWordViewed(unitIndex, word) {
 
   const range = unitRange(unitIndex);
   const unitViewedComplete = range.words.length > 0 && range.words.every((item) => viewed.has(item.id));
-  const shouldPrompt = !wasViewed && unitViewedComplete && !savedState.vocabularyUnitViewPrompts[key];
-  if (shouldPrompt) {
-    savedState.vocabularyUnitViewPrompts[key] = new Date().toISOString();
-  }
   saveLocalState();
-  return shouldPrompt;
+  return !wasViewed && unitViewedComplete && !savedState.vocabularyUnitViewPrompts[key];
+}
+
+function maybePromptUnitFinished(unitIndex) {
+  ensureUnitTracking();
+  const key = unitKey(unitIndex);
+  const range = unitRange(unitIndex);
+  const viewed = unitViewedIds(unitIndex);
+  const unitViewedComplete = range.words.length > 0 && range.words.every((item) => viewed.has(item.id));
+  if (!unitViewedComplete || savedState.vocabularyUnitViewPrompts[key]) return false;
+  savedState.vocabularyUnitViewPrompts[key] = new Date().toISOString();
+  saveLocalState();
+  window.setTimeout(() => {
+    const goToTest = window.confirm(`本单元 ${range.words.length} 个单词学习完成！要现在进入第 ${unitIndex + 1} 单元测试吗？`);
+    if (goToTest) {
+      window.location.href = unitTestHref(unitIndex);
+    } else {
+      showToast("已留在学习页，你可以稍后从单元卡片进入测试。");
+    }
+  }, 160);
+  return true;
 }
 
 function escapeHtml(value) {
@@ -248,43 +284,37 @@ function renderWordList() {
     <section class="vocab-list-panel" id="vocabList" aria-label="${session.level} 单词表">
       <div class="vocab-list-head">
         <div>
-          <h4>${session.level} 单词单元表</h4>
-          <p>按每天 ${session.dailyGoal} 词自动分组。先完成一个单元，再进入下一个单元。</p>
+          <h4>${session.level} 单元进度</h4>
+          <p>每个单元只显示进度，不再展开长长的单词表。点单元卡片即可继续学习。</p>
         </div>
         <strong>${session.words.length} 词</strong>
       </div>
       <div class="vocab-unit-list">
         ${units
           .map(
-            ({ unitIndex, start, end, words, mastered, review, pending }) => `
-              <section class="vocab-unit-card ${unitIndex === currentUnitIndex() ? "active" : ""}">
-                <div class="vocab-unit-card-head">
-                  <button type="button" data-unit="${unitIndex}">
+            ({ unitIndex, start, end, words, mastered, review, pending, viewedCount, viewedComplete, complete, status }) => {
+              const progress = words.length ? Math.round((viewedCount / words.length) * 100) : 0;
+              return `
+                <section class="vocab-unit-card ${unitIndex === currentUnitIndex() ? "active" : ""} ${status}">
+                  <button type="button" class="vocab-unit-card-main" data-unit="${unitIndex}">
                     <span>第 ${unitIndex + 1} 单元</span>
                     <b>${start + 1}-${end}</b>
+                    <em>${unitStatusLabel({ complete, review, viewedComplete, viewedCount })}</em>
                   </button>
-                  <em>${mastered} 会 · ${review} 待复习 · ${pending} 未学</em>
-                </div>
-                <div class="vocab-table compact">
-                  ${words
-                    .map((item, offset) => {
-                      const index = start + offset;
-                      return `
-                        <article class="vocab-row ${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
-                          <button type="button" class="vocab-row-main" data-index="${index}">
-                            <span>${escapeHtml(item.word)}</span>
-                            <em>${escapeHtml(item.kana)}</em>
-                            <b>${escapeHtml(item.meaning)}</b>
-                            <small>${escapeHtml(item.type)}</small>
-                          </button>
-                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}" aria-label="听 ${escapeHtml(item.word)} 的发音">听</button>
-                        </article>
-                      `;
-                    })
-                    .join("")}
-                </div>
+                  <div class="vocab-unit-card-progress" aria-hidden="true"><span style="width: ${progress}%"></span></div>
+                  <div class="vocab-unit-card-stats">
+                    <small>${viewedCount}/${words.length} 已看</small>
+                    <small>${mastered} 认识</small>
+                    <small>${review} 待复习</small>
+                    <small>${pending} 未学</small>
+                  </div>
+                  <div class="vocab-unit-card-actions">
+                    <a href="${unitTestHref(unitIndex)}">测验</a>
+                    <button type="button" data-unit="${unitIndex}">学习</button>
+                  </div>
               </section>
-            `,
+            `;
+            },
           )
           .join("")}
       </div>
@@ -347,6 +377,10 @@ function renderStudyPlan() {
       end: unit.end,
       mastered: unit.mastered,
       review: unit.review,
+      viewedCount: unit.viewedCount,
+      viewedComplete: unit.viewedComplete,
+      complete: unit.complete,
+      status: unit.status,
       total: unit.words.length,
     };
   });
@@ -356,15 +390,15 @@ function renderStudyPlan() {
       <div class="vocab-plan-summary">
         <span>${session.level} 学习计划</span>
         <h3>第 ${activeUnit + 1} 单元</h3>
-        <p>${range.complete ? "学习完啦！这个单元的单词都已标记掌握，可以进入单元测验巩固。" : `今天建议学习 ${range.start + 1}-${range.end} 号词，先听发音，再看例句，最后按单元测验。`}</p>
+        <p>${range.viewedComplete ? "本单元已经看完啦。认识的会记录为已掌握，不认识的会进入待复习和错题本。" : `今天学习 ${range.start + 1}-${range.end} 号词。看词卡，点“认识 / 不认识”，再用“下一个”推进。`}</p>
       </div>
       <div class="vocab-plan-metrics">
         <div><strong>${session.words.length}</strong><span>总词数</span></div>
         <div><strong>${unitCount()}</strong><span>单元</span></div>
-        <div><strong>${range.mastered}/${range.words.length}</strong><span>本单元已会</span></div>
+        <div><strong>${range.viewedCount}/${range.words.length}</strong><span>本单元已看</span></div>
         <div><strong>${range.review}</strong><span>本单元待复习</span></div>
       </div>
-      <div class="vocab-unit-summary ${range.complete ? "complete" : ""}">
+      <div class="vocab-unit-summary ${range.status}">
         <div><strong>${range.pending}</strong><span>未学习</span></div>
         <div><strong>${percent}%</strong><span>总进度</span></div>
         <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">测第 ${activeUnit + 1} 单元</a>
@@ -387,9 +421,9 @@ function renderStudyPlan() {
         ${units
           .map(
             (unit) => `
-              <button type="button" data-unit="${unit.index}" class="${unit.index === activeUnit ? "active" : ""}">
+              <button type="button" data-unit="${unit.index}" class="${unit.index === activeUnit ? "active" : ""} ${unit.status}">
                 <span>${unit.index + 1}</span>
-                <em>${unit.mastered}/${unit.total}${unit.review ? ` · ${unit.review}错` : ""}</em>
+                <em>${unitStatusLabel(unit)} · ${unit.viewedCount}/${unit.total}</em>
               </button>
             `,
           )
@@ -433,21 +467,28 @@ function draw() {
   if (!word) return;
   const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
   const activeUnit = currentUnitIndex();
+  markWordViewed(activeUnit, word);
   const range = unitStudyStats(activeUnit);
-  const shouldShowUnitViewedPrompt = markWordViewed(activeUnit, word);
+  const unitPosition = session.index - range.start + 1;
+  const unitProgress = range.words.length ? Math.round((unitPosition / range.words.length) * 100) : 0;
+  const wordStatus = word.mastered ? "已认识" : wrongCount(word) > 0 ? "待复习" : "新单词";
   document.querySelector("#vocabPageContent").innerHTML = `
     <div class="vocab-shell vocab-learning-shell">
       ${renderStudyPlan()}
-      <section class="vocab-card">
-        <div class="vocab-topline"><span>${session.level}</span><em>${escapeHtml(word.type)}</em></div>
+      <section class="vocab-card ${word.mastered ? "known" : wrongCount(word) > 0 ? "review" : ""}">
+        <div class="vocab-topline">
+          <span>${session.level} · 第 ${activeUnit + 1} 单元 · ${unitPosition}/${range.words.length}</span>
+          <em>${escapeHtml(word.type)} · ${wordStatus}</em>
+        </div>
         <strong>${escapeHtml(word.word)}</strong>
         <small>${escapeHtml(word.kana)}</small>
         <p>${escapeHtml(word.meaning)}</p>
         <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(word.exampleMeaning)}</span></div>
-        <div class="vocab-actions wide">
-          <button type="button" data-prev>上一词</button>
+        <div class="vocab-card-progress" aria-label="本单元学习位置"><span style="width: ${unitProgress}%"></span></div>
+        <div class="vocab-actions vocab-memory-actions">
+          <button type="button" class="vocab-unknown" data-known="false">不认识</button>
           <button type="button" class="sound-button" data-speak="${escapeHtml(word.kana || word.word)}">听发音</button>
-          <button type="button" data-master="${word.mastered ? "false" : "true"}">${word.mastered ? "放回复习" : "标记掌握"}</button>
+          <button type="button" class="vocab-known" data-known="true">${word.mastered ? "已认识" : "认识"}</button>
           <button type="button" data-next>下一词</button>
         </div>
       </section>
@@ -455,16 +496,19 @@ function draw() {
         <div class="vocab-unit-label">
           <span>当前单元</span>
           <strong>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</strong>
+          <em>${unitStatusLabel(range)}</em>
         </div>
         <div class="vocab-stats">
-          <div><strong>${session.stats.mastered}/${session.stats.total}</strong><span>已掌握</span></div>
-          <div><strong>${word.correct}/${word.attempts}</strong><span>测验记录</span></div>
+          <div><strong>${range.viewedCount}/${range.words.length}</strong><span>本单元已看</span></div>
+          <div><strong>${range.mastered}</strong><span>本单元认识</span></div>
+          <div><strong>${range.review}</strong><span>待复习</span></div>
+          <div><strong>${session.stats.mastered}/${session.stats.total}</strong><span>总掌握</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         <div class="study-link-panel">
           <span>学习模式</span>
-          <h4>这里只看单词和例句</h4>
-          <p>完成本页学习后，进入独立测验页做选择题。</p>
+          <h4>像背单词一样推进</h4>
+          <p>认识会计入本单元掌握；不认识会进入待复习，之后也能在错题本里回看。</p>
           <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">进入第 ${activeUnit + 1} 单元测验</a>
           <a class="btn btn-light" href="#vocabMistakes">查看错题本</a>
         </div>
@@ -475,16 +519,6 @@ function draw() {
     </div>
   `;
   bind();
-  if (shouldShowUnitViewedPrompt) {
-    window.setTimeout(() => {
-      const goToTest = window.confirm(`本单元 ${range.words.length} 个单词学习完成！要现在进入第 ${activeUnit + 1} 单元测试吗？`);
-      if (goToTest) {
-        window.location.href = unitTestHref(activeUnit);
-      } else {
-        showToast("已留在学习页，你可以稍后从“测第 " + (activeUnit + 1) + " 单元”进入测试。");
-      }
-    }, 180);
-  }
 }
 
 function updateStats() {
@@ -494,6 +528,7 @@ function updateStats() {
 
 async function saveMaster(word, mastered) {
   const targetUnit = currentUnitIndex();
+  const targetWasLast = session.index === unitRange(targetUnit).end - 1;
   const fallback = { attempts: word.attempts, correct: word.correct, mastered };
   try {
     const data = await apiRequest("/api/vocabulary/master", {
@@ -526,21 +561,66 @@ async function saveMaster(word, mastered) {
   if (newlyCompleted) {
     showToast(`第 ${targetUnit + 1} 单元学习完啦，可以去做单元测验。`);
   }
+  if (targetWasLast) {
+    maybePromptUnitFinished(targetUnit);
+  }
+}
+
+async function saveUnknown(word) {
+  const targetUnit = currentUnitIndex();
+  const targetWasLast = session.index === unitRange(targetUnit).end - 1;
+  const fallback = {
+    attempts: Number(word.attempts || 0) + 1,
+    correct: Number(word.correct || 0),
+    mastered: false,
+  };
+  try {
+    const data = await apiRequest("/api/vocabulary/answer", {
+      method: "POST",
+      body: JSON.stringify({ userId: currentUserId, wordId: word.id, correct: false }),
+    });
+    Object.assign(word, data.record);
+    Object.assign(savedState, data.progress);
+    setServiceStatus(true);
+    showToast("已放入待复习，之后会出现在错题本。");
+  } catch {
+    savedState.vocabulary = savedState.vocabulary || {};
+    savedState.vocabulary[word.id] = fallback;
+    Object.assign(word, fallback);
+    setServiceStatus(false);
+    showToast("已记录为不认识，稍后复习。");
+  }
+  updateStats();
+  savedState.vocabularyCompletedUnits = savedState.vocabularyCompletedUnits || {};
+  delete savedState.vocabularyCompletedUnits[unitKey(targetUnit)];
+  saveLocalState();
+  draw();
+  if (targetWasLast) {
+    maybePromptUnitFinished(targetUnit);
+  }
+}
+
+function moveNextWord() {
+  const targetUnit = currentUnitIndex();
+  const targetWasLast = session.index === unitRange(targetUnit).end - 1;
+  if (targetWasLast && maybePromptUnitFinished(targetUnit)) return;
+  session.index = (session.index + 1) % session.words.length;
+  resetQuestion();
+  draw();
 }
 
 function bind() {
   const word = session.words[session.index];
-  document.querySelector("[data-prev]").addEventListener("click", () => {
-    session.index = (session.index - 1 + session.words.length) % session.words.length;
-    resetQuestion();
-    draw();
+  document.querySelector("[data-next]").addEventListener("click", moveNextWord);
+  document.querySelectorAll("[data-known]").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (button.dataset.known === "true") {
+        saveMaster(word, true);
+      } else {
+        saveUnknown(word);
+      }
+    });
   });
-  document.querySelector("[data-next]").addEventListener("click", () => {
-    session.index = (session.index + 1) % session.words.length;
-    resetQuestion();
-    draw();
-  });
-  document.querySelector("[data-master]").addEventListener("click", (event) => saveMaster(word, event.currentTarget.dataset.master === "true"));
   document.querySelectorAll("[data-index]").forEach((button) => {
     button.addEventListener("click", () => {
       session.index = Number(button.dataset.index);

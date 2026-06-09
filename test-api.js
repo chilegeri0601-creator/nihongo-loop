@@ -80,6 +80,11 @@ async function main() {
   assert.match(vocabScriptText, /学习完啦/);
   assert.match(vocabScriptText, /本单元待复习/);
   assert.match(vocabScriptText, /本单元 .* 个单词学习完成/);
+  assert.match(vocabScriptText, /data-known="true"/);
+  assert.match(vocabScriptText, /data-known="false"/);
+  assert.match(vocabScriptText, /vocab-unit-card-progress/);
+  assert.match(vocabScriptText, /每个单元只显示进度/);
+  assert.match(vocabScriptText, /\/api\/vocabulary\/answer/);
   assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(word.kana || word.word)}"'));
   assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(item.kana || item.word)}"'));
   assert.doesNotMatch(vocabScriptText, /data-speak="\$\{escapeHtml\(word\.word\)\}"/);
