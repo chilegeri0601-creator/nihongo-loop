@@ -2988,6 +2988,67 @@ h1 {
   color: #991b1b;
 }
 
+.spelling-quiz {
+  width: min(100%, 680px);
+}
+
+.spelling-audio {
+  border-color: #fed7aa;
+  background: #fff7ed;
+}
+
+.spelling-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.spelling-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.spelling-form input {
+  min-height: 58px;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  outline: 0;
+  background: #f8fafc;
+  padding: 0 16px;
+  color: #111827;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.spelling-form input:focus {
+  border-color: #111827;
+  background: var(--white);
+  box-shadow: 0 0 0 4px rgba(17, 24, 39, 0.08);
+}
+
+.spelling-form.correct input {
+  border-color: #16a34a;
+  background: #dcfce7;
+  color: #166534;
+}
+
+.spelling-form.wrong input {
+  border-color: #ef4444;
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.spelling-form button {
+  min-height: 58px;
+  justify-content: center;
+}
+
 #testFeedback {
   min-height: 24px;
   margin: 0;
@@ -3594,6 +3655,14 @@ h1 {
   .vocab-unit-list {
     grid-template-columns: 1fr;
     max-height: 430px;
+  }
+
+  .spelling-form {
+    grid-template-columns: 1fr;
+  }
+
+  .spelling-form input {
+    font-size: 18px;
   }
 
   .vocab-unit-card-head {

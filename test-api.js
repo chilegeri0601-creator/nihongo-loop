@@ -143,6 +143,9 @@ async function main() {
   assert.match(testScriptText, /data-test-answer/);
   assert.match(testScriptText, /speechSynthesis/);
   assert.match(testScriptText, /data-play-audio/);
+  assert.match(testScriptText, /data-spelling-answer/);
+  assert.match(testScriptText, /spelling-quiz/);
+  assert.match(testScriptText, /acceptedAnswers/);
   assert.match(testScriptText, /\/api\/vocabulary\/answer/);
   assert.match(testScriptText, /\/api\/grammar\/answer/);
   assert.match(testScriptText, /data\/features\.json/);

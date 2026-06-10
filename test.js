@@ -132,6 +132,13 @@ function buildOptions(items, current, key) {
   return shuffle([current[key], ...shuffle(others).slice(0, 3)]);
 }
 
+function normalizeTypedAnswer(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/\s+/g, "")
+    .trim();
+}
+
 async function loadVocabularyQuestions() {
   const data = await apiRequest(`/api/vocabulary?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(session.level)}`);
   const words = data.vocabulary.words;
@@ -139,6 +146,22 @@ async function loadVocabularyQuestions() {
   const range = vocabularyUnitRange(words);
   const scopedWords = range.words.length ? range.words : words;
   return scopedWords.map((word, index) => {
+    if (isVocabularyUnitTest()) {
+      return {
+        id: word.id,
+        word: word.word,
+        kana: word.kana,
+        meaning: word.meaning,
+        prompt: word.meaning,
+        hint: "听发音，写出日语",
+        correct: word.word,
+        acceptedAnswers: unique([word.word, word.kana]),
+        audioText: word.kana || word.word,
+        spelling: true,
+        explanation: `正确答案：${word.word}${word.kana && word.kana !== word.word ? `（${word.kana}）` : ""}`,
+        save: (correct) => apiRequest("/api/vocabulary/answer", { method: "POST", body: JSON.stringify({ userId: currentUserId, wordId: word.id, correct }) }),
+      };
+    }
     const zhToJp = index % 2 === 1;
     return {
       id: word.id,
@@ -264,6 +287,71 @@ function draw() {
     if (isVocabularyUnitTest() && sessionStorage.getItem(unitCompletePromptKey) === "closed") {
       document.querySelector(".unit-complete-prompt")?.remove();
     }
+    return;
+  }
+  if (question.spelling) {
+    document.querySelector("#testContent").innerHTML = `
+      <div class="test-question-only spelling-quiz">
+        <div class="audio-panel spelling-audio">
+          <div>
+            <span>${escapeHtml(question.hint)}</span>
+            <strong>先听发音，再写出日语</strong>
+          </div>
+          <button class="btn btn-dark" type="button" data-play-audio="${escapeHtml(question.audioText)}">播放发音</button>
+        </div>
+        <span>中文意思</span>
+        <h3>${escapeHtml(question.prompt)}</h3>
+        <form class="spelling-form" data-spelling-form>
+          <label>
+            日语答案
+            <input type="text" data-spelling-answer autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入日语、假名或汉字" />
+          </label>
+          <button class="btn btn-red" type="submit">提交答案</button>
+        </form>
+        <p id="testFeedback">可以输入汉字写法，也可以输入假名。</p>
+      </div>
+    `;
+    const playButton = document.querySelector("[data-play-audio]");
+    const answerInput = document.querySelector("[data-spelling-answer]");
+    const form = document.querySelector("[data-spelling-form]");
+    const playCurrentAudio = () => {
+      speakJapanese(question.audioText);
+      if (playButton) playButton.textContent = "重播发音";
+    };
+    playButton?.addEventListener("click", playCurrentAudio);
+    window.setTimeout(playCurrentAudio, 180);
+    answerInput?.focus();
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const userAnswer = normalizeTypedAnswer(answerInput.value);
+      if (!userAnswer) {
+        showToast("先写下你的答案");
+        answerInput.focus();
+        return;
+      }
+      const accepted = (question.acceptedAnswers || [question.correct]).map(normalizeTypedAnswer);
+      const correct = accepted.includes(userAnswer);
+      session.answers.push({
+        id: question.id,
+        word: question.word,
+        meaning: question.meaning,
+        correct,
+      });
+      form.classList.add(correct ? "correct" : "wrong");
+      answerInput.disabled = true;
+      form.querySelector("button").disabled = true;
+      document.querySelector("#testFeedback").textContent = correct ? `答对了。${question.explanation}` : `还差一点。${question.explanation}`;
+      if (correct) session.correct += 1;
+      try {
+        await question.save(correct);
+      } catch {
+        // Keep the test moving even if backend is unavailable.
+      }
+      window.setTimeout(() => {
+        session.index += 1;
+        draw();
+      }, correct ? 850 : 1300);
+    });
     return;
   }
   document.querySelector("#testContent").innerHTML = `
