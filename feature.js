@@ -89,6 +89,37 @@ function completedCount() {
   return currentItems().filter((item) => records()[item.id]?.completed).length;
 }
 
+function renderFeatureQuestion(item, record) {
+  if (featureKey !== "reading" || !item.question) return "";
+  const answered = Boolean(record.answer);
+  const correct = record.answer === item.question.correct;
+  return `
+    <div class="feature-question-card ${answered ? (correct ? "correct" : "wrong") : ""}">
+      <span>阅读理解</span>
+      <h4>${escapeHtml(item.question.text)}</h4>
+      <div class="feature-answer-grid">
+        ${item.question.options
+          .map((option) => {
+            const selected = record.answer === option;
+            return `<button type="button" class="${selected ? "selected" : ""}" data-feature-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`;
+          })
+          .join("")}
+      </div>
+      <p id="featureAnswerFeedback">${
+        answered
+          ? correct
+            ? "答对了，这句话已经理解完成。"
+            : `还差一点。正确理解是：${escapeHtml(item.question.correct)}`
+          : "读完上面的日语句子，选择它讲了什么。"
+      }</p>
+      <div class="feature-question-actions">
+        <button class="btn btn-light" type="button" data-feature-reset-answer>重新选择</button>
+        <button class="btn btn-dark" type="button" data-feature-next ${correct ? "" : "disabled"}>下一句</button>
+      </div>
+    </div>
+  `;
+}
+
 function draw() {
   const item = currentItem();
   if (!item) return;
@@ -129,6 +160,7 @@ function draw() {
           <b>学习提示</b>
           <span>${escapeHtml(item.tip)}</span>
         </div>
+        ${renderFeatureQuestion(item, record)}
         <div class="study-link-panel feature-test-cta">
           <span>学习模式</span>
           <h4>这里只做内容训练</h4>
@@ -153,6 +185,38 @@ function bind() {
       speakJapanese(button.dataset.featureAudio);
       button.textContent = "重播音频";
     });
+  });
+  document.querySelectorAll("[data-feature-answer]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const item = currentItem();
+      const answer = button.dataset.featureAnswer;
+      const correct = answer === item.question.correct;
+      const featureRecords = records();
+      featureRecords[item.id] = {
+        ...featureRecords[item.id],
+        answer,
+        completed: correct,
+        completedAt: correct ? new Date().toISOString() : featureRecords[item.id]?.completedAt || "",
+      };
+      saveState();
+      draw();
+    });
+  });
+  document.querySelector("[data-feature-reset-answer]")?.addEventListener("click", () => {
+    const item = currentItem();
+    const featureRecords = records();
+    featureRecords[item.id] = { ...featureRecords[item.id], answer: "", completed: false };
+    saveState();
+    draw();
+  });
+  document.querySelector("[data-feature-next]")?.addEventListener("click", () => {
+    const items = currentItems();
+    if (session.index < items.length - 1) {
+      session.index += 1;
+      draw();
+    } else {
+      showToast("N5 短句阅读完成啦，可以进入测验巩固。");
+    }
   });
 }
 

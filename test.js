@@ -201,7 +201,7 @@ async function loadFeatureQuestions() {
   const items = feature.levels[session.level] || [];
   return items.map((item) => ({
     id: item.id,
-    prompt: item.question.text,
+    prompt: testType === "reading" ? `${item.sample} ${item.question.text}` : item.question.text,
     hint: item.category,
     audioText: testType === "listening" ? item.sample : "",
     correct: item.question.correct,
