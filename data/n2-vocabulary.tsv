@@ -1,33 +1,1730 @@
 id	word	kana	meaning	type	example	exampleMeaning
-n2-eikyou	影響	えいきょう	影响	名词/サ变	睡眠は集中力に影響します。	睡眠会影响专注力。
-n2-joukyou	状況	じょうきょう	状况	名词	現在の状況を確認します。	确认当前状况。
-n2-jouken	条件	じょうけん	条件	名词	参加の条件を読みます。	阅读参加条件。
-n2-kanousei	可能性	かのうせい	可能性	名词	合格の可能性があります。	有合格的可能性。
-n2-keikou	傾向	けいこう	倾向	名词	最近の出題傾向を調べます。	调查最近的出题倾向。
-n2-taishou	対象	たいしょう	对象	名词	この講座は中級者が対象です。	这个课程面向中级学习者。
-n2-sekinin	責任	せきにん	责任	名词	自分の発言に責任を持ちます。	对自己的发言负责。
-n2-handan	判断	はんだん	判断	名词/サ变	文脈から意味を判断します。	根据上下文判断意思。
-n2-kaiketsu	解決	かいけつ	解决	名词/サ变	問題を一つずつ解決します。	一个个解决问题。
-n2-kaizen	改善	かいぜん	改善	名词/サ变	勉強方法を改善しました。	改善了学习方法。
-n2-seido	制度	せいど	制度	名词	新しい制度が始まりました。	新制度开始了。
-n2-kankyou	環境	かんきょう	环境	名词	静かな学習環境が必要です。	需要安静的学习环境。
-n2-shigen	資源	しげん	资源	名词	時間も大切な資源です。	时间也是重要资源。
-n2-juyou	需要	じゅよう	需求	名词	日本語学習の需要が増えています。	日语学习需求在增加。
-n2-kyoukyuu	供給	きょうきゅう	供给	名词/サ变	教材を安定して供給します。	稳定提供教材。
-n2-kyouchou	強調	きょうちょう	强调	名词/サ变	筆者は重要性を強調しています。	作者强调了重要性。
-n2-shouryaku	省略	しょうりゃく	省略	名词/サ变	会話では助詞が省略されることがあります。	会话中有时会省略助词。
-n2-kakudai	拡大	かくだい	扩大	名词/サ变	語彙の範囲を拡大します。	扩大词汇范围。
-n2-shukushou	縮小	しゅくしょう	缩小	名词/サ变	無駄な時間を縮小します。	缩小浪费的时间。
-n2-iji	維持	いじ	维持	名词/サ变	学習習慣を維持します。	维持学习习惯。
-n2-atsukau	扱う	あつかう	处理、对待	动词	このアプリは学習記録を扱います。	这个应用处理学习记录。
-n2-oginau	補う	おぎなう	补充、弥补	动词	弱点を復習で補います。	通过复习弥补弱点。
-n2-sakeru	避ける	さける	避免	动词	同じ間違いを避けます。	避免同样的错误。
-n2-mitomeru	認める	みとめる	承认、认可	动词	自分の弱点を認めます。	承认自己的弱点。
-n2-motomeru	求める	もとめる	寻求、要求	动词	正確な答えを求めます。	寻求准确答案。
-n2-fukumu	含む	ふくむ	包含	动词	この問題は文法を含みます。	这道题包含语法。
-n2-kagiru	限る	かぎる	限制、限于	动词	時間を限って練習します。	限制时间练习。
-n2-shinkoku	深刻	しんこく	严重	形容动词	語彙不足は深刻な問題です。	词汇不足是严重问题。
-n2-tekisetsu	適切	てきせつ	恰当	形容动词	適切な表現を選びます。	选择恰当表达。
-n2-meikaku	明確	めいかく	明确	形容动词	目標を明確にします。	明确目标。
-n2-kouritsuteki	効率的	こうりつてき	高效	形容动词	効率的に復習します。	高效复习。
-n2-kokyaku	顧客	こきゃく	顾客	名词	顧客の意見を集めます。	收集顾客意见。
+n2-1-あいかわらす	あいかわらず	あいかわらず	as ever,as usual,the same	名词	彼は相変わらず元気そうだね。	He looks as energetic as ever.
+n2-2-あいまい	曖昧	あいまい	vague,ambiguous	形容词	この場所はとても曖昧。	This place is very vague.
+n2-3-あう	遭う	あう	to meet,to encounter (undesirable nuance)	动词	もっと遭う必要がある。	There is a need to to meet more.
+n2-4-あおく	扇ぐ	あおぐ	to fan,to flap	动词	扇ぐことにした。	I decided to to fan.
+n2-5-あおし-ろい	青白い	あおじろい	pale,pallid	名词	徹夜明けで顔が青白い。	My face is pale from staying up all night.
+n2-6-あかんほ-う	あかんぼう	あかんぼう	baby	名词	隣の家に赤ん坊が生まれた。	A baby was born at the house next door.
+n2-7-あき	明き	あき	room,time to spare,emptiness	名词	この部屋には空きがありますか。	Is there any vacancy in this room?
+n2-8-あきれる	あきれる	あきれる	to be amazed,to be shocked	动词	あきれるのは難しい。	It is difficult to to be amazed.
+n2-9-あくひ	欠伸	あくび	yawn	名词	授業中に欠伸をしてしまった。	I accidentally yawned during class.
+n2-10-あくまて	飽くまで	あくまで	to the end,to the last,stubbornly	动词	毎日飽くまでようにしている。	I try to to the end every day.
+n2-11-あけか-た	明け方	あけがた	dawn	名词	明け方まで友達と話していた。	I was talking with my friend until dawn.
+n2-12-あけ-る	揚げる	あげる	to lift,to fry	动词	揚げるのは難しい。	It is difficult to to lift.
+n2-13-あこか-れる	憧れる	あこがれる	to long for,to yearn after,to admire	动词	憧れるのは難しい。	It is difficult to to long for.
+n2-14-あしあと	足跡	あしあと	footprints	副词	足跡に関する問題が出た。	A question about footprints came up.
+n2-15-あし-わう	味わう	あじわう	to taste,to savor,to relish	动词	味わうのは難しい。	It is difficult to to taste.
+n2-16-あす-かる	預かる	あずかる	to keep in custody,to receive on deposit,to take charge of	动词	彼は預かることができる。	He can to keep in custody.
+n2-17-あたたまる	暖まる	あたたまる	to warm up,to get warm	动词	暖まるのは難しい。	It is difficult to to warm up.
+n2-18-あたためる	暖める	あたためる	to warm,to heat	动词	彼は暖めることができる。	He can to warm.
+n2-19-あたりまえ	あたりまえ	あたりまえ	usual,common,ordinary	名词	あたりまえに関する問題が出た。	A question about usual came up.
+n2-20-あちらこちら	あちらこちら	あちらこちら	here and there	名词	あちらこちらに関する問題が出た。	A question about here and there came up.
+n2-21-あっしゅく	圧縮	あっしゅく	compression,condensation,pressure	名词	圧縮に関する問題が出た。	A question about compression came up.
+n2-22-あつかましい	厚かましい	あつかましい	impudent,shameless,brazen	名词	そんな厚かましいお願いはできない。	I can't make such a shameless request.
+n2-23-あてな	宛名	あてな	address,direction	名词	手紙の宛名を間違えた。	I wrote the wrong address on the letter.
+n2-24-あてはまる	あてはまる	あてはまる	to be applicable,to come under (a category),to fulfill	动词	彼はあてはまることができる。	He can to be applicable.
+n2-25-あてはめる	あてはめる	あてはめる	to apply,to adapt	动词	毎日あてはめるようにしている。	I try to to apply every day.
+n2-26-あは-れる	暴れる	あばれる	to act violently,to rage,to struggle,to be riotous	动词	もっと暴れる必要がある。	There is a need to to act violently more.
+n2-27-あふれる	あふれる	あふれる	to flood,to overflow,to brim over	动词	あふれるのは難しい。	It is difficult to to flood.
+n2-28-あふ-ら	脂	あぶら	fat,tallow,lard	名词	脂に関する問題が出た。	A question about fat came up.
+n2-29-あふ-る	あぶる	あぶる	to scorch	动词	もっとあぶる必要がある。	There is a need to to scorch more.
+n2-30-あまと	雨戸	あまど	sliding storm door	名词	台風が来るので雨戸を閉めた。	I closed the storm shutters because a typhoon is coming.
+n2-31-あまやかす	甘やかす	あまやかす	to pamper,to spoil	动词	甘やかすのは難しい。	It is difficult to to pamper.
+n2-32-あまる	余る	あまる	to remain,to be left over,to be in excess,to be too many	动词	もっと余る必要がある。	There is a need to to remain more.
+n2-33-あみもの	編物	あみもの	knitting,web	名词	祖母は編物が上手だ。	My grandmother is good at knitting.
+n2-34-あむ	編む	あむ	to knit	动词	編むことにした。	I decided to to knit.
+n2-35-あやうい	危うい	あやうい	dangerous,critical,grave	名词	危ういを理解することが大切だ。	It is important to understand dangerous.
+n2-36-あやしい	怪しい	あやしい	suspicious,dubious,doubtful	名词	あの人の行動は怪しい。	That person's behavior is suspicious.
+n2-37-あらい	荒い	あらい	rough,rude,wild	名词	今日は波が荒い。	The waves are rough today.
+n2-38-あらすし	あらすじ	あらすじ	outline,summary	名词	あらすじに関する問題が出た。	A question about outline came up.
+n2-39-あらそう	争う	あらそう	to dispute,to argue,to be at variance,to compete	动词	彼は争うことができる。	He can to dispute.
+n2-40-あらためて	改めて	あらためて	another time,again,over again,anew,formally	名词	改めてお礼を申し上げます。	I would like to thank you once again formally.
+n2-41-あらためる	改める	あらためる	to change,to alter,to reform,to revise	动词	もっと改める必要がある。	There is a need to to change more.
+n2-42-あらわす	著す	あらわす	to write,to publish	动词	もっと著す必要がある。	There is a need to to write more.
+n2-43-ありか-たい	有難い	ありがたい	grateful,thankful,welcome,appreciated,evoking gratitude	名词	手伝ってくれて有難いです。	I'm grateful that you helped me.
+n2-44-ある	在る	ある	to live,to be	动词	在ることにした。	I decided to to live.
+n2-45-あれこれ	あれこれ	あれこれ	one thing or another,this and that,this or that	名词	引っ越しであれこれ忙しい。	I'm busy with this and that for the move.
+n2-46-あわたた-しい	あわただしい	あわただしい	busy,hurried,confused,flurried	名词	今朝はあわただしい朝だった。	This morning was a hectic morning.
+n2-47-あわてる	あわてる	あわてる	to become confused	动词	毎日あわてるようにしている。	I try to to become confused every day.
+n2-48-あんい	安易	あんい	easy-going	形容词	安易な考えで決めてはいけない。	You shouldn't decide with an easy-going mindset.
+n2-49-あんか-い	案外	あんがい	unexpectedly	名词	案外に関する問題が出た。	A question about unexpectedly came up.
+n2-50-いいた-す	言い出す	いいだす	to start talking,to speak,to tell,to propose,to suggest,to break the ice	动词	もっと言い出す必要がある。	There is a need to to start talking more.
+n2-51-いいつける	言い付ける	いいつける	to tell,to tell on (someone),to order	动词	毎日言い付けるようにしている。	I try to to tell every day.
+n2-52-いきいき	生き生き	いきいき	vividly,lively	名词	子どもたちが生き生きと遊んでいる。	The children are playing lively.
+n2-53-いきなり	いきなり	いきなり	(uk) abruptly,suddenly,all of a sudden,without warning	名词	彼はいきなり怒り出した。	He suddenly got angry.
+n2-54-いき	意義	いぎ	meaning,significance	名词	意義を理解することが大切だ。	It is important to understand meaning.
+n2-55-いくし	育児	いくじ	childcare,nursing,upbringing	名词	育児と仕事の両立は難しい。	Balancing childcare and work is difficult.
+n2-56-いくふ-ん	幾分	いくぶん	somewhat	名词	幾分に関する問題が出た。	A question about somewhat came up.
+n2-57-いけは-な	生け花	いけばな	(1) flower arrangement	名词	母は生け花を習っている。	My mother is learning flower arrangement.
+n2-58-いこう	以降	いこう	on and after,hereafter,thereafter	名词	彼は明日以降にしか来られない。	He can only come from tomorrow onward.
+n2-59-いこ	以後	いご	after this,from now on,hereafter,thereafter	名词	以後、気をつけます。	I will be careful from now on.
+n2-60-いさましい	勇ましい	いさましい	brave,valiant,gallant,courageous	名词	彼の勇ましい姿に感動した。	I was moved by his brave figure.
+n2-61-いしょくし-ゅう	衣食住	いしょくじゅう	necessities of life (food, clothing, etc.)	名词	衣食住に困らない生活がしたい。	I want to live without worrying about food, clothing, and shelter.
+n2-62-いし-わる	意地悪	いじわる	malicious,ill-tempered,unkind	名词	意地悪を理解することが大切だ。	It is important to understand malicious.
+n2-63-いちいち	いちいち	いちいち	one by one,separately	名词	いちいち説明しなくてもわかる。	You don't have to explain every single thing.
+n2-64-いちおう	一応	いちおう	once,tentatively,in outline,for the time being	名词	一応準備はできている。	I'm tentatively prepared.
+n2-65-いちた-ん	一段	いちだん	greater,more,further,still more	名词	一段を理解することが大切だ。	It is important to understand greater.
+n2-66-いちりゅう	一流	いちりゅう	first class,top grade,foremost,top-notch	名词	彼は一流のシェフだ。	He is a first-class chef.
+n2-67-いっさくし-つ	一昨日	いっさくじつ	day before yesterday	名词	一昨日、友達に会った。	I met my friend the day before yesterday.
+n2-68-いっさくねん	一昨年	いっさくねん	year before last	名词	一昨年、日本に来た。	I came to Japan the year before last.
+n2-69-いっせい	一斉	いっせい	simultaneous,all at once	名词	一斉を理解することが大切だ。	It is important to understand simultaneous.
+n2-70-いったん	一旦	いったん	once,for a moment,one morning,temporarily	名词	一旦休憩しましょう。	Let's take a break for now.
+n2-71-いってい	一定	いってい	fixed,settled,definite	名词	一定の収入が必要だ。	A steady income is necessary.
+n2-72-いつ	佚	いつ	be lost,peace,hide,mistake,beautiful,in turn	名词	この場所はとても佚。	This place is very be lost.
+n2-73-いつのまにか	いつのまにか	いつのまにか	before one knows,unnoticed,unawares	名词	いつの間にか眠ってしまった。	Before I knew it, I had fallen asleep.
+n2-74-いてん	移転	いてん	moving,transfer,demise	名词	来月、会社が移転する。	The company will relocate next month.
+n2-75-いとこ	従姉妹	いとこ	cousin (female)	名词	従姉妹と久しぶりに会った。	I met my cousin after a long time.
+n2-76-いと	井戸	いど	water well	名词	この村には古い井戸がある。	There is an old well in this village.
+n2-77-いは-る	威張る	いばる	to be proud,to swagger	动词	もっと威張る必要がある。	There is a need to to be proud more.
+n2-78-いやか-る	嫌がる	いやがる	to hate,to dislike	动词	毎日嫌がるようにしている。	I try to to hate every day.
+n2-79-いよいよ	いよいよ	いよいよ	more and more,all the more,increasingly,at last,beyond doubt	名词	いよいよ明日が本番だ。	Tomorrow is finally the real thing.
+n2-80-いる	煎る	いる	to parch,to fry	动词	もっと煎る必要がある。	There is a need to to parch more.
+n2-81-いれもの	入れ物	いれもの	container,case,receptacle	名词	入れ物を理解することが大切だ。	It is important to understand container.
+n2-82-いんりょく	引力	いんりょく	gravity	名词	地球の引力で物が落ちる。	Things fall due to Earth's gravity.
+n2-83-うえき	植木	うえき	garden shrubs,trees,potted plant	名词	植木に関する問題が出た。	A question about garden shrubs came up.
+n2-84-うえる	飢える	うえる	to starve	动词	彼は飢えることができる。	He can to starve.
+n2-85-うかふ	浮ぶ	うかぶ	to float,to rise to surface,to come to mind	动词	浮ぶのは難しい。	It is difficult to to float.
+n2-86-うかへ-る	浮かべる	うかべる	to float,to express,to look (sad, glad)	动词	浮かべることにした。	I decided to to float.
+n2-87-うく	浮く	うく	to float,to become merry,to become loose	动词	彼は浮くことができる。	He can to float.
+n2-88-うけたまわる	承る	うけたまわる	(hum) to hear,to be told,to know	动词	承ることにした。	I decided to (hum) to hear.
+n2-89-うけとり	受取	うけとり	receipt	名词	受取にサインをお願いします。	Please sign the receipt.
+n2-90-うけもつ	受け持つ	うけもつ	to take (be in) charge of	动词	もっと受け持つ必要がある。	There is a need to to take (be in) charge of more.
+n2-91-うすく-らい	薄暗い	うすぐらい	dim,gloomy	名词	薄暗い部屋で本を読むと目が悪くなる。	Reading in a dim room is bad for your eyes.
+n2-92-うすめる	薄める	うすめる	to dilute,to water down	动词	彼は薄めることができる。	He can to dilute.
+n2-93-うちあわせ	打合せ	うちあわせ	business meeting,previous arrangement,appointment	名词	打合せを理解することが大切だ。	It is important to understand business meeting.
+n2-94-うちけす	打ち消す	うちけす	to deny,to negate,to contradict	动词	打ち消すのは難しい。	It is difficult to to deny.
+n2-95-うっかり	うっかり	うっかり	carelessly,thoughtlessly,inadvertently	名词	うっかりを理解することが大切だ。	It is important to understand carelessly.
+n2-96-うつ	討つ	うつ	to attack,to avenge	动词	討つのは難しい。	It is difficult to to attack.
+n2-97-うつす	映す	うつす	to project,to reflect,to cast (shadow)	动词	映すことにした。	I decided to to project.
+n2-98-うつる	写る	うつる	to be photographed,to be projected	动词	写るのは難しい。	It is difficult to to be photographed.
+n2-99-うと-ん	うどん	うどん	noodles (Japanese)	名词	昼ご飯にうどんを食べた。	I had udon for lunch.
+n2-100-うむ	有無	うむ	yes or no,existence,flag indicator (comp),presence or absence marker	名词	出席の有無を教えてください。	Please let me know whether you will attend.
+n2-101-うめる	埋める	うめる	to bury,to fill up,to fill (a seat, a vacant position)	动词	埋めるのは難しい。	It is difficult to to bury.
+n2-102-うやまう	敬う	うやまう	to show respect,to honour	动词	もっと敬う必要がある。	There is a need to to show respect more.
+n2-103-うらか-えす	裏返す	うらがえす	to turn inside out,to turn (something) over	动词	彼は裏返すことができる。	He can to turn inside out.
+n2-104-うらく-ち	裏口	うらぐち	backdoor,rear entrance	名词	裏口から入ってください。	Please enter from the back door.
+n2-105-うらなう	占う	うらなう	to forecast,to predict	动词	毎日占うようにしている。	I try to to forecast every day.
+n2-106-うらみ	恨み	うらみ	resentment	名词	彼に対する恨みはない。	I have no resentment toward him.
+n2-107-うらむ	恨む	うらむ	to curse,to feel bitter	动词	もっと恨む必要がある。	There is a need to to curse more.
+n2-108-うらやましい	羨ましい	うらやましい	envious,enviable	名词	彼の成功が羨ましい。	I'm envious of his success.
+n2-109-うらやむ	羨む	うらやむ	to envy	动词	毎日羨むようにしている。	I try to to envy every day.
+n2-110-うりあけ	売上	うりあげ	amount sold,proceeds	名词	売上に関する問題が出た。	A question about amount sold came up.
+n2-111-うりきれ	売り切れ	うりきれ	sold-out	名词	そのチケットは売り切れだった。	Those tickets were sold out.
+n2-112-うりきれる	売り切れる	うりきれる	to be sold out	动词	毎日売り切れるようにしている。	I try to to be sold out every day.
+n2-113-うれゆき	売行き	うれゆき	sales	名词	売行きを理解することが大切だ。	It is important to understand sales.
+n2-114-うろうろ	うろうろ	うろうろ	loiteringly,aimless wandering	名词	彼は道でうろうろしていた。	He was wandering aimlessly on the street.
+n2-115-うんか	運河	うんが	canal,waterway	名词	運河に関する問題が出た。	A question about canal came up.
+n2-116-うんと	うんと	うんと	a great deal,very much	副词	うんと頑張って勉強した。	I studied very hard.
+n2-117-えいふ-ん	英文	えいぶん	sentence in English	名词	英文を理解することが大切だ。	It is important to understand sentence in English.
+n2-118-えいわ	英和	えいわ	English-Japanese (e.g. dictionary)	名词	英和を理解することが大切だ。	It is important to understand English-Japanese (e.g. dictionary).
+n2-119-ええと	ええと	ええと	let me see,well,er....	副词	ええとを理解することが大切だ。	It is important to understand let me see.
+n2-120-えきたい	液体	えきたい	liquid,fluid	名词	この液体は危険だ。	This liquid is dangerous.
+n2-121-えのく	絵の具	えのぐ	colors,paints	名词	絵の具に関する問題が出た。	A question about colors came up.
+n2-122-えらい	偉い	えらい	great,celebrated,eminent,terrible,awful,famous,remarkable,excellent	名词	偉いを理解することが大切だ。	It is important to understand great.
+n2-123-えんかい	宴会	えんかい	party,banquet	名词	会社の宴会に参加した。	I attended the company banquet.
+n2-124-えんけ-い	園芸	えんげい	horticulture,gardening	名词	園芸が趣味だ。	Gardening is my hobby.
+n2-125-えんけ-き	演劇	えんげき	play (theatrical)	名词	演劇部に入っている。	I'm in the drama club.
+n2-126-えんしゅう	円周	えんしゅう	circumference	名词	円周を理解することが大切だ。	It is important to understand circumference.
+n2-127-えんそく	遠足	えんそく	trip,hike,picnic	名词	明日は遠足だ。	Tomorrow is the field trip.
+n2-128-えんちょう	延長	えんちょう	extension,elongation,prolongation,lengthening	名词	会議が一時間延長された。	The meeting was extended by one hour.
+n2-129-えんとつ	煙突	えんとつ	chimney	名词	煙突に関する問題が出た。	A question about chimney came up.
+n2-130-おいかける	追い掛ける	おいかける	to chase or run after someone,to run down,to pursue	动词	毎日追い掛けるようにしている。	I try to to chase or run after someone every day.
+n2-131-おいこす	追い越す	おいこす	to pass (e.g. car),to outdistance,to outstrip	动词	追い越すことにした。	I decided to to pass (e.g. car).
+n2-132-おうえん	応援	おうえん	aid,assistance,help,reinforcement	名词	試合で友達を応援した。	I cheered for my friend at the match.
+n2-133-おうし-ょ	王女	おうじょ	princess	名词	王女に関する問題が出た。	A question about princess came up.
+n2-134-おうす-る	応ずる	おうずる	to answer,to respond,to meet,to satisfy,to accept	动词	彼は応ずることができる。	He can to answer.
+n2-135-おうせつ	応接	おうせつ	reception	名词	応接室でお待ちください。	Please wait in the reception room.
+n2-136-おうたい	応対	おうたい	receiving,dealing with	名词	お客様の応対をする。	I deal with customers.
+n2-137-おうふく	往復	おうふく	(col) round trip,coming and going,return ticket	名词	往復に関する問題が出た。	A question about (col) round trip came up.
+n2-138-おうへ-い	欧米	おうべい	Europe and America,the West	名词	欧米の文化に興味がある。	I'm interested in Western culture.
+n2-139-おうよう	応用	おうよう	application,put to practical use	名词	理論を応用して問題を解く。	I solve problems by applying theory.
+n2-140-おおさ-っは	おおざっぱ	おおざっぱ	rough (not precise),broad,sketchy	名词	おおざっぱに関する問題が出た。	A question about rough (not precise) came up.
+n2-141-おおと-おり	大通り	おおどおり	main street	名词	大通りを理解することが大切だ。	It is important to understand main street.
+n2-142-おおよそ	大凡	おおよそ	about,roughly,as a rule,approximately	名词	大凡を理解することが大切だ。	It is important to understand about.
+n2-143-おかえり	お帰り	おかえり	return,welcome	名词	子どもが「お帰り」と言った。	The child said 'Welcome back.'
+n2-144-おかけ-さまて	おかげさまで	おかげさまで	Thanks to god,thanks to you	名词	おかげさまで元気です。	I'm doing well, thanks to you.
+n2-145-おかす	おかず	おかず	side dish,accompaniment for rice dishes	名词	おかずに関する問題が出た。	A question about side dish came up.
+n2-146-おかわり	お代わり	おかわり	second helping,another cup	名词	ご飯のお代わりをください。	Please give me seconds of rice.
+n2-147-おか-む	拝む	おがむ	to worship,to beg,to make a supplication	动词	毎日拝むようにしている。	I try to to worship every day.
+n2-oginau	補う	おぎなう	to compensate for	动词	毎日補うようにしている。	I try to to compensate for every day.
+n2-149-おくか-い	屋外	おくがい	outdoors	名词	屋外を理解することが大切だ。	It is important to understand outdoors.
+n2-150-おくさん	おくさん	おくさん	(hon) wife,your wife,madam	名词	田中さんの奥さんに会った。	I met Mr. Tanaka's wife.
+n2-151-おくりか-な	送り仮名	おくりがな	part of word written in kana	名词	送り仮名を間違えた。	I made a mistake with the okurigana.
+n2-152-おこたる	怠る	おこたる	to neglect,to be off guard,to be feeling better	动词	怠ることにした。	I decided to to neglect.
+n2-153-おさえる	押える	おさえる	to stop,to restrain,to seize,to repress,to suppress,to press down	动词	毎日押えるようにしている。	I try to to stop every day.
+n2-154-おさきに	おさきに	おさきに	before,ahead,previously	副词	おさきにに関する問題が出た。	A question about before came up.
+n2-155-おさめる	納める	おさめる	to obtain,to reap,to pay,to supply,to accept	动词	もっと納める必要がある。	There is a need to to obtain more.
+n2-156-おしい	惜しい	おしい	regrettable,disappointing,precious	名词	惜しいを理解することが大切だ。	It is important to understand regrettable.
+n2-157-おしゃれ	おしゃれ	おしゃれ	smartly dressed,someone smartly dressed,fashion-conscious	名词	おしゃれを理解することが大切だ。	It is important to understand smartly dressed.
+n2-158-おし-き	御辞儀	おじぎ	bow	名词	先生にお辞儀をした。	I bowed to the teacher.
+n2-159-おし-さん	伯父さん	おじさん	middle-aged gentleman,uncle	名词	伯父さんを理解することが大切だ。	It is important to understand middle-aged gentleman.
+n2-160-おし-ゃまします	おじゃまします	おじゃまします	Excuse me for disturbing you	名词	おじゃましますに関する問題が出た。	A question about Excuse me for disturbing you came up.
+n2-161-おそわる	教わる	おそわる	to be taught	动词	彼は教わることができる。	He can to be taught.
+n2-162-おた-いし-に	おだいじに	おだいじに	Take care of yourself	副词	おだいじにを理解することが大切だ。	It is important to understand Take care of yourself.
+n2-163-おちつく	落着く	おちつく	to calm down,to settle down	动词	落着くことにした。	I decided to to calm down.
+n2-164-おてつた-いさん	お手伝いさん	おてつだいさん	maid	名词	うちにはお手伝いさんがいる。	We have a maid at home.
+n2-165-おとしもの	落し物	おとしもの	lost property	名词	落し物を届けた。	I turned in a lost item.
+n2-166-おととい	おととい	おととい	day before yesterday	名词	おととい友達と映画を見た。	I watched a movie with my friend the day before yesterday.
+n2-167-おととし	おととし	おととし	year before last	名词	おととしを理解することが大切だ。	It is important to understand year before last.
+n2-168-おとなしい	おとなしい	おとなしい	obedient,docile,quiet	名词	あの子はおとなしい性格だ。	That child has a quiet personality.
+n2-169-おと-かす	おどかす	おどかす	to threaten,to coerce	动词	おどかすことにした。	I decided to to threaten.
+n2-170-おと-ろかす	驚かす	おどろかす	to surprise,to frighten,to create a stir	动词	彼は驚かすことができる。	He can to surprise.
+n2-171-おねか-いします	おねがいします	おねがいします	please	名词	お願いします、手伝ってください。	Please help me.
+n2-172-おのおの	各々	おのおの	each,every,either,respectively,severally	名词	各々を理解することが大切だ。	It is important to understand each.
+n2-173-おはよう	おはよう	おはよう	(abbr) Good morning	名词	おはようを理解することが大切だ。	It is important to understand (abbr) Good morning.
+n2-174-おは-さん	叔母さん	おばさん	(1) aunt,(2) middle-aged lady	名词	叔母さんの家に泊まった。	I stayed at my aunt's house.
+n2-175-おまいり	お参り	おまいり	worship,shrine visit	名词	神社にお参りに行った。	I went to visit the shrine.
+n2-176-おまたせしました	おまたせしました	おまたせしました	Sorry to have kept you waiting	名词	おまたせしましたに関する問題が出た。	A question about Sorry to have kept you waiting came up.
+n2-177-おまちと-おさま	おまちどおさま	おまちどおさま	Sorry to have kept you waiting	名词	おまちどおさまに関する問題が出た。	A question about Sorry to have kept you waiting came up.
+n2-178-おめて-たい	おめでたい	おめでたい	happy event,matter for congratulation,auspicious event,pregnancy	名词	おめでたいことが続いている。	Happy events keep happening.
+n2-179-おもいか-けない	思い掛けない	おもいがけない	unexpected,casual	名词	思いがけない人に会った。	I ran into someone unexpectedly.
+n2-180-おもいこむ	思い込む	おもいこむ	to be under impression that,to be convinced that	动词	思い込むのは難しい。	It is difficult to to be under impression that.
+n2-181-おもいつく	思い付く	おもいつく	to think of,to hit upon	动词	思い付くことにした。	I decided to to think of.
+n2-182-おもたい	重たい	おもたい	heavy,massive,serious	名词	この荷物は重たい。	This luggage is heavy.
+n2-183-おやすみ	おやすみ	おやすみ	(1) holiday,absence,rest,(2) (exp) Good night	名词	おやすみに関する問題が出た。	A question about (1) holiday came up.
+n2-184-おやつ	おやつ	おやつ	(1) between meal snack,afternoon refreshment	名词	三時におやつを食べる。	I have a snack at three o'clock.
+n2-185-おやゆひ	親指	おやゆび	thumb	名词	親指に関する問題が出た。	A question about thumb came up.
+n2-186-おろす	卸す	おろす	to sell wholesale,grated (vegetables)	动词	毎日卸すようにしている。	I try to to sell wholesale every day.
+n2-187-おんけい	恩恵	おんけい	grace,favor,blessing,benefit	名词	自然の恩恵を受けている。	We receive the blessings of nature.
+n2-188-おんしつ	温室	おんしつ	greenhouse	名词	温室を理解することが大切だ。	It is important to understand greenhouse.
+n2-189-おんせん	温泉	おんせん	spa,hot spring,onsen	名词	温泉に関する問題が出た。	A question about spa came up.
+n2-190-おんたい	温帯	おんたい	temperate zone	名词	温帯を理解することが大切だ。	It is important to understand temperate zone.
+n2-191-おんちゅう	御中	おんちゅう	and Company,Messrs.	名词	株式会社ABC御中と書く。	Write 'ABC Company, Attention:'
+n2-192-おんなのひと	女の人	おんなのひと	woman	副词	女の人に関する問題が出た。	A question about woman came up.
+n2-193-か	蚊	か	mosquito	名词	蚊に刺された。	I was bitten by a mosquito.
+n2-194-かい	貝	かい	shell,shellfish	名词	海で貝を拾った。	I picked up shells at the beach.
+n2-195-かいかい	開会	かいかい	opening of a meeting	名词	開会の挨拶をした。	I gave the opening remarks.
+n2-196-かいかん	会館	かいかん	meeting hall,assembly hall	名词	会館を理解することが大切だ。	It is important to understand meeting hall.
+n2-197-かいさつ	改札	かいさつ	examination of tickets	名词	改札に関する問題が出た。	A question about examination of tickets came up.
+n2-198-かいさん	解散	かいさん	breakup,dissolution	名词	グループが解散した。	The group broke up.
+n2-199-かいすいよく	海水浴	かいすいよく	sea bathing,seawater bath	名词	海水浴に関する問題が出た。	A question about sea bathing came up.
+n2-200-かいすう	回数	かいすう	number of times,frequency	名词	運動の回数を増やす。	I'll increase the number of exercises.
+n2-201-かいすうけん	回数券	かいすうけん	book of tickets	名词	電車の回数券を買った。	I bought a book of train tickets.
+n2-202-かいせい	改正	かいせい	revision,amendment,alteration	名词	法律が改正された。	The law was revised.
+n2-203-かいせつ	解説	かいせつ	explanation,commentary	名词	ニュースの解説を聞いた。	I listened to the news commentary.
+n2-204-かいそ-う	改造	かいぞう	(1) remodeling,(2) modding (comp)	名词	車を改造した。	I modified my car.
+n2-205-かいつう	開通	かいつう	opening,open	名词	新しい道路が開通した。	A new road has opened.
+n2-206-かいてん	回転	かいてん	rotation,revolution,turning	名词	地球は太陽の周りを回転する。	The Earth revolves around the sun.
+n2-207-かいとう	解答	かいとう	answer,solution	名词	解答に関する問題が出た。	A question about answer came up.
+n2-208-かいほう	解放	かいほう	release,liberation,emancipation	名词	人質が解放された。	The hostages were released.
+n2-209-かいよう	海洋	かいよう	ocean	名词	海洋を理解することが大切だ。	It is important to understand ocean.
+n2-210-かえす	帰す	かえす	to send back	动词	もっと帰す必要がある。	There is a need to to send back more.
+n2-211-かえって	却って	かえって	on the contrary,rather,all the more,instead	名词	急いだのに却って遅れた。	Even though I hurried, I was late instead.
+n2-212-かえる	代える	かえる	to exchange,to interchange,to substitute,to replace	动词	毎日代えるようにしている。	I try to to exchange every day.
+n2-213-かおく	家屋	かおく	house,building	名词	古い家屋が残っている。	Old buildings remain.
+n2-214-かかわる	係わる	かかわる	to concern oneself in,to have to do with,to affect,to influence,to stick to (opinions)	动词	もっと係わる必要がある。	There is a need to to concern oneself in more.
+n2-215-かきとめ	書留	かきとめ	writing down,putting on record,recording,making a note of,registration (of mail)	名词	書留で送ってください。	Please send it by registered mail.
+n2-216-かきとり	書取	かきとり	dictation	名词	英語の書取テストがあった。	There was an English dictation test.
+n2-217-かきね	垣根	かきね	hedge	名词	垣根に関する問題が出た。	A question about hedge came up.
+n2-218-かく	掻く	かく	to scratch,to perspire	动词	掻くことにした。	I decided to to scratch.
+n2-219-かくう	架空	かくう	aerial,overhead,fiction,fanciful	名词	架空を理解することが大切だ。	It is important to understand aerial.
+n2-220-かくし	各自	かくじ	individual,each	名词	各自で準備してください。	Please prepare individually.
+n2-221-かくし-ゅう	拡充	かくじゅう	expansion	名词	拡充に関する問題が出た。	A question about expansion came up.
+n2-222-かくち	各地	かくち	every place,various places	名词	全国各地で雨が降った。	It rained in various places nationwide.
+n2-223-かくちょう	拡張	かくちょう	expansion,extension,enlargement,escape (ESC)	名词	事業を拡張する計画だ。	We plan to expand the business.
+n2-224-かくと	角度	かくど	angle	名词	この角度から見てみて。	Try looking from this angle.
+n2-225-かくへ-つ	格別	かくべつ	exceptional	名词	今日のケーキは格別に美味しい。	Today's cake is exceptionally delicious.
+n2-226-かくりつ	確率	かくりつ	probability	名词	当選の確率は低い。	The probability of winning is low.
+n2-227-かく	嗅ぐ	かぐ	to sniff,to smell	动词	彼は嗅ぐことができる。	He can to sniff.
+n2-228-かけさ-ん	掛け算	かけざん	multiplication	名词	かけ算を習っている。	I'm learning multiplication.
+n2-229-かけつ	可決	かけつ	approval,adoption (e.g. motion, bill),passage	名词	法案が可決された。	The bill was passed.
+n2-230-かこう	火口	かこう	a burner,origin of a fire	名词	火山の火口を見た。	I saw the volcano's crater.
+n2-231-かさなる	重なる	かさなる	to be piled up,lie on top of one another,overlap each other	动词	重なるのは難しい。	It is difficult to to be piled up.
+n2-232-かさねる	重ねる	かさねる	to pile up,to put something on another,to heap up,to add,to repeat	动词	彼は重ねることができる。	He can to pile up.
+n2-233-かさ-り	飾り	かざり	decoration	名词	部屋に飾りをつけた。	I put decorations in the room.
+n2-234-かさ-ん	火山	かざん	volcano	名词	火山を理解することが大切だ。	It is important to understand volcano.
+n2-235-かしこまりました	かしこまりました	かしこまりました	certainly!	名词	かしこまりましたに関する問題が出た。	A question about certainly! came up.
+n2-236-かした-し	貸し出し	かしだし	lending,loaning	名词	本の貸し出し期間は二週間だ。	The book lending period is two weeks.
+n2-237-かしつ	過失	かしつ	error,blunder,accident	名词	運転手の過失だった。	It was the driver's error.
+n2-238-かしま	貸間	かしま	room to let	名词	貸間を探している。	I'm looking for a room to rent.
+n2-239-かしや	貸家	かしや	house for rent	名词	貸家に関する問題が出た。	A question about house for rent came up.
+n2-240-かしょ	個所	かしょ	passage,place,point,part	名词	間違っている個所を直してください。	Please correct the wrong parts.
+n2-241-かし-つ	果実	かじつ	fruit,nut,berry.	名词	木に果実がなっている。	Fruit is growing on the tree.
+n2-242-かし-ょう	過剰	かじょう	excess,over-	名词	過剰に関する問題が出た。	A question about excess came up.
+n2-243-かし-る	かじる	かじる	to chew,to bite (at),to gnaw,to nibble	动词	もっとかじる必要がある。	There is a need to to chew more.
+n2-244-かせん	下線	かせん	underline,underscore	名词	重要な単語に下線を引く。	I underline important words.
+n2-245-かせ-い	課税	かぜい	taxation	名词	収入に対して課税される。	Income is taxed.
+n2-246-かそく	加速	かそく	acceleration	名词	車が加速した。	The car accelerated.
+n2-247-かそくと	加速度	かそくど	acceleration	名词	加速度を理解することが大切だ。	It is important to understand acceleration.
+n2-248-かたかな	片仮名	かたかな	katakana	名词	片仮名に関する問題が出た。	A question about katakana came up.
+n2-249-かたつ-く	片付く	かたづく	to put in order,to dispose of,to solve	动词	片付くのは難しい。	It is difficult to to put in order.
+n2-250-かたまり	塊	かたまり	lump,mass,clod,cluster	名词	粘土の塊を買った。	I bought a lump of clay.
+n2-251-かたまる	固まる	かたまる	to harden,to solidify,to become firm,to become certain	动词	固まるのは難しい。	It is difficult to to harden.
+n2-252-かたみち	片道	かたみち	one-way (trip)	名词	片道切符を買った。	I bought a one-way ticket.
+n2-253-かたむく	傾く	かたむく	to incline toward,to slant,to lurch	动词	傾くのは難しい。	It is difficult to to incline toward.
+n2-254-かたよる	片寄る	かたよる	to be one-sided,to incline,to be partial	动词	毎日片寄るようにしている。	I try to to be one-sided every day.
+n2-255-かっこ	括弧	かっこ	parenthesis,brackets	名词	括弧の中に答えを書く。	Write the answer in the parentheses.
+n2-256-かつく	担ぐ	かつぐ	to shoulder,to carry on shoulder	动词	彼は担ぐことができる。	He can to shoulder.
+n2-257-かつし	活字	かつじ	printing type	名词	活字で印刷されている。	It's printed in type.
+n2-258-かつやく	活躍	かつやく	activity	名词	活躍に関する問題が出た。	A question about activity came up.
+n2-259-かつりょく	活力	かつりょく	vitality,energy	名词	彼は活力に満ちている。	He is full of vitality.
+n2-260-かてい	仮定	かてい	assumption,supposition,hypothesis	名词	仮定を理解することが大切だ。	It is important to understand assumption.
+n2-261-かな	仮名	かな	(n) alias,pseudonym,pen name	名词	仮名を理解することが大切だ。	It is important to understand (n) alias.
+n2-262-かなつ-かい	仮名遣い	かなづかい	kana orthography,syllabary spelling	名词	正しい仮名遣いを学ぶ。	I learn correct kana orthography.
+n2-263-かね	鐘	かね	bell,chime	名词	寺の鐘が鳴っている。	The temple bell is ringing.
+n2-264-かねつ	加熱	かねつ	heating	名词	加熱を理解することが大切だ。	It is important to understand heating.
+n2-265-かねる	兼ねる	かねる	to hold (position),to serve,to be unable	动词	毎日兼ねるようにしている。	I try to to hold (position) every day.
+n2-266-かはんすう	過半数	かはんすう	majority	名词	過半数を理解することが大切だ。	It is important to understand majority.
+n2-267-かふ-せる	被せる	かぶせる	to cover (with something)	动词	もっと被せる必要がある。	There is a need to to cover (with something) more.
+n2-268-かま	釜	かま	iron pot,kettle	名词	釜を理解することが大切だ。	It is important to understand iron pot.
+n2-269-かみくす	紙屑	かみくず	wastepaper	名词	紙屑をゴミ箱に捨てる。	I throw wastepaper in the trash.
+n2-270-かみさま	神様	かみさま	god	名词	神様にお願いした。	I prayed to God.
+n2-271-かみそり	剃刀	かみそり	razor	名词	剃刀を理解することが大切だ。	It is important to understand razor.
+n2-272-かもつ	貨物	かもつ	cargo,freight	名词	貨物列車が通過した。	A freight train passed by.
+n2-273-かゆい	かゆい	かゆい	itchy,itching	名词	かゆいに関する問題が出た。	A question about itchy came up.
+n2-274-かよう	歌謡	かよう	song,ballad	名词	歌謡を理解することが大切だ。	It is important to understand song.
+n2-275-から	殻	から	shell,husk,hull,chaff	名词	殻に関する問題が出た。	A question about shell came up.
+n2-276-からかう	からかう	からかう	to ridicule,to tease,to banter with,to make fun of	动词	毎日からかうようにしている。	I try to to ridicule every day.
+n2-277-からっほ	空っぽ	からっぽ	empty,vacant,hollow	名词	冷蔵庫が空っぽだ。	The refrigerator is empty.
+n2-278-かるた	かるた	かるた	(n) playing cards (pt: carta)	名词	正月にかるたで遊んだ。	I played karuta on New Year's.
+n2-279-かれる	枯れる	かれる	to wither,to die (plant),to be blasted (plant)	动词	もっと枯れる必要がある。	There is a need to to wither more.
+n2-280-かわいか-る	かわいがる	かわいがる	to love,to be affectionate	动词	彼はかわいがることができる。	He can to love.
+n2-281-かわかす	乾かす	かわかす	to dry (clothes, etc.),to desiccate	动词	彼は乾かすことができる。	He can to dry (clothes.
+n2-282-かわく	渇く	かわく	to be thirsty	动词	もっと渇く必要がある。	There is a need to to be thirsty more.
+n2-283-かわせ	為替	かわせ	money order,exchange	名词	為替を理解することが大切だ。	It is important to understand money order.
+n2-284-かわら	瓦	かわら	roof tile	名词	瓦に関する問題が出た。	A question about roof tile came up.
+n2-285-かわる	代る	かわる	(v5r,vi) to take the place of,to relieve,to be substituted for	动词	代るのは難しい。	It is difficult to (v5r.
+n2-286-かんかく	間隔	かんかく	space,interval,SPC	名词	電車の間隔が短い。	The interval between trains is short.
+n2-287-かんき	換気	かんき	ventilation	名词	換気に関する問題が出た。	A question about ventilation came up.
+n2-288-かんけ-き	感激	かんげき	deep emotion,impression,inspiration	名词	彼の演技に感激した。	I was moved by his performance.
+n2-289-かんしょう	鑑賞	かんしょう	appreciation	名词	鑑賞に関する問題が出た。	A question about appreciation came up.
+n2-290-かんす-る	感ずる	かんずる	to feel,to sense	动词	毎日感ずるようにしている。	I try to to feel every day.
+n2-291-かんせつ	間接	かんせつ	indirection,indirectness	名词	間接的に伝えた。	I communicated indirectly.
+n2-292-かんそう	乾燥	かんそう	dry,arid,insipid,dehydrated	名词	冬は空気が乾燥する。	The air dries out in winter.
+n2-293-かんそく	観測	かんそく	observation	名词	観測を理解することが大切だ。	It is important to understand observation.
+n2-294-かんたい	寒帯	かんたい	frigid zone	名词	寒帯には氷河がある。	There are glaciers in the frigid zone.
+n2-295-かんちか-い	勘違い	かんちがい	misunderstanding,wrong guess	名词	勘違いして違う駅で降りた。	I got off at the wrong station by mistake.
+n2-296-かんちょう	官庁	かんちょう	government office,authorities	名词	官庁を理解することが大切だ。	It is important to understand government office.
+n2-297-かんつ-め	缶詰	かんづめ	packing (in cans),canning,canned goods,tin can	名词	缶詰に関する問題が出た。	A question about packing (in cans) came up.
+n2-298-かんて-んち	乾電池	かんでんち	dry cell,battery	名词	リモコンの乾電池を交換した。	I changed the batteries in the remote.
+n2-299-かんとう	関東	かんとう	eastern half of Japan, including Tokyo	名词	関東を理解することが大切だ。	It is important to understand eastern half of Japan.
+n2-300-かんねん	観念	かんねん	(1) idea,notion,conception,(2) sense (e.g. of duty)	名词	固定観念を捨てよう。	Let's abandon fixed ideas.
+n2-301-かんは-ん	看板	かんばん	sign,signboard,doorplate,poster	名词	看板を理解することが大切だ。	It is important to understand sign.
+n2-302-かんは-い	乾杯	かんぱい	toast (drink)	名词	乾杯を理解することが大切だ。	It is important to understand toast (drink).
+n2-303-かんひ-ょう	看病	かんびょう	nursing (a patient)	名词	看病を理解することが大切だ。	It is important to understand nursing (a patient).
+n2-304-かんむり	冠	かんむり	crown,diadem,first,best	名词	王様が冠をかぶっている。	The king is wearing a crown.
+n2-305-かんわ	漢和	かんわ	Chinese Character-Japanese (e.g. dictionary)	名词	漢和辞典を引いた。	I looked it up in a Chinese-Japanese dictionary.
+n2-306-か-いふ	外部	がいぶ	the outside,external	名词	外部の人には話さない。	I don't talk to outsiders.
+n2-307-か-いろん	概論	がいろん	intro,outline,general remarks	名词	経済学概論を受講した。	I took Introduction to Economics.
+n2-308-か-くし-ゅつ	学術	がくじゅつ	science,learning,scholarship	名词	学術を理解することが大切だ。	It is important to understand science.
+n2-309-か-くねん	学年	がくねん	year in school,grade in school	名词	今年、学年が上がった。	I moved up a grade this year.
+n2-310-か-くふ	学部	がくぶ	department of a university,undergraduate	名词	工学部に所属している。	I belong to the engineering department.
+n2-311-か-くりょく	学力	がくりょく	scholarship,knowledge,literary ability	名词	学力テストを受けた。	I took an academic ability test.
+n2-312-か-っか	学科	がっか	study subject,course of study	名词	学科を理解することが大切だ。	It is important to understand study subject.
+n2-313-か-っかい	学会	がっかい	scientific society,academic meeting	名词	学会で発表する予定だ。	I plan to present at the conference.
+n2-314-か-っき	楽器	がっき	musical instrument	名词	楽器に関する問題が出た。	A question about musical instrument came up.
+n2-315-か-っきゅう	学級	がっきゅう	grade in school	名词	学級を理解することが大切だ。	It is important to understand grade in school.
+n2-316-きあつ	気圧	きあつ	atmospheric pressure	名词	台風で気圧が下がった。	The pressure dropped due to the typhoon.
+n2-317-きかい	器械	きかい	instrument	名词	器械に関する問題が出た。	A question about instrument came up.
+n2-318-きかんしゃ	機関車	きかんしゃ	locomotive,engine	名词	機関車を理解することが大切だ。	It is important to understand locomotive.
+n2-319-きか-え	着替え	きがえ	changing clothes,change of clothes	名词	着替えに関する問題が出た。	A question about changing clothes came up.
+n2-320-ききん	飢饉	ききん	famine	名词	飢饉を理解することが大切だ。	It is important to understand famine.
+n2-321-きく	器具	きぐ	utensil	名词	器具に関する問題が出た。	A question about utensil came up.
+n2-322-きけ-ん	期限	きげん	term,period	名词	提出期限は来週だ。	The deadline is next week.
+n2-323-きこ-う	記号	きごう	symbol,code	名词	記号に関する問題が出た。	A question about symbol came up.
+n2-324-きさ-む	刻む	きざむ	to mince,to carve,to engrave	动词	刻むことにした。	I decided to to mince.
+n2-325-きしょう	起床	きしょう	rising,getting out of bed	名词	毎朝六時に起床する。	I get up at six every morning.
+n2-326-きし-ゅん	基準	きじゅん	standard,basis,criteria,norm	名词	安全基準を満たしている。	It meets safety standards.
+n2-327-きせる	着せる	きせる	to put on clothes	动词	彼は着せることができる。	He can to put on clothes.
+n2-328-きそ	基礎	きそ	foundation,basis	名词	基礎に関する問題が出た。	A question about foundation came up.
+n2-329-きたい	気体	きたい	vapour,gas	名词	水が気体になる。	Water turns into gas.
+n2-330-きち	基地	きち	base	名词	米軍基地が近くにある。	There's a US military base nearby.
+n2-331-きっかけ	きっかけ	きっかけ	chance,start,cue,excuse	名词	留学がきっかけで日本語を始めた。	I started Japanese because of studying abroad.
+n2-332-きは-ん	基盤	きばん	foundation,basis	名词	経済の基盤を作る。	Build an economic foundation.
+n2-333-きゃくせき	客席	きゃくせき	guest seating	名词	客席から拍手が起きた。	Applause arose from the audience seats.
+n2-334-きゃくま	客間	きゃくま	parlor,guest room	名词	客間に関する問題が出た。	A question about parlor came up.
+n2-335-きゅうき-ょう	休業	きゅうぎょう	closed (e.g. store),business suspended,shutdown,holiday	名词	台風で休業になった。	We closed due to the typhoon.
+n2-336-きゅうこう	休講	きゅうこう	lecture cancelled	名词	休講を理解することが大切だ。	It is important to understand lecture cancelled.
+n2-337-きゅうそく	休息	きゅうそく	rest,relief,relaxation	名词	休息を取ってから続けよう。	Let's rest and then continue.
+n2-338-きゅうよ	給与	きゅうよ	allowance,grant,supply	名词	給与が上がった。	My salary increased.
+n2-339-きゅうよう	休養	きゅうよう	rest,break,recreation	名词	休養に関する問題が出た。	A question about rest came up.
+n2-340-きょうか	強化	きょうか	strengthen,intensify,reinforce,solidify	名词	強化に関する問題が出た。	A question about strengthen came up.
+n2-341-きょうかい	境界	きょうかい	boundary	名词	県との境界に川がある。	There's a river at the border with the prefecture.
+n2-342-きょうしゅく	恐縮	きょうしゅく	shame,very kind of you,sorry to trouble	名词	恐縮ですがお願いがあります。	I'm sorry to trouble you, but I have a request.
+n2-343-きょうよう	教養	きょうよう	culture,education,refinement,cultivation	名词	教養を理解することが大切だ。	It is important to understand culture.
+n2-344-きょくせん	曲線	きょくせん	curve	名词	曲線を描くのは難しい。	Drawing curves is difficult.
+n2-345-きよい	清い	きよい	clear,pure,noble	名词	清い水が流れている。	Clear water is flowing.
+n2-346-きりつ	規律	きりつ	order,rules,law	名词	規律を守る必要がある。	It's necessary to follow the rules.
+n2-347-きる	斬る	きる	(v5r) to behead,to murder	动词	毎日斬るようにしている。	I try to (v5r) to behead every day.
+n2-348-きをつける	気を付ける	きをつける	to be careful,to pay attention,to take care	动词	気を付けることにした。	I decided to to be careful.
+n2-349-きんき-ょ	金魚	きんぎょ	goldfish	名词	金魚を飼っている。	I keep goldfish.
+n2-350-き-しき	儀式	ぎしき	ceremony,rite,ritual,service	名词	結婚式は儀式の一つだ。	A wedding is one type of ceremony.
+n2-351-き-っしり	ぎっしり	ぎっしり	tightly,fully	名词	予定がぎっしり詰まっている。	My schedule is packed.
+n2-352-き-ょうし	行事	ぎょうじ	event,function	名词	行事に関する問題が出た。	A question about event came up.
+n2-353-き-ょうれつ	行列	ぎょうれつ	(1) line,procession,(2) matrix (math)	名词	ラーメン屋に行列ができている。	There's a line at the ramen shop.
+n2-354-き-ょき-ょう	漁業	ぎょぎょう	fishing (industry)	名词	漁業を理解することが大切だ。	It is important to understand fishing (industry).
+n2-355-くいき	区域	くいき	limits,boundary,domain,zone,sphere,territory	名词	禁煙区域に入った。	I entered a no-smoking zone.
+n2-356-くうそう	空想	くうそう	daydream,fantasy,fancy,vision	名词	空想に浸るのが好きだ。	I like to indulge in daydreams.
+n2-357-くうちゅう	空中	くうちゅう	sky,air	名词	空中に関する問題が出た。	A question about sky came up.
+n2-358-くき	釘	くぎ	nail	名词	壁に釘を打った。	I hammered a nail into the wall.
+n2-359-くき-る	区切る	くぎる	to punctuate,to cut off,to mark off,to stop,to put an end to	动词	毎日区切るようにしている。	I try to to punctuate every day.
+n2-360-くし	櫛	くし	comb	名词	櫛で髪をとかす。	I comb my hair with a comb.
+n2-361-くしゃみ	くしゃみ	くしゃみ	sneeze	名词	くしゃみが止まらない。	I can't stop sneezing.
+n2-362-くしん	苦心	くしん	pain,trouble	名词	苦心に関する問題が出た。	A question about pain came up.
+n2-363-くし-ょう	苦情	くじょう	complaint,troubles,objection	名词	苦情を理解することが大切だ。	It is important to understand complaint.
+n2-364-くすりゆひ	薬指	くすりゆび	ring finger	名词	薬指を理解することが大切だ。	It is important to understand ring finger.
+n2-365-くす	屑	くず	waste,scrap	名词	屑を理解することが大切だ。	It is important to understand waste.
+n2-366-くす-す	崩す	くずす	to destroy,to pull down,to make change (money)	动词	崩すのは難しい。	It is difficult to to destroy.
+n2-367-くす-れる	崩れる	くずれる	to collapse,to crumble	动词	崩れることにした。	I decided to to collapse.
+n2-368-くたひ-れる	くたびれる	くたびれる	to get tired,to wear out	动词	もっとくたびれる必要がある。	There is a need to to get tired more.
+n2-369-くた-く	砕く	くだく	to break,to smash	动词	もっと砕く必要がある。	There is a need to to break more.
+n2-370-くた-ける	砕ける	くだける	to break,to be broken	动词	毎日砕けるようにしている。	I try to to break every day.
+n2-371-くた-らない	くだらない	くだらない	good-for-nothing,stupid,trivial,worthless	形容词	くだらない話をするな。	Don't talk nonsense.
+n2-372-くた-る	下る	くだる	to get down,to descend	动词	もっと下る必要がある。	There is a need to to get down more.
+n2-373-くちひ-る	唇	くちびる	lips	名词	唇が乾燥している。	My lips are dry.
+n2-374-くちへ-に	口紅	くちべに	lipstick	副词	口紅を理解することが大切だ。	It is important to understand lipstick.
+n2-375-くっつく	くっつく	くっつく	to adhere to,to keep close to	动词	彼はくっつくことができる。	He can to adhere to.
+n2-376-くっつける	くっつける	くっつける	to attach	动词	くっつけることにした。	I decided to to attach.
+n2-377-くとうてん	句読点	くとうてん	punctuation marks	名词	句読点に関する問題が出た。	A question about punctuation marks came up.
+n2-378-くと-い	くどい	くどい	verbose,importunate,heavy (taste)	名词	この味はくどい。	This taste is too rich.
+n2-379-くは-る	配る	くばる	to distribute,to deliver	动词	彼は配ることができる。	He can to distribute.
+n2-380-くふう	工夫	くふう	labourer,worker	名词	いろいろ工夫してみた。	I tried various ideas.
+n2-381-くふ-ん	区分	くぶん	division,section,classification	名词	区分に関する問題が出た。	A question about division came up.
+n2-382-くみあわせ	組合せ	くみあわせ	combination	名词	組合せを理解することが大切だ。	It is important to understand combination.
+n2-383-くみたてる	組み立てる	くみたてる	to assemble,to set up,to construct	动词	組み立てるのは難しい。	It is difficult to to assemble.
+n2-384-くむ	汲む	くむ	(1) to draw (water),to dip,to scoop,to pump	动词	汲むのは難しい。	It is difficult to (1) to draw (water).
+n2-385-くやしい	悔しい	くやしい	regrettable,mortifying,vexing	名词	試合に負けて悔しい。	I'm frustrated that I lost the game.
+n2-386-くやむ	悔やむ	くやむ	to mourn	动词	悔やむことにした。	I decided to to mourn.
+n2-387-くるむ	くるむ	くるむ	to be engulfed in,to be enveloped by,to wrap up	动词	もっとくるむ必要がある。	There is a need to to be engulfed in more.
+n2-388-くれく-れも	くれぐれも	くれぐれも	repeatedly,sincerely,earnestly	名词	くれぐれも気をつけてね。	Please be very careful.
+n2-389-く-うすう	偶数	ぐうすう	even number	名词	偶数と奇数を分ける。	Separate even and odd numbers.
+n2-390-く-ん	郡	ぐん	country,district	名词	この郡には五つの町がある。	There are five towns in this county.
+n2-391-けいこ	稽古	けいこ	practice,training,study	名词	毎日稽古をしている。	I practice every day.
+n2-392-けいこうとう	蛍光灯	けいこうとう	fluorescent lamp,person who is slow to react	名词	蛍光灯に関する問題が出た。	A question about fluorescent lamp came up.
+n2-393-けいこ	敬語	けいご	honorific,term of respect	名词	敬語を使うのが難しい。	Using honorifics is difficult.
+n2-394-けいしき	形式	けいしき	form,formality,format,math expression	名词	形式的な挨拶だった。	It was a formal greeting.
+n2-395-けいそ-く	継続	けいぞく	continuation	名词	努力を継続することが大切だ。	It's important to continue making efforts.
+n2-396-けいと	毛糸	けいと	knitting wool	副词	毛糸を理解することが大切だ。	It is important to understand knitting wool.
+n2-397-けいとう	系統	けいとう	system,family line,geological formation	名词	系統を理解することが大切だ。	It is important to understand system.
+n2-398-けいと	経度	けいど	longitude	名词	東京は東経百四十度にある。	Tokyo is at 140 degrees east longitude.
+n2-399-けいは	競馬	けいば	horse racing	名词	競馬に関する問題が出た。	A question about horse racing came up.
+n2-400-けいひ	警備	けいび	defense,guard,policing,security	名词	厳重な警備が敷かれている。	Strict security is in place.
+n2-401-けいようし	形容詞	けいようし	true adjective	名词	形容詞の活用を学ぶ。	I learn adjective conjugation.
+n2-402-けいようと-うし	形容動詞	けいようどうし	adjectival noun,quasi-adjective	名词	形容動詞を理解することが大切だ。	It is important to understand adjectival noun.
+n2-403-けか-わ	毛皮	けがわ	fur,skin,pelt	名词	毛皮を理解することが大切だ。	It is important to understand fur.
+n2-404-けす-る	削る	けずる	to cut down little by little,to take a percentage	动词	削ることにした。	I decided to to cut down little by little.
+n2-405-けた	桁	けた	column,beam,digit	名词	桁を理解することが大切だ。	It is important to understand column.
+n2-406-けっさく	傑作	けっさく	masterpiece,best work,boner,blunder	名词	この絵画は傑作だ。	This painting is a masterpiece.
+n2-407-けつあつ	血圧	けつあつ	blood pressure	名词	血圧を理解することが大切だ。	It is important to understand blood pressure.
+n2-408-けつえき	血液	けつえき	blood	名词	血液に関する問題が出た。	A question about blood came up.
+n2-409-けはい	気配	けはい	indication,market trend,worry	名词	気配を理解することが大切だ。	It is important to understand indication.
+n2-410-けむい	煙い	けむい	smoky	名词	煙いに関する問題が出た。	A question about smoky came up.
+n2-411-ける	蹴る	ける	to kick	动词	もっと蹴る必要がある。	There is a need to to kick more.
+n2-412-けわしい	険しい	けわしい	inaccessible place,sharp eyes	名词	険しいを理解することが大切だ。	It is important to understand inaccessible place.
+n2-413-けんか-く	見学	けんがく	inspection,study by observation,field trip	名词	見学に関する問題が出た。	A question about inspection came up.
+n2-414-けんきょ	謙虚	けんきょ	modesty,humility	名词	謙虚な姿勢が大切だ。	A humble attitude is important.
+n2-415-けんしゅう	研修	けんしゅう	training	名词	新入社員研修を受けた。	I underwent new employee training.
+n2-416-けんそん	謙遜	けんそん	humble,humility,modesty	名词	謙遜を理解することが大切だ。	It is important to understand humble.
+n2-417-けんちょう	県庁	けんちょう	prefectural office	名词	県庁で手続きをした。	I did paperwork at the prefectural office.
+n2-418-けんひ-きょう	顕微鏡	けんびきょう	microscope	名词	顕微鏡で細胞を観察した。	I observed cells under a microscope.
+n2-419-け-いのう	芸能	げいのう	public entertainment,accomplishments,attainments	名词	芸能を理解することが大切だ。	It is important to understand public entertainment.
+n2-420-け-か	外科	げか	surgical department	名词	外科で手術を受けた。	I had surgery at the surgical department.
+n2-421-け-きそ-う	激増	げきぞう	sudden increase	名词	人口が激増している。	The population is increasing rapidly.
+n2-422-け-しゃ	下車	げしゃ	alighting,getting off	名词	下車に関する問題が出た。	A question about alighting came up.
+n2-423-け-し-ゅん	下旬	げじゅん	month (last third of)	名词	今月の下旬に届く。	It will arrive in the last third of this month.
+n2-424-け-すい	下水	げすい	drainage,sewage,ditch,gutter,sewerage	名词	下水を理解することが大切だ。	It is important to understand drainage.
+n2-425-け-た	下駄	げた	geta (Japanese footwear),wooden clogs	名词	下駄に関する問題が出た。	A question about geta (Japanese footwear) came up.
+n2-426-け-っきゅう	月給	げっきゅう	monthly salary	名词	月給に関する問題が出た。	A question about monthly salary came up.
+n2-427-け-つまつ	月末	げつまつ	end of the month	名词	月末に給料が出る。	Salary comes out at the end of the month.
+n2-428-け-ひん	下品	げひん	vulgarity,meanness,indecency,coarseness	名词	下品な冗談を言わないで。	Don't tell vulgar jokes.
+n2-429-け-んこう	原稿	げんこう	manuscript,copy	名词	原稿を書き終えた。	I finished writing the manuscript.
+n2-430-け-んさん	原産	げんさん	place of origin,habitat	名词	コーヒーの原産地はエチオピアだ。	The place of origin of coffee is Ethiopia.
+n2-431-け-んし	原始	げんし	origin,primeval	名词	原始時代の生活を学ぶ。	Learn about life in primitive times.
+n2-432-け-んし-ゅう	厳重	げんじゅう	strict,rigour,severe,firm	名词	厳重に関する問題が出た。	A question about strict came up.
+n2-433-け-んと	限度	げんど	limit,bounds	名词	これが限度だ。	This is the limit.
+n2-434-け-んに	現に	げんに	actually,really	副词	現にを理解することが大切だ。	It is important to understand actually.
+n2-435-け-んり	原理	げんり	principle,theory,fundamental truth	名词	物理学の原理を理解する。	Understand the principles of physics.
+n2-436-け-んりょう	原料	げんりょう	raw materials	名词	原料に関する問題が出た。	A question about raw materials came up.
+n2-437-こいしい	恋しい	こいしい	(1) dear,beloved,darling,(2) yearned for	名词	故郷が恋しい。	I miss my hometown.
+n2-438-こう	請う	こう	to ask,to request	动词	彼は請うことができる。	He can to ask.
+n2-439-こういん	工員	こういん	factory worker	名词	工員として働いている。	I work as a factory worker.
+n2-440-こうか-い	公害	こうがい	public nuisance,pollution	名词	公害に関する問題が出た。	A question about public nuisance came up.
+n2-441-こうきゅう	高級	こうきゅう	high class,high grade	名词	高級レストランで食事した。	I dined at a high-class restaurant.
+n2-442-こうきょう	公共	こうきょう	public,community,public service,society,communal	名词	公共の場ではマナーを守る。	Follow manners in public places.
+n2-443-こうけ-い	工芸	こうげい	industrial arts	名词	工芸に関する問題が出た。	A question about industrial arts came up.
+n2-444-こうこう	孝行	こうこう	filial piety	名词	孝行に関する問題が出た。	A question about filial piety came up.
+n2-445-こうさ	交差	こうさ	cross	名词	二つの道が交差している。	Two roads are intersecting.
+n2-446-こうし	講師	こうし	lecturer	名词	大学で講師をしている。	I work as a lecturer at a university.
+n2-447-こうしき	公式	こうしき	formula,formality,official	名词	公式に関する問題が出た。	A question about formula came up.
+n2-448-こうして	こうして	こうして	thus	名词	こうしてを理解することが大切だ。	It is important to understand thus.
+n2-449-こうしゃ	校舎	こうしゃ	school building	名词	新しい校舎が完成した。	The new school building was completed.
+n2-450-こうしゅう	公衆	こうしゅう	the public	名词	公衆電話が減っている。	Public phones are decreasing.
+n2-451-こうし	工事	こうじ	construction work	名词	道路工事で渋滞している。	There's traffic due to road construction.
+n2-452-こうし-つ	口実	こうじつ	excuse	名词	口実を理解することが大切だ。	It is important to understand excuse.
+n2-453-こうすい	香水	こうすい	perfume	名词	香水をつけすぎた。	I put on too much perfume.
+n2-454-こうせい	公正	こうせい	justice,fairness,impartiality	名词	公正を理解することが大切だ。	It is important to understand justice.
+n2-455-こうせき	功績	こうせき	achievements,merit,meritorious service,meritorious deed	名词	功績に関する問題が出た。	A question about achievements came up.
+n2-456-こうせん	光線	こうせん	beam,light ray	名词	光線を理解することが大切だ。	It is important to understand beam.
+n2-457-こうそう	高層	こうそう	upper	名词	高層を理解することが大切だ。	It is important to understand upper.
+n2-458-こうそ-う	構造	こうぞう	structure,construction	名词	建物の構造を調べる。	Examine the structure of the building.
+n2-459-こうたい	交替	こうたい	alternation,change,relief,relay,shift	名词	交替を理解することが大切だ。	It is important to understand alternation.
+n2-460-こうち	耕地	こうち	arable land	名词	耕地を広げる計画がある。	There are plans to expand the farmland.
+n2-461-こうつうきかん	交通機関	こうつうきかん	transportation facilities	名词	交通機関が発達している。	Transportation is well developed.
+n2-462-こうてい	校庭	こうてい	campus	名词	校庭で運動会が行われた。	The sports day was held on the campus.
+n2-463-こうとう	高等	こうとう	high class,high grade	名词	高等を理解することが大切だ。	It is important to understand high class.
+n2-464-こうと	高度	こうど	altitude,height,advanced	名词	高度に関する問題が出た。	A question about altitude came up.
+n2-465-こうはい	後輩	こうはい	junior (at work or school)	名词	後輩の面倒を見る。	I look after my juniors.
+n2-466-こうひょう	公表	こうひょう	official announcement,proclamation	名词	調査結果を公表した。	The survey results were announced.
+n2-467-こうふ-つ	鉱物	こうぶつ	mineral	名词	鉱物資源が豊富な地域だ。	It's an area rich in mineral resources.
+n2-468-こうむ	公務	こうむ	official business,public business	名词	公務に関する問題が出た。	A question about official business came up.
+n2-469-こうもく	項目	こうもく	item	名词	項目ごとに整理する。	Organize by item.
+n2-470-こうよう	紅葉	こうよう	(1) (Japanese) maple	名词	紅葉を見に行った。	I went to see the autumn leaves.
+n2-471-こうりゅう	交流	こうりゅう	alternating current,intercourse,(cultural) exchange,intermingling	名词	国際交流イベントに参加した。	I participated in an international exchange event.
+n2-472-こうりょく	効力	こうりょく	effect,efficacy,validity,potency	名词	効力を理解することが大切だ。	It is important to understand effect.
+n2-473-こえる	超える	こえる	to exceed,to cross over,to cross	动词	もっと超える必要がある。	There is a need to to exceed more.
+n2-474-こか-す	焦がす	こがす	to burn,to scorch,to singe,to char	动词	もっと焦がす必要がある。	There is a need to to burn more.
+n2-475-こくおう	国王	こくおう	king	名词	国王を理解することが大切だ。	It is important to understand king.
+n2-476-こくせき	国籍	こくせき	nationality	名词	日本国籍を持っている。	I have Japanese nationality.
+n2-477-こくりつ	国立	こくりつ	national	名词	国立に関する問題が出た。	A question about national came up.
+n2-478-こけ-る	焦げる	こげる	to burn,to be burned	动词	焦げることにした。	I decided to to burn.
+n2-479-こころあたり	心当たり	こころあたり	having some knowledge of,happening to know	名词	何か心当たりはありますか。	Do you have any idea?
+n2-480-こころえる	心得る	こころえる	to be informed,to have thorough knowledge	动词	毎日心得るようにしている。	I try to to be informed every day.
+n2-481-ここ-える	凍える	こごえる	to freeze,to be chilled,to be frozen	动词	彼は凍えることができる。	He can to freeze.
+n2-482-こしかけ	腰掛け	こしかけ	seat,bench	名词	腰掛けを理解することが大切だ。	It is important to understand seat.
+n2-483-こしかける	腰掛ける	こしかける	to sit (down)	动词	毎日腰掛けるようにしている。	I try to to sit (down) every day.
+n2-484-こしょう	胡椒	こしょう	pepper	名词	料理に胡椒をかける。	I put pepper on the food.
+n2-485-こしらえる	こしらえる	こしらえる	to make,to manufacture	动词	彼はこしらえることができる。	He can to make.
+n2-486-こす	超す	こす	to cross,to pass,to tide over	动词	毎日超すようにしている。	I try to to cross every day.
+n2-487-こする	擦る	こする	to rub,to chafe,to file,to frost (glass),to strike (match)	名词/动词	擦ることにした。	I decided to to rub.
+n2-488-こたい	個体	こたい	an individual	名词	個体を理解することが大切だ。	It is important to understand an individual.
+n2-489-こちらこそ	こちらこそ	こちらこそ	it is I who should say so	名词	こちらこそを理解することが大切だ。	It is important to understand it is I who should say so.
+n2-490-こっそり	こっそり	こっそり	stealthily,secretly	名词	こっそりを理解することが大切だ。	It is important to understand stealthily.
+n2-491-こつ-かい	小遣い	こづかい	personal expenses,pocket money,spending money,incidental expenses,allowance	形容词	小遣いに関する問題が出た。	A question about personal expenses came up.
+n2-492-こてん	古典	こてん	old book,classics,classic	名词	古典文学を研究している。	I'm studying classical literature.
+n2-493-こと	琴	こと	Koto (Japanese harp)	副词	琴に関する問題が出た。	A question about Koto (Japanese harp) came up.
+n2-494-ことつ-ける	言付ける	ことづける	to send word,to send a message	动词	毎日言付けるようにしている。	I try to to send word every day.
+n2-495-ことは-つ-かい	言葉遣い	ことばづかい	speech,expression,wording	名词	丁寧な言葉遣いを心がける。	I try to use polite speech.
+n2-496-こないた	こないだ	こないだ	the other day,lately,recently	名词	こないだに関する問題が出た。	A question about the other day came up.
+n2-497-こほ-す	こぼす	こぼす	to spill	动词	もっとこぼす必要がある。	There is a need to to spill more.
+n2-498-こほ-れる	零れる	こぼれる	to overflow,to spill	动词	彼は零れることができる。	He can to overflow.
+n2-499-こゆひ	小指	こゆび	little finger	名词	小指をぶつけた。	I hit my little finger.
+n2-500-こらえる	こらえる	こらえる	to bear,to stand,to endure,to put up with	动词	毎日こらえるようにしている。	I try to to bear every day.
+n2-501-ころか-す	転がす	ころがす	to roll	动词	毎日転がすようにしている。	I try to to roll every day.
+n2-502-ころか-る	転がる	ころがる	to roll,to tumble	动词	彼は転がることができる。	He can to roll.
+n2-503-こん	紺	こん	navy blue,deep blue	名词	紺に関する問題が出た。	A question about navy blue came up.
+n2-504-こんこ-う	混合	こんごう	mixing,mixture	名词	混合に関する問題が出た。	A question about mixing came up.
+n2-505-こんた-て	献立	こんだて	menu,program,schedule	名词	今日の献立は何ですか。	What's on the menu today?
+n2-506-こんは-んは	こんばんは	こんばんは	good evening	名词	こんばんはを理解することが大切だ。	It is important to understand good evening.
+n2-507-こ	碁	ご	Go (board game of capturing territory)	名词	祖父と碁を打った。	I played Go with my grandfather.
+n2-508-こ-ういん	強引	ごういん	overbearing,coercive,pushy,forcible,high-handed	名词	彼は強引なやり方だ。	His approach is pushy.
+n2-509-こ-うと-う	合同	ごうどう	combination,incorporation,union,amalgamation	名词	二つの会社が合同した。	Two companies merged.
+n2-510-こ-うり	合理	ごうり	rational	名词	合理に関する問題が出た。	A question about rational came up.
+n2-511-こ-うりゅう	合流	ごうりゅう	confluence,union,linking up,merge	名词	合流に関する問題が出た。	A question about confluence came up.
+n2-512-こ-くろうさま	ごくろうさま	ごくろうさま	Thank you very much for your....	名词	ご苦労様でした。	Thank you for your hard work.
+n2-513-こ-し-ゅうおん	五十音	ごじゅうおん	the Japanese syllabary	名词	五十音を覚えた。	I memorized the Japanese syllabary.
+n2-514-こ-ちそう	御馳走	ごちそう	feast,treating (someone)	名词	御馳走に関する問題が出た。	A question about feast came up.
+n2-515-こ-ちそうさま	ごちそうさま	ごちそうさま	feast	名词	ごちそうさまを理解することが大切だ。	It is important to understand feast.
+n2-516-こ-ふ-さた	御無沙汰	ごぶさた	not writing or contacting for a while	名词	御無沙汰しております。	I'm sorry for not contacting you.
+n2-517-こ-めん	御免	ごめん	your pardon,declining (something),dismissal,permission	名词	御免を理解することが大切だ。	It is important to understand your pardon.
+n2-518-こ-めんくた-さい	ごめんください	ごめんください	May I come in?	名词	ごめんくださいを理解することが大切だ。	It is important to understand May I come in?.
+n2-519-こ-らく	娯楽	ごらく	pleasure,amusement	名词	娯楽に関する問題が出た。	A question about pleasure came up.
+n2-520-こ-らん	御覧	ごらん	(hon) look,inspection,try	名词	御覧を理解することが大切だ。	It is important to understand (hon) look.
+n2-521-さいさん	再三	さいさん	again and again,repeatedly	名词	再三注意したのに聞かなかった。	I warned repeatedly but they didn't listen.
+n2-522-さいし-つ	祭日	さいじつ	national holiday,festival day	名词	祭日に関する問題が出た。	A question about national holiday came up.
+n2-523-さいそく	催促	さいそく	request,demand,claim,urge (action),press for	名词	催促を理解することが大切だ。	It is important to understand request.
+n2-524-さいてん	採点	さいてん	marking,grading,looking over	名词	テストの採点をする。	I grade the test.
+n2-525-さいなん	災難	さいなん	calamity,misfortune	名词	災難に遭った。	I encountered a misfortune.
+n2-526-さいほう	裁縫	さいほう	sewing	名词	母は裁縫が得意だ。	My mother is good at sewing.
+n2-527-さかさ	逆さ	さかさ	reverse,inversion,upside down	名词	逆さを理解することが大切だ。	It is important to understand reverse.
+n2-528-さかさま	逆様	さかさま	inversion,upside down	名词	絵が逆様になっている。	The picture is upside down.
+n2-529-さかのほ-る	遡る	さかのぼる	to go back,to go upstream,to make retroactive	动词	毎日遡るようにしている。	I try to to go back every day.
+n2-530-さかは	酒場	さかば	bar,bar-room	名词	酒場で友達と飲んだ。	I drank with friends at a bar.
+n2-531-さか-す	捜す	さがす	to search,to seek,to look for	动词	毎日捜すようにしている。	I try to to search every day.
+n2-532-さきおととい	さきおととい	さきおととい	two days before yesterday	名词	さきおとといを理解することが大切だ。	It is important to understand two days before yesterday.
+n2-533-さきほと	先程	さきほど	some time ago	名词	先程を理解することが大切だ。	It is important to understand some time ago.
+n2-534-さく	裂く	さく	to tear,to split	动词	裂くのは難しい。	It is difficult to to tear.
+n2-535-さくいん	索引	さくいん	index,indices	名词	本の索引を使って調べた。	I looked it up using the book's index.
+n2-536-さくしゃ	作者	さくしゃ	author,authoress	名词	この本の作者は誰ですか。	Who is the author of this book?
+n2-537-さくし-ょ	削除	さくじょ	elimination,cancellation,deletion,erasure	名词	ファイルを削除した。	I deleted the file.
+n2-538-さくせい	作成	さくせい	frame,draw up,make,producing	名词	作成を理解することが大切だ。	It is important to understand frame.
+n2-539-さく-る	探る	さぐる	to search,to look for,to sound out	动词	探るのは難しい。	It is difficult to to search.
+n2-540-ささやく	囁く	ささやく	to whisper,to murmur	动词	囁くのは難しい。	It is difficult to to whisper.
+n2-541-ささる	刺さる	ささる	to stick,to be stuck	动词	刺さるのは難しい。	It is difficult to to stick.
+n2-542-さしつかえ	差し支え	さしつかえ	hindrance,impediment	名词	差し支えに関する問題が出た。	A question about hindrance came up.
+n2-543-さしひき	差し引き	さしひき	deduction,subtraction,balance,ebb and flow,rise and fall	名词	差し引きを理解することが大切だ。	It is important to understand deduction.
+n2-544-さしみ	刺身	さしみ	sliced raw fish	名词	新鮮な刺身を食べた。	I ate fresh sashimi.
+n2-545-さし	匙	さじ	spoon	名词	匙に関する問題が出た。	A question about spoon came up.
+n2-546-さす	刺す	さす	to pierce,to stab,to prick,to thrust	动词	刺すのは難しい。	It is difficult to to pierce.
+n2-547-さすか	流石	さすが	clever,adept,good,expectations,as one would expect	名词	流石を理解することが大切だ。	It is important to understand clever.
+n2-548-さっさと	さっさと	さっさと	quickly	副词	さっさと準備しなさい。	Hurry up and get ready.
+n2-549-さっそく	早速	さっそく	at once,immediately,without delay,promptly	名词	早速始めましょう。	Let's start right away.
+n2-550-さつえい	撮影	さつえい	photographing	形容词	映画の撮影が行われている。	Film shooting is taking place.
+n2-551-さひ	錆	さび	rust (colour)	名词	錆に関する問題が出た。	A question about rust (colour) came up.
+n2-552-さひ-る	錆びる	さびる	to rust,to become rusty	动词	彼は錆びることができる。	He can to rust.
+n2-553-さます	冷ます	さます	to cool,to dampen,to let cool	动词	毎日冷ますようにしている。	I try to to cool every day.
+n2-554-さまたけ-る	妨げる	さまたげる	to disturb,to prevent	动词	もっと妨げる必要がある。	There is a need to to disturb more.
+n2-555-さめる	冷める	さめる	to become cool,to wear off,to abate,to subside	动词	冷めるのは難しい。	It is difficult to to become cool.
+n2-556-さようなら	さようなら	さようなら	good-bye	名词	さようならを理解することが大切だ。	It is important to understand good-bye.
+n2-557-さらいけ-つ	再来月	さらいげつ	month after next	名词	再来月、引っ越す予定だ。	I plan to move the month after next.
+n2-558-さらいしゅう	再来週	さらいしゅう	week after next	名词	再来週を理解することが大切だ。	It is important to understand week after next.
+n2-559-さらいねん	再来年	さらいねん	year after next	名词	再来年を理解することが大切だ。	It is important to understand year after next.
+n2-560-さわか-しい	騒がしい	さわがしい	noisy	名词	外が騒がしい。	It's noisy outside.
+n2-561-さわやか	さわやか	さわやか	fresh,refreshing,invigorating	名词	さわやかな朝だ。	It's a refreshing morning.
+n2-562-さんかく	三角	さんかく	triangle,triangular	名词	三角に関する問題が出た。	A question about triangle came up.
+n2-563-さんすう	算数	さんすう	arithmetic	名词	算数が苦手だ。	I'm bad at arithmetic.
+n2-564-さんせい	酸性	さんせい	acidity	名词	酸性に関する問題が出た。	A question about acidity came up.
+n2-565-さんち	産地	さんち	producing area	名词	産地に関する問題が出た。	A question about producing area came up.
+n2-566-さんりん	山林	さんりん	mountain forest,mountains and forest	名词	山林に関する問題が出た。	A question about mountain forest came up.
+n2-567-さ-いか-く	在学	ざいがく	(enrolled) in school	名词	在学を理解することが大切だ。	It is important to understand (enrolled) in school.
+n2-568-さ-いもく	材木	ざいもく	lumber,timber	名词	材木に関する問題が出た。	A question about lumber came up.
+n2-569-さ-しき	座敷	ざしき	tatami room	名词	座敷に通された。	I was shown to the tatami room.
+n2-570-さ-つおん	雑音	ざつおん	noise (jarring, grating)	名词	雑音に関する問題が出た。	A question about noise (jarring came up.
+n2-571-さ-ふ-とん	座布団	ざぶとん	cushion (Japanese)	名词	座布団を理解することが大切だ。	It is important to understand cushion (Japanese).
+n2-572-しあか-る	仕上がる	しあがる	to be finished	动词	彼は仕上がることができる。	He can to be finished.
+n2-573-しあさって	しあさって	しあさって	two days after tomorrow	名词	しあさってに関する問題が出た。	A question about two days after tomorrow came up.
+n2-574-しいん	しいん	しいん	silent (as the grave),(deathly) quiet	名词	しいんに関する問題が出た。	A question about silent (as the grave) came up.
+n2-575-しおからい	塩辛い	しおからい	salty (taste)	名词	このスープは塩辛い。	This soup is salty.
+n2-576-しかい	司会	しかい	chairmanship	名词	司会を務めた。	I served as host.
+n2-577-しかく	四角	しかく	square	名词	四角の形をしている。	It has a square shape.
+n2-578-しかくい	四角い	しかくい	square	名词	四角い窓がある。	There is a square window.
+n2-579-しき	四季	しき	four seasons	名词	日本には四季がある。	Japan has four seasons.
+n2-580-しきち	敷地	しきち	site	名词	敷地に関する問題が出た。	A question about site came up.
+n2-581-しきゅう	至急	しきゅう	urgent,pressing	名词	至急に関する問題が出た。	A question about urgent came up.
+n2-582-しく	敷く	しく	to spread out,to lay out	动词	もっと敷く必要がある。	There is a need to to spread out more.
+n2-583-しけ-る	茂る	しげる	to grow thick,to luxuriate,to be luxurious	动词	茂るのは難しい。	It is difficult to to grow thick.
+n2-584-ししゃこ-にゅう	四捨五入	ししゃごにゅう	rounding up (fractions)	名词	小数点以下を四捨五入する。	Round off the decimal places.
+n2-585-しし-ゅう	始終	しじゅう	continuously,from beginning to end	名词	彼は始終文句を言っている。	He complains constantly.
+n2-586-しす-まる	静まる	しずまる	to quieten down,to calm down,to subside	动词	彼は静まることができる。	He can to quieten down.
+n2-587-しせい	姿勢	しせい	attitude,posture	名词	姿勢を理解することが大切だ。	It is important to understand attitude.
+n2-588-しせ-んかか-く	自然科学	しぜんかがく	natural science	名词	自然科学を専攻している。	I'm majoring in natural science.
+n2-589-しそん	子孫	しそん	descendants,posterity,offspring	名词	子孫に財産を残す。	Leave property to descendants.
+n2-590-したい	死体	したい	corpse	名词	死体が発見された。	A corpse was discovered.
+n2-591-したか-き	下書き	したがき	rough copy,draft	名词	まず下書きを書く。	First write a draft.
+n2-592-したまち	下町	したまち	Shitamachi,lower parts of town	名词	下町で育った。	I grew up in the downtown area.
+n2-593-しっき	湿気	しっき	moisture,humidity,dampness	名词	湿気に関する問題が出た。	A question about moisture came up.
+n2-594-しっけ	湿気	しっけ	moisture,humidity,dampness	名词	湿気に関する問題が出た。	A question about moisture came up.
+n2-595-しっひ-つ	執筆	しっぴつ	writing	名词	執筆に関する問題が出た。	A question about writing came up.
+n2-596-しっほ	しっぽ	しっぽ	tail (animal)	名词	犬がしっぽを振っている。	The dog is wagging its tail.
+n2-597-しつこい	しつこい	しつこい	insistent,obstinate	名词	彼はしつこく誘ってきた。	He persistently invited me.
+n2-598-しつと	湿度	しつど	level of humidity	名词	今日は湿度が高い。	The humidity is high today.
+n2-599-しつれん	失恋	しつれん	disappointed love,broken heart,unrequited love,be lovelorn	名词	失恋して落ち込んでいる。	I'm depressed from a broken heart.
+n2-600-してい	指定	してい	designation,specification,assignment,pointing at	名词	指定を理解することが大切だ。	It is important to understand designation.
+n2-601-してつ	私鉄	してつ	private railway	名词	私鉄で通勤している。	I commute by private railway.
+n2-602-しは-る	縛る	しばる	to tie,to bind	动词	毎日縛るようにしている。	I try to to tie every day.
+n2-603-しひ-れる	しびれる	しびれる	to become numb,to go to sleep (i.e., a limb)	动词	しびれることにした。	I decided to to become numb.
+n2-604-しへい	紙幣	しへい	paper money,notes,bills	名词	紙幣が破れた。	The bill got torn.
+n2-605-しほ-む	しぼむ	しぼむ	to wither,to fade (away),to shrivel,to wilt	动词	毎日しぼむようにしている。	I try to to wither every day.
+n2-606-しほ-る	絞る	しぼる	to press,to wring,to squeeze	动词	毎日絞るようにしている。	I try to to press every day.
+n2-607-しま	縞	しま	stripe	名词	縞模様のシャツを着ている。	I'm wearing a striped shirt.
+n2-608-しみし-み	しみじみ	しみじみ	keenly,deeply,heartily	名词	しみじみと感じた。	I felt it deeply.
+n2-609-しめい	氏名	しめい	full name,identity	名词	氏名に関する問題が出た。	A question about full name came up.
+n2-610-しめきり	締切	しめきり	closing,cut-off,end,deadline,Closed,No Entrance	名词	締切を理解することが大切だ。	It is important to understand closing.
+n2-611-しめきる	締め切る	しめきる	to shut up	动词	毎日締め切るようにしている。	I try to to shut up every day.
+n2-612-しめる	湿る	しめる	to be wet,to become wet,to be damp	动词	彼は湿ることができる。	He can to be wet.
+n2-613-しゃかいかか-く	社会科学	しゃかいかがく	social science	名词	社会科学を理解することが大切だ。	It is important to understand social science.
+n2-614-しゃか-む	しゃがむ	しゃがむ	to squat	动词	しゃがむことにした。	I decided to to squat.
+n2-615-しゃこ	車庫	しゃこ	garage,car shed	名词	車を車庫に入れた。	I put the car in the garage.
+n2-616-しゃしょう	車掌	しゃしょう	(train) conductor	名词	車掌に関する問題が出た。	A question about (train) conductor came up.
+n2-617-しゃせい	写生	しゃせい	sketching,drawing from nature	名词	公園で写生をした。	I sketched in the park.
+n2-618-しゃせつ	社説	しゃせつ	editorial,leading article	名词	新聞の社説を読んだ。	I read the newspaper editorial.
+n2-619-しゃっくり	しゃっくり	しゃっくり	hiccough,hiccup	名词	しゃっくりに関する問題が出た。	A question about hiccough came up.
+n2-620-しゃふ-る	しゃぶる	しゃぶる	to suck,to chew	动词	しゃぶるのは難しい。	It is difficult to to suck.
+n2-621-しゃりん	車輪	しゃりん	(car) wheel	名词	車輪に関する問題が出た。	A question about (car) wheel came up.
+n2-622-しゃれ	洒落	しゃれ	joke,pun,witticism	名词	洒落を理解することが大切だ。	It is important to understand joke.
+n2-623-しゅうかい	集会	しゅうかい	meeting,assembly	名词	集会に関する問題が出た。	A question about meeting came up.
+n2-624-しゅうきん	集金	しゅうきん	money collection	名词	集金を理解することが大切だ。	It is important to understand money collection.
+n2-625-しゅうこ-う	集合	しゅうごう	gathering,assembly,meeting,set (math)	名词	集合を理解することが大切だ。	It is important to understand gathering.
+n2-626-しゅうし	習字	しゅうじ	penmanship	名词	習字を習っている。	I'm learning calligraphy.
+n2-627-しゅうせ-ん	修繕	しゅうぜん	repair,mending	名词	修繕を理解することが大切だ。	It is important to understand repair.
+n2-628-しゅうてん	終点	しゅうてん	terminus,last stop (e.g train)	名词	終点で降りる。	I get off at the last stop.
+n2-629-しゅうにん	就任	しゅうにん	inauguration,assumption of office	名词	新社長が就任した。	The new president took office.
+n2-630-しゅうへん	周辺	しゅうへん	circumference,outskirts,environs,(computer) peripheral	名词	駅周辺を散策した。	I strolled around the station area.
+n2-631-しゅうりょう	終了	しゅうりょう	end,close,termination	名词	終了を理解することが大切だ。	It is important to understand end.
+n2-shukushou	縮小	しゅくしょう	reduction,curtailment	名词	縮小に関する問題が出た。	A question about reduction came up.
+n2-633-しゅくし-つ	祝日	しゅくじつ	national holiday	名词	明日は祝日だ。	Tomorrow is a national holiday.
+n2-634-しゅこ	主語	しゅご	(gram) subject	名词	この文の主語は何ですか。	What is the subject of this sentence?
+n2-635-しゅっきん	出勤	しゅっきん	going to work,at work	名词	毎日九時に出勤する。	I go to work at 9 every day.
+n2-636-しゅっちょう	出張	しゅっちょう	official tour,business trip	名词	来週、大阪に出張する。	I'm going on a business trip to Osaka next week.
+n2-637-しゅやく	主役	しゅやく	leading part,leading actor (actress)	名词	彼女がこの映画の主役だ。	She is the lead in this movie.
+n2-638-しょうか	消化	しょうか	digestion	名词	この薬は消化を助ける。	This medicine helps digestion.
+n2-639-しょうか-くせい	小学生	しょうがくせい	grade school student	名词	小学生の頃を思い出す。	I remember my elementary school days.
+n2-640-しょうきょくてき	消極的	しょうきょくてき	passive	名词	彼は消極的な性格だ。	He has a passive personality.
+n2-641-しょうきん	賞金	しょうきん	prize,monetary award	名词	賞金を獲得した。	I won prize money.
+n2-642-しょうき	将棋	しょうぎ	Japanese chess	名词	将棋に関する問題が出た。	A question about Japanese chess came up.
+n2-643-しょうき-ょう	商業	しょうぎょう	commerce,trade,business	名词	商業の中心地だ。	It's a commercial center.
+n2-644-しょうしゃ	商社	しょうしゃ	trading company,firm	名词	商社に就職した。	I got a job at a trading company.
+n2-645-しょうし	障子	しょうじ	paper sliding door	名词	障子を張り替えた。	I replaced the paper on the sliding door.
+n2-646-しょうすう	小数	しょうすう	fraction (part of),decimal	名词	小数点以下を省略する。	Omit the decimal places.
+n2-647-しょうす-る	生ずる	しょうずる	to cause,to arise,to be generated	动词	毎日生ずるようにしている。	I try to to cause every day.
+n2-648-しょうてん	商店	しょうてん	shop,business firm	名词	商店を理解することが大切だ。	It is important to understand shop.
+n2-649-しょうと-く	消毒	しょうどく	disinfection,sterilization	名词	消毒に関する問題が出た。	A question about disinfection came up.
+n2-650-しょうはい	勝敗	しょうはい	victory or defeat,issue (of battle)	名词	勝敗に関する問題が出た。	A question about victory or defeat came up.
+n2-651-しょうひん	賞品	しょうひん	prize,trophy	名词	賞品に関する問題が出た。	A question about prize came up.
+n2-652-しょうふ	勝負	しょうぶ	victory or defeat,match,contest,game,bout	名词	勝負はついた。	The match is decided.
+n2-653-しょうへ-ん	小便	しょうべん	(col) urine,piss	名词	小便を理解することが大切だ。	It is important to understand (col) urine.
+n2-654-しょうほ-うしょ	消防署	しょうぼうしょ	fire station	名词	消防署に通報した。	I reported to the fire station.
+n2-655-しょうみ	正味	しょうみ	net (weight)	名词	正味を理解することが大切だ。	It is important to understand net (weight).
+n2-656-しょうめん	正面	しょうめん	the front,honesty	名词	正面を理解することが大切だ。	It is important to understand the front.
+n2-657-しょうもう	消耗	しょうもう	exhaustion,consumption	名词	消耗を理解することが大切だ。	It is important to understand exhaustion.
+n2-658-しょうゆ	醤油	しょうゆ	soy sauce	名词	刺身に醤油をつける。	I put soy sauce on sashimi.
+n2-shouryaku	省略	しょうりゃく	omission,abbreviation,abridgment	名词	説明を省略する。	I'll omit the explanation.
+n2-660-しょきゅう	初級	しょきゅう	elementary level	名词	初級クラスに入った。	I joined the beginner class.
+n2-661-しょくえん	食塩	しょくえん	table salt	名词	食塩を控えめにする。	I reduce table salt intake.
+n2-662-しょくにん	職人	しょくにん	worker,mechanic,artisan,craftsman	名词	彼は腕のいい職人だ。	He is a skilled craftsman.
+n2-663-しょし-ゅん	初旬	しょじゅん	first 10 days of the month	名词	初旬に関する問題が出た。	A question about first 10 days of the month came up.
+n2-664-しょせき	書籍	しょせき	book,publication	名词	書籍を出版した。	I published a book.
+n2-665-しょっき	食器	しょっき	tableware	名词	食器を理解することが大切だ。	It is important to understand tableware.
+n2-666-しょてん	書店	しょてん	bookshop	名词	書店で本を探した。	I looked for a book at the bookstore.
+n2-667-しょと-う	書道	しょどう	calligraphy	名词	書道を始めた。	I started calligraphy.
+n2-668-しらか	白髪	しらが	white or grey hair,trendy hair bleaching	名词	最近白髪が増えた。	I've been getting more gray hair lately.
+n2-669-しりあい	知合い	しりあい	acquaintance	名词	知り合いに会った。	I met an acquaintance.
+n2-670-しりつ	私立	しりつ	private (establishment)	名词	私立大学に通っている。	I attend a private university.
+n2-671-しりょう	資料	しりょう	materials,data	名词	資料に関する問題が出た。	A question about materials came up.
+n2-672-しる	汁	しる	juice,sap,soup,broth	名词	味噌汁を作った。	I made miso soup.
+n2-673-しろうと	素人	しろうと	amateur,novice	副词	私はこの分野では素人だ。	I'm an amateur in this field.
+n2-674-しん	芯	しん	core,heart,wick,marrow	名词	鉛筆の芯が折れた。	The pencil lead broke.
+n2-675-しんかんせん	新幹線	しんかんせん	bullet train (very high speed),shinkansen	名词	新幹線で東京に行く。	I go to Tokyo by bullet train.
+n2-676-しんくう	真空	しんくう	vacuum,hollow,empty	名词	真空に関する問題が出た。	A question about vacuum came up.
+n2-677-しんしん	心身	しんしん	mind and body	名词	心身ともに疲れた。	I'm tired both mentally and physically.
+n2-678-しんす-る	信ずる	しんずる	to believe,to believe in,to place trust in	动词	信ずるのは難しい。	It is difficult to to believe.
+n2-679-しんせい	申請	しんせい	application,request,petition	名词	ビザを申請した。	I applied for a visa.
+n2-680-しんた-い	寝台	しんだい	bed,couch	名词	寝台に関する問題が出た。	A question about bed came up.
+n2-681-しんた-ん	診断	しんだん	diagnosis	名词	診断に関する問題が出た。	A question about diagnosis came up.
+n2-682-しんにゅう	侵入	しんにゅう	penetration,invasion,raid,aggression,trespass	名词	侵入に関する問題が出た。	A question about penetration came up.
+n2-683-しんや	深夜	しんや	late at night	名词	深夜まで働いた。	I worked until late at night.
+n2-684-しんりん	森林	しんりん	forest,woods	名词	森林を守ることが大切だ。	It's important to protect forests.
+n2-685-しんるい	親類	しんるい	relation,kin	名词	親類が集まった。	Relatives gathered.
+n2-686-しんろ	針路	しんろ	course,direction,compass bearing	名词	針路に関する問題が出た。	A question about course came up.
+n2-687-しんわ	神話	しんわ	myth,legend	名词	ギリシャ神話を読んだ。	I read Greek mythology.
+n2-688-し-いん	寺院	じいん	temple	名词	寺院に関する問題が出た。	A question about temple came up.
+n2-689-し-えい	自衛	じえい	self-defense	名词	自衛のために戦う。	Fight in self-defense.
+n2-690-し-かんわり	時間割	じかんわり	timetable,schedule	名词	時間割を理解することが大切だ。	It is important to understand timetable.
+n2-691-し-さん	持参	じさん	bringing,taking,carrying	名词	お弁当を持参してください。	Please bring your own lunch.
+n2-692-し-しゃく	磁石	じしゃく	magnet	名词	磁石がくっついた。	The magnet stuck.
+n2-693-し-しゅう	自習	じしゅう	self-study	名词	自習に関する問題が出た。	A question about self-study came up.
+n2-694-し-そく	時速	じそく	speed (per hour)	名词	時速百キロで走る。	Drive at 100 kilometers per hour.
+n2-695-し-ち	自治	じち	self-government,autonomy	名词	地方自治を推進する。	Promote local self-government.
+n2-696-し-っかん	実感	じっかん	feelings (actual, true)	名词	成功の実感がわいてきた。	A sense of success has arisen.
+n2-697-し-っしゅう	実習	じっしゅう	practice,training	名词	病院で実習をする。	I do practical training at a hospital.
+n2-698-し-っせき	実績	じっせき	achievements,actual results	名词	彼には実績がある。	He has a track record.
+n2-699-し-つふ-つ	実物	じつぶつ	real thing,original	名词	実物を見てみたい。	I want to see the real thing.
+n2-700-し-つよう	実用	じつよう	practical use,utility	名词	実用的なデザインが好きだ。	I like practical designs.
+n2-701-し-つりょく	実力	じつりょく	merit,efficiency,arms,force	名词	実力に関する問題が出た。	A question about merit came up.
+n2-702-し-つれい	実例	じつれい	example,illustration	名词	実例を挙げて説明する。	Explain with examples.
+n2-703-し-と-う	児童	じどう	children,juvenile	名词	児童を理解することが大切だ。	It is important to understand children.
+n2-704-し-は-ん	地盤	じばん	(the) ground	名词	地盤が弱い土地だ。	The ground is weak here.
+n2-705-し-み	地味	じみ	plain,simple	名词	地味に関する問題が出た。	A question about plain came up.
+n2-706-し-ゃくてん	弱点	じゃくてん	weak point,weakness	名词	弱点に関する問題が出た。	A question about weak point came up.
+n2-707-し-ゃく-ち	蛇口	じゃぐち	faucet,tap	名词	蛇口を理解することが大切だ。	It is important to understand faucet.
+n2-708-し-ゃんけん	じゃんけん	じゃんけん	(n) rock-scissors-paper game	名词	じゃんけんで決めよう。	Let's decide by rock-paper-scissors.
+n2-709-し-ゅうきょ	住居	じゅうきょ	dwelling,house,residence,address	名词	住居に関する問題が出た。	A question about dwelling came up.
+n2-710-し-ゅうたい	重体	じゅうたい	seriously ill,serious condition,critical state	名词	重体に関する問題が出た。	A question about seriously ill came up.
+n2-711-し-ゅうたん	絨毯	じゅうたん	carpet	名词	絨毯を敷いた。	I laid a carpet.
+n2-712-し-ゅうてん	重点	じゅうてん	important point,lay stress on,colon,emphasis	名词	この点に重点を置く。	Put emphasis on this point.
+n2-713-し-ゅうやく	重役	じゅうやく	director,high executive	名词	重役を理解することが大切だ。	It is important to understand director.
+n2-714-し-ゅうりょう	重量	じゅうりょう	(1) weight,(2) heavyweight boxer	名词	重量を理解することが大切だ。	It is important to understand (1) weight.
+n2-715-し-ゅうりょく	重力	じゅうりょく	gravity	名词	重力で物が落ちる。	Things fall due to gravity.
+n2-716-し-ゅくこ	熟語	じゅくご	idiom,idiomatic phrase,kanji compound	名词	熟語の意味を調べる。	Look up the meaning of the compound word.
+n2-717-し-ゅけん	受験	じゅけん	taking an examination	名词	来年受験する予定だ。	I plan to take an exam next year.
+n2-718-し-ゅつこ	述語	じゅつご	predicate	名词	この文の述語は何ですか。	What is the predicate of this sentence?
+n2-719-し-ゅみょう	寿命	じゅみょう	life span	名词	寿命を理解することが大切だ。	It is important to understand life span.
+n2-720-し-ゅわき	受話器	じゅわき	(telephone) receiver	名词	受話器を取った。	I picked up the receiver.
+n2-721-し-ゅんかん	循環	じゅんかん	circulation,rotation,cycle	名词	循環を理解することが大切だ。	It is important to understand circulation.
+n2-722-し-ゅんさ	巡査	じゅんさ	police,policeman	名词	巡査に道を聞いた。	I asked the police officer for directions.
+n2-723-し-ゅんし-ゅん	順々	じゅんじゅん	in order,in turn	名词	順々に説明します。	I'll explain one by one.
+n2-724-し-ゅんし-ょ	順序	じゅんじょ	order,sequence,procedure	名词	順序に関する問題が出た。	A question about order came up.
+n2-725-し-ゅんし-ょう	純情	じゅんじょう	pure heart,naivete,self-sacrificing devotion	名词	彼女は純情な人だ。	She is a pure-hearted person.
+n2-726-し-ゅんすい	純粋	じゅんすい	pure,true,genuine,unmixed	名词	純粋に関する問題が出た。	A question about pure came up.
+n2-727-し-ょうき	蒸気	じょうき	steam,vapour	名词	蒸気を理解することが大切だ。	It is important to understand steam.
+n2-728-し-ょうきゅう	上級	じょうきゅう	advanced level,high grade,senior	名词	上級を理解することが大切だ。	It is important to understand advanced level.
+n2-729-し-ょうき	定規	じょうぎ	(measuring) ruler	名词	定規で線を引く。	Draw a line with a ruler.
+n2-730-し-ょうけ	上下	じょうげ	high and low,up and down,unloading and loading,praising and blaming	名词	上下に関する問題が出た。	A question about high and low came up.
+n2-731-し-ょうしゃ	乗車	じょうしゃ	taking a train,entraining	名词	乗車券を買った。	I bought a boarding ticket.
+n2-732-し-ょうし-ゅん	上旬	じょうじゅん	first 10 days of month	名词	上旬に関する問題が出た。	A question about first 10 days of month came up.
+n2-733-し-ょうはつ	蒸発	じょうはつ	evaporation,unexplained disappearance	名词	水が蒸発した。	The water evaporated.
+n2-734-し-ょきょうし-ゅ	助教授	じょきょうじゅ	assistant professor	名词	助教授として働いている。	I work as an assistant professor.
+n2-735-し-んそ-う	人造	じんぞう	man-made,synthetic,artificial	名词	人造に関する問題が出た。	A question about man-made came up.
+n2-736-し-んふ-んかか-く	人文科学	じんぶんかがく	social sciences,humanities	名词	人文科学を理解することが大切だ。	It is important to understand social sciences.
+n2-737-し-んめい	人命	じんめい	(human) life	名词	人命を救う仕事だ。	It's a job that saves lives.
+n2-738-す	酢	す	vinegar	名词	酢を料理に使う。	I use vinegar in cooking.
+n2-739-すいさん	水産	すいさん	marine products,fisheries	名词	水産業が盛んな地域だ。	It's an area where fisheries flourish.
+n2-740-すいし	炊事	すいじ	cooking,culinary arts	名词	炊事を手伝う。	I help with cooking.
+n2-741-すいし-ょうき	水蒸気	すいじょうき	water vapour,steam	名词	水蒸気が立ち上る。	Steam rises.
+n2-742-すいそ	水素	すいそ	hydrogen	名词	水素を理解することが大切だ。	It is important to understand hydrogen.
+n2-743-すいちょく	垂直	すいちょく	vertical,perpendicular	名词	壁に垂直に立てる。	Stand perpendicular to the wall.
+n2-744-すいてい	推定	すいてい	presumption,assumption,estimation	名词	推定を理解することが大切だ。	It is important to understand presumption.
+n2-745-すいてき	水滴	すいてき	drop of water	名词	窓に水滴がついている。	There are water drops on the window.
+n2-746-すいとう	水筒	すいとう	canteen,flask,water bottle	名词	水筒にお茶を入れた。	I put tea in the water bottle.
+n2-747-すいふ-ん	水分	すいぶん	moisture	名词	水分を理解することが大切だ。	It is important to understand moisture.
+n2-748-すいへい	水平	すいへい	water level,horizon	名词	水平線が見える。	I can see the horizon.
+n2-749-すいへいせん	水平線	すいへいせん	horizon	名词	水平線に関する問題が出た。	A question about horizon came up.
+n2-750-すいよう	水曜	すいよう	Wednesday	名词	水曜日に会議がある。	There's a meeting on Wednesday.
+n2-751-すえっこ	末っ子	すえっこ	youngest child	名词	末っ子に関する問題が出た。	A question about youngest child came up.
+n2-752-すききらい	好き嫌い	すききらい	likes and dislikes,taste	名词	好き嫌いを理解することが大切だ。	It is important to understand likes and dislikes.
+n2-753-すきす-き	好き好き	すきずき	matter of taste	名词	好き好きは人それぞれだ。	Tastes differ from person to person.
+n2-754-すきとおる	透き通る	すきとおる	to be(come) transparent	动词	毎日透き通るようにしている。	I try to to be(come) transparent every day.
+n2-755-すきま	隙間	すきま	crevice,crack,gap,opening	名词	隙間に関する問題が出た。	A question about crevice came up.
+n2-756-すき	杉	すぎ	Japanese cedar	名词	杉の木が生えている。	Cedar trees are growing.
+n2-757-すくなくとも	すくなくとも	すくなくとも	at least	名词	少なくとも三回は読んだ。	I read it at least three times.
+n2-758-すす	鈴	すず	bell	名词	鈴を理解することが大切だ。	It is important to understand bell.
+n2-759-すす-む	涼む	すずむ	to cool oneself,to cool off,to enjoy evening cool	动词	涼むことにした。	I decided to to cool oneself.
+n2-760-すっきり	すっきり	すっきり	shapely,clear,neat	名词	部屋がすっきり片付いた。	The room is neatly tidied.
+n2-761-すっは-い	すっぱい	すっぱい	sour,acid	名词	このレモンはすっぱい。	This lemon is sour.
+n2-762-すなお	素直	すなお	obedient,meek,docile,unaffected	名词	素直を理解することが大切だ。	It is important to understand obedient.
+n2-763-すまい	住まい	すまい	dwelling,house,residence,address	名词	新しい住まいを探している。	I'm looking for a new place to live.
+n2-764-すまない	すまない	すまない	sorry (phrase)	名词	すまないけど、手伝ってくれる。	Sorry, but could you help me?
+n2-765-すみ	墨	すみ	ink	名词	墨で字を書く。	Write with ink.
+n2-766-すむ	澄む	すむ	to clear (e.g. weather),to become transparent	动词	澄むのは難しい。	It is difficult to to clear (e.g. weather).
+n2-767-すもう	相撲	すもう	sumo wrestling	名词	相撲を見に行った。	I went to watch sumo.
+n2-768-する	刷る	する	to print	名词/动词	毎日刷るようにしている。	I try to to print every day.
+n2-769-すれちか-う	すれちがう	すれちがう	to pass by one another,to disagree	动词	すれちがうのは難しい。	It is difficult to to pass by one another.
+n2-770-すんほ-う	寸法	すんぽう	measurement,size,dimension	名词	寸法を理解することが大切だ。	It is important to understand measurement.
+n2-771-す-いひつ	随筆	ずいひつ	essays,miscellaneous writings	名词	随筆を書くのが好きだ。	I like writing essays.
+n2-772-す-うす-うしい	ずうずうしい	ずうずうしい	impudent,shameless	名词	彼はずうずうしい人だ。	He is a shameless person.
+n2-773-す-かん	図鑑	ずかん	picture book	名词	図鑑を理解することが大切だ。	It is important to understand picture book.
+n2-774-す-けい	図形	ずけい	figure	名词	図形に関する問題が出た。	A question about figure came up.
+n2-775-す-のう	頭脳	ずのう	head,brains,intellect	名词	頭脳に関する問題が出た。	A question about head came up.
+n2-776-す-ひょう	図表	ずひょう	chart,diagram,graph	名词	図表を使って説明する。	Explain using charts.
+n2-777-す-らす	ずらす	ずらす	to put off,to delay	动词	毎日ずらすようにしている。	I try to to put off every day.
+n2-778-す-るい	狡い	ずるい	sly,cunning	名词	ずるいことをするな。	Don't be sly.
+n2-779-せい	姓	せい	surname,family name	名词	姓を理解することが大切だ。	It is important to understand surname.
+n2-780-せいさく	製作	せいさく	manufacture,production	名词	映画を製作している。	I'm producing a movie.
+n2-781-せいしつ	性質	せいしつ	nature,property,disposition	名词	性質を理解することが大切だ。	It is important to understand nature.
+n2-782-せいしょ	清書	せいしょ	clean copy	名词	レポートを清書する。	Make a clean copy of the report.
+n2-783-せいしょうねん	青少年	せいしょうねん	youth,young person	名词	青少年を理解することが大切だ。	It is important to understand youth.
+n2-784-せいすう	整数	せいすう	integer	名词	整数で答えなさい。	Answer with an integer.
+n2-785-せいそう	清掃	せいそう	cleaning	名词	清掃を理解することが大切だ。	It is important to understand cleaning.
+n2-786-せいそ-ん	生存	せいぞん	existence,being,survival	名词	生存を理解することが大切だ。	It is important to understand existence.
+n2-787-せいちょう	生長	せいちょう	growth,increment	名词	生長に関する問題が出た。	A question about growth came up.
+n2-788-せいとう	政党	せいとう	(member of) political party	名词	政党に所属している。	I belong to a political party.
+n2-789-せいねんか-っひ	生年月日	せいねんがっぴ	birth date	名词	生年月日を記入してください。	Please fill in your date of birth.
+n2-790-せいのう	性能	せいのう	ability,efficiency	名词	この車は性能が良い。	This car has good performance.
+n2-791-せいひ	整備	せいび	adjustment,completion,consolidation	名词	道路の整備が進んでいる。	Road maintenance is progressing.
+n2-792-せいふ-ん	成分	せいぶん	ingredient,component,composition	名词	成分表を確認する。	Check the ingredient list.
+n2-793-せいへ-つ	性別	せいべつ	distinction by sex,sex,gender	名词	性別を理解することが大切だ。	It is important to understand distinction by sex.
+n2-794-せいほうけい	正方形	せいほうけい	square	名词	正方形に関する問題が出た。	A question about square came up.
+n2-795-せいもん	正門	せいもん	main gate,main entrance	名词	正門から入ってください。	Please enter from the main gate.
+n2-796-せいりつ	成立	せいりつ	coming into existence,arrangements,establishment,completion	名词	契約が成立した。	The contract was established.
+n2-797-せいれき	西暦	せいれき	Christian Era,anno domini (A.D.)	名词	西暦二千年に生まれた。	I was born in 2000 AD.
+n2-798-せおう	背負う	せおう	to be burdened with,to carry on back or shoulder	动词	もっと背負う必要がある。	There is a need to to be burdened with more.
+n2-799-せきと-う	赤道	せきどう	equator	名词	赤道を通過した。	We crossed the equator.
+n2-800-せっかく	折角	せっかく	with trouble,at great pains,long-awaited	名词	折角を理解することが大切だ。	It is important to understand with trouble.
+n2-801-せっきん	接近	せっきん	getting closer,drawing nearer,approaching	名词	台風が接近している。	A typhoon is approaching.
+n2-802-せっする	接する	せっする	to come in contact with,to connect,to attend,to receive	名词/动词	毎日接するようにしている。	I try to to come in contact with every day.
+n2-803-せつそ-く	接続	せつぞく	(1) connection,union,join,link,(2) changing trains	名词	インターネットに接続する。	Connect to the internet.
+n2-804-せともの	瀬戸物	せともの	earthenware,crockery,china	名词	瀬戸物を割ってしまった。	I broke the china.
+n2-805-せまる	迫る	せまる	to draw near,to press	动词	彼は迫ることができる。	He can to draw near.
+n2-806-せめて	せめて	せめて	offense,method of attack	名词	せめてを理解することが大切だ。	It is important to understand offense.
+n2-807-せめる	攻める	せめる	to attack,to assault	动词	毎日攻めるようにしている。	I try to to attack every day.
+n2-808-せん	栓	せん	stopper,cork,stopcock	名词	ワインの栓を抜いた。	I uncorked the wine.
+n2-809-せんさ-い	洗剤	せんざい	detergent,washing material	名词	洗剤で汚れを落とす。	Remove stains with detergent.
+n2-810-せんす	扇子	せんす	folding fan	名词	扇子をあおいで涼む。	I cool myself by fanning with a folding fan.
+n2-811-せんせい	専制	せんせい	despotism,autocracy	名词	専制を理解することが大切だ。	It is important to understand despotism.
+n2-812-せんせんけ-つ	先々月	せんせんげつ	month before last	名词	先々月引っ越した。	I moved the month before last.
+n2-813-せんそ	先祖	せんぞ	ancestor	名词	先祖のお墓参りに行った。	I went to visit my ancestors' graves.
+n2-814-せんたん	先端	せんたん	pointed end,tip,fine point	名词	先端を理解することが大切だ。	It is important to understand pointed end.
+n2-815-せんて-ん	宣伝	せんでん	propaganda,publicity	名词	宣伝に関する問題が出た。	A question about propaganda came up.
+n2-816-せんとう	先頭	せんとう	head,lead,vanguard,first	名词	先頭に立って歩く。	Walk at the head.
+n2-817-せんふ-うき	扇風機	せんぷうき	electric fan	名词	扇風機をつけた。	I turned on the electric fan.
+n2-818-せんろ	線路	せんろ	line,track,roadbed	名词	線路を歩くのは危険だ。	Walking on the tracks is dangerous.
+n2-819-せ-いかん	税関	ぜいかん	customs house	名词	税関で荷物を検査された。	My luggage was inspected at customs.
+n2-820-せ-ひとも	ぜひとも	ぜひとも	by all means (with sense of not taking no for an answer)	名词	ぜひともお越しください。	Please come by all means.
+n2-821-せ-んこ	前後	ぜんご	around,throughout,front and back,before and behind,before and after	名词	三時前後に着く予定だ。	I plan to arrive around three o'clock.
+n2-822-せ-んしゅう	全集	ぜんしゅう	complete works	名词	全集を理解することが大切だ。	It is important to understand complete works.
+n2-823-せ-んしん	全身	ぜんしん	the whole body,full-length (portrait)	名词	全身が痛い。	My whole body hurts.
+n2-824-せ-んは-ん	全般	ぜんぱん	(the) whole,universal,wholly,general	名词	経済全般について話した。	I talked about the economy in general.
+n2-825-そうい	相違	そうい	difference,discrepancy,variation	名词	意見に相違がある。	There is a difference of opinion.
+n2-826-そういえは	そういえば	そういえば	which reminds me ..	名词	そういえば、明日休みだった。	Which reminds me, tomorrow was a day off.
+n2-827-そうこ	倉庫	そうこ	storehouse,warehouse,godown	名词	倉庫を理解することが大切だ。	It is important to understand storehouse.
+n2-828-そうこ	相互	そうご	mutual,reciprocal	名词	相互を理解することが大切だ。	It is important to understand mutual.
+n2-829-そうさく	創作	そうさく	production,literary creation,work	名词	創作を理解することが大切だ。	It is important to understand production.
+n2-830-そうしき	葬式	そうしき	funeral	名词	祖母の葬式に出席した。	I attended my grandmother's funeral.
+n2-831-そうそ-うしい	騒々しい	そうぞうしい	noisy,boisterous	名词	教室が騒々しい。	The classroom is noisy.
+n2-832-そうへ-つ	送別	そうべつ	farewell,send-off	名词	送別会を開いた。	We held a farewell party.
+n2-833-そうりた-いし-ん	総理大臣	そうりだいじん	Prime Minister	名词	総理大臣に関する問題が出た。	A question about Prime Minister came up.
+n2-834-そうりょう	送料	そうりょう	postage,carriage	名词	送料を理解することが大切だ。	It is important to understand postage.
+n2-835-そくたつ	速達	そくたつ	express,special delivery	名词	速達で送ってください。	Please send it by express mail.
+n2-836-そくてい	測定	そくてい	measurement	名词	温度を測定する。	Measure the temperature.
+n2-837-そくりょう	測量	そくりょう	measurement,surveying	名词	土地の測量をする。	Survey the land.
+n2-838-そくりょく	速力	そくりょく	speed	名词	船の速力を上げた。	I increased the ship's speed.
+n2-839-そしつ	素質	そしつ	character,qualities,genius	名词	音楽の素質がある。	I have a talent for music.
+n2-840-そせん	祖先	そせん	ancestor	名词	祖先に関する問題が出た。	A question about ancestor came up.
+n2-841-そそっかしい	そそっかしい	そそっかしい	careless,thoughtless	名词	彼はそそっかしい人だ。	He is a careless person.
+n2-842-そっちょく	卒直	そっちょく	frankness,candour,openheartedness	名词	卒直に関する問題が出た。	A question about frankness came up.
+n2-843-そなえる	具える	そなえる	to be furnished with	动词	具えることにした。	I decided to to be furnished with.
+n2-844-そのうえ	そのうえ	そのうえ	in addition,furthermore	名词	そのうえに関する問題が出た。	A question about in addition came up.
+n2-845-そのため	そのため	そのため	hence,for that reason	名词	そのために関する問題が出た。	A question about hence came up.
+n2-846-そのほか	そのほか	そのほか	otherwise	名词	そのほかを理解することが大切だ。	It is important to understand otherwise.
+n2-847-そは	蕎麦	そば	soba (buckwheat noodles)	名词	昼ご飯に蕎麦を食べた。	I had soba for lunch.
+n2-848-そる	剃る	そる	to shave	动词	もっと剃る必要がある。	There is a need to to shave more.
+n2-849-それる	逸れる	それる	to stray (turn) from subject,to get lost,to go astray	动词	逸れることにした。	I decided to to stray (turn) from subject.
+n2-850-そろう	揃う	そろう	to become complete,to be equal,to be all present,to gather	动词	毎日揃うようにしている。	I try to to become complete every day.
+n2-851-そろえる	揃える	そろえる	to put things in order,to arrange,to make uniform,to get something ready	动词	揃えるのは難しい。	It is difficult to to put things in order.
+n2-852-そろは-ん	算盤	そろばん	abacus	名词	算盤を習っている。	I'm learning to use an abacus.
+n2-853-そんとく	損得	そんとく	loss and gain,advantage and disadvantage	名词	損得を理解することが大切だ。	It is important to understand loss and gain.
+n2-854-そ-うきん	雑巾	ぞうきん	house-cloth,dust cloth	名词	雑巾で床を拭いた。	I wiped the floor with a rag.
+n2-855-そ-うけ-ん	増減	ぞうげん	increase and decrease,fluctuation	名词	人口の増減を調べる。	Investigate the increase and decrease in population.
+n2-856-そ-うせん	造船	ぞうせん	shipbuilding	名词	造船に関する問題が出た。	A question about shipbuilding came up.
+n2-857-そ-うた-い	増大	ぞうだい	enlargement	名词	費用が増大した。	Costs increased.
+n2-858-そ-うり	草履	ぞうり	zoori (Japanese footwear),sandals	名词	着物に草履を合わせる。	Match sandals with kimono.
+n2-859-そ-くする	属する	ぞくする	to belong to,to come under,to be affiliated with,to be subject to	名词/动词	属するのは難しい。	It is difficult to to belong to.
+n2-860-そ-くそ-く	続々	ぞくぞく	successively,one after another	名词	お客さんが続々と来た。	Customers came one after another.
+n2-861-そ-んし-る	存じる	ぞんじる	(hum) to know	名词	存じるに関する問題が出た。	A question about (hum) to know came up.
+n2-862-たいけい	体系	たいけい	system,organization	名词	教育体系を見直す。	Review the educational system.
+n2-863-たいこ	太鼓	たいこ	drum,tambourine	名词	太鼓を叩く。	Beat the drum.
+n2-864-たいさく	対策	たいさく	counter-plan,counter-measure	名词	対策を考える。	Think of countermeasures.
+n2-865-たいして	大して	たいして	(not so) much,(not) very	名词	大してに関する問題が出た。	A question about (not so) much came up.
+n2-866-たいしょう	対照	たいしょう	contrast,antithesis,comparison	名词	対照を理解することが大切だ。	It is important to understand contrast.
+n2-867-たいせい	体制	たいせい	order,system,structure,set-up,organization	名词	体制を理解することが大切だ。	It is important to understand order.
+n2-868-たいせき	体積	たいせき	capacity,volume	名词	体積に関する問題が出た。	A question about capacity came up.
+n2-869-たいそう	大層	たいそう	very much,exaggerated,very fine	名词	大層お世話になりました。	Thank you very much for your care.
+n2-870-たいほ-く	大木	たいぼく	large tree	名词	公園に大木がある。	There's a large tree in the park.
+n2-871-たいりつ	対立	たいりつ	confrontation,opposition,antagonism	名词	対立を理解することが大切だ。	It is important to understand confrontation.
+n2-872-たうえ	田植え	たうえ	rice planting	名词	田植えに関する問題が出た。	A question about rice planting came up.
+n2-873-たえす	絶えず	たえず	constantly	名词	絶えずに関する問題が出た。	A question about constantly came up.
+n2-874-たかめる	高める	たかめる	to raise,to lift,to boost	动词	高めることにした。	I decided to to raise.
+n2-875-たか-やす	耕す	たがやす	to till,to plow,to cultivate	动词	毎日耕すようにしている。	I try to to till every day.
+n2-876-たき	滝	たき	waterfall	名词	滝を理解することが大切だ。	It is important to understand waterfall.
+n2-877-たく	炊く	たく	to boil,to cook	动词	炊くのは難しい。	It is difficult to to boil.
+n2-878-たくわえる	蓄える	たくわえる	to store,to lay in stock	动词	蓄えることにした。	I decided to to store.
+n2-879-たけ	竹	たけ	bamboo,middle (of a three-tier ranking system)	名词	竹で籠を編む。	Weave a basket with bamboo.
+n2-880-たすかる	助かる	たすかる	to be saved,to be rescued,to survive,to be helpful	动词	助かることにした。	I decided to to be saved.
+n2-881-たたむ	畳む	たたむ	to fold (clothes)	动词	毎日畳むようにしている。	I try to to fold (clothes) every day.
+n2-882-たた-し	但し	ただし	but,however,provided that	名词	参加自由、但し事前登録が必要。	Participation is free, however prior registration is required.
+n2-883-たちと-まる	立ち止まる	たちどまる	to stop,to halt,to stand still	动词	立ち止まることにした。	I decided to to stop.
+n2-884-たちまち	たちまち	たちまち	at once,in a moment,suddenly,all at once	名词	たちまち人気が出た。	It became popular instantly.
+n2-885-たつ	建つ	たつ	to erect,to be erected,to be built	动词	彼は建つことができる。	He can to erect.
+n2-886-たとえる	例える	たとえる	to compare,to liken,to speak figuratively,to illustrate,to use a simile	动词	もっと例える必要がある。	There is a need to to compare more.
+n2-887-たのもしい	頼もしい	たのもしい	reliable,trustworthy,hopeful,promising	名词	頼もしいに関する問題が出た。	A question about reliable came up.
+n2-888-たひ	足袋	たび	tabi,Japanese socks (with split toe)	名词	着物を着る時は足袋を履く。	Wear tabi when wearing kimono.
+n2-889-たまる	溜まる	たまる	to collect,to gather,to save	动词	溜まることにした。	I decided to to collect.
+n2-890-ためいき	溜息	ためいき	a sigh	名词	溜息をついた。	I sighed.
+n2-891-ためらう	ためらう	ためらう	to hesitate	动词	毎日ためらうようにしている。	I try to to hesitate every day.
+n2-892-ためる	溜める	ためる	to amass,to accumulate	动词	彼は溜めることができる。	He can to amass.
+n2-893-たる	足る	たる	to be sufficient,to be enough	动词	足ることにした。	I decided to to be sufficient.
+n2-894-たんき	短期	たんき	short term	名词	短期の留学に行く。	I'm going on a short-term study abroad.
+n2-895-たんこう	炭鉱	たんこう	coal mine,coal pit	名词	炭鉱で働いていた。	I worked in a coal mine.
+n2-896-たんしょ	短所	たんしょ	(1) defect,demerit,weak point,(2) disadvantage	名词	短所を理解することが大切だ。	It is important to understand (1) defect.
+n2-897-たんす	たんす	たんす	chest of drawers	名词	タンスに服をしまう。	I put clothes in the dresser.
+n2-898-たんすい	淡水	たんすい	fresh water	名词	淡水を理解することが大切だ。	It is important to understand fresh water.
+n2-899-たんすう	単数	たんすう	singular (number)	名词	英語には単数と複数がある。	English has singular and plural.
+n2-900-たんへ-ん	短編	たんぺん	short (e.g. story, film)	名词	短編小説を書いた。	I wrote a short story.
+n2-901-たんほ	田ぼ	たんぼ	paddy field,farm	名词	田ぼに関する問題が出た。	A question about paddy field came up.
+n2-902-た-いいち	第一	だいいち	first,foremost,# 1	名词	第一を理解することが大切だ。	It is important to understand first.
+n2-903-た-いか-くいん	大学院	だいがくいん	graduate school	名词	大学院に進学する予定だ。	I plan to go to graduate school.
+n2-904-た-いく	大工	だいく	carpenter	名词	大工さんに家を建ててもらった。	I had a carpenter build my house.
+n2-905-た-いしょう	大小	だいしょう	size	名词	大小さまざまなサイズがある。	There are various sizes, large and small.
+n2-906-た-いふ-ん	大分	だいぶん	considerably,greatly,a lot	名词	大分良くなった。	It got considerably better.
+n2-907-た-いめい	題名	だいめい	title	名词	題名を理解することが大切だ。	It is important to understand title.
+n2-908-た-いめいし	代名詞	だいめいし	pronoun	名词	「私」は代名詞だ。	'Watashi' is a pronoun.
+n2-909-た-えん	楕円	だえん	ellipse	名词	楕円に関する問題が出た。	A question about ellipse came up.
+n2-910-た-っせん	脱線	だっせん	derailment,digression	名词	電車が脱線した。	The train derailed.
+n2-911-た-とう	妥当	だとう	valid,proper,right,appropriate	名词	妥当を理解することが大切だ。	It is important to understand valid.
+n2-912-た-ます	だます	だます	to trick,to cheat,to deceive	动词	毎日だますようにしている。	I try to to trick every day.
+n2-913-た-らしない	だらしない	だらしない	slovenly,loose,a slut	名词	彼はだらしない格好をしている。	He dresses sloppily.
+n2-914-た-んかい	段階	だんかい	gradation,grade,stage	名词	次の段階に進む。	Move to the next stage.
+n2-915-た-んすい	断水	だんすい	water outage	名词	工事で断水になった。	There was a water outage due to construction.
+n2-916-た-んち	団地	だんち	multi-unit apartments	名词	団地に住んでいる。	I live in an apartment complex.
+n2-917-た-んてい	断定	だんてい	conclusion,decision	名词	まだ断定はできない。	I can't conclude yet.
+n2-918-ちかう	誓う	ちかう	to swear,to vow,to take an oath,to pledge	动词	もっと誓う必要がある。	There is a need to to swear more.
+n2-919-ちかすい	地下水	ちかすい	underground water	名词	地下水を利用している。	We use groundwater.
+n2-920-ちかち-か	近々	ちかぢか	nearness,before long	名词	近々に関する問題が出た。	A question about nearness came up.
+n2-921-ちかつ-ける	近付ける	ちかづける	to bring near,to put close,to let come near,to associate with	动词	近付けることにした。	I decided to to bring near.
+n2-922-ちかよる	近寄る	ちかよる	to approach,to draw near	动词	近寄るのは難しい。	It is difficult to to approach.
+n2-923-ちからつ-よい	力強い	ちからづよい	reassuring,emboldened	形容词	力強いを理解することが大切だ。	It is important to understand reassuring.
+n2-924-ちき-る	千切る	ちぎる	to cut up fine,to pick (fruit)	动词	千切るのは難しい。	It is difficult to to cut up fine.
+n2-925-ちしつ	地質	ちしつ	geological features	名词	この地域の地質を調べる。	Investigate the geology of this area.
+n2-926-ちし-ん	知人	ちじん	friend,acquaintance	名词	知人を理解することが大切だ。	It is important to understand friend.
+n2-927-ちたい	地帯	ちたい	area,zone	名词	工業地帯に工場がある。	There are factories in the industrial zone.
+n2-928-ちち-む	縮む	ちぢむ	to shrink,to be contracted	动词	縮むのは難しい。	It is difficult to to shrink.
+n2-929-ちち-める	縮める	ちぢめる	to shorten,to reduce,to boil down,to shrink	动词	縮めるのは難しい。	It is difficult to to shorten.
+n2-930-ちち-れる	縮れる	ちぢれる	to be wavy,to be curled	动词	毎日縮れるようにしている。	I try to to be wavy every day.
+n2-931-ちてん	地点	ちてん	site,point on a map	名词	地点に関する問題が出た。	A question about site came up.
+n2-932-ちめい	地名	ちめい	place name	名词	地名の由来を調べた。	I looked up the origin of the place name.
+n2-933-ちゃくちゃく	着々	ちゃくちゃく	steadily	名词	着々を理解することが大切だ。	It is important to understand steadily.
+n2-934-ちゃわん	茶碗	ちゃわん	rice bowl,tea cup,teacup	名词	茶碗でご飯を食べる。	I eat rice from a rice bowl.
+n2-935-ちゅうかん	中間	ちゅうかん	middle,midway,interim	名词	中間試験がある。	There's a midterm exam.
+n2-936-ちゅうしょう	抽象	ちゅうしょう	abstract	名词	抽象的な概念だ。	It's an abstract concept.
+n2-937-ちゅうし-ゅん	中旬	ちゅうじゅん	second third of a month	名词	八月中旬に届く。	It will arrive in mid-August.
+n2-938-ちゅうせい	中世	ちゅうせい	Middle Ages,mediaeval times	名词	中世ヨーロッパの歴史を学ぶ。	I study medieval European history.
+n2-939-ちゅうと	中途	ちゅうと	in the middle,half-way	副词	中途で諦めた。	I gave up midway.
+n2-940-ちゅうねん	中年	ちゅうねん	middle-aged	名词	中年に関する問題が出た。	A question about middle-aged came up.
+n2-941-ちょうか	超過	ちょうか	excess,being more than	名词	予算を超過した。	I exceeded the budget.
+n2-942-ちょうこく	彫刻	ちょうこく	carving,engraving,sculpture	名词	彫刻に関する問題が出た。	A question about carving came up.
+n2-943-ちょうしょ	長所	ちょうしょ	(1) strong point,merit,(2) advantage	名词	長所を理解することが大切だ。	It is important to understand (1) strong point.
+n2-944-ちょうし-ょ	長女	ちょうじょ	eldest daughter	名词	長女を理解することが大切だ。	It is important to understand eldest daughter.
+n2-945-ちょうせい	調整	ちょうせい	regulation,adjustment,tuning	名词	スケジュールを調整する。	Adjust the schedule.
+n2-946-ちょうせつ	調節	ちょうせつ	regulation,adjustment,control	名词	調節に関する問題が出た。	A question about regulation came up.
+n2-947-ちょうたん	長短	ちょうたん	length,long and short,+-	名词	長短がある。	There are pros and cons.
+n2-948-ちょうてん	頂点	ちょうてん	top,summit	名词	頂点に関する問題が出た。	A question about top came up.
+n2-949-ちょうなん	長男	ちょうなん	eldest son	名词	彼は長男だ。	He is the eldest son.
+n2-950-ちょうほうけい	長方形	ちょうほうけい	rectangle,oblong	形容词	長方形のテーブルを買った。	I bought a rectangular table.
+n2-951-ちょうみりょう	調味料	ちょうみりょう	condiment,seasoning	名词	調味料に関する問題が出た。	A question about condiment came up.
+n2-952-ちょくこ	直後	ちょくご	immediately following	名词	直後を理解することが大切だ。	It is important to understand immediately following.
+n2-953-ちょくせん	直線	ちょくせん	straight line	名词	直線に関する問題が出た。	A question about straight line came up.
+n2-954-ちょくせ-ん	直前	ちょくぜん	just before	名词	直前に関する問題が出た。	A question about just before came up.
+n2-955-ちょくつう	直通	ちょくつう	direct communication	名词	直通電話がある。	There's a direct line.
+n2-956-ちょくりゅう	直流	ちょくりゅう	direct current	名词	直流と交流の違い。	The difference between DC and AC.
+n2-957-ちょそ-う	貯蔵	ちょぞう	storage,preservation	名词	食料を貯蔵する。	Store food.
+n2-958-ちょっかく	直角	ちょっかく	right angle	名词	直角に曲がる。	Turn at a right angle.
+n2-959-ちょっけい	直径	ちょっけい	diameter	名词	円の直径を測る。	Measure the diameter of the circle.
+n2-960-ちらかす	散らかす	ちらかす	to scatter around,to leave untidy	动词	毎日散らかすようにしている。	I try to to scatter around every day.
+n2-961-ちらかる	散らかる	ちらかる	to be in disorder,to lie scattered around	动词	散らかることにした。	I decided to to be in disorder.
+n2-962-ちらす	散らす	ちらす	to scatter,to disperse,to distribute	动词	毎日散らすようにしている。	I try to to scatter every day.
+n2-963-ちりか-み	塵紙	ちりがみ	tissue paper,toilet paper	名词	塵紙に関する問題が出た。	A question about tissue paper came up.
+n2-964-ちる	散る	ちる	to fall,to scatter (e.g. blossoms)	动词	散ることにした。	I decided to to fall.
+n2-965-ついか	追加	ついか	addition,supplement,appendix	名词	追加料金がかかる。	There's an additional fee.
+n2-966-ついて	序で	ついで	opportunity,occasion	名词	序でに関する問題が出た。	A question about opportunity came up.
+n2-967-つうか	通貨	つうか	currency	名词	通貨に関する問題が出た。	A question about currency came up.
+n2-968-つうきん	通勤	つうきん	commuting to work	名词	電車で通勤している。	I commute by train.
+n2-969-つうち	通知	つうち	notice,notification	名词	通知に関する問題が出た。	A question about notice came up.
+n2-970-つうちょう	通帳	つうちょう	passbook	名词	通帳に関する問題が出た。	A question about passbook came up.
+n2-971-つうやく	通訳	つうやく	interpretation	名词	通訳として働いている。	I work as an interpreter.
+n2-972-つうよう	通用	つうよう	popular use,circulation	名词	この切符は通用しない。	This ticket is not valid.
+n2-973-つうろ	通路	つうろ	passage,pathway	名词	通路を理解することが大切だ。	It is important to understand passage.
+n2-974-つきあう	付合う	つきあう	to associate with,to keep company with,to get on with	动词	付合うのは難しい。	It is difficult to to associate with.
+n2-975-つきあたり	突き当たり	つきあたり	end (e.g. of street)	名词	突き当たりを右に曲がる。	Turn right at the end of the street.
+n2-976-つきあたる	突き当たる	つきあたる	to run into,to collide with	动词	彼は突き当たることができる。	He can to run into.
+n2-977-つきひ	月日	つきひ	time,years,days	名词	月日が経つのは早い。	Time flies.
+n2-978-つく	点く	つく	to catch fire,(electricity) comes on	动词	もっと点く必要がある。	There is a need to to catch fire more.
+n2-979-つくる	造る	つくる	to make,to create	动词	造ることにした。	I decided to to make.
+n2-980-つく	次ぐ	つぐ	to rank next to,to come after	动词	毎日次ぐようにしている。	I try to to rank next to every day.
+n2-981-つける	着ける	つける	(1) to attach,to join,to add,to append	动词	着けることにした。	I decided to (1) to attach.
+n2-982-つたわる	伝わる	つたわる	to be handed down,to be introduced,to be transmitted	动词	彼は伝わることができる。	He can to be handed down.
+n2-983-つっこむ	突っ込む	つっこむ	to plunge into,to go into deeply	动词	突っ込むのは難しい。	It is difficult to to plunge into.
+n2-984-つとめる	務める	つとめる	(1) to serve,to fill a post,to serve under,to work (for)	动词	毎日務めるようにしている。	I try to (1) to serve every day.
+n2-985-つな	綱	つな	rope	名词	綱を引っ張る。	Pull the rope.
+n2-986-つなか-り	繋がり	つながり	connection,link,relationship	名词	人との繋がりを大切にする。	Value connections with people.
+n2-987-つなか-る	繋がる	つながる	to be tied together,to be connected to,to be related to	动词	毎日繋がるようにしている。	I try to to be tied together every day.
+n2-988-つなけ-る	繋げる	つなげる	to connect	动词	繋げることにした。	I decided to to connect.
+n2-989-つふ	粒	つぶ	grain	名词	粒を理解することが大切だ。	It is important to understand grain.
+n2-990-つふ-す	潰す	つぶす	to smash,to waste	动词	潰すことにした。	I decided to to smash.
+n2-991-つふ-れる	潰れる	つぶれる	to be smashed,to go bankrupt	动词	潰れるのは難しい。	It is difficult to to be smashed.
+n2-992-つます-く	つまずく	つまずく	to stumble,to trip	动词	つまずくことにした。	I decided to to stumble.
+n2-993-つまる	詰まる	つまる	to be blocked,to be packed	动词	彼は詰まることができる。	He can to be blocked.
+n2-994-つむ	積む	つむ	to pile up,to stack	动词	彼は積むことができる。	He can to pile up.
+n2-995-つめ	爪	つめ	fingernail or toenail,claw,talon,hoof	名词	爪を理解することが大切だ。	It is important to understand fingernail or toenail.
+n2-996-つや	艶	つや	gloss,glaze	名词	髪に艶がある。	My hair has a shine.
+n2-997-つよき	強気	つよき	firm,strong	名词	彼は強気な性格だ。	He has a bold personality.
+n2-998-つりあう	釣り合う	つりあう	to balance,to be in harmony,to suit	动词	もっと釣り合う必要がある。	There is a need to to balance more.
+n2-999-つる	吊る	つる	to hang	动词	吊ることにした。	I decided to to hang.
+n2-1000-つるす	吊す	つるす	to hang	动词	吊すことにした。	I decided to to hang.
+n2-1001-てあらい	手洗い	てあらい	restroom,lavatory,hand-washing	名词	手洗いはどこですか。	Where is the restroom?
+n2-1002-ていいん	定員	ていいん	fixed number of regular personnel,capacity (of boat, etc.)	名词	定員は五十名です。	The capacity is 50 people.
+n2-1003-ていか	定価	ていか	established price	名词	定価で買った。	I bought it at the regular price.
+n2-1004-ていきけん	定期券	ていきけん	commuter pass,season ticket	名词	定期券を買った。	I bought a commuter pass.
+n2-1005-ていきゅうひ	定休日	ていきゅうび	regular holiday	名词	定休日を理解することが大切だ。	It is important to understand regular holiday.
+n2-1006-ていし	停止	ていし	suspension,interruption,stoppage,ban	名词	停止に関する問題が出た。	A question about suspension came up.
+n2-1007-ていしゃ	停車	ていしゃ	stopping (e.g. train)	名词	電車が停車した。	The train stopped.
+n2-1008-ていて-ん	停電	ていでん	failure of electricity	名词	停電を理解することが大切だ。	It is important to understand failure of electricity.
+n2-1009-ていれ	手入れ	ていれ	repairs,maintenance	名词	庭の手入れをする。	I do garden maintenance.
+n2-1010-てきかく	的確	てきかく	precise,accurate	名词	的確なアドバイスをもらった。	I received accurate advice.
+n2-1011-てくひ	手首	てくび	wrist	名词	手首を怪我した。	I injured my wrist.
+n2-1012-てこ-ろ	手頃	てごろ	moderate,handy	名词	手頃を理解することが大切だ。	It is important to understand moderate.
+n2-1013-てちょう	手帳	てちょう	notebook	名词	手帳に予定を書く。	I write plans in my notebook.
+n2-1014-てっきょう	鉄橋	てっきょう	railway bridge,iron bridge	名词	鉄橋を渡る。	Cross the iron bridge.
+n2-1015-てっほ-う	鉄砲	てっぽう	gun	名词	昔は鉄砲で狩りをした。	In the past, people hunted with guns.
+n2-1016-てつつ-き	手続き	てつづき	procedure,(legal) process,formalities	名词	手続きを理解することが大切だ。	It is important to understand procedure.
+n2-1017-てぬく-い	手拭い	てぬぐい	(hand) towel	名词	手拭いで汗を拭く。	Wipe sweat with a hand towel.
+n2-1018-てまえ	手前	てまえ	before,this side,we,you	名词	駅の手前で降りた。	I got off just before the station.
+n2-1019-てらす	照らす	てらす	to shine on,to illuminate	动词	照らすのは難しい。	It is difficult to to shine on.
+n2-1020-てる	照る	てる	to shine	动词	彼は照ることができる。	He can to shine.
+n2-1021-てんかい	展開	てんかい	develop,expansion (opposite of compression)	名词	展開に関する問題が出た。	A question about develop came up.
+n2-1022-てんすう	点数	てんすう	marks,points,score,runs	名词	点数を理解することが大切だ。	It is important to understand marks.
+n2-1023-てんてん	点々	てんてん	here and there,little by little	名词	空に星が点々と見える。	Stars are scattered across the sky.
+n2-1024-てんのう	天皇	てんのう	Emperor of Japan	名词	天皇陛下のお言葉を聞いた。	I heard the Emperor's words.
+n2-1025-て-あい	出合い	であい	an encounter	名词	素敵な出合いがあった。	I had a wonderful encounter.
+n2-1026-て-いり	出入り	でいり	in and out,coming and going,free association,income and expenditure,debits and credit	名词	出入りに関する問題が出た。	A question about in and out came up.
+n2-1027-て-いりく-ち	出入口	でいりぐち	exit and entrance	名词	出入口を理解することが大切だ。	It is important to understand exit and entrance.
+n2-1028-て-かける	出掛ける	でかける	to depart,to set out,to start,to be going out	动词	彼は出掛けることができる。	He can to depart.
+n2-1029-て-きあか-り	出来上がり	できあがり	be finished,ready,made for,cut out	名词	料理の出来上がりを待つ。	Wait for the dish to be ready.
+n2-1030-て-きあか-る	出来上がる	できあがる	(1) to be finished,to be ready,by definition,(2) to be very drunk	动词	もっと出来上がる必要がある。	There is a need to (1) to be finished more.
+n2-1031-て-こほ-こ	凸凹	でこぼこ	unevenness,roughness,ruggedness	名词	道が凸凹している。	The road is bumpy.
+n2-1032-て-たらめ	でたらめ	でたらめ	(1) irresponsible utterance,nonsense,nonsensical,(2) random	名词	でたらめを理解することが大切だ。	It is important to understand (1) irresponsible utterance.
+n2-1033-て-むかえ	出迎え	でむかえ	meeting,reception	名词	空港に出迎えに行った。	I went to meet someone at the airport.
+n2-1034-て-むかえる	出迎える	でむかえる	to meet,to greet	动词	彼は出迎えることができる。	He can to meet.
+n2-1035-て-んき	伝記	でんき	biography,life story	名词	偉人の伝記を読んだ。	I read a biography of a great person.
+n2-1036-て-んきゅう	電球	でんきゅう	light bulb	名词	電球に関する問題が出た。	A question about light bulb came up.
+n2-1037-て-んせん	伝染	でんせん	contagion	名词	病気が伝染した。	The disease spread.
+n2-1038-て-んち	電池	でんち	battery	名词	電池を交換した。	I changed the batteries.
+n2-1039-て-んちゅう	電柱	でんちゅう	telephone pole,telegraph pole,lightpole	名词	電柱を理解することが大切だ。	It is important to understand telephone pole.
+n2-1040-て-んは	電波	でんぱ	electro-magnetic wave	名词	電波が届かない。	The signal doesn't reach.
+n2-1041-て-んりゅう	電流	でんりゅう	electric current	名词	電流を理解することが大切だ。	It is important to understand electric current.
+n2-1042-て-んりょく	電力	でんりょく	electric power	名词	電力を節約する。	Conserve electricity.
+n2-1043-といあわせ	問い合わせ	といあわせ	enquiry,ENQ	名词	問い合わせに関する問題が出た。	A question about enquiry came up.
+n2-1044-とういつ	統一	とういつ	unity,consolidation,uniformity	名词	国を統一した。	The country was unified.
+n2-1045-とうけい	統計	とうけい	scattering,a scatter,dispersion	名词	統計を取った。	I took statistics.
+n2-1046-とうけ	峠	とうげ	ridge,(mountain) pass,difficult part	名词	峠を越えた。	I crossed the mountain pass.
+n2-1047-とうさ-い	東西	とうざい	East and West,whole country	名词	東西南北を確認する。	Check all directions.
+n2-1048-とうしょ	投書	とうしょ	letter to the editor,letter from a reader,contribution	名词	新聞に投書した。	I wrote a letter to the newspaper.
+n2-1049-とうし-つ	当日	とうじつ	appointed day,very day	名词	当日券を買った。	I bought a same-day ticket.
+n2-1050-とうし-ょう	登場	とうじょう	entry (on stage)	名词	新しいキャラクターが登場した。	A new character appeared.
+n2-1051-とうた-い	灯台	とうだい	lighthouse	名词	灯台が見える。	I can see the lighthouse.
+n2-1052-とうなん	盗難	とうなん	theft,robbery	名词	盗難に関する問題が出た。	A question about theft came up.
+n2-1053-とうは-ん	当番	とうばん	being on duty	名词	今日は掃除当番だ。	Today is my turn to clean.
+n2-1054-とうふ-ん	等分	とうぶん	division into equal parts	名词	ケーキを等分に切る。	Cut the cake into equal parts.
+n2-1055-とうめい	透明	とうめい	transparency,cleanness	名词	透明に関する問題が出た。	A question about transparency came up.
+n2-1056-とうゆ	灯油	とうゆ	lamp oil,kerosene	名词	灯油を理解することが大切だ。	It is important to understand lamp oil.
+n2-1057-とうよう	東洋	とうよう	Orient	名词	東洋と西洋の文化の違い。	Differences between Eastern and Western cultures.
+n2-1058-とおりかかる	通り掛かる	とおりかかる	to happen to pass by	动词	もっと通り掛かる必要がある。	There is a need to to happen to pass by more.
+n2-1059-とかす	溶かす	とかす	to melt,to dissolve	动词	もっと溶かす必要がある。	There is a need to to melt more.
+n2-1060-とか-る	尖る	とがる	to taper to a point,to become sharp,to be sour,to look displeased	动词	毎日尖るようにしている。	I try to to taper to a point every day.
+n2-1061-とく	溶く	とく	to dissolve (paint)	动词	もっと溶く必要がある。	There is a need to to dissolve (paint) more.
+n2-1062-とくしゅ	特殊	とくしゅ	special,unique	名词	特殊に関する問題が出た。	A question about special came up.
+n2-1063-とくしょく	特色	とくしょく	characteristic,feature	名词	この地域の特色を調べた。	I investigated the characteristics of this region.
+n2-1064-とくちょう	特長	とくちょう	forte,merit	名词	この製品の特長を説明する。	I'll explain the merits of this product.
+n2-1065-とくてい	特定	とくてい	specific,special,particular	名词	特定の人を探している。	I'm looking for a specific person.
+n2-1066-とくは-い	特売	とくばい	special sale	名词	特売でお菓子を買った。	I bought snacks on special sale.
+n2-1067-とけこむ	溶け込む	とけこむ	to melt into	动词	毎日溶け込むようにしている。	I try to to melt into every day.
+n2-1068-とける	溶ける	とける	to melt,to thaw,to fuse,to dissolve	动词	毎日溶けるようにしている。	I try to to melt every day.
+n2-1069-とこのま	床の間	とこのま	alcove	名词	床の間に花を飾った。	I decorated the alcove with flowers.
+n2-1070-とこや	床屋	とこや	barber	名词	床屋を理解することが大切だ。	It is important to understand barber.
+n2-1071-ところと-ころ	所々	ところどころ	here and there,some parts (of something)	名词	所々に桜が咲いている。	Cherry blossoms are blooming here and there.
+n2-1072-としん	都心	としん	heart (of city)	名词	都心に関する問題が出た。	A question about heart (of city) came up.
+n2-1073-とた-な	戸棚	とだな	cupboard,locker,closet,wardrobe	名词	戸棚を理解することが大切だ。	It is important to understand cupboard.
+n2-1074-とっくに	とっくに	とっくに	long ago,already,a long time ago	副词	とっくに知っていた。	I knew it long ago.
+n2-1075-ととのう	整う	ととのう	to be prepared,to be in order,to be put in order,to be arranged	动词	彼は整うことができる。	He can to be prepared.
+n2-1076-とと-まる	留まる	とどまる	(1) to be fixed,(2) to abide,to stay (in the one place)	动词	毎日留まるようにしている。	I try to (1) to be fixed every day.
+n2-1077-とひ-こむ	飛び込む	とびこむ	to jump in,to leap in,to plunge into,to dive	动词	飛び込むのは難しい。	It is difficult to to jump in.
+n2-1078-とふ	跳ぶ	とぶ	to jump,to fly,to leap	动词	跳ぶのは難しい。	It is difficult to to jump.
+n2-1079-とまる	留まる	とまる	(1) to be fixed,(2) to abide,to stay (in the one place)	动词	もっと留まる必要がある。	There is a need to (1) to be fixed more.
+n2-1080-とめる	泊める	とめる	to give shelter to,to lodge	动词	もっと泊める必要がある。	There is a need to to give shelter to more.
+n2-1081-ともかく	ともかく	ともかく	anyhow,anyway,somehow or other,generally speaking,in any case	名词	ともかく行ってみよう。	Anyway, let's go and see.
+n2-1082-とらえる	捕える	とらえる	to seize,to grasp,to capture,to arrest	动词	もっと捕える必要がある。	There is a need to to seize more.
+n2-1083-とりいれる	取り入れる	とりいれる	to harvest,to take in,to adopt	动词	彼は取り入れることができる。	He can to harvest.
+n2-1084-とりけす	取り消す	とりけす	to cancel	动词	毎日取り消すようにしている。	I try to to cancel every day.
+n2-1085-とりた-す	取り出す	とりだす	to take out,to produce,to pick out	动词	彼は取り出すことができる。	He can to take out.
+n2-1086-とる	採る	とる	(1) to adopt (measure, proposal),(2) to pick (fruit)	名词	採るに関する問題が出た。	A question about (1) to adopt (measure came up.
+n2-1087-と-う	銅	どう	copper	名词	銅でできている。	It's made of copper.
+n2-1088-と-うかく	同格	どうかく	the same rank,equality,apposition	名词	同格を理解することが大切だ。	It is important to understand the same rank.
+n2-1089-と-うさ	動作	どうさ	action,movements,motions,bearing,behaviour,manners	名词	動作を説明する。	Explain the movements.
+n2-1090-と-うせ	どうせ	どうせ	anyhow,in any case,at any rate	名词	どうせを理解することが大切だ。	It is important to understand anyhow.
+n2-1091-と-うそ-よろしく	どうぞよろしく	どうぞよろしく	pleased to meet you	名词	初めまして、どうぞよろしく。	Nice to meet you, pleased to meet you.
+n2-1092-と-うわ	童話	どうわ	fairy tale	名词	童話に関する問題が出た。	A question about fairy tale came up.
+n2-1093-と-きと-き	どきどき	どきどき	throb,beat (fast)	名词	どきどきを理解することが大切だ。	It is important to understand throb.
+n2-1094-と-く	退く	どく	(1) to retreat,to recede,to withdraw	动词	もっと退く必要がある。	There is a need to (1) to retreat more.
+n2-1095-と-ける	退ける	どける	to remove,to take away,to dislodge,to put something out of the way	动词	もっと退ける必要がある。	There is a need to to remove more.
+n2-1096-と-っと	どっと	どっと	suddenly	副词	どっとを理解することが大切だ。	It is important to understand suddenly.
+n2-1097-と-なる	どなる	どなる	to shout,to yell	动词	毎日どなるようにしている。	I try to to shout every day.
+n2-1098-と-んふ-り	丼	どんぶり	porcelain bowl,bowl of rice with food on top	名词	丼に関する問題が出た。	A question about porcelain bowl came up.
+n2-1099-ないか	内科	ないか	internist clinic,internal medicine	名词	内科を受診した。	I visited the internal medicine department.
+n2-1100-ないせん	内線	ないせん	phone extension,indoor wiring,inner line	名词	内線番号を教えてください。	Please tell me the extension number.
+n2-1101-なおす	治す	なおす	to cure,to heal,to fix,to correct,to repair	动词	もっと治す必要がある。	There is a need to to cure more.
+n2-1102-なかなおり	仲直り	なかなおり	reconciliation,make peace with	名词	仲直りを理解することが大切だ。	It is important to understand reconciliation.
+n2-1103-なかみ	中身	なかみ	contents,interior,substance,filling,(sword) blade	名词	中身に関する問題が出た。	A question about contents came up.
+n2-1104-なかゆひ	中指	なかゆび	middle finger	名词	中指を怪我した。	I injured my middle finger.
+n2-1105-なかよし	仲良し	なかよし	intimate friend,bosom buddy,chum	名词	彼とは仲良しだ。	We are close friends.
+n2-1106-なか-い	永い	ながい	long,lengthy	形容词	永い間お世話になりました。	Thank you for your long support.
+n2-1107-なか-ひ-く	長引く	ながびく	to be prolonged,to drag on	动词	もっと長引く必要がある。	There is a need to to be prolonged more.
+n2-1108-なくす	亡くす	なくす	to lose someone, wife, child, etc	动词	亡くすことにした。	I decided to to lose someone.
+n2-1109-なく-さめる	慰める	なぐさめる	to comfort,to console	动词	もっと慰める必要がある。	There is a need to to comfort more.
+n2-1110-なく-る	なぐる	なぐる	to strike,to hit	动词	毎日なぐるようにしている。	I try to to strike every day.
+n2-1111-なす	為す	なす	to accomplish,to do	动词	為すことにした。	I decided to to accomplish.
+n2-1112-なそ-なそ	謎謎	なぞなぞ	riddle,puzzle,enigma	名词	謎謎を理解することが大切だ。	It is important to understand riddle.
+n2-1113-なつかしい	懐かしい	なつかしい	dear,desired,missed	名词	懐かしい思い出だ。	It's a nostalgic memory.
+n2-1114-なて-る	撫でる	なでる	to brush gently,to stroke	动词	彼は撫でることができる。	He can to brush gently.
+n2-1115-ななめ	斜め	ななめ	obliqueness	名词	斜めに切る。	Cut diagonally.
+n2-1116-なにしろ	なにしろ	なにしろ	at any rate,anyhow,anyway,in any case	名词	なにしろに関する問題が出た。	A question about at any rate came up.
+n2-1117-なになに	何々	なになに	such and such,What?	副词	何々に関する問題が出た。	A question about such and such came up.
+n2-1118-なにふ-ん	何分	なにぶん	what minute?,how many minutes?	名词	何分待てばいいですか。	How many minutes should I wait?
+n2-1119-なまいき	生意気	なまいき	impertinent,saucy,cheeky,conceit,audacious,brazen	名词	生意気な態度だ。	It's an impertinent attitude.
+n2-1120-なみき	並木	なみき	roadside tree,row of trees	名词	並木道を歩いた。	I walked along the tree-lined road.
+n2-1121-ならう	倣う	ならう	to imitate,to follow,to emulate	动词	倣うことにした。	I decided to to imitate.
+n2-1122-ならす	鳴らす	ならす	to ring,to sound,to chime,to beat,to snort (nose)	动词	鳴らすのは難しい。	It is difficult to to ring.
+n2-1123-なる	生る	なる	to bear fruit	动词	彼は生ることができる。	He can to bear fruit.
+n2-1124-なれる	馴れる	なれる	to become domesticated,to become tame	动词	馴れるのは難しい。	It is difficult to to become domesticated.
+n2-1125-なんきょく	南極	なんきょく	south pole,Antarctic	名词	南極に行ってみたい。	I want to go to Antarctica.
+n2-1126-なんとなく	なんとなく	なんとなく	somehow or other,for some reason or another	名词	なんとなくを理解することが大切だ。	It is important to understand somehow or other.
+n2-1127-なんとも	なんとも	なんとも	nothing (with neg. verb),quite,not a bit	名词	なんともを理解することが大切だ。	It is important to understand nothing (with neg. verb).
+n2-1128-なんへ-い	南米	なんべい	South America	名词	南米を理解することが大切だ。	It is important to understand South America.
+n2-1129-なんほ-く	南北	なんぼく	south and north	名词	南北に長い国だ。	It's a country that's long from north to south.
+n2-1130-にえる	煮える	にえる	to boil,to cook,to be cooked	动词	もっと煮える必要がある。	There is a need to to boil more.
+n2-1131-におう	匂う	におう	to be fragrant,to smell,to stink	动词	匂うことにした。	I decided to to be fragrant.
+n2-1132-にか-す	逃がす	にがす	to let loose,to set free,to let escape	动词	逃がすことにした。	I decided to to let loose.
+n2-1133-にくい	憎い	にくい	hateful,abominable,poor-looking,detestable	名词	彼のことが憎い。	I hate him.
+n2-1134-にくむ	憎む	にくむ	to hate,to detest	动词	憎むことにした。	I decided to to hate.
+n2-1135-にくらしい	憎らしい	にくらしい	odious,hateful	名词	憎らしいに関する問題が出た。	A question about odious came up.
+n2-1136-にこ-る	濁る	にごる	to become muddy,to get impure	动词	濁ることにした。	I decided to to become muddy.
+n2-1137-にし	虹	にじ	rainbow	名词	虹が出ている。	A rainbow is out.
+n2-1138-にちし	日時	にちじ	date and time	名词	日時を理解することが大切だ。	It is important to understand date and time.
+n2-1139-にちようひん	日用品	にちようひん	daily necessities	名词	日用品を理解することが大切だ。	It is important to understand daily necessities.
+n2-1140-にっか	日課	にっか	daily lesson,daily work,daily routine	名词	散歩が日課だ。	Walking is my daily routine.
+n2-1141-にってい	日程	にってい	agenda	名词	日程を調整する。	Adjust the schedule.
+n2-1142-にふ-い	鈍い	にぶい	dull (e.g. a knife),thickheaded,slow (opposite of fast),stupid	形容词	鈍いを理解することが大切だ。	It is important to understand dull (e.g. a knife).
+n2-1143-にゅうしゃ	入社	にゅうしゃ	entry to a company	名词	来年入社する予定だ。	I plan to join the company next year.
+n2-1144-にょうほ-う	女房	にょうぼう	wife	名词	女房と旅行に行った。	I went on a trip with my wife.
+n2-1145-にらむ	睨む	にらむ	to glare at,to scowl at,to keep an eye on	动词	もっと睨む必要がある。	There is a need to to glare at more.
+n2-1146-にる	煮る	にる	to boil,to cook	动词	煮るのは難しい。	It is difficult to to boil.
+n2-1147-にわか	俄	にわか	sudden,abrupt,unexpected,improvised,offhand	名词	俄雨が降ってきた。	A sudden rain started falling.
+n2-1148-ぬう	縫う	ぬう	to sew	动词	彼は縫うことができる。	He can to sew.
+n2-1149-ぬらす	濡らす	ぬらす	to wet,to soak,to dip	动词	彼は濡らすことができる。	He can to wet.
+n2-1150-ねし	ねじ	ねじ	(a) screw	名词	ねじに関する問題が出た。	A question about (a) screw came up.
+n2-1151-ねし-る	捩る	ねじる	to twist	动词	彼は捩ることができる。	He can to twist.
+n2-1152-ねっする	熱する	ねっする	to heat	名词/动词	毎日熱するようにしている。	I try to to heat every day.
+n2-1153-ねまき	寝間着	ねまき	sleep-wear,nightclothes,pyjamas,nightgown,nightdress	名词	寝間着に着替えた。	I changed into my pajamas.
+n2-1154-ねらい	狙い	ねらい	aim	名词	狙いを定める。	Take aim.
+n2-1155-ねらう	狙う	ねらう	to aim at	动词	彼は狙うことができる。	He can to aim at.
+n2-1156-ねんと	年度	ねんど	year,fiscal year,school year,term	名词	今年度の予算を決めた。	I decided this year's budget.
+n2-1157-のうさんふ-つ	農産物	のうさんぶつ	agricultural produce	名词	農産物を輸出する。	Export agricultural produce.
+n2-1158-のうそん	農村	のうそん	agricultural community,farm village,rural	名词	農村に関する問題が出た。	A question about agricultural community came up.
+n2-1159-のうと	濃度	のうど	concentration,brightness	名词	濃度を測定する。	Measure the concentration.
+n2-1160-のうやく	農薬	のうやく	agricultural chemicals	名词	農薬を使わない野菜だ。	It's vegetables grown without pesticides.
+n2-1161-のうりつ	能率	のうりつ	efficiency	名词	能率を上げたい。	I want to improve efficiency.
+n2-1162-のこき-り	のこぎり	のこぎり	saw	名词	のこぎりで木を切る。	Cut wood with a saw.
+n2-1163-のこらす	残らず	のこらず	all,entirely,completely,without exception	名词	残らず食べた。	I ate everything.
+n2-1164-のせる	載せる	のせる	to place on (something),to take on board,to give a ride	动词	彼は載せることができる。	He can to place on (something).
+n2-1165-のそ-く	覗く	のぞく	to peep in,to look in,to peek in,to stick out	动词	毎日覗くようにしている。	I try to to peep in every day.
+n2-1166-のは-す	延ばす	のばす	to lengthen,to stretch,to reach out,to grow (beard)	动词	もっと延ばす必要がある。	There is a need to to lengthen more.
+n2-1167-のひ-る	延びる	のびる	to be prolonged	动词	毎日延びるようにしている。	I try to to be prolonged every day.
+n2-1168-のほ-り	上り	のぼり	up-train (going to Tokyo),ascent	名词	上りに関する問題が出た。	A question about up-train (going to Tokyo) came up.
+n2-1169-のほ-る	上る	のぼる	to ascend,to go up,to climb	动词	上ることにした。	I decided to to ascend.
+n2-1170-のり	糊	のり	paste,starch	名词	糊で紙を貼る。	Paste paper with glue.
+n2-1171-のりかえ	乗換	のりかえ	(n) transfer (trains, buses, etc.)	名词	乗換駅で降りる。	I get off at the transfer station.
+n2-1172-のる	載る	のる	to appear (in print),to be recorded	动词	彼は載ることができる。	He can to appear (in print).
+n2-1173-のろい	鈍い	のろい	dull (e.g. a knife),thickheaded,slow (opposite of fast),stupid	形容词	頭の回転が鈍い。	He is slow-witted.
+n2-1174-のろのろ	のろのろ	のろのろ	slowly,sluggishly	名词	のろのろ歩いている。	Walking sluggishly.
+n2-1175-のんき	呑気	のんき	carefree,optimistic,careless,reckless,heedless	名词	呑気を理解することが大切だ。	It is important to understand carefree.
+n2-1176-はいいろ	灰色	はいいろ	grey,gray,ashen	名词	空が灰色だ。	The sky is gray.
+n2-1177-はいく	俳句	はいく	haiku poetry	名词	俳句を作った。	I composed a haiku.
+n2-1178-はう	這う	はう	to creep,to crawl	动词	這うことにした。	I decided to to creep.
+n2-1179-はえる	生える	はえる	(1) to grow,to spring up,(2) to cut (teeth)	动词	生えることにした。	I decided to (1) to grow.
+n2-1180-はかり	秤	はかり	scales,weighing machine	名词	秤で重さを量る。	Weigh with scales.
+n2-1181-はかる	量る	はかる	to measure,to weigh,to survey	动词	毎日量るようにしている。	I try to to measure every day.
+n2-1182-はか-す	剥す	はがす	(v5s) to tear off,to peel off,to rip off	动词	剥すことにした。	I decided to (v5s) to tear off.
+n2-1183-はきけ	吐き気	はきけ	nausea,sickness in the stomach	名词	吐き気がする。	I feel nauseous.
+n2-1184-はきはき	はきはき	はきはき	lucidly	名词	はきはきと答えた。	I answered clearly.
+n2-1185-はく	掃く	はく	to sweep,to brush,to gather up	动词	彼は掃くことができる。	He can to sweep.
+n2-1186-はく-るま	歯車	はぐるま	gear,cog-wheel	名词	歯車がかみ合っている。	The gears are meshing.
+n2-1187-はさまる	挟まる	はさまる	to get between,to be caught in	动词	挟まることにした。	I decided to to get between.
+n2-1188-はさむ	挟む	はさむ	to interpose,to hold between,to insert	动词	彼は挟むことができる。	He can to interpose.
+n2-1189-はしこ	梯子	はしご	ladder,stairs	名词	梯子を使って登った。	I climbed using a ladder.
+n2-1190-はし-めに	始めに	はじめに	to begin with,first of all	副词	もっと始めに必要がある。	There is a need to to begin with more.
+n2-1191-はし-めまして	はじめまして	はじめまして	How do you do?,I am glad to meet you	名词	はじめましてに関する問題が出た。	A question about How do you do? came up.
+n2-1192-はす-れる	外れる	はずれる	to be disconnected,to get out of place,to be off,to be out (e.g. of gear)	动词	外れることにした。	I decided to to be disconnected.
+n2-1193-はたして	果して	はたして	as was expected,really	名词	果してを理解することが大切だ。	It is important to understand as was expected.
+n2-1194-はた-き	肌着	はだぎ	underwear	名词	肌着を買い替えた。	I replaced my underwear.
+n2-1195-はち	鉢	はち	a bowl,a pot	名词	鉢を理解することが大切だ。	It is important to understand a bowl.
+n2-1196-はっき	発揮	はっき	exhibition,demonstration,utilization,display	名词	発揮を理解することが大切だ。	It is important to understand exhibition.
+n2-1197-はっしゃ	発射	はっしゃ	firing,shooting,discharge,catapult	名词	ロケットを発射した。	They launched the rocket.
+n2-1198-はっそう	発想	はっそう	expression (music),conceptualization	名词	発想を変える必要がある。	We need to change our way of thinking.
+n2-1199-はつて-ん	発電	はつでん	generation (e.g. power)	名词	太陽光で発電する。	Generate electricity from sunlight.
+n2-1200-はつは-い	発売	はつばい	sale	名词	新商品が発売された。	A new product was released.
+n2-1201-はて	派手	はで	showy,loud,gay,flashy,gaudy	名词	派手な服を着ている。	She's wearing flashy clothes.
+n2-1202-はなしあい	話合い	はなしあい	discussion,conference	名词	話合いを理解することが大切だ。	It is important to understand discussion.
+n2-1203-はなしかける	話し掛ける	はなしかける	to accost a person,to talk (to someone)	动词	話し掛けることにした。	I decided to to accost a person.
+n2-1204-はなしちゅう	話中	はなしちゅう	while talking,the line is busy	名词	話中を理解することが大切だ。	It is important to understand while talking.
+n2-1205-はなはた-しい	甚だしい	はなはだしい	extreme,excessive,terrible	名词	甚だしい迷惑だ。	It's extremely troublesome.
+n2-1206-はなひ	花火	はなび	fireworks	名词	花火を理解することが大切だ。	It is important to understand fireworks.
+n2-1207-はなよめ	花嫁	はなよめ	bride	名词	花嫁が美しかった。	The bride was beautiful.
+n2-1208-はなれる	放れる	はなれる	to leave,to get free,to cut oneself off	动词	彼は放れることができる。	He can to leave.
+n2-1209-はね	羽根	はね	shuttlecock	名词	鳥の羽根を拾った。	I picked up a bird's feather.
+n2-1210-はねる	跳ねる	はねる	to jump,to leap	动词	跳ねることにした。	I decided to to jump.
+n2-1211-はへん	破片	はへん	fragment,splinter,broken piece	名词	ガラスの破片を拾った。	I picked up glass fragments.
+n2-1212-はみか-き	歯磨き	はみがき	dentifrice,toothpaste	名词	歯磨きを忘れた。	I forgot to brush my teeth.
+n2-1213-はめる	はめる	はめる	(col) to get in,to insert,to put on,to make love	动词	毎日はめるようにしている。	I try to (col) to get in every day.
+n2-1214-はやくち	早口	はやくち	fast-talking	名词	早口に関する問題が出た。	A question about fast-talking came up.
+n2-1215-はやる	流行る	はやる	to flourish,to thrive,to be popular,to come into fashion	动词	流行るのは難しい。	It is difficult to to flourish.
+n2-1216-はらいこむ	払い込む	はらいこむ	to deposit,to pay in	动词	彼は払い込むことができる。	He can to deposit.
+n2-1217-はらいもと-す	払い戻す	はらいもどす	to repay,to pay back	动词	払い戻すのは難しい。	It is difficult to to repay.
+n2-1218-はりか-ね	針金	はりがね	wire	名词	針金を理解することが大切だ。	It is important to understand wire.
+n2-1219-はりきる	張り切る	はりきる	to be in high spirits,to be full of vigor	动词	彼は張り切ることができる。	He can to be in high spirits.
+n2-1220-はんえい	反映	はんえい	reflection,influence	名词	意見を反映させる。	Reflect opinions.
+n2-1221-はんけい	半径	はんけい	radius	名词	半径に関する問題が出た。	A question about radius came up.
+n2-1222-はんこ	判子	はんこ	seal (used for signature)	名词	判子を理解することが大切だ。	It is important to understand seal (used for signature).
+n2-1223-はんし	判事	はんじ	judge,judiciary	名词	判事を理解することが大切だ。	It is important to understand judge.
+n2-1224-はんせい	反省	はんせい	reflection,reconsideration,introspection,meditation,contemplation	名词	反省に関する問題が出た。	A question about reflection came up.
+n2-1225-はんとう	半島	はんとう	peninsula	名词	半島に関する問題が出た。	A question about peninsula came up.
+n2-1226-は-いてん	売店	ばいてん	shop,stand	名词	駅の売店で買った。	I bought it at the station kiosk.
+n2-1227-は-いは-い	売買	ばいばい	trade,buying and selling	名词	不動産の売買をする。	Deal in real estate.
+n2-1228-は-からしい	ばからしい	ばからしい	absurd	名词	ばからしい話だ。	It's an absurd story.
+n2-1229-は-ね	ばね	ばね	spring (e.g. coil, leaf)	名词	ばねに関する問題が出た。	A question about spring (e.g. coil came up.
+n2-1230-は-んさ-い	万歳	ばんざい	hurrah, cheers	名词	万歳を三唱した。	We cheered hurrah three times.
+n2-1231-は-んち	番地	ばんち	house number,address	名词	番地を理解することが大切だ。	It is important to understand house number.
+n2-1232-ひあたり	日当たり	ひあたり	exposure to the sun,sunny place	名词	日当たりの良い部屋だ。	It's a sunny room.
+n2-1233-ひかくてき	比較的	ひかくてき	comparatively,relatively	名词	比較的簡単な問題だ。	It's a relatively easy problem.
+n2-1234-ひかけ	日陰	ひかげ	shadow	名词	日陰で休もう。	Let's rest in the shade.
+n2-1235-ひか-えり	日帰り	ひがえり	day trip	名词	日帰り旅行に行った。	I went on a day trip.
+n2-1236-ひきうける	引受る	ひきうける	to undertake,to take up,to take over	动词	彼は引受ることができる。	He can to undertake.
+n2-1237-ひきかえす	引返す	ひきかえす	to repeat,to send back,to bring back	动词	もっと引返す必要がある。	There is a need to to repeat more.
+n2-1238-ひきさ-ん	引算	ひきざん	subtraction	名词	引き算を習っている。	I'm learning subtraction.
+n2-1239-ひきた-す	引出す	ひきだす	to pull out,to take out,to draw out,to withdraw	动词	彼は引出すことができる。	He can to pull out.
+n2-1240-ひきとめる	引き止める	ひきとめる	to detain,to check,to restrain	动词	もっと引き止める必要がある。	There is a need to to detain more.
+n2-1241-ひきょう	卑怯	ひきょう	cowardice,meanness,unfairness	名词	卑怯に関する問題が出た。	A question about cowardice came up.
+n2-1242-ひきわけ	引分け	ひきわけ	a draw (in competition),tie game	名词	引分けに関する問題が出た。	A question about a draw (in competition) came up.
+n2-1243-ひさ-し	陽射	ひざし	sunlight,rays of the sun	名词	陽射を理解することが大切だ。	It is important to understand sunlight.
+n2-1244-ひし	肘	ひじ	elbow	名词	肘をぶつけた。	I bumped my elbow.
+n2-1245-ひっかかる	引っ掛かる	ひっかかる	to be caught in,to be stuck in,to be cheated	动词	もっと引っ掛かる必要がある。	There is a need to to be caught in more.
+n2-1246-ひっき	筆記	ひっき	(taking) notes,copying	名词	筆記試験があった。	There was a written exam.
+n2-1247-ひっくりかえす	引っ繰り返す	ひっくりかえす	to turn over,to overturn,to knock over,to upset,to turn inside out	动词	もっと引っ繰り返す必要がある。	There is a need to to turn over more.
+n2-1248-ひっくりかえる	引っ繰り返る	ひっくりかえる	to be overturned,to be upset,to topple over,to be reversed	动词	彼は引っ繰り返ることができる。	He can to be overturned.
+n2-1249-ひっこし	引越し	ひっこし	moving (dwelling etc.),changing residence	名词	来月引っ越しする。	I'm moving next month.
+n2-1250-ひっこむ	引っ込む	ひっこむ	to draw back,to sink,to cave in	动词	引っ込むことにした。	I decided to to draw back.
+n2-1251-ひっしゃ	筆者	ひっしゃ	writer,author	名词	筆者を理解することが大切だ。	It is important to understand writer.
+n2-1252-ひつし-ゅひん	必需品	ひつじゅひん	necessities,necessary article,requisite,essential	名词	生活必需品を買った。	I bought daily necessities.
+n2-1253-ひとさしゆひ	人差指	ひとさしゆび	index finger	名词	人差し指で指さした。	I pointed with my index finger.
+n2-1254-ひととおり	一通り	ひととおり	ordinary,usual,in general,briefly	名词	一通りに関する問題が出た。	A question about ordinary came up.
+n2-1255-ひとと-おり	人通り	ひとどおり	pedestrian traffic	名词	人通りを理解することが大切だ。	It is important to understand pedestrian traffic.
+n2-1256-ひとます	ひとまず	ひとまず	for the present,once,in outline	名词	ひとまず休もう。	Let's take a break for now.
+n2-1257-ひとみ	瞳	ひとみ	pupil (of eye)	名词	彼女の瞳は美しい。	Her eyes are beautiful.
+n2-1258-ひとやすみ	一休み	ひとやすみ	a rest	名词	一休みしてから続けよう。	Let's take a break and then continue.
+n2-1259-ひとりこ-と	独り言	ひとりごと	a soliloquy,a monologue,speaking to oneself	副词	独り言を理解することが大切だ。	It is important to understand a soliloquy.
+n2-1260-ひとりて-に	ひとりでに	ひとりでに	by itself,automatically,naturally	副词	ひとりでにに関する問題が出た。	A question about by itself came up.
+n2-1261-ひにく	皮肉	ひにく	cynicism,sarcasm	名词	皮肉を言われた。	I was told something sarcastic.
+n2-1262-ひにち	日日	ひにち	every day,daily,day after day	名词	日日努力している。	I work hard every day.
+n2-1263-ひねる	捻る	ひねる	to turn (a switch) on or off,to twist,to puzzle over	动词	捻ることにした。	I decided to to turn (a switch) on or off.
+n2-1264-ひのいり	日の入り	ひのいり	sunset	名词	日の入りを見た。	I watched the sunset.
+n2-1265-ひのて	日の出	ひので	sunrise	名词	日の出を見に行った。	I went to see the sunrise.
+n2-1266-ひひ-き	響き	ひびき	echo,sound,reverberation,noise	名词	響きに関する問題が出た。	A question about echo came up.
+n2-1267-ひひ-く	響く	ひびく	to resound	动词	響くのは難しい。	It is difficult to to resound.
+n2-1268-ひふ	皮膚	ひふ	skin	名词	皮膚が乾燥している。	My skin is dry.
+n2-1269-ひゃっかし-てん	ひゃっかじてん	ひゃっかじてん	encyclopedia	名词	百科事典で調べた。	I looked it up in an encyclopedia.
+n2-1270-ひやす	冷やす	ひやす	to cool,to refrigerate	动词	彼は冷やすことができる。	He can to cool.
+n2-1271-ひょうし	表紙	ひょうし	front cover,binding	名词	本の表紙がきれいだ。	The book cover is pretty.
+n2-1272-ひょうしき	標識	ひょうしき	sign,mark	名词	道路標識を見た。	I saw the road sign.
+n2-1273-ひょうし-ゅん	標準	ひょうじゅん	standard,level	名词	標準に関する問題が出た。	A question about standard came up.
+n2-1274-ひょうほん	標本	ひょうほん	example,specimen	名词	昆虫の標本を作った。	I made an insect specimen.
+n2-1275-ひょうろん	評論	ひょうろん	criticism,critique	名词	評論を書いた。	I wrote a critique.
+n2-1276-ひらか-な	平仮名	ひらがな	hiragana,47 syllables,the cursive syllabary	名词	平仮名に関する問題が出た。	A question about hiragana came up.
+n2-1277-ひるね	昼寝	ひるね	nap (at home),siesta	名词	昼寝をした。	I took a nap.
+n2-1278-ひろけ-る	広げる	ひろげる	to spread,to extend,to expand,to enlarge	动词	広げるのは難しい。	It is difficult to to spread.
+n2-1279-ひろさ	広さ	ひろさ	extent	名词	部屋の広さを測った。	I measured the room's size.
+n2-1280-ひろは	広場	ひろば	plaza	名词	広場を理解することが大切だ。	It is important to understand plaza.
+n2-1281-ひろひ-ろ	広々	ひろびろ	extensive,spacious	名词	広々とした公園だ。	It's a spacious park.
+n2-1282-ひろめる	広める	ひろめる	to broaden,to propagate	动词	彼は広めることができる。	He can to broaden.
+n2-1283-ひ-よう	美容	びよう	beauty of figure or form	名词	美容を理解することが大切だ。	It is important to understand beauty of figure or form.
+n2-1284-ひ-んせん	便箋	びんせん	writing paper,stationery	名词	便箋に関する問題が出た。	A question about writing paper came up.
+n2-1285-ひ-んつ-め	瓶詰	びんづめ	bottling,bottled	名词	瓶詰を理解することが大切だ。	It is important to understand bottling.
+n2-1286-ひ-かひ-か	ぴかぴか	ぴかぴか	glitter,sparkle	名词	床がぴかぴかだ。	The floor is sparkling.
+n2-1287-ふうせん	風船	ふうせん	balloon	名词	風船を膨らませた。	I inflated the balloon.
+n2-1288-ふうん	不運	ふうん	unlucky,misfortune,bad luck,fate	名词	不運な事故だった。	It was an unfortunate accident.
+n2-1289-ふえる	殖える	ふえる	to increase,to multiply	动词	殖えるのは難しい。	It is difficult to to increase.
+n2-1290-ふかまる	深まる	ふかまる	to deepen,to heighten,to intensify	动词	もっと深まる必要がある。	There is a need to to deepen more.
+n2-1291-ふきそく	不規則	ふきそく	irregularity,unsteadiness,disorderly	名词	不規則に関する問題が出た。	A question about irregularity came up.
+n2-1292-ふきゅう	普及	ふきゅう	diffusion,spread	名词	インターネットが普及した。	The internet spread.
+n2-1293-ふきん	付近	ふきん	neighbourhood,vicinity,environs	名词	駅付近に住んでいる。	I live near the station.
+n2-1294-ふく	拭く	ふく	to wipe,to dry	动词	拭くことにした。	I decided to to wipe.
+n2-1295-ふくし	副詞	ふくし	adverb	名词	副詞を理解することが大切だ。	It is important to understand adverb.
+n2-1296-ふくしゃ	複写	ふくしゃ	copy,duplicate	名词	書類を複写した。	I copied the documents.
+n2-1297-ふくすう	複数	ふくすう	plural,multiple	名词	複数に関する問題が出た。	A question about plural came up.
+n2-1298-ふくめる	含める	ふくめる	to include,to instruct,to make one understand	动词	毎日含めるようにしている。	I try to to include every day.
+n2-1299-ふくらます	膨らます	ふくらます	to swell,to expand,to inflate,to bulge	动词	彼は膨らますことができる。	He can to swell.
+n2-1300-ふくらむ	膨らむ	ふくらむ	to expand,to swell (out),to get big,to become inflated	动词	膨らむことにした。	I decided to to expand.
+n2-1301-ふけつ	不潔	ふけつ	unclean,dirty,filthy,impure	名词	部屋が不潔だ。	The room is dirty.
+n2-1302-ふける	更ける	ふける	to get late,to advance,to wear on	动词	更けるのは難しい。	It is difficult to to get late.
+n2-1303-ふこ-う	符号	ふごう	sign,mark,symbol	名词	符号を理解することが大切だ。	It is important to understand sign.
+n2-1304-ふさい	夫妻	ふさい	man and wife,married couple	名词	田中夫妻に会った。	I met the Tanaka couple.
+n2-1305-ふさか-る	塞がる	ふさがる	to be plugged up,to be shut up	动词	塞がるのは難しい。	It is difficult to to be plugged up.
+n2-1306-ふさく	塞ぐ	ふさぐ	to stop up,to close up,to block (up)	动词	もっと塞ぐ必要がある。	There is a need to to stop up more.
+n2-1307-ふさ-ける	ふざける	ふざける	to romp,to gambol,to frolic,to joke	动词	もっとふざける必要がある。	There is a need to to romp more.
+n2-1308-ふすま	襖	ふすま	sliding screen	名词	襖を開けた。	I opened the sliding screen.
+n2-1309-ふそ-く	附属	ふぞく	attached,belonging,affiliated	名词	大学の附属病院だ。	It's a university-affiliated hospital.
+n2-1310-ふた	蓋	ふた	cover,lid,cap	名词	蓋を開けた。	I opened the lid.
+n2-1311-ふつう	不通	ふつう	suspension,interruption,stoppage,tie-up,cessation	名词	電車が不通になった。	Trains are suspended.
+n2-1312-ふなひ-ん	船便	ふなびん	surface mail (ship)	名词	船便で送った。	I sent it by sea mail.
+n2-1313-ふふ-き	吹雪	ふぶき	snow storm	名词	吹雪で外に出られない。	I can't go outside due to the blizzard.
+n2-1314-ふほ	父母	ふぼ	father and mother,parents	名词	父母に感謝している。	I'm grateful to my parents.
+n2-1315-ふみきり	踏切	ふみきり	railway crossing,level crossing,starting line,scratch,crossover	名词	踏切に関する問題が出た。	A question about railway crossing came up.
+n2-1316-ふもと	麓	ふもと	the foot,the bottom,the base (of a mountain)	副词	山の麓に住んでいる。	I live at the foot of the mountain.
+n2-1317-ふやす	増やす	ふやす	to increase,to add to,to augment	动词	彼は増やすことができる。	He can to increase.
+n2-1318-ふりか-な	振り仮名	ふりがな	,pronunciation key	名词	難しい漢字に振り仮名をつける。	Put furigana on difficult kanji.
+n2-1319-ふるまう	振舞う	ふるまう	to behave,to conduct oneself,to entertain (vt)	动词	振舞うことにした。	I decided to to behave.
+n2-1320-ふろしき	風呂敷	ふろしき	wrapping cloth,cloth wrapper	名词	風呂敷で包んだ。	I wrapped it in a furoshiki.
+n2-1321-ふわふわ	ふわふわ	ふわふわ	light,soft	名词	ふわふわに関する問題が出た。	A question about light came up.
+n2-1322-ふんか	噴火	ふんか	eruption	名词	火山が噴火した。	The volcano erupted.
+n2-1323-ふんすい	噴水	ふんすい	water fountain	名词	公園に噴水がある。	There's a fountain in the park.
+n2-1324-ふ-さた	無沙汰	ぶさた	neglecting to stay in contact	名词	無沙汰に関する問題が出た。	A question about neglecting to stay in contact came up.
+n2-1325-ふ-し	武士	ぶし	warrior,samurai	名词	武士を理解することが大切だ。	It is important to understand warrior.
+n2-1326-ふ-しゅ	部首	ぶしゅ	radical (of a kanji character)	名词	漢字の部首を覚える。	Memorize kanji radicals.
+n2-1327-ふ-っそう	物騒	ぶっそう	dangerous,disturbed,insecure	名词	物騒な世の中だ。	It's a dangerous world.
+n2-1328-ふ-つかる	ぶつかる	ぶつかる	to strike,to collide with	动词	もっとぶつかる必要がある。	There is a need to to strike more.
+n2-1329-ふ-つける	ぶつける	ぶつける	to knock,to run into,to nail on,to strike hard,to hit and attack	动词	彼はぶつけることができる。	He can to knock.
+n2-1330-ふ-つふ-つ	ぶつぶつ	ぶつぶつ	grumbling,complaining in a small voice	名词	この場所はとてもぶつぶつ。	This place is very grumbling.
+n2-1331-ふ-ひん	部品	ぶひん	parts,accessories	名词	部品に関する問題が出た。	A question about parts came up.
+n2-1332-ふ-らさけ-る	ぶらさげる	ぶらさげる	to hang,to suspend,to dangle,to swing	动词	彼はぶらさげることができる。	He can to hang.
+n2-1333-ふ-んかい	分解	ぶんかい	analysis,disassembly	名词	分解に関する問題が出た。	A question about analysis came up.
+n2-1334-ふ-んけん	文献	ぶんけん	literature,books (reference)	名词	参考文献を探した。	I looked for reference literature.
+n2-1335-ふ-んけ-い	文芸	ぶんげい	literature,art and literature,belles-lettres	名词	文芸に関する問題が出た。	A question about literature came up.
+n2-1336-ふ-んすう	分数	ぶんすう	fraction (in math)	名词	分数の計算は難しい。	Fraction calculations are difficult.
+n2-1337-ふ-んたい	文体	ぶんたい	literary style	名词	独特な文体だ。	It's a unique literary style.
+n2-1338-ふ-んふ	分布	ぶんぷ	distribution	名词	人口分布を調べた。	I investigated the population distribution.
+n2-1339-ふ-んほ-うく	文房具	ぶんぼうぐ	stationery	名词	文房具店で買った。	I bought it at a stationery store.
+n2-1340-ふ-んみゃく	文脈	ぶんみゃく	context	名词	文脈を理解することが大切だ。	It is important to understand context.
+n2-1341-ふ-んりょう	分量	ぶんりょう	amount,quantity	名词	分量を量る。	Measure the quantity.
+n2-1342-ふ-んるい	分類	ぶんるい	classification	名词	本を分類する。	Classify books.
+n2-1343-へいかい	閉会	へいかい	closure	名词	閉会を理解することが大切だ。	It is important to understand closure.
+n2-1344-へいき	平気	へいき	coolness,calmness,composure,unconcern	名词	平気な顔をしている。	He has a calm face.
+n2-1345-へいこう	並行	へいこう	(going) side by side,concurrent,abreast,at the same time	名词	並行に関する問題が出た。	A question about (going) side by side came up.
+n2-1346-へいし-つ	平日	へいじつ	weekday,ordinary days	名词	平日は仕事がある。	I have work on weekdays.
+n2-1347-へいたい	兵隊	へいたい	soldier,sailor	形容词	兵隊が行進している。	Soldiers are marching.
+n2-1348-へいほ-ん	平凡	へいぼん	common,commonplace,ordinary,mediocre	名词	平凡な毎日だ。	It's an ordinary day.
+n2-1349-へいや	平野	へいや	plain,open field	名词	広い平野が広がっている。	A wide plain spreads out.
+n2-1350-へこむ	凹む	へこむ	to be dented,to be indented,to yield to,to give,to sink,to collapse,to cave in,to be snubbed	动词	もっと凹む必要がある。	There is a need to to be dented more.
+n2-1351-へそ	臍	へそ	navel,belly-button	名词	臍を曲げないで。	Don't be sulky.
+n2-1352-へた-てる	隔てる	へだてる	to be shut out	动词	もっと隔てる必要がある。	There is a need to to be shut out more.
+n2-1353-へんしゅう	編集	へんしゅう	editing,compilation,editorial (e.g. committee)	名词	本を編集している。	I'm editing a book.
+n2-1354-へ-っそう	別荘	べっそう	holiday house,villa	名词	海辺に別荘がある。	I have a villa by the sea.
+n2-1355-へ-つへ-つ	別々	べつべつ	separately,individually	名词	別々に関する問題が出た。	A question about separately came up.
+n2-1356-へ-んし-ょ	便所	べんじょ	toilet,lavatory,rest room,latrine,comfort station	名词	便所を理解することが大切だ。	It is important to understand toilet.
+n2-1357-ほうか-く	方角	ほうがく	direction,way,compass point	名词	方角がわからない。	I don't know the direction.
+n2-1358-ほうき	箒	ほうき	(n) broom	名词	箒を理解することが大切だ。	It is important to understand (n) broom.
+n2-1359-ほうけ-ん	方言	ほうげん	dialect	名词	この地方の方言を学んだ。	I learned the dialect of this region.
+n2-1360-ほうしん	方針	ほうしん	objective,plan,policy	名词	会社の方針に従う。	Follow company policy.
+n2-1361-ほうそう	包装	ほうそう	packing,wrapping	名词	包装を理解することが大切だ。	It is important to understand packing.
+n2-1362-ほうそく	法則	ほうそく	law,rule	名词	物理の法則を学ぶ。	Learn the laws of physics.
+n2-1363-ほうたい	包帯	ほうたい	bandage,dressing	名词	包帯を理解することが大切だ。	It is important to understand bandage.
+n2-1364-ほうちょう	庖丁	ほうちょう	kitchen knife,carving knife	名词	庖丁に関する問題が出た。	A question about kitchen knife came up.
+n2-1365-ほうていしき	方程式	ほうていしき	equation	名词	方程式に関する問題が出た。	A question about equation came up.
+n2-1366-ほうめん	方面	ほうめん	direction,district,field (e.g., of study)	名词	方面に関する問題が出た。	A question about direction came up.
+n2-1367-ほうる	放る	ほうる	to let go	动词	もっと放る必要がある。	There is a need to to let go more.
+n2-1368-ほか-らか	朗らか	ほがらか	brightness,cheerfulness,melodious	名词	朗らかな性格だ。	She has a cheerful personality.
+n2-1369-ほけん	保健	ほけん	health preservation,hygiene,sanitation	名词	保健を理解することが大切だ。	It is important to understand health preservation.
+n2-1370-ほす	干す	ほす	to air,to dry,to desiccate,to drain (off),to drink up	动词	干すのは難しい。	It is difficult to to air.
+n2-1371-ほっきょく	北極	ほっきょく	North Pole	名词	北極は寒い。	The North Pole is cold.
+n2-1372-ほと-く	ほどく	ほどく	to unfasten	动词	彼はほどくことができる。	He can to unfasten.
+n2-1373-ほり	堀	ほり	moat,canal	名词	城の周りに堀がある。	There's a moat around the castle.
+n2-1374-ほる	掘る	ほる	to dig,to excavate	动词	もっと掘る必要がある。	There is a need to to dig more.
+n2-1375-ほんふ	本部	ほんぶ	headquarters	名词	本部に連絡した。	I contacted headquarters.
+n2-1376-ほんらい	本来	ほんらい	essentially,naturally,by nature	名词	本来の意味を調べた。	I looked up the original meaning.
+n2-1377-ほ-うえんきょう	望遠鏡	ぼうえんきょう	telescope	名词	望遠鏡で星を見た。	I looked at stars with a telescope.
+n2-1378-ほ-うさん	坊さん	ぼうさん	Buddhist priest,monk	名词	お坊さんにお経を読んでもらった。	I had a monk read sutras.
+n2-1379-ほ-うし	防止	ぼうし	prevention,check	名词	事故防止に努める。	Work on accident prevention.
+n2-1380-ほ-うた-い	膨大	ぼうだい	huge,bulky,enormous,extensive,swelling,expansion	名词	膨大を理解することが大切だ。	It is important to understand huge.
+n2-1381-ほ-うはん	防犯	ぼうはん	prevention of crime	名词	防犯カメラを設置した。	I installed a security camera.
+n2-1382-ほ-うや	坊や	ぼうや	boy	名词	坊やに関する問題が出た。	A question about boy came up.
+n2-1383-ほ-くし-ょう	牧場	ぼくじょう	(1) farm (livestock),(2) pasture land,meadow,grazing land	名词	牧場で牛を見た。	I saw cows at the farm.
+n2-1384-ほ-くちく	牧畜	ぼくちく	stock-farming	名词	牧畜が盛んな地域だ。	It's an area where livestock farming is active.
+n2-1385-ほ-しゅう	募集	ぼしゅう	recruiting,taking applications	名词	社員を募集している。	We're recruiting employees.
+n2-1386-ほ-っちゃん	坊っちゃん	ぼっちゃん	son (of others)	名词	坊っちゃんを理解することが大切だ。	It is important to understand son (of others).
+n2-1387-ほ-ろ	ぼろ	ぼろ	rag,scrap,tattered clothes,fault (esp. in a pretense)	名词	服がぼろぼろだ。	My clothes are tattered.
+n2-1388-ほ-ん	盆	ぼん	Lantern Festival,Festival of the Dead,tray	名词	盆に関する問題が出た。	A question about Lantern Festival came up.
+n2-1389-ほ-んち	盆地	ぼんち	basin (e.g. between mountains)	名词	盆地に町がある。	There's a town in the basin.
+n2-1390-まあまあ	まあまあ	まあまあ	so-so	名词	調子はまあまあだ。	I'm doing so-so.
+n2-1391-まいすう	枚数	まいすう	the number of flat things	名词	枚数を数えた。	I counted the number of sheets.
+n2-1392-まいと	毎度	まいど	each time,common service-sector greeting	名词	毎度ありがとうございます。	Thank you as always.
+n2-1393-まく	巻く	まく	to wind,to coil,to roll	动词	もっと巻く必要がある。	There is a need to to wind more.
+n2-1394-まくら	枕	まくら	pillow,bolster	名词	枕に関する問題が出た。	A question about pillow came up.
+n2-1395-まけ-る	曲げる	まげる	to bend,to crook,to lean	动词	彼は曲げることができる。	He can to bend.
+n2-1396-まこ-まこ	まごまご	まごまご	confused	名词	まごまごして道に迷った。	I got confused and lost my way.
+n2-1397-まさつ	摩擦	まさつ	friction,rubbing,rubdown,chafe	名词	摩擦で火が起きた。	Fire started from friction.
+n2-1398-まさ-る	混ざる	まざる	to be mixed,to be blended with,to associate with,to mingle with,to join	动词	毎日混ざるようにしている。	I try to to be mixed every day.
+n2-1399-まし-る	混じる	まじる	to be mixed,to be blended with,to associate with	动词	もっと混じる必要がある。	There is a need to to be mixed more.
+n2-1400-ませ-る	混ぜる	まぜる	to mix,to stir	动词	彼は混ぜることができる。	He can to mix.
+n2-1401-またく	またぐ	またぐ	to straddle	动词	彼はまたぐことができる。	He can to straddle.
+n2-1402-または	又は	または	or,otherwise	名词	電話またはメールで連絡する。	Contact by phone or email.
+n2-1403-まちあいしつ	待合室	まちあいしつ	waiting room	名词	待合室で待っていた。	I was waiting in the waiting room.
+n2-1404-まちあわせる	待ち合わせる	まちあわせる	to rendezvous,to meet at a prearranged place and time	动词	待ち合わせることにした。	I decided to to rendezvous.
+n2-1405-まちかと	街角	まちかど	street corner	名词	街角でばったり会った。	I ran into them on a street corner.
+n2-1406-まっくら	真っ暗	まっくら	total darkness,shortsightedness,pitch dark	名词	部屋が真っ暗だ。	The room is pitch dark.
+n2-1407-まっくろ	真っ黒	まっくろ	pitch black	名词	日焼けで真っ黒になった。	I got pitch black from the sunburn.
+n2-1408-まっさお	真っ青	まっさお	deep blue,ghastly pale	名词	顔が真っ青になった。	His face turned ghastly pale.
+n2-1409-まっさき	真っ先	まっさき	the head,the foremost,beginning	名词	真っ先に駆けつけた。	I rushed there first.
+n2-1410-まっしろ	真っ白	まっしろ	pure white	名词	真っ白を理解することが大切だ。	It is important to understand pure white.
+n2-1411-まつる	祭る	まつる	to deify,to enshrine	动词	祭ることにした。	I decided to to deify.
+n2-1412-まとまる	纏まる	まとまる	to be collected,to be settled,to be in order	动词	彼は纏まることができる。	He can to be collected.
+n2-1413-まとめる	纏める	まとめる	to put in order,to collect,to bring to a conclusion	动词	彼は纏めることができる。	He can to put in order.
+n2-1414-まと-く-ち	窓口	まどぐち	ticket window	名词	窓口で手続きをした。	I did the paperwork at the counter.
+n2-1415-まねる	真似る	まねる	to mimic,to imitate	动词	毎日真似るようにしている。	I try to to mimic every day.
+n2-1416-まふ-しい	まぶしい	まぶしい	dazzling,radiant	名词	まぶしいに関する問題が出た。	A question about dazzling came up.
+n2-1417-まふ-た	まぶた	まぶた	eyelids	名词	まぶたに関する問題が出た。	A question about eyelids came up.
+n2-1418-まもなく	間も無く	まもなく	soon,before long,in a short time	名词	間もなく電車が来る。	The train will come soon.
+n2-1419-まれ	稀	まれ	rare,seldom	名词	稀を理解することが大切だ。	It is important to understand rare.
+n2-1420-まわりみち	回り道	まわりみち	detour	名词	回り道をして帰った。	I went home by a detour.
+n2-1421-まんいん	満員	まんいん	full house,no vacancy,sold out	名词	満員に関する問題が出た。	A question about full house came up.
+n2-1422-まんてん	満点	まんてん	perfect score	名词	満点に関する問題が出た。	A question about perfect score came up.
+n2-1423-みおくる	見送る	みおくる	(1) to see off,to farewell,(2) to escort,(3) to let pass	动词	彼は見送ることができる。	He can (1) to see off.
+n2-1424-みおろす	見下ろす	みおろす	to overlook,to command a view of,to look down on something	动词	毎日見下ろすようにしている。	I try to to overlook every day.
+n2-1425-みかけ	見掛け	みかけ	outward appearance	名词	見掛けに関する問題が出た。	A question about outward appearance came up.
+n2-1426-みかつ-き	三日月	みかづき	new moon,crescent moon	名词	三日月が出ている。	The crescent moon is out.
+n2-1427-みさき	岬	みさき	cape (on coast)	名词	岬の先端まで歩いた。	I walked to the tip of the cape.
+n2-1428-みし-め	みじめ	みじめ	(arch) sad,pitiful,wretched	名词	みじめに関する問題が出た。	A question about (arch) sad came up.
+n2-1429-みせや	店屋	みせや	store,shop	名词	店屋を理解することが大切だ。	It is important to understand store.
+n2-1430-みたらし	御手洗	みたらし	font of purifying water placed at entrance of shrine	名词	神社の御手洗で手を清めた。	I purified my hands at the shrine fountain.
+n2-1431-みた-し	見出し	みだし	heading,caption,subtitle,index	名词	新聞の見出しを読んだ。	I read the newspaper headlines.
+n2-1432-みちし-ゅん	道順	みちじゅん	itinerary,route	名词	道順を教えてください。	Please tell me the directions.
+n2-1433-みっともない	みっともない	みっともない	shameful,indecent	名词	みっともないを理解することが大切だ。	It is important to understand shameful.
+n2-1434-みつかる	見付かる	みつかる	to be found,to be discovered	动词	見付かることにした。	I decided to to be found.
+n2-1435-みつける	見付ける	みつける	to be familiar,to discover,to detect	动词	彼は見付けることができる。	He can to be familiar.
+n2-1436-みなおす	見直す	みなおす	to look again,to get a better opinion of	动词	彼は見直すことができる。	He can to look again.
+n2-1437-みなれる	見慣れる	みなれる	to become used to seeing,to be familiar with	动词	見慣れるのは難しい。	It is difficult to to become used to seeing.
+n2-1438-みにくい	醜い	みにくい	ugly	名词	醜いに関する問題が出た。	A question about ugly came up.
+n2-1439-みのる	実る	みのる	to bear fruit,to ripen	动词	実ることにした。	I decided to to bear fruit.
+n2-1440-みふ-ん	身分	みぶん	social position,social status	名词	身分を証明する。	Prove one's identity.
+n2-1441-みほん	見本	みほん	sample	名词	見本に関する問題が出た。	A question about sample came up.
+n2-1442-みまう	見舞う	みまう	to ask after (health),to visit	动词	見舞うのは難しい。	It is difficult to to ask after (health).
+n2-1443-みまん	未満	みまん	less than,insufficient	名词	十八歳未満は禁止だ。	Prohibited for those under 18.
+n2-1444-みょうし	名字	みょうじ	surname,family name	名词	名字を教えてください。	Please tell me your surname.
+n2-1445-みる	診る	みる	to examine (medical)	动词	診ることにした。	I decided to to examine (medical).
+n2-1446-みんかん	民間	みんかん	private,civilian,civil,popular,folk,unofficial	名词	民間企業で働いている。	I work at a private company.
+n2-1447-みんよう	民謡	みんよう	folk song,popular song	名词	日本の民謡を習っている。	I'm learning Japanese folk songs.
+n2-1448-むかう	向う	むかう	(v5u) to face,to go towards	动词	彼は向うことができる。	He can (v5u) to face.
+n2-1449-むく	剥く	むく	to peel,to skin,to pare,to hull	动词	毎日剥くようにしている。	I try to to peel every day.
+n2-1450-むけ-ん	無限	むげん	infinite	名词	無限に関する問題が出た。	A question about infinite came up.
+n2-1451-むしあつい	蒸し暑い	むしあつい	humid,sultry	名词	今日は蒸し暑い。	It's humid today.
+n2-1452-むし	無地	むじ	plain,unfigured	名词	無地に関する問題が出た。	A question about plain came up.
+n2-1453-むし-ゅん	矛盾	むじゅん	contradiction,inconsistency	名词	矛盾した話だ。	It's a contradictory story.
+n2-1454-むす	蒸す	むす	to steam,to poultice,to be sultry	动词	毎日蒸すようにしている。	I try to to steam every day.
+n2-1455-むすう	無数	むすう	countless number,infinite number	名词	無数の星が見える。	I can see countless stars.
+n2-1456-むらさき	紫	むらさき	purple colour,violet	名词	紫を理解することが大切だ。	It is important to understand purple colour.
+n2-1457-むれ	群れ	むれ	group,crowd,flock,herd	名词	羊の群れがいる。	There's a flock of sheep.
+n2-1458-めい	姪	めい	niece	名词	姪が遊びに来た。	My niece came to visit.
+n2-1459-めいさく	名作	めいさく	masterpiece	名词	これは名作だ。	This is a masterpiece.
+n2-1460-めいし	名刺	めいし	business card	名词	名刺に関する問題が出た。	A question about business card came up.
+n2-1461-めいしょ	名所	めいしょ	famous place	名词	京都の名所を巡った。	I toured the famous places of Kyoto.
+n2-1462-めいしん	迷信	めいしん	superstition	名词	それは迷信だ。	That's a superstition.
+n2-1463-めいす-る	命ずる	めいずる	to command,to appoint	动词	もっと命ずる必要がある。	There is a need to to command more.
+n2-1464-めいふ-つ	名物	めいぶつ	famous product,special product,speciality	名词	この地方の名物を食べた。	I ate the local specialty.
+n2-1465-めいめい	銘々	めいめい	each,individual	名词	銘々で払う。	We'll each pay separately.
+n2-1466-めうえ	目上	めうえ	superior(s),senior	名词	目上の人に敬語を使う。	I use honorifics with superiors.
+n2-1467-めく-まれる	恵まれる	めぐまれる	to be blessed with,to be rich in	动词	もっと恵まれる必要がある。	There is a need to to be blessed with more.
+n2-1468-めく-る	巡る	めぐる	to go around	动词	巡るのは難しい。	It is difficult to to go around.
+n2-1469-めさ-す	目指す	めざす	to aim at,to have an eye on	动词	目指すのは難しい。	It is difficult to to aim at.
+n2-1470-めさ-まし	目覚し	めざまし	(abbr) alarm-clock	名词	目覚ましをセットした。	I set the alarm clock.
+n2-1471-めした	目下	めした	at present,now	名词	目下のところ問題ない。	There's no problem at present.
+n2-1472-めし-るし	目印	めじるし	mark,sign,landmark	名词	目印に関する問題が出た。	A question about mark came up.
+n2-1473-めた-つ	目立つ	めだつ	to be conspicuous,to stand out	动词	目立つことにした。	I decided to to be conspicuous.
+n2-1474-めちゃくちゃ	めちゃくちゃ	めちゃくちゃ	absurd,unreasonable,excessive,messed up,spoiled,wreaked	名词	部屋がめちゃくちゃだ。	The room is a mess.
+n2-1475-めっきり	めっきり	めっきり	remarkably	名词	めっきり寒くなった。	It's gotten remarkably cold.
+n2-1476-めて-たい	めでたい	めでたい	happy,simple soul,propitious,joyous	名词	めでたいことだ。	It's a joyous occasion.
+n2-1477-めまい	めまい	めまい	dizziness,giddiness	名词	めまいがする。	I feel dizzy.
+n2-1478-めやす	目安	めやす	criterion,aim	名词	目安に関する問題が出た。	A question about criterion came up.
+n2-1479-めんせき	面積	めんせき	area	名词	土地の面積を測った。	I measured the area of the land.
+n2-1480-めんせつ	面接	めんせつ	interview	名词	面接を受けた。	I had an interview.
+n2-1481-めんせ-い	免税	めんぜい	tax exemption,duty exemption	名词	免税店で買い物した。	I shopped at the duty-free store.
+n2-1482-めんと-うくさい	面倒臭い	めんどうくさい	bother to do,tiresome	名词	面倒くさい作業だ。	It's a tiresome task.
+n2-1483-もうかる	儲かる	もうかる	to be profitable,to yield a profit	动词	儲かるのは難しい。	It is difficult to to be profitable.
+n2-1484-もうける	儲ける	もうける	to get,to earn,to gain,to have (bear, beget) a child	动词	彼は儲けることができる。	He can to get.
+n2-1485-もうしわけない	申し訳ない	もうしわけない	inexcusable	名词	申し訳ない気持ちだ。	I feel apologetic.
+n2-1486-もくさ-い	木材	もくざい	lumber,timber,wood	名词	木材を運んだ。	I transported the lumber.
+n2-1487-もくし	目次	もくじ	table of contents	名词	目次に関する問題が出た。	A question about table of contents came up.
+n2-1488-もく-る	潜る	もぐる	(1) to drive,to pass through,(2) to evade,to hide,(3) to dive (into or under water),to go undergroun	动词	潜ることにした。	I decided to (1) to drive.
+n2-1489-もしかしたら	もしかしたら	もしかしたら	perhaps,maybe,by some chance	名词	もしかしたらを理解することが大切だ。	It is important to understand perhaps.
+n2-1490-もしかすると	もしかすると	もしかすると	perhaps,maybe,by some chance	副词	もしかすると雨かもしれない。	Maybe it might rain.
+n2-1491-もたれる	もたれる	もたれる	to lean against,to lean on,to recline on,to lie heavy (on the stomach)	动词	毎日もたれるようにしている。	I try to to lean against every day.
+n2-1492-もち	餅	もち	sticky rice cake	名词	餅を理解することが大切だ。	It is important to understand sticky rice cake.
+n2-1493-もったいない	もったいない	もったいない	too good,more than one deserves,wasteful,sacrilegious,unworthy of	形容词	もったいないに関する問題が出た。	A question about too good came up.
+n2-1494-もともと	元々	もともと	originally,by nature,from the start	副词	元々そう思っていた。	I thought so from the start.
+n2-1495-ものおき	物置	ものおき	storage room	名词	物置を理解することが大切だ。	It is important to understand storage room.
+n2-1496-ものか-たる	物語る	ものがたる	to tell,to indicate	动词	もっと物語る必要がある。	There is a need to to tell more.
+n2-1497-ものさし	物差し	ものさし	ruler,measure	名词	物差しを理解することが大切だ。	It is important to understand ruler.
+n2-1498-ものすこ-い	物凄い	ものすごい	earth-shattering,staggering,to a very great extent	动词	毎日物凄いようにしている。	I try to earth-shattering every day.
+n2-1499-もみし	紅葉	もみじ	(1) (Japanese) maple	名词	紅葉がきれいだ。	The autumn leaves are beautiful.
+n2-1500-もむ	揉む	もむ	to rub,to crumple (up),to wrinkle	动词	もっと揉む必要がある。	There is a need to to rub more.
+n2-1501-もやす	燃やす	もやす	to burn	动词	彼は燃やすことができる。	He can to burn.
+n2-1502-もよおし	催し	もよおし	event,festivities,function	名词	催しに参加した。	I participated in the event.
+n2-1503-もる	盛る	もる	(1) to serve (food, etc.),(2) to fill up,(3) to prescribe	名词	盛るに関する問題が出た。	A question about (1) to serve (food came up.
+n2-1504-もんと-う	問答	もんどう	questions and answers,dialogue	名词	問答を繰り返した。	We repeated the questions and answers.
+n2-1505-やかましい	やかましい	やかましい	(1) noisy,(2) strict,fussy	名词	外がやかましい。	It's noisy outside.
+n2-1506-やかん	夜間	やかん	at night,nighttime	名词	夜間を理解することが大切だ。	It is important to understand at night.
+n2-1507-やくしゃ	役者	やくしゃ	actor,actress	名词	役者を理解することが大切だ。	It is important to understand actor.
+n2-1508-やくしょ	役所	やくしょ	government office,public office	名词	役所で手続きをする。	Do paperwork at the government office.
+n2-1509-やくす	訳す	やくす	to translate	动词	もっと訳す必要がある。	There is a need to to translate more.
+n2-1510-やくにん	役人	やくにん	government official	名词	役人と話をした。	I talked with a government official.
+n2-1511-やくひん	薬品	やくひん	medicine(s),chemical(s)	名词	薬品を取り扱っている。	I handle pharmaceuticals.
+n2-1512-やくめ	役目	やくめ	duty,business	名词	役目に関する問題が出た。	A question about duty came up.
+n2-1513-やけと	火傷	やけど	burn,scald	名词	火傷をした。	I got burned.
+n2-1514-やこう	夜行	やこう	walking around at night,night train,night travel	名词	夜行を理解することが大切だ。	It is important to understand walking around at night.
+n2-1515-やし-るし	矢印	やじるし	directing arrow	名词	矢印の方向に進む。	Proceed in the direction of the arrow.
+n2-1516-やたら	やたら	やたら	randomly,recklessly,blindly	名词	やたらと高い。	It's ridiculously expensive.
+n2-1517-やっきょく	薬局	やっきょく	pharmacy,drugstore	名词	薬局を理解することが大切だ。	It is important to understand pharmacy.
+n2-1518-やっつける	やっつける	やっつける	to attack (an enemy),to beat,to do away with,to finish off	动词	毎日やっつけるようにしている。	I try to to attack (an enemy) every day.
+n2-1519-やぬし	家主	やぬし	landlord	名词	家主に連絡した。	I contacted the landlord.
+n2-1520-やふ-れる	破れる	やぶれる	to get torn,to wear out	动词	彼は破れることができる。	He can to get torn.
+n2-1521-やむをえない	やむをえない	やむをえない	cannot be helped,unavoidable	名词	やむを得ない事情がある。	There are unavoidable circumstances.
+n2-1522-やわらかい	軟らかい	やわらかい	soft,tender,limp	名词	軟らかいに関する問題が出た。	A question about soft came up.
+n2-1523-ゆうえんち	遊園地	ゆうえんち	amusement park	名词	遊園地で遊んだ。	I played at the amusement park.
+n2-1524-ゆうかん	夕刊	ゆうかん	evening paper	名词	夕刊を理解することが大切だ。	It is important to understand evening paper.
+n2-1525-ゆうこう	友好	ゆうこう	friendship	名词	友好に関する問題が出た。	A question about friendship came up.
+n2-1526-ゆうそう	郵送	ゆうそう	mailing	名词	書類を郵送した。	I mailed the documents.
+n2-1527-ゆうた-ち	夕立	ゆうだち	(sudden) evening shower (rain)	名词	夕立に関する問題が出た。	A question about (sudden) evening shower (rain) came up.
+n2-1528-ゆうひ	夕日	ゆうひ	(in) the evening sun,setting sun	名词	夕日を見た。	I watched the sunset.
+n2-1529-ゆうゆう	悠々	ゆうゆう	quiet,calm,leisurely	名词	悠々と暮らす。	Live leisurely.
+n2-1530-ゆうりょう	有料	ゆうりょう	admission-paid,toll	名词	有料を理解することが大切だ。	It is important to understand admission-paid.
+n2-1531-ゆかた	浴衣	ゆかた	bathrobe,informal summer kimono,yukata	名词	浴衣に関する問題が出た。	A question about bathrobe came up.
+n2-1532-ゆけつ	輸血	ゆけつ	blood transfusion	名词	輸血に関する問題が出た。	A question about blood transfusion came up.
+n2-1533-ゆけ	湯気	ゆげ	steam,vapour	名词	湯気を理解することが大切だ。	It is important to understand steam.
+n2-1534-ゆそう	輸送	ゆそう	transport,transportation	名词	輸送に関する問題が出た。	A question about transport came up.
+n2-1535-ゆた-ん	油断	ゆだん	negligence,unpreparedness	名词	油断を理解することが大切だ。	It is important to understand negligence.
+n2-1536-ゆて-る	ゆでる	ゆでる	to boil	动词	もっとゆでる必要がある。	There is a need to to boil more.
+n2-1537-ゆのみ	湯飲み	ゆのみ	teacup	名词	湯飲みに関する問題が出た。	A question about teacup came up.
+n2-1538-ゆるい	緩い	ゆるい	loose,lenient,slow	形容词	緩いに関する問題が出た。	A question about loose came up.
+n2-1539-ようか-ん	溶岩	ようがん	lava	名词	溶岩を理解することが大切だ。	It is important to understand lava.
+n2-1540-ようき	容器	ようき	container,vessel	名词	容器に入れた。	I put it in a container.
+n2-1541-ようこ	用語	ようご	term,terminology	名词	専門用語がわからない。	I don't understand the technical terms.
+n2-1542-ようし	要旨	ようし	gist,essentials,summary,fundamentals	名词	要旨をまとめた。	I summarized the gist.
+n2-1543-ようし	幼児	ようじ	infant,baby,child	名词	幼児向けの番組だ。	It's a program for infants.
+n2-1544-ようせき	容積	ようせき	capacity,volume	名词	容積を理解することが大切だ。	It is important to understand capacity.
+n2-1545-ようち	幼稚	ようち	infancy,childish,infantile	名词	幼稚に関する問題が出た。	A question about infancy came up.
+n2-1546-ようちえん	幼稚園	ようちえん	kindergarten	名词	幼稚園に通っている。	I go to kindergarten.
+n2-1547-ようと	用途	ようと	use,usefulness	副词	用途に関する問題が出た。	A question about use came up.
+n2-1548-ようひんてん	洋品店	ようひんてん	shop which handles Western-style apparel and accessories	名词	洋品店を理解することが大切だ。	It is important to understand shop which handles Western-style apparel and accessories.
+n2-1549-ようふ-ん	養分	ようぶん	nourishment,nutrient	名词	養分を理解することが大切だ。	It is important to understand nourishment.
+n2-1550-ようもう	羊毛	ようもう	wool	名词	羊毛のセーターを買った。	I bought a wool sweater.
+n2-1551-ようやく	漸く	ようやく	gradually,finally,hardly	名词	漸く終わった。	It finally ended.
+n2-1552-ようりょう	要領	ようりょう	point,gist,essentials,outline	名词	要領を理解することが大切だ。	It is important to understand point.
+n2-1553-よくは-り	欲張り	よくばり	avarice,covetousness,greed	名词	彼は欲張りだ。	He is greedy.
+n2-1554-よけい	余計	よけい	too much,unnecessary,abundance,surplus,excess,superfluity	名词	余計なことを言った。	I said something unnecessary.
+n2-1555-よこす	よこす	よこす	(1) to send,to forward,(2) to hand over (e.g. money)	动词	よこすのは難しい。	It is difficult to (1) to send.
+n2-1556-よこ-す	汚す	よごす	(1) to disgrace,to dishonour,(2) to pollute,to contaminate,to soil,to make dirty,to stain	动词	もっと汚す必要がある。	There is a need to (1) to disgrace more.
+n2-1557-よせる	寄せる	よせる	to collect,to gather,to add,to put aside	动词	寄せるのは難しい。	It is difficult to to collect.
+n2-1558-よそ	余所	よそ	another place,somewhere else,strange parts	名词	余所の人には話さない。	I don't talk to outsiders.
+n2-1559-よっは-らい	酔っ払い	よっぱらい	drunkard	名词	酔っ払いが騒いでいる。	A drunk is making noise.
+n2-1560-よつかと	四つ角	よつかど	four corners,crossroads	名词	四つ角を理解することが大切だ。	It is important to understand four corners.
+n2-1561-よひ	予備	よび	preparation,preliminaries,reserve,spare	名词	予備の電池がある。	I have spare batteries.
+n2-1562-よひ-かける	呼び掛ける	よびかける	to call out to,to accost,to address (crowd),to appeal	动词	彼は呼び掛けることができる。	He can to call out to.
+n2-1563-よひ-た-す	呼び出す	よびだす	to summon,to call (e.g. phone)	动词	もっと呼び出す必要がある。	There is a need to to summon more.
+n2-1564-よみか-える	蘇る	よみがえる	to be resurrected,to be revived,to be resuscitated,to be rehabilitated	动词	彼は蘇ることができる。	He can to be resurrected.
+n2-1565-よろこひ	慶び	よろこび	(n) (a) joy,(a) delight,rapture,pleasure,gratification,rejoicing,congratulations,felicitations	名词	慶びに関する問題が出た。	A question about (n) (a) joy came up.
+n2-1566-らいにち	来日	らいにち	arrival in Japan,coming to Japan,visit to Japan	名词	来日に関する問題が出た。	A question about arrival in Japan came up.
+n2-1567-らくた-い	落第	らくだい	failure,dropping out of a class	名词	試験に落第した。	I failed the exam.
+n2-1568-らん	欄	らん	column of text (e.g. as in a newspaper)	名词	新聞の欄に載った。	It appeared in the newspaper column.
+n2-1569-らんほ-う	乱暴	らんぼう	rude,violent,rough,lawless,unreasonable,reckless	名词	乱暴な言葉を使わないで。	Don't use violent language.
+n2-1570-りか	理科	りか	science	名词	理科の実験をした。	I did a science experiment.
+n2-1571-りか-い	利害	りがい	advantages and disadvantages,interest	名词	利害が一致した。	Our interests aligned.
+n2-1572-りゃくす	略す	りゃくす	to abbreviate	动词	彼は略すことができる。	He can to abbreviate.
+n2-1573-りゅういき	流域	りゅういき	(river) basin	名词	この川の流域は広い。	This river basin is wide.
+n2-1574-りょう	寮	りょう	hostel,dormitory	名词	大学の寮に住んでいる。	I live in a university dormitory.
+n2-1575-りょうか-わ	両側	りょうがわ	both sides	名词	両側に木が植えてある。	Trees are planted on both sides.
+n2-1576-りょうし	漁師	りょうし	fisherman	名词	漁師が船を出した。	The fisherman set out the boat.
+n2-1577-りょうしゅう	領収	りょうしゅう	receipt,voucher	名词	領収書をください。	Please give me a receipt.
+n2-1578-りょうし	領事	りょうじ	consul	名词	領事を理解することが大切だ。	It is important to understand consul.
+n2-1579-りんし	臨時	りんじ	temporary,special,extraordinary	名词	臨時休業だ。	Temporarily closed.
+n2-1580-るすは-ん	留守番	るすばん	care-taking,caretaker,house-watching	名词	留守番に関する問題が出た。	A question about care-taking came up.
+n2-1581-れいか-い	例外	れいがい	exception	名词	これは例外だ。	This is an exception.
+n2-1582-れいてん	零点	れいてん	zero,no marks	名词	テストで零点を取った。	I got zero on the test.
+n2-1583-れいとう	冷凍	れいとう	freezing,cold storage,refrigeration	名词	食品を冷凍する。	Freeze food.
+n2-1584-れっとう	列島	れっとう	chain of islands	名词	列島について調べています。	I am researching about chain of islands.
+n2-1585-れんか	煉瓦	れんが	brick	名词	煉瓦を理解することが大切だ。	It is important to understand brick.
+n2-1586-れんこ-う	連合	れんごう	union,alliance	名词	連合は重要な概念です。	union is an important concept.
+n2-1587-ろうそく	蝋燭	ろうそく	candle	名词	蝋燭に関する問題が出た。	A question about candle came up.
+n2-1588-ろくおん	録音	ろくおん	(audio) recording	名词	録音に関する問題が出た。	A question about (audio) recording came up.
+n2-1589-ろんす-る	論ずる	ろんずる	to argue,to discuss,to debate	动词	彼は論ずることができる。	He can to argue.
+n2-1590-わえい	和英	わえい	Japanese-English	名词	和英は重要な概念です。	Japanese-English is an important concept.
+n2-1591-わかる	分る	わかる	to be understood	动词	分ることにした。	I decided to to be understood.
+n2-1592-わかれる	分かれる	わかれる	to branch off,to diverge from,to fork,to split,to dispense,to scatter,to divide into	动词	もっと分かれる必要がある。	There is a need to to branch off more.
+n2-1593-わかわかしい	若々しい	わかわかしい	youthful,young	名词	若々しいは重要な概念です。	youthful is an important concept.
+n2-1594-わく	湧く	わく	to boil,to grow hot,to get excited,to gush forth	动词	彼は湧くことができる。	He can to boil.
+n2-1595-わひ-る	詫びる	わびる	to apologize	动词	もっと詫びる必要がある。	There is a need to to apologize more.
+n2-1596-わふく	和服	わふく	Japanese clothes	名词	和服について調べています。	I am researching about Japanese clothes.
+n2-1597-わりあいに	わりあいに	わりあいに	comparatively	副词	わりあいにを理解することが大切だ。	It is important to understand comparatively.
+n2-1598-わりさ-ん	割算	わりざん	division (math)	名词	割算について調べています。	I am researching about division (math).
+n2-1599-わりと	割と	わりと	relatively, comparitively	副词	割とは重要な概念です。	relatively is an important concept.
+n2-1600-わりひ-き	割引	わりびき	discount,reduction,rebate	名词	割引は重要な概念です。	discount is an important concept.
+n2-1601-わん	椀	わん	Japanese soup bowl,wooden bowl	名词	椀は重要な概念です。	Japanese soup bowl is an important concept.
+n2-1602-アイテ-ア	アイデア	アイデア	idea	名词	アイデアについて調べています。	I am researching about idea.
+n2-1603-アイテ-ィア	アイディア	アイディア	idea	名词	アイディアは重要な概念です。	idea is an important concept.
+n2-1604-アクセント	アクセント	アクセント	accent	名词	アクセントに関する問題が出た。	A question about accent came up.
+n2-1605-アンテナ	アンテナ	アンテナ	antenna	名词	アンテナに関する問題が出た。	A question about antenna came up.
+n2-1606-イコール	イコール	イコール	equal	名词	このイコールは興味深い。	This equal is interesting.
+n2-1607-インキ	インキ	インキ	ink	名词	インキは重要な概念です。	ink is an important concept.
+n2-1608-インタヒ-ュー	インタビュー	インタビュー	interview	名词	インタビューに関する問題が出た。	A question about interview came up.
+n2-1609-ウエートレス	ウエートレス	ウエートレス	waitress	名词	ウエートレスは重要な概念です。	waitress is an important concept.
+n2-1610-ウーマン	ウーマン	ウーマン	woman	名词	ウーマンは重要な概念です。	woman is an important concept.
+n2-1611-ウール	ウール	ウール	wool	名词	ウールに関する問題が出た。	A question about wool came up.
+n2-1612-エチケット	エチケット	エチケット	etiquette	名词	エチケットを理解することが大切だ。	It is important to understand etiquette.
+n2-1613-エフ-ロン	エプロン	エプロン	apron	名词	エプロンについて調べています。	I am researching about apron.
+n2-1614-オイル	オイル	オイル	oil,engine oil,kerosene	名词	オイルについて調べています。	I am researching about oil.
+n2-1615-オルカ-ン	オルガン	オルガン	organ	名词	オルガンに関する問題が出た。	A question about organ came up.
+n2-1616-オーケストラ	オーケストラ	オーケストラ	orchestra	名词	オーケストラを理解することが大切だ。	It is important to understand orchestra.
+n2-1617-オートメーション	オートメーション	オートメーション	automation	名词	オートメーションを理解することが大切だ。	It is important to understand automation.
+n2-1618-カセット	カセット	カセット	cassette (tape)	名词	このカセットは興味深い。	This cassette (tape) is interesting.
+n2-1619-カハ-ー	カバー	カバー	cover (ex. book)	名词	カバーを理解することが大切だ。	It is important to understand cover (ex. book).
+n2-1620-カラー	カラー	カラー	collar,color,colour	名词	このカラーは興味深い。	This collar is interesting.
+n2-1621-カロリー	カロリー	カロリー	calorie	名词	カロリーに関する問題が出た。	A question about calorie came up.
+n2-1622-カーフ	カーブ	カーブ	(1) curve,(2) curve ball (baseball)	名词	カーブは重要な概念です。	(1) curve is an important concept.
+n2-1623-カ-ム	ガム	ガム	chewing gum	名词	ガムについて調べています。	I am researching about chewing gum.
+n2-1624-キャンハ-ス	キャンパス	キャンパス	campus	名词	キャンパスに関する問題が出た。	A question about campus came up.
+n2-1625-キ-ャンク	ギャング	ギャング	gang	名词	このギャングは興味深い。	This gang is interesting.
+n2-1626-クリーニンク	クリーニング	クリーニング	cleaning,dry cleaning,laundry service	名词	このクリーニングは興味深い。	This cleaning is interesting.
+n2-1627-クーラー	クーラー	クーラー	cooler,air conditioner	名词	クーラーは重要な概念です。	cooler is an important concept.
+n2-1628-コック	コック	コック	(1) cook (nl:),(2) tap,spigot,faucet,cock	名词	コックは重要な概念です。	(1) cook (nl:) is an important concept.
+n2-1629-コレクション	コレクション	コレクション	(1) collection,(2) correction	名词	このコレクションは興味深い。	This (1) collection is interesting.
+n2-1630-コンクリート	コンクリート	コンクリート	concrete	名词	コンクリートは重要な概念です。	concrete is an important concept.
+n2-1631-コンクール	コンクール	コンクール	contest (fr: concours)	名词	このコンクールは興味深い。	This contest (fr: concours) is interesting.
+n2-1632-コンセント	コンセント	コンセント	(1) consent,(2) concentric	名词	コンセントについて調べています。	I am researching about (1) consent.
+n2-1633-コース	コース	コース	course	名词	コースに関する問題が出た。	A question about course came up.
+n2-1634-コーラス	コーラス	コーラス	chorus	名词	コーラスに関する問題が出た。	A question about chorus came up.
+n2-1635-コ-ム	ゴム	ゴム	gum,rubber,eraser	名词	このゴムは興味深い。	This gum is interesting.
+n2-1636-サイレン	サイレン	サイレン	siren	名词	このサイレンは興味深い。	This siren is interesting.
+n2-1637-サラリーマン	サラリーマン	サラリーマン	salary man,company employee	名词	サラリーマンについて調べています。	I am researching about salary man.
+n2-1638-サンフ-ル	サンプル	サンプル	sample	名词	サンプルを理解することが大切だ。	It is important to understand sample.
+n2-1639-サークル	サークル	サークル	circle,sports club (i.e. at a company)	名词	サークルを理解することが大切だ。	It is important to understand circle.
+n2-1640-シャッター	シャッター	シャッター	shutter	名词	このシャッターは興味深い。	This shutter is interesting.
+n2-1641-ショッフ	ショップ	ショップ	a shop	名词	ショップに関する問題が出た。	A question about a shop came up.
+n2-1642-シリース	シリーズ	シリーズ	series	名词	このシリーズは興味深い。	This series is interesting.
+n2-1643-シース-ン	シーズン	シーズン	season (sporting)	名词	シーズンについて調べています。	I am researching about season (sporting).
+n2-1644-シーツ	シーツ	シーツ	sheet	名词	シーツに関する問題が出た。	A question about sheet came up.
+n2-1645-シ-ャーナリスト	ジャーナリスト	ジャーナリスト	journalist	名词	ジャーナリストに関する問題が出た。	A question about journalist came up.
+n2-1646-スカーフ	スカーフ	スカーフ	scarf	名词	スカーフを理解することが大切だ。	It is important to understand scarf.
+n2-1647-スクール	スクール	スクール	school	名词	スクールは重要な概念です。	school is an important concept.
+n2-1648-スケシ-ュール	スケジュール	スケジュール	schedule	名词	スケジュールは重要な概念です。	schedule is an important concept.
+n2-1649-スタート	スタート	スタート	start	名词	スタートは重要な概念です。	start is an important concept.
+n2-1650-スチュワーテ-ス	スチュワーデス	スチュワーデス	stewardess	名词	スチュワーデスに関する問題が出た。	A question about stewardess came up.
+n2-1651-ステーシ	ステージ	ステージ	(1) stage,(2) performance	名词	ステージを理解することが大切だ。	It is important to understand (1) stage.
+n2-1652-ストッキンク	ストッキング	ストッキング	stockings	名词	ストッキングは重要な概念です。	stockings is an important concept.
+n2-1653-ストッフ	ストップ	ストップ	stop	名词	ストップを理解することが大切だ。	It is important to understand stop.
+n2-1654-スヒ-ーカー	スピーカー	スピーカー	speaker	名词	このスピーカーは興味深い。	This speaker is interesting.
+n2-1655-スマート	スマート	スマート	smart,stylish,slim	名词	スマートは重要な概念です。	smart is an important concept.
+n2-1656-スライト	スライド	スライド	slide	名词	このスライドは興味深い。	This slide is interesting.
+n2-1657-セメント	セメント	セメント	cement	名词	セメントに関する問題が出た。	A question about cement came up.
+n2-1658-センチ	センチ	センチ	centimeter,centi-,10^-2	名词	センチを理解することが大切だ。	It is important to understand centimeter.
+n2-1659-セ-ミ	ゼミ	ゼミ	(n) seminar	名词	ゼミを理解することが大切だ。	It is important to understand (n) seminar.
+n2-1660-タイア	タイア	タイア	tire,tyre	名词	タイアについて調べています。	I am researching about tire.
+n2-1661-タ-イヤク-ラム	ダイヤグラム	ダイヤグラム	diagram	名词	このダイヤグラムは興味深い。	This diagram is interesting.
+n2-1662-タ-イヤモント	ダイヤモンド	ダイヤモンド	diamond	名词	ダイヤモンドに関する問題が出た。	A question about diamond came up.
+n2-1663-タ-イヤル	ダイヤル	ダイヤル	dial	名词	ダイヤルについて調べています。	I am researching about dial.
+n2-1664-タ-フ-ル	ダブル	ダブル	double	名词	ダブルは重要な概念です。	double is an important concept.
+n2-1665-タ-ム	ダム	ダム	dumb	名词	ダムは重要な概念です。	dumb is an important concept.
+n2-1666-チッフ	チップ	チップ	(1) gratuity,tip,(2) chip	名词	チップに関する問題が出た。	A question about (1) gratuity came up.
+n2-1667-チョーク	チョーク	チョーク	chock,chalk	名词	チョークに関する問題が出た。	A question about chock came up.
+n2-1668-テニスコート	テニスコート	テニスコート	tennis court	名词	テニスコートについて調べています。	I am researching about tennis court.
+n2-1669-テンホ	テンポ	テンポ	tempo	名词	テンポに関する問題が出た。	A question about tempo came up.
+n2-1670-テーマ	テーマ	テーマ	(n) theme,project,topic (de: Thema)	名词	テーマに関する問題が出た。	A question about (n) theme came up.
+n2-1671-トレーニンク	トレーニング	トレーニング	training	名词	このトレーニングは興味深い。	This training is interesting.
+n2-1672-ナイロン	ナイロン	ナイロン	nylon	名词	ナイロンは重要な概念です。	nylon is an important concept.
+n2-1673-ナンハ-ー	ナンバー	ナンバー	number	名词	ナンバーを理解することが大切だ。	It is important to understand number.
+n2-1674-ネックレス	ネックレス	ネックレス	necklace	名词	ネックレスを理解することが大切だ。	It is important to understand necklace.
+n2-1675-ハント-ル	ハンドル	ハンドル	handle,steering wheel	名词	このハンドルは興味深い。	This handle is interesting.
+n2-1676-ハ-ケツ	バケツ	バケツ	bucket,pail	名词	バケツに関する問題が出た。	A question about bucket came up.
+n2-1677-ハ-ック	バック	バック	back	名词	バックに関する問題が出た。	A question about back came up.
+n2-1678-ハ-ランス	バランス	バランス	balance	名词	バランスに関する問題が出た。	A question about balance came up.
+n2-1679-ハ-ント	バンド	バンド	band	名词	バンドに関する問題が出た。	A question about band came up.
+n2-1680-ハ-ターン	パターン	パターン	pattern	名词	パターンは重要な概念です。	pattern is an important concept.
+n2-1681-ハ-ンツ	パンツ	パンツ	underpants	名词	パンツを理解することが大切だ。	It is important to understand underpants.
+n2-1682-ヒ-タミン	ビタミン	ビタミン	vitamin	名词	このビタミンは興味深い。	This vitamin is interesting.
+n2-1683-ヒ-ニール	ビニール	ビニール	vinyl	名词	ビニールを理解することが大切だ。	It is important to understand vinyl.
+n2-1684-ヒ-ルテ-ィンク	ビルディング	ビルディング	building	名词	ビルディングに関する問題が出た。	A question about building came up.
+n2-1685-ヒ-ストル	ピストル	ピストル	pistol	名词	ピストルを理解することが大切だ。	It is important to understand pistol.
+n2-1686-ヒ-ンク	ピンク	ピンク	pink	名词	ピンクを理解することが大切だ。	It is important to understand pink.
+n2-1687-ファスナー	ファスナー	ファスナー	fastener,zipper	名词	このファスナーは興味深い。	This fastener is interesting.
+n2-1688-フライハ-ン	フライパン	フライパン	fry pan,frying pan	名词	フライパンについて調べています。	I am researching about fry pan.
+n2-1689-フリー	フリー	フリー	free	名词	このフリーは興味深い。	This free is interesting.
+n2-1690-フ-ラウス	ブラウス	ブラウス	blouse	名词	ブラウスについて調べています。	I am researching about blouse.
+n2-1691-フ-ラシ	ブラシ	ブラシ	brushy,brush	名词	ブラシを理解することが大切だ。	It is important to understand brushy.
+n2-1692-フ-ローチ	ブローチ	ブローチ	brooch	名词	このブローチは興味深い。	This brooch is interesting.
+n2-1693-フ-ラスチック	プラスチック	プラスチック	plastic	名词	プラスチックに関する問題が出た。	A question about plastic came up.
+n2-1694-フ-ラットホーム	プラットホーム	プラットホーム	platform	名词	プラットホームを理解することが大切だ。	It is important to understand platform.
+n2-1695-フ-リント	プリント	プリント	print,handout	名词	プリントを理解することが大切だ。	It is important to understand print.
+n2-1696-フ-ロク-ラム	プログラム	プログラム	program	名词	プログラムを理解することが大切だ。	It is important to understand program.
+n2-1697-ヘリコフ-ター	ヘリコプター	ヘリコプター	helicopter	名词	ヘリコプターについて調べています。	I am researching about helicopter.
+n2-1698-ヘ-テラン	ベテラン	ベテラン	veteran	名词	ベテランについて調べています。	I am researching about veteran.
+n2-1699-ヘ-ンチ	ペンチ	ペンチ	(abbr) pliers (lit: pinchers)	名词	ペンチを理解することが大切だ。	It is important to understand (abbr) pliers (lit: pinchers).
+n2-1700-ホ-ーナス	ボーナス	ボーナス	bonus	名词	ボーナスは重要な概念です。	bonus is an important concept.
+n2-1701-ホ-スター	ポスター	ポスター	poster	名词	ポスターについて調べています。	I am researching about poster.
+n2-1702-マイナス	マイナス	マイナス	minus	名词	マイナスは重要な概念です。	minus is an important concept.
+n2-1703-マスク	マスク	マスク	mask	名词	マスクは重要な概念です。	mask is an important concept.
+n2-1704-マフラー	マフラー	マフラー	muffler,scarf	名词	マフラーを理解することが大切だ。	It is important to understand muffler.
+n2-1705-マラソン	マラソン	マラソン	marathon	名词	マラソンに関する問題が出た。	A question about marathon came up.
+n2-1706-マンション	マンション	マンション	large apartment,apartment house	名词	マンションに関する問題が出た。	A question about large apartment came up.
+n2-1707-ミシン	ミシン	ミシン	sewing machine	名词	ミシンについて調べています。	I am researching about sewing machine.
+n2-1708-ミリ	ミリ	ミリ	milli-,10^-3	名词	ミリは重要な概念です。	milli- is an important concept.
+n2-1709-メニュー	メニュー	メニュー	menu	名词	メニューを理解することが大切だ。	It is important to understand menu.
+n2-1710-メーター	メーター	メーター	meter (clock)	名词	メーターに関する問題が出た。	A question about meter (clock) came up.
+n2-1711-モタ-ン	モダン	モダン	modern	名词	モダンに関する問題が出た。	A question about modern came up.
+n2-1712-モテ-ル	モデル	モデル	model	名词	このモデルは興味深い。	This model is interesting.
+n2-1713-モノレール	モノレール	モノレール	monorail	名词	このモノレールは興味深い。	This monorail is interesting.
+n2-1714-モーター	モーター	モーター	motor	名词	モーターについて調べています。	I am researching about motor.
+n2-1715-ラッシュアワー	ラッシュアワー	ラッシュアワー	rush hour	名词	ラッシュアワーを理解することが大切だ。	It is important to understand rush hour.
+n2-1716-ランチ	ランチ	ランチ	launch,lunch	名词	ランチを理解することが大切だ。	It is important to understand launch.
+n2-1717-ランニンク	ランニング	ランニング	(1) running,(2) tank top	名词	ランニングに関する問題が出た。	A question about (1) running came up.
+n2-1718-リス-ム	リズム	リズム	rhythm	名词	このリズムは興味深い。	This rhythm is interesting.
+n2-1719-リットル	リットル	リットル	litre	名词	リットルに関する問題が出た。	A question about litre came up.
+n2-1720-リホ-ン	リボン	リボン	ribbon	名词	リボンについて調べています。	I am researching about ribbon.
+n2-1721-レインコート	レインコート	レインコート	raincoat	名词	このレインコートは興味深い。	This raincoat is interesting.
+n2-1722-レクリェーション	レクリェーション	レクリェーション	recreation	名词	レクリェーションに関する問題が出た。	A question about recreation came up.
+n2-1723-レシ-ャー	レジャー	レジャー	leisure	名词	レジャーを理解することが大切だ。	It is important to understand leisure.
+n2-1724-レヘ-ル	レベル	レベル	level	名词	レベルに関する問題が出た。	A question about level came up.
+n2-1725-レンス	レンズ	レンズ	lens	名词	レンズに関する問題が出た。	A question about lens came up.
+n2-1726-ロッカー	ロッカー	ロッカー	locker	名词	このロッカーは興味深い。	This locker is interesting.
+n2-1727-ロヒ-ー	ロビー	ロビー	lobby	名词	ロビーを理解することが大切だ。	It is important to understand lobby.
+n2-1728-ローマし	ローマじ	ローマじ	romanization,Roman letters	名词	ローマじに関する問題が出た。	A question about romanization came up.
+n2-1729-ワンヒ-ース	ワンピース	ワンピース	one-piece dress	名词	ワンピースを理解することが大切だ。	It is important to understand one-piece dress.

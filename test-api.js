@@ -267,8 +267,8 @@ async function main() {
   for (const [level, minimum] of [
     ["N4", 570],
     ["N3", 1800],
-    ["N2", 30],
-    ["N1", 30],
+    ["N2", 1700],
+    ["N1", 3400],
   ]) {
     const levelVocabulary = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=${level}`);
     assert.equal(levelVocabulary.vocabulary.level, level);
