@@ -4,6 +4,7 @@ const currentUserId = localStorage.getItem("nihongoLoopUserId") || "demo-user";
 const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
 const toast = document.querySelector("#toast");
+const unitCompletePromptKey = `nihongoLoopUnitPrompt:${window.location.search}`;
 let toastTimer;
 
 const typeMeta = {
@@ -23,6 +24,7 @@ const session = {
   answers: [],
   unitIndex: Number(params.get("unit")),
   dailyGoal: Number(params.get("goal") || savedState.vocabularyDailyGoal || 30),
+  vocabularyTotalWords: 0,
 };
 
 const dailyGoalOptions = [10, 20, 30, 50];
@@ -42,6 +44,39 @@ function vocabularyUnitRange(words) {
 
 function unitLabel() {
   return isVocabularyUnitTest() ? `第 ${session.unitIndex + 1} 单元` : "";
+}
+
+function nextVocabularyUnitIndex() {
+  if (!isVocabularyUnitTest() || !session.vocabularyTotalWords) return null;
+  const nextIndex = session.unitIndex + 1;
+  return nextIndex * session.dailyGoal < session.vocabularyTotalWords ? nextIndex : null;
+}
+
+function vocabularyStudyHref(unitIndex = session.unitIndex) {
+  return `vocabulary.html?level=${encodeURIComponent(session.level)}&unit=${unitIndex}&goal=${session.dailyGoal}`;
+}
+
+function nextUnitPromptHtml() {
+  if (!isVocabularyUnitTest()) return "";
+  const nextIndex = nextVocabularyUnitIndex();
+  const isLastUnit = nextIndex === null;
+  return `
+    <div class="unit-complete-prompt" role="dialog" aria-modal="true" aria-label="单元测验完成">
+      <div class="unit-complete-card">
+        <span>测验完成</span>
+        <h4>${isLastUnit ? `${session.level} 所有单元完成啦` : `要继续第 ${nextIndex + 1} 单元吗？`}</h4>
+        <p>${isLastUnit ? "这一等级的单元测验已经做完，可以回到单词页复习错题本或重新选择单元。" : "现在继续会直接进入下一单元学习页，不用再回去慢慢找。"}</p>
+        <div class="unit-complete-actions">
+          ${
+            isLastUnit
+              ? `<a class="btn btn-dark" href="vocabulary.html#vocabMistakes">回到单词页</a>`
+              : `<a class="btn btn-dark" href="${vocabularyStudyHref(nextIndex)}">继续学习第 ${nextIndex + 1} 单元</a>`
+          }
+          <button class="btn btn-light" type="button" data-close-unit-prompt>先休息</button>
+        </div>
+      </div>
+    </div>
+  `;
 }
 
 function escapeHtml(value) {
@@ -100,6 +135,7 @@ function buildOptions(items, current, key) {
 async function loadVocabularyQuestions() {
   const data = await apiRequest(`/api/vocabulary?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(session.level)}`);
   const words = data.vocabulary.words;
+  session.vocabularyTotalWords = words.length;
   const range = vocabularyUnitRange(words);
   const scopedWords = range.words.length ? range.words : words;
   return scopedWords.map((word, index) => {
@@ -213,12 +249,21 @@ function draw() {
         }
         <div class="hero-actions">
           <a class="btn btn-dark" href="${meta.study}">返回学习</a>
+          ${isVocabularyUnitTest() && nextVocabularyUnitIndex() !== null ? `<a class="btn btn-red" href="${vocabularyStudyHref(nextVocabularyUnitIndex())}">继续第 ${nextVocabularyUnitIndex() + 1} 单元</a>` : ""}
           ${isVocabularyUnitTest() ? `<a class="btn btn-light" href="vocabulary.html#vocabMistakes">查看错题本</a>` : ""}
           <button class="btn btn-light" type="button" id="restartTest">再测一次</button>
         </div>
+        ${nextUnitPromptHtml()}
       </div>
     `;
     document.querySelector("#restartTest").addEventListener("click", () => setLevel(session.level));
+    document.querySelector("[data-close-unit-prompt]")?.addEventListener("click", () => {
+      document.querySelector(".unit-complete-prompt")?.remove();
+      sessionStorage.setItem(unitCompletePromptKey, "closed");
+    });
+    if (isVocabularyUnitTest() && sessionStorage.getItem(unitCompletePromptKey) === "closed") {
+      document.querySelector(".unit-complete-prompt")?.remove();
+    }
     return;
   }
   document.querySelector("#testContent").innerHTML = `

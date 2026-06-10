@@ -5,6 +5,8 @@ let toastTimer;
 const currentUserId = localStorage.getItem("nihongoLoopUserId") || "demo-user";
 const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
+const params = new URLSearchParams(window.location.search);
+let initialUnitApplied = false;
 
 const localVocabularyByLevel = {
   N5: [
@@ -37,12 +39,12 @@ const localVocabularyByLevel = {
 };
 
 const session = {
-  level: savedState.level || "N5",
+  level: params.get("level") || savedState.level || "N5",
   index: 0,
   words: [],
   stats: { total: 0, mastered: 0, remaining: 0 },
   question: null,
-  dailyGoal: Number(savedState.vocabularyDailyGoal || 30),
+  dailyGoal: Number(params.get("goal") || savedState.vocabularyDailyGoal || 30),
 };
 
 const dailyGoalOptions = [10, 20, 30, 50];
@@ -256,7 +258,14 @@ async function setLevel(level) {
   const payload = await loadVocabulary(level);
   session.words = payload.words;
   session.stats = payload.stats;
-  session.index = 0;
+  if (!initialUnitApplied) {
+    const requestedUnit = Number(params.get("unit"));
+    const unitIndex = Number.isInteger(requestedUnit) && requestedUnit >= 0 ? requestedUnit : 0;
+    session.index = Math.min(unitIndex * session.dailyGoal, Math.max(0, session.words.length - 1));
+    initialUnitApplied = true;
+  } else {
+    session.index = 0;
+  }
   saveLocalState();
   draw();
 }

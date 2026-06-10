@@ -149,6 +149,10 @@ async function main() {
   assert.match(testScriptText, /vocabularyUnitRange/);
   assert.match(testScriptText, /本单元背会/);
   assert.match(testScriptText, /查看错题本/);
+  assert.match(testScriptText, /nextVocabularyUnitIndex/);
+  assert.match(testScriptText, /继续学习第/);
+  assert.match(testScriptText, /data-close-unit-prompt/);
+  assert.match(vocabScriptText, /params\.get\("unit"\)/);
 
   const featureData = await fetch(`${BASE_URL}/data/features.json`);
   assert.equal(featureData.status, 200);

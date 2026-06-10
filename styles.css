@@ -3075,6 +3075,58 @@ h1 {
   color: var(--green);
 }
 
+.unit-complete-prompt {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: rgba(15, 23, 42, 0.42);
+  padding: 20px;
+}
+
+.unit-complete-card {
+  width: min(100%, 440px);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--white);
+  box-shadow: 0 28px 80px rgba(15, 23, 42, 0.24);
+  padding: 26px;
+  text-align: left;
+}
+
+.unit-complete-card span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.unit-complete-card h4 {
+  margin: 0;
+  color: #111827;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.unit-complete-card p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.unit-complete-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.unit-complete-actions .btn {
+  justify-content: center;
+}
+
 .bank-section,
 .report-section {
   max-width: 1248px;
@@ -3620,6 +3672,19 @@ h1 {
 
   .grammar-actions {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .unit-complete-card {
+    border-radius: 20px;
+    padding: 22px;
+  }
+
+  .unit-complete-card h4 {
+    font-size: 24px;
+  }
+
+  .unit-complete-actions {
+    grid-template-columns: 1fr;
   }
 
   .account-tools {
