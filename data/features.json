@@ -7,10 +7,10 @@
     "levels": {
       "N5": [
         {
-          "id": "reading-n5-sentence-family",
-          "category": "短句理解",
-          "title": "家人在家",
-          "goal": "只看日语句子，回答具体信息题。",
+          "id": "reading-n5-01-family-home",
+          "category": "読解",
+          "title": "阅读题 1",
+          "goal": "只看日语文本，回答具体信息题。",
           "steps": [
             "读原文",
             "看题目",
@@ -30,10 +30,10 @@
           }
         },
         {
-          "id": "reading-n5-sentence-time",
-          "category": "时间动作",
-          "title": "早上学习",
-          "goal": "根据日语原文判断时间和动作。",
+          "id": "reading-n5-02-morning-study",
+          "category": "読解",
+          "title": "阅读题 2",
+          "goal": "只看日语文本，回答具体信息题。",
           "steps": [
             "读原文",
             "看题目",
@@ -53,10 +53,10 @@
           }
         },
         {
-          "id": "reading-n5-sentence-object",
-          "category": "物品判断",
-          "title": "这本书",
-          "goal": "根据日语原文判断物品是什么。",
+          "id": "reading-n5-03-japanese-book",
+          "category": "読解",
+          "title": "阅读题 3",
+          "goal": "只看日语文本，回答具体信息题。",
           "steps": [
             "读原文",
             "看题目",
@@ -76,10 +76,10 @@
           }
         },
         {
-          "id": "reading-n5-sentence-place",
-          "category": "地点理解",
-          "title": "去学校",
-          "goal": "根据日语原文判断人物去哪里。",
+          "id": "reading-n5-04-go-school",
+          "category": "読解",
+          "title": "阅读题 4",
+          "goal": "只看日语文本，回答具体信息题。",
           "steps": [
             "读原文",
             "看题目",
@@ -99,10 +99,10 @@
           }
         },
         {
-          "id": "reading-n5-sentence-like",
-          "category": "喜好表达",
-          "title": "喜欢水果",
-          "goal": "根据日语原文判断谁喜欢什么。",
+          "id": "reading-n5-05-likes-apple",
+          "category": "読解",
+          "title": "阅读题 5",
+          "goal": "只看日语文本，回答具体信息题。",
           "steps": [
             "读原文",
             "看题目",
@@ -122,10 +122,10 @@
           }
         },
         {
-          "id": "reading-n5-sentence-negative",
-          "category": "否定句",
-          "title": "今天不下雨",
-          "goal": "根据日语原文判断否定内容。",
+          "id": "reading-n5-06-not-rain",
+          "category": "読解",
+          "title": "阅读题 6",
+          "goal": "只看日语文本，回答具体信息题。",
           "steps": [
             "读原文",
             "看题目",
@@ -133,7 +133,7 @@
           ],
           "sample": "今日は雨ではありません。",
           "translation": "今天不是雨天。",
-          "tip": "题目问哪个说法正确。「雨ではありません」表示不是雨天。",
+          "tip": "「ではありません」是否定，表示“不是”。",
           "question": {
             "text": "关于今天，哪个说法正确？",
             "options": [
@@ -142,6 +142,1018 @@
               "テストがあります"
             ],
             "correct": "雨ではありません"
+          }
+        },
+        {
+          "id": "reading-n5-07-library-read",
+          "category": "読解",
+          "title": "阅读题 7",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "田中さんは図書館で本を読みます。",
+          "translation": "田中在图书馆读书。",
+          "tip": "题目问地点。「図書館で」表示在图书馆。",
+          "question": {
+            "text": "田中在哪里读书？",
+            "options": [
+              "図書館",
+              "駅",
+              "スーパー"
+            ],
+            "correct": "図書館"
+          }
+        },
+        {
+          "id": "reading-n5-08-movie-tomorrow",
+          "category": "読解",
+          "title": "阅读题 8",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "あした、友だちと映画を見ます。",
+          "translation": "明天和朋友看电影。",
+          "tip": "「あした」表示明天。",
+          "question": {
+            "text": "什么时候看电影？",
+            "options": [
+              "あした",
+              "きのう",
+              "毎朝"
+            ],
+            "correct": "あした"
+          }
+        },
+        {
+          "id": "reading-n5-09-bag-price",
+          "category": "読解",
+          "title": "阅读题 9",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "このかばんは三千円です。",
+          "translation": "这个包是三千日元。",
+          "tip": "题目问价格，原文里的数字是「三千円」。",
+          "question": {
+            "text": "这个包多少钱？",
+            "options": [
+              "三千円",
+              "三百円",
+              "三万円"
+            ],
+            "correct": "三千円"
+          }
+        },
+        {
+          "id": "reading-n5-10-dog-garden",
+          "category": "読解",
+          "title": "阅读题 10",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "犬は庭にいます。",
+          "translation": "狗在院子里。",
+          "tip": "「犬」是狗，「庭」是院子。",
+          "question": {
+            "text": "什么在院子里？",
+            "options": [
+              "犬",
+              "猫",
+              "鳥"
+            ],
+            "correct": "犬"
+          }
+        },
+        {
+          "id": "reading-n5-11-father-company",
+          "category": "読解",
+          "title": "阅读题 11",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "父は会社へ行きました。",
+          "translation": "爸爸去了公司。",
+          "tip": "「会社へ行きました」表示去了公司。",
+          "question": {
+            "text": "爸爸去了哪里？",
+            "options": [
+              "会社",
+              "学校",
+              "病院"
+            ],
+            "correct": "会社"
+          }
+        },
+        {
+          "id": "reading-n5-12-sunday-soccer",
+          "category": "読解",
+          "title": "阅读题 12",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "日曜日に公園でサッカーをします。",
+          "translation": "星期天在公园踢足球。",
+          "tip": "题目问星期几，原文是「日曜日に」。",
+          "question": {
+            "text": "星期几踢足球？",
+            "options": [
+              "日曜日",
+              "月曜日",
+              "金曜日"
+            ],
+            "correct": "日曜日"
+          }
+        },
+        {
+          "id": "reading-n5-13-clock-desk",
+          "category": "読解",
+          "title": "阅读题 13",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "机の上に時計があります。",
+          "translation": "桌子上有钟。",
+          "tip": "「上」表示上面。",
+          "question": {
+            "text": "钟在哪里？",
+            "options": [
+              "机の上",
+              "椅子の下",
+              "部屋の外"
+            ],
+            "correct": "机の上"
+          }
+        },
+        {
+          "id": "reading-n5-14-room-second-floor",
+          "category": "読解",
+          "title": "阅读题 14",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "わたしの部屋は二階にあります。",
+          "translation": "我的房间在二楼。",
+          "tip": "「二階」表示二楼。",
+          "question": {
+            "text": "我的房间在几楼？",
+            "options": [
+              "二階",
+              "一階",
+              "三階"
+            ],
+            "correct": "二階"
+          }
+        },
+        {
+          "id": "reading-n5-15-black-pen",
+          "category": "読解",
+          "title": "阅读题 15",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "先生は黒いペンを使います。",
+          "translation": "老师使用黑色的笔。",
+          "tip": "题目问使用的东西，原文是「黒いペン」。",
+          "question": {
+            "text": "老师用什么？",
+            "options": [
+              "黒いペン",
+              "白い紙",
+              "赤い本"
+            ],
+            "correct": "黒いペン"
+          }
+        },
+        {
+          "id": "reading-n5-16-buy-milk",
+          "category": "読解",
+          "title": "阅读题 16",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "スーパーで牛乳を買いました。",
+          "translation": "在超市买了牛奶。",
+          "tip": "「スーパーで」表示在超市。",
+          "question": {
+            "text": "在哪里买了牛奶？",
+            "options": [
+              "スーパー",
+              "学校",
+              "図書館"
+            ],
+            "correct": "スーパー"
+          }
+        },
+        {
+          "id": "reading-n5-17-brother-sleep",
+          "category": "読解",
+          "title": "阅读题 17",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "弟は七時に寝ます。",
+          "translation": "弟弟七点睡觉。",
+          "tip": "题目问人物，原文开头是「弟」。",
+          "question": {
+            "text": "谁七点睡觉？",
+            "options": [
+              "弟",
+              "兄",
+              "母"
+            ],
+            "correct": "弟"
+          }
+        },
+        {
+          "id": "reading-n5-18-store-open",
+          "category": "読解",
+          "title": "阅读题 18",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "この店は九時からです。",
+          "translation": "这家店九点开始营业。",
+          "tip": "「から」表示从九点开始。",
+          "question": {
+            "text": "这家店几点开始？",
+            "options": [
+              "九時",
+              "七時",
+              "十時"
+            ],
+            "correct": "九時"
+          }
+        },
+        {
+          "id": "reading-n5-19-test-monday",
+          "category": "読解",
+          "title": "阅读题 19",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "日本語のテストは月曜日です。",
+          "translation": "日语考试是星期一。",
+          "tip": "题目问星期几，原文是「月曜日」。",
+          "question": {
+            "text": "日语考试星期几？",
+            "options": [
+              "月曜日",
+              "火曜日",
+              "土曜日"
+            ],
+            "correct": "月曜日"
+          }
+        },
+        {
+          "id": "reading-n5-20-bus-station",
+          "category": "読解",
+          "title": "阅读题 20",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "駅までバスで行きます。",
+          "translation": "坐公交去车站。",
+          "tip": "「バスで」表示交通方式是公交车。",
+          "question": {
+            "text": "怎么去车站？",
+            "options": [
+              "バス",
+              "電車",
+              "自転車"
+            ],
+            "correct": "バス"
+          }
+        },
+        {
+          "id": "reading-n5-21-homework-yesterday",
+          "category": "読解",
+          "title": "阅读题 21",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "きのう、宿題をしました。",
+          "translation": "昨天做了作业。",
+          "tip": "「きのう」表示昨天。",
+          "question": {
+            "text": "什么时候做了作业？",
+            "options": [
+              "きのう",
+              "今日",
+              "来週"
+            ],
+            "correct": "きのう"
+          }
+        },
+        {
+          "id": "reading-n5-22-mother-kitchen",
+          "category": "読解",
+          "title": "阅读题 22",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "母は台所で料理をしています。",
+          "translation": "妈妈在厨房做饭。",
+          "tip": "「台所」是厨房。",
+          "question": {
+            "text": "妈妈在哪里做饭？",
+            "options": [
+              "台所",
+              "庭",
+              "駅"
+            ],
+            "correct": "台所"
+          }
+        },
+        {
+          "id": "reading-n5-23-want-water",
+          "category": "読解",
+          "title": "阅读题 23",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "わたしは水を飲みたいです。",
+          "translation": "我想喝水。",
+          "tip": "「飲みたい」表示想喝。",
+          "question": {
+            "text": "我想喝什么？",
+            "options": [
+              "水",
+              "牛乳",
+              "コーヒー"
+            ],
+            "correct": "水"
+          }
+        },
+        {
+          "id": "reading-n5-24-cat-under-chair",
+          "category": "読解",
+          "title": "阅读题 24",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "猫は椅子の下にいます。",
+          "translation": "猫在椅子下面。",
+          "tip": "「下」表示下面。",
+          "question": {
+            "text": "猫在哪里？",
+            "options": [
+              "椅子の下",
+              "机の上",
+              "家の外"
+            ],
+            "correct": "椅子の下"
+          }
+        },
+        {
+          "id": "reading-n5-25-white-shirt",
+          "category": "読解",
+          "title": "阅读题 25",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "このシャツは白いです。",
+          "translation": "这件衬衫是白色的。",
+          "tip": "题目问颜色，原文是「白い」。",
+          "question": {
+            "text": "这件衬衫是什么颜色？",
+            "options": [
+              "白い",
+              "黒い",
+              "赤い"
+            ],
+            "correct": "白い"
+          }
+        },
+        {
+          "id": "reading-n5-26-tall-brother",
+          "category": "読解",
+          "title": "阅读题 26",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "兄は背が高いです。",
+          "translation": "哥哥个子高。",
+          "tip": "「背が高い」表示个子高。",
+          "question": {
+            "text": "哥哥怎么样？",
+            "options": [
+              "背が高い",
+              "背が低い",
+              "忙しい"
+            ],
+            "correct": "背が高い"
+          }
+        },
+        {
+          "id": "reading-n5-27-quiet-library",
+          "category": "読解",
+          "title": "阅读题 27",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "図書館は静かです。",
+          "translation": "图书馆很安静。",
+          "tip": "「静か」表示安静。",
+          "question": {
+            "text": "图书馆怎么样？",
+            "options": [
+              "静か",
+              "暑い",
+              "高い"
+            ],
+            "correct": "静か"
+          }
+        },
+        {
+          "id": "reading-n5-28-post-office-bank",
+          "category": "読解",
+          "title": "阅读题 28",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "郵便局は銀行のとなりです。",
+          "translation": "邮局在银行旁边。",
+          "tip": "「となり」表示旁边。",
+          "question": {
+            "text": "邮局在哪里？",
+            "options": [
+              "銀行のとなり",
+              "駅の中",
+              "学校の前"
+            ],
+            "correct": "銀行のとなり"
+          }
+        },
+        {
+          "id": "reading-n5-29-hot-today",
+          "category": "読解",
+          "title": "阅读题 29",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "今日は暑いです。",
+          "translation": "今天很热。",
+          "tip": "「暑い」表示天气热。",
+          "question": {
+            "text": "今天怎么样？",
+            "options": [
+              "暑い",
+              "寒い",
+              "静か"
+            ],
+            "correct": "暑い"
+          }
+        },
+        {
+          "id": "reading-n5-30-dislike-fish",
+          "category": "読解",
+          "title": "阅读题 30",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "わたしは魚が好きではありません。",
+          "translation": "我不喜欢鱼。",
+          "tip": "「好きではありません」表示不喜欢。",
+          "question": {
+            "text": "我不喜欢什么？",
+            "options": [
+              "魚",
+              "肉",
+              "野菜"
+            ],
+            "correct": "魚"
+          }
+        },
+        {
+          "id": "reading-n5-31-school-start",
+          "category": "読解",
+          "title": "阅读题 31",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "学校は八時半に始まります。",
+          "translation": "学校八点半开始。",
+          "tip": "「始まります」表示开始。",
+          "question": {
+            "text": "学校几点开始？",
+            "options": [
+              "八時半",
+              "八時",
+              "九時半"
+            ],
+            "correct": "八時半"
+          }
+        },
+        {
+          "id": "reading-n5-32-train-tokyo",
+          "category": "読解",
+          "title": "阅读题 32",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "この電車は東京へ行きます。",
+          "translation": "这辆电车去东京。",
+          "tip": "「東京へ」表示去东京。",
+          "question": {
+            "text": "这辆电车去哪里？",
+            "options": [
+              "東京",
+              "大阪",
+              "京都"
+            ],
+            "correct": "東京"
+          }
+        },
+        {
+          "id": "reading-n5-33-red-bike",
+          "category": "読解",
+          "title": "阅读题 33",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "友だちは赤い自転車を持っています。",
+          "translation": "朋友有一辆红色自行车。",
+          "tip": "「赤い自転車」表示红色自行车。",
+          "question": {
+            "text": "朋友的自行车是什么颜色？",
+            "options": [
+              "赤い",
+              "青い",
+              "白い"
+            ],
+            "correct": "赤い"
+          }
+        },
+        {
+          "id": "reading-n5-34-wake-six",
+          "category": "読解",
+          "title": "阅读题 34",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "毎日、六時に起きます。",
+          "translation": "每天六点起床。",
+          "tip": "「起きます」表示起床。",
+          "question": {
+            "text": "每天几点起床？",
+            "options": [
+              "六時",
+              "七時",
+              "九時"
+            ],
+            "correct": "六時"
+          }
+        },
+        {
+          "id": "reading-n5-35-no-school-sunday",
+          "category": "読解",
+          "title": "阅读题 35",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "日曜日は学校へ行きません。",
+          "translation": "星期天不去学校。",
+          "tip": "「行きません」是否定，表示不去。",
+          "question": {
+            "text": "星期天不去哪里？",
+            "options": [
+              "学校",
+              "公園",
+              "店"
+            ],
+            "correct": "学校"
+          }
+        },
+        {
+          "id": "reading-n5-36-no-photo",
+          "category": "読解",
+          "title": "阅读题 36",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "ここで写真を撮ってはいけません。",
+          "translation": "这里不可以拍照。",
+          "tip": "「てはいけません」表示不可以。",
+          "question": {
+            "text": "这里不可以做什么？",
+            "options": [
+              "写真を撮る",
+              "本を読む",
+              "水を飲む"
+            ],
+            "correct": "写真を撮る"
+          }
+        },
+        {
+          "id": "reading-n5-37-write-name",
+          "category": "読解",
+          "title": "阅读题 37",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "名前をここに書いてください。",
+          "translation": "请在这里写名字。",
+          "tip": "「名前」是名字。",
+          "question": {
+            "text": "需要写什么？",
+            "options": [
+              "名前",
+              "住所",
+              "電話番号"
+            ],
+            "correct": "名前"
+          }
+        },
+        {
+          "id": "reading-n5-38-close-window",
+          "category": "読解",
+          "title": "阅读题 38",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "窓を閉めてください。",
+          "translation": "请关窗户。",
+          "tip": "「閉めてください」表示请关闭。",
+          "question": {
+            "text": "需要关什么？",
+            "options": [
+              "窓",
+              "ドア",
+              "本"
+            ],
+            "correct": "窓"
+          }
+        },
+        {
+          "id": "reading-n5-39-many-homework",
+          "category": "読解",
+          "title": "阅读题 39",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "今日は宿題がたくさんあります。",
+          "translation": "今天有很多作业。",
+          "tip": "「たくさん」表示很多。",
+          "question": {
+            "text": "今天作业怎么样？",
+            "options": [
+              "たくさんあります",
+              "ありません",
+              "少しです"
+            ],
+            "correct": "たくさんあります"
+          }
+        },
+        {
+          "id": "reading-n5-40-kyoto-last-week",
+          "category": "読解",
+          "title": "阅读题 40",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "先週、京都へ行きました。",
+          "translation": "上周去了京都。",
+          "tip": "「先週」表示上周。",
+          "question": {
+            "text": "上周去了哪里？",
+            "options": [
+              "京都",
+              "東京",
+              "学校"
+            ],
+            "correct": "京都"
+          }
+        },
+        {
+          "id": "reading-n5-41-english-easier",
+          "category": "読解",
+          "title": "阅读题 41",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "わたしは日本語より英語のほうがやさしいです。",
+          "translation": "对我来说，英语比日语简单。",
+          "tip": "「AよりBのほうが」表示 B 比 A 更……。",
+          "question": {
+            "text": "对我来说，哪个更简单？",
+            "options": [
+              "英語",
+              "日本語",
+              "数学"
+            ],
+            "correct": "英語"
+          }
+        },
+        {
+          "id": "reading-n5-42-two-apples",
+          "category": "読解",
+          "title": "阅读题 42",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "りんごを二つください。",
+          "translation": "请给我两个苹果。",
+          "tip": "「二つ」表示两个。",
+          "question": {
+            "text": "要几个苹果？",
+            "options": [
+              "二つ",
+              "一つ",
+              "三つ"
+            ],
+            "correct": "二つ"
+          }
+        },
+        {
+          "id": "reading-n5-43-bus-stop-front",
+          "category": "読解",
+          "title": "阅读题 43",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "バス停は駅の前です。",
+          "translation": "公交站在车站前面。",
+          "tip": "「前」表示前面。",
+          "question": {
+            "text": "公交站在哪里？",
+            "options": [
+              "駅の前",
+              "学校の中",
+              "銀行のとなり"
+            ],
+            "correct": "駅の前"
+          }
+        },
+        {
+          "id": "reading-n5-44-medicine-after-meal",
+          "category": "読解",
+          "title": "阅读题 44",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "この薬は食事の後で飲みます。",
+          "translation": "这个药饭后吃。",
+          "tip": "「後で」表示之后。",
+          "question": {
+            "text": "什么时候吃这个药？",
+            "options": [
+              "食事の後",
+              "朝の前",
+              "学校の後"
+            ],
+            "correct": "食事の後"
+          }
+        },
+        {
+          "id": "reading-n5-45-yamada-not-yet",
+          "category": "読解",
+          "title": "阅读题 45",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "山田さんはまだ来ていません。",
+          "translation": "山田还没有来。",
+          "tip": "「まだ～ていません」表示还没有。",
+          "question": {
+            "text": "山田来了吗？",
+            "options": [
+              "来ていません",
+              "来ました",
+              "帰りました"
+            ],
+            "correct": "来ていません"
+          }
+        },
+        {
+          "id": "reading-n5-46-three-men",
+          "category": "読解",
+          "title": "阅读题 46",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "部屋に男の人が三人います。",
+          "translation": "房间里有三个男人。",
+          "tip": "「三人」表示三个人。",
+          "question": {
+            "text": "房间里有几个男人？",
+            "options": [
+              "三人",
+              "二人",
+              "一人"
+            ],
+            "correct": "三人"
+          }
+        },
+        {
+          "id": "reading-n5-47-ate-nothing",
+          "category": "読解",
+          "title": "阅读题 47",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "今日は何も食べませんでした。",
+          "translation": "今天什么也没吃。",
+          "tip": "「何も～ません」表示什么也不。",
+          "question": {
+            "text": "今天吃了什么？",
+            "options": [
+              "何も食べませんでした",
+              "りんごを食べました",
+              "魚を食べました"
+            ],
+            "correct": "何も食べませんでした"
+          }
+        },
+        {
+          "id": "reading-n5-48-hot-coffee",
+          "category": "読解",
+          "title": "阅读题 48",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "コーヒーは熱いですから、気をつけてください。",
+          "translation": "因为咖啡很烫，所以请小心。",
+          "tip": "「ですから」表示原因。",
+          "question": {
+            "text": "为什么要小心？",
+            "options": [
+              "コーヒーが熱い",
+              "水が冷たい",
+              "店が遠い"
+            ],
+            "correct": "コーヒーが熱い"
+          }
+        },
+        {
+          "id": "reading-n5-49-letter-mother",
+          "category": "読解",
+          "title": "阅读题 49",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "来週、母に手紙を書きます。",
+          "translation": "下周给妈妈写信。",
+          "tip": "「母に」表示给妈妈。",
+          "question": {
+            "text": "给谁写信？",
+            "options": [
+              "母",
+              "先生",
+              "友だち"
+            ],
+            "correct": "母"
+          }
+        },
+        {
+          "id": "reading-n5-50-wait-station",
+          "category": "読解",
+          "title": "阅读题 50",
+          "goal": "只看日语文本，回答具体信息题。",
+          "steps": [
+            "读原文",
+            "看题目",
+            "答后看中文解析"
+          ],
+          "sample": "駅で友だちを待っています。",
+          "translation": "在车站等朋友。",
+          "tip": "「駅で」表示在车站。",
+          "question": {
+            "text": "在哪里等朋友？",
+            "options": [
+              "駅",
+              "図書館",
+              "家"
+            ],
+            "correct": "駅"
           }
         }
       ],

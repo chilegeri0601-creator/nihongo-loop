@@ -166,7 +166,7 @@ async function main() {
   const featureData = await fetch(`${BASE_URL}/data/features.json`);
   assert.equal(featureData.status, 200);
   const featureDataJson = await featureData.json();
-  assert.ok(featureDataJson.reading.levels.N5.length >= 6);
+  assert.ok(featureDataJson.reading.levels.N5.length >= 50);
   assert.equal(featureDataJson.reading.levels.N5[0].question.text, "谁在家？");
   assert.equal(featureDataJson.reading.levels.N5[0].question.correct, "お母さん");
   assert.deepEqual(featureDataJson.reading.levels.N5[0].question.options, ["お母さん", "お父さん", "わたし"]);
