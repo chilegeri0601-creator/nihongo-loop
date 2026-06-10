@@ -56,6 +56,10 @@ function vocabularyStudyHref(unitIndex = session.unitIndex) {
   return `vocabulary.html?level=${encodeURIComponent(session.level)}&unit=${unitIndex}&goal=${session.dailyGoal}`;
 }
 
+function vocabularyMistakesHref() {
+  return `vocabulary.html?level=${encodeURIComponent(session.level)}#vocabMistakes`;
+}
+
 function nextUnitPromptHtml() {
   if (!isVocabularyUnitTest()) return "";
   const nextIndex = nextVocabularyUnitIndex();
@@ -69,7 +73,7 @@ function nextUnitPromptHtml() {
         <div class="unit-complete-actions">
           ${
             isLastUnit
-              ? `<a class="btn btn-dark" href="vocabulary.html#vocabMistakes">回到单词页</a>`
+              ? `<a class="btn btn-dark" href="${vocabularyMistakesHref()}">回到单词页</a>`
               : `<a class="btn btn-dark" href="${vocabularyStudyHref(nextIndex)}">继续学习第 ${nextIndex + 1} 单元</a>`
           }
           <button class="btn btn-light" type="button" data-close-unit-prompt>先休息</button>
@@ -273,7 +277,7 @@ function draw() {
         <div class="hero-actions">
           <a class="btn btn-dark" href="${meta.study}">返回学习</a>
           ${isVocabularyUnitTest() && nextVocabularyUnitIndex() !== null ? `<a class="btn btn-red" href="${vocabularyStudyHref(nextVocabularyUnitIndex())}">继续第 ${nextVocabularyUnitIndex() + 1} 单元</a>` : ""}
-          ${isVocabularyUnitTest() ? `<a class="btn btn-light" href="vocabulary.html#vocabMistakes">查看错题本</a>` : ""}
+          ${isVocabularyUnitTest() ? `<a class="btn btn-light" href="${vocabularyMistakesHref()}">查看错题本</a>` : ""}
           <button class="btn btn-light" type="button" id="restartTest">再测一次</button>
         </div>
         ${nextUnitPromptHtml()}

@@ -502,6 +502,7 @@ async function handleApi(req, res, url) {
     const record = progress.vocabulary[wordId] || { attempts: 0, correct: 0, mastered: false };
     record.attempts += 1;
     if (correct) record.correct += 1;
+    if (!correct) record.mastered = false;
     if (correct && record.correct >= 2) record.mastered = true;
     record.lastAnsweredAt = new Date().toISOString();
     progress.vocabulary[wordId] = record;

@@ -155,6 +155,8 @@ async function main() {
   assert.match(testScriptText, /nextVocabularyUnitIndex/);
   assert.match(testScriptText, /继续学习第/);
   assert.match(testScriptText, /data-close-unit-prompt/);
+  assert.match(testScriptText, /vocabularyMistakesHref/);
+  assert.match(testScriptText, /level=\$\{encodeURIComponent\(session\.level\)\}#vocabMistakes/);
   assert.match(vocabScriptText, /params\.get\("unit"\)/);
 
   const featureData = await fetch(`${BASE_URL}/data/features.json`);
@@ -337,6 +339,15 @@ async function main() {
     body: JSON.stringify({ userId, wordId: firstWord.id, correct: true }),
   });
   assert.equal(vocabCorrect.record.mastered, true);
+
+  const masteredThenWrong = await request("/api/vocabulary/answer", {
+    method: "POST",
+    body: JSON.stringify({ userId, wordId: firstWord.id, correct: false }),
+  });
+  assert.equal(masteredThenWrong.record.mastered, false);
+  const vocabularyAfterMasteredWrong = await request(`/api/vocabulary?userId=${encodeURIComponent(userId)}&level=N2`);
+  const masteredWrongWordRecord = vocabularyAfterMasteredWrong.vocabulary.words.find((word) => word.id === firstWord.id);
+  assert.ok(masteredWrongWordRecord.attempts > masteredWrongWordRecord.correct);
 
   const vocabUnmastered = await request("/api/vocabulary/master", {
     method: "POST",
