@@ -289,7 +289,19 @@ async function main() {
 
   const n1Grammar = await request(`/api/grammar?userId=${encodeURIComponent(userId)}&level=N1`);
   assert.equal(n1Grammar.grammar.level, "N1");
-  assert.ok(n1Grammar.grammar.points.length >= 3);
+  assert.ok(n1Grammar.grammar.points.length >= 240);
+
+  for (const [level, minimum] of [
+    ["N4", 120],
+    ["N3", 170],
+    ["N2", 190],
+  ]) {
+    const levelGrammar = await request(`/api/grammar?userId=${encodeURIComponent(userId)}&level=${level}`);
+    assert.equal(levelGrammar.grammar.level, level);
+    assert.ok(levelGrammar.grammar.points.length >= minimum);
+    assert.ok(levelGrammar.grammar.points[0].example);
+    assert.ok(levelGrammar.grammar.points[0].miniQuestion.options.includes(levelGrammar.grammar.points[0].miniQuestion.correct));
+  }
 
   const grammarAnswer = await request("/api/grammar/answer", {
     method: "POST",
