@@ -206,7 +206,10 @@ async function loadFeatureQuestions() {
     audioText: testType === "listening" ? item.sample : "",
     correct: item.question.correct,
     options: item.question.options,
-    explanation: "答对了，这个训练点已完成。",
+    explanation:
+      testType === "reading"
+        ? `中文意思：${item.translation || ""} ${item.tip || ""}`
+        : "答对了，这个训练点已完成。",
     save: async (correct) => {
       if (correct) {
         savedState.features = savedState.features || {};
@@ -395,7 +398,11 @@ function draw() {
         correct,
       });
       button.classList.add(correct ? "correct" : "wrong");
-      document.querySelector("#testFeedback").textContent = correct ? question.explanation || "答对了。" : "答案不对，先记下错因，下一题继续。";
+      document.querySelector("#testFeedback").textContent = correct
+        ? question.explanation || "答对了。"
+        : question.explanation
+          ? `答案不对。${question.explanation}`
+          : "答案不对，先记下错因，下一题继续。";
       document.querySelectorAll("[data-test-answer]").forEach((item) => (item.disabled = true));
       if (correct) session.correct += 1;
       try {

@@ -2437,6 +2437,11 @@ h1 {
   width: fit-content;
 }
 
+.reading-passage .feature-sample {
+  font-size: clamp(24px, 4vw, 36px);
+  line-height: 1.75;
+}
+
 .feature-steps {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2492,18 +2497,20 @@ h1 {
 
 .feature-answer-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 10px;
 }
 
 .feature-answer-grid button {
-  min-height: 54px;
+  min-height: 58px;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: #f8fafc;
   color: #111827;
-  padding: 10px 12px;
+  padding: 12px 16px;
+  text-align: left;
   font-weight: 900;
+  line-height: 1.5;
 }
 
 .feature-answer-grid button:hover,
@@ -2521,6 +2528,25 @@ h1 {
 .feature-question-card.wrong {
   border-color: #fecaca;
   background: #fff7f7;
+}
+
+.feature-reading-explain {
+  display: grid;
+  gap: 8px;
+  border-radius: 16px;
+  background: var(--white);
+  padding: 14px;
+}
+
+.feature-reading-explain b {
+  color: #111827;
+  font-size: 15px;
+}
+
+.feature-reading-explain p {
+  margin: 0;
+  color: #334155;
+  line-height: 1.65;
 }
 
 #featureAnswerFeedback {

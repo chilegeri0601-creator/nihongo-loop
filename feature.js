@@ -74,10 +74,12 @@ function renderList() {
   return currentItems()
     .map((item, index) => {
       const done = Boolean(records()[item.id]?.completed);
+      const label = featureKey === "reading" ? "読解" : item.category;
+      const title = featureKey === "reading" ? `第 ${index + 1} 题` : item.title;
       return `
         <button type="button" class="feature-list-item ${index === session.index ? "current" : ""} ${done ? "completed" : ""}" data-feature-index="${index}">
-          <span>${escapeHtml(item.category)}</span>
-          <strong>${escapeHtml(item.title)}</strong>
+          <span>${escapeHtml(label)}</span>
+          <strong>${escapeHtml(title)}</strong>
           <em>${done ? "已完成" : "待训练"}</em>
         </button>
       `;
@@ -93,9 +95,16 @@ function renderFeatureQuestion(item, record) {
   if (featureKey !== "reading" || !item.question) return "";
   const answered = Boolean(record.answer);
   const correct = record.answer === item.question.correct;
+  const explanation = answered
+    ? `<div class="feature-reading-explain">
+        <b>${correct ? "回答正确" : "答案解析"}</b>
+        <p>中文意思：${escapeHtml(item.translation || "")}</p>
+        <p>${escapeHtml(item.tip || "")}</p>
+      </div>`
+    : "";
   return `
     <div class="feature-question-card ${answered ? (correct ? "correct" : "wrong") : ""}">
-      <span>阅读理解</span>
+      <span>読解問題</span>
       <h4>${escapeHtml(item.question.text)}</h4>
       <div class="feature-answer-grid">
         ${item.question.options
@@ -108,10 +117,11 @@ function renderFeatureQuestion(item, record) {
       <p id="featureAnswerFeedback">${
         answered
           ? correct
-            ? "答对了，这句话已经理解完成。"
-            : `还差一点。正确理解是：${escapeHtml(item.question.correct)}`
-          : "读完上面的日语句子，选择它讲了什么。"
+            ? "答对了。下面可以看中文意思和解析。"
+            : `还差一点。正确答案是：${escapeHtml(item.question.correct)}`
+          : "请只根据上面的日语文本选择正确答案。"
       }</p>
+      ${explanation}
       <div class="feature-question-actions">
         <button class="btn btn-light" type="button" data-feature-reset-answer>重新选择</button>
         <button class="btn btn-dark" type="button" data-feature-next ${correct ? "" : "disabled"}>下一句</button>
@@ -127,25 +137,26 @@ function draw() {
   const done = completedCount();
   const percent = Math.round((done / items.length) * 100);
   const record = records()[item.id] || {};
+  const readingMode = featureKey === "reading";
   document.querySelector("#featureTitle").textContent = `${session.level} ${featureData.name}训练`;
   document.querySelector("#featureContent").innerHTML = `
     <div class="feature-shell">
       <aside class="feature-sidebar">
         <div class="grammar-stats">
           <div><strong>${done}/${items.length}</strong><span>已完成</span></div>
-          <div><strong>${item.category}</strong><span>当前分类</span></div>
+          <div><strong>${readingMode ? "読解" : item.category}</strong><span>当前分类</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         <div class="feature-list">${renderList()}</div>
       </aside>
       <section class="feature-detail">
         <div class="grammar-detail-top">
-          <span>${session.level} · ${escapeHtml(item.category)}</span>
+          <span>${session.level} · ${escapeHtml(readingMode ? "読解" : item.category)}</span>
           <strong>${record.completed ? "已完成" : "训练中"}</strong>
         </div>
-        <h3>${escapeHtml(item.title)}</h3>
-        <p class="feature-goal">${escapeHtml(item.goal)}</p>
-        <div class="feature-sample-wrap">
+        <h3>${escapeHtml(readingMode ? `阅读题 ${session.index + 1}` : item.title)}</h3>
+        ${readingMode ? "" : `<p class="feature-goal">${escapeHtml(item.goal)}</p>`}
+        <div class="feature-sample-wrap ${readingMode ? "reading-passage" : ""}">
           ${
             featureKey === "listening"
               ? `<button class="sound-button" type="button" data-feature-audio="${escapeHtml(item.sample)}">播放音频</button>`
@@ -153,18 +164,22 @@ function draw() {
           }
           <div class="feature-sample">${escapeHtml(item.sample)}</div>
         </div>
-        <div class="feature-steps">
-          ${item.steps.map((step, index) => `<article><span>Step ${index + 1}</span><p>${escapeHtml(step)}</p></article>`).join("")}
-        </div>
-        <div class="grammar-example">
-          <b>学习提示</b>
-          <span>${escapeHtml(item.tip)}</span>
-        </div>
+        ${
+          readingMode
+            ? ""
+            : `<div class="feature-steps">
+                ${item.steps.map((step, index) => `<article><span>Step ${index + 1}</span><p>${escapeHtml(step)}</p></article>`).join("")}
+              </div>
+              <div class="grammar-example">
+                <b>学习提示</b>
+                <span>${escapeHtml(item.tip)}</span>
+              </div>`
+        }
         ${renderFeatureQuestion(item, record)}
         <div class="study-link-panel feature-test-cta">
           <span>学习模式</span>
-          <h4>这里只做内容训练</h4>
-          <p>读完材料和步骤后，进入独立测验页答题。</p>
+          <h4>${readingMode ? "像考试一样做阅读理解" : "这里只做内容训练"}</h4>
+          <p>${readingMode ? "先在这里完成短句理解，也可以进入独立测验页集中练习。" : "读完材料和步骤后，进入独立测验页答题。"}</p>
           <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">进入 ${session.level} ${escapeHtml(featureData.name)}测验</a>
         </div>
       </section>

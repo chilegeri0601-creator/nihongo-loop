@@ -130,6 +130,8 @@ async function main() {
   assert.match(featureScriptText, /data-feature-audio/);
   assert.match(featureScriptText, /data-feature-answer/);
   assert.match(featureScriptText, /feature-question-card/);
+  assert.match(featureScriptText, /feature-reading-explain/);
+  assert.match(featureScriptText, /reading-passage/);
   assert.match(featureScriptText, /featureAnswerFeedback/);
 
   const testPage = await fetch(`${BASE_URL}/test.html?type=vocabulary&level=N5`);
@@ -165,8 +167,9 @@ async function main() {
   assert.equal(featureData.status, 200);
   const featureDataJson = await featureData.json();
   assert.ok(featureDataJson.reading.levels.N5.length >= 6);
-  assert.equal(featureDataJson.reading.levels.N5[0].question.text, "这句话讲了什么？");
-  assert.equal(featureDataJson.reading.levels.N5[0].question.correct, "妈妈在家");
+  assert.equal(featureDataJson.reading.levels.N5[0].question.text, "本文の内容として正しいものはどれですか。");
+  assert.equal(featureDataJson.reading.levels.N5[0].question.correct, "お母さんはうちにいます。");
+  assert.equal(featureDataJson.reading.levels.N5[0].translation, "妈妈在家。");
   assert.ok(featureDataJson.listening.levels.N5.length >= 1);
   assert.ok(featureDataJson.exam.levels.N5.length >= 1);
 
