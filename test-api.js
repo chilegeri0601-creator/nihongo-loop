@@ -84,6 +84,8 @@ async function main() {
   assert.match(vocabScriptText, /data-known="false"/);
   assert.match(vocabScriptText, /vocab-unit-card-progress/);
   assert.match(vocabScriptText, /每个单元只显示进度/);
+  assert.match(vocabScriptText, /每单元学习几个词/);
+  assert.doesNotMatch(vocabScriptText, /\$\{renderWordList\(\)\}/);
   assert.match(vocabScriptText, /\/api\/vocabulary\/answer/);
   assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(word.kana || word.word)}"'));
   assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(item.kana || item.word)}"'));
@@ -129,6 +131,9 @@ async function main() {
   assert.match(featureScriptText, /speechSynthesis/);
   assert.match(featureScriptText, /data-feature-audio/);
   assert.match(featureScriptText, /data-feature-answer/);
+  assert.match(featureScriptText, /readingUnitSize/);
+  assert.match(featureScriptText, /data-reading-unit/);
+  assert.match(featureScriptText, /reading-unit-panel/);
   assert.match(featureScriptText, /feature-question-card/);
   assert.match(featureScriptText, /feature-reading-explain/);
   assert.match(featureScriptText, /reading-passage/);

@@ -397,8 +397,8 @@ function renderStudyPlan() {
   return `
     <section class="vocab-plan-panel" aria-label="${session.level} 单词学习计划">
       <div class="vocab-plan-summary">
-        <span>${session.level} 学习计划</span>
-        <h3>第 ${activeUnit + 1} 单元</h3>
+        <span>${session.level} 学习计划 · 每单元 ${session.dailyGoal} 词</span>
+        <h3>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</h3>
         <p>${range.viewedComplete ? "本单元已经看完啦。认识的会记录为已掌握，不认识的会进入待复习和错题本。" : `今天学习 ${range.start + 1}-${range.end} 号词。看词卡，点“认识 / 不认识”，再用“下一个”推进。`}</p>
       </div>
       <div class="vocab-plan-metrics">
@@ -413,13 +413,13 @@ function renderStudyPlan() {
         <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">测第 ${activeUnit + 1} 单元</a>
       </div>
       <div class="vocab-goal-panel">
-        <span>每天背几个</span>
+        <span>每单元学习几个词</span>
         <div class="vocab-goal-buttons">
           ${dailyGoalOptions
             .map(
               (goal) => `
                 <button type="button" data-goal="${goal}" class="${goal === session.dailyGoal ? "active" : ""}">
-                  ${goal} 词
+                  ${goal} 词/单元
                 </button>
               `,
             )
@@ -523,7 +523,6 @@ function draw() {
         </div>
       </aside>
       ${renderCurrentUnitQueue(range, activeUnit)}
-      ${renderWordList()}
       ${renderMistakeBook()}
     </div>
   `;

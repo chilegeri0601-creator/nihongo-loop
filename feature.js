@@ -9,6 +9,7 @@ let session = {
   level: savedState[`${featureKey}Level`] || savedState.level || "N5",
   index: 0,
 };
+const readingUnitSize = 5;
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -70,9 +71,49 @@ function currentItem() {
   return items[Math.min(session.index, Math.max(0, items.length - 1))];
 }
 
+function readingUnitCount() {
+  return Math.max(1, Math.ceil(currentItems().length / readingUnitSize));
+}
+
+function currentReadingUnitIndex() {
+  return Math.floor(session.index / readingUnitSize);
+}
+
+function readingUnitRange(unitIndex = currentReadingUnitIndex()) {
+  const items = currentItems();
+  const start = unitIndex * readingUnitSize;
+  const end = Math.min(start + readingUnitSize, items.length);
+  return { start, end, items: items.slice(start, end) };
+}
+
+function renderReadingUnits() {
+  if (featureKey !== "reading") return "";
+  const activeUnit = currentReadingUnitIndex();
+  return `
+    <div class="reading-unit-panel">
+      <span>阅读单元</span>
+      <strong>每单元 ${readingUnitSize} 题</strong>
+      <div class="reading-unit-tabs">
+        ${Array.from({ length: readingUnitCount() }, (_, unitIndex) => {
+          const range = readingUnitRange(unitIndex);
+          const done = range.items.filter((item) => records()[item.id]?.completed).length;
+          return `
+            <button type="button" class="${unitIndex === activeUnit ? "active" : ""}" data-reading-unit="${unitIndex}">
+              <b>${unitIndex + 1}</b>
+              <em>${done}/${range.items.length}</em>
+            </button>
+          `;
+        }).join("")}
+      </div>
+    </div>
+  `;
+}
+
 function renderList() {
-  return currentItems()
-    .map((item, index) => {
+  const range = featureKey === "reading" ? readingUnitRange() : { start: 0, items: currentItems() };
+  return range.items
+    .map((item, offset) => {
+      const index = range.start + offset;
       const done = Boolean(records()[item.id]?.completed);
       const label = featureKey === "reading" ? "読解" : item.category;
       const title = featureKey === "reading" ? `第 ${index + 1} 题` : item.title;
@@ -124,7 +165,7 @@ function renderFeatureQuestion(item, record) {
       ${explanation}
       <div class="feature-question-actions">
         <button class="btn btn-light" type="button" data-feature-reset-answer>重新选择</button>
-        <button class="btn btn-dark" type="button" data-feature-next ${correct ? "" : "disabled"}>下一句</button>
+        <button class="btn btn-dark" type="button" data-feature-next ${correct ? "" : "disabled"}>下一题</button>
       </div>
     </div>
   `;
@@ -138,15 +179,18 @@ function draw() {
   const percent = Math.round((done / items.length) * 100);
   const record = records()[item.id] || {};
   const readingMode = featureKey === "reading";
+  const readingRange = readingMode ? readingUnitRange() : null;
   document.querySelector("#featureTitle").textContent = `${session.level} ${featureData.name}训练`;
   document.querySelector("#featureContent").innerHTML = `
     <div class="feature-shell">
       <aside class="feature-sidebar">
         <div class="grammar-stats">
           <div><strong>${done}/${items.length}</strong><span>已完成</span></div>
-          <div><strong>${readingMode ? "読解" : item.category}</strong><span>当前分类</span></div>
+          <div><strong>${readingMode ? `${currentReadingUnitIndex() + 1}/${readingUnitCount()}` : item.category}</strong><span>${readingMode ? "当前单元" : "当前分类"}</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
+        ${readingMode ? renderReadingUnits() : ""}
+        ${readingMode ? `<div class="reading-unit-note">当前单元：第 ${readingRange.start + 1}-${readingRange.end} 题</div>` : ""}
         <div class="feature-list">${renderList()}</div>
       </aside>
       <section class="feature-detail">
@@ -192,6 +236,12 @@ function bind() {
   document.querySelectorAll("[data-feature-index]").forEach((button) => {
     button.addEventListener("click", () => {
       session.index = Number(button.dataset.featureIndex);
+      draw();
+    });
+  });
+  document.querySelectorAll("[data-reading-unit]").forEach((button) => {
+    button.addEventListener("click", () => {
+      session.index = Number(button.dataset.readingUnit) * readingUnitSize;
       draw();
     });
   });
