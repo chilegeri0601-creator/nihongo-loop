@@ -333,37 +333,41 @@ function renderWordList() {
 
 function renderMistakeBook() {
   const mistakeWords = session.words.filter((word) => wrongCount(word) > 0 && !word.mastered);
+  const shouldOpen = window.location.hash === "#vocabMistakes";
   return `
     <section class="vocab-list-panel vocab-mistake-panel" id="vocabMistakes" aria-label="${session.level} 单词错题本">
-      <div class="vocab-list-head">
-        <div>
-          <h4>${session.level} 错题本</h4>
-          <p>测验答错的单词会自动进入这里。复习后标记掌握，或连续答对后会离开错题本。</p>
-        </div>
-        <strong>${mistakeWords.length} 词</strong>
-      </div>
       ${
         mistakeWords.length
-          ? `<div class="vocab-mistake-grid">
-              ${mistakeWords
-                .map((item) => {
-                  const index = session.words.findIndex((word) => word.id === item.id);
-                  return `
-                    <article class="vocab-mistake-card">
-                      <button type="button" class="vocab-mistake-main" data-index="${index}">
-                        <span>${escapeHtml(item.word)}</span>
-                        <em>${escapeHtml(item.kana)}</em>
-                        <b>${escapeHtml(item.meaning)}</b>
-                      </button>
-                      <div class="vocab-mistake-meta">
-                        <small>错 ${wrongCount(item)} 次 · 答对 ${Number(item.correct || 0)} 次</small>
-                        <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}">听</button>
-                      </div>
-                    </article>
-                  `;
-                })
-                .join("")}
-            </div>`
+          ? `<details class="vocab-mistake-details" ${shouldOpen ? "open" : ""}>
+              <summary class="vocab-mistake-summary">
+                <div>
+                  <span>${session.level} 错题本</span>
+                  <strong>${mistakeWords.length} 个待复习单词</strong>
+                  <p>默认收起，点开后查看错题。复习后标记掌握，或连续答对后会离开错题本。</p>
+                </div>
+                <em><b class="open-label">展开错题本</b><b class="close-label">收起错题本</b></em>
+              </summary>
+              <div class="vocab-mistake-grid">
+                ${mistakeWords
+                  .map((item) => {
+                    const index = session.words.findIndex((word) => word.id === item.id);
+                    return `
+                      <article class="vocab-mistake-card">
+                        <button type="button" class="vocab-mistake-main" data-index="${index}">
+                          <span>${escapeHtml(item.word)}</span>
+                          <em>${escapeHtml(item.kana)}</em>
+                          <b>${escapeHtml(item.meaning)}</b>
+                        </button>
+                        <div class="vocab-mistake-meta">
+                          <small>错 ${wrongCount(item)} 次 · 答对 ${Number(item.correct || 0)} 次</small>
+                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}">听</button>
+                        </div>
+                      </article>
+                    `;
+                  })
+                  .join("")}
+              </div>
+            </details>`
           : `<div class="vocab-empty-state">
               <strong>当前没有错题</strong>
               <span>去做一次 ${session.level} 单词测验，答错的词会自动收进这里。</span>

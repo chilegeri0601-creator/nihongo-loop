@@ -1943,10 +1943,78 @@ h1 {
   background: #fff7f7;
 }
 
+.vocab-mistake-details {
+  display: grid;
+  gap: 14px;
+}
+
+.vocab-mistake-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  cursor: pointer;
+  list-style: none;
+  border: 1px solid #fecaca;
+  border-radius: 18px;
+  background: var(--white);
+  padding: 18px;
+}
+
+.vocab-mistake-summary::-webkit-details-marker {
+  display: none;
+}
+
+.vocab-mistake-summary div {
+  display: grid;
+  gap: 5px;
+}
+
+.vocab-mistake-summary span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.vocab-mistake-summary strong {
+  color: #111827;
+  font-size: 22px;
+}
+
+.vocab-mistake-summary p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.vocab-mistake-summary em {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #111827;
+  color: var(--white);
+  padding: 10px 14px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.vocab-mistake-summary .close-label {
+  display: none;
+}
+
+.vocab-mistake-details[open] .open-label {
+  display: none;
+}
+
+.vocab-mistake-details[open] .close-label {
+  display: inline;
+}
+
 .vocab-mistake-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
+  margin-top: 14px;
 }
 
 .vocab-mistake-card {
@@ -3879,6 +3947,15 @@ h1 {
 
   .vocab-list-head {
     flex-direction: column;
+  }
+
+  .vocab-mistake-summary {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .vocab-mistake-summary em {
+    text-align: center;
   }
 
   .vocab-row-main {

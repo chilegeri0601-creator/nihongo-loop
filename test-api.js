@@ -75,6 +75,9 @@ async function main() {
   assert.doesNotMatch(vocabScriptText, /data-answer/);
   assert.match(vocabScriptText, /vocab-list-panel/);
   assert.match(vocabScriptText, /vocabMistakes/);
+  assert.match(vocabScriptText, /vocab-mistake-details/);
+  assert.match(vocabScriptText, /展开错题本/);
+  assert.match(vocabScriptText, /window\.location\.hash === "#vocabMistakes"/);
   assert.match(vocabScriptText, /wrongCount/);
   assert.match(vocabScriptText, /unitTestHref/);
   assert.match(vocabScriptText, /学习完啦/);
