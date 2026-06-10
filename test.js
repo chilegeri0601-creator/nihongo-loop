@@ -6,6 +6,7 @@ const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" :
 const toast = document.querySelector("#toast");
 const unitCompletePromptKey = `nihongoLoopUnitPrompt:${window.location.search}`;
 let toastTimer;
+let resumeNoticeShown = false;
 
 const typeMeta = {
   vocabulary: { name: "单词", tag: "単語 · Vocabulary", study: "vocabulary.html", storage: "vocabulary" },
@@ -33,6 +34,63 @@ if (!Number.isInteger(session.unitIndex) || session.unitIndex < 0) session.unitI
 
 function isVocabularyUnitTest() {
   return testType === "vocabulary" && session.unitIndex !== null;
+}
+
+function testProgressKey() {
+  const unitPart = isVocabularyUnitTest() ? `unit-${session.unitIndex}-goal-${session.dailyGoal}` : "full";
+  return `nihongoLoopTestProgress:${currentUserId}:${testType}:${session.level}:${unitPart}`;
+}
+
+function questionIds() {
+  return session.questions.map((question) => question.id).join("|");
+}
+
+function clearTestProgress() {
+  localStorage.removeItem(testProgressKey());
+}
+
+function persistTestProgress() {
+  if (!session.questions.length || session.index >= session.questions.length) {
+    clearTestProgress();
+    return;
+  }
+  localStorage.setItem(
+    testProgressKey(),
+    JSON.stringify({
+      index: session.index,
+      correct: session.correct,
+      answers: session.answers,
+      questionIds: questionIds(),
+      updatedAt: new Date().toISOString(),
+    }),
+  );
+}
+
+function restoreTestProgress() {
+  try {
+    const raw = localStorage.getItem(testProgressKey());
+    if (!raw) return false;
+    const progress = JSON.parse(raw);
+    const sameQuestions = progress.questionIds === questionIds();
+    const index = Number(progress.index || 0);
+    if (!sameQuestions || index <= 0 || index >= session.questions.length) {
+      clearTestProgress();
+      return false;
+    }
+    session.index = index;
+    session.correct = Number(progress.correct || 0);
+    session.answers = Array.isArray(progress.answers) ? progress.answers : [];
+    return true;
+  } catch {
+    clearTestProgress();
+    return false;
+  }
+}
+
+function advanceAfterAnswer(delay = 700) {
+  session.index += 1;
+  persistTestProgress();
+  window.setTimeout(draw, delay);
 }
 
 function vocabularyUnitRange(words) {
@@ -249,6 +307,7 @@ function draw() {
   document.querySelector("#testCounter").textContent = `${Math.min(session.index + 1, total)} / ${total}`;
   document.querySelector("#testProgress").style.width = `${percent}%`;
   if (!question) {
+    clearTestProgress();
     const missed = session.answers.filter((item) => !item.correct);
     const learned = session.answers.filter((item) => item.correct);
     const accuracy = total ? Math.round((session.correct / total) * 100) : 0;
@@ -286,7 +345,10 @@ function draw() {
         ${nextUnitPromptHtml()}
       </div>
     `;
-    document.querySelector("#restartTest").addEventListener("click", () => setLevel(session.level));
+    document.querySelector("#restartTest").addEventListener("click", () => {
+      clearTestProgress();
+      setLevel(session.level, { reset: true });
+    });
     document.querySelector("[data-close-unit-prompt]")?.addEventListener("click", () => {
       document.querySelector(".unit-complete-prompt")?.remove();
       sessionStorage.setItem(unitCompletePromptKey, "closed");
@@ -349,15 +411,10 @@ function draw() {
       form.querySelector("button").disabled = true;
       document.querySelector("#testFeedback").textContent = correct ? `答对了。${question.explanation}` : `还差一点。${question.explanation}`;
       if (correct) session.correct += 1;
-      try {
-        await question.save(correct);
-      } catch {
+      advanceAfterAnswer(correct ? 850 : 1300);
+      question.save(correct).catch(() => {
         // Keep the test moving even if backend is unavailable.
-      }
-      window.setTimeout(() => {
-        session.index += 1;
-        draw();
-      }, correct ? 850 : 1300);
+      });
     });
     return;
   }
@@ -405,30 +462,31 @@ function draw() {
           : "答案不对，先记下错因，下一题继续。";
       document.querySelectorAll("[data-test-answer]").forEach((item) => (item.disabled = true));
       if (correct) session.correct += 1;
-      try {
-        await question.save(correct);
-      } catch {
+      advanceAfterAnswer(700);
+      question.save(correct).catch(() => {
         // Keep the test moving even if backend is unavailable.
-      }
-      window.setTimeout(() => {
-        session.index += 1;
-        draw();
-      }, 700);
+      });
     });
   });
 }
 
-async function setLevel(level) {
+async function setLevel(level, options = {}) {
   session.level = level;
   session.index = 0;
   session.correct = 0;
   session.answers = [];
+  resumeNoticeShown = false;
+  if (options.reset) clearTestProgress();
   document.querySelectorAll("[data-test-level]").forEach((button) => {
     button.classList.toggle("active", button.dataset.testLevel === level);
   });
   document.querySelector("#testContent").innerHTML = `<div class="vocab-loading"><strong>正在载入 ${level} 测验</strong><span>准备题目中。</span></div>`;
   saveLevel();
   session.questions = await loadQuestions();
+  if (!options.reset && restoreTestProgress() && !resumeNoticeShown) {
+    resumeNoticeShown = true;
+    showToast(`已从第 ${session.index + 1} 题继续`);
+  }
   draw();
 }
 

@@ -158,6 +158,11 @@ async function main() {
   assert.match(testScriptText, /data-spelling-answer/);
   assert.match(testScriptText, /spelling-quiz/);
   assert.match(testScriptText, /acceptedAnswers/);
+  assert.match(testScriptText, /nihongoLoopTestProgress/);
+  assert.match(testScriptText, /restoreTestProgress/);
+  assert.match(testScriptText, /persistTestProgress/);
+  assert.match(testScriptText, /clearTestProgress/);
+  assert.match(testScriptText, /advanceAfterAnswer/);
   assert.match(testScriptText, /\/api\/vocabulary\/answer/);
   assert.match(testScriptText, /\/api\/grammar\/answer/);
   assert.match(testScriptText, /data\/features\.json/);
