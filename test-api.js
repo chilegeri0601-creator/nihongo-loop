@@ -184,7 +184,39 @@ async function main() {
   assert.equal(featureDataJson.reading.levels.N5[0].question.correct, "お母さん");
   assert.deepEqual(featureDataJson.reading.levels.N5[0].question.options, ["お母さん", "お父さん", "わたし"]);
   assert.equal(featureDataJson.reading.levels.N5[0].translation, "妈妈在家。");
-  assert.ok(featureDataJson.listening.levels.N5.length >= 1);
+  for (const level of ["N4", "N3", "N2", "N1"]) {
+    const readingItems = featureDataJson.reading.levels[level];
+    assert.ok(readingItems.length >= 50, `${level} reading should have at least 50 items`);
+    const brokenItems = readingItems.filter((item) => {
+      return (
+        !item.id ||
+        !item.sample ||
+        !item.translation ||
+        !item.tip ||
+        !item.question?.text ||
+        !Array.isArray(item.question.options) ||
+        item.question.options.length !== 3 ||
+        !item.question.options.includes(item.question.correct)
+      );
+    });
+    assert.equal(brokenItems.length, 0, `${level} reading items should have complete questions`);
+  }
+  for (const level of ["N5", "N4", "N3", "N2", "N1"]) {
+    const listeningItems = featureDataJson.listening.levels[level];
+    assert.ok(listeningItems.length >= 50, `${level} listening should have at least 50 items`);
+    const brokenItems = listeningItems.filter((item) => {
+      return (
+        !item.id ||
+        !item.sample ||
+        !item.tip ||
+        !item.question?.text ||
+        !Array.isArray(item.question.options) ||
+        item.question.options.length !== 3 ||
+        !item.question.options.includes(item.question.correct)
+      );
+    });
+    assert.equal(brokenItems.length, 0, `${level} listening items should have complete questions`);
+  }
   assert.ok(featureDataJson.exam.levels.N5.length >= 1);
 
   const registered = await request("/api/auth/register", {
