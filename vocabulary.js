@@ -7,6 +7,7 @@ const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
 const params = new URLSearchParams(window.location.search);
 let initialUnitApplied = false;
+let isEditingPlan = false;
 
 const localVocabularyByLevel = {
   N5: [
@@ -44,18 +45,79 @@ const session = {
   words: [],
   stats: { total: 0, mastered: 0, remaining: 0 },
   question: null,
-  dailyGoal: Number(params.get("goal") || savedState.vocabularyDailyGoal || 30),
+  dailyGoal: 0,
 };
 
 const dailyGoalOptions = [10, 20, 30, 50];
 
 function normalizeDailyGoal(value) {
-  const goal = Number(value || 30);
+  const goal = Number(value || 0);
   return dailyGoalOptions.includes(goal) ? goal : 30;
 }
 
+function ensureVocabularyPlanState() {
+  savedState.vocabularyPlans = savedState.vocabularyPlans || {};
+  savedState.vocabularyResume = savedState.vocabularyResume || {};
+  savedState.vocabularyResume[currentUserId] = savedState.vocabularyResume[currentUserId] || {};
+}
+
+function currentPlan() {
+  ensureVocabularyPlanState();
+  return savedState.vocabularyPlans[currentUserId] || null;
+}
+
+function hasFixedPlan() {
+  return Boolean(currentPlan()?.dailyGoal);
+}
+
+function planDailyGoal() {
+  return normalizeDailyGoal(currentPlan()?.dailyGoal);
+}
+
+function saveVocabularyPlan(goal) {
+  ensureVocabularyPlanState();
+  savedState.vocabularyPlans[currentUserId] = {
+    dailyGoal: normalizeDailyGoal(goal),
+    fixedAt: new Date().toISOString(),
+  };
+  savedState.vocabularyDailyGoal = savedState.vocabularyPlans[currentUserId].dailyGoal;
+  session.dailyGoal = savedState.vocabularyPlans[currentUserId].dailyGoal;
+  saveLocalState();
+}
+
+function resumeKey(level = session.level) {
+  return `${level}`;
+}
+
+function currentResume() {
+  ensureVocabularyPlanState();
+  return savedState.vocabularyResume[currentUserId][resumeKey()] || null;
+}
+
+function saveResume() {
+  if (!hasFixedPlan() || !session.words.length) return;
+  ensureVocabularyPlanState();
+  savedState.vocabularyResume[currentUserId][resumeKey()] = {
+    index: Math.min(Math.max(0, session.index), Math.max(0, session.words.length - 1)),
+    dailyGoal: session.dailyGoal,
+    updatedAt: new Date().toISOString(),
+  };
+  saveLocalState();
+}
+
+function applyResumeIndex() {
+  const requestedUnit = Number(params.get("unit"));
+  if (Number.isInteger(requestedUnit) && requestedUnit >= 0) {
+    session.index = Math.min(requestedUnit * session.dailyGoal, Math.max(0, session.words.length - 1));
+    return;
+  }
+  const resume = currentResume();
+  const resumeIndex = Number(resume?.index);
+  session.index = Number.isInteger(resumeIndex) ? Math.min(Math.max(0, resumeIndex), Math.max(0, session.words.length - 1)) : 0;
+}
+
 function unitCount() {
-  return Math.max(1, Math.ceil(session.words.length / session.dailyGoal));
+  return Math.max(1, Math.ceil(session.words.length / Math.max(1, session.dailyGoal)));
 }
 
 function currentUnitIndex() {
@@ -63,8 +125,9 @@ function currentUnitIndex() {
 }
 
 function unitRange(unitIndex = currentUnitIndex()) {
-  const start = unitIndex * session.dailyGoal;
-  const end = Math.min(start + session.dailyGoal, session.words.length);
+  const size = Math.max(1, session.dailyGoal);
+  const start = unitIndex * size;
+  const end = Math.min(start + size, session.words.length);
   return { start, end, words: session.words.slice(start, end) };
 }
 
@@ -74,6 +137,32 @@ function unitMasteredCount(unitIndex = currentUnitIndex()) {
 
 function unitKey(unitIndex = currentUnitIndex()) {
   return `${session.level}-${session.dailyGoal}-${unitIndex + 1}`;
+}
+
+function renderPlanSetup() {
+  const suggested = normalizeDailyGoal(savedState.vocabularyDailyGoal || 20);
+  return `
+    <section class="vocab-plan-start" aria-label="选择单词学习计划">
+      <div class="vocab-plan-start-copy">
+        <span>${session.level} 单词计划</span>
+        <h3>先固定每单元学习几个词</h3>
+        <p>每个账号只需要选一次。选好后，页面会固定按这个数量显示单词，并自动从你上次停下的位置继续。</p>
+      </div>
+      <div class="vocab-plan-choice-grid">
+        ${dailyGoalOptions
+          .map(
+            (goal) => `
+              <button type="button" class="${goal === suggested ? "active" : ""}" data-set-fixed-goal="${goal}">
+                <strong>${goal}</strong>
+                <span>词/单元</span>
+              </button>
+            `,
+          )
+          .join("")}
+      </div>
+      <p class="vocab-plan-start-note">之后想调整，可以在单词页点击“修改学习计划”。</p>
+    </section>
+  `;
 }
 
 function unitViewedIds(unitIndex = currentUnitIndex()) {
@@ -191,7 +280,7 @@ async function apiRequest(path, options = {}) {
 
 function saveLocalState() {
   savedState.level = session.level;
-  savedState.vocabularyDailyGoal = session.dailyGoal;
+  if (session.dailyGoal) savedState.vocabularyDailyGoal = session.dailyGoal;
   localStorage.setItem("nihongoLoopState", JSON.stringify(savedState));
 }
 
@@ -251,20 +340,27 @@ function updateTestLink() {
 
 async function setLevel(level) {
   session.level = level;
-  session.dailyGoal = normalizeDailyGoal(session.dailyGoal);
+  session.dailyGoal = hasFixedPlan() ? planDailyGoal() : 0;
   resetQuestion();
   updateTestLink();
   document.querySelectorAll("[data-vocab-level]").forEach((button) => button.classList.toggle("active", button.dataset.vocabLevel === level));
   const payload = await loadVocabulary(level);
   session.words = payload.words;
   session.stats = payload.stats;
+  if (!hasFixedPlan()) {
+    initialUnitApplied = true;
+    session.index = 0;
+    saveLocalState();
+    draw();
+    return;
+  }
   if (!initialUnitApplied) {
-    const requestedUnit = Number(params.get("unit"));
-    const unitIndex = Number.isInteger(requestedUnit) && requestedUnit >= 0 ? requestedUnit : 0;
-    session.index = Math.min(unitIndex * session.dailyGoal, Math.max(0, session.words.length - 1));
+    applyResumeIndex();
     initialUnitApplied = true;
   } else {
-    session.index = 0;
+    const resume = currentResume();
+    const resumeIndex = Number(resume?.index);
+    session.index = Number.isInteger(resumeIndex) ? Math.min(Math.max(0, resumeIndex), Math.max(0, session.words.length - 1)) : 0;
   }
   saveLocalState();
   draw();
@@ -416,19 +512,28 @@ function renderStudyPlan() {
         <div><strong>${percent}%</strong><span>总进度</span></div>
         <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">测第 ${activeUnit + 1} 单元</a>
       </div>
-      <div class="vocab-goal-panel">
-        <span>每单元学习几个词</span>
-        <div class="vocab-goal-buttons">
-          ${dailyGoalOptions
-            .map(
-              (goal) => `
-                <button type="button" data-goal="${goal}" class="${goal === session.dailyGoal ? "active" : ""}">
-                  ${goal} 词/单元
-                </button>
-              `,
-            )
-            .join("")}
+      <div class="vocab-goal-panel ${isEditingPlan ? "editing" : ""}">
+        <div>
+          <span>账号学习计划已固定</span>
+          <strong>每单元 ${session.dailyGoal} 词</strong>
+          <p>下次打开会继续第 ${activeUnit + 1} 单元第 ${session.index - range.start + 1} 个词。</p>
         </div>
+        <button class="btn btn-light" type="button" data-edit-plan>${isEditingPlan ? "收起修改" : "修改学习计划"}</button>
+        ${
+          isEditingPlan
+            ? `<div class="vocab-goal-buttons">
+                ${dailyGoalOptions
+                  .map(
+                    (goal) => `
+                      <button type="button" data-goal="${goal}" class="${goal === session.dailyGoal ? "active" : ""}">
+                        ${goal} 词/单元
+                      </button>
+                    `,
+                  )
+                  .join("")}
+              </div>`
+            : ""
+        }
       </div>
       <div class="vocab-unit-tabs" aria-label="选择学习单元">
         ${units
@@ -476,11 +581,17 @@ function renderCurrentUnitQueue(range, activeUnit) {
 }
 
 function draw() {
+  if (!hasFixedPlan()) {
+    document.querySelector("#vocabPageContent").innerHTML = renderPlanSetup();
+    bind();
+    return;
+  }
   const word = session.words[session.index];
   if (!word) return;
   const percent = session.stats.total ? Math.round((session.stats.mastered / session.stats.total) * 100) : 0;
   const activeUnit = currentUnitIndex();
   markWordViewed(activeUnit, word);
+  saveResume();
   const range = unitStudyStats(activeUnit);
   const unitPosition = session.index - range.start + 1;
   const unitProgress = range.words.length ? Math.round((unitPosition / range.words.length) * 100) : 0;
@@ -618,12 +729,26 @@ function moveNextWord() {
   if (targetWasLast && maybePromptUnitFinished(targetUnit)) return;
   session.index = (session.index + 1) % session.words.length;
   resetQuestion();
+  saveResume();
   draw();
 }
 
 function bind() {
   const word = session.words[session.index];
-  document.querySelector("[data-next]").addEventListener("click", moveNextWord);
+  document.querySelector("[data-next]")?.addEventListener("click", moveNextWord);
+  document.querySelectorAll("[data-set-fixed-goal]").forEach((button) => {
+    button.addEventListener("click", () => {
+      saveVocabularyPlan(button.dataset.setFixedGoal);
+      isEditingPlan = false;
+      applyResumeIndex();
+      showToast(`已固定为每单元 ${session.dailyGoal} 个词`);
+      draw();
+    });
+  });
+  document.querySelector("[data-edit-plan]")?.addEventListener("click", () => {
+    isEditingPlan = !isEditingPlan;
+    draw();
+  });
   document.querySelectorAll("[data-known]").forEach((button) => {
     button.addEventListener("click", () => {
       if (button.dataset.known === "true") {
@@ -637,15 +762,24 @@ function bind() {
     button.addEventListener("click", () => {
       session.index = Number(button.dataset.index);
       resetQuestion();
+      saveResume();
       draw();
     });
   });
   document.querySelectorAll("[data-goal]").forEach((button) => {
     button.addEventListener("click", () => {
-      const previousUnit = currentUnitIndex();
-      session.dailyGoal = normalizeDailyGoal(button.dataset.goal);
-      session.index = Math.min(previousUnit * session.dailyGoal, Math.max(0, session.words.length - 1));
-      saveLocalState();
+      const nextGoal = normalizeDailyGoal(button.dataset.goal);
+      if (nextGoal === session.dailyGoal) {
+        isEditingPlan = false;
+        draw();
+        return;
+      }
+      const confirmed = window.confirm(`确定把这个账号改成每单元 ${nextGoal} 个词吗？单元会重新按新数量分组，但会尽量停在当前单词附近。`);
+      if (!confirmed) return;
+      saveVocabularyPlan(nextGoal);
+      session.index = Math.min(session.index, Math.max(0, session.words.length - 1));
+      isEditingPlan = false;
+      saveResume();
       draw();
     });
   });
@@ -653,6 +787,7 @@ function bind() {
     button.addEventListener("click", () => {
       session.index = Math.min(Number(button.dataset.unit) * session.dailyGoal, Math.max(0, session.words.length - 1));
       resetQuestion();
+      saveResume();
       draw();
     });
   });

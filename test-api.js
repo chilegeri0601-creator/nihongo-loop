@@ -88,6 +88,11 @@ async function main() {
   assert.match(vocabScriptText, /vocab-unit-card-progress/);
   assert.match(vocabScriptText, /每个单元只显示进度/);
   assert.match(vocabScriptText, /每单元学习几个词/);
+  assert.match(vocabScriptText, /vocabularyPlans/);
+  assert.match(vocabScriptText, /vocabularyResume/);
+  assert.match(vocabScriptText, /data-set-fixed-goal/);
+  assert.match(vocabScriptText, /修改学习计划/);
+  assert.match(vocabScriptText, /saveResume/);
   assert.doesNotMatch(vocabScriptText, /\$\{renderWordList\(\)\}/);
   assert.match(vocabScriptText, /\/api\/vocabulary\/answer/);
   assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(word.kana || word.word)}"'));

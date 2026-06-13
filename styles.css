@@ -1274,6 +1274,74 @@ h1 {
   padding: 22px;
 }
 
+.vocab-plan-start {
+  display: grid;
+  gap: 18px;
+  width: min(760px, 100%);
+  margin: 0 auto;
+  border-radius: 24px;
+  background: #f8fafc;
+  padding: 28px;
+}
+
+.vocab-plan-start-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.vocab-plan-start-copy span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.vocab-plan-start-copy h3 {
+  margin: 0;
+  color: #111827;
+  font-size: clamp(28px, 4vw, 42px);
+}
+
+.vocab-plan-start-copy p,
+.vocab-plan-start-note,
+.vocab-goal-panel p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.vocab-plan-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.vocab-plan-choice-grid button {
+  display: grid;
+  gap: 4px;
+  min-height: 96px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+  color: #111827;
+  place-items: center;
+  font-weight: 900;
+}
+
+.vocab-plan-choice-grid button.active,
+.vocab-plan-choice-grid button:hover {
+  border-color: #111827;
+  background: #111827;
+  color: var(--white);
+}
+
+.vocab-plan-choice-grid strong {
+  font-size: 30px;
+}
+
+.vocab-plan-choice-grid span {
+  font-size: 12px;
+}
+
 .vocab-plan-summary {
   display: grid;
   align-content: center;
@@ -1369,6 +1437,25 @@ h1 {
   gap: 16px;
   border-top: 1px solid var(--line);
   padding-top: 16px;
+}
+
+.vocab-goal-panel > div:first-child {
+  display: grid;
+  gap: 5px;
+}
+
+.vocab-goal-panel strong {
+  color: #111827;
+  font-size: 18px;
+}
+
+.vocab-goal-panel.editing {
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.vocab-goal-panel.editing .vocab-goal-buttons {
+  flex-basis: 100%;
 }
 
 .vocab-goal-buttons {
@@ -4032,10 +4119,15 @@ h1 {
   }
 
   .vocab-plan-metrics,
+  .vocab-plan-choice-grid,
   .vocab-goal-panel,
   .vocab-unit-summary,
   .test-result-metrics {
     grid-template-columns: 1fr;
+  }
+
+  .vocab-plan-choice-grid {
+    grid-template-columns: 1fr 1fr;
   }
 
   .vocab-goal-panel {
