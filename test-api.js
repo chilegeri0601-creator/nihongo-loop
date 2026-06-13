@@ -42,6 +42,15 @@ async function main() {
   assert.match(htmlText, /listening\.html/);
   assert.doesNotMatch(htmlText, /exam\.html/);
 
+  const dashboardScript = await fetch(`${BASE_URL}/script.js`);
+  assert.equal(dashboardScript.status, 200);
+  const dashboardScriptText = await dashboardScript.text();
+  assert.match(dashboardScriptText, /loadContentIndex/);
+  assert.match(dashboardScriptText, /progressSnapshot/);
+  assert.match(dashboardScriptText, /contentIndex/);
+  assert.match(dashboardScriptText, /featureRecords/);
+  assert.doesNotMatch(dashboardScriptText, /progress:\s*\[/);
+
   const loginPage = await fetch(`${BASE_URL}/login.html`);
   assert.equal(loginPage.status, 200);
   const loginPageText = await loginPage.text();
@@ -118,6 +127,9 @@ async function main() {
   assert.match(grammarScriptText, /data-grammar-picker/);
   assert.match(grammarScriptText, /data-grammar-complete/);
   assert.match(grammarScriptText, /data-grammar-next/);
+  assert.match(grammarScriptText, /grammarResume/);
+  assert.match(grammarScriptText, /saveResume/);
+  assert.match(grammarScriptText, /applyResumeForLevel/);
   assert.doesNotMatch(grammarScriptText, /data-grammar-answer/);
 
   for (const [page, title] of [
@@ -152,6 +164,9 @@ async function main() {
   assert.match(featureScriptText, /feature-reading-explain/);
   assert.match(featureScriptText, /reading-passage/);
   assert.match(featureScriptText, /featureAnswerFeedback/);
+  assert.match(featureScriptText, /featureResume/);
+  assert.match(featureScriptText, /featureRecords/);
+  assert.match(featureScriptText, /applyResumeForLevel/);
 
   const testPage = await fetch(`${BASE_URL}/test.html?type=vocabulary&level=N5`);
   assert.equal(testPage.status, 200);
@@ -187,6 +202,7 @@ async function main() {
   assert.match(testScriptText, /继续学习第/);
   assert.match(testScriptText, /data-close-unit-prompt/);
   assert.match(testScriptText, /vocabularyMistakesHref/);
+  assert.match(testScriptText, /scopedFeatureRecords/);
   assert.match(testScriptText, /level=\$\{encodeURIComponent\(session\.level\)\}#vocabMistakes/);
   assert.match(vocabScriptText, /params\.get\("unit"\)/);
 

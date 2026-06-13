@@ -199,6 +199,18 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))];
 }
 
+function scopedFeatureRecords(featureName) {
+  savedState.featureRecords = savedState.featureRecords || {};
+  savedState.featureRecords[currentUserId] = savedState.featureRecords[currentUserId] || {};
+  savedState.featureRecords[currentUserId][featureName] = savedState.featureRecords[currentUserId][featureName] || {};
+  const scopedRecords = savedState.featureRecords[currentUserId][featureName];
+  const legacyRecords = savedState.features?.[featureName] || {};
+  Object.entries(legacyRecords).forEach(([id, record]) => {
+    if (!scopedRecords[id]) scopedRecords[id] = record;
+  });
+  return scopedRecords;
+}
+
 function buildOptions(items, current, key) {
   const others = unique(items.map((item) => item[key]).filter((value) => value !== current[key]));
   return shuffle([current[key], ...shuffle(others).slice(0, 3)]);
@@ -282,9 +294,8 @@ async function loadFeatureQuestions() {
         : "答对了，这个训练点已完成。",
     save: async (correct) => {
       if (correct) {
-        savedState.features = savedState.features || {};
-        savedState.features[testType] = savedState.features[testType] || {};
-        savedState.features[testType][item.id] = { completed: true, completedAt: new Date().toISOString() };
+        const featureRecords = scopedFeatureRecords(testType);
+        featureRecords[item.id] = { completed: true, completedAt: new Date().toISOString() };
         localStorage.setItem("nihongoLoopState", JSON.stringify(savedState));
       }
       try {

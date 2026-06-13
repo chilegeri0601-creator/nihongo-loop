@@ -5,9 +5,12 @@ const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
 let toastTimer;
 let featureData;
+const initialFeatureResume = savedState.featureResume?.[currentUserId]?.[featureKey] || {};
+const initialFeatureLevel = initialFeatureResume.level || savedState[`${featureKey}Level`] || savedState.level || "N5";
+const initialFeatureLevelResume = initialFeatureResume.levels?.[initialFeatureLevel] || {};
 let session = {
-  level: savedState[`${featureKey}Level`] || savedState.level || "N5",
-  index: 0,
+  level: initialFeatureLevel,
+  index: Number(initialFeatureLevelResume.index || 0),
 };
 const readingUnitSize = 5;
 const listeningGroupSize = 5;
@@ -54,13 +57,42 @@ async function apiRequest(path, options = {}) {
 
 function saveState() {
   savedState[`${featureKey}Level`] = session.level;
+  saveResume();
   localStorage.setItem("nihongoLoopState", JSON.stringify(savedState));
 }
 
+function featureResumeStore() {
+  savedState.featureResume = savedState.featureResume || {};
+  savedState.featureResume[currentUserId] = savedState.featureResume[currentUserId] || {};
+  savedState.featureResume[currentUserId][featureKey] = savedState.featureResume[currentUserId][featureKey] || { level: session.level, levels: {} };
+  savedState.featureResume[currentUserId][featureKey].levels = savedState.featureResume[currentUserId][featureKey].levels || {};
+  return savedState.featureResume[currentUserId][featureKey];
+}
+
+function saveResume() {
+  const store = featureResumeStore();
+  store.level = session.level;
+  store.levels[session.level] = {
+    index: session.index,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+function applyResumeForLevel(level, options = {}) {
+  const resume = savedState.featureResume?.[currentUserId]?.[featureKey]?.levels?.[level];
+  session.index = options.reset ? 0 : Number(resume?.index || 0);
+}
+
 function records() {
-  savedState.features = savedState.features || {};
-  savedState.features[featureKey] = savedState.features[featureKey] || {};
-  return savedState.features[featureKey];
+  savedState.featureRecords = savedState.featureRecords || {};
+  savedState.featureRecords[currentUserId] = savedState.featureRecords[currentUserId] || {};
+  savedState.featureRecords[currentUserId][featureKey] = savedState.featureRecords[currentUserId][featureKey] || {};
+  const scopedRecords = savedState.featureRecords[currentUserId][featureKey];
+  const legacyRecords = savedState.features?.[featureKey] || {};
+  Object.entries(legacyRecords).forEach(([id, record]) => {
+    if (!scopedRecords[id]) scopedRecords[id] = record;
+  });
+  return scopedRecords;
 }
 
 function currentItems() {
@@ -70,6 +102,13 @@ function currentItems() {
 function currentItem() {
   const items = currentItems();
   return items[Math.min(session.index, Math.max(0, items.length - 1))];
+}
+
+function clampSessionIndex() {
+  const items = currentItems();
+  const maxIndex = Math.max(0, items.length - 1);
+  if (!Number.isInteger(session.index) || session.index < 0) session.index = 0;
+  if (session.index > maxIndex) session.index = maxIndex;
 }
 
 function readingUnitCount() {
@@ -242,8 +281,10 @@ function renderFeatureQuestion(item, record) {
 }
 
 function draw() {
+  clampSessionIndex();
   const item = currentItem();
   if (!item) return;
+  saveState();
   const items = currentItems();
   const done = completedCount();
   const percent = Math.round((done / items.length) * 100);
@@ -312,12 +353,14 @@ function bind() {
   document.querySelectorAll("[data-feature-index]").forEach((button) => {
     button.addEventListener("click", () => {
       session.index = Number(button.dataset.featureIndex);
+      saveState();
       draw();
     });
   });
   document.querySelectorAll("[data-reading-unit]").forEach((button) => {
     button.addEventListener("click", () => {
       session.index = Number(button.dataset.readingUnit) * readingUnitSize;
+      saveState();
       draw();
     });
   });
@@ -330,6 +373,7 @@ function bind() {
   document.querySelector("[data-feature-prev]")?.addEventListener("click", () => {
     if (session.index > 0) {
       session.index -= 1;
+      saveState();
       draw();
     }
   });
@@ -374,6 +418,7 @@ function bind() {
     const items = currentItems();
     if (session.index < items.length - 1) {
       session.index += 1;
+      saveState();
       draw();
     } else {
       showToast(`${session.level} ${featureData.name}完成啦，可以进入测验巩固。`);
@@ -383,7 +428,7 @@ function bind() {
 
 async function setLevel(level) {
   session.level = level;
-  session.index = 0;
+  applyResumeForLevel(level);
   document.querySelectorAll("[data-feature-level]").forEach((button) => {
     button.classList.toggle("active", button.dataset.featureLevel === level);
   });

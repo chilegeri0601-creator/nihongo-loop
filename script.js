@@ -1,56 +1,34 @@
 const levelData = {
   N5: {
     copy: "6 周建立假名、基础单词、入门语法和慢速听力的学习节奏。",
-    progress: [
-      ["单词", "800 入门词", 72, "red"],
-      ["语法", "55 个基础句型", 62, "blue"],
-      ["阅读", "18 篇短文", 48, "green"],
-      ["听力", "32 个慢速场景", 58, "amber"],
-    ],
   },
   N4: {
     copy: "7 周巩固日常表达，提升短文阅读和基础听力反应速度。",
-    progress: [
-      ["单词", "1200 常用词", 66, "red"],
-      ["语法", "78 个句型", 57, "blue"],
-      ["阅读", "24 篇生活短文", 52, "green"],
-      ["听力", "40 个会话场景", 64, "amber"],
-    ],
   },
   N3: {
     copy: "8 周连接基础到中级，强化长句理解、文章结构和听力关键词。",
-    progress: [
-      ["单词", "1600 高频词", 61, "red"],
-      ["语法", "96 个中级句型", 55, "blue"],
-      ["阅读", "28 篇综合文章", 44, "green"],
-      ["听力", "48 个真实场景", 69, "amber"],
-    ],
   },
   N2: {
     copy: "8 周完成高频词、核心语法、真题阅读与听力场景训练。",
-    progress: [
-      ["单词", "1800 高频词", 68, "red"],
-      ["语法", "128 个句型", 54, "blue"],
-      ["阅读", "32 篇真题文章", 46, "green"],
-      ["听力", "54 个场景", 71, "amber"],
-    ],
   },
   N1: {
     copy: "10 周面向高阶词汇、抽象阅读、复杂语法和考试节奏冲刺。",
-    progress: [
-      ["单词", "2400 高阶词", 52, "red"],
-      ["语法", "156 个高阶句型", 49, "blue"],
-      ["阅读", "42 篇长文训练", 38, "green"],
-      ["听力", "68 个高阶场景", 57, "amber"],
-    ],
   },
 };
 
-const moduleLinks = {
-  单词: "vocabulary.html",
-  语法: "grammar.html",
-  阅读: "reading.html",
-  听力: "listening.html",
+const moduleConfig = {
+  单词: { key: "vocabulary", href: "vocabulary.html", color: "red", completedLabel: "已掌握" },
+  语法: { key: "grammar", href: "grammar.html", color: "blue", completedLabel: "已学会" },
+  阅读: { key: "reading", href: "reading.html", color: "green", completedLabel: "已完成" },
+  听力: { key: "listening", href: "listening.html", color: "amber", completedLabel: "已听懂" },
+};
+
+const moduleOrder = ["单词", "语法", "阅读", "听力"];
+const contentIndex = {
+  vocabulary: {},
+  grammar: {},
+  reading: {},
+  listening: {},
 };
 
 window.addEventListener("load", () => {
@@ -111,29 +89,80 @@ function currentLevel() {
   return savedState.level || "N2";
 }
 
+function indexItems(moduleKey, level, items) {
+  contentIndex[moduleKey][level] = new Set((items || []).map((item) => item.id).filter(Boolean));
+}
+
+async function loadContentIndex() {
+  try {
+    const [vocabularyResponse, grammarResponse, featureResponse] = await Promise.all([
+      fetch("data/vocabulary.json"),
+      fetch("data/grammar.json"),
+      fetch("data/features.json"),
+    ]);
+    const [vocabulary, grammar, features] = await Promise.all([vocabularyResponse.json(), grammarResponse.json(), featureResponse.json()]);
+    Object.keys(levelData).forEach((level) => {
+      indexItems("vocabulary", level, vocabulary[level] || []);
+      indexItems("grammar", level, grammar[level] || []);
+      indexItems("reading", level, features.reading?.levels?.[level] || []);
+      indexItems("listening", level, features.listening?.levels?.[level] || []);
+    });
+  } catch {
+    // 题库统计失败时，首页仍保留已完成数量，不阻塞学习。
+  }
+  applyDashboard();
+}
+
+function featureRecords(moduleKey) {
+  return savedState.featureRecords?.[currentUserId]?.[moduleKey] || savedState.features?.[moduleKey] || {};
+}
+
+function progressSnapshot(moduleName, level) {
+  const config = moduleConfig[moduleName];
+  const ids = contentIndex[config.key]?.[level] || new Set();
+  let records = {};
+  let isComplete = () => false;
+  if (config.key === "vocabulary") {
+    records = savedState.vocabulary || {};
+    isComplete = (record) => Boolean(record.mastered);
+  } else if (config.key === "grammar") {
+    records = savedState.grammar || {};
+    isComplete = (record) => Boolean(record.completed);
+  } else {
+    records = featureRecords(config.key);
+    isComplete = (record) => Boolean(record.completed);
+  }
+  const completed = Object.entries(records).filter(([id, record]) => ids.has(id) && isComplete(record)).length;
+  const total = ids.size;
+  const percent = total ? Math.min(100, Math.round((completed / total) * 100)) : 0;
+  const detail = total ? `${completed}/${total} ${config.completedLabel}` : `${completed} 个${config.completedLabel}`;
+  return { ...config, completed, total, percent, detail };
+}
+
 function renderProgress(level) {
   const data = levelData[level] || levelData.N2;
   document.querySelector("#roadmapLevel").textContent = level;
   document.querySelector("#currentLevelText").textContent = level;
   document.querySelector("#roadmapCopy").textContent = data.copy;
-  document.querySelector("#progressList").innerHTML = data.progress
+  const rows = moduleOrder.map((name) => [name, progressSnapshot(name, level)]);
+  document.querySelector("#progressList").innerHTML = rows
     .map(
-      ([name, detail, percent, color]) => `
-        <a class="progress-row dashboard-progress-row" href="${moduleLinks[name]}">
+      ([name, progress]) => `
+        <a class="progress-row dashboard-progress-row" href="${progress.href}">
           <b>${name}</b>
-          <small>${detail}</small>
-          <div class="progress-track"><span class="${color}" style="width: ${percent}%"></span></div>
-          <em>${percent}%</em>
+          <small>${progress.detail}</small>
+          <div class="progress-track"><span class="${progress.color}" style="width: ${progress.percent}%"></span></div>
+          <em>${progress.percent}%</em>
         </a>
       `,
     )
     .join("");
   document.querySelectorAll(".module-card").forEach((card) => {
     const module = card.dataset.module;
-    const row = data.progress.find(([name]) => name === module);
+    const row = rows.find(([name]) => name === module);
     if (!row) return;
     const progress = card.querySelector(".card-progress span");
-    if (progress) progress.style.width = `${row[2]}%`;
+    if (progress) progress.style.width = `${row[1].percent}%`;
   });
 }
 
@@ -229,4 +258,6 @@ async function loadServerProgress() {
   applyDashboard();
 }
 
+applyDashboard();
+loadContentIndex();
 loadServerProgress();

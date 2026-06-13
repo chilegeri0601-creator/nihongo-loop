@@ -4,6 +4,9 @@ const currentUserId = localStorage.getItem("nihongoLoopUserId") || "demo-user";
 const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
 let toastTimer;
+const initialGrammarResume = savedState.grammarResume?.[currentUserId] || {};
+const initialGrammarLevel = initialGrammarResume.level || savedState.grammarLevel || "N5";
+const initialGrammarLevelResume = initialGrammarResume.levels?.[initialGrammarLevel] || {};
 
 const fallbackGrammar = {
   N5: [
@@ -26,11 +29,11 @@ const fallbackGrammar = {
 };
 
 const session = {
-  level: savedState.grammarLevel || "N5",
-  category: "全部",
+  level: initialGrammarLevel,
+  category: initialGrammarLevelResume.category || savedState.grammarCategory || "全部",
   points: [],
   categories: [],
-  index: 0,
+  index: Number(initialGrammarLevelResume.index || 0),
   stats: { total: 0, completed: 0, remaining: 0 },
 };
 
@@ -66,9 +69,33 @@ async function apiRequest(path, options = {}) {
   return data;
 }
 
+function grammarResumeStore() {
+  savedState.grammarResume = savedState.grammarResume || {};
+  savedState.grammarResume[currentUserId] = savedState.grammarResume[currentUserId] || { level: session.level, levels: {} };
+  savedState.grammarResume[currentUserId].levels = savedState.grammarResume[currentUserId].levels || {};
+  return savedState.grammarResume[currentUserId];
+}
+
+function saveResume() {
+  const store = grammarResumeStore();
+  store.level = session.level;
+  store.levels[session.level] = {
+    category: session.category,
+    index: session.index,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+function applyResumeForLevel(level, options = {}) {
+  const resume = savedState.grammarResume?.[currentUserId]?.levels?.[level];
+  session.category = options.reset ? "全部" : resume?.category || "全部";
+  session.index = options.reset ? 0 : Number(resume?.index || 0);
+}
+
 function saveLocalState() {
   savedState.grammarLevel = session.level;
   savedState.grammarCategory = session.category;
+  saveResume();
   localStorage.setItem("nihongoLoopState", JSON.stringify(savedState));
 }
 
@@ -121,6 +148,16 @@ function filteredPoints() {
 function currentPoint() {
   const points = filteredPoints();
   return points[Math.min(session.index, Math.max(0, points.length - 1))] || points[0];
+}
+
+function clampSessionIndex() {
+  if (session.category !== "全部" && !session.categories.includes(session.category)) {
+    session.category = "全部";
+  }
+  const points = filteredPoints();
+  const maxIndex = Math.max(0, points.length - 1);
+  if (!Number.isInteger(session.index) || session.index < 0) session.index = 0;
+  if (session.index > maxIndex) session.index = maxIndex;
 }
 
 function renderCategoryOptions() {
@@ -190,6 +227,7 @@ function renderDetail(point) {
 }
 
 function draw() {
+  clampSessionIndex();
   const point = currentPoint();
   const percent = session.stats.total ? Math.round((session.stats.completed / session.stats.total) * 100) : 0;
   const visible = visiblePosition();
@@ -197,6 +235,7 @@ function draw() {
     document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>暂无语法点</strong><span>请切换其他等级。</span></div>`;
     return;
   }
+  saveLocalState();
   document.querySelector("#grammarPageContent").innerHTML = `
     <div class="grammar-shell" id="grammarMap">
       <section class="grammar-sidebar">
@@ -225,8 +264,7 @@ function draw() {
 
 async function setLevel(level) {
   session.level = level;
-  session.category = "全部";
-  session.index = 0;
+  applyResumeForLevel(level);
   const testLink = document.querySelector("#grammarTestLink");
   if (testLink) testLink.href = `test.html?type=grammar&level=${encodeURIComponent(level)}`;
   document.querySelectorAll("[data-grammar-level]").forEach((button) => button.classList.toggle("active", button.dataset.grammarLevel === level));
@@ -234,6 +272,7 @@ async function setLevel(level) {
   session.points = payload.points;
   session.categories = payload.categories;
   session.stats = payload.stats;
+  clampSessionIndex();
   saveLocalState();
   draw();
 }
@@ -247,6 +286,7 @@ function bind() {
   });
   document.querySelector("[data-grammar-picker]")?.addEventListener("change", (event) => {
     session.index = Number(event.target.value);
+    saveLocalState();
     draw();
   });
   document.querySelector("[data-grammar-prev]")?.addEventListener("click", () => moveGrammar(-1));
@@ -258,6 +298,7 @@ function moveGrammar(step) {
   const points = filteredPoints();
   if (!points.length) return;
   session.index = (session.index + step + points.length) % points.length;
+  saveLocalState();
   draw();
 }
 
