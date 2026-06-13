@@ -40,7 +40,7 @@ async function main() {
   assert.doesNotMatch(htmlText, /class="auth-panel" aria-label="账号表单"/);
   assert.match(htmlText, /reading\.html/);
   assert.match(htmlText, /listening\.html/);
-  assert.match(htmlText, /exam\.html/);
+  assert.doesNotMatch(htmlText, /exam\.html/);
 
   const loginPage = await fetch(`${BASE_URL}/login.html`);
   assert.equal(loginPage.status, 200);
@@ -115,7 +115,6 @@ async function main() {
   for (const [page, title] of [
     ["reading.html", "阅读学习"],
     ["listening.html", "听力学习"],
-    ["exam.html", "等级考试模拟"],
   ]) {
     const featurePage = await fetch(`${BASE_URL}/${page}`);
     assert.equal(featurePage.status, 200);

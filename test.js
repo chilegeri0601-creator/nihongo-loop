@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const testType = params.get("type") || "vocabulary";
+const requestedTestType = params.get("type") || "vocabulary";
 const currentUserId = localStorage.getItem("nihongoLoopUserId") || "demo-user";
 const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
@@ -13,9 +13,9 @@ const typeMeta = {
   grammar: { name: "语法", tag: "文法 · Grammar", study: "grammar.html", storage: "grammar" },
   reading: { name: "阅读", tag: "読解 · Reading", study: "reading.html", storage: "reading" },
   listening: { name: "听力", tag: "聴解 · Listening", study: "listening.html", storage: "listening" },
-  exam: { name: "等级考试模拟", tag: "試験 · Mock Exam", study: "exam.html", storage: "exam" },
 };
 
+const testType = typeMeta[requestedTestType] ? requestedTestType : "vocabulary";
 const meta = typeMeta[testType] || typeMeta.vocabulary;
 const session = {
   level: params.get("level") || savedState[`${testType}Level`] || savedState.level || "N5",
