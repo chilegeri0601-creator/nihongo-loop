@@ -24,6 +24,7 @@ const session = {
   correct: 0,
   answers: [],
   unitIndex: Number(params.get("unit")),
+  mistakesOnly: params.get("mistakes") === "1",
   dailyGoal: Number(params.get("goal") || savedState.vocabularyDailyGoal || 30),
   vocabularyTotalWords: 0,
 };
@@ -36,8 +37,12 @@ function isVocabularyUnitTest() {
   return testType === "vocabulary" && session.unitIndex !== null;
 }
 
+function isVocabularyMistakeTest() {
+  return testType === "vocabulary" && session.mistakesOnly;
+}
+
 function testProgressKey() {
-  const unitPart = isVocabularyUnitTest() ? `unit-${session.unitIndex}-goal-${session.dailyGoal}` : "full";
+  const unitPart = isVocabularyMistakeTest() ? "mistakes" : isVocabularyUnitTest() ? `unit-${session.unitIndex}-goal-${session.dailyGoal}` : "full";
   return `nihongoLoopTestProgress:${currentUserId}:${testType}:${session.level}:${unitPart}`;
 }
 
@@ -101,6 +106,7 @@ function vocabularyUnitRange(words) {
 }
 
 function unitLabel() {
+  if (isVocabularyMistakeTest()) return "错题本";
   return isVocabularyUnitTest() ? `第 ${session.unitIndex + 1} 单元` : "";
 }
 
@@ -116,6 +122,10 @@ function vocabularyStudyHref(unitIndex = session.unitIndex) {
 
 function vocabularyMistakesHref() {
   return `vocabulary.html?level=${encodeURIComponent(session.level)}#vocabMistakes`;
+}
+
+function vocabularyMistakeTestHref() {
+  return `test.html?type=vocabulary&level=${encodeURIComponent(session.level)}&mistakes=1`;
 }
 
 function nextUnitPromptHtml() {
@@ -206,9 +216,11 @@ async function loadVocabularyQuestions() {
   const words = data.vocabulary.words;
   session.vocabularyTotalWords = words.length;
   const range = vocabularyUnitRange(words);
-  const scopedWords = range.words.length ? range.words : words;
+  const wrongCount = (word) => Math.max(0, Number(word.attempts || 0) - Number(word.correct || 0));
+  const mistakeWords = words.filter((word) => wrongCount(word) > 0 && !word.mastered);
+  const scopedWords = isVocabularyMistakeTest() ? mistakeWords : range.words.length ? range.words : words;
   return scopedWords.map((word, index) => {
-    if (isVocabularyUnitTest()) {
+    if (isVocabularyUnitTest() || isVocabularyMistakeTest()) {
       return {
         id: word.id,
         word: word.word,
@@ -303,7 +315,7 @@ function draw() {
   const total = session.questions.length;
   const question = session.questions[session.index];
   const percent = total ? Math.round((session.index / total) * 100) : 0;
-  document.querySelector("#testTitle").textContent = `${session.level} ${meta.name}${isVocabularyUnitTest() ? unitLabel() : ""}测验`;
+  document.querySelector("#testTitle").textContent = `${session.level} ${meta.name}${isVocabularyUnitTest() || isVocabularyMistakeTest() ? unitLabel() : ""}测验`;
   document.querySelector("#testCounter").textContent = `${Math.min(session.index + 1, total)} / ${total}`;
   document.querySelector("#testProgress").style.width = `${percent}%`;
   if (!question) {
@@ -315,10 +327,18 @@ function draw() {
     document.querySelector("#testContent").innerHTML = `
       <div class="test-result">
         <strong>${session.correct}/${total}</strong>
-        <h3>${isVocabularyUnitTest() ? `${unitLabel()}测验完成` : "测验完成"}</h3>
-        <p>${isVocabularyUnitTest() ? `本单元背会 ${learned.length} 个，待复习 ${missed.length} 个。答错的单词已经进入错题本，下次可以继续查看。` : `你已经完成 ${session.level} ${meta.name}测验，可以回到学习页继续复习。`}</p>
+        <h3>${isVocabularyUnitTest() || isVocabularyMistakeTest() ? `${unitLabel()}测验完成` : "测验完成"}</h3>
+        <p>${
+          isVocabularyMistakeTest()
+            ? total
+              ? `错题复习完成：本次答对 ${learned.length} 个，仍需复习 ${missed.length} 个。答对的单词会更新记录，掌握后会离开错题本。`
+              : `当前 ${session.level} 没有需要复习的错题，可以先回到单词页继续学习或做单元测验。`
+            : isVocabularyUnitTest()
+              ? `本单元背会 ${learned.length} 个，待复习 ${missed.length} 个。答错的单词已经进入错题本，下次可以继续查看。`
+              : `你已经完成 ${session.level} ${meta.name}测验，可以回到学习页继续复习。`
+        }</p>
         ${
-          isVocabularyUnitTest()
+          isVocabularyUnitTest() || isVocabularyMistakeTest()
             ? `<div class="test-result-metrics">
                 <div><b>${learned.length}</b><span>本次背会</span></div>
                 <div><b>${missed.length}</b><span>待复习</span></div>
@@ -339,7 +359,8 @@ function draw() {
         <div class="hero-actions">
           <a class="btn btn-dark" href="${meta.study}">返回学习</a>
           ${isVocabularyUnitTest() && nextVocabularyUnitIndex() !== null ? `<a class="btn btn-red" href="${vocabularyStudyHref(nextVocabularyUnitIndex())}">继续第 ${nextVocabularyUnitIndex() + 1} 单元</a>` : ""}
-          ${isVocabularyUnitTest() ? `<a class="btn btn-light" href="${vocabularyMistakesHref()}">查看错题本</a>` : ""}
+          ${isVocabularyUnitTest() || isVocabularyMistakeTest() ? `<a class="btn btn-light" href="${vocabularyMistakesHref()}">查看错题本</a>` : ""}
+          ${isVocabularyMistakeTest() && total ? `<a class="btn btn-light" href="${vocabularyMistakeTestHref()}">再做错题测试</a>` : ""}
           <button class="btn btn-light" type="button" id="restartTest">再测一次</button>
         </div>
         ${nextUnitPromptHtml()}

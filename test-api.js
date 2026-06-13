@@ -76,7 +76,10 @@ async function main() {
   assert.match(vocabScriptText, /vocab-list-panel/);
   assert.match(vocabScriptText, /vocabMistakes/);
   assert.match(vocabScriptText, /vocab-mistake-details/);
+  assert.match(vocabScriptText, /vocab-mistake-actions/);
   assert.match(vocabScriptText, /展开错题本/);
+  assert.match(vocabScriptText, /开始错题复习测试/);
+  assert.match(vocabScriptText, /mistakes=1/);
   assert.match(vocabScriptText, /window\.location\.hash === "#vocabMistakes"/);
   assert.match(vocabScriptText, /wrongCount/);
   assert.match(vocabScriptText, /unitTestHref/);
@@ -175,6 +178,9 @@ async function main() {
   assert.match(testScriptText, /\/api\/grammar\/answer/);
   assert.match(testScriptText, /data\/features\.json/);
   assert.match(testScriptText, /vocabularyUnitRange/);
+  assert.match(testScriptText, /isVocabularyMistakeTest/);
+  assert.match(testScriptText, /mistakes"\) === "1"/);
+  assert.match(testScriptText, /错题复习完成/);
   assert.match(testScriptText, /本单元背会/);
   assert.match(testScriptText, /查看错题本/);
   assert.match(testScriptText, /nextVocabularyUnitIndex/);

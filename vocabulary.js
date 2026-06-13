@@ -179,6 +179,10 @@ function unitTestHref(unitIndex = currentUnitIndex()) {
   return `test.html?type=vocabulary&level=${encodeURIComponent(session.level)}&unit=${unitIndex}&goal=${session.dailyGoal}`;
 }
 
+function mistakeTestHref() {
+  return `test.html?type=vocabulary&level=${encodeURIComponent(session.level)}&mistakes=1`;
+}
+
 function unitStudyStats(unitIndex = currentUnitIndex()) {
   const range = unitRange(unitIndex);
   const viewed = unitViewedIds(unitIndex);
@@ -443,6 +447,10 @@ function renderMistakeBook() {
                 </div>
                 <em><b class="open-label">展开错题本</b><b class="close-label">收起错题本</b></em>
               </summary>
+              <div class="vocab-mistake-actions">
+                <a class="btn btn-dark" href="${mistakeTestHref()}">开始错题复习测试</a>
+                <span>只测试当前等级里还没掌握的错题。</span>
+              </div>
               <div class="vocab-mistake-grid">
                 ${mistakeWords
                   .map((item) => {
