@@ -133,6 +133,10 @@ async function main() {
   assert.match(featureScriptText, /test\.html\?type=/);
   assert.match(featureScriptText, /speechSynthesis/);
   assert.match(featureScriptText, /data-feature-audio/);
+  assert.match(featureScriptText, /listening-shell/);
+  assert.match(featureScriptText, /listening-transcript/);
+  assert.match(featureScriptText, /data-listening-complete/);
+  assert.match(featureScriptText, /data-feature-prev/);
   assert.match(featureScriptText, /data-feature-answer/);
   assert.match(featureScriptText, /readingUnitSize/);
   assert.match(featureScriptText, /data-reading-unit/);

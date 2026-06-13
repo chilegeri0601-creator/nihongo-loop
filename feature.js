@@ -10,6 +10,7 @@ let session = {
   index: 0,
 };
 const readingUnitSize = 5;
+const listeningGroupSize = 5;
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -132,6 +133,75 @@ function completedCount() {
   return currentItems().filter((item) => records()[item.id]?.completed).length;
 }
 
+function currentListeningGroupIndex() {
+  return Math.floor(session.index / listeningGroupSize);
+}
+
+function listeningGroupRange(groupIndex = currentListeningGroupIndex()) {
+  const items = currentItems();
+  const start = groupIndex * listeningGroupSize;
+  const end = Math.min(start + listeningGroupSize, items.length);
+  return { start, end, items: items.slice(start, end) };
+}
+
+function renderListeningTrainer(item, record, items, done, percent) {
+  const range = listeningGroupRange();
+  return `
+    <div class="listening-shell">
+      <section class="listening-card">
+        <div class="listening-topline">
+          <span>${session.level} · ${escapeHtml(item.category)}</span>
+          <strong>${session.index + 1}/${items.length}</strong>
+        </div>
+        <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
+        <h3>${escapeHtml(item.title)}</h3>
+        <p>${escapeHtml(item.goal)}</p>
+        <button class="sound-button listening-play" type="button" data-feature-audio="${escapeHtml(item.sample)}">
+          播放音频
+        </button>
+        <div class="listening-actions">
+          <button class="btn btn-light" type="button" data-feature-prev ${session.index === 0 ? "disabled" : ""}>上一题</button>
+          <button class="btn btn-dark" type="button" data-listening-complete>${record.completed ? "已听懂" : "标记已听懂"}</button>
+          <button class="btn btn-light" type="button" data-feature-next>${session.index >= items.length - 1 ? "完成" : "下一题"}</button>
+        </div>
+        <details class="listening-transcript">
+          <summary>查看原文和提示</summary>
+          <div class="feature-sample">${escapeHtml(item.sample)}</div>
+          <p>${escapeHtml(item.tip)}</p>
+        </details>
+      </section>
+      <aside class="listening-side">
+        <div class="grammar-stats">
+          <div><strong>${done}/${items.length}</strong><span>已听懂</span></div>
+          <div><strong>${range.start + 1}-${range.end}</strong><span>当前小组</span></div>
+        </div>
+        <div class="listening-group">
+          <span>本组练习</span>
+          <div>
+            ${range.items
+              .map((groupItem, offset) => {
+                const index = range.start + offset;
+                const completed = Boolean(records()[groupItem.id]?.completed);
+                return `
+                  <button type="button" class="${index === session.index ? "active" : ""} ${completed ? "completed" : ""}" data-feature-index="${index}">
+                    ${index + 1}
+                  </button>
+                `;
+              })
+              .join("")}
+          </div>
+        </div>
+        <div class="study-link-panel feature-test-cta">
+          <span>测验模式</span>
+          <h4>进入 ${session.level} 听力测验</h4>
+          <p>学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。</p>
+          <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">开始测验</a>
+        </div>
+      </aside>
+    </div>
+  `;
+}
+
 function renderFeatureQuestion(item, record) {
   if (featureKey !== "reading" || !item.question) return "";
   const answered = Boolean(record.answer);
@@ -179,8 +249,14 @@ function draw() {
   const percent = Math.round((done / items.length) * 100);
   const record = records()[item.id] || {};
   const readingMode = featureKey === "reading";
+  const listeningMode = featureKey === "listening";
   const readingRange = readingMode ? readingUnitRange() : null;
   document.querySelector("#featureTitle").textContent = `${session.level} ${featureData.name}训练`;
+  if (listeningMode) {
+    document.querySelector("#featureContent").innerHTML = renderListeningTrainer(item, record, items, done, percent);
+    bind();
+    return;
+  }
   document.querySelector("#featureContent").innerHTML = `
     <div class="feature-shell">
       <aside class="feature-sidebar">
@@ -251,6 +327,26 @@ function bind() {
       button.textContent = "重播音频";
     });
   });
+  document.querySelector("[data-feature-prev]")?.addEventListener("click", () => {
+    if (session.index > 0) {
+      session.index -= 1;
+      draw();
+    }
+  });
+  document.querySelector("[data-listening-complete]")?.addEventListener("click", () => {
+    const item = currentItem();
+    const featureRecords = records();
+    featureRecords[item.id] = {
+      ...featureRecords[item.id],
+      completed: true,
+      completedAt: featureRecords[item.id]?.completedAt || new Date().toISOString(),
+    };
+    saveState();
+    if (session.index < currentItems().length - 1) {
+      session.index += 1;
+    }
+    draw();
+  });
   document.querySelectorAll("[data-feature-answer]").forEach((button) => {
     button.addEventListener("click", () => {
       const item = currentItem();
@@ -280,7 +376,7 @@ function bind() {
       session.index += 1;
       draw();
     } else {
-      showToast("N5 短句阅读完成啦，可以进入测验巩固。");
+      showToast(`${session.level} ${featureData.name}完成啦，可以进入测验巩固。`);
     }
   });
 }
