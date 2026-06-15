@@ -6,28 +6,28 @@
     <title>阅读学习 | Nihongo Loop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body data-feature="reading">
+  <body data-feature="reading" data-page-title="reading.title">
     <header class="site-header scrolled">
       <a class="brand" href="index.html" aria-label="返回首页">
         <span>Nihongo Loop</span>
         <small>読解トレーニング</small>
       </a>
       <nav class="nav-links" aria-label="阅读页导航">
-        <a href="index.html">首页</a>
+        <a href="index.html" data-i18n="common.home">首页</a>
         <a href="#featureTrainer">训练</a>
-        <a href="vocabulary.html">单词</a>
-        <a href="grammar.html">语法</a>
+        <a href="vocabulary.html" data-i18n="module.vocabulary">单词</a>
+        <a href="grammar.html" data-i18n="module.grammar">语法</a>
       </nav>
       <div class="header-actions">
         <span class="service-status online" id="featureStatus">学习中</span>
-        <a class="btn btn-light" href="index.html">返回首页</a>
+        <a class="btn btn-light" href="index.html" data-i18n="common.backHome">返回首页</a>
       </div>
     </header>
     <main class="feature-page">
       <section class="feature-hero">
         <div>
-          <h1 id="featureHeading">阅读学习</h1>
-          <p id="featureLead">按等级训练短文精读、长文定位、题干关键词和计时阅读。</p>
+          <h1 id="featureHeading" data-i18n="reading.title">阅读学习</h1>
+          <p id="featureLead" data-i18n="reading.lead">按等级训练短文精读、长文定位、题干关键词和计时阅读。</p>
         </div>
         <div class="level-tabs compact" role="tablist" aria-label="选择等级">
           <button class="active" type="button" data-feature-level="N5">N5</button>
@@ -43,12 +43,13 @@
             <span id="featureTag">読解 · Reading</span>
             <h2 id="featureTitle">N5 阅读训练</h2>
           </div>
-          <button class="btn btn-dark" type="button" id="featureCompleteButton">进入测验</button>
+          <button class="btn btn-dark" type="button" id="featureCompleteButton" data-i18n="common.enterTest">进入测验</button>
         </div>
         <div id="featureContent" class="feature-content"></div>
       </section>
     </main>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="feature.js"></script>
   </body>
 </html>

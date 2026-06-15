@@ -6,12 +6,12 @@
     <title>登录 | Nihongo Loop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="login-body">
+  <body class="login-body" data-page-title="login.title">
     <main class="login-page">
       <section class="login-visual" aria-label="学习插画">
         <a class="brand login-brand" href="index.html" aria-label="返回首页">
           <span>Nihongo Loop</span>
-          <small>日本語ループ</small>
+          <small data-i18n="login.brandSub">日本語ループ</small>
         </a>
         <div class="desk-dog-card">
           <svg class="desk-dog" viewBox="0 0 640 520" role="img" aria-label="戴着必胜头带的狗狗坐在课桌前学习日语">
@@ -67,53 +67,54 @@
           </svg>
         </div>
         <div class="login-copy">
-          <h1>先登录，再把今天的学习节奏接上。</h1>
-          <p>账号会保存你的打卡、等级、单词掌握和语法学习记录。</p>
+          <h1 data-i18n="login.visualTitle">先登录，再把今天的学习节奏接上。</h1>
+          <p data-i18n="login.visualLead">账号会保存你的打卡、等级、单词掌握和语法学习记录。</p>
         </div>
       </section>
 
       <section class="login-form-wrap" aria-label="登录注册">
         <form class="auth-panel login-panel" id="authForm">
           <div class="panel-title">
-            <h2 id="authTitle">欢迎回来</h2>
-            <p id="authSubtitle">登录后继续今天的日语学习任务</p>
+            <h2 id="authTitle" data-i18n="login.welcome">欢迎回来</h2>
+            <p id="authSubtitle" data-i18n="login.welcomeSub">登录后继续今天的日语学习任务</p>
           </div>
           <div class="auth-tabs" role="tablist" aria-label="登录注册切换">
-            <button class="active" type="button" data-auth-tab="login">登录</button>
-            <button type="button" data-auth-tab="register">注册</button>
+            <button class="active" type="button" data-auth-tab="login" data-i18n="common.login">登录</button>
+            <button type="button" data-auth-tab="register" data-i18n="common.register">注册</button>
           </div>
           <label class="register-only">
-            昵称
+            <span data-i18n="login.nickname">昵称</span>
             <input name="displayName" type="text" placeholder="比如：N2冲刺中" autocomplete="nickname" />
           </label>
           <label>
-            邮箱
+            <span data-i18n="login.email">邮箱</span>
             <input name="email" type="email" placeholder="you@example.com" autocomplete="email" />
           </label>
           <label class="reset-only">
-            找回验证码
+            <span data-i18n="login.resetCode">找回验证码</span>
             <input name="resetCode" type="text" inputmode="numeric" placeholder="输入 6 位验证码" autocomplete="one-time-code" />
           </label>
           <label class="password-field">
-            密码
+            <span data-i18n="login.password">密码</span>
             <input name="password" type="password" placeholder="至少 6 位" autocomplete="current-password" />
           </label>
           <label class="confirm-password-field">
-            确认密码
+            <span data-i18n="login.confirmPassword">确认密码</span>
             <input name="confirmPassword" type="password" placeholder="再次输入密码" autocomplete="new-password" />
           </label>
-          <button class="btn btn-dark form-submit" type="submit" id="authSubmit">登录并继续学习</button>
-          <button class="forgot-link login-only" type="button" id="forgotPasswordButton">忘记密码？</button>
-          <p class="form-note" id="authNote">可以使用 demo@nihongo.loop / demo123456 体验。</p>
+          <button class="btn btn-dark form-submit" type="submit" id="authSubmit" data-i18n="login.submitLogin">登录并继续学习</button>
+          <button class="forgot-link login-only" type="button" id="forgotPasswordButton" data-i18n="login.forgotButton">忘记密码？</button>
+          <p class="form-note" id="authNote" data-i18n="login.noteDemo">可以使用 demo@nihongo.loop / demo123456 体验。</p>
           <div class="account-tools">
             <span id="accountLabel">当前账号：演示用户</span>
-            <a href="index.html">返回首页</a>
+            <a href="index.html" data-i18n="login.backIndex">返回首页</a>
           </div>
         </form>
       </section>
     </main>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="login.js"></script>
   </body>
 </html>

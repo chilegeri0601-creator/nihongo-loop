@@ -6,29 +6,29 @@
     <title>单词学习 | Nihongo Loop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-page-title="vocab.title">
     <header class="site-header scrolled">
       <a class="brand" href="index.html" aria-label="返回首页">
         <span>Nihongo Loop</span>
         <small>単語トレーニング</small>
       </a>
       <nav class="nav-links" aria-label="单词页导航">
-        <a href="index.html">首页</a>
+        <a href="index.html" data-i18n="common.home">首页</a>
         <a href="#vocabTrainer">词卡</a>
         <a href="#vocabList">复习队列</a>
         <a href="#vocabMistakes">错题本</a>
       </nav>
       <div class="header-actions">
-        <span class="service-status" id="vocabServiceStatus">连接中</span>
-        <a class="btn btn-light" href="index.html">返回首页</a>
+        <span class="service-status" id="vocabServiceStatus" data-i18n="common.connecting">连接中</span>
+        <a class="btn btn-light" href="index.html" data-i18n="common.backHome">返回首页</a>
       </div>
     </header>
 
     <main class="vocab-page">
       <section class="vocab-hero">
         <div>
-          <h1>单词学习</h1>
-          <p>按 N1-N5 等级练词卡、看例句、做独立测验，并把错题和掌握状态保存到后端。</p>
+          <h1 data-i18n="vocab.title">单词学习</h1>
+          <p data-i18n="vocab.lead">按 N1-N5 等级练词卡、看例句、做独立测验，并把错题和掌握状态保存到后端。</p>
         </div>
         <div class="level-tabs compact" role="tablist" aria-label="选择单词等级">
           <button type="button" data-vocab-level="N5">N5</button>
@@ -46,8 +46,8 @@
             <h2 id="vocabPageTitle">N2 单词训练</h2>
           </div>
           <div class="panel-actions">
-            <a class="btn btn-dark" id="vocabTestLink" href="test.html?type=vocabulary&level=N5">开始单词测验</a>
-            <button class="btn btn-light" type="button" id="vocabCompleteButton">完成今日单词学习</button>
+            <a class="btn btn-dark" id="vocabTestLink" href="test.html?type=vocabulary&level=N5" data-i18n="vocab.startTest">开始单词测验</a>
+            <button class="btn btn-light" type="button" id="vocabCompleteButton" data-i18n="vocab.completeToday">完成今日单词学习</button>
           </div>
         </div>
         <div class="study-content" id="vocabPageContent">
@@ -60,6 +60,7 @@
     </main>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="vocabulary.js"></script>
   </body>
 </html>

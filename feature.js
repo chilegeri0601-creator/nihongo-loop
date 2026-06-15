@@ -15,6 +15,14 @@ let session = {
 const readingUnitSize = 5;
 const listeningGroupSize = 5;
 
+function t(key, params = {}) {
+  return window.NihongoI18n?.t(key, params) || key;
+}
+
+function featureName() {
+  return t(`module.${featureKey}`);
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -232,9 +240,9 @@ function renderListeningTrainer(item, record, items, done, percent) {
         </div>
         <div class="study-link-panel feature-test-cta">
           <span>测验模式</span>
-          <h4>进入 ${session.level} 听力测验</h4>
+          <h4>${t("common.enterTest")} ${session.level} ${featureName()}</h4>
           <p>学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。</p>
-          <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">开始测验</a>
+          <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">${t("common.startTest")}</a>
         </div>
       </aside>
     </div>
@@ -292,7 +300,7 @@ function draw() {
   const readingMode = featureKey === "reading";
   const listeningMode = featureKey === "listening";
   const readingRange = readingMode ? readingUnitRange() : null;
-  document.querySelector("#featureTitle").textContent = `${session.level} ${featureData.name}训练`;
+  document.querySelector("#featureTitle").textContent = `${session.level} ${featureName()} ${t("common.training")}`;
   if (listeningMode) {
     document.querySelector("#featureContent").innerHTML = renderListeningTrainer(item, record, items, done, percent);
     bind();
@@ -341,7 +349,7 @@ function draw() {
           <span>学习模式</span>
           <h4>${readingMode ? "像考试一样做阅读理解" : "这里只做内容训练"}</h4>
           <p>${readingMode ? "先在这里完成短句理解，也可以进入独立测验页集中练习。" : "读完材料和步骤后，进入独立测验页答题。"}</p>
-          <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">进入 ${session.level} ${escapeHtml(featureData.name)}测验</a>
+          <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">${t("common.enterTest")} ${session.level} ${featureName()} ${t("common.test")}</a>
         </div>
       </section>
     </div>
@@ -421,7 +429,7 @@ function bind() {
       saveState();
       draw();
     } else {
-      showToast(`${session.level} ${featureData.name}完成啦，可以进入测验巩固。`);
+      showToast(`${session.level} ${featureName()}完成啦，可以进入测验巩固。`);
     }
   });
 }
@@ -440,10 +448,10 @@ async function loadFeature() {
   const response = await fetch("data/features.json");
   const data = await response.json();
   featureData = data[featureKey];
-  document.querySelector("#featureHeading").textContent = `${featureData.name}学习`;
-  document.querySelector("#featureLead").textContent = featureData.description;
+  document.querySelector("#featureHeading").textContent = t(`${featureKey}.title`);
+  document.querySelector("#featureLead").textContent = t(`${featureKey}.lead`);
   document.querySelector("#featureTag").textContent = featureData.tag;
-  document.querySelector("#featureStatus").textContent = `${featureData.name}训练`;
+  document.querySelector("#featureStatus").textContent = `${featureName()} ${t("common.training")}`;
   document.querySelectorAll("[data-feature-level]").forEach((button) => {
     button.addEventListener("click", () => setLevel(button.dataset.featureLevel));
   });
@@ -455,3 +463,11 @@ document.querySelector("#featureCompleteButton").addEventListener("click", async
 });
 
 loadFeature();
+
+window.addEventListener("nihongo:languagechange", () => {
+  if (!featureData) return;
+  document.querySelector("#featureHeading").textContent = t(`${featureKey}.title`);
+  document.querySelector("#featureLead").textContent = t(`${featureKey}.lead`);
+  document.querySelector("#featureStatus").textContent = `${featureName()} ${t("common.training")}`;
+  draw();
+});

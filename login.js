@@ -13,6 +13,10 @@ const initialMode = new URLSearchParams(window.location.search).get("mode");
 let currentMode = initialMode === "register" || initialMode === "forgot" || initialMode === "reset" ? initialMode : "login";
 const savedState = JSON.parse(localStorage.getItem("nihongoLoopState") || "{}");
 
+function t(key, params = {}) {
+  return window.NihongoI18n?.t(key, params) || key;
+}
+
 function showToast(message) {
   toast.textContent = message;
   toast.classList.add("show");
@@ -44,20 +48,20 @@ function setAuthMode(mode) {
     tab.classList.toggle("active", tab.dataset.authTab === mode);
   });
   if (isForgot) {
-    authTitle.textContent = "找回密码";
-    authSubtitle.textContent = "输入注册邮箱，生成本地演示验证码";
-    authSubmit.textContent = "获取找回验证码";
-    authNote.textContent = "当前为本地原型，验证码会直接显示在页面里。";
+    authTitle.textContent = t("login.forgot");
+    authSubtitle.textContent = t("login.forgotSub");
+    authSubmit.textContent = t("login.submitForgot");
+    authNote.textContent = t("login.noteForgot");
   } else if (isReset) {
-    authTitle.textContent = "设置新密码";
-    authSubtitle.textContent = "输入验证码和新密码，完成后自动登录";
-    authSubmit.textContent = "重置密码并登录";
-    authNote.textContent = "验证码 15 分钟内有效。";
+    authTitle.textContent = t("login.reset");
+    authSubtitle.textContent = t("login.resetSub");
+    authSubmit.textContent = t("login.submitReset");
+    authNote.textContent = t("login.noteReset");
   } else {
-    authTitle.textContent = isLogin ? "欢迎回来" : "创建学习账号";
-    authSubtitle.textContent = isLogin ? "登录后继续今天的日语学习任务" : "注册后同步打卡、错题和等级进度";
-    authSubmit.textContent = isLogin ? "登录并继续学习" : "注册并生成计划";
-    authNote.textContent = isLogin ? "可以使用 demo@nihongo.loop / demo123456 体验。" : "注册成功后会自动回到首页。";
+    authTitle.textContent = isLogin ? t("login.welcome") : t("login.create");
+    authSubtitle.textContent = isLogin ? t("login.welcomeSub") : t("login.createSub");
+    authSubmit.textContent = isLogin ? t("login.submitLogin") : t("login.submitRegister");
+    authNote.textContent = isLogin ? t("login.noteDemo") : t("login.noteRegister");
   }
   const url = new URL(window.location.href);
   url.searchParams.set("mode", mode);
@@ -66,7 +70,7 @@ function setAuthMode(mode) {
 
 function updateAccountLabel(user) {
   const display = user || localStorage.getItem("nihongoLoopUserEmail") || "演示用户";
-  accountLabel.textContent = `当前账号：${display}`;
+  accountLabel.textContent = t("login.account", { name: display === "演示用户" ? t("common.demoUser") : display });
 }
 
 document.querySelectorAll("[data-auth-tab]").forEach((tab) => {
@@ -111,7 +115,7 @@ authForm.addEventListener("submit", async (event) => {
       showToast(authNote.textContent);
     }
     authSubmit.disabled = false;
-    authSubmit.textContent = "重置密码并登录";
+    authSubmit.textContent = t("login.submitReset");
     return;
   }
   if (!password) {
@@ -163,8 +167,13 @@ authForm.addEventListener("submit", async (event) => {
     authNote.textContent = error.message || (isLogin ? "登录失败，请检查邮箱和密码。" : "注册失败，请稍后再试。");
     showToast(authNote.textContent);
     authSubmit.disabled = false;
-    authSubmit.textContent = isReset ? "重置密码并登录" : isLogin ? "登录并继续学习" : "注册并生成计划";
+    authSubmit.textContent = isReset ? t("login.submitReset") : isLogin ? t("login.submitLogin") : t("login.submitRegister");
   }
+});
+
+window.addEventListener("nihongo:languagechange", () => {
+  setAuthMode(currentMode);
+  updateAccountLabel();
 });
 
 setAuthMode(currentMode);

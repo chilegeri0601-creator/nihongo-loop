@@ -6,28 +6,28 @@
     <title>语法学习 | Nihongo Loop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-page-title="grammar.title">
     <header class="site-header scrolled">
       <a class="brand" href="index.html" aria-label="返回首页">
         <span>Nihongo Loop</span>
         <small>文法トレーニング</small>
       </a>
       <nav class="nav-links" aria-label="语法页导航">
-        <a href="index.html">首页</a>
+        <a href="index.html" data-i18n="common.home">首页</a>
         <a href="#grammarTrainer">学习</a>
         <a href="#grammarMap">分类</a>
       </nav>
       <div class="header-actions">
-        <span class="service-status" id="grammarServiceStatus">连接中</span>
-        <a class="btn btn-light" href="index.html">返回首页</a>
+        <span class="service-status" id="grammarServiceStatus" data-i18n="common.connecting">连接中</span>
+        <a class="btn btn-light" href="index.html" data-i18n="common.backHome">返回首页</a>
       </div>
     </header>
 
     <main class="grammar-page">
       <section class="grammar-hero">
         <div>
-          <h1>语法学习</h1>
-          <p>按 N5 到 N1 分级，把句型拆成“什么时候用、怎么接、例句、易错点”，让初学者也能一眼看懂。</p>
+          <h1 data-i18n="grammar.title">语法学习</h1>
+          <p data-i18n="grammar.lead">按 N5 到 N1 分级，把句型拆成“什么时候用、怎么接、例句、易错点”，让初学者也能一眼看懂。</p>
         </div>
         <div class="level-tabs compact" role="tablist" aria-label="选择语法等级">
           <button class="active" type="button" data-grammar-level="N5">N5</button>
@@ -44,7 +44,7 @@
             <span id="grammarPageTag">文法 · Grammar</span>
             <h2 id="grammarPageTitle">N5 语法入门</h2>
           </div>
-          <a class="btn btn-dark" id="grammarTestLink" href="test.html?type=grammar&level=N5">开始语法测验</a>
+          <a class="btn btn-dark" id="grammarTestLink" href="test.html?type=grammar&level=N5" data-i18n="grammar.startTest">开始语法测验</a>
         </div>
         <div id="grammarPageContent">
           <div class="vocab-loading">
@@ -56,6 +56,7 @@
     </main>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="grammar.js"></script>
   </body>
 </html>

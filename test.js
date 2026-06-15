@@ -9,14 +9,23 @@ let toastTimer;
 let resumeNoticeShown = false;
 
 const typeMeta = {
-  vocabulary: { name: "单词", tag: "単語 · Vocabulary", study: "vocabulary.html", storage: "vocabulary" },
-  grammar: { name: "语法", tag: "文法 · Grammar", study: "grammar.html", storage: "grammar" },
-  reading: { name: "阅读", tag: "読解 · Reading", study: "reading.html", storage: "reading" },
-  listening: { name: "听力", tag: "聴解 · Listening", study: "listening.html", storage: "listening" },
+  vocabulary: { name: "单词", nameKey: "module.vocabulary", tag: "単語 · Vocabulary", study: "vocabulary.html", storage: "vocabulary" },
+  grammar: { name: "语法", nameKey: "module.grammar", tag: "文法 · Grammar", study: "grammar.html", storage: "grammar" },
+  reading: { name: "阅读", nameKey: "module.reading", tag: "読解 · Reading", study: "reading.html", storage: "reading" },
+  listening: { name: "听力", nameKey: "module.listening", tag: "聴解 · Listening", study: "listening.html", storage: "listening" },
 };
 
 const testType = typeMeta[requestedTestType] ? requestedTestType : "vocabulary";
 const meta = typeMeta[testType] || typeMeta.vocabulary;
+
+function t(key, params = {}) {
+  return window.NihongoI18n?.t(key, params) || key;
+}
+
+function metaName() {
+  return t(meta.nameKey);
+}
+
 const session = {
   level: params.get("level") || savedState[`${testType}Level`] || savedState.level || "N5",
   index: 0,
@@ -326,7 +335,7 @@ function draw() {
   const total = session.questions.length;
   const question = session.questions[session.index];
   const percent = total ? Math.round((session.index / total) * 100) : 0;
-  document.querySelector("#testTitle").textContent = `${session.level} ${meta.name}${isVocabularyUnitTest() || isVocabularyMistakeTest() ? unitLabel() : ""}测验`;
+  document.querySelector("#testTitle").textContent = `${session.level} ${metaName()}${isVocabularyUnitTest() || isVocabularyMistakeTest() ? unitLabel() : ""} ${t("common.test")}`;
   document.querySelector("#testCounter").textContent = `${Math.min(session.index + 1, total)} / ${total}`;
   document.querySelector("#testProgress").style.width = `${percent}%`;
   if (!question) {
@@ -346,7 +355,7 @@ function draw() {
               : `当前 ${session.level} 没有需要复习的错题，可以先回到单词页继续学习或做单元测验。`
             : isVocabularyUnitTest()
               ? `本单元背会 ${learned.length} 个，待复习 ${missed.length} 个。答错的单词已经进入错题本，下次可以继续查看。`
-              : `你已经完成 ${session.level} ${meta.name}测验，可以回到学习页继续复习。`
+              : `你已经完成 ${session.level} ${metaName()}测验，可以回到学习页继续复习。`
         }</p>
         ${
           isVocabularyUnitTest() || isVocabularyMistakeTest()
@@ -522,13 +531,20 @@ async function setLevel(level, options = {}) {
   draw();
 }
 
-document.querySelector("#testHeading").textContent = `${meta.name}测验`;
-document.querySelector("#testLead").textContent = "这里是独立测验页面，不显示学习讲解内容。";
+document.querySelector("#testHeading").textContent = `${metaName()} ${t("common.test")}`;
+document.querySelector("#testLead").textContent = t("test.lead");
 document.querySelector("#testTag").textContent = meta.tag;
-document.querySelector("#testStatus").textContent = `${meta.name}测验`;
+document.querySelector("#testStatus").textContent = `${metaName()} ${t("common.test")}`;
 document.querySelector("#backToStudyLink").href = meta.study;
 document.querySelectorAll("[data-test-level]").forEach((button) => {
   button.addEventListener("click", () => setLevel(button.dataset.testLevel));
 });
 
 setLevel(session.level);
+
+window.addEventListener("nihongo:languagechange", () => {
+  document.querySelector("#testHeading").textContent = `${metaName()} ${t("common.test")}`;
+  document.querySelector("#testLead").textContent = t("test.lead");
+  document.querySelector("#testStatus").textContent = `${metaName()} ${t("common.test")}`;
+  draw();
+});

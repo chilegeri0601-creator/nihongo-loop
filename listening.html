@@ -6,27 +6,27 @@
     <title>听力学习 | Nihongo Loop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body data-feature="listening">
+  <body data-feature="listening" data-page-title="listening.title">
     <header class="site-header scrolled">
       <a class="brand" href="index.html" aria-label="返回首页">
         <span>Nihongo Loop</span>
         <small>聴解トレーニング</small>
       </a>
       <nav class="nav-links" aria-label="听力页导航">
-        <a href="index.html">首页</a>
+        <a href="index.html" data-i18n="common.home">首页</a>
         <a href="#featureTrainer">训练</a>
-        <a href="reading.html">阅读</a>
+        <a href="reading.html" data-i18n="module.reading">阅读</a>
       </nav>
       <div class="header-actions">
         <span class="service-status online" id="featureStatus">学习中</span>
-        <a class="btn btn-light" href="index.html">返回首页</a>
+        <a class="btn btn-light" href="index.html" data-i18n="common.backHome">返回首页</a>
       </div>
     </header>
     <main class="feature-page">
       <section class="feature-hero">
         <div>
-          <h1 id="featureHeading">听力学习</h1>
-          <p id="featureLead">按场景练主旨、人物关系、数字时间和关键词捕捉。</p>
+          <h1 id="featureHeading" data-i18n="listening.title">听力学习</h1>
+          <p id="featureLead" data-i18n="listening.lead">按场景练主旨、人物关系、数字时间和关键词捕捉。</p>
         </div>
         <div class="level-tabs compact" role="tablist" aria-label="选择等级">
           <button class="active" type="button" data-feature-level="N5">N5</button>
@@ -42,12 +42,13 @@
             <span id="featureTag">聴解 · Listening</span>
             <h2 id="featureTitle">N5 听力训练</h2>
           </div>
-          <button class="btn btn-dark" type="button" id="featureCompleteButton">进入测验</button>
+          <button class="btn btn-dark" type="button" id="featureCompleteButton" data-i18n="common.enterTest">进入测验</button>
         </div>
         <div id="featureContent" class="feature-content"></div>
       </section>
     </main>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="feature.js"></script>
   </body>
 </html>

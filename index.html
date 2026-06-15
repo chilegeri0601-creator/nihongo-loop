@@ -6,8 +6,8 @@
     <title>Nihongo Loop | 学习首页</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="is-loading">
-    <div class="loader" id="pageLoader" role="status" aria-live="polite" aria-label="页面加载中">
+  <body class="is-loading" data-page-title="index.title">
+    <div class="loader" id="pageLoader" role="status" aria-live="polite" aria-label="页面加载中" data-i18n-aria-label="index.loaderText">
       <div class="loader-card">
         <svg class="study-dog" viewBox="0 0 360 260" aria-hidden="true">
           <defs>
@@ -42,8 +42,8 @@
             <text x="232" y="238" text-anchor="middle" font-size="17" font-weight="800" fill="#2563EB" font-family="Noto Sans SC, sans-serif">N2</text>
           </g>
         </svg>
-        <h1>必勝、加载中</h1>
-        <p>正在整理你的学习首页。</p>
+        <h1 data-i18n="index.loaderTitle">必勝、加载中</h1>
+        <p data-i18n="index.loaderText">正在整理你的学习首页。</p>
         <div class="loader-progress" aria-hidden="true"><span></span></div>
       </div>
     </div>
@@ -51,90 +51,90 @@
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Nihongo Loop 首页">
         <span>Nihongo Loop</span>
-        <small>学习首页</small>
+        <small data-i18n="index.brandSub">学习首页</small>
       </a>
-      <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="mobileMenu">
+      <button class="menu-toggle" type="button" aria-label="打开菜单" data-i18n-aria-label="common.modules" aria-expanded="false" aria-controls="mobileMenu">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <nav class="nav-links" aria-label="主导航">
-        <a href="#dashboard">首页</a>
-        <a href="#modules">功能</a>
-        <a href="#progress">进度</a>
+        <a href="#dashboard" data-i18n="common.home">首页</a>
+        <a href="#modules" data-i18n="common.modules">功能</a>
+        <a href="#progress" data-i18n="common.progress">进度</a>
       </nav>
       <div class="header-actions">
-        <span class="service-status" id="serviceStatus">连接中</span>
-        <a class="btn btn-light" href="login.html?mode=login">登录</a>
-        <a class="btn btn-dark" href="login.html?mode=register">注册</a>
+        <span class="service-status" id="serviceStatus" data-i18n="common.connecting">连接中</span>
+        <a class="btn btn-light" href="login.html?mode=login" data-i18n="common.login">登录</a>
+        <a class="btn btn-dark" href="login.html?mode=register" data-i18n="common.register">注册</a>
       </div>
       <div class="mobile-menu" id="mobileMenu">
-        <a href="#dashboard">首页</a>
-        <a href="#modules">功能</a>
-        <a href="#progress">进度</a>
-        <span class="service-status" id="mobileServiceStatus">连接中</span>
-        <a class="btn btn-light" href="login.html?mode=login">登录</a>
-        <a class="btn btn-dark" href="login.html?mode=register">注册</a>
+        <a href="#dashboard" data-i18n="common.home">首页</a>
+        <a href="#modules" data-i18n="common.modules">功能</a>
+        <a href="#progress" data-i18n="common.progress">进度</a>
+        <span class="service-status" id="mobileServiceStatus" data-i18n="common.connecting">连接中</span>
+        <a class="btn btn-light" href="login.html?mode=login" data-i18n="common.login">登录</a>
+        <a class="btn btn-dark" href="login.html?mode=register" data-i18n="common.register">注册</a>
       </div>
     </header>
 
     <main class="dashboard-page" id="dashboard">
       <section class="dashboard-hero">
         <div>
-          <p class="audience">面向 N1-N5 的 JLPT 学习中心</p>
-          <h1>今天从哪个模块开始？</h1>
-          <p class="lead">登录后这里会保存你的等级、打卡、单词、语法和各项训练进度。所有学习项目都已经拆成独立页面。</p>
+          <p class="audience" data-i18n="index.audience">面向 N1-N5 的 JLPT 学习中心</p>
+          <h1 data-i18n="index.heroTitle">今天从哪个模块开始？</h1>
+          <p class="lead" data-i18n="index.heroLead">登录后这里会保存你的等级、打卡、单词、语法和各项训练进度。所有学习项目都已经拆成独立页面。</p>
           <div class="hero-actions">
-            <a class="btn btn-red" href="vocabulary.html">开始背单词</a>
-            <a class="btn btn-light" href="login.html?mode=login">切换账号</a>
+            <a class="btn btn-red" href="vocabulary.html" data-i18n="index.startVocab">开始背单词</a>
+            <a class="btn btn-light" href="login.html?mode=login" data-i18n="common.switchAccount">切换账号</a>
           </div>
         </div>
         <aside class="today-card dashboard-checkin" id="checkin" aria-label="今日学习卡片">
           <div class="card-head">
             <div>
-              <h2>今日学习</h2>
+              <h2 data-i18n="index.today">今日学习</h2>
               <p><span id="currentLevelText">N2</span> · <span id="accountLabel">演示用户</span></p>
             </div>
-            <span class="mini-status">进行中</span>
+            <span class="mini-status" data-i18n="index.inProgress">进行中</span>
           </div>
           <div class="streak-panel">
             <div>
-              <strong>连续打卡 <span id="streakDays">12</span> 天</strong>
-              <span id="checkinHint">今天还没有完成打卡</span>
+              <strong><span data-i18n="index.streakPrefix">连续打卡</span> <span id="streakDays">12</span> <span data-i18n="index.streakSuffix">天</span></strong>
+              <span id="checkinHint" data-i18n="index.notCheckedIn">今天还没有完成打卡</span>
             </div>
-            <button class="btn btn-red" type="button" id="checkinButton">打卡</button>
+            <button class="btn btn-red" type="button" id="checkinButton" data-i18n="index.checkin">打卡</button>
           </div>
         </aside>
       </section>
 
       <section class="modules dashboard-modules" id="modules" aria-labelledby="modulesHeading">
         <div class="section-head">
-          <h2 id="modulesHeading">学习功能</h2>
-          <p>每个模块都是独立页面，按 N5-N1 分级学习。</p>
+            <h2 id="modulesHeading" data-i18n="index.modulesTitle">学习功能</h2>
+            <p data-i18n="index.modulesLead">每个模块都是独立页面，按 N5-N1 分级学习。</p>
         </div>
         <div class="module-grid dashboard-grid">
           <a class="module-card" href="vocabulary.html" data-module="单词">
             <span class="icon red">単</span>
-            <strong>单词</strong>
-            <p>单词表、选择题学习、发音和掌握状态。</p>
+            <strong data-i18n="module.vocabulary">单词</strong>
+            <p data-i18n="index.vocabDesc">单词表、选择题学习、发音和掌握状态。</p>
             <div class="card-progress"><span style="width: 68%"></span></div>
           </a>
           <a class="module-card" href="grammar.html" data-module="语法">
             <span class="icon blue">文</span>
-            <strong>语法</strong>
-            <p>句型分类、接续、例句、易错点和小测。</p>
+            <strong data-i18n="module.grammar">语法</strong>
+            <p data-i18n="index.grammarDesc">句型分类、接续、例句、易错点和小测。</p>
             <div class="card-progress"><span style="width: 54%"></span></div>
           </a>
           <a class="module-card" href="reading.html" data-module="阅读">
             <span class="icon green">読</span>
-            <strong>阅读</strong>
-            <p>短文、通知、观点文、长文定位训练。</p>
+            <strong data-i18n="module.reading">阅读</strong>
+            <p data-i18n="index.readingDesc">短文、通知、观点文、长文定位训练。</p>
             <div class="card-progress"><span style="width: 46%"></span></div>
           </a>
           <a class="module-card" href="listening.html" data-module="听力">
             <span class="icon amber">聴</span>
-            <strong>听力</strong>
-            <p>时间地点、请求、计划变更、观点听力。</p>
+            <strong data-i18n="module.listening">听力</strong>
+            <p data-i18n="index.listeningDesc">时间地点、请求、计划变更、观点听力。</p>
             <div class="card-progress"><span style="width: 71%"></span></div>
           </a>
         </div>
@@ -143,8 +143,8 @@
       <section class="workspace workspace-single" id="progress">
         <section class="level-area" id="levels" aria-labelledby="levelHeading">
           <div class="section-head">
-            <h2 id="levelHeading">等级路径与进度</h2>
-            <p>选择当前备考等级后，下方会展示每个学习项目的进度条。</p>
+            <h2 id="levelHeading" data-i18n="index.levelTitle">等级路径与进度</h2>
+            <p data-i18n="index.levelLead">选择当前备考等级后，下方会展示每个学习项目的进度条。</p>
           </div>
           <div class="level-tabs" role="tablist" aria-label="JLPT 等级">
             <button type="button" data-level="N5">N5</button>
@@ -155,7 +155,7 @@
           </div>
           <article class="roadmap-card">
             <div class="roadmap-intro">
-              <h3><span id="roadmapLevel">N2</span> 学习进度</h3>
+              <h3 id="roadmapTitle"><span id="roadmapLevel">N2</span> 学习进度</h3>
               <p id="roadmapCopy">8 周完成高频词、核心语法、真题阅读与听力场景训练。</p>
             </div>
             <div class="progress-list" id="progressList"></div>
@@ -167,12 +167,13 @@
     <footer class="site-footer">
       <div>
         <strong>Nihongo Loop</strong>
-        <span>面向 N1-N5 的日语考级学习工具</span>
+        <span data-i18n="index.footerDesc">面向 N1-N5 的日语考级学习工具</span>
       </div>
-      <a href="#modules">回到功能入口</a>
+      <a href="#modules" data-i18n="index.backModules">回到功能入口</a>
     </footer>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

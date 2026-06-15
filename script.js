@@ -1,26 +1,26 @@
 const levelData = {
   N5: {
-    copy: "6 周建立假名、基础单词、入门语法和慢速听力的学习节奏。",
+    copyKey: "roadmap.N5",
   },
   N4: {
-    copy: "7 周巩固日常表达，提升短文阅读和基础听力反应速度。",
+    copyKey: "roadmap.N4",
   },
   N3: {
-    copy: "8 周连接基础到中级，强化长句理解、文章结构和听力关键词。",
+    copyKey: "roadmap.N3",
   },
   N2: {
-    copy: "8 周完成高频词、核心语法、真题阅读与听力场景训练。",
+    copyKey: "roadmap.N2",
   },
   N1: {
-    copy: "10 周面向高阶词汇、抽象阅读、复杂语法和考试节奏冲刺。",
+    copyKey: "roadmap.N1",
   },
 };
 
 const moduleConfig = {
-  单词: { key: "vocabulary", href: "vocabulary.html", color: "red", completedLabel: "已掌握" },
-  语法: { key: "grammar", href: "grammar.html", color: "blue", completedLabel: "已学会" },
-  阅读: { key: "reading", href: "reading.html", color: "green", completedLabel: "已完成" },
-  听力: { key: "listening", href: "listening.html", color: "amber", completedLabel: "已听懂" },
+  单词: { key: "vocabulary", href: "vocabulary.html", color: "red", nameKey: "module.vocabulary", completedLabelKey: "module.vocabularyDone" },
+  语法: { key: "grammar", href: "grammar.html", color: "blue", nameKey: "module.grammar", completedLabelKey: "module.grammarDone" },
+  阅读: { key: "reading", href: "reading.html", color: "green", nameKey: "module.reading", completedLabelKey: "module.readingDone" },
+  听力: { key: "listening", href: "listening.html", color: "amber", nameKey: "module.listening", completedLabelKey: "module.listeningDone" },
 };
 
 const moduleOrder = ["单词", "语法", "阅读", "听力"];
@@ -43,6 +43,10 @@ let currentUserEmail = localStorage.getItem("nihongoLoopUserEmail") || "演示�
 const apiBase = window.location.protocol === "file:" ? "http://127.0.0.1:8787" : "";
 let toastTimer;
 
+function t(key, params = {}) {
+  return window.NihongoI18n?.t(key, params) || key;
+}
+
 function showToast(message) {
   toast.textContent = message;
   toast.classList.add("show");
@@ -52,7 +56,7 @@ function showToast(message) {
 
 function setServiceStatus(isOnline) {
   serviceBadges.forEach((badge) => {
-    badge.textContent = isOnline ? "后端已连接" : "离线演示";
+    badge.textContent = isOnline ? t("common.online") : t("common.offline");
     badge.classList.toggle("online", isOnline);
     badge.classList.toggle("offline", !isOnline);
   });
@@ -135,21 +139,24 @@ function progressSnapshot(moduleName, level) {
   const completed = Object.entries(records).filter(([id, record]) => ids.has(id) && isComplete(record)).length;
   const total = ids.size;
   const percent = total ? Math.min(100, Math.round((completed / total) * 100)) : 0;
-  const detail = total ? `${completed}/${total} ${config.completedLabel}` : `${completed} 个${config.completedLabel}`;
+  const completedLabel = t(config.completedLabelKey);
+  const detail = total ? `${completed}/${total} ${completedLabel}` : `${completed} ${completedLabel}`;
   return { ...config, completed, total, percent, detail };
 }
 
 function renderProgress(level) {
   const data = levelData[level] || levelData.N2;
-  document.querySelector("#roadmapLevel").textContent = level;
+  const roadmapLevel = document.querySelector("#roadmapLevel");
+  if (roadmapLevel) roadmapLevel.textContent = level;
   document.querySelector("#currentLevelText").textContent = level;
-  document.querySelector("#roadmapCopy").textContent = data.copy;
+  document.querySelector("#roadmapCopy").textContent = t(data.copyKey);
+  document.querySelector("#roadmapTitle").textContent = t("index.progressTitle", { level });
   const rows = moduleOrder.map((name) => [name, progressSnapshot(name, level)]);
   document.querySelector("#progressList").innerHTML = rows
     .map(
       ([name, progress]) => `
         <a class="progress-row dashboard-progress-row" href="${progress.href}">
-          <b>${name}</b>
+          <b>${t(progress.nameKey)}</b>
           <small>${progress.detail}</small>
           <div class="progress-track"><span class="${progress.color}" style="width: ${progress.percent}%"></span></div>
           <em>${progress.percent}%</em>
@@ -171,13 +178,13 @@ function applyCheckinState() {
   const button = document.querySelector("#checkinButton");
   const checkedIn = Boolean(savedState.checkedIn);
   document.querySelector("#streakDays").textContent = String(Number(savedState.streakDays || 0));
-  document.querySelector("#checkinHint").textContent = checkedIn ? "今日打卡完成，明天继续保持节奏" : "今天还没有完成打卡";
-  button.textContent = checkedIn ? "已打卡" : "打卡";
+  document.querySelector("#checkinHint").textContent = checkedIn ? t("index.checkedIn") : t("index.notCheckedIn");
+  button.textContent = checkedIn ? t("index.checkedButton") : t("index.checkin");
   button.disabled = checkedIn;
 }
 
 function applyDashboard() {
-  document.querySelector("#accountLabel").textContent = currentUserEmail;
+  document.querySelector("#accountLabel").textContent = currentUserEmail === "演示用户" ? t("common.demoUser") : currentUserEmail;
   const level = currentLevel();
   document.querySelectorAll("[data-level]").forEach((button) => {
     button.classList.toggle("active", button.dataset.level === level);
@@ -185,6 +192,8 @@ function applyDashboard() {
   renderProgress(level);
   applyCheckinState();
 }
+
+window.addEventListener("nihongo:languagechange", applyDashboard);
 
 document.querySelectorAll("[data-level]").forEach((button) => {
   button.addEventListener("click", async () => {

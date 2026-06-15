@@ -9,6 +9,10 @@ const params = new URLSearchParams(window.location.search);
 let initialUnitApplied = false;
 let isEditingPlan = false;
 
+function t(key, params = {}) {
+  return window.NihongoI18n?.t(key, params) || key;
+}
+
 const localVocabularyByLevel = {
   N5: [
     { id: "n5-asa", word: "朝", kana: "あさ", meaning: "早晨", type: "名词", example: "朝、コーヒーを飲みます。", exampleMeaning: "早上喝咖啡。" },
@@ -260,7 +264,7 @@ function escapeHtml(value) {
 }
 
 function setServiceStatus(isOnline) {
-  statusBadge.textContent = isOnline ? "后端已连接" : "离线演示";
+  statusBadge.textContent = isOnline ? t("common.online") : t("common.offline");
   statusBadge.classList.toggle("online", isOnline);
   statusBadge.classList.toggle("offline", !isOnline);
 }
@@ -304,7 +308,7 @@ function localPayload(level) {
 }
 
 async function loadVocabulary(level) {
-  document.querySelector("#vocabPageTitle").textContent = `${level} 单词训练`;
+  document.querySelector("#vocabPageTitle").textContent = `${level} ${t("module.vocabulary")} ${t("common.training")}`;
   document.querySelector("#vocabPageContent").innerHTML = `<div class="vocab-loading"><strong>正在载入 ${level} 单词</strong><span>准备单词表、发音和选择题。</span></div>`;
   try {
     const data = await apiRequest(`/api/vocabulary?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(level)}`);
@@ -827,3 +831,8 @@ document.querySelector("#vocabCompleteButton").addEventListener("click", async (
 });
 
 setLevel(session.level);
+
+window.addEventListener("nihongo:languagechange", () => {
+  document.querySelector("#vocabPageTitle").textContent = `${session.level} ${t("module.vocabulary")} ${t("common.training")}`;
+  setServiceStatus(statusBadge.classList.contains("online"));
+});

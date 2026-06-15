@@ -8,6 +8,10 @@ const initialGrammarResume = savedState.grammarResume?.[currentUserId] || {};
 const initialGrammarLevel = initialGrammarResume.level || savedState.grammarLevel || "N5";
 const initialGrammarLevelResume = initialGrammarResume.levels?.[initialGrammarLevel] || {};
 
+function t(key, params = {}) {
+  return window.NihongoI18n?.t(key, params) || key;
+}
+
 const fallbackGrammar = {
   N5: [
     {
@@ -54,7 +58,7 @@ function showToast(message) {
 }
 
 function setServiceStatus(isOnline) {
-  statusBadge.textContent = isOnline ? "后端已连接" : "离线演示";
+  statusBadge.textContent = isOnline ? t("common.online") : t("common.offline");
   statusBadge.classList.toggle("online", isOnline);
   statusBadge.classList.toggle("offline", !isOnline);
 }
@@ -120,7 +124,7 @@ function decorateLocal(points) {
 }
 
 async function loadGrammar(level) {
-  document.querySelector("#grammarPageTitle").textContent = `${level} 语法学习`;
+  document.querySelector("#grammarPageTitle").textContent = `${level} ${t("module.grammar")} ${t("common.training")}`;
   document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>正在载入 ${level} 语法</strong><span>整理分类、接续和小测。</span></div>`;
   try {
     const data = await apiRequest(`/api/grammar?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(level)}`);
@@ -333,3 +337,9 @@ document.querySelectorAll("[data-grammar-level]").forEach((button) => {
 });
 
 setLevel(session.level);
+
+window.addEventListener("nihongo:languagechange", () => {
+  document.querySelector("#grammarPageTitle").textContent = `${session.level} ${t("module.grammar")} ${t("common.training")}`;
+  setServiceStatus(statusBadge.classList.contains("online"));
+  draw();
+});

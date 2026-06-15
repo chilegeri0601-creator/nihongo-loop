@@ -6,27 +6,27 @@
     <title>测验 | Nihongo Loop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-page-title="test.title">
     <header class="site-header scrolled">
       <a class="brand" href="index.html" aria-label="返回首页">
         <span>Nihongo Loop</span>
         <small>テスト</small>
       </a>
       <nav class="nav-links" aria-label="测验页导航">
-        <a href="index.html">首页</a>
+        <a href="index.html" data-i18n="common.home">首页</a>
         <a href="#" id="backToStudyLink">返回学习</a>
       </nav>
       <div class="header-actions">
         <span class="service-status online" id="testStatus">测验中</span>
-        <a class="btn btn-light" href="index.html">返回首页</a>
+        <a class="btn btn-light" href="index.html" data-i18n="common.backHome">返回首页</a>
       </div>
     </header>
 
     <main class="test-page">
       <section class="test-hero">
         <div>
-          <h1 id="testHeading">测验</h1>
-          <p id="testLead">这里只做测验，不显示学习讲解内容。</p>
+          <h1 id="testHeading" data-i18n="test.title">测验</h1>
+          <p id="testLead" data-i18n="test.lead">这里只做测验，不显示学习讲解内容。</p>
         </div>
         <div class="level-tabs compact" role="tablist" aria-label="选择测验等级">
           <button type="button" data-test-level="N5">N5</button>
@@ -56,6 +56,7 @@
     </main>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="i18n.js"></script>
     <script src="test.js"></script>
   </body>
 </html>

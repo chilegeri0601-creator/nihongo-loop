@@ -36,6 +36,8 @@ async function main() {
   const htmlText = await html.text();
   assert.match(htmlText, /Nihongo Loop/);
   assert.match(htmlText, /script\.js/);
+  assert.match(htmlText, /i18n\.js/);
+  assert.match(htmlText, /data-i18n="index\.heroTitle"/);
   assert.match(htmlText, /login\.html\?mode=login/);
   assert.doesNotMatch(htmlText, /class="auth-panel" aria-label="账号表单"/);
   assert.match(htmlText, /reading\.html/);
@@ -51,6 +53,18 @@ async function main() {
   assert.match(dashboardScriptText, /featureRecords/);
   assert.doesNotMatch(dashboardScriptText, /progress:\s*\[/);
 
+  const i18nScript = await fetch(`${BASE_URL}/i18n.js`);
+  assert.equal(i18nScript.status, 200);
+  const i18nScriptText = await i18nScript.text();
+  assert.match(i18nScriptText, /zh-CN/);
+  assert.match(i18nScriptText, /zh-TW/);
+  assert.match(i18nScriptText, /English/);
+  assert.match(i18nScriptText, /Tiếng Việt/);
+  assert.match(i18nScriptText, /नेपाली/);
+  assert.match(i18nScriptText, /Монгол/);
+  assert.match(i18nScriptText, /language-switcher/);
+  assert.match(i18nScriptText, /nihongo:languagechange/);
+
   const loginPage = await fetch(`${BASE_URL}/login.html`);
   assert.equal(loginPage.status, 200);
   const loginPageText = await loginPage.text();
@@ -58,6 +72,7 @@ async function main() {
   assert.match(loginPageText, /忘记密码/);
   assert.match(loginPageText, /找回验证码/);
   assert.match(loginPageText, /login\.js/);
+  assert.match(loginPageText, /i18n\.js/);
   assert.match(loginPageText, /desk-dog/);
 
   const loginScript = await fetch(`${BASE_URL}/login.js`);
@@ -74,6 +89,7 @@ async function main() {
   assert.match(vocabPageText, /单词学习/);
   assert.match(vocabPageText, /错题本/);
   assert.match(vocabPageText, /vocabulary\.js/);
+  assert.match(vocabPageText, /i18n\.js/);
   assert.match(vocabPageText, /test\.html\?type=vocabulary/);
 
   const vocabScript = await fetch(`${BASE_URL}/vocabulary.js`);
@@ -117,6 +133,7 @@ async function main() {
   const grammarPageText = await grammarPage.text();
   assert.match(grammarPageText, /语法学习/);
   assert.match(grammarPageText, /grammar\.js/);
+  assert.match(grammarPageText, /i18n\.js/);
   assert.match(grammarPageText, /test\.html\?type=grammar/);
 
   const grammarScript = await fetch(`${BASE_URL}/grammar.js`);
@@ -141,6 +158,7 @@ async function main() {
     const featurePageText = await featurePage.text();
     assert.match(featurePageText, new RegExp(title));
     assert.match(featurePageText, /feature\.js/);
+    assert.match(featurePageText, /i18n\.js/);
     assert.match(featurePageText, /data-feature-level/);
     assert.match(featurePageText, /进入测验/);
   }
@@ -172,6 +190,7 @@ async function main() {
   assert.equal(testPage.status, 200);
   const testPageText = await testPage.text();
   assert.match(testPageText, /test\.js/);
+  assert.match(testPageText, /i18n\.js/);
   assert.match(testPageText, /这里只做测验/);
 
   const testScript = await fetch(`${BASE_URL}/test.js`);
