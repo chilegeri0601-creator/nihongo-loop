@@ -23,6 +23,10 @@ function learningText(value) {
   return window.NihongoI18n?.translateLearningText?.(value) || value;
 }
 
+function uiText(value, params = {}) {
+  return window.NihongoI18n?.uiText?.(value, params) || String(value || "").replace(/\{(\w+)\}/g, (_, name) => params[name] ?? "");
+}
+
 function featureName() {
   return t(`module.${featureKey}`);
 }
@@ -46,7 +50,7 @@ function showToast(message) {
 function speakJapanese(text) {
   if (!text) return;
   if (!("speechSynthesis" in window) || !window.SpeechSynthesisUtterance) {
-    showToast("当前浏览器暂不支持语音播放");
+    showToast(uiText("当前浏览器暂不支持语音播放"));
     return;
   }
   const utterance = new SpeechSynthesisUtterance(text);
@@ -143,8 +147,8 @@ function renderReadingUnits() {
   const activeUnit = currentReadingUnitIndex();
   return `
     <div class="reading-unit-panel">
-      <span>阅读单元</span>
-      <strong>每单元 ${readingUnitSize} 题</strong>
+      <span>${uiText("阅读单元")}</span>
+      <strong>${uiText("每单元 {count} 题", { count: readingUnitSize })}</strong>
       <div class="reading-unit-tabs">
         ${Array.from({ length: readingUnitCount() }, (_, unitIndex) => {
           const range = readingUnitRange(unitIndex);
@@ -167,13 +171,13 @@ function renderList() {
     .map((item, offset) => {
       const index = range.start + offset;
       const done = Boolean(records()[item.id]?.completed);
-      const label = featureKey === "reading" ? "読解" : learningText(item.category);
-      const title = featureKey === "reading" ? `第 ${index + 1} 题` : learningText(item.title);
+      const label = featureKey === "reading" ? uiText("读解") : learningText(item.category);
+      const title = featureKey === "reading" ? uiText("第 {number} 题", { number: index + 1 }) : learningText(item.title);
       return `
         <button type="button" class="feature-list-item ${index === session.index ? "current" : ""} ${done ? "completed" : ""}" data-feature-index="${index}">
           <span>${escapeHtml(label)}</span>
           <strong>${escapeHtml(title)}</strong>
-          <em>${done ? "已完成" : "待训练"}</em>
+          <em>${done ? uiText("已完成") : uiText("待训练")}</em>
         </button>
       `;
     })
@@ -208,26 +212,26 @@ function renderListeningTrainer(item, record, items, done, percent) {
         <h3>${escapeHtml(learningText(item.title))}</h3>
         <p>${escapeHtml(learningText(item.goal))}</p>
         <button class="sound-button listening-play" type="button" data-feature-audio="${escapeHtml(item.sample)}">
-          播放音频
+          ${uiText("播放音频")}
         </button>
         <div class="listening-actions">
-          <button class="btn btn-light" type="button" data-feature-prev ${session.index === 0 ? "disabled" : ""}>上一题</button>
-          <button class="btn btn-dark" type="button" data-listening-complete>${record.completed ? "已听懂" : "标记已听懂"}</button>
-          <button class="btn btn-light" type="button" data-feature-next>${session.index >= items.length - 1 ? "完成" : "下一题"}</button>
+          <button class="btn btn-light" type="button" data-feature-prev ${session.index === 0 ? "disabled" : ""}>${uiText("上一题")}</button>
+          <button class="btn btn-dark" type="button" data-listening-complete>${record.completed ? uiText("已听懂") : uiText("标记已听懂")}</button>
+          <button class="btn btn-light" type="button" data-feature-next>${session.index >= items.length - 1 ? uiText("完成") : uiText("下一题")}</button>
         </div>
         <details class="listening-transcript">
-          <summary>查看原文和提示</summary>
+          <summary>${uiText("查看原文和提示")}</summary>
           <div class="feature-sample">${escapeHtml(item.sample)}</div>
           <p>${escapeHtml(learningText(item.tip))}</p>
         </details>
       </section>
       <aside class="listening-side">
         <div class="grammar-stats">
-          <div><strong>${done}/${items.length}</strong><span>已听懂</span></div>
-          <div><strong>${range.start + 1}-${range.end}</strong><span>当前小组</span></div>
+          <div><strong>${done}/${items.length}</strong><span>${uiText("已听懂")}</span></div>
+          <div><strong>${range.start + 1}-${range.end}</strong><span>${uiText("当前小组")}</span></div>
         </div>
         <div class="listening-group">
-          <span>本组练习</span>
+          <span>${uiText("本组练习")}</span>
           <div>
             ${range.items
               .map((groupItem, offset) => {
@@ -243,9 +247,9 @@ function renderListeningTrainer(item, record, items, done, percent) {
           </div>
         </div>
         <div class="study-link-panel feature-test-cta">
-          <span>测验模式</span>
+          <span>${uiText("测验模式")}</span>
           <h4>${t("common.enterTest")} ${session.level} ${featureName()}</h4>
-          <p>学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。</p>
+          <p>${uiText("学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。")}</p>
           <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">${t("common.startTest")}</a>
         </div>
       </aside>
@@ -259,14 +263,14 @@ function renderFeatureQuestion(item, record) {
   const correct = record.answer === item.question.correct;
   const explanation = answered
     ? `<div class="feature-reading-explain">
-        <b>${correct ? "回答正确" : "答案解析"}</b>
+        <b>${correct ? uiText("回答正确") : uiText("答案解析")}</b>
         <p>${escapeHtml(learningText(`中文意思：${item.translation || ""}`))}</p>
         <p>${escapeHtml(learningText(item.tip || ""))}</p>
       </div>`
     : "";
   return `
     <div class="feature-question-card ${answered ? (correct ? "correct" : "wrong") : ""}">
-      <span>読解問題</span>
+      <span>${uiText("读解问题")}</span>
       <h4>${escapeHtml(learningText(item.question.text))}</h4>
       <div class="feature-answer-grid">
         ${item.question.options
@@ -279,14 +283,14 @@ function renderFeatureQuestion(item, record) {
       <p id="featureAnswerFeedback">${
         answered
           ? correct
-            ? "答对了。下面可以看中文意思和解析。"
+            ? uiText("答对了。下面可以看中文意思和解析。")
             : `${escapeHtml(learningText("还差一点。正确答案是："))}${escapeHtml(learningText(item.question.correct))}`
-          : "请只根据上面的日语文本选择正确答案。"
+          : uiText("请只根据上面的日语文本选择正确答案。")
       }</p>
       ${explanation}
       <div class="feature-question-actions">
-        <button class="btn btn-light" type="button" data-feature-reset-answer>重新选择</button>
-        <button class="btn btn-dark" type="button" data-feature-next ${correct ? "" : "disabled"}>下一题</button>
+        <button class="btn btn-light" type="button" data-feature-reset-answer>${uiText("重新选择")}</button>
+        <button class="btn btn-dark" type="button" data-feature-next ${correct ? "" : "disabled"}>${uiText("下一题")}</button>
       </div>
     </div>
   `;
@@ -314,25 +318,25 @@ function draw() {
     <div class="feature-shell">
       <aside class="feature-sidebar">
         <div class="grammar-stats">
-          <div><strong>${done}/${items.length}</strong><span>已完成</span></div>
-          <div><strong>${readingMode ? `${currentReadingUnitIndex() + 1}/${readingUnitCount()}` : learningText(item.category)}</strong><span>${readingMode ? "当前单元" : "当前分类"}</span></div>
+          <div><strong>${done}/${items.length}</strong><span>${uiText("已完成")}</span></div>
+          <div><strong>${readingMode ? `${currentReadingUnitIndex() + 1}/${readingUnitCount()}` : learningText(item.category)}</strong><span>${readingMode ? uiText("当前单元") : uiText("当前分类")}</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         ${readingMode ? renderReadingUnits() : ""}
-        ${readingMode ? `<div class="reading-unit-note">当前单元：第 ${readingRange.start + 1}-${readingRange.end} 题</div>` : ""}
+        ${readingMode ? `<div class="reading-unit-note">${uiText("当前单元：第 {start}-{end} 题", { start: readingRange.start + 1, end: readingRange.end })}</div>` : ""}
         <div class="feature-list">${renderList()}</div>
       </aside>
       <section class="feature-detail">
         <div class="grammar-detail-top">
-          <span>${session.level} · ${escapeHtml(readingMode ? "読解" : learningText(item.category))}</span>
-          <strong>${record.completed ? "已完成" : "训练中"}</strong>
+          <span>${session.level} · ${escapeHtml(readingMode ? uiText("读解") : learningText(item.category))}</span>
+          <strong>${record.completed ? uiText("已完成") : uiText("训练中")}</strong>
         </div>
-        <h3>${escapeHtml(readingMode ? `阅读题 ${session.index + 1}` : learningText(item.title))}</h3>
+        <h3>${escapeHtml(readingMode ? uiText("阅读题 {number}", { number: session.index + 1 }) : learningText(item.title))}</h3>
         ${readingMode ? "" : `<p class="feature-goal">${escapeHtml(learningText(item.goal))}</p>`}
         <div class="feature-sample-wrap ${readingMode ? "reading-passage" : ""}">
           ${
             featureKey === "listening"
-              ? `<button class="sound-button" type="button" data-feature-audio="${escapeHtml(item.sample)}">播放音频</button>`
+              ? `<button class="sound-button" type="button" data-feature-audio="${escapeHtml(item.sample)}">${uiText("播放音频")}</button>`
               : ""
           }
           <div class="feature-sample">${escapeHtml(item.sample)}</div>
@@ -344,15 +348,15 @@ function draw() {
                 ${item.steps.map((step, index) => `<article><span>Step ${index + 1}</span><p>${escapeHtml(learningText(step))}</p></article>`).join("")}
               </div>
               <div class="grammar-example">
-                <b>学习提示</b>
+                <b>${uiText("学习提示")}</b>
                 <span>${escapeHtml(learningText(item.tip))}</span>
               </div>`
         }
         ${renderFeatureQuestion(item, record)}
         <div class="study-link-panel feature-test-cta">
-          <span>学习模式</span>
-          <h4>${readingMode ? "像考试一样做阅读理解" : "这里只做内容训练"}</h4>
-          <p>${readingMode ? "先在这里完成短句理解，也可以进入独立测验页集中练习。" : "读完材料和步骤后，进入独立测验页答题。"}</p>
+          <span>${uiText("学习模式")}</span>
+          <h4>${readingMode ? uiText("像考试一样做阅读理解") : uiText("这里只做内容训练")}</h4>
+          <p>${readingMode ? uiText("先在这里完成短句理解，也可以进入独立测验页集中练习。") : uiText("读完材料和步骤后，进入独立测验页答题。")}</p>
           <a class="btn btn-dark" href="test.html?type=${encodeURIComponent(featureKey)}&level=${encodeURIComponent(session.level)}">${t("common.enterTest")} ${session.level} ${featureName()} ${t("common.test")}</a>
         </div>
       </section>
@@ -379,7 +383,7 @@ function bind() {
   document.querySelectorAll("[data-feature-audio]").forEach((button) => {
     button.addEventListener("click", () => {
       speakJapanese(button.dataset.featureAudio);
-      button.textContent = "重播音频";
+      button.textContent = uiText("重播音频");
     });
   });
   document.querySelector("[data-feature-prev]")?.addEventListener("click", () => {
@@ -433,7 +437,7 @@ function bind() {
       saveState();
       draw();
     } else {
-      showToast(`${session.level} ${featureName()}完成啦，可以进入测验巩固。`);
+      showToast(uiText("{level} {module}完成啦，可以进入测验巩固。", { level: session.level, module: featureName() }));
     }
   });
 }

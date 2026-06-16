@@ -26,6 +26,10 @@ function learningText(value) {
   return window.NihongoI18n?.translateLearningText?.(value) || value;
 }
 
+function uiText(value, params = {}) {
+  return window.NihongoI18n?.uiText?.(value, params) || String(value || "").replace(/\{(\w+)\}/g, (_, name) => params[name] ?? "");
+}
+
 function testText(key, params = {}) {
   const lang = window.NihongoI18n?.currentLanguage?.() || "zh-CN";
   const bundles = {
@@ -252,8 +256,8 @@ function vocabularyUnitRange(words) {
 }
 
 function unitLabel() {
-  if (isVocabularyMistakeTest()) return "错题本";
-  return isVocabularyUnitTest() ? `第 ${session.unitIndex + 1} 单元` : "";
+  if (isVocabularyMistakeTest()) return uiText("错题本");
+  return isVocabularyUnitTest() ? uiText("第 {unit} 单元", { unit: session.unitIndex + 1 }) : "";
 }
 
 function nextVocabularyUnitIndex() {
@@ -279,18 +283,18 @@ function nextUnitPromptHtml() {
   const nextIndex = nextVocabularyUnitIndex();
   const isLastUnit = nextIndex === null;
   return `
-    <div class="unit-complete-prompt" role="dialog" aria-modal="true" aria-label="单元测验完成">
+    <div class="unit-complete-prompt" role="dialog" aria-modal="true" aria-label="${uiText("单元测验完成")}">
       <div class="unit-complete-card">
-        <span>测验完成</span>
-        <h4>${isLastUnit ? `${session.level} 所有单元完成啦` : `要继续第 ${nextIndex + 1} 单元吗？`}</h4>
-        <p>${isLastUnit ? "这一等级的单元测验已经做完，可以回到单词页复习错题本或重新选择单元。" : "现在继续会直接进入下一单元学习页，不用再回去慢慢找。"}</p>
+        <span>${uiText("测验完成")}</span>
+        <h4>${isLastUnit ? uiText("{level} 所有单元完成啦", { level: session.level }) : uiText("要继续第 {unit} 单元吗？", { unit: nextIndex + 1 })}</h4>
+        <p>${isLastUnit ? uiText("这一等级的单元测验已经做完，可以回到单词页复习错题本或重新选择单元。") : uiText("现在继续会直接进入下一单元学习页，不用再回去慢慢找。")}</p>
         <div class="unit-complete-actions">
           ${
             isLastUnit
-              ? `<a class="btn btn-dark" href="${vocabularyMistakesHref()}">回到单词页</a>`
-              : `<a class="btn btn-dark" href="${vocabularyStudyHref(nextIndex)}">继续学习第 ${nextIndex + 1} 单元</a>`
+              ? `<a class="btn btn-dark" href="${vocabularyMistakesHref()}">${uiText("回到单词页")}</a>`
+              : `<a class="btn btn-dark" href="${vocabularyStudyHref(nextIndex)}">${uiText("继续学习第 {unit} 单元", { unit: nextIndex + 1 })}</a>`
           }
-          <button class="btn btn-light" type="button" data-close-unit-prompt>先休息</button>
+          <button class="btn btn-light" type="button" data-close-unit-prompt>${uiText("先休息")}</button>
         </div>
       </div>
     </div>
@@ -491,41 +495,41 @@ function draw() {
     document.querySelector("#testContent").innerHTML = `
       <div class="test-result">
         <strong>${session.correct}/${total}</strong>
-        <h3>${isVocabularyUnitTest() || isVocabularyMistakeTest() ? `${unitLabel()}测验完成` : "测验完成"}</h3>
+        <h3>${isVocabularyUnitTest() || isVocabularyMistakeTest() ? uiText("{unit}测验完成", { unit: unitLabel() }) : uiText("测验完成")}</h3>
         <p>${
           isVocabularyMistakeTest()
             ? total
-              ? `错题复习完成：本次答对 ${learned.length} 个，仍需复习 ${missed.length} 个。答对的单词会更新记录，掌握后会离开错题本。`
-              : `当前 ${session.level} 没有需要复习的错题，可以先回到单词页继续学习或做单元测验。`
+              ? uiText("错题复习完成：本次答对 {learned} 个，仍需复习 {missed} 个。答对的单词会更新记录，掌握后会离开错题本。", { learned: learned.length, missed: missed.length })
+              : uiText("当前 {level} 没有需要复习的错题，可以先回到单词页继续学习或做单元测验。", { level: session.level })
             : isVocabularyUnitTest()
-              ? `本单元背会 ${learned.length} 个，待复习 ${missed.length} 个。答错的单词已经进入错题本，下次可以继续查看。`
-              : `你已经完成 ${session.level} ${metaName()}测验，可以回到学习页继续复习。`
+              ? uiText("本单元背会 {learned} 个，待复习 {missed} 个。答错的单词已经进入错题本，下次可以继续查看。", { learned: learned.length, missed: missed.length })
+              : uiText("你已经完成 {level} {module}测验，可以回到学习页继续复习。", { level: session.level, module: metaName() })
         }</p>
         ${
           isVocabularyUnitTest() || isVocabularyMistakeTest()
             ? `<div class="test-result-metrics">
-                <div><b>${learned.length}</b><span>本次背会</span></div>
-                <div><b>${missed.length}</b><span>待复习</span></div>
-                <div><b>${accuracy}%</b><span>正确率</span></div>
+                <div><b>${learned.length}</b><span>${uiText("本次背会")}</span></div>
+                <div><b>${missed.length}</b><span>${uiText("待复习")}</span></div>
+                <div><b>${accuracy}%</b><span>${uiText("正确率")}</span></div>
               </div>
               ${
                 missed.length
                   ? `<div class="test-review-list">
-                      <span>进入错题本的单词</span>
+                      <span>${uiText("进入错题本的单词")}</span>
                       ${missed
                         .map((item) => `<em>${escapeHtml(item.word)} · ${escapeHtml(learningText(item.meaning))}</em>`)
                         .join("")}
                     </div>`
-                  : `<div class="test-review-list clear"><span>这一单元没有错题</span><em>很稳，可以进入下一个单元。</em></div>`
+                  : `<div class="test-review-list clear"><span>${uiText("这一单元没有错题")}</span><em>${uiText("很稳，可以进入下一个单元。")}</em></div>`
               }`
             : ""
         }
         <div class="hero-actions">
-          <a class="btn btn-dark" href="${meta.study}">返回学习</a>
-          ${isVocabularyUnitTest() && nextVocabularyUnitIndex() !== null ? `<a class="btn btn-red" href="${vocabularyStudyHref(nextVocabularyUnitIndex())}">继续第 ${nextVocabularyUnitIndex() + 1} 单元</a>` : ""}
-          ${isVocabularyUnitTest() || isVocabularyMistakeTest() ? `<a class="btn btn-light" href="${vocabularyMistakesHref()}">查看错题本</a>` : ""}
-          ${isVocabularyMistakeTest() && total ? `<a class="btn btn-light" href="${vocabularyMistakeTestHref()}">再做错题测试</a>` : ""}
-          <button class="btn btn-light" type="button" id="restartTest">再测一次</button>
+          <a class="btn btn-dark" href="${meta.study}">${uiText("返回学习")}</a>
+          ${isVocabularyUnitTest() && nextVocabularyUnitIndex() !== null ? `<a class="btn btn-red" href="${vocabularyStudyHref(nextVocabularyUnitIndex())}">${uiText("继续第 {unit} 单元", { unit: nextVocabularyUnitIndex() + 1 })}</a>` : ""}
+          ${isVocabularyUnitTest() || isVocabularyMistakeTest() ? `<a class="btn btn-light" href="${vocabularyMistakesHref()}">${uiText("查看错题本")}</a>` : ""}
+          ${isVocabularyMistakeTest() && total ? `<a class="btn btn-light" href="${vocabularyMistakeTestHref()}">${uiText("再做错题测试")}</a>` : ""}
+          <button class="btn btn-light" type="button" id="restartTest">${uiText("再测一次")}</button>
         </div>
         ${nextUnitPromptHtml()}
       </div>
@@ -665,12 +669,12 @@ async function setLevel(level, options = {}) {
   document.querySelectorAll("[data-test-level]").forEach((button) => {
     button.classList.toggle("active", button.dataset.testLevel === level);
   });
-  document.querySelector("#testContent").innerHTML = `<div class="vocab-loading"><strong>正在载入 ${level} 测验</strong><span>准备题目中。</span></div>`;
+  document.querySelector("#testContent").innerHTML = `<div class="vocab-loading"><strong>${uiText("正在载入 {level} 测验", { level })}</strong><span>${uiText("准备题目中。")}</span></div>`;
   saveLevel();
   session.questions = await loadQuestions();
   if (!options.reset && restoreTestProgress() && !resumeNoticeShown) {
     resumeNoticeShown = true;
-    showToast(`已从第 ${session.index + 1} 题继续`);
+    showToast(uiText("已从第 {number} 题继续", { number: session.index + 1 }));
   }
   draw();
 }

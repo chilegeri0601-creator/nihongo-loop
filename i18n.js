@@ -1214,6 +1214,148 @@ const NihongoI18n = (() => {
     }
   };
 
+  const uiPhrases = {
+    "zh-TW": {
+      全部: "全部",
+      暂无语法点: "暫無文法點",
+      "请切换其他等级。": "請切換其他等級。",
+      "整理分类、接续和小测。": "整理分類、接續和小測。",
+      阅读单元: "閱讀單元",
+      读解: "讀解",
+      读解问题: "讀解問題",
+      已听懂: "已聽懂",
+      回答正确: "回答正確",
+      答案解析: "答案解析",
+      "答对了。下面可以看中文意思和解析。": "答對了。下面可以看中文意思和解析。",
+      "学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。": "學習頁只保留播放、標記和切換題目；集中答題請進入獨立測驗頁。",
+      "像考试一样做阅读理解": "像考試一樣做閱讀理解",
+      "这里只做内容训练": "這裡只做內容訓練",
+      "先在这里完成短句理解，也可以进入独立测验页集中练习。": "先在這裡完成短句理解，也可以進入獨立測驗頁集中練習。",
+      "读完材料和步骤后，进入独立测验页答题。": "讀完材料和步驟後，進入獨立測驗頁答題。",
+      "当前浏览器暂不支持语音播放": "目前瀏覽器暫不支援語音播放",
+      "已标记学会，继续下一条。": "已標記學會，繼續下一條。",
+      本次背会: "本次背會",
+      正确率: "正確率",
+      进入错题本的单词: "進入錯題本的單字",
+      这一单元没有错题: "這一單元沒有錯題",
+      "很稳，可以进入下一个单元。": "很穩，可以進入下一個單元。",
+      返回学习: "返回學習",
+      查看错题本: "查看錯題本",
+      再做错题测试: "再做錯題測試",
+      再测一次: "再測一次",
+      回到单词页: "回到單字頁",
+      先休息: "先休息",
+    },
+    en: {
+      全部: "All",
+      暂无语法点: "No grammar points yet",
+      "请切换其他等级。": "Switch to another level.",
+      "整理分类、接续和小测。": "Organizing categories, structures, and mini quizzes.",
+      阅读单元: "Reading units",
+      读解: "Reading",
+      读解问题: "Reading question",
+      已听懂: "Understood",
+      回答正确: "Correct",
+      答案解析: "Answer explanation",
+      "答对了。下面可以看中文意思和解析。": "Correct. You can now view the meaning and explanation.",
+      "学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。": "The study page keeps playback, marking, and switching only. Use the separate quiz page for focused answers.",
+      "像考试一样做阅读理解": "Practice reading like an exam",
+      "这里只做内容训练": "Content training only",
+      "先在这里完成短句理解，也可以进入独立测验页集中练习。": "Complete short-sentence reading here, or use the separate quiz page for focused practice.",
+      "读完材料和步骤后，进入独立测验页答题。": "After reading the material and steps, answer in the separate quiz page.",
+      "当前浏览器暂不支持语音播放": "This browser does not support speech playback yet.",
+      "已标记学会，继续下一条。": "Marked as learned. Moving to the next item.",
+      本次背会: "Learned this time",
+      正确率: "Accuracy",
+      进入错题本的单词: "Words added to the mistake book",
+      这一单元没有错题: "No mistakes in this unit",
+      "很稳，可以进入下一个单元。": "Nice and steady. You can move to the next unit.",
+      返回学习: "Back to study",
+      查看错题本: "View mistake book",
+      再做错题测试: "Retake mistake quiz",
+      再测一次: "Quiz again",
+      回到单词页: "Back to vocabulary",
+      先休息: "Rest first",
+    },
+    vi: {
+      全部: "Tất cả",
+      暂无语法点: "Chưa có điểm ngữ pháp",
+      "请切换其他等级。": "Hãy đổi sang cấp độ khác.",
+      "整理分类、接续和小测。": "Đang sắp xếp phân loại, cấu trúc và bài nhỏ.",
+      阅读单元: "Bài đọc",
+      读解: "Đọc hiểu",
+      读解问题: "Câu hỏi đọc hiểu",
+      已听懂: "Đã hiểu",
+      回答正确: "Đúng",
+      答案解析: "Giải thích đáp án",
+      "答对了。下面可以看中文意思和解析。": "Đúng rồi. Bên dưới có nghĩa và giải thích.",
+      "学习页只保留播放、标记和切换题目；集中答题请进入独立测验页。": "Trang học chỉ để phát, đánh dấu và đổi câu. Hãy vào trang kiểm tra riêng để làm bài tập trung.",
+      "像考试一样做阅读理解": "Làm đọc hiểu như bài thi",
+      "这里只做内容训练": "Chỉ luyện nội dung ở đây",
+      "先在这里完成短句理解，也可以进入独立测验页集中练习。": "Hoàn thành đọc câu ngắn ở đây, hoặc vào trang kiểm tra riêng để luyện tập trung.",
+      "读完材料和步骤后，进入独立测验页答题。": "Sau khi đọc tài liệu và bước làm, vào trang kiểm tra riêng để trả lời.",
+      "当前浏览器暂不支持语音播放": "Trình duyệt hiện chưa hỗ trợ phát giọng nói.",
+      "已标记学会，继续下一条。": "Đã đánh dấu học xong, chuyển sang mục tiếp theo.",
+      本次背会: "Đã nhớ lần này",
+      正确率: "Tỉ lệ đúng",
+      进入错题本的单词: "Từ đã vào sổ lỗi",
+      这一单元没有错题: "Bài này không có lỗi",
+      "很稳，可以进入下一个单元。": "Rất ổn, có thể sang bài tiếp theo.",
+      返回学习: "Quay lại học",
+      查看错题本: "Xem sổ lỗi",
+      再做错题测试: "Làm lại lỗi sai",
+      再测一次: "Kiểm tra lại",
+      回到单词页: "Về trang từ vựng",
+      先休息: "Nghỉ trước",
+    },
+    ne: {
+      全部: "सबै",
+      暂无语法点: "अहिले व्याकरण बिन्दु छैन",
+      "请切换其他等级。": "कृपया अर्को स्तर छान्नुहोस्।",
+      阅读单元: "पठन युनिट",
+      读解: "पठन",
+      读解问题: "पठन प्रश्न",
+      已听懂: "बुझियो",
+      回答正确: "सही",
+      答案解析: "उत्तर व्याख्या",
+      "答对了。下面可以看中文意思和解析。": "सही। तल अर्थ र व्याख्या हेर्न सकिन्छ।",
+      "当前浏览器暂不支持语音播放": "यो ब्राउजरले अहिले आवाज बजाउन समर्थन गर्दैन।",
+      "已标记学会，继续下一条。": "सिकियो भनेर चिन्ह लगाइयो। अर्कोमा जाँदैछ।",
+      本次背会: "यस पटक याद भयो",
+      正确率: "सही दर",
+      进入错题本的单词: "गल्ती पुस्तिकामा गएका शब्द",
+      这一单元没有错题: "यो युनिटमा गल्ती छैन",
+      返回学习: "अध्ययनमा फर्कनुहोस्",
+      查看错题本: "गल्ती पुस्तिका हेर्नुहोस्",
+      再测一次: "फेरि परीक्षा",
+      回到单词页: "शब्द पृष्ठमा फर्कनुहोस्",
+      先休息: "पहिले आराम",
+    },
+    mn: {
+      全部: "Бүгд",
+      暂无语法点: "Одоогоор дүрмийн цэг алга",
+      "请切换其他等级。": "Өөр түвшин сонгоно уу.",
+      阅读单元: "Унших нэгж",
+      读解: "Унших",
+      读解问题: "Унших асуулт",
+      已听懂: "Ойлгосон",
+      回答正确: "Зөв",
+      答案解析: "Хариултын тайлбар",
+      "答对了。下面可以看中文意思和解析。": "Зөв. Доор утга ба тайлбарыг харж болно.",
+      "当前浏览器暂不支持语音播放": "Энэ хөтөч одоогоор яриа тоглуулахгүй.",
+      "已标记学会，继续下一条。": "Сурснаар тэмдэглээд дараагийнх руу орлоо.",
+      本次背会: "Энэ удаа цээжилсэн",
+      正确率: "Зөв хувь",
+      进入错题本的单词: "Алдааны дэвтэрт орсон үг",
+      这一单元没有错题: "Энэ нэгжид алдаа алга",
+      返回学习: "Сурах руу буцах",
+      查看错题本: "Алдааны дэвтэр харах",
+      再测一次: "Дахин шалгах",
+      回到单词页: "Үгийн хуудас руу буцах",
+      先休息: "Эхлээд амрах",
+    },
+  };
+
   function toTraditionalText(value) {
     return String(value ?? "").replace(
       /婴儿|预约|确认|频率|启发|传达|告诉|处理|补充|弥补|学习|语法|阅读|听力|单词|错题|测验|练习|进度|名词|代词|动词|形容词|形容动词|助词|副词|接续词|中文意思|妈妈|爸爸|父亲|母亲|学生|老师|家|在/g,
@@ -1237,6 +1379,16 @@ const NihongoI18n = (() => {
         translated = translated.split(from).join(to);
       });
     return translated;
+  }
+
+  function uiText(value, params = {}) {
+    const source = format(value, params);
+    if (currentLanguage() === defaultLanguage) return source;
+    const phrase = uiPhrases[currentLanguage()]?.[source];
+    if (phrase) return phrase;
+    const known = translateKnownSource(source);
+    if (known !== source) return known;
+    return translateLearningText(source);
   }
 
   const originalText = new WeakMap();
@@ -1275,11 +1427,77 @@ const NihongoI18n = (() => {
     const exact = phraseBundles[lang]?.[trimmed];
     if (exact) return exact;
     let match = trimmed.match(/^第 (\d+) 题$/);
-    if (match) return lang === "en" ? `Question ${match[1]}` : lang === "zh-TW" ? `第 ${match[1]} 題` : `${match[1]}`;
+    if (match) {
+      if (lang === "en") return `Question ${match[1]}`;
+      if (lang === "zh-TW") return `第 ${match[1]} 題`;
+      if (lang === "vi") return `Câu ${match[1]}`;
+      if (lang === "ne") return `प्रश्न ${match[1]}`;
+      if (lang === "mn") return `${match[1]}-р асуулт`;
+    }
+    match = trimmed.match(/^阅读题 (\d+)$/);
+    if (match) {
+      if (lang === "en") return `Reading question ${match[1]}`;
+      if (lang === "zh-TW") return `閱讀題 ${match[1]}`;
+      if (lang === "vi") return `Câu đọc hiểu ${match[1]}`;
+      if (lang === "ne") return `पठन प्रश्न ${match[1]}`;
+      if (lang === "mn") return `Унших асуулт ${match[1]}`;
+    }
     match = trimmed.match(/^第 (\d+) 单元$/);
-    if (match) return lang === "en" ? `Unit ${match[1]}` : lang === "zh-TW" ? `第 ${match[1]} 單元` : `${match[1]}`;
+    if (match) {
+      if (lang === "en") return `Unit ${match[1]}`;
+      if (lang === "zh-TW") return `第 ${match[1]} 單元`;
+      if (lang === "vi") return `Bài ${match[1]}`;
+      if (lang === "ne") return `युनिट ${match[1]}`;
+      if (lang === "mn") return `${match[1]}-р нэгж`;
+    }
+    match = trimmed.match(/^继续第 (\d+) 单元$/);
+    if (match) {
+      if (lang === "en") return `Continue Unit ${match[1]}`;
+      if (lang === "zh-TW") return `繼續第 ${match[1]} 單元`;
+      if (lang === "vi") return `Tiếp tục bài ${match[1]}`;
+      if (lang === "ne") return `युनिट ${match[1]} जारी राख्नुहोस्`;
+      if (lang === "mn") return `${match[1]}-р нэгжийг үргэлжлүүлэх`;
+    }
+    match = trimmed.match(/^继续学习第 (\d+) 单元$/);
+    if (match) {
+      if (lang === "en") return `Continue studying Unit ${match[1]}`;
+      if (lang === "zh-TW") return `繼續學習第 ${match[1]} 單元`;
+      if (lang === "vi") return `Tiếp tục học bài ${match[1]}`;
+      if (lang === "ne") return `युनिट ${match[1]} अध्ययन जारी राख्नुहोस्`;
+      if (lang === "mn") return `${match[1]}-р нэгжийг үргэлжлүүлэн сурах`;
+    }
+    match = trimmed.match(/^要继续第 (\d+) 单元吗？$/);
+    if (match) {
+      if (lang === "en") return `Continue to Unit ${match[1]}?`;
+      if (lang === "zh-TW") return `要繼續第 ${match[1]} 單元嗎？`;
+      if (lang === "vi") return `Tiếp tục sang bài ${match[1]} không?`;
+      if (lang === "ne") return `युनिट ${match[1]} मा जारी राख्ने?`;
+      if (lang === "mn") return `${match[1]}-р нэгж рүү үргэлжлүүлэх үү?`;
+    }
     match = trimmed.match(/^每单元 (\d+) 题$/);
-    if (match) return lang === "en" ? `${match[1]} questions per unit` : lang === "zh-TW" ? `每單元 ${match[1]} 題` : `${match[1]}`;
+    if (match) {
+      if (lang === "en") return `${match[1]} questions per unit`;
+      if (lang === "zh-TW") return `每單元 ${match[1]} 題`;
+      if (lang === "vi") return `${match[1]} câu mỗi bài`;
+      if (lang === "ne") return `प्रति युनिट ${match[1]} प्रश्न`;
+      if (lang === "mn") return `Нэг нэгжид ${match[1]} асуулт`;
+    }
+    match = trimmed.match(/^(N[1-5]) 所有单元完成啦$/);
+    if (match) {
+      if (lang === "en") return `${match[1]} all units complete`;
+      if (lang === "zh-TW") return `${match[1]} 所有單元完成啦`;
+      if (lang === "vi") return `Đã hoàn thành tất cả bài ${match[1]}`;
+      if (lang === "ne") return `${match[1]} का सबै युनिट पूरा भयो`;
+      if (lang === "mn") return `${match[1]} бүх нэгж дууслаа`;
+    }
+    match = trimmed.match(/^(.+)测验完成$/);
+    if (match) {
+      if (lang === "en") return `${match[1]} quiz complete`;
+      if (lang === "zh-TW") return `${match[1]}測驗完成`;
+      if (lang === "vi") return `Hoàn thành kiểm tra ${match[1]}`;
+      if (lang === "ne") return `${match[1]} परीक्षा पूरा भयो`;
+      if (lang === "mn") return `${match[1]} шалгалт дууслаа`;
+    }
     match = trimmed.match(/^进入 (N[1-5]) (单词|语法|阅读|听力)测验$/);
     if (match) return `${t("common.enterTest")} ${match[1]} ${moduleNameFromSource(match[2])} ${t("common.test")}`;
     match = trimmed.match(/^开始(单词|语法|阅读|听力)测验$/);
@@ -1289,11 +1507,55 @@ const NihongoI18n = (() => {
     match = trimmed.match(/^正在载入 (N[1-5]) (单词|语法|测验)$/);
     if (match) return lang === "en" ? `Loading ${match[1]} ${match[2] === "单词" ? "vocabulary" : match[2] === "语法" ? "grammar" : "quiz"}` : `${match[1]} ${phraseBundles[lang]?.[`正在载入${match[2]}`] || phraseBundles[lang]?.正在载入测验 || trimmed}`;
     match = trimmed.match(/^当前单元：第 (\d+)-(\d+) 题$/);
-    if (match) return lang === "en" ? `Current unit: Questions ${match[1]}-${match[2]}` : lang === "zh-TW" ? `目前單元：第 ${match[1]}-${match[2]} 題` : trimmed;
+    if (match) {
+      if (lang === "en") return `Current unit: Questions ${match[1]}-${match[2]}`;
+      if (lang === "zh-TW") return `目前單元：第 ${match[1]}-${match[2]} 題`;
+      if (lang === "vi") return `Bài hiện tại: câu ${match[1]}-${match[2]}`;
+      if (lang === "ne") return `हालको युनिट: प्रश्न ${match[1]}-${match[2]}`;
+      if (lang === "mn") return `Одоогийн нэгж: ${match[1]}-${match[2]} асуулт`;
+    }
     match = trimmed.match(/^已从第 (\d+) 题继续$/);
-    if (match) return lang === "en" ? `Resumed from question ${match[1]}` : lang === "zh-TW" ? `已從第 ${match[1]} 題繼續` : trimmed;
+    if (match) {
+      if (lang === "en") return `Resumed from question ${match[1]}`;
+      if (lang === "zh-TW") return `已從第 ${match[1]} 題繼續`;
+      if (lang === "vi") return `Tiếp tục từ câu ${match[1]}`;
+      if (lang === "ne") return `प्रश्न ${match[1]} बाट जारी`;
+      if (lang === "mn") return `${match[1]}-р асуултаас үргэлжиллээ`;
+    }
     match = trimmed.match(/^还差一点。正确答案是：(.+)$/);
     if (match) return lang === "en" ? `Almost. Correct answer: ${match[1]}` : trimmed;
+    match = trimmed.match(/^错题复习完成：本次答对 (\d+) 个，仍需复习 (\d+) 个。答对的单词会更新记录，掌握后会离开错题本。$/);
+    if (match) {
+      if (lang === "en") return `Mistake review complete: ${match[1]} correct, ${match[2]} still need review. Correct words are updated and leave the mistake book after mastery.`;
+      if (lang === "zh-TW") return `錯題複習完成：本次答對 ${match[1]} 個，仍需複習 ${match[2]} 個。答對的單字會更新記錄，掌握後會離開錯題本。`;
+      if (lang === "vi") return `Hoàn thành ôn lỗi: đúng ${match[1]} từ, còn ${match[2]} từ cần ôn. Từ trả lời đúng sẽ được cập nhật và rời sổ lỗi sau khi nắm vững.`;
+      if (lang === "ne") return `गल्ती पुनरावृत्ति पूरा: ${match[1]} सही, ${match[2]} अझै दोहोर्याउनुपर्ने। सही शब्दहरूको रेकर्ड अपडेट हुन्छ र सिकेपछि गल्ती पुस्तिकाबाट हट्छ।`;
+      if (lang === "mn") return `Алдаа давтах дууслаа: ${match[1]} зөв, ${match[2]} үг давтах хэрэгтэй. Зөв хариулсан үгс шинэчлэгдэж, цээжилсний дараа алдааны дэвтрээс гарна.`;
+    }
+    match = trimmed.match(/^本单元背会 (\d+) 个，待复习 (\d+) 个。答错的单词已经进入错题本，下次可以继续查看。$/);
+    if (match) {
+      if (lang === "en") return `This unit: ${match[1]} learned, ${match[2]} to review. Wrong words were added to the mistake book for next time.`;
+      if (lang === "zh-TW") return `本單元背會 ${match[1]} 個，待複習 ${match[2]} 個。答錯的單字已經進入錯題本，下次可以繼續查看。`;
+      if (lang === "vi") return `Bài này: đã nhớ ${match[1]} từ, cần ôn ${match[2]} từ. Từ sai đã vào sổ lỗi để xem lại lần sau.`;
+      if (lang === "ne") return `यो युनिट: ${match[1]} शब्द याद भयो, ${match[2]} दोहोर्याउन बाँकी। गलत शब्दहरू अर्को पटक हेर्न गल्ती पुस्तिकामा गए।`;
+      if (lang === "mn") return `Энэ нэгж: ${match[1]} үг цээжилсэн, ${match[2]} үг давтах. Буруу үгс дараа харахаар алдааны дэвтэрт орлоо.`;
+    }
+    match = trimmed.match(/^你已经完成 (N[1-5]) (.+)测验，可以回到学习页继续复习。$/);
+    if (match) {
+      if (lang === "en") return `You completed the ${match[1]} ${match[2]} quiz. Return to the study page to keep reviewing.`;
+      if (lang === "zh-TW") return `你已經完成 ${match[1]} ${match[2]} 測驗，可以回到學習頁繼續複習。`;
+      if (lang === "vi") return `Bạn đã hoàn thành bài kiểm tra ${match[1]} ${match[2]}. Hãy quay lại trang học để ôn tiếp.`;
+      if (lang === "ne") return `तपाईंले ${match[1]} ${match[2]} परीक्षा पूरा गर्नुभयो। पुनरावृत्ति जारी राख्न अध्ययन पृष्ठमा फर्कनुहोस्।`;
+      if (lang === "mn") return `Та ${match[1]} ${match[2]} шалгалтыг дуусгалаа. Давтахын тулд сурах хуудас руу буцна уу.`;
+    }
+    match = trimmed.match(/^当前 (N[1-5]) 没有需要复习的错题，可以先回到单词页继续学习或做单元测验。$/);
+    if (match) {
+      if (lang === "en") return `There are no ${match[1]} mistakes to review right now. Return to vocabulary study or take a unit quiz.`;
+      if (lang === "zh-TW") return `目前 ${match[1]} 沒有需要複習的錯題，可以先回到單字頁繼續學習或做單元測驗。`;
+      if (lang === "vi") return `Hiện không có lỗi ${match[1]} cần ôn. Hãy quay lại học từ vựng hoặc làm kiểm tra bài.`;
+      if (lang === "ne") return `अहिले ${match[1]} मा दोहोर्याउनुपर्ने गल्ती छैन। शब्द पृष्ठमा फर्केर पढ्नुहोस् वा युनिट परीक्षा गर्नुहोस्।`;
+      if (lang === "mn") return `Одоогоор ${match[1]} түвшинд давтах алдаа алга. Үгийн хуудас руу буцах эсвэл нэгжийн шалгалт хийж болно.`;
+    }
     return source;
   }
 
@@ -1399,7 +1661,7 @@ const NihongoI18n = (() => {
     observer.observe(document.body, { childList: true, subtree: true, characterData: true });
   });
 
-  return { languages, t, apply, currentLanguage, setLanguage, translateLearningText };
+  return { languages, t, apply, currentLanguage, setLanguage, translateLearningText, uiText };
 })();
 
 window.NihongoI18n = NihongoI18n;

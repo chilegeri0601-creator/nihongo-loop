@@ -65,6 +65,8 @@ async function main() {
   assert.match(i18nScriptText, /language-switcher/);
   assert.match(i18nScriptText, /nihongo:languagechange/);
   assert.match(i18nScriptText, /translateLearningText/);
+  assert.match(i18nScriptText, /uiText/);
+  assert.match(i18nScriptText, /uiPhrases/);
   assert.match(i18nScriptText, /"我": "I"/);
 
   const loginPage = await fetch(`${BASE_URL}/login.html`);
@@ -122,10 +124,14 @@ async function main() {
   assert.match(vocabScriptText, /vocabularyResume/);
   assert.match(vocabScriptText, /vocabText/);
   assert.match(vocabScriptText, /Choose words per unit first/);
+  assert.match(vocabScriptText, /Chọn kế hoạch học từ vựng/);
+  assert.match(vocabScriptText, /पठन युनिट|युनिट/);
+  assert.match(vocabScriptText, /Одоогийн нэгж|нэгж/);
   assert.match(vocabScriptText, /Edit study plan/);
   assert.match(vocabScriptText, /Don’t know/);
   assert.match(vocabScriptText, /Next word/);
   assert.match(vocabScriptText, /Current unit/);
+  assert.doesNotMatch(vocabScriptText, /isEnglish\(\)/);
   assert.match(vocabScriptText, /learningText\(word\.meaning\)/);
   assert.match(vocabScriptText, /learningText\(word\.exampleMeaning\)/);
   assert.match(vocabScriptText, /data-set-fixed-goal/);
@@ -159,6 +165,7 @@ async function main() {
   assert.match(grammarScriptText, /applyResumeForLevel/);
   assert.match(grammarScriptText, /learningText\(point\.meaning\)/);
   assert.match(grammarScriptText, /learningText\(point\.exampleMeaning\)/);
+  assert.match(grammarScriptText, /uiText\("分类"\)/);
   assert.doesNotMatch(grammarScriptText, /data-grammar-answer/);
 
   for (const [page, title] of [
@@ -199,6 +206,7 @@ async function main() {
   assert.match(featureScriptText, /applyResumeForLevel/);
   assert.match(featureScriptText, /learningText\(item\.question\.text\)/);
   assert.match(featureScriptText, /learningText\(`中文意思：/);
+  assert.match(featureScriptText, /uiText\("阅读单元"\)/);
 
   const testPage = await fetch(`${BASE_URL}/test.html?type=vocabulary&level=N5`);
   assert.equal(testPage.status, 200);
@@ -221,6 +229,7 @@ async function main() {
   assert.match(testScriptText, /Submit answer/);
   assert.match(testScriptText, /learningText\(word\.meaning\)/);
   assert.match(testScriptText, /buildMeaningOptions/);
+  assert.match(testScriptText, /uiText\("返回学习"\)/);
   assert.match(testScriptText, /acceptedAnswers/);
   assert.match(testScriptText, /nihongoLoopTestProgress/);
   assert.match(testScriptText, /restoreTestProgress/);

@@ -16,6 +16,10 @@ function learningText(value) {
   return window.NihongoI18n?.translateLearningText?.(value) || value;
 }
 
+function uiText(value, params = {}) {
+  return window.NihongoI18n?.uiText?.(value, params) || String(value || "").replace(/\{(\w+)\}/g, (_, name) => params[name] ?? "");
+}
+
 const fallbackGrammar = {
   N5: [
     {
@@ -129,7 +133,7 @@ function decorateLocal(points) {
 
 async function loadGrammar(level) {
   document.querySelector("#grammarPageTitle").textContent = `${level} ${t("module.grammar")} ${t("common.training")}`;
-  document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>正在载入 ${level} 语法</strong><span>整理分类、接续和小测。</span></div>`;
+  document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>${uiText("正在载入 {level} 语法", { level })}</strong><span>${uiText("整理分类、接续和小测。")}</span></div>`;
   try {
     const data = await apiRequest(`/api/grammar?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(level)}`);
     setServiceStatus(true);
@@ -170,7 +174,7 @@ function clampSessionIndex() {
 
 function renderCategoryOptions() {
   return ["全部", ...session.categories]
-    .map((category) => `<option value="${escapeHtml(category)}" ${session.category === category ? "selected" : ""}>${escapeHtml(learningText(category))}</option>`)
+    .map((category) => `<option value="${escapeHtml(category)}" ${session.category === category ? "selected" : ""}>${escapeHtml(category === "全部" ? uiText("全部") : learningText(category))}</option>`)
     .join("");
 }
 
@@ -203,7 +207,7 @@ function renderDetail(point) {
           <h3>${escapeHtml(learningText(point.title))}</h3>
           <p>${escapeHtml(learningText(point.meaning))}</p>
         </div>
-        <span class="${point.completed ? "learned" : ""}">${point.completed ? "已学会" : "学习中"}</span>
+        <span class="${point.completed ? "learned" : ""}">${point.completed ? uiText("已学会") : uiText("学习中")}</span>
       </div>
       <p class="grammar-pattern">${escapeHtml(point.pattern)}</p>
       <div class="grammar-example">
@@ -212,11 +216,11 @@ function renderDetail(point) {
       </div>
       <div class="grammar-explain-grid">
         <article>
-          <span>什么时候用</span>
+          <span>${uiText("什么时候用")}</span>
           <p>${escapeHtml(learningText(point.whenToUse))}</p>
         </article>
         <article>
-          <span>怎么接</span>
+          <span>${uiText("怎么接")}</span>
           <p>${escapeHtml(learningText(point.structure))}</p>
         </article>
       </div>
@@ -225,10 +229,10 @@ function renderDetail(point) {
         <small>${escapeHtml(learningText(point.commonMistake))}</small>
       </div>
       <div class="grammar-actions">
-        <button class="btn btn-light" type="button" data-grammar-prev>上一条</button>
-        <button class="btn btn-red" type="button" data-grammar-complete>${point.completed ? "已完成" : "标记学会"}</button>
-        <button class="btn btn-dark" type="button" data-grammar-next>下一条</button>
-        <a class="btn btn-light" href="test.html?type=grammar&level=${encodeURIComponent(point.level)}">去测验</a>
+        <button class="btn btn-light" type="button" data-grammar-prev>${uiText("上一条")}</button>
+        <button class="btn btn-red" type="button" data-grammar-complete>${point.completed ? uiText("已完成") : uiText("标记学会")}</button>
+        <button class="btn btn-dark" type="button" data-grammar-next>${uiText("下一条")}</button>
+        <a class="btn btn-light" href="test.html?type=grammar&level=${encodeURIComponent(point.level)}">${uiText("去测验")}</a>
       </div>
     </section>
   `;
@@ -240,7 +244,7 @@ function draw() {
   const percent = session.stats.total ? Math.round((session.stats.completed / session.stats.total) * 100) : 0;
   const visible = visiblePosition();
   if (!point) {
-    document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>暂无语法点</strong><span>请切换其他等级。</span></div>`;
+    document.querySelector("#grammarPageContent").innerHTML = `<div class="vocab-loading"><strong>${uiText("暂无语法点")}</strong><span>${uiText("请切换其他等级。")}</span></div>`;
     return;
   }
   saveLocalState();
@@ -248,18 +252,18 @@ function draw() {
     <div class="grammar-shell" id="grammarMap">
       <section class="grammar-sidebar">
         <div class="grammar-stats">
-          <div><strong>${session.stats.completed}/${session.stats.total}</strong><span>全等级进度</span></div>
-          <div><strong>${visible.current}/${visible.total}</strong><span>当前分类</span></div>
-          <div><strong>${session.categories.length}</strong><span>分类</span></div>
+          <div><strong>${session.stats.completed}/${session.stats.total}</strong><span>${uiText("全等级进度")}</span></div>
+          <div><strong>${visible.current}/${visible.total}</strong><span>${uiText("当前分类")}</span></div>
+          <div><strong>${session.categories.length}</strong><span>${uiText("分类")}</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         <div class="grammar-select-row">
           <label>
-            分类
+            ${uiText("分类")}
             <select data-grammar-category-select>${renderCategoryOptions()}</select>
           </label>
           <label>
-            语法点
+            ${uiText("语法点")}
             <select data-grammar-picker>${renderPointOptions()}</select>
           </label>
         </div>
@@ -332,7 +336,7 @@ async function markCurrentComplete() {
       setServiceStatus(false);
     }
   }
-  showToast("已标记学会，继续下一条。");
+  showToast(uiText("已标记学会，继续下一条。"));
   moveGrammar(1);
 }
 
