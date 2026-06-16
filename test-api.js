@@ -68,6 +68,7 @@ async function main() {
   assert.match(i18nScriptText, /uiText/);
   assert.match(i18nScriptText, /uiPhrases/);
   assert.match(i18nScriptText, /"我": "I"/);
+  assert.match(i18nScriptText, /Translation is being prepared/);
 
   const loginPage = await fetch(`${BASE_URL}/login.html`);
   assert.equal(loginPage.status, 200);
@@ -125,8 +126,9 @@ async function main() {
   assert.match(vocabScriptText, /vocabText/);
   assert.match(vocabScriptText, /Choose words per unit first/);
   assert.match(vocabScriptText, /Chọn kế hoạch học từ vựng/);
-  assert.match(vocabScriptText, /पठन युनिट|युनिट/);
-  assert.match(vocabScriptText, /Одоогийн нэгж|нэгж/);
+  assert.match(vocabScriptText, /शब्द अध्ययन योजना/);
+  assert.match(vocabScriptText, /Үгийн сурах төлөвлөгөө/);
+  assert.match(vocabScriptText, /confirmPlanChange/);
   assert.match(vocabScriptText, /Edit study plan/);
   assert.match(vocabScriptText, /Don’t know/);
   assert.match(vocabScriptText, /Next word/);
@@ -143,6 +145,8 @@ async function main() {
   assert.ok(vocabScriptText.includes('data-speak="${escapeHtml(item.kana || item.word)}"'));
   assert.doesNotMatch(vocabScriptText, /data-speak="\$\{escapeHtml\(word\.word\)\}"/);
   assert.doesNotMatch(vocabScriptText, /data-speak="\$\{escapeHtml\(item\.word\)\}"/);
+  assert.doesNotMatch(vocabScriptText, /aria-label="选择学习单元"/);
+  assert.doesNotMatch(vocabScriptText, /window\.confirm\(`确定把这个账号/);
 
   const grammarPage = await fetch(`${BASE_URL}/grammar.html`);
   assert.equal(grammarPage.status, 200);

@@ -100,6 +100,13 @@ function vocabText(key, params = {}) {
     unknownSaved: "Saved as unknown. Review it later.",
     unitFinishedToast: "Unit {unit} is finished. You can take the unit quiz.",
     movedToReview: "Moved to review. It will appear in the mistake book.",
+    loadingTitle: "Loading {level} vocabulary",
+    loadingLead: "Preparing word lists, pronunciation, and quizzes.",
+    speechUnsupported: "This browser does not support speech playback yet.",
+    wordList: "word list",
+    chooseUnitAria: "Choose study unit",
+    unitPositionAria: "Study position in this unit",
+    confirmPlanChange: "Change this account to {goal} words per unit? Units will be regrouped by the new number and will stay near your current word.",
   };
   const zh = {
     planAria: "选择单词学习计划",
@@ -175,6 +182,13 @@ function vocabText(key, params = {}) {
     unknownSaved: "已记录为不认识，稍后复习。",
     unitFinishedToast: "第 {unit} 单元学习完啦，可以去做单元测验。",
     movedToReview: "已放入待复习，之后会出现在错题本。",
+    loadingTitle: "正在载入 {level} 单词",
+    loadingLead: "准备单词表、发音和选择题。",
+    speechUnsupported: "当前浏览器暂不支持语音朗读",
+    wordList: "单词表",
+    chooseUnitAria: "选择学习单元",
+    unitPositionAria: "本单元学习位置",
+    confirmPlanChange: "确定把这个账号改成每单元 {goal} 个词吗？单元会重新按新数量分组，但会尽量停在当前单词附近。",
   };
   const zhTW = {
     planAria: "選擇單字學習計畫",
@@ -250,6 +264,13 @@ function vocabText(key, params = {}) {
     unknownSaved: "已記錄為不認識，稍後複習。",
     unitFinishedToast: "第 {unit} 單元學習完啦，可以去做單元測驗。",
     movedToReview: "已放入待複習，之後會出現在錯題本。",
+    loadingTitle: "正在載入 {level} 單字",
+    loadingLead: "準備單字表、發音和選擇題。",
+    speechUnsupported: "目前瀏覽器暫不支援語音朗讀",
+    wordList: "單字表",
+    chooseUnitAria: "選擇學習單元",
+    unitPositionAria: "本單元學習位置",
+    confirmPlanChange: "確定把這個帳號改成每單元 {goal} 個詞嗎？單元會重新按新數量分組，但會盡量停在目前單字附近。",
   };
   const vi = {
     planAria: "Chọn kế hoạch học từ vựng",
@@ -325,15 +346,30 @@ function vocabText(key, params = {}) {
     unknownSaved: "Đã lưu là chưa biết. Ôn lại sau.",
     unitFinishedToast: "Bài {unit} đã học xong. Bạn có thể làm kiểm tra bài.",
     movedToReview: "Đã chuyển vào ôn tập. Sẽ xuất hiện trong sổ lỗi.",
+    loadingTitle: "Đang tải từ vựng {level}",
+    loadingLead: "Đang chuẩn bị danh sách từ, phát âm và câu hỏi.",
+    speechUnsupported: "Trình duyệt hiện chưa hỗ trợ phát giọng nói.",
+    wordList: "danh sách từ",
+    chooseUnitAria: "Chọn bài học",
+    unitPositionAria: "Vị trí học trong bài này",
+    confirmPlanChange: "Đổi tài khoản này thành {goal} từ mỗi bài? Các bài sẽ được chia lại theo số mới và sẽ cố gắng giữ gần từ hiện tại.",
   };
   const ne = {
+    planAria: "शब्द अध्ययन योजना छान्नुहोस्",
+    wordPlan: "{level} शब्द योजना",
     chooseGoal: "पहिले प्रत्येक युनिटमा कति शब्द पढ्ने छान्नुहोस्",
+    planIntro: "हरेक खाताले एक पटक मात्र छान्नुपर्छ। त्यसपछि पृष्ठले त्यही संख्याका शब्द देखाउँछ र तपाईं रोकिएको ठाउँबाट जारी राख्छ।",
     wordsPerUnit: "शब्द/युनिट",
+    changeLater: "पछि “अध्ययन योजना बदल्नुहोस्” बाट परिवर्तन गर्न सकिन्छ।",
     mastered: "सिकियो",
     review: "पुनरावृत्ति",
     viewed: "हेरिसकियो",
     learning: "सिक्दै",
     new: "सुरु छैन",
+    unitCompleteConfirm: "यस युनिटका {count} शब्द सकिए। अहिले युनिट {unit} परीक्षा सुरु गर्ने?",
+    stayStudy: "अध्ययन पृष्ठमै रहियो। पछि युनिट कार्डबाट परीक्षा सुरु गर्न सक्नुहुन्छ।",
+    unitProgressTitle: "{level} युनिट प्रगति",
+    unitProgressLead: "हरेक युनिटले छोटो प्रगति मात्र देखाउँछ। जारी राख्न युनिट कार्ड थिच्नुहोस्।",
     words: "शब्द",
     unit: "युनिट {unit}",
     seen: "हेरिएको",
@@ -343,20 +379,34 @@ function vocabText(key, params = {}) {
     study: "अध्ययन",
     mistakeBook: "{level} गल्ती पुस्तिका",
     mistakeCount: "{count} शब्द पुनरावृत्ति",
+    mistakeLead: "पूर्वनिर्धारित रूपमा बन्द हुन्छ। खोल्दा गल्तीहरू देखिन्छन्। शब्द सिकेपछि वा लगातार सही गरेपछि हट्छ।",
     expandMistakes: "गल्ती पुस्तिका खोल्नुहोस्",
     collapseMistakes: "गल्ती पुस्तिका बन्द गर्नुहोस्",
     mistakeQuiz: "गल्ती पुनरावृत्ति परीक्षा",
+    mistakeScope: "यो स्तरका अझै नसिकिएका गल्तीहरू मात्र परीक्षण हुन्छन्।",
+    wrongRight: "गल्ती {wrong} · सही {correct}",
     listen: "सुन्नुहोस्",
     noMistakes: "अहिले गल्ती छैन",
+    noMistakesLead: "{level} शब्द परीक्षा गरेपछि गलत शब्दहरू यहाँ आउनेछन्।",
     enterVocabQuiz: "शब्द परीक्षा खोल्नुहोस्",
+    planAriaFixed: "{level} शब्द अध्ययन योजना",
+    planSummary: "{level} योजना · प्रत्येक युनिट {goal} शब्द",
+    unitRange: "युनिट {unit} · {start}-{end}",
+    unitDoneLead: "यस युनिटका सबै शब्द हेरिसक्नुभयो। चिनेका शब्द सिकिएको मानिन्छन्; नचिनेका पुनरावृत्ति र गल्ती पुस्तिकामा जान्छन्।",
+    todayRangeLead: "आज {start}-{end} शब्द। कार्ड हेर्नुहोस्, “चिन्छु / चिन्दिनँ” थिच्नुहोस्, त्यसपछि “अर्को शब्द” प्रयोग गर्नुहोस्।",
     totalWords: "कुल शब्द",
     units: "युनिट",
+    unitSeen: "युनिटमा हेरिएको",
+    unitReview: "युनिट पुनरावृत्ति",
     notStudied: "नपढिएको",
     totalProgress: "कुल प्रगति",
     testUnit: "युनिट {unit} परीक्षा",
+    fixedPlan: "खाताको योजना निश्चित छ",
+    continueAt: "अर्को पटक युनिट {unit}, शब्द {word} बाट जारी हुनेछ।",
     editPlan: "अध्ययन योजना बदल्नुहोस्",
     closeEdit: "बन्द गर्नुहोस्",
     currentUnitOverview: "हालको युनिट",
+    jumpHint: "सीधै जान शब्द थिच्नुहोस्",
     newWord: "नयाँ शब्द",
     knownStatus: "चिनेको",
     unknown: "चिन्दिनँ",
@@ -364,24 +414,44 @@ function vocabText(key, params = {}) {
     known: "चिन्छु",
     nextWord: "अर्को शब्द",
     currentUnit: "हालको युनिट",
+    unitKnown: "युनिटमा चिनेको",
+    totalMastered: "कुल सिकिएको",
     studyMode: "अध्ययन मोड",
+    flashcardMode: "फ्ल्यासकार्ड शैलीमा अगाडि बढ्नुहोस्",
+    flashcardLead: "चिनेका शब्द सिकिएको मानिन्छन्; नचिनेका शब्द पुनरावृत्ति र गल्ती पुस्तिकामा जान्छन्।",
     enterUnitQuiz: "युनिट {unit} परीक्षा",
     viewMistakes: "गल्ती पुस्तिका",
+    fixedGoalToast: "प्रत्येक युनिट {goal} शब्दमा निश्चित भयो",
     todayDone: "आजको शब्द कार्य पूरा भयो",
     markedMastered: "सिकिएको रूपमा चिन्ह लगाइयो",
     backToReview: "पुनरावृत्तिमा फर्काइयो",
     unknownSaved: "नचिनेको रूपमा सुरक्षित भयो। पछि दोहोर्याउनुहोस्।",
     unitFinishedToast: "युनिट {unit} सकियो। अब परीक्षा गर्न सक्नुहुन्छ।",
     movedToReview: "पुनरावृत्तिमा राखियो। गल्ती पुस्तिकामा देखिनेछ।",
+    loadingTitle: "{level} शब्द लोड हुँदै",
+    loadingLead: "शब्द सूची, उच्चारण र प्रश्नहरू तयार हुँदैछन्।",
+    speechUnsupported: "यो ब्राउजरले अहिले आवाज बजाउन समर्थन गर्दैन।",
+    wordList: "शब्द सूची",
+    chooseUnitAria: "अध्ययन युनिट छान्नुहोस्",
+    unitPositionAria: "यो युनिटमा अध्ययन स्थान",
+    confirmPlanChange: "यो खातालाई प्रत्येक युनिट {goal} शब्दमा बदल्ने? युनिटहरू नयाँ संख्याअनुसार फेरि समूहबद्ध हुनेछन् र अहिलेको शब्द नजिकै रहनेछ।",
   };
   const mn = {
+    planAria: "Үгийн сурах төлөвлөгөө сонгох",
+    wordPlan: "{level} үгийн төлөвлөгөө",
     chooseGoal: "Эхлээд нэг нэгжид хэдэн үг сурахаа сонго",
+    planIntro: "Нэг бүртгэл нэг удаа сонгоно. Дараа нь энэ тоогоор үг харуулж, зогссон газраас үргэлжилнэ.",
     wordsPerUnit: "үг/нэгж",
+    changeLater: "Дараа нь “Сурах төлөвлөгөө өөрчлөх” хэсгээс өөрчилж болно.",
     mastered: "Цээжилсэн",
     review: "Давтах",
     viewed: "Сурсан",
     learning: "Сурч байна",
     new: "Эхлээгүй",
+    unitCompleteConfirm: "Энэ нэгжийн {count} үгийг дуусгалаа. Одоо {unit}-р нэгжийн шалгалт эхлүүлэх үү?",
+    stayStudy: "Сурах хуудсанд үлдлээ. Дараа нь нэгжийн картаас шалгалт эхлүүлж болно.",
+    unitProgressTitle: "{level} нэгжийн ахиц",
+    unitProgressLead: "Нэгж бүр зөвхөн товч ахиц харуулна. Үргэлжлүүлэхийн тулд нэгжийн картыг дарна.",
     words: "үг",
     unit: "{unit}-р нэгж",
     seen: "үзсэн",
@@ -391,20 +461,34 @@ function vocabText(key, params = {}) {
     study: "Сурах",
     mistakeBook: "{level} алдааны дэвтэр",
     mistakeCount: "{count} үг давтах",
+    mistakeLead: "Анхнаасаа эвхэгдсэн байна. Нээгээд алдаагаа харна. Цээжилсэн гэж тэмдэглэх эсвэл дараалан зөв хариулбал хасагдана.",
     expandMistakes: "Алдааны дэвтэр нээх",
     collapseMistakes: "Алдааны дэвтэр хаах",
     mistakeQuiz: "Алдаа давтах шалгалт",
+    mistakeScope: "Энэ түвшинд хараахан цээжлээгүй алдааг л шалгана.",
+    wrongRight: "Алдаа {wrong} · зөв {correct}",
     listen: "Сонсох",
     noMistakes: "Одоогоор алдаа алга",
+    noMistakesLead: "{level} үгийн шалгалт хийвэл буруу үгс энд орно.",
     enterVocabQuiz: "Үгийн шалгалт руу орох",
+    planAriaFixed: "{level} үгийн сурах төлөвлөгөө",
+    planSummary: "{level} төлөвлөгөө · нэгж бүр {goal} үг",
+    unitRange: "{unit}-р нэгж · {start}-{end}",
+    unitDoneLead: "Энэ нэгжийн бүх үгийг үзлээ. Мэддэг үгс цээжилсэнд орно; мэдэхгүй үгс давтах болон алдааны дэвтэрт орно.",
+    todayRangeLead: "Өнөөдөр {start}-{end} үг. Карт хараад “Мэднэ / Мэдэхгүй” дарж, дараа нь “Дараагийн үг” хэрэглэнэ.",
     totalWords: "Нийт үг",
     units: "Нэгж",
+    unitSeen: "Нэгжид үзсэн",
+    unitReview: "Нэгжийн давтлага",
     notStudied: "Сураагүй",
     totalProgress: "Нийт ахиц",
     testUnit: "{unit}-р нэгжийн шалгалт",
+    fixedPlan: "Бүртгэлийн төлөвлөгөө тогтсон",
+    continueAt: "Дараа нээхэд {unit}-р нэгжийн {word}-р үгээс үргэлжилнэ.",
     editPlan: "Сурах төлөвлөгөө өөрчлөх",
     closeEdit: "Хаах",
     currentUnitOverview: "Одоогийн нэгж",
+    jumpHint: "Шууд очихын тулд үгийг дарна",
     newWord: "Шинэ үг",
     knownStatus: "Мэднэ",
     unknown: "Мэдэхгүй",
@@ -412,15 +496,27 @@ function vocabText(key, params = {}) {
     known: "Мэднэ",
     nextWord: "Дараагийн үг",
     currentUnit: "Одоогийн нэгж",
+    unitKnown: "Нэгжид мэддэг",
+    totalMastered: "Нийт цээжилсэн",
     studyMode: "Сурах горим",
+    flashcardMode: "Карт шиг ахиулах",
+    flashcardLead: "Мэддэг үгс цээжилсэнд тооцогдоно; мэдэхгүй үгс давтах болон алдааны дэвтэрт орно.",
     enterUnitQuiz: "{unit}-р нэгжийн шалгалт",
     viewMistakes: "Алдааны дэвтэр",
+    fixedGoalToast: "Нэгж бүр {goal} үгээр тогтоолоо",
     todayDone: "Өнөөдрийн үгийн даалгавар дууслаа",
     markedMastered: "Цээжилснээр тэмдэглэв",
     backToReview: "Давтах хэсэгт буцаав",
     unknownSaved: "Мэдэхгүй гэж хадгаллаа. Дараа давтаарай.",
     unitFinishedToast: "{unit}-р нэгж дууслаа. Одоо шалгалт хийж болно.",
     movedToReview: "Давтах хэсэгт оруулав. Алдааны дэвтэрт харагдана.",
+    loadingTitle: "{level} үг ачаалж байна",
+    loadingLead: "Үгийн жагсаалт, дуудлага, асуултуудыг бэлдэж байна.",
+    speechUnsupported: "Энэ хөтөч одоогоор яриа тоглуулахгүй.",
+    wordList: "үгийн жагсаалт",
+    chooseUnitAria: "Сурах нэгж сонгох",
+    unitPositionAria: "Энэ нэгж дэх сурах байрлал",
+    confirmPlanChange: "Энэ бүртгэлийг нэгж бүр {goal} үгтэй болгох уу? Нэгжүүд шинэ тоогоор дахин бүлэглэгдэж, одоогийн үгтэй ойр хадгалагдана.",
   };
   const bundles = { "zh-CN": zh, "zh-TW": zhTW, en, vi, ne, mn };
   const lang = currentLanguage();
@@ -725,7 +821,7 @@ function localPayload(level) {
 
 async function loadVocabulary(level) {
   document.querySelector("#vocabPageTitle").textContent = `${level} ${t("module.vocabulary")} ${t("common.training")}`;
-  document.querySelector("#vocabPageContent").innerHTML = `<div class="vocab-loading"><strong>正在载入 ${level} 单词</strong><span>准备单词表、发音和选择题。</span></div>`;
+  document.querySelector("#vocabPageContent").innerHTML = `<div class="vocab-loading"><strong>${vocabText("loadingTitle", { level })}</strong><span>${vocabText("loadingLead")}</span></div>`;
   try {
     const data = await apiRequest(`/api/vocabulary?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(level)}`);
     setServiceStatus(true);
@@ -792,7 +888,7 @@ async function setLevel(level) {
 
 function speakJapanese(text) {
   if (!("speechSynthesis" in window) || !window.SpeechSynthesisUtterance) {
-    showToast("当前浏览器暂不支持语音朗读");
+    showToast(vocabText("speechUnsupported"));
     return;
   }
   const utterance = new SpeechSynthesisUtterance(text);
@@ -810,7 +906,7 @@ function renderWordList() {
   });
 
   return `
-    <section class="vocab-list-panel" id="vocabList" aria-label="${session.level} 单词表">
+    <section class="vocab-list-panel" id="vocabList" aria-label="${session.level} ${vocabText("wordList")}">
       <div class="vocab-list-head">
         <div>
           <h4>${vocabText("unitProgressTitle", { level: session.level })}</h4>
@@ -963,7 +1059,7 @@ function renderStudyPlan() {
             : ""
         }
       </div>
-      <div class="vocab-unit-tabs" aria-label="选择学习单元">
+      <div class="vocab-unit-tabs" aria-label="${vocabText("chooseUnitAria")}">
         ${units
           .map(
             (unit) => `
@@ -1036,7 +1132,7 @@ function draw() {
         <small>${escapeHtml(word.kana)}</small>
         <p>${escapeHtml(learningText(word.meaning))}</p>
         <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(learningText(word.exampleMeaning))}</span></div>
-        <div class="vocab-card-progress" aria-label="本单元学习位置"><span style="width: ${unitProgress}%"></span></div>
+        <div class="vocab-card-progress" aria-label="${vocabText("unitPositionAria")}"><span style="width: ${unitProgress}%"></span></div>
         <div class="vocab-actions vocab-memory-actions">
           <button type="button" class="vocab-unknown" data-known="false">${vocabText("unknown")}</button>
           <button type="button" class="sound-button" data-speak="${escapeHtml(word.kana || word.word)}">${vocabText("pronunciation")}</button>
@@ -1202,7 +1298,7 @@ function bind() {
         draw();
         return;
       }
-      const confirmed = window.confirm(`确定把这个账号改成每单元 ${nextGoal} 个词吗？单元会重新按新数量分组，但会尽量停在当前单词附近。`);
+      const confirmed = window.confirm(vocabText("confirmPlanChange", { goal: nextGoal }));
       if (!confirmed) return;
       saveVocabularyPlan(nextGoal);
       session.index = Math.min(session.index, Math.max(0, session.words.length - 1));

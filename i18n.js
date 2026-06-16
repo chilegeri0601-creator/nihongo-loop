@@ -1214,6 +1214,13 @@ const NihongoI18n = (() => {
     }
   };
 
+  const untranslatedLearningFallback = {
+    en: "Translation is being prepared.",
+    vi: "Bản dịch đang được bổ sung.",
+    ne: "अनुवाद थपिँदैछ।",
+    mn: "Орчуулгыг нэмж байна.",
+  };
+
   const uiPhrases = {
     "zh-TW": {
       全部: "全部",
@@ -1378,6 +1385,9 @@ const NihongoI18n = (() => {
       .forEach(([from, to]) => {
         translated = translated.split(from).join(to);
       });
+    if (/[\u4e00-\u9fff]/.test(translated) && untranslatedLearningFallback[lang]) {
+      return untranslatedLearningFallback[lang];
+    }
     return translated;
   }
 
