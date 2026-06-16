@@ -64,6 +64,8 @@ async function main() {
   assert.match(i18nScriptText, /Монгол/);
   assert.match(i18nScriptText, /language-switcher/);
   assert.match(i18nScriptText, /nihongo:languagechange/);
+  assert.match(i18nScriptText, /translateLearningText/);
+  assert.match(i18nScriptText, /"我": "I"/);
 
   const loginPage = await fetch(`${BASE_URL}/login.html`);
   assert.equal(loginPage.status, 200);
@@ -124,6 +126,8 @@ async function main() {
   assert.match(vocabScriptText, /Don’t know/);
   assert.match(vocabScriptText, /Next word/);
   assert.match(vocabScriptText, /Current unit/);
+  assert.match(vocabScriptText, /learningText\(word\.meaning\)/);
+  assert.match(vocabScriptText, /learningText\(word\.exampleMeaning\)/);
   assert.match(vocabScriptText, /data-set-fixed-goal/);
   assert.match(vocabScriptText, /修改学习计划/);
   assert.match(vocabScriptText, /saveResume/);
@@ -153,6 +157,8 @@ async function main() {
   assert.match(grammarScriptText, /grammarResume/);
   assert.match(grammarScriptText, /saveResume/);
   assert.match(grammarScriptText, /applyResumeForLevel/);
+  assert.match(grammarScriptText, /learningText\(point\.meaning\)/);
+  assert.match(grammarScriptText, /learningText\(point\.exampleMeaning\)/);
   assert.doesNotMatch(grammarScriptText, /data-grammar-answer/);
 
   for (const [page, title] of [
@@ -191,6 +197,8 @@ async function main() {
   assert.match(featureScriptText, /featureResume/);
   assert.match(featureScriptText, /featureRecords/);
   assert.match(featureScriptText, /applyResumeForLevel/);
+  assert.match(featureScriptText, /learningText\(item\.question\.text\)/);
+  assert.match(featureScriptText, /learningText\(`中文意思：/);
 
   const testPage = await fetch(`${BASE_URL}/test.html?type=vocabulary&level=N5`);
   assert.equal(testPage.status, 200);
@@ -208,6 +216,11 @@ async function main() {
   assert.match(testScriptText, /data-play-audio/);
   assert.match(testScriptText, /data-spelling-answer/);
   assert.match(testScriptText, /spelling-quiz/);
+  assert.match(testScriptText, /Listen first, then write Japanese/);
+  assert.match(testScriptText, /Japanese answer/);
+  assert.match(testScriptText, /Submit answer/);
+  assert.match(testScriptText, /learningText\(word\.meaning\)/);
+  assert.match(testScriptText, /buildMeaningOptions/);
   assert.match(testScriptText, /acceptedAnswers/);
   assert.match(testScriptText, /nihongoLoopTestProgress/);
   assert.match(testScriptText, /restoreTestProgress/);

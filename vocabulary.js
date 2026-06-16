@@ -17,6 +17,10 @@ function isEnglish() {
   return window.NihongoI18n?.currentLanguage?.() === "en";
 }
 
+function learningText(value) {
+  return window.NihongoI18n?.translateLearningText?.(value) || value;
+}
+
 function vocabText(key, params = {}) {
   const en = {
     planAria: "Choose vocabulary study plan",
@@ -619,7 +623,7 @@ function renderMistakeBook() {
                         <button type="button" class="vocab-mistake-main" data-index="${index}">
                           <span>${escapeHtml(item.word)}</span>
                           <em>${escapeHtml(item.kana)}</em>
-                          <b>${escapeHtml(item.meaning)}</b>
+                          <b>${escapeHtml(learningText(item.meaning))}</b>
                         </button>
                         <div class="vocab-mistake-meta">
                           <small>${vocabText("wrongRight", { wrong: wrongCount(item), correct: Number(item.correct || 0) })}</small>
@@ -769,12 +773,12 @@ function draw() {
       <section class="vocab-card ${word.mastered ? "known" : wrongCount(word) > 0 ? "review" : ""}">
         <div class="vocab-topline">
           <span>${session.level} · ${vocabText("unit", { unit: activeUnit + 1 })} · ${unitPosition}/${range.words.length}</span>
-          <em>${escapeHtml(word.type)} · ${wordStatus}</em>
+          <em>${escapeHtml(learningText(word.type))} · ${wordStatus}</em>
         </div>
         <strong>${escapeHtml(word.word)}</strong>
         <small>${escapeHtml(word.kana)}</small>
-        <p>${escapeHtml(word.meaning)}</p>
-        <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(word.exampleMeaning)}</span></div>
+        <p>${escapeHtml(learningText(word.meaning))}</p>
+        <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(learningText(word.exampleMeaning))}</span></div>
         <div class="vocab-card-progress" aria-label="本单元学习位置"><span style="width: ${unitProgress}%"></span></div>
         <div class="vocab-actions vocab-memory-actions">
           <button type="button" class="vocab-unknown" data-known="false">${vocabText("unknown")}</button>

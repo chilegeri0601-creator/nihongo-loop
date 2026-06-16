@@ -12,6 +12,10 @@ function t(key, params = {}) {
   return window.NihongoI18n?.t(key, params) || key;
 }
 
+function learningText(value) {
+  return window.NihongoI18n?.translateLearningText?.(value) || value;
+}
+
 const fallbackGrammar = {
   N5: [
     {
@@ -166,14 +170,14 @@ function clampSessionIndex() {
 
 function renderCategoryOptions() {
   return ["全部", ...session.categories]
-    .map((category) => `<option value="${escapeHtml(category)}" ${session.category === category ? "selected" : ""}>${escapeHtml(category)}</option>`)
+    .map((category) => `<option value="${escapeHtml(category)}" ${session.category === category ? "selected" : ""}>${escapeHtml(learningText(category))}</option>`)
     .join("");
 }
 
 function renderPointOptions() {
   return filteredPoints()
     .map(
-      (point, index) => `<option value="${index}" ${index === session.index ? "selected" : ""}>${point.completed ? "✓ " : ""}${escapeHtml(point.title)}</option>`,
+      (point, index) => `<option value="${index}" ${index === session.index ? "selected" : ""}>${point.completed ? "✓ " : ""}${escapeHtml(learningText(point.title))}</option>`,
     )
     .join("");
 }
@@ -191,34 +195,34 @@ function renderDetail(point) {
   return `
     <section class="grammar-detail">
       <div class="grammar-detail-top">
-        <span>${escapeHtml(point.level)} · ${escapeHtml(point.category)}</span>
+        <span>${escapeHtml(point.level)} · ${escapeHtml(learningText(point.category))}</span>
         <strong>${position.current}/${position.total}</strong>
       </div>
       <div class="grammar-focus">
         <div>
-          <h3>${escapeHtml(point.title)}</h3>
-          <p>${escapeHtml(point.meaning)}</p>
+          <h3>${escapeHtml(learningText(point.title))}</h3>
+          <p>${escapeHtml(learningText(point.meaning))}</p>
         </div>
         <span class="${point.completed ? "learned" : ""}">${point.completed ? "已学会" : "学习中"}</span>
       </div>
       <p class="grammar-pattern">${escapeHtml(point.pattern)}</p>
       <div class="grammar-example">
         <b>${escapeHtml(point.example)}</b>
-        <span>${escapeHtml(point.exampleMeaning)}</span>
+        <span>${escapeHtml(learningText(point.exampleMeaning))}</span>
       </div>
       <div class="grammar-explain-grid">
         <article>
           <span>什么时候用</span>
-          <p>${escapeHtml(point.whenToUse)}</p>
+          <p>${escapeHtml(learningText(point.whenToUse))}</p>
         </article>
         <article>
           <span>怎么接</span>
-          <p>${escapeHtml(point.structure)}</p>
+          <p>${escapeHtml(learningText(point.structure))}</p>
         </article>
       </div>
       <div class="grammar-note-strip">
-        <span>${escapeHtml(point.beginnerTip)}</span>
-        <small>${escapeHtml(point.commonMistake)}</small>
+        <span>${escapeHtml(learningText(point.beginnerTip))}</span>
+        <small>${escapeHtml(learningText(point.commonMistake))}</small>
       </div>
       <div class="grammar-actions">
         <button class="btn btn-light" type="button" data-grammar-prev>上一条</button>

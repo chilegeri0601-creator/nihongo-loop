@@ -22,6 +22,143 @@ function t(key, params = {}) {
   return window.NihongoI18n?.t(key, params) || key;
 }
 
+function learningText(value) {
+  return window.NihongoI18n?.translateLearningText?.(value) || value;
+}
+
+function testText(key, params = {}) {
+  const lang = window.NihongoI18n?.currentLanguage?.() || "zh-CN";
+  const bundles = {
+    "zh-CN": {
+      spellingHint: "听发音，写出日语",
+      spellingTitle: "先听发音，再写出日语",
+      replayPronunciation: "重播发音",
+      playPronunciation: "播放发音",
+      meaning: "中文意思",
+      japaneseAnswer: "日语答案",
+      spellingPlaceholder: "输入日语、假名或汉字",
+      submitAnswer: "提交答案",
+      spellingHelp: "可以输入汉字写法，也可以输入假名。",
+      writeFirst: "先写下你的答案",
+      correct: "答对了。",
+      almost: "还差一点。",
+      audioLabel: "听力音频",
+      audioTitle: "先听音频，再选择答案",
+      playAudio: "播放音频",
+      replayAudio: "重播音频",
+      chooseAnswer: "请选择答案。",
+      wrong: "答案不对。",
+      wrongKeepGoing: "答案不对，先记下错因，下一题继续。",
+    },
+    "zh-TW": {
+      spellingHint: "聽發音，寫出日語",
+      spellingTitle: "先聽發音，再寫出日語",
+      replayPronunciation: "重播發音",
+      playPronunciation: "播放發音",
+      meaning: "意思",
+      japaneseAnswer: "日語答案",
+      spellingPlaceholder: "輸入日語、假名或漢字",
+      submitAnswer: "提交答案",
+      spellingHelp: "可以輸入漢字寫法，也可以輸入假名。",
+      writeFirst: "先寫下你的答案",
+      correct: "答對了。",
+      almost: "還差一點。",
+      audioLabel: "聽力音訊",
+      audioTitle: "先聽音訊，再選擇答案",
+      playAudio: "播放音訊",
+      replayAudio: "重播音訊",
+      chooseAnswer: "請選擇答案。",
+      wrong: "答案不對。",
+      wrongKeepGoing: "答案不對，先記下錯因，下一題繼續。",
+    },
+    en: {
+      spellingHint: "Listen and write Japanese",
+      spellingTitle: "Listen first, then write Japanese",
+      replayPronunciation: "Replay pronunciation",
+      playPronunciation: "Play pronunciation",
+      meaning: "Meaning",
+      japaneseAnswer: "Japanese answer",
+      spellingPlaceholder: "Enter Japanese, kana, or kanji",
+      submitAnswer: "Submit answer",
+      spellingHelp: "You can type kanji or kana.",
+      writeFirst: "Write your answer first",
+      correct: "Correct. ",
+      almost: "Almost. ",
+      audioLabel: "Listening audio",
+      audioTitle: "Listen first, then choose the answer",
+      playAudio: "Play audio",
+      replayAudio: "Replay audio",
+      chooseAnswer: "Choose an answer.",
+      wrong: "Not correct. ",
+      wrongKeepGoing: "Not correct. Note the reason and continue.",
+    },
+    vi: {
+      spellingHint: "Nghe phát âm rồi viết tiếng Nhật",
+      spellingTitle: "Nghe trước, sau đó viết tiếng Nhật",
+      replayPronunciation: "Phát lại phát âm",
+      playPronunciation: "Phát phát âm",
+      meaning: "Nghĩa",
+      japaneseAnswer: "Đáp án tiếng Nhật",
+      spellingPlaceholder: "Nhập tiếng Nhật, kana hoặc kanji",
+      submitAnswer: "Nộp đáp án",
+      spellingHelp: "Bạn có thể nhập kanji hoặc kana.",
+      writeFirst: "Hãy viết đáp án trước",
+      correct: "Đúng rồi. ",
+      almost: "Gần đúng. ",
+      audioLabel: "Âm thanh nghe hiểu",
+      audioTitle: "Nghe trước, rồi chọn đáp án",
+      playAudio: "Phát âm thanh",
+      replayAudio: "Phát lại âm thanh",
+      chooseAnswer: "Hãy chọn đáp án.",
+      wrong: "Chưa đúng. ",
+      wrongKeepGoing: "Chưa đúng. Ghi nhớ lỗi rồi tiếp tục.",
+    },
+    ne: {
+      spellingHint: "उच्चारण सुनेर जापानी लेख्नुहोस्",
+      spellingTitle: "पहिले सुन्नुहोस्, त्यसपछि जापानी लेख्नुहोस्",
+      replayPronunciation: "उच्चारण फेरि बजाउनुहोस्",
+      playPronunciation: "उच्चारण बजाउनुहोस्",
+      meaning: "अर्थ",
+      japaneseAnswer: "जापानी उत्तर",
+      spellingPlaceholder: "जापानी, काना वा कान्जी लेख्नुहोस्",
+      submitAnswer: "उत्तर पठाउनुहोस्",
+      spellingHelp: "कान्जी वा काना दुवै लेख्न सकिन्छ।",
+      writeFirst: "पहिले उत्तर लेख्नुहोस्",
+      correct: "सही। ",
+      almost: "अलि पुगेन। ",
+      audioLabel: "सुन्ने अडियो",
+      audioTitle: "पहिले सुन्नुहोस्, त्यसपछि उत्तर छान्नुहोस्",
+      playAudio: "अडियो बजाउनुहोस्",
+      replayAudio: "अडियो फेरि बजाउनुहोस्",
+      chooseAnswer: "उत्तर छान्नुहोस्।",
+      wrong: "सही भएन। ",
+      wrongKeepGoing: "सही भएन। कारण सम्झेर अगाडि बढ्नुहोस्।",
+    },
+    mn: {
+      spellingHint: "Дуудлагыг сонсоод япон хэлээр бич",
+      spellingTitle: "Эхлээд сонсоод, дараа нь япон хэлээр бич",
+      replayPronunciation: "Дуудлагыг дахин тоглуулах",
+      playPronunciation: "Дуудлага тоглуулах",
+      meaning: "Утга",
+      japaneseAnswer: "Япон хариулт",
+      spellingPlaceholder: "Япон, кана эсвэл ханз бичнэ үү",
+      submitAnswer: "Хариулт илгээх",
+      spellingHelp: "Ханз эсвэл канагаар бичиж болно.",
+      writeFirst: "Эхлээд хариултаа бичнэ үү",
+      correct: "Зөв. ",
+      almost: "Бага зэрэг дутуу. ",
+      audioLabel: "Сонсох аудио",
+      audioTitle: "Эхлээд сонсоод, дараа нь хариултаа сонго",
+      playAudio: "Аудио тоглуулах",
+      replayAudio: "Аудио дахин тоглуулах",
+      chooseAnswer: "Хариултаа сонгоно уу.",
+      wrong: "Буруу байна. ",
+      wrongKeepGoing: "Буруу байна. Шалтгаанаа санаад үргэлжлүүлээрэй.",
+    },
+  };
+  return String(bundles[lang]?.[key] || bundles["zh-CN"][key] || key).replace(/\{(\w+)\}/g, (_, name) => params[name] ?? "");
+}
+
 function metaName() {
   return t(meta.nameKey);
 }
@@ -225,6 +362,12 @@ function buildOptions(items, current, key) {
   return shuffle([current[key], ...shuffle(others).slice(0, 3)]);
 }
 
+function buildMeaningOptions(items, current) {
+  const currentMeaning = learningText(current.meaning);
+  const others = unique(items.map((item) => learningText(item.meaning)).filter((value) => value !== currentMeaning));
+  return shuffle([currentMeaning, ...shuffle(others).slice(0, 3)]);
+}
+
 function normalizeTypedAnswer(value) {
   return String(value || "")
     .normalize("NFKC")
@@ -246,27 +389,28 @@ async function loadVocabularyQuestions() {
         id: word.id,
         word: word.word,
         kana: word.kana,
-        meaning: word.meaning,
-        prompt: word.meaning,
-        hint: "听发音，写出日语",
+        meaning: learningText(word.meaning),
+        prompt: learningText(word.meaning),
+        hint: testText("spellingHint"),
         correct: word.word,
         acceptedAnswers: unique([word.word, word.kana]),
         audioText: word.kana || word.word,
         spelling: true,
-        explanation: `正确答案：${word.word}${word.kana && word.kana !== word.word ? `（${word.kana}）` : ""}`,
+        explanation: `${learningText("正确答案是：")}${word.word}${word.kana && word.kana !== word.word ? `（${word.kana}）` : ""}`,
         save: (correct) => apiRequest("/api/vocabulary/answer", { method: "POST", body: JSON.stringify({ userId: currentUserId, wordId: word.id, correct }) }),
       };
     }
     const zhToJp = index % 2 === 1;
+    const translatedMeaning = learningText(word.meaning);
     return {
       id: word.id,
       word: word.word,
       kana: word.kana,
-      meaning: word.meaning,
-      prompt: zhToJp ? word.meaning : word.word,
-      hint: zhToJp ? "选择对应日语" : word.kana,
-      correct: zhToJp ? word.word : word.meaning,
-      options: buildOptions(words, word, zhToJp ? "word" : "meaning"),
+      meaning: translatedMeaning,
+      prompt: zhToJp ? translatedMeaning : word.word,
+      hint: zhToJp ? learningText("选择对应日语") : word.kana,
+      correct: zhToJp ? word.word : translatedMeaning,
+      options: zhToJp ? buildOptions(words, word, "word") : buildMeaningOptions(words, word),
       save: (correct) => apiRequest("/api/vocabulary/answer", { method: "POST", body: JSON.stringify({ userId: currentUserId, wordId: word.id, correct }) }),
     };
   });
@@ -276,11 +420,11 @@ async function loadGrammarQuestions() {
   const data = await apiRequest(`/api/grammar?userId=${encodeURIComponent(currentUserId)}&level=${encodeURIComponent(session.level)}`);
   return data.grammar.points.map((point) => ({
     id: point.id,
-    prompt: point.miniQuestion.question,
+    prompt: learningText(point.miniQuestion.question),
     hint: point.pattern,
-    correct: point.miniQuestion.correct,
-    options: point.miniQuestion.options,
-    explanation: point.miniQuestion.explanation,
+    correct: learningText(point.miniQuestion.correct),
+    options: point.miniQuestion.options.map((option) => learningText(option)),
+    explanation: learningText(point.miniQuestion.explanation),
     save: (correct) => apiRequest("/api/grammar/answer", { method: "POST", body: JSON.stringify({ userId: currentUserId, grammarId: point.id, correct }) }),
   }));
 }
@@ -292,15 +436,15 @@ async function loadFeatureQuestions() {
   const items = feature.levels[session.level] || [];
   return items.map((item) => ({
     id: item.id,
-    prompt: testType === "reading" ? `${item.sample} ${item.question.text}` : item.question.text,
-    hint: item.category,
+    prompt: testType === "reading" ? `${item.sample} ${learningText(item.question.text)}` : learningText(item.question.text),
+    hint: learningText(item.category),
     audioText: testType === "listening" ? item.sample : "",
-    correct: item.question.correct,
-    options: item.question.options,
+    correct: learningText(item.question.correct),
+    options: item.question.options.map((option) => learningText(option)),
     explanation:
       testType === "reading"
-        ? `中文意思：${item.translation || ""} ${item.tip || ""}`
-        : "答对了，这个训练点已完成。",
+        ? learningText(`中文意思：${item.translation || ""} ${item.tip || ""}`)
+        : learningText("答对了，这个训练点已完成。"),
     save: async (correct) => {
       if (correct) {
         const featureRecords = scopedFeatureRecords(testType);
@@ -369,7 +513,7 @@ function draw() {
                   ? `<div class="test-review-list">
                       <span>进入错题本的单词</span>
                       ${missed
-                        .map((item) => `<em>${escapeHtml(item.word)} · ${escapeHtml(item.meaning)}</em>`)
+                        .map((item) => `<em>${escapeHtml(item.word)} · ${escapeHtml(learningText(item.meaning))}</em>`)
                         .join("")}
                     </div>`
                   : `<div class="test-review-list clear"><span>这一单元没有错题</span><em>很稳，可以进入下一个单元。</em></div>`
@@ -405,20 +549,20 @@ function draw() {
         <div class="audio-panel spelling-audio">
           <div>
             <span>${escapeHtml(question.hint)}</span>
-            <strong>先听发音，再写出日语</strong>
+            <strong>${testText("spellingTitle")}</strong>
           </div>
-          <button class="btn btn-dark" type="button" data-play-audio="${escapeHtml(question.audioText)}">播放发音</button>
+          <button class="btn btn-dark" type="button" data-play-audio="${escapeHtml(question.audioText)}">${testText("playPronunciation")}</button>
         </div>
-        <span>中文意思</span>
+        <span>${testText("meaning")}</span>
         <h3>${escapeHtml(question.prompt)}</h3>
         <form class="spelling-form" data-spelling-form>
           <label>
-            日语答案
-            <input type="text" data-spelling-answer autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入日语、假名或汉字" />
+            ${testText("japaneseAnswer")}
+            <input type="text" data-spelling-answer autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${testText("spellingPlaceholder")}" />
           </label>
-          <button class="btn btn-red" type="submit">提交答案</button>
+          <button class="btn btn-red" type="submit">${testText("submitAnswer")}</button>
         </form>
-        <p id="testFeedback">可以输入汉字写法，也可以输入假名。</p>
+        <p id="testFeedback">${testText("spellingHelp")}</p>
       </div>
     `;
     const playButton = document.querySelector("[data-play-audio]");
@@ -426,7 +570,7 @@ function draw() {
     const form = document.querySelector("[data-spelling-form]");
     const playCurrentAudio = () => {
       speakJapanese(question.audioText);
-      if (playButton) playButton.textContent = "重播发音";
+      if (playButton) playButton.textContent = testText("replayPronunciation");
     };
     playButton?.addEventListener("click", playCurrentAudio);
     window.setTimeout(playCurrentAudio, 180);
@@ -435,7 +579,7 @@ function draw() {
       event.preventDefault();
       const userAnswer = normalizeTypedAnswer(answerInput.value);
       if (!userAnswer) {
-        showToast("先写下你的答案");
+        showToast(testText("writeFirst"));
         answerInput.focus();
         return;
       }
@@ -450,7 +594,7 @@ function draw() {
       form.classList.add(correct ? "correct" : "wrong");
       answerInput.disabled = true;
       form.querySelector("button").disabled = true;
-      document.querySelector("#testFeedback").textContent = correct ? `答对了。${question.explanation}` : `还差一点。${question.explanation}`;
+      document.querySelector("#testFeedback").textContent = correct ? `${testText("correct")}${question.explanation}` : `${testText("almost")}${question.explanation}`;
       if (correct) session.correct += 1;
       advanceAfterAnswer(correct ? 850 : 1300);
       question.save(correct).catch(() => {
@@ -465,10 +609,10 @@ function draw() {
         question.audioText
           ? `<div class="audio-panel">
               <div>
-                <span>听力音频</span>
-                <strong>先听音频，再选择答案</strong>
+                <span>${testText("audioLabel")}</span>
+                <strong>${testText("audioTitle")}</strong>
               </div>
-              <button class="btn btn-dark" type="button" data-play-audio="${escapeHtml(question.audioText)}">播放音频</button>
+              <button class="btn btn-dark" type="button" data-play-audio="${escapeHtml(question.audioText)}">${testText("playAudio")}</button>
             </div>`
           : ""
       }
@@ -477,13 +621,13 @@ function draw() {
       <div class="test-options">
         ${question.options.map((option) => `<button type="button" data-test-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`).join("")}
       </div>
-      <p id="testFeedback">请选择答案。</p>
+      <p id="testFeedback">${testText("chooseAnswer")}</p>
     </div>
   `;
   document.querySelectorAll("[data-play-audio]").forEach((button) => {
     button.addEventListener("click", () => {
       speakJapanese(button.dataset.playAudio);
-      button.textContent = "重播音频";
+      button.textContent = testText("replayAudio");
     });
   });
   document.querySelectorAll("[data-test-answer]").forEach((button) => {
@@ -497,10 +641,10 @@ function draw() {
       });
       button.classList.add(correct ? "correct" : "wrong");
       document.querySelector("#testFeedback").textContent = correct
-        ? question.explanation || "答对了。"
+        ? question.explanation || testText("correct")
         : question.explanation
-          ? `答案不对。${question.explanation}`
-          : "答案不对，先记下错因，下一题继续。";
+          ? `${testText("wrong")}${question.explanation}`
+          : testText("wrongKeepGoing");
       document.querySelectorAll("[data-test-answer]").forEach((item) => (item.disabled = true));
       if (correct) session.correct += 1;
       advanceAfterAnswer(700);
@@ -546,5 +690,5 @@ window.addEventListener("nihongo:languagechange", () => {
   document.querySelector("#testHeading").textContent = `${metaName()} ${t("common.test")}`;
   document.querySelector("#testLead").textContent = t("test.lead");
   document.querySelector("#testStatus").textContent = `${metaName()} ${t("common.test")}`;
-  draw();
+  setLevel(session.level);
 });

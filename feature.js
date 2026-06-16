@@ -19,6 +19,10 @@ function t(key, params = {}) {
   return window.NihongoI18n?.t(key, params) || key;
 }
 
+function learningText(value) {
+  return window.NihongoI18n?.translateLearningText?.(value) || value;
+}
+
 function featureName() {
   return t(`module.${featureKey}`);
 }
@@ -163,8 +167,8 @@ function renderList() {
     .map((item, offset) => {
       const index = range.start + offset;
       const done = Boolean(records()[item.id]?.completed);
-      const label = featureKey === "reading" ? "読解" : item.category;
-      const title = featureKey === "reading" ? `第 ${index + 1} 题` : item.title;
+      const label = featureKey === "reading" ? "読解" : learningText(item.category);
+      const title = featureKey === "reading" ? `第 ${index + 1} 题` : learningText(item.title);
       return `
         <button type="button" class="feature-list-item ${index === session.index ? "current" : ""} ${done ? "completed" : ""}" data-feature-index="${index}">
           <span>${escapeHtml(label)}</span>
@@ -197,12 +201,12 @@ function renderListeningTrainer(item, record, items, done, percent) {
     <div class="listening-shell">
       <section class="listening-card">
         <div class="listening-topline">
-          <span>${session.level} · ${escapeHtml(item.category)}</span>
+          <span>${session.level} · ${escapeHtml(learningText(item.category))}</span>
           <strong>${session.index + 1}/${items.length}</strong>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
-        <h3>${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(item.goal)}</p>
+        <h3>${escapeHtml(learningText(item.title))}</h3>
+        <p>${escapeHtml(learningText(item.goal))}</p>
         <button class="sound-button listening-play" type="button" data-feature-audio="${escapeHtml(item.sample)}">
           播放音频
         </button>
@@ -214,7 +218,7 @@ function renderListeningTrainer(item, record, items, done, percent) {
         <details class="listening-transcript">
           <summary>查看原文和提示</summary>
           <div class="feature-sample">${escapeHtml(item.sample)}</div>
-          <p>${escapeHtml(item.tip)}</p>
+          <p>${escapeHtml(learningText(item.tip))}</p>
         </details>
       </section>
       <aside class="listening-side">
@@ -256,19 +260,19 @@ function renderFeatureQuestion(item, record) {
   const explanation = answered
     ? `<div class="feature-reading-explain">
         <b>${correct ? "回答正确" : "答案解析"}</b>
-        <p>中文意思：${escapeHtml(item.translation || "")}</p>
-        <p>${escapeHtml(item.tip || "")}</p>
+        <p>${escapeHtml(learningText(`中文意思：${item.translation || ""}`))}</p>
+        <p>${escapeHtml(learningText(item.tip || ""))}</p>
       </div>`
     : "";
   return `
     <div class="feature-question-card ${answered ? (correct ? "correct" : "wrong") : ""}">
       <span>読解問題</span>
-      <h4>${escapeHtml(item.question.text)}</h4>
+      <h4>${escapeHtml(learningText(item.question.text))}</h4>
       <div class="feature-answer-grid">
         ${item.question.options
           .map((option) => {
             const selected = record.answer === option;
-            return `<button type="button" class="${selected ? "selected" : ""}" data-feature-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`;
+            return `<button type="button" class="${selected ? "selected" : ""}" data-feature-answer="${escapeHtml(option)}">${escapeHtml(learningText(option))}</button>`;
           })
           .join("")}
       </div>
@@ -276,7 +280,7 @@ function renderFeatureQuestion(item, record) {
         answered
           ? correct
             ? "答对了。下面可以看中文意思和解析。"
-            : `还差一点。正确答案是：${escapeHtml(item.question.correct)}`
+            : `${escapeHtml(learningText("还差一点。正确答案是："))}${escapeHtml(learningText(item.question.correct))}`
           : "请只根据上面的日语文本选择正确答案。"
       }</p>
       ${explanation}
@@ -311,7 +315,7 @@ function draw() {
       <aside class="feature-sidebar">
         <div class="grammar-stats">
           <div><strong>${done}/${items.length}</strong><span>已完成</span></div>
-          <div><strong>${readingMode ? `${currentReadingUnitIndex() + 1}/${readingUnitCount()}` : item.category}</strong><span>${readingMode ? "当前单元" : "当前分类"}</span></div>
+          <div><strong>${readingMode ? `${currentReadingUnitIndex() + 1}/${readingUnitCount()}` : learningText(item.category)}</strong><span>${readingMode ? "当前单元" : "当前分类"}</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         ${readingMode ? renderReadingUnits() : ""}
@@ -320,11 +324,11 @@ function draw() {
       </aside>
       <section class="feature-detail">
         <div class="grammar-detail-top">
-          <span>${session.level} · ${escapeHtml(readingMode ? "読解" : item.category)}</span>
+          <span>${session.level} · ${escapeHtml(readingMode ? "読解" : learningText(item.category))}</span>
           <strong>${record.completed ? "已完成" : "训练中"}</strong>
         </div>
-        <h3>${escapeHtml(readingMode ? `阅读题 ${session.index + 1}` : item.title)}</h3>
-        ${readingMode ? "" : `<p class="feature-goal">${escapeHtml(item.goal)}</p>`}
+        <h3>${escapeHtml(readingMode ? `阅读题 ${session.index + 1}` : learningText(item.title))}</h3>
+        ${readingMode ? "" : `<p class="feature-goal">${escapeHtml(learningText(item.goal))}</p>`}
         <div class="feature-sample-wrap ${readingMode ? "reading-passage" : ""}">
           ${
             featureKey === "listening"
@@ -337,11 +341,11 @@ function draw() {
           readingMode
             ? ""
             : `<div class="feature-steps">
-                ${item.steps.map((step, index) => `<article><span>Step ${index + 1}</span><p>${escapeHtml(step)}</p></article>`).join("")}
+                ${item.steps.map((step, index) => `<article><span>Step ${index + 1}</span><p>${escapeHtml(learningText(step))}</p></article>`).join("")}
               </div>
               <div class="grammar-example">
                 <b>学习提示</b>
-                <span>${escapeHtml(item.tip)}</span>
+                <span>${escapeHtml(learningText(item.tip))}</span>
               </div>`
         }
         ${renderFeatureQuestion(item, record)}
