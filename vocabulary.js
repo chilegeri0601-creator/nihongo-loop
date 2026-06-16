@@ -13,6 +13,161 @@ function t(key, params = {}) {
   return window.NihongoI18n?.t(key, params) || key;
 }
 
+function isEnglish() {
+  return window.NihongoI18n?.currentLanguage?.() === "en";
+}
+
+function vocabText(key, params = {}) {
+  const en = {
+    planAria: "Choose vocabulary study plan",
+    wordPlan: "{level} vocabulary plan",
+    chooseGoal: "Choose words per unit first",
+    planIntro: "Each account only needs to choose once. After that, this page shows that number of words and resumes from where you stopped.",
+    wordsPerUnit: "words/unit",
+    changeLater: "You can change it later from “Edit study plan”.",
+    mastered: "Mastered",
+    review: "Review",
+    viewed: "Finished",
+    learning: "Learning",
+    new: "Not started",
+    unitCompleteConfirm: "You finished studying {count} words in this unit. Start Unit {unit} quiz now?",
+    stayStudy: "Staying on the study page. You can start the unit quiz later.",
+    unitProgressTitle: "{level} unit progress",
+    unitProgressLead: "Each unit now shows compact progress instead of a long word list. Tap a unit card to continue.",
+    words: "words",
+    unit: "Unit {unit}",
+    seen: "seen",
+    know: "known",
+    notStudiedShort: "new",
+    quiz: "Quiz",
+    study: "Study",
+    mistakeBook: "{level} mistake book",
+    mistakeCount: "{count} words to review",
+    mistakeLead: "Collapsed by default. Open it to review mistakes. Mark words as mastered or answer them correctly to remove them.",
+    expandMistakes: "Open mistake book",
+    collapseMistakes: "Close mistake book",
+    mistakeQuiz: "Start mistake review quiz",
+    mistakeScope: "Only tests unmastered mistakes in this level.",
+    wrongRight: "Wrong {wrong} · Correct {correct}",
+    listen: "Listen",
+    noMistakes: "No mistakes right now",
+    noMistakesLead: "Take a {level} vocabulary quiz and wrong words will appear here.",
+    enterVocabQuiz: "Enter vocabulary quiz",
+    planAriaFixed: "{level} vocabulary study plan",
+    planSummary: "{level} study plan · {goal} words per unit",
+    unitRange: "Unit {unit} · {start}-{end}",
+    unitDoneLead: "You have viewed every word in this unit. Known words are mastered; unknown words go to review and the mistake book.",
+    todayRangeLead: "Today: words {start}-{end}. Read the card, tap “Know / Don’t know”, then use “Next word”.",
+    totalWords: "Total words",
+    units: "Units",
+    unitSeen: "Seen in unit",
+    unitReview: "Unit review",
+    notStudied: "Not studied",
+    totalProgress: "Total progress",
+    testUnit: "Quiz Unit {unit}",
+    fixedPlan: "Account plan fixed",
+    continueAt: "Next time: Unit {unit}, word {word}.",
+    editPlan: "Edit study plan",
+    closeEdit: "Close edit",
+    currentUnitOverview: "Current unit overview",
+    jumpHint: "Tap a word to jump directly",
+    newWord: "New word",
+    knownStatus: "Known",
+    unknown: "Don’t know",
+    pronunciation: "Pronunciation",
+    known: "Know",
+    nextWord: "Next word",
+    currentUnit: "Current unit",
+    unitKnown: "Known in unit",
+    totalMastered: "Total mastered",
+    studyMode: "Study mode",
+    flashcardMode: "Flashcard-style progress",
+    flashcardLead: "Known words count as mastered; unknown words enter review and can be checked later in the mistake book.",
+    enterUnitQuiz: "Enter Unit {unit} quiz",
+    viewMistakes: "View mistake book",
+    fixedGoalToast: "Fixed at {goal} words per unit",
+    todayDone: "Today's vocabulary task is complete",
+    markedMastered: "Marked as mastered",
+    backToReview: "Moved back to review",
+    unknownSaved: "Saved as unknown. Review it later.",
+  };
+  const zh = {
+    planAria: "选择单词学习计划",
+    wordPlan: "{level} 单词计划",
+    chooseGoal: "先固定每单元学习几个词",
+    planIntro: "每个账号只需要选一次。选好后，页面会固定按这个数量显示单词，并自动从你上次停下的位置继续。",
+    wordsPerUnit: "词/单元",
+    changeLater: "之后想调整，可以在单词页点击“修改学习计划”。",
+    mastered: "已掌握",
+    review: "待复习",
+    viewed: "已学完",
+    learning: "学习中",
+    new: "未开始",
+    unitCompleteConfirm: "本单元 {count} 个单词学习完成！要现在进入第 {unit} 单元测试吗？",
+    stayStudy: "已留在学习页，你可以稍后从单元卡片进入测试。",
+    unitProgressTitle: "{level} 单元进度",
+    unitProgressLead: "每个单元只显示进度，不再展开长长的单词表。点单元卡片即可继续学习。",
+    words: "词",
+    unit: "第 {unit} 单元",
+    seen: "已看",
+    know: "认识",
+    notStudiedShort: "未学",
+    quiz: "测验",
+    study: "学习",
+    mistakeBook: "{level} 错题本",
+    mistakeCount: "{count} 个待复习单词",
+    mistakeLead: "默认收起，点开后查看错题。复习后标记掌握，或连续答对后会离开错题本。",
+    expandMistakes: "展开错题本",
+    collapseMistakes: "收起错题本",
+    mistakeQuiz: "开始错题复习测试",
+    mistakeScope: "只测试当前等级里还没掌握的错题。",
+    wrongRight: "错 {wrong} 次 · 答对 {correct} 次",
+    listen: "听",
+    noMistakes: "当前没有错题",
+    noMistakesLead: "去做一次 {level} 单词测验，答错的词会自动收进这里。",
+    enterVocabQuiz: "进入单词测验",
+    planAriaFixed: "{level} 单词学习计划",
+    planSummary: "{level} 学习计划 · 每单元 {goal} 词",
+    unitRange: "第 {unit} 单元 · {start}-{end}",
+    unitDoneLead: "本单元已经看完啦。认识的会记录为已掌握，不认识的会进入待复习和错题本。",
+    todayRangeLead: "今天学习 {start}-{end} 号词。看词卡，点“认识 / 不认识”，再用“下一个”推进。",
+    totalWords: "总词数",
+    units: "单元",
+    unitSeen: "本单元已看",
+    unitReview: "本单元待复习",
+    notStudied: "未学习",
+    totalProgress: "总进度",
+    testUnit: "测第 {unit} 单元",
+    fixedPlan: "账号学习计划已固定",
+    continueAt: "下次打开会继续第 {unit} 单元第 {word} 个词。",
+    editPlan: "修改学习计划",
+    closeEdit: "收起修改",
+    currentUnitOverview: "当前单元速览",
+    jumpHint: "点击单词可直接切换学习",
+    newWord: "新单词",
+    knownStatus: "已认识",
+    unknown: "不认识",
+    pronunciation: "听发音",
+    known: "认识",
+    nextWord: "下一词",
+    currentUnit: "当前单元",
+    unitKnown: "本单元认识",
+    totalMastered: "总掌握",
+    studyMode: "学习模式",
+    flashcardMode: "像背单词一样推进",
+    flashcardLead: "认识会计入本单元掌握；不认识会进入待复习，之后也能在错题本里回看。",
+    enterUnitQuiz: "进入第 {unit} 单元测验",
+    viewMistakes: "查看错题本",
+    fixedGoalToast: "已固定为每单元 {goal} 个词",
+    todayDone: "今日单词任务已完成",
+    markedMastered: "已标记掌握",
+    backToReview: "已放回复习",
+    unknownSaved: "已记录为不认识，稍后复习。",
+  };
+  const source = isEnglish() ? en : zh;
+  return String(source[key] || zh[key] || key).replace(/\{(\w+)\}/g, (_, name) => params[name] ?? "");
+}
+
 const localVocabularyByLevel = {
   N5: [
     { id: "n5-asa", word: "朝", kana: "あさ", meaning: "早晨", type: "名词", example: "朝、コーヒーを飲みます。", exampleMeaning: "早上喝咖啡。" },
@@ -146,25 +301,25 @@ function unitKey(unitIndex = currentUnitIndex()) {
 function renderPlanSetup() {
   const suggested = normalizeDailyGoal(savedState.vocabularyDailyGoal || 20);
   return `
-    <section class="vocab-plan-start" aria-label="选择单词学习计划">
+    <section class="vocab-plan-start" aria-label="${vocabText("planAria")}">
       <div class="vocab-plan-start-copy">
-        <span>${session.level} 单词计划</span>
-        <h3>先固定每单元学习几个词</h3>
-        <p>每个账号只需要选一次。选好后，页面会固定按这个数量显示单词，并自动从你上次停下的位置继续。</p>
+        <span>${vocabText("wordPlan", { level: session.level })}</span>
+        <h3>${vocabText("chooseGoal")}</h3>
+        <p>${vocabText("planIntro")}</p>
       </div>
       <div class="vocab-plan-choice-grid">
         ${dailyGoalOptions
           .map(
             (goal) => `
               <button type="button" class="${goal === suggested ? "active" : ""}" data-set-fixed-goal="${goal}">
-                <strong>${goal}</strong>
-                <span>词/单元</span>
+                 <strong>${goal}</strong>
+                <span>${vocabText("wordsPerUnit")}</span>
               </button>
             `,
           )
           .join("")}
       </div>
-      <p class="vocab-plan-start-note">之后想调整，可以在单词页点击“修改学习计划”。</p>
+      <p class="vocab-plan-start-note">${vocabText("changeLater")}</p>
     </section>
   `;
 }
@@ -208,11 +363,11 @@ function unitStudyStats(unitIndex = currentUnitIndex()) {
 }
 
 function unitStatusLabel(stats) {
-  if (stats.complete) return "已掌握";
-  if (stats.review > 0) return "待复习";
-  if (stats.viewedComplete) return "已学完";
-  if (stats.viewedCount > 0) return "学习中";
-  return "未开始";
+  if (stats.complete) return vocabText("mastered");
+  if (stats.review > 0) return vocabText("review");
+  if (stats.viewedComplete) return vocabText("viewed");
+  if (stats.viewedCount > 0) return vocabText("learning");
+  return vocabText("new");
 }
 
 function wrongCount(word) {
@@ -244,11 +399,11 @@ function maybePromptUnitFinished(unitIndex) {
   savedState.vocabularyUnitViewPrompts[key] = new Date().toISOString();
   saveLocalState();
   window.setTimeout(() => {
-    const goToTest = window.confirm(`本单元 ${range.words.length} 个单词学习完成！要现在进入第 ${unitIndex + 1} 单元测试吗？`);
+    const goToTest = window.confirm(vocabText("unitCompleteConfirm", { count: range.words.length, unit: unitIndex + 1 }));
     if (goToTest) {
       window.location.href = unitTestHref(unitIndex);
     } else {
-      showToast("已留在学习页，你可以稍后从单元卡片进入测试。");
+      showToast(vocabText("stayStudy"));
     }
   }, 160);
   return true;
@@ -397,10 +552,10 @@ function renderWordList() {
     <section class="vocab-list-panel" id="vocabList" aria-label="${session.level} 单词表">
       <div class="vocab-list-head">
         <div>
-          <h4>${session.level} 单元进度</h4>
-          <p>每个单元只显示进度，不再展开长长的单词表。点单元卡片即可继续学习。</p>
+          <h4>${vocabText("unitProgressTitle", { level: session.level })}</h4>
+          <p>${vocabText("unitProgressLead")}</p>
         </div>
-        <strong>${session.words.length} 词</strong>
+        <strong>${session.words.length} ${vocabText("words")}</strong>
       </div>
       <div class="vocab-unit-list">
         ${units
@@ -410,20 +565,20 @@ function renderWordList() {
               return `
                 <section class="vocab-unit-card ${unitIndex === currentUnitIndex() ? "active" : ""} ${status}">
                   <button type="button" class="vocab-unit-card-main" data-unit="${unitIndex}">
-                    <span>第 ${unitIndex + 1} 单元</span>
+                    <span>${vocabText("unit", { unit: unitIndex + 1 })}</span>
                     <b>${start + 1}-${end}</b>
                     <em>${unitStatusLabel({ complete, review, viewedComplete, viewedCount })}</em>
                   </button>
                   <div class="vocab-unit-card-progress" aria-hidden="true"><span style="width: ${progress}%"></span></div>
                   <div class="vocab-unit-card-stats">
-                    <small>${viewedCount}/${words.length} 已看</small>
-                    <small>${mastered} 认识</small>
-                    <small>${review} 待复习</small>
-                    <small>${pending} 未学</small>
+                    <small>${viewedCount}/${words.length} ${vocabText("seen")}</small>
+                    <small>${mastered} ${vocabText("know")}</small>
+                    <small>${review} ${vocabText("review")}</small>
+                    <small>${pending} ${vocabText("notStudiedShort")}</small>
                   </div>
                   <div class="vocab-unit-card-actions">
-                    <a href="${unitTestHref(unitIndex)}">测验</a>
-                    <button type="button" data-unit="${unitIndex}">学习</button>
+                    <a href="${unitTestHref(unitIndex)}">${vocabText("quiz")}</a>
+                    <button type="button" data-unit="${unitIndex}">${vocabText("study")}</button>
                   </div>
               </section>
             `;
@@ -439,21 +594,21 @@ function renderMistakeBook() {
   const mistakeWords = session.words.filter((word) => wrongCount(word) > 0 && !word.mastered);
   const shouldOpen = window.location.hash === "#vocabMistakes";
   return `
-    <section class="vocab-list-panel vocab-mistake-panel" id="vocabMistakes" aria-label="${session.level} 单词错题本">
+    <section class="vocab-list-panel vocab-mistake-panel" id="vocabMistakes" aria-label="${vocabText("mistakeBook", { level: session.level })}">
       ${
         mistakeWords.length
           ? `<details class="vocab-mistake-details" ${shouldOpen ? "open" : ""}>
               <summary class="vocab-mistake-summary">
                 <div>
-                  <span>${session.level} 错题本</span>
-                  <strong>${mistakeWords.length} 个待复习单词</strong>
-                  <p>默认收起，点开后查看错题。复习后标记掌握，或连续答对后会离开错题本。</p>
+                   <span>${vocabText("mistakeBook", { level: session.level })}</span>
+                   <strong>${vocabText("mistakeCount", { count: mistakeWords.length })}</strong>
+                   <p>${vocabText("mistakeLead")}</p>
                 </div>
-                <em><b class="open-label">展开错题本</b><b class="close-label">收起错题本</b></em>
+                <em><b class="open-label">${vocabText("expandMistakes")}</b><b class="close-label">${vocabText("collapseMistakes")}</b></em>
               </summary>
               <div class="vocab-mistake-actions">
-                <a class="btn btn-dark" href="${mistakeTestHref()}">开始错题复习测试</a>
-                <span>只测试当前等级里还没掌握的错题。</span>
+                <a class="btn btn-dark" href="${mistakeTestHref()}">${vocabText("mistakeQuiz")}</a>
+                <span>${vocabText("mistakeScope")}</span>
               </div>
               <div class="vocab-mistake-grid">
                 ${mistakeWords
@@ -467,8 +622,8 @@ function renderMistakeBook() {
                           <b>${escapeHtml(item.meaning)}</b>
                         </button>
                         <div class="vocab-mistake-meta">
-                          <small>错 ${wrongCount(item)} 次 · 答对 ${Number(item.correct || 0)} 次</small>
-                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}">听</button>
+                          <small>${vocabText("wrongRight", { wrong: wrongCount(item), correct: Number(item.correct || 0) })}</small>
+                          <button type="button" class="sound-button small" data-speak="${escapeHtml(item.kana || item.word)}">${vocabText("listen")}</button>
                         </div>
                       </article>
                     `;
@@ -477,9 +632,9 @@ function renderMistakeBook() {
               </div>
             </details>`
           : `<div class="vocab-empty-state">
-              <strong>当前没有错题</strong>
-              <span>去做一次 ${session.level} 单词测验，答错的词会自动收进这里。</span>
-              <a class="btn btn-dark" href="test.html?type=vocabulary&level=${encodeURIComponent(session.level)}">进入单词测验</a>
+              <strong>${vocabText("noMistakes")}</strong>
+              <span>${vocabText("noMistakesLead", { level: session.level })}</span>
+              <a class="btn btn-dark" href="test.html?type=vocabulary&level=${encodeURIComponent(session.level)}">${vocabText("enterVocabQuiz")}</a>
             </div>`
       }
     </section>
@@ -507,30 +662,30 @@ function renderStudyPlan() {
   });
 
   return `
-    <section class="vocab-plan-panel" aria-label="${session.level} 单词学习计划">
+    <section class="vocab-plan-panel" aria-label="${vocabText("planAriaFixed", { level: session.level })}">
       <div class="vocab-plan-summary">
-        <span>${session.level} 学习计划 · 每单元 ${session.dailyGoal} 词</span>
-        <h3>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</h3>
-        <p>${range.viewedComplete ? "本单元已经看完啦。认识的会记录为已掌握，不认识的会进入待复习和错题本。" : `今天学习 ${range.start + 1}-${range.end} 号词。看词卡，点“认识 / 不认识”，再用“下一个”推进。`}</p>
+        <span>${vocabText("planSummary", { level: session.level, goal: session.dailyGoal })}</span>
+        <h3>${vocabText("unitRange", { unit: activeUnit + 1, start: range.start + 1, end: range.end })}</h3>
+        <p>${range.viewedComplete ? vocabText("unitDoneLead") : vocabText("todayRangeLead", { start: range.start + 1, end: range.end })}</p>
       </div>
       <div class="vocab-plan-metrics">
-        <div><strong>${session.words.length}</strong><span>总词数</span></div>
-        <div><strong>${unitCount()}</strong><span>单元</span></div>
-        <div><strong>${range.viewedCount}/${range.words.length}</strong><span>本单元已看</span></div>
-        <div><strong>${range.review}</strong><span>本单元待复习</span></div>
+        <div><strong>${session.words.length}</strong><span>${vocabText("totalWords")}</span></div>
+        <div><strong>${unitCount()}</strong><span>${vocabText("units")}</span></div>
+        <div><strong>${range.viewedCount}/${range.words.length}</strong><span>${vocabText("unitSeen")}</span></div>
+        <div><strong>${range.review}</strong><span>${vocabText("unitReview")}</span></div>
       </div>
       <div class="vocab-unit-summary ${range.status}">
-        <div><strong>${range.pending}</strong><span>未学习</span></div>
-        <div><strong>${percent}%</strong><span>总进度</span></div>
-        <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">测第 ${activeUnit + 1} 单元</a>
+        <div><strong>${range.pending}</strong><span>${vocabText("notStudied")}</span></div>
+        <div><strong>${percent}%</strong><span>${vocabText("totalProgress")}</span></div>
+        <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">${vocabText("testUnit", { unit: activeUnit + 1 })}</a>
       </div>
       <div class="vocab-goal-panel ${isEditingPlan ? "editing" : ""}">
         <div>
-          <span>账号学习计划已固定</span>
-          <strong>每单元 ${session.dailyGoal} 词</strong>
-          <p>下次打开会继续第 ${activeUnit + 1} 单元第 ${session.index - range.start + 1} 个词。</p>
+          <span>${vocabText("fixedPlan")}</span>
+          <strong>${session.dailyGoal} ${vocabText("wordsPerUnit")}</strong>
+          <p>${vocabText("continueAt", { unit: activeUnit + 1, word: session.index - range.start + 1 })}</p>
         </div>
-        <button class="btn btn-light" type="button" data-edit-plan>${isEditingPlan ? "收起修改" : "修改学习计划"}</button>
+        <button class="btn btn-light" type="button" data-edit-plan>${isEditingPlan ? vocabText("closeEdit") : vocabText("editPlan")}</button>
         ${
           isEditingPlan
             ? `<div class="vocab-goal-buttons">
@@ -538,7 +693,7 @@ function renderStudyPlan() {
                   .map(
                     (goal) => `
                       <button type="button" data-goal="${goal}" class="${goal === session.dailyGoal ? "active" : ""}">
-                        ${goal} 词/单元
+                         ${goal} ${vocabText("wordsPerUnit")}
                       </button>
                     `,
                   )
@@ -565,13 +720,13 @@ function renderStudyPlan() {
 
 function renderCurrentUnitQueue(range, activeUnit) {
   return `
-    <section class="vocab-unit-strip" aria-label="当前单元单词速览">
+    <section class="vocab-unit-strip" aria-label="${vocabText("currentUnitOverview")}">
       <div class="vocab-unit-strip-head">
         <div>
-          <span>当前单元速览</span>
-          <strong>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</strong>
+          <span>${vocabText("currentUnitOverview")}</span>
+          <strong>${vocabText("unitRange", { unit: activeUnit + 1, start: range.start + 1, end: range.end })}</strong>
         </div>
-        <em>点击单词可直接切换学习</em>
+        <em>${vocabText("jumpHint")}</em>
       </div>
       <ul class="vocab-queue">
         ${range.words
@@ -581,7 +736,7 @@ function renderCurrentUnitQueue(range, activeUnit) {
               <li class="${index === session.index ? "current" : ""} ${item.mastered ? "mastered" : ""}">
                 <button type="button" data-index="${index}">
                   <span>${escapeHtml(item.word)}</span>
-                  <em>${item.mastered ? "已掌握" : wrongCount(item) > 0 ? "待复习" : "未学习"}</em>
+                  <em>${item.mastered ? vocabText("mastered") : wrongCount(item) > 0 ? vocabText("review") : vocabText("notStudied")}</em>
                 </button>
               </li>
             `;
@@ -607,13 +762,13 @@ function draw() {
   const range = unitStudyStats(activeUnit);
   const unitPosition = session.index - range.start + 1;
   const unitProgress = range.words.length ? Math.round((unitPosition / range.words.length) * 100) : 0;
-  const wordStatus = word.mastered ? "已认识" : wrongCount(word) > 0 ? "待复习" : "新单词";
+  const wordStatus = word.mastered ? vocabText("knownStatus") : wrongCount(word) > 0 ? vocabText("review") : vocabText("newWord");
   document.querySelector("#vocabPageContent").innerHTML = `
     <div class="vocab-shell vocab-learning-shell">
       ${renderStudyPlan()}
       <section class="vocab-card ${word.mastered ? "known" : wrongCount(word) > 0 ? "review" : ""}">
         <div class="vocab-topline">
-          <span>${session.level} · 第 ${activeUnit + 1} 单元 · ${unitPosition}/${range.words.length}</span>
+          <span>${session.level} · ${vocabText("unit", { unit: activeUnit + 1 })} · ${unitPosition}/${range.words.length}</span>
           <em>${escapeHtml(word.type)} · ${wordStatus}</em>
         </div>
         <strong>${escapeHtml(word.word)}</strong>
@@ -622,31 +777,31 @@ function draw() {
         <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(word.exampleMeaning)}</span></div>
         <div class="vocab-card-progress" aria-label="本单元学习位置"><span style="width: ${unitProgress}%"></span></div>
         <div class="vocab-actions vocab-memory-actions">
-          <button type="button" class="vocab-unknown" data-known="false">不认识</button>
-          <button type="button" class="sound-button" data-speak="${escapeHtml(word.kana || word.word)}">听发音</button>
-          <button type="button" class="vocab-known" data-known="true">${word.mastered ? "已认识" : "认识"}</button>
-          <button type="button" data-next>下一词</button>
+          <button type="button" class="vocab-unknown" data-known="false">${vocabText("unknown")}</button>
+          <button type="button" class="sound-button" data-speak="${escapeHtml(word.kana || word.word)}">${vocabText("pronunciation")}</button>
+          <button type="button" class="vocab-known" data-known="true">${word.mastered ? vocabText("knownStatus") : vocabText("known")}</button>
+          <button type="button" data-next>${vocabText("nextWord")}</button>
         </div>
       </section>
       <aside class="vocab-study-side">
         <div class="vocab-unit-label">
-          <span>当前单元</span>
-          <strong>第 ${activeUnit + 1} 单元 · ${range.start + 1}-${range.end}</strong>
+          <span>${vocabText("currentUnit")}</span>
+          <strong>${vocabText("unitRange", { unit: activeUnit + 1, start: range.start + 1, end: range.end })}</strong>
           <em>${unitStatusLabel(range)}</em>
         </div>
         <div class="vocab-stats">
-          <div><strong>${range.viewedCount}/${range.words.length}</strong><span>本单元已看</span></div>
-          <div><strong>${range.mastered}</strong><span>本单元认识</span></div>
-          <div><strong>${range.review}</strong><span>待复习</span></div>
-          <div><strong>${session.stats.mastered}/${session.stats.total}</strong><span>总掌握</span></div>
+          <div><strong>${range.viewedCount}/${range.words.length}</strong><span>${vocabText("unitSeen")}</span></div>
+          <div><strong>${range.mastered}</strong><span>${vocabText("unitKnown")}</span></div>
+          <div><strong>${range.review}</strong><span>${vocabText("review")}</span></div>
+          <div><strong>${session.stats.mastered}/${session.stats.total}</strong><span>${vocabText("totalMastered")}</span></div>
         </div>
         <div class="vocab-progress"><span style="width: ${percent}%"></span></div>
         <div class="study-link-panel">
-          <span>学习模式</span>
-          <h4>像背单词一样推进</h4>
-          <p>认识会计入本单元掌握；不认识会进入待复习，之后也能在错题本里回看。</p>
-          <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">进入第 ${activeUnit + 1} 单元测验</a>
-          <a class="btn btn-light" href="#vocabMistakes">查看错题本</a>
+          <span>${vocabText("studyMode")}</span>
+          <h4>${vocabText("flashcardMode")}</h4>
+          <p>${vocabText("flashcardLead")}</p>
+          <a class="btn btn-dark" href="${unitTestHref(activeUnit)}">${vocabText("enterUnitQuiz", { unit: activeUnit + 1 })}</a>
+          <a class="btn btn-light" href="#vocabMistakes">${vocabText("viewMistakes")}</a>
         </div>
       </aside>
       ${renderCurrentUnitQueue(range, activeUnit)}
@@ -679,7 +834,7 @@ async function saveMaster(word, mastered) {
     savedState.vocabulary[word.id] = fallback;
     Object.assign(word, fallback);
     setServiceStatus(false);
-    showToast(mastered ? "已标记掌握" : "已放回复习");
+    showToast(mastered ? vocabText("markedMastered") : vocabText("backToReview"));
   }
   updateStats();
   savedState.vocabularyCompletedUnits = savedState.vocabularyCompletedUnits || {};
@@ -694,7 +849,7 @@ async function saveMaster(word, mastered) {
   saveLocalState();
   draw();
   if (newlyCompleted) {
-    showToast(`第 ${targetUnit + 1} 单元学习完啦，可以去做单元测验。`);
+    showToast(isEnglish() ? `Unit ${targetUnit + 1} is finished. You can take the unit quiz.` : `第 ${targetUnit + 1} 单元学习完啦，可以去做单元测验。`);
   }
   if (targetWasLast) {
     maybePromptUnitFinished(targetUnit);
@@ -717,13 +872,13 @@ async function saveUnknown(word) {
     Object.assign(word, data.record);
     Object.assign(savedState, data.progress);
     setServiceStatus(true);
-    showToast("已放入待复习，之后会出现在错题本。");
+    showToast(isEnglish() ? "Moved to review. It will appear in the mistake book." : "已放入待复习，之后会出现在错题本。");
   } catch {
     savedState.vocabulary = savedState.vocabulary || {};
     savedState.vocabulary[word.id] = fallback;
     Object.assign(word, fallback);
     setServiceStatus(false);
-    showToast("已记录为不认识，稍后复习。");
+    showToast(vocabText("unknownSaved"));
   }
   updateStats();
   savedState.vocabularyCompletedUnits = savedState.vocabularyCompletedUnits || {};
@@ -753,7 +908,7 @@ function bind() {
       saveVocabularyPlan(button.dataset.setFixedGoal);
       isEditingPlan = false;
       applyResumeIndex();
-      showToast(`已固定为每单元 ${session.dailyGoal} 个词`);
+      showToast(vocabText("fixedGoalToast", { goal: session.dailyGoal }));
       draw();
     });
   });
@@ -827,7 +982,7 @@ document.querySelector("#vocabCompleteButton").addEventListener("click", async (
   } catch {
     setServiceStatus(false);
   }
-  showToast("今日单词任务已完成");
+  showToast(vocabText("todayDone"));
 });
 
 setLevel(session.level);

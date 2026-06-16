@@ -587,6 +587,250 @@ const NihongoI18n = (() => {
     },
   };
 
+  const sourceKeyMap = {
+    首页: "common.home",
+    功能: "common.modules",
+    进度: "common.progress",
+    登录: "common.login",
+    注册: "common.register",
+    返回首页: "common.backHome",
+    连接中: "common.connecting",
+    后端已连接: "common.online",
+    离线演示: "common.offline",
+    测验: "common.test",
+    训练: "common.training",
+    开始测验: "common.startTest",
+    进入测验: "common.enterTest",
+    单词: "module.vocabulary",
+    语法: "module.grammar",
+    阅读: "module.reading",
+    听力: "module.listening",
+    已掌握: "module.vocabularyDone",
+    已学会: "module.grammarDone",
+    已完成: "module.readingDone",
+    已听懂: "module.listeningDone",
+  };
+
+  const phraseBundles = {
+    "zh-TW": {
+      学习: "學習",
+      分类: "分類",
+      词卡: "詞卡",
+      复习队列: "複習佇列",
+      错题本: "錯題本",
+      学习中: "學習中",
+      测验中: "測驗中",
+      训练中: "訓練中",
+      待训练: "待訓練",
+      未开始: "未開始",
+      未学习: "未學習",
+      待复习: "待複習",
+      播放音频: "播放音訊",
+      重播音频: "重播音訊",
+      上一题: "上一題",
+      下一题: "下一題",
+      上一条: "上一條",
+      下一条: "下一條",
+      完成: "完成",
+      去测验: "去測驗",
+      重新选择: "重新選擇",
+      查看原文和提示: "查看原文和提示",
+      学习提示: "學習提示",
+      学习模式: "學習模式",
+      测验模式: "測驗模式",
+      当前分类: "目前分類",
+      当前单元: "目前單元",
+      当前小组: "目前小組",
+      本组练习: "本組練習",
+      什么时候用: "什麼時候用",
+      怎么接: "怎麼接",
+      全等级进度: "全等級進度",
+      语法点: "文法點",
+      标记学会: "標記學會",
+      标记已听懂: "標記已聽懂",
+      开始单词测验: "開始單字測驗",
+      开始语法测验: "開始文法測驗",
+      完成今日单词学习: "完成今日單字學習",
+      正在载入单词: "正在載入單字",
+      正在载入语法: "正在載入文法",
+      正在载入测验: "正在載入測驗",
+      准备题目中: "準備題目中。",
+    },
+    en: {
+      学习: "Learning",
+      分类: "Categories",
+      词卡: "Cards",
+      复习队列: "Review queue",
+      错题本: "Mistake book",
+      学习中: "Learning",
+      测验中: "In quiz",
+      训练中: "Training",
+      待训练: "To train",
+      未开始: "Not started",
+      未学习: "Not studied",
+      待复习: "To review",
+      播放音频: "Play audio",
+      重播音频: "Replay audio",
+      播放发音: "Play pronunciation",
+      重播发音: "Replay pronunciation",
+      上一题: "Previous",
+      下一题: "Next",
+      上一条: "Previous",
+      下一条: "Next",
+      完成: "Finish",
+      去测验: "Quiz",
+      重新选择: "Choose again",
+      查看原文和提示: "Show transcript and tips",
+      学习提示: "Study tip",
+      学习模式: "Study mode",
+      测验模式: "Quiz mode",
+      当前分类: "Current category",
+      当前单元: "Current unit",
+      当前小组: "Current group",
+      本组练习: "This group",
+      什么时候用: "When to use",
+      怎么接: "Structure",
+      全等级进度: "Level progress",
+      语法点: "Grammar point",
+      标记学会: "Mark learned",
+      标记已听懂: "Mark understood",
+      开始单词测验: "Start vocabulary quiz",
+      开始语法测验: "Start grammar quiz",
+      完成今日单词学习: "Finish today's vocabulary",
+      正在载入单词: "Loading vocabulary",
+      正在载入语法: "Loading grammar",
+      正在载入测验: "Loading quiz",
+      准备题目中: "Preparing questions.",
+      "准备单词表、发音和选择题。": "Preparing word lists, pronunciation, and quizzes.",
+      "整理分类、接续和小测。": "Organizing categories, structures, and mini quizzes.",
+      "正在整理等级、分类和例句。": "Organizing levels, categories, and examples.",
+      "这里是独立测验页面，不显示学习讲解内容。": "This is a separate quiz page without study explanations.",
+      "这里只做测验，不显示学习讲解内容。": "This page is only for quizzes, without study explanations.",
+      "请只根据上面的日语文本选择正确答案。": "Choose the correct answer using only the Japanese text above.",
+      "答对了。下面可以看中文意思和解析。": "Correct. You can now view the meaning and explanation.",
+      答案解析: "Answer explanation",
+      回答正确: "Correct",
+      中文意思: "Meaning",
+      読解問題: "Reading question",
+      已学会: "Learned",
+    },
+    vi: {
+      学习: "Học",
+      分类: "Phân loại",
+      词卡: "Thẻ từ",
+      复习队列: "Hàng ôn tập",
+      错题本: "Sổ lỗi sai",
+      学习中: "Đang học",
+      测验中: "Đang kiểm tra",
+      训练中: "Đang luyện",
+      待训练: "Chờ luyện",
+      未开始: "Chưa bắt đầu",
+      未学习: "Chưa học",
+      待复习: "Cần ôn",
+      播放音频: "Phát âm thanh",
+      重播音频: "Phát lại âm thanh",
+      上一题: "Câu trước",
+      下一题: "Câu tiếp",
+      上一条: "Mục trước",
+      下一条: "Mục tiếp",
+      完成: "Hoàn thành",
+      去测验: "Làm kiểm tra",
+      重新选择: "Chọn lại",
+      查看原文和提示: "Xem bản gốc và gợi ý",
+      学习提示: "Gợi ý học",
+      学习模式: "Chế độ học",
+      测验模式: "Chế độ kiểm tra",
+      当前分类: "Phân loại hiện tại",
+      当前单元: "Bài hiện tại",
+      当前小组: "Nhóm hiện tại",
+      本组练习: "Luyện nhóm này",
+      什么时候用: "Khi nào dùng",
+      怎么接: "Cấu trúc",
+      全等级进度: "Tiến độ cấp độ",
+      语法点: "Điểm ngữ pháp",
+      标记学会: "Đánh dấu đã học",
+      标记已听懂: "Đánh dấu đã hiểu",
+    },
+    ne: {
+      学习: "अध्ययन",
+      分类: "वर्ग",
+      词卡: "कार्ड",
+      复习队列: "दोहोर्‍याउने सूची",
+      错题本: "गल्ती पुस्तिका",
+      学习中: "अध्ययन हुँदै",
+      测验中: "क्विज हुँदै",
+      训练中: "अभ्यास हुँदै",
+      待训练: "अभ्यास बाँकी",
+      未开始: "सुरु भएको छैन",
+      未学习: "अध्ययन नभएको",
+      待复习: "दोहोर्‍याउन बाँकी",
+      播放音频: "अडियो बजाउनुहोस्",
+      重播音频: "अडियो फेरि बजाउनुहोस्",
+      上一题: "अघिल्लो",
+      下一题: "अर्को",
+      上一条: "अघिल्लो",
+      下一条: "अर्को",
+      完成: "समाप्त",
+      去测验: "क्विज",
+      重新选择: "फेरि छान्नुहोस्",
+      查看原文和提示: "मूल पाठ र संकेत हेर्नुहोस्",
+      学习提示: "अध्ययन संकेत",
+      学习模式: "अध्ययन मोड",
+      测验模式: "क्विज मोड",
+      当前分类: "हालको वर्ग",
+      当前单元: "हालको एकाइ",
+      当前小组: "हालको समूह",
+      本组练习: "यो समूह",
+      什么时候用: "कहिले प्रयोग गर्ने",
+      怎么接: "संरचना",
+      全等级进度: "स्तर प्रगति",
+      语法点: "व्याकरण बिन्दु",
+      标记学会: "सिकियो भनेर चिन्ह लगाउनुहोस्",
+      标记已听懂: "बुझियो भनेर चिन्ह लगाउनुहोस्",
+    },
+    mn: {
+      学习: "Сурах",
+      分类: "Ангилал",
+      词卡: "Карт",
+      复习队列: "Давтах жагсаалт",
+      错题本: "Алдааны дэвтэр",
+      学习中: "Суралцаж байна",
+      测验中: "Шалгалт хийж байна",
+      训练中: "Дасгал хийж байна",
+      待训练: "Дасгал хүлээж байна",
+      未开始: "Эхлээгүй",
+      未学习: "Сураагүй",
+      待复习: "Давтах",
+      播放音频: "Аудио тоглуулах",
+      重播音频: "Аудио дахин тоглуулах",
+      上一题: "Өмнөх",
+      下一题: "Дараах",
+      上一条: "Өмнөх",
+      下一条: "Дараах",
+      完成: "Дуусгах",
+      去测验: "Шалгалт",
+      重新选择: "Дахин сонгох",
+      查看原文和提示: "Эх текст ба зөвлөмж",
+      学习提示: "Сурах зөвлөмж",
+      学习模式: "Сурах горим",
+      测验模式: "Шалгалтын горим",
+      当前分类: "Одоогийн ангилал",
+      当前单元: "Одоогийн нэгж",
+      当前小组: "Одоогийн бүлэг",
+      本组练习: "Энэ бүлэг",
+      什么时候用: "Хэзээ хэрэглэх",
+      怎么接: "Бүтэц",
+      全等级进度: "Түвшний ахиц",
+      语法点: "Дүрмийн цэг",
+      标记学会: "Сурснаар тэмдэглэх",
+      标记已听懂: "Ойлгосноор тэмдэглэх",
+    },
+  };
+
+  const originalText = new WeakMap();
+  let applying = false;
+  let applyQueued = false;
+
   function currentLanguage() {
     return localStorage.getItem(storageKey) || defaultLanguage;
   }
@@ -600,7 +844,73 @@ const NihongoI18n = (() => {
     return format(messages[lang]?.[key] || messages[defaultLanguage][key] || key, params);
   }
 
+  function moduleNameFromSource(value) {
+    const modules = {
+      单词: t("module.vocabulary"),
+      语法: t("module.grammar"),
+      阅读: t("module.reading"),
+      听力: t("module.listening"),
+    };
+    return modules[value] || value;
+  }
+
+  function translateKnownSource(source) {
+    const lang = currentLanguage();
+    const trimmed = source.trim();
+    if (!trimmed || lang === defaultLanguage) return source;
+    const key = sourceKeyMap[trimmed];
+    if (key) return t(key);
+    const exact = phraseBundles[lang]?.[trimmed];
+    if (exact) return exact;
+    let match = trimmed.match(/^第 (\d+) 题$/);
+    if (match) return lang === "en" ? `Question ${match[1]}` : lang === "zh-TW" ? `第 ${match[1]} 題` : `${match[1]}`;
+    match = trimmed.match(/^第 (\d+) 单元$/);
+    if (match) return lang === "en" ? `Unit ${match[1]}` : lang === "zh-TW" ? `第 ${match[1]} 單元` : `${match[1]}`;
+    match = trimmed.match(/^每单元 (\d+) 题$/);
+    if (match) return lang === "en" ? `${match[1]} questions per unit` : lang === "zh-TW" ? `每單元 ${match[1]} 題` : `${match[1]}`;
+    match = trimmed.match(/^进入 (N[1-5]) (单词|语法|阅读|听力)测验$/);
+    if (match) return `${t("common.enterTest")} ${match[1]} ${moduleNameFromSource(match[2])} ${t("common.test")}`;
+    match = trimmed.match(/^开始(单词|语法|阅读|听力)测验$/);
+    if (match) return `${t("common.startTest")} ${moduleNameFromSource(match[1])}`;
+    match = trimmed.match(/^(N[1-5]) (单词|语法|阅读|听力)(训练|学习|测验)$/);
+    if (match) return `${match[1]} ${moduleNameFromSource(match[2])} ${match[3] === "测验" ? t("common.test") : t("common.training")}`;
+    match = trimmed.match(/^正在载入 (N[1-5]) (单词|语法|测验)$/);
+    if (match) return lang === "en" ? `Loading ${match[1]} ${match[2] === "单词" ? "vocabulary" : match[2] === "语法" ? "grammar" : "quiz"}` : `${match[1]} ${phraseBundles[lang]?.[`正在载入${match[2]}`] || phraseBundles[lang]?.正在载入测验 || trimmed}`;
+    match = trimmed.match(/^当前单元：第 (\d+)-(\d+) 题$/);
+    if (match) return lang === "en" ? `Current unit: Questions ${match[1]}-${match[2]}` : lang === "zh-TW" ? `目前單元：第 ${match[1]}-${match[2]} 題` : trimmed;
+    match = trimmed.match(/^已从第 (\d+) 题继续$/);
+    if (match) return lang === "en" ? `Resumed from question ${match[1]}` : lang === "zh-TW" ? `已從第 ${match[1]} 題繼續` : trimmed;
+    match = trimmed.match(/^还差一点。正确答案是：(.+)$/);
+    if (match) return lang === "en" ? `Almost. Correct answer: ${match[1]}` : trimmed;
+    return source;
+  }
+
+  function shouldTranslateTextNode(node) {
+    const parent = node.parentElement;
+    if (!parent || !node.nodeValue.trim()) return false;
+    if (parent.closest("script, style, svg, input, textarea, select, option, [data-no-i18n], [data-i18n]")) return false;
+    return /[\u4e00-\u9fff]/.test(originalText.get(node) || node.nodeValue);
+  }
+
+  function applyDynamicText(root = document) {
+    const walker = document.createTreeWalker(root.body || root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach((node) => {
+      if (!shouldTranslateTextNode(node)) return;
+      const current = node.nodeValue;
+      const source = originalText.get(node) || current;
+      originalText.set(node, source);
+      const leading = source.match(/^\s*/)?.[0] || "";
+      const trailing = source.match(/\s*$/)?.[0] || "";
+      const translated = translateKnownSource(source.trim());
+      const nextValue = `${leading}${translated}${trailing}`;
+      if (node.nodeValue !== nextValue) node.nodeValue = nextValue;
+    });
+  }
+
   function apply(root = document) {
+    applying = true;
     document.documentElement.lang = currentLanguage();
     root.querySelectorAll("[data-i18n]").forEach((element) => {
       element.textContent = t(element.dataset.i18n);
@@ -613,6 +923,17 @@ const NihongoI18n = (() => {
     });
     const titleKey = document.body?.dataset.pageTitle;
     if (titleKey) document.title = t(titleKey);
+    applyDynamicText(root);
+    applying = false;
+  }
+
+  function scheduleApply() {
+    if (applying || applyQueued) return;
+    applyQueued = true;
+    window.requestAnimationFrame(() => {
+      applyQueued = false;
+      apply();
+    });
   }
 
   function makeSwitcher(compact = false) {
@@ -662,6 +983,8 @@ const NihongoI18n = (() => {
   document.addEventListener("DOMContentLoaded", () => {
     mountSwitcher();
     apply();
+    const observer = new MutationObserver(() => scheduleApply());
+    observer.observe(document.body, { childList: true, subtree: true, characterData: true });
   });
 
   return { languages, t, apply, currentLanguage, setLanguage };

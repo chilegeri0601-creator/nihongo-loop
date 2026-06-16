@@ -118,6 +118,12 @@ async function main() {
   assert.match(vocabScriptText, /每单元学习几个词/);
   assert.match(vocabScriptText, /vocabularyPlans/);
   assert.match(vocabScriptText, /vocabularyResume/);
+  assert.match(vocabScriptText, /vocabText/);
+  assert.match(vocabScriptText, /Choose words per unit first/);
+  assert.match(vocabScriptText, /Edit study plan/);
+  assert.match(vocabScriptText, /Don’t know/);
+  assert.match(vocabScriptText, /Next word/);
+  assert.match(vocabScriptText, /Current unit/);
   assert.match(vocabScriptText, /data-set-fixed-goal/);
   assert.match(vocabScriptText, /修改学习计划/);
   assert.match(vocabScriptText, /saveResume/);
