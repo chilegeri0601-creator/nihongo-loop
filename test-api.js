@@ -68,7 +68,9 @@ async function main() {
   assert.match(i18nScriptText, /uiText/);
   assert.match(i18nScriptText, /uiPhrases/);
   assert.match(i18nScriptText, /"我": "I"/);
-  assert.match(i18nScriptText, /Translation is being prepared/);
+  assert.doesNotMatch(i18nScriptText, /Translation is being prepared/);
+  assert.match(i18nScriptText, /"人": "person"/);
+  assert.match(i18nScriptText, /教室里有人/);
 
   const loginPage = await fetch(`${BASE_URL}/login.html`);
   assert.equal(loginPage.status, 200);
