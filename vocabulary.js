@@ -85,6 +85,7 @@ function vocabText(key, params = {}) {
     pronunciation: "Pronunciation",
     known: "Know",
     nextWord: "Next word",
+    prevWord: "Previous word",
     currentUnit: "Current unit",
     unitKnown: "Known in unit",
     totalMastered: "Total mastered",
@@ -167,6 +168,7 @@ function vocabText(key, params = {}) {
     pronunciation: "听发音",
     known: "认识",
     nextWord: "下一词",
+    prevWord: "上一词",
     currentUnit: "当前单元",
     unitKnown: "本单元认识",
     totalMastered: "总掌握",
@@ -249,6 +251,7 @@ function vocabText(key, params = {}) {
     pronunciation: "聽發音",
     known: "認識",
     nextWord: "下一詞",
+    prevWord: "上一詞",
     currentUnit: "目前單元",
     unitKnown: "本單元認識",
     totalMastered: "總掌握",
@@ -331,6 +334,7 @@ function vocabText(key, params = {}) {
     pronunciation: "Nghe phát âm",
     known: "Biết",
     nextWord: "Từ tiếp theo",
+    prevWord: "Từ trước",
     currentUnit: "Bài hiện tại",
     unitKnown: "Biết trong bài",
     totalMastered: "Tổng đã nắm",
@@ -413,6 +417,7 @@ function vocabText(key, params = {}) {
     pronunciation: "उच्चारण सुन्नुहोस्",
     known: "चिन्छु",
     nextWord: "अर्को शब्द",
+    prevWord: "अघिल्लो शब्द",
     currentUnit: "हालको युनिट",
     unitKnown: "युनिटमा चिनेको",
     totalMastered: "कुल सिकिएको",
@@ -495,6 +500,7 @@ function vocabText(key, params = {}) {
     pronunciation: "Дуудлага сонсох",
     known: "Мэднэ",
     nextWord: "Дараагийн үг",
+    prevWord: "Өмнөх үг",
     currentUnit: "Одоогийн нэгж",
     unitKnown: "Нэгжид мэддэг",
     totalMastered: "Нийт цээжилсэн",
@@ -1120,6 +1126,7 @@ function draw() {
   const unitPosition = session.index - range.start + 1;
   const unitProgress = range.words.length ? Math.round((unitPosition / range.words.length) * 100) : 0;
   const wordStatus = word.mastered ? vocabText("knownStatus") : wrongCount(word) > 0 ? vocabText("review") : vocabText("newWord");
+  const canMovePrevious = session.index > 0;
   document.querySelector("#vocabPageContent").innerHTML = `
     <div class="vocab-shell vocab-learning-shell">
       ${renderStudyPlan()}
@@ -1134,6 +1141,7 @@ function draw() {
         <div class="vocab-example"><b>${escapeHtml(word.example)}</b><span>${escapeHtml(learningText(word.exampleMeaning))}</span></div>
         <div class="vocab-card-progress" aria-label="${vocabText("unitPositionAria")}"><span style="width: ${unitProgress}%"></span></div>
         <div class="vocab-actions vocab-memory-actions">
+          <button type="button" data-prev ${canMovePrevious ? "" : "disabled"}>${vocabText("prevWord")}</button>
           <button type="button" class="vocab-unknown" data-known="false">${vocabText("unknown")}</button>
           <button type="button" class="sound-button" data-speak="${escapeHtml(word.kana || word.word)}">${vocabText("pronunciation")}</button>
           <button type="button" class="vocab-known" data-known="true">${word.mastered ? vocabText("knownStatus") : vocabText("known")}</button>
@@ -1257,8 +1265,17 @@ function moveNextWord() {
   draw();
 }
 
+function movePreviousWord() {
+  if (session.index <= 0) return;
+  session.index -= 1;
+  resetQuestion();
+  saveResume();
+  draw();
+}
+
 function bind() {
   const word = session.words[session.index];
+  document.querySelector("[data-prev]")?.addEventListener("click", movePreviousWord);
   document.querySelector("[data-next]")?.addEventListener("click", moveNextWord);
   document.querySelectorAll("[data-set-fixed-goal]").forEach((button) => {
     button.addEventListener("click", () => {

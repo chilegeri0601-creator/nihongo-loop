@@ -134,6 +134,9 @@ async function main() {
   assert.match(vocabScriptText, /Edit study plan/);
   assert.match(vocabScriptText, /Don’t know/);
   assert.match(vocabScriptText, /Next word/);
+  assert.match(vocabScriptText, /Previous word/);
+  assert.match(vocabScriptText, /data-prev/);
+  assert.match(vocabScriptText, /movePreviousWord/);
   assert.match(vocabScriptText, /Current unit/);
   assert.doesNotMatch(vocabScriptText, /isEnglish\(\)/);
   assert.match(vocabScriptText, /learningText\(word\.meaning\)/);
